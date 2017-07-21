@@ -1,0 +1,394 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Students with Solutions - National Bullying Prevention Center</title>
+<meta name="title" content="Students with Solutions - National Bullying Prevention Center" />
+<meta name="description" content="The seventh-grade students featured in the video Teen Talk on Cyberbullying share their insightful, authentic response to questions related to cyberbullying." />
+
+<!-- for Facebook -->     
+<meta property="fb:app_id" content="271376943231875"  />       
+<meta property="og:title" content="Students with Solutions - National Bullying Prevention Center" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://www.pacer.org/bullying/getinvolved/images/students-with-solutions-teen-fb.jpg" />
+<meta property="og:url" content="http://www.pacer.org/bullying/getinvolved/students-with-solutions.asp" />
+<meta property="og:description" content="The seventh-grade students featured in the video Teen Talk on Cyberbullying share their insightful, authentic response to questions related to cyberbullying." />
+
+<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
+<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
+<link href="/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css"/>
+<link rel="stylesheet" type="text/css" href="/php-sdk/fbwallfeed.css"/>
+<link rel="stylesheet" type="text/css" href="/php-sdk/hashtagAggregator.css"/>
+<link href="/js/colorbox1.5.9/colorbox.css" rel="stylesheet" type="text/css" />
+
+<!--#include virtual="/bullying/dynamic-head-items.html"-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+if (typeof jQuery == 'undefined')
+{
+    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+<script src="/js/colorbox1.5.9/jquery.colorbox-min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		//----------more buttons----------
+		$('.morebutton').click(function() {
+			$(this).parent().parent().addClass('expanded');
+		});	
+	 });//----------close ready function----------
+</script>
+
+<style type="text/css">
+
+
+#bottomContentWrapper {
+	margin: 0 auto;
+	width: 930px;
+}
+
+.bottomContent { padding: 10px 45px; }
+
+#fbfeedheader {
+	min-height: 40px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px soild #ccc;
+}
+
+#wwghashtagheader {
+	position: relative;
+	margin-bottom: 5px;
+	min-height: 40px;
+	padding-bottom: 5px;
+}
+
+#wwghashtagheader h2 {
+	text-align: center;
+	font-weight: bold;
+	color: #772828;
+	font-size: 1.2em;
+	text-shadow: none;
+}
+
+#wwghashtagdata { margin-top: 5px; }
+
+#extraSliderNav {
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+#wwgtwitterhandle {
+	position: absolute;
+	right: 0px;
+	bottom: -15px;
+}
+
+#wwginstagramhandle {
+	position: absolute;
+	left: 0px;
+	bottom: -15px;
+}
+
+#topheroimage h1 {
+	color: #FFFFFF;
+	text-shadow: 2px 2px 4px #000;
+	position: absolute;
+	top: 85px;
+	left: 61px;
+	padding: 0px;
+	line-height: 1.1em;
+	width: 303px;
+}
+
+#topheroimage .widebutton { position: absolute; }
+
+.row-shadow #intromessage {
+	background-image: url('/bullying/wewillgen/images/shadow-bottom.png'), url('/bullying/wewillgen/images/shadow-top.png');
+	background-repeat: repeat-x, repeat-x;
+	background-position: 0px 50px, left top;
+}
+
+#pledgebutton {
+	border-radius: 5px;
+	color: #343263;
+	font-size: 1.3em;
+	font-weight: bold;
+	min-height: 2em;
+}
+
+#pledgebutton:disabled {
+	color: #ccc;
+	background-color: #eee;
+}
+
+#pledgemessage { display: none; }
+
+#hashtagitems{
+    width:900px;
+    margin:0 auto;
+}
+
+.bottombox {
+	width:450px;
+	float:left;
+}
+.logo {
+	padding-right:10px;	
+}
+.logo-thumb {
+	width:140px;
+	height:140px;
+	background-color:#fff;
+	margin:10px;
+	float:left;	
+}
+
+.row-purple, .row-purple h1, .row-purple h2, .row-purple h3, .row-purple .morebutton {
+	background-color:#653d68;
+	color:#fff;
+}
+.row-purple h1 {
+	text-align:center;	
+	font-size:30px; 
+	line-height:40px; 
+	text-shadow:0px 0px 5px #000;	
+}
+.row-purple h3 {
+	font-size:1.3em;
+	margin-bottom:5px;
+}
+.row-purple a {
+	color:#FFF;
+}
+.row-purple a:hover {
+	color:rgba(255,255,255,0.5);
+}
+.row-purple .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+.row-purple .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+	color:rgba(255,255,255,0.5);
+}
+
+.row-purplewhite, .row-purplewhite h1, .row-purplewhite h2, .row-purplewhite h3, .row-purplewhite .morebutton {
+	background-color:#fff;
+	color:#653d68;
+}
+.row-purplewhite h1 {
+	text-align:center;	
+	font-size:30px; 
+	line-height:40px; 
+	text-shadow:0px 0px 5px #000;	
+}
+.row-purplewhite a {
+	color:#653d68;
+}
+.row-purplewhite a:hover {
+	color:rgba(101,61,94,0.5);
+}
+.row-purplewhite .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+.row-purplewhite .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+	color:rgba(255,255,255,0.5);
+}
+	
+.judge-bio {
+	line-height: normal;		
+}	
+
+.judge-bio-left {	
+	margin:0 20px 20px 0;
+	float: left;
+	border:1px solid white;	
+}
+
+.judge-bio-right {	
+	margin:0 0 20px 20px;
+	float: right;
+	border:1px solid white;	
+}
+	
+#download-button{
+	width:170px; 
+	padding:5px; 
+	text-align: center; 
+	margin: 30px auto; 
+	background-color: #fff; 
+	border-radius: 7px;	
+}	
+
+#download-button a{
+	color: #000;
+}	
+
+#download-button a:hover{
+	color: rgba(0, 0, 0, 0.5);
+}	
+	
+	
+</style>
+</head>
+
+<body class="onecol">
+
+<div class="container">
+
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
+<!--#include virtual="/bullying/dynamic-header.html"--> 
+<!--#include virtual="/bullying/topnav.html"-->
+
+<div class="content"> <a href="#" class="contentrow-anchor" aria-hidden="true"></a>
+	<div id="topheroimage" style="position: relative; left: 0; top: 15px; height:250px"> 
+	<img src="images/students-with-solutions-teen.jpg" width="1024" height="226" alt="">
+	<div class="addthis_sharing_toolbox" style="position:absolute; left:740px; top:5px; z-index:10; min-width: 290px;"></div>
+	
+		<p style="position: absolute; top: 175px; right: 150px; width:600px; font-size:1.2em;">Engaging students to address bullying through videos, art and writing</p>		
+	
+<!--	<img style="position: relative; left: 0; top: 0;" src="/bullying/getinvolved/images/students-with-solutions.jpg" width="1024" height="490" alt=""/>
+	<p style="position: absolute; left: 0; top: 460px; width:97%; font-size:.9em;" align="right"><strong>&copy;2016, PACER Center | The National Bullying Prevention Center is a program of PACER Center</strong></p>
+--></div>
+
+<div class="contentrow row-purple row-shadow" style="">
+	<div class="singlecolumn" style="clear:right">
+
+	<div style="position: absolute; right: 0; top:10px; width:200px; height:auto; background-color:#fff; color:#653D68; margin: 30px 0 0 30px; border-radius: 7px 0 0 7px;">
+		<p style="text-align: center; font-size:1.5em; margin-bottom: 0"><strong>Notice</strong></p>
+		<p style="text-align: center">Submissions for the <strong>first round of Students with Solutions</strong> are now closed. The four-part video series and classroom discussion questions can now be accessed <a style="color:#653D68" href="http://www.pacer.org/bullying/classroom/elementary/united-video-series.asp">here</a>.</p>
+ 	</div>	
+ 	
+		<h2 style="font-size:36px; line-height: 40px">Presenting:<br />Teen Talk on Cyberbullying</h2>
+		<p><em>Teen Talk on Cyberbullying</em> is a five-minute video designed to provide authentic insight and perspective from peers on issues related to cyberbullying. After viewing and discussing the video, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that can be shared on PACER&rsquo;s website and be eligible to receive awards and recognition.</p>
+	</div>
+		<div style="width:700px; margin:20px auto">
+			<div style="box-shadow: 0 0 5px #000;">
+				<iframe width="700" height="394" src="https://www.youtube.com/embed/adV0rxAdJV8?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<p class="centered" style="font-size: .9em; padding-top: 10px;">If the video won't play or if YouTube is blocked at your location, you can <a href="http://www.pacer.org/bullying/video/player.asp?video=89&amp;local=true">view it from our player here</a>.		</p>
+		</div>		
+</div>		
+		
+<div class="contentrow row-purplewhite">
+	<div class="singlecolumn" style="clear:right">	
+	<h2 style="font-size:24px; line-height: 40px; letter-spacing: normal">Invite your middle and high school students to watch the video, engage in discussion, and submit their entries for rewards and recognition!</h2>	
+	
+		<p><strong>Step 1.</strong> Watch the video and hold a classroom discussion using the <a href="pdf/teen-talk-on-cyberbullying-classroom-discussion-guide.pdf" target="_blank">suggested questions <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></a>.</p>
+		
+		<p><strong>Step 2.</strong> Using the <a href="pdf/students-with-solutions-form-teen.pdf" target="_blank">entry form, <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></a> encourage students to write poetry or stories, create a drawing, or design a graphic (or even film a video) responding to the themes portrayed in the video and outlined in the discussion questions, including, but not limited to:</p>
+	<ul>
+		<li>What is cyberbullying?</li>
+		<li>What is your first reaction when you see negativity directed toward someone else or when it’s directed at you?</li>
+		<li>How does online bullying impact what happens at school?</li>
+		<li>What ideas do you have to help someone else who has experienced online bullying?</li>
+		<li>If you see the person who is being bullied online at school, what can you do?</li>
+		<li>You may have heard the expression &ldquo;Be comfortable in your own skin.&rdquo; What does that mean to you?</li>
+	</ul>	
+		<p><strong>Step 3.</strong> The images and writing can be scanned and emailed to <a href="mailto:bullying411@PACER.org">bullying411@PACER.org</a> (videos accepted too) or mailed to PACER’s National Bullying Prevention Center, 8161 Normandale Blvd. Bloomington, MN 55437.</p>
+
+		<h3 style="text-align: center">Entries will be accepted through May 15</h3> 
+		<p>In May, the gallery of submissions will be reviewed by a panel. Selected submissions will receive awards and students will have their work recognized on PACER's National Bullying Prevention Center website and social media.</p>	
+		
+</div>	
+</div>
+
+<div class="contentrow row-purple row-shadow">
+	<div class="singlecolumn">	
+		<h2 style="font-size:30px; line-height: 40px">Special Thanks</h2>
+		<p style="text-align: center"><strong>Grateful to Clarisonic for funding &ldquo;Teen Talk on Cyberbullying&quot;</strong></p>
+		<p><a href="http://www.clarisonic.com" target="_blank">Clarisonic</a>, the creator of the most recommended skin cleansing devices by US dermatologists, was founded with the belief that healthy, beautiful-looking skin can help people be their most confident selves. Clarisonic supports PACER&rsquo;s National Bullying Prevention Center to encourage young people to love the skin they’re in and to be confident advocates for themselves and others.</p>
+	 	
+	 	<div class="centered" style="margin-bottom: 20px">
+	 		<a href="http://www.clairsonic.com" target="_blank"><img src="images/clairsonic-logo.jpg" width="518" height="102" alt="clairsonic logo"/></a>
+	 		<p style="text-align: center"><a href="http://www.clarisonic.com/on/demandware.store/Sites-Clarisonic-US-Site/default/Default-Start?utm_campaign=pacer&utm_medium=pr&utm_source=partner" target="_blank">clarisonic.com</a></p>
+	 		
+	 	</div>
+	 </div>	
+</div>
+
+<div class="contentrow row-purplewhite">
+	<div class="singlecolumn">	
+		<div style="height:390px; margin-bottom: 20px">
+			<h2 style="font-size:30px; line-height: 40px">Awards</h2>
+			
+			<p style="text-align: center"><strong>Four classrooms will be awarded Clarisonic MIA 1 for every student.</strong></p>
+			
+			<img style="float: left; margin-right: 20px;"src="images/clairsonic-mia-1.jpg" width="160" height="252" alt=""/>
+			<br />
+		  <p>The <a href="http://www.clarisonic.com/facial-cleansing-brushes/mia-1-CL370.html?utm_source=partner&utm_medium=pr&utm_campaign=pacer&utm_content=mia1" target="_blank">Clarisonic Mia 1</a> is a sonic facial cleansing device that cleanses skin 6x better than using hands alone. Clarisonic devices are the #1 most recommended facial cleansing devices by US dermatologists and they’re safe and gentle enough to use up to 2x a day. The set includes the one-speed device, sensitive skin brush head, universal voltage charger and a bonus <a href="http://www.clarisonic.com/brush-heads/acne-CL303.html?utm_source=partner&utm_medium=pr&utm_campaign=pacer&utm_content=acneBH" target="_blank">acne cleansing brush head</a>.</p>
+		</div>	
+			
+			<p style="clear: left"><strong>Selected classrooms and individuals, as determined by a panel will also be eligible to receive the following:</strong></p>
+			<img style="float:right;" src="/bullying/getinvolved/images/unity-medals.jpg" width="200" height="135" alt=""/>
+			<ul>
+			<li>UNITY Medals featuring engraving with PACER’s logo and the word UNITY, complete with an orange ribbon. Reverse side reads &ldquo;United for Kindness, Inclusion and Acceptance.&rdquo;</li>
+			<li>Colorful rolls of Duck Tape to be used for art projects. Donated by ShurTech.</li>
+			<li>Book titles from Simon and Schuster from authors:
+			<ul>
+				<li>Maya Penn</li>
+ 				<li>Margarita Engle</li>
+				<li>Tim Federle</li>
+				<li>Laurie Halse Anderson</li>
+				<li>Sharon Draper</li>
+				<li>James Howe</li> 
+			</ul></li>
+			</ul> 
+	</div>
+</div>
+
+<div class="contentrow row-purple row-shadow">
+	<div class="singlecolumn" style="margin-bottom: 20px">	
+		<h2 style="font-size:30px; line-height: 40px">Meet the Students</h2>
+		<p>Go behind the scenes and learn more about the <a href="http://www.pacer.org/bullying/resources/cyberbullying/teen-talk.asp">seventh grade students</a>, Giselle, Ajontaé, Devon and Aniza, who appeared in <em>Teen Talk on Cyberbullying.</em></p>
+		<div class="centered">
+			<a href="http://www.pacer.org/bullying/resources/cyberbullying/teen-talk.asp#giselle"><img style="border:1px solid #fff" src="images/giselle-thumb.jpg" width="110" height="138" alt=""></a>
+			<a href="http://www.pacer.org/bullying/resources/cyberbullying/teen-talk.asp#ajontae"><img style="border:1px solid #fff; margin:0 10px" src="images/ajontae-thumb.jpg" width="110" height="138" alt=""></a>
+			<a href="http://www.pacer.org/bullying/resources/cyberbullying/teen-talk.asp#devon"><img style="border:1px solid #fff" src="images/devon-thumb.jpg" width="110" height="138" alt=""></a>
+			<a href="http://www.pacer.org/bullying/resources/cyberbullying/teen-talk.asp#anzina"><img style="border:1px solid #fff; margin-left:10px" src="images/aniza-thumb.jpg" width="110" height="138" alt=""></a>
+			<a href="http://www.pacer.org/bullying/resources/cyberbullying/teen-talk.asp#sulekha"><img style="border:1px solid #fff; margin-left:10px" src="images/sulekha-thumb.jpg" width="110" height="138" alt=""></a>			
+		</div>
+	</div>
+</div>	
+
+<div class="contentrow row-purplewhite">
+	<div class="singlecolumn">	
+		<h2 style="font-size:30px; line-height: 40px">Submission Guidelines</h2>
+		<div style="width:600px; margin:50px auto">
+		<ul>
+			<li>Send artwork, photographs, graphics, poems, videos, or stories to <a href="mailto:bullying411@PACER.org">bullying411@PACER.org</a>, or to PACER&rsquo;s National Bullying Prevention Center, 8161 Normandale Blvd., Bloomington, MN 55437.</li>   
+			<li>Entries will be accepted from February 1, 2017, through May 15, 2017.</li>
+			<li>Middle and high school students are eligible to participate. Classroom contributions (as an entire class or individually) are encouraged, but individual students can also send in their submissions.</li>
+			<li>A panel will review and determine the submissions to feature on PACER's National Bullying Prevention Center website and social media.</li>
+			<li>Awards and recognition will be given. Those selected will be notified by PACER's National Bullying Prevention Center.</li>
+			<li>PACER&rsquo;s National Bullying Prevention Center maintains the right to share and post all artwork, stories, and images that are submitted. </li>
+		</ul>
+		</div>
+	<div style="clear:left"></div>
+	</div>	
+</div>
+
+<div class="contentrow row-purple row-shadow">	
+	<div class="singlecolumn" style="clear:right">
+		<h2 style="font-size:30px; line-height: 40px">Video Production</h2>
+		<img style="float:left; margin-right:20px; border: 1px solid white" src="/bullying/getinvolved/images/chad-gerkin-bio.jpg" width="180" height="216" alt=""/>
+		<p>Special thanks to Chad Gerkin, a videographer from Minnesota who shared that he has loved movies and cameras since he was a little boy. As a result of his passion, growing up, he spent most of the money on equipment to make videos. In 2014, he attended Art Institute in Minneapolis and also started his own production company, Vinci Productions. His film making goal is to have an organic and real vision of the world. To date, he has done a wide variety of videos and is off to a great start with his career!</p> 
+	</div>
+</div>
+	
+	
+	<!-- end .content --> 
+</div>
+<!--#include virtual="/bullying/footer.html"--> 
+<!-- end .container -->
+</div>
+</body>
+</html>

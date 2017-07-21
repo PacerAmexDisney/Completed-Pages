@@ -1,0 +1,784 @@
+/* COLOR CODES
+-headings: #F15C32 (orange)
+-link: #933 (red)
+-link visited: #772828 (deep red)
+-link hover: #3e5593 (blue)
+hover: #FC0 (gold)
+Bright hover: #FF0 (yellow)
+*/
+.content{
+	background-image:url(/bullying/images/nbpc-logo-bg.png);
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:100% 96%;
+	min-height:750px;
+}
+
+#featured{
+	width:357px;
+	float:right;
+	margin-right:5px;
+	border:solid 1px #ccc;
+	background:rgba(255,255,255,0.50);
+}
+#featured {
+	padding-left:0px;
+	font-size:.8em;	
+}
+#featured p{
+	margin:5px 0 1em 0;
+	padding:0;
+}
+#featured p  a {
+/*	text-decoration:underline;
+	display:inline;
+	background:none;
+	padding-left:0;
+*/}
+#featured .fIcon{
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	margin-left:-30px;
+	padding-left:50px;
+	min-height:50px;
+	background-position:5px 5px;
+	background-repeat:no-repeat;
+}
+/*#featured p a {
+	margin-left:auto;
+}
+*/#featured a:hover{
+	color:#F15C32;
+	text-decoration:none;	
+}
+#featured ul{
+	list-style:none;
+	padding:5px;	
+}
+#featured li{
+	padding:5px 0px;
+	border-top:solid 1px #999;
+}
+#featured .fIcon a:hover, #featured p.fIcon:hover, #featured h2.fIcon:hover, #featured h3.fIcon:hover{
+	background-position:5px -435px;	
+}
+.fAudio{
+	background:url(/bullying/images/features/feature_icon_audio.png);
+}
+.fImage{
+	background:url(/bullying/images/features/feature_icon_image.png);
+}
+.fInfo{
+	background:url(/bullying/images/features/feature_icon_info.png);
+}
+.fMobile{
+	background:url(/bullying/images/features/feature_icon_mobile.png);
+}
+.fNewsfeed{
+	background:url(/bullying/images/features/feature_icon_newsfeed.png);
+}
+.fPdf{
+	background:url(/bullying/images/features/feature_icon_pdf.png);
+}
+.fVideo{
+	background:url(/bullying/images/features/feature_icon_video.png);
+}
+
+
+.bottombox{
+	position:relative;
+	width:316px;
+	margin:5px 0px 5px 5px;
+	float:left;
+	background:url(../images/window_gradient_small.jpg) repeat-x bottom;
+	font-size:.8em;
+	padding:2px 2px 15px 2px;
+	border:solid 1px #ccc;
+	
+}
+.bottombox h2{
+	font-size:18px;
+	margin-bottom:15px;
+}
+
+.bottombox .toprightbox{
+	width:80px;
+	padding-top:3px;
+	float:right;
+	text-align:center;
+	margin-right:10px;
+}
+.additionalinfobox{
+	position:relative;
+	width:637px;
+	margin:5px 0px 5px 5px;
+	clear:left;
+	/*background:url(../images/window_gradient_small.jpg) repeat-x bottom;*/
+	font-size:.8em;
+	padding:5px 5px 15px 5px;
+	border:solid 1px #ccc;
+}
+.additionalinfobox h3 {
+	/*margin-top:10px;*/
+	/*padding-top:10px;*/
+	/*border-top:2px solid #ccc;*/
+}
+#newskeyshow{
+	color:#3e5593;
+	background:url(/bullying/images/color-key-bg.png) no-repeat;		
+}
+#newskeyshow:hover #newskey {
+	display:block;
+	left:5px;
+	top:-60px;
+	z-index:10;
+}
+#newskey{
+	display:none;
+	position:absolute;
+	background:#fff;
+	width:300px;
+	margin:10px auto;
+	padding:0px;
+	border:solid 1px #ccc;
+}
+
+#newsitems a{
+	text-decoration:underline;
+}
+#newsitems p{
+	margin:.5em;
+	padding:0;
+}
+#newsitems .date{
+	text-align:right;
+	margin-right:5px;	
+}
+#newsitems h3 {
+	border-top:solid 1px #ccc;
+	padding:0;
+	margin:0;
+}
+#newsitems h3.feature {
+	border-left:solid 10px #353364;
+	padding-left:5px;
+}
+#newsitems h3.related {
+	border-left:solid 10px #b1221c;
+	padding-left:5px;
+}
+#newsitems h3.web {
+	border-left:solid 10px #ff5a2c;
+	padding-left:5px;
+}
+
+div.smallBox {
+	width:20px;
+	height:20px;
+	display:inline-block;
+}
+div.feature {
+	background-color:#353364;
+}
+div.related {
+	background-color:#b1221c;
+}
+div.web {
+	background-color:#ff5a2c;
+}
+#icarebecause{
+	max-height:3000px;
+	overflow:auto;
+	font-size:.8em;
+}
+#icarebecause .icareitem {
+	font-style:italic;
+}
+#icarebecause .icarename {
+	font-weight:bold;
+	padding:0px 5px 30px 5px;
+	margin:0px 10px 30px 10px;
+	border-bottom:1px solid #ccc;
+}
+/* ############################# TOP AD SPACE STYLES ########################## */
+.topFeaturedSpace #chooseorange {
+	width: 643px; 
+	margin:55px 0px 30px 10px; 
+	background:url(/bullying/images/homepage-extra/chooseorange.jpg) top right no-repeat
+}
+.topFeaturedSpace h2 {
+	font-size:32px; 
+	margin:0px; 
+	padding:0px;
+}
+.topFeaturedSpace .featuredTagLine {
+	width:300px; 
+	border-top-right-radius:5px; 
+	font-weight:bold; 
+	line-height:1.2em; 
+	background:url(/bullying/images/semi-transparent-backgrnd.png);
+}
+.topFeaturedSpace .featuredDescription {
+	width:450px; 
+	border-radius:5px; 
+	font-size:12px; 
+	padding:10px; 
+	background:url(/bullying/images/semi-transparent-backgrnd.png);
+}
+.topFeaturedSpace .featuredLink a{
+	width:8em; 
+	height:20px; 
+	color:#FFF; 
+	background:#F15C32; 
+	padding:5px; 
+	border-radius:5px; 
+	margin:5px;
+}
+.topFeaturedSpace .featuredLink a:hover{
+	background:#BB220C; 
+}
+
+
+.topFeaturedSpace #customink{
+	width: 645px; 
+	margin:45px 0px 20px 6px; 
+/*	background:url(/bullying/images/homepage-extra/customink-unity-background.jpg) top left no-repeat;*/
+	background:url(/bullying/images/homepage-extra/customink-unity-background.jpg) top left no-repeat;	
+	position:relative;
+}
+.topFeaturedSpace #customink h2 {
+	font-size:32px; 
+	margin:0px; 
+	padding:0px 5px;
+}
+
+
+.topFeaturedSpace #customink .featuredTagLine {
+	width:440px; 
+	border-radius:0px 8px 0px 0px;
+	padding:5px; 
+	font-weight:bold; 
+	line-height:1.2em; 
+	background-color:#fff;
+	background-color:rgba(255,255,255,0.60)
+}
+.topFeaturedSpace #customink .featuredDescription {
+	width:430px; 
+	border-radius:0px 0px 0px 0px; 
+	font-size:12px; 
+	padding:10px; 
+	background-color:#fff;
+	background-color:rgba(255,255,255,0.60)
+}
+
+.topFeaturedSpace #customink .featuredLink a {
+  background:#f15c32;
+  border-radius: 5px;
+  bottom: -17px;
+  right: 209px;
+  color: #fff;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+  position: absolute;
+  width: 9.2em;
+  text-align:center;
+}
+.topFeaturedSpace #customink .featuredLink a:hover{
+	background:#BB220C; 
+}
+.topFeaturedSpace #customink .featuredLink a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f15b32), color-stop(1, #fcbdab));
+	background:-moz-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-webkit-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-o-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-ms-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:linear-gradient(to bottom, #f15b32 5%, #fcbdab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f15b32', endColorstr='#fcbdab',GradientType=0);
+	background-color:#f15b32;
+}
+
+
+
+
+
+.topFeaturedSpace #unityday{
+	width: 645px; 
+	height: 230px;
+	margin:45px 0px 20px 6px; 
+	background:url(/bullying/images/homepage-extra/unity-day-2014-2.jpg) top right no-repeat;
+	position:relative;
+}
+.topFeaturedSpace #unityday h2 {
+	color:#fff;
+	font-size:32px; 
+	margin-left:10px; 
+	padding:0px 5px;
+}
+
+.topFeaturedSpace #unityday p {
+	padding-left:0px;
+}
+
+.topFeaturedSpace #unityday .featuredTagLine {
+	width:360px;
+	font-style: italic; 
+	color:#fff;
+	padding:0px 5px; 
+	margin-left:10px; 	
+	font-weight:bold; 
+	line-height:1.2em; 
+	background:none;
+	/*background-color:#fff;*/
+	/*background-color:rgba(255,255,255,0)*/
+}
+.topFeaturedSpace #unityday .featuredDescription {
+	width:380px; 
+	color:#fff;
+	margin-left:10px;  
+	font-size:14px; 
+	padding:5px; 
+	line-height:normal;
+	background:none;
+}
+
+.topFeaturedSpace #unityday .featuredLink a {
+  background:#f15c32;
+  border-radius: 5px;
+  bottom: 15px;
+  color: #fff;
+  height: 20px;
+  margin: 15px;
+  padding: 5px 5px 8px;
+  position: absolute;
+  width: 12em;
+  text-align:center;
+}
+.topFeaturedSpace #unityday .featuredLink a:hover{
+	background:#BB220C; 
+}
+.topFeaturedSpace #unityday .featuredLink a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f15b32), color-stop(1, #fcbdab));
+	background:-moz-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-webkit-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-o-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-ms-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:linear-gradient(to bottom, #f15b32 5%, #fcbdab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f15b32', endColorstr='#fcbdab',GradientType=0);
+	background-color:#f15b32;
+}
+
+
+
+
+
+
+.topFeaturedSpace #michael_marisa{
+	width: 645px; 
+	height: 230px;
+	margin:45px 0px 20px 6px; 
+	background:url(/bullying/images/homepage-extra/michaelMarisa_background.jpg) top right no-repeat;
+	position:relative;
+}
+.topFeaturedSpace #michael_marisa h2 {
+	font-size:32px; 
+	margin-left:5px; 
+	padding:0px 5px;
+}
+
+.topFeaturedSpace #michael_marisa p {
+	padding-left:0px;
+}
+
+.topFeaturedSpace #michael_marisa .featuredTagLine {
+	width:420px; 
+	/*border-radius:0px 8px 0px 0px;*/
+	padding:5px; 
+	margin-left:5px; 	
+	font-weight:bold; 
+	line-height:1.2em; 
+	background:none;
+	/*background-color:#fff;*/
+	/*background-color:rgba(255,255,255,0)*/
+}
+.topFeaturedSpace #michael_marisa .featuredDescription {
+	width:380px; 
+	/*border-radius:0px 0px 0px 0px;*/
+	margin-left:5px;  
+	font-size:14px; 
+	padding:5px; 
+	background:none;
+	/*background-color:#fff;*/
+	/*background-color:rgba(255,255,255,0)*/
+}
+
+.topFeaturedSpace #michael_marisa .featuredLink a {
+  background:#f15c32;
+  border-radius: 5px;
+  bottom: 12px;
+  left: 90px;
+  color: #fff;
+  height: 20px;
+  margin: 5px;
+  padding: 5px 5px 8px;
+  position: absolute;
+  width: 9.2em;
+  text-align:center;
+}
+.topFeaturedSpace #michael_marisa .featuredLink a:hover{
+	background:#BB220C; 
+}
+.topFeaturedSpace #michael_marisa .featuredLink a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f15b32), color-stop(1, #fcbdab));
+	background:-moz-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-webkit-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-o-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-ms-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:linear-gradient(to bottom, #f15b32 5%, #fcbdab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f15b32', endColorstr='#fcbdab',GradientType=0);
+	background-color:#f15b32;
+}
+
+.topFeaturedSpace #ask_carmen{
+	width: 645px; 
+	height: 230px;
+	margin:45px 0px 20px 6px; 
+	background:url(/bullying/images/homepage-extra/ask_carmen_background.jpg) top right no-repeat;
+	position:relative;
+}
+
+.topFeaturedSpace #ask_carmen h2 {
+	font-size:32px; 
+	color:#fff;
+	margin-left:225px;
+	padding:10px 0px;
+}
+
+.topFeaturedSpace #ask_carmen p {
+	padding-left:0px;
+}
+
+.topFeaturedSpace #ask_carmen .featuredTagLine {
+	width:380px; 
+	color:#fff;
+	margin-left:225px;
+	font-weight:bold; 
+	line-height:1.2em; 
+	background:none;
+}
+.topFeaturedSpace #ask_carmen .featuredDescription {
+	width:415px; 
+	color:#fff;
+	margin-left:225px; 
+	font-size:14px; 
+	padding:0px; 
+	line-height:normal; 
+	background:none;
+}
+
+.topFeaturedSpace #ask_carmen .featuredLink a {
+	background: #fff;
+	border-radius: 5px;
+	bottom: 11px;
+	left: 225px;
+	color: #000;
+	height: 20px;
+	margin: 10px 0px;
+	padding: 2px 5px 8px;
+	position: absolute;
+	width: 10em;
+	text-align: center;
+}
+.topFeaturedSpace #ask_carmen .featuredLink a:hover{
+	color: #d32d1f; 
+}
+/*.topFeaturedSpace #ask_carmen .featuredLink a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f15b32), color-stop(1, #fcbdab));
+	background:-moz-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-webkit-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-o-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-ms-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:linear-gradient(to bottom, #f15b32 5%, #fcbdab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f15b32', endColorstr='#fcbdab',GradientType=0);
+	background-color:#f15b32;
+}*/
+
+#TAG{
+	width: 629px; 
+	height: 230px;
+	margin:45px 0px 20px 6px; 
+	background:url(/bullying/images/homepage-extra/TAG-nbpc-banner.jpg) top right no-repeat;
+	position:relative;
+}
+
+#TAG h2 {
+	font-size:32px; 
+	color:#fff;
+	margin-left:225px;
+	padding:10px 0px;
+}
+
+#TAG p {
+	padding-top:100px;
+	padding-left:0px;
+}
+
+#TAG .featuredTagLine {
+	width:380px; 
+	color:#000;
+	margin-left:225px;
+	font-weight:bold; 
+	line-height:1.2em; 
+	background:none;
+}
+#TAG .featuredDescription {
+	width:475px; 
+	color:#000;
+	margin-left:165px;
+	font-size:14px; 
+	padding:0px; 
+	line-height:1.6em; 
+	background:none;
+}
+
+#TAG .featuredLink a {
+	background: #F16533;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px #000;
+	bottom: 11px;
+	left: 10px;
+	color: #fff;
+	height: 20px;
+	margin: 10px 0px;
+	padding: 2px 5px 10px;
+	position: absolute;
+	width: 120px;
+	text-align: center;
+}
+#TAG .featuredLink a:hover{
+	color: rgba(255,255,255,.75); 
+}
+
+
+.topFeaturedSpace #we_will{
+	width: 645px; 
+	height: 230px;
+	margin:45px 0px 20px 6px; 
+	background:url(/bullying/images/homepage-extra/we_will_background.jpg) top right no-repeat;
+	position:relative;
+}
+.topFeaturedSpace #we_will h2 {
+	color:#fff;
+	font-size:32px; 
+	margin-left:10px; 
+	padding:0px 5px;
+}
+
+.topFeaturedSpace #we_will p {
+	padding-left:0px;
+}
+
+.topFeaturedSpace #we_will .featuredTagLine {
+	width:360px;
+	font-style: italic; 
+	color:#fff;
+	padding:0px 5px; 
+	margin-left:10px; 	
+	font-weight:bold; 
+	line-height:1.2em; 
+	background:none;
+	/*background-color:#fff;*/
+	/*background-color:rgba(255,255,255,0)*/
+}
+.topFeaturedSpace #we_will .featuredDescription {
+	width:380px; 
+	color:#fff;
+	margin-left:10px;  
+	font-size:14px; 
+	padding:10px 5px; 
+	line-height:normal;
+	background:none;
+}
+
+.topFeaturedSpace #we_will .featuredLink a {
+  background:#f15c32;
+  border-radius: 5px;
+  bottom: 0px;
+  color: #fff;
+  height: 20px;
+  margin: 15px;
+  padding: 5px 5px 8px;
+  position: absolute;
+  width: 12em;
+  text-align:center;
+}
+.topFeaturedSpace #we_will .featuredLink a:hover{
+	background:#BB220C; 
+}
+.topFeaturedSpace #we_will .featuredLink a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f15b32), color-stop(1, #fcbdab));
+	background:-moz-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-webkit-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-o-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-ms-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:linear-gradient(to bottom, #f15b32 5%, #fcbdab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f15b32', endColorstr='#fcbdab',GradientType=0);
+	background-color:#f15b32;
+}
+
+.topFeaturedSpace #what_you_can_do {
+	width: 645px; 
+	height: 230px;
+	margin:45px 0px 20px 6px; 
+	background:url(/bullying/images/homepage-extra/what_you_can_do_background.jpg) top right no-repeat;
+	position:relative;
+}
+.topFeaturedSpace #what_you_can_do {
+	color:#fff;
+	font-size:32px; 
+	margin-left:10px; 
+	padding:0px 5px;
+}
+
+.topFeaturedSpace #what_you_can_do {
+	padding-left:0px;
+}
+
+.topFeaturedSpace #what_you_can_do h2{
+	padding-left:0px;
+}
+
+.topFeaturedSpace #what_you_can_do .featuredTagLine {
+	width:360px;
+	font-style: italic; 
+	color:#fff;
+	padding:0px 5px; 
+	margin-left:10px; 	
+	font-weight:bold; 
+	line-height:1.2em; 
+	background:none;}
+.topFeaturedSpace #what_you_can_do .featuredDescription {
+	width:380px; 
+	color:#fff;
+	margin-left:10px;  
+	font-size:14px; 
+	padding:5px; 
+	line-height:normal;
+	background:none;
+}
+
+.topFeaturedSpace #what_you_can_do .featuredLink a {
+  background:#f15c32;
+  border-radius: 5px;
+  bottom: 15px;
+  color: #fff;
+  height: 20px;
+  margin: 15px;
+  padding: 5px 5px 8px;
+  position: absolute;
+  width: 12em;
+  text-align:center;
+}
+.topFeaturedSpace #what_you_can_do .featuredLink a:hover{
+	background:#BB220C; 
+}
+.topFeaturedSpace #what_you_can_do .featuredLink a:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f15b32), color-stop(1, #fcbdab));
+	background:-moz-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-webkit-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-o-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:-ms-linear-gradient(top, #f15b32 5%, #fcbdab 100%);
+	background:linear-gradient(to bottom, #f15b32 5%, #fcbdab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f15b32', endColorstr='#fcbdab',GradientType=0);
+	background-color:#f15b32;
+}
+
+
+
+
+
+
+.topFeaturedSpace #shine_bright{
+	width: 645px; 
+	height: 230px;
+	margin:45px 0px 20px 6px; 
+	background:url(/bullying/images/homepage-extra/rudolph_background.jpg) top left no-repeat;
+	position:relative;
+}
+
+.topFeaturedSpace #shine_bright h2 {
+	font-size:32px; 
+	color:#fff;
+	margin-left:225px;
+	padding:10px 0px;
+}
+
+.topFeaturedSpace #shine_bright p {
+	padding:0 10px;
+	position:absolute;
+	top: 205px;
+	left:10px;
+	text-shadow:1px 1px 3px #000; 
+	font-size:1.03em;
+	font-weight:bold;
+	text-align:center;
+	line-height:normal;
+	letter-spacing:.05em;
+	color:#fff
+}
+
+.topFeaturedSpace #shine_bright .featuredTagLine {
+	width:380px; 
+	color:#fff;
+	margin-left:225px;
+	font-weight:bold; 
+	line-height:1.2em; 
+	background:none;
+}
+.topFeaturedSpace #shine_bright .featuredDescription {
+	width:415px; 
+	color:#fff;
+	margin-left:225px; 
+	font-size:14px; 
+	padding:0px; 
+	line-height:normal; 
+	background:none;
+}
+
+.topFeaturedSpace #shine_bright .featuredLink a {
+	background: #dc223b;
+	border-radius: 5px;
+	bottom: 25px;
+	left: 490px;
+	color: #fff;
+	height: 20px;
+	margin: 10px 0px;
+	padding: 2px 5px 8px;
+	position: absolute;
+	width: 6em;
+	text-align: center;
+}
+.topFeaturedSpace #shine_bright .featuredLink a:hover{
+	color: #000; 
+}
+
+#featured li.wide {
+	margin-left:22px;
+}
+#featured li li {
+	border:none;
+}
+#featured li.wide h3{
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#support-table td{
+	padding:10px 0 10px 0;
+	border-top:1px solid #000;
+	vertical-align:top;
+}

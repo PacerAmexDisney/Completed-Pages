@@ -1,0 +1,447 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Students with Solutions - National Bullying Prevention Center</title>
+<meta name="title" content="Students with Solutions - National Bullying Prevention Center" />
+<meta name="description" content="PACER created an animated video series exclusively to give students of all ages an opportunity to think about bullying in a new way. The images and words in the videos were submitted by young students from around the country in response to questions about how bullying made them feel and how they think bullying can be prevented. After viewing the videos, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that will be eligible to be shared on PACER’s website and to receive awards. " />
+
+<!-- for Facebook -->          
+<meta property="og:title" content="Students with Solutions - National Bullying Prevention Center" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://www.pacer.org/bullying/getinvolved/images/students-with-solutions-fb.jpg" />
+<meta property="og:url" content="http://www.pacer.org/bullying/getinvolved/students-with-solutions.asp" />
+<meta property="og:description" content="PACER created an animated video series exclusively to give students of all ages an opportunity to think about bullying in a new way. The images and words in the videos were submitted by young students from around the country in response to questions about how bullying made them feel and how they think bullying can be prevented. After viewing the videos, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that will be eligible to be shared on PACER’s website and to receive awards. " />
+
+<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
+<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
+<link href="/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css"/>
+<link rel="stylesheet" type="text/css" href="/php-sdk/fbwallfeed.css"/>
+<link rel="stylesheet" type="text/css" href="/php-sdk/hashtagAggregator.css"/>
+<link href="/js/colorbox1.5.9/colorbox.css" rel="stylesheet" type="text/css" />
+
+<!--#include virtual="/bullying/dynamic-head-items.html"-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+if (typeof jQuery == 'undefined')
+{
+    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+<script src="/js/colorbox1.5.9/jquery.colorbox-min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		//----------more buttons----------
+		$('.morebutton').click(function() {
+			$(this).parent().parent().addClass('expanded');
+		});	
+	 });//----------close ready function----------
+</script>
+
+<style type="text/css">
+
+
+#bottomContentWrapper {
+	margin: 0 auto;
+	width: 930px;
+}
+
+.bottomContent { padding: 10px 45px; }
+
+#fbfeedheader {
+	min-height: 40px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px soild #ccc;
+}
+
+#wwghashtagheader {
+	position: relative;
+	margin-bottom: 5px;
+	min-height: 40px;
+	padding-bottom: 5px;
+}
+
+#wwghashtagheader h2 {
+	text-align: center;
+	font-weight: bold;
+	color: #772828;
+	font-size: 1.2em;
+	text-shadow: none;
+}
+
+#wwghashtagdata { margin-top: 5px; }
+
+#extraSliderNav {
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+#wwgtwitterhandle {
+	position: absolute;
+	right: 0px;
+	bottom: -15px;
+}
+
+#wwginstagramhandle {
+	position: absolute;
+	left: 0px;
+	bottom: -15px;
+}
+
+#topheroimage h1 {
+	color: #FFFFFF;
+	text-shadow: 2px 2px 4px #000;
+	position: absolute;
+	top: 132px;
+	left: 91px;
+	padding: 0px;
+
+	line-height: 1.1em;
+	width: 303px;
+}
+
+#topheroimage .widebutton { position: absolute; }
+
+.row-shadow #intromessage {
+	background-image: url('/bullying/wewillgen/images/shadow-bottom.png'), url('/bullying/wewillgen/images/shadow-top.png');
+	background-repeat: repeat-x, repeat-x;
+	background-position: 0px 50px, left top;
+}
+
+#pledgebutton {
+	border-radius: 5px;
+	color: #343263;
+	font-size: 1.3em;
+	font-weight: bold;
+	min-height: 2em;
+}
+
+#pledgebutton:disabled {
+	color: #ccc;
+	background-color: #eee;
+}
+
+#pledgemessage { display: none; }
+
+#hashtagitems{
+    width:900px;
+    margin:0 auto;
+}
+
+.bottombox {
+	width:450px;
+	float:left;
+}
+.logo {
+	padding-right:10px;	
+}
+.logo-thumb {
+	width:140px;
+	height:140px;
+	background-color:#fff;
+	margin:10px;
+	float:left;	
+}
+
+.row-purple, .row-purple h1, .row-purple h2, .row-purple h3, .row-purple .morebutton {
+	background-color:#653d68;
+	color:#fff;
+}
+.row-purple h1 {
+	text-align:center;	
+	font-size:30px; 
+	line-height:40px; 
+	text-shadow:0px 0px 5px #000;	
+}
+.row-purple h3 {
+	font-size:1.3em;
+	margin-bottom:5px;
+}
+.row-purple a {
+	color:#FFF;
+}
+.row-purple a:hover {
+	color:rgba(255,255,255,0.5);
+}
+.row-purple .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+.row-purple .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+	color:rgba(255,255,255,0.5);
+}
+
+.row-purplewhite, .row-purplewhite h1, .row-purplewhite h2, .row-purplewhite h3, .row-purplewhite .morebutton {
+	background-color:#fff;
+	color:#653d68;
+}
+.row-purplewhite h1 {
+	text-align:center;	
+	font-size:30px; 
+	line-height:40px; 
+	text-shadow:0px 0px 5px #000;	
+}
+.row-purplewhite a {
+	color:#653d68;
+}
+.row-purplewhite a:hover {
+	color:rgba(101,61,94,0.5);
+}
+.row-purplewhite .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+.row-purplewhite .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+	color:rgba(255,255,255,0.5);
+}
+	
+.judge-bio {
+	line-height: normal;		
+}	
+
+.judge-bio-left {	
+	margin:0 20px 20px 0;
+	float: left;
+	border:1px solid white;	
+}
+
+.judge-bio-right {	
+	margin:0 0 20px 20px;
+	float: right;
+	border:1px solid white;	
+}
+	
+#download-button{
+	width:170px; 
+	padding:5px; 
+	text-align: center; 
+	margin: 30px auto; 
+	background-color: #fff; 
+	border-radius: 7px;	
+}	
+
+#download-button a{
+	color: #000;
+}	
+
+#download-button a:hover{
+	color: rgba(0, 0, 0, 0.5);
+}	
+	
+	
+</style>
+</head>
+
+<body class="onecol">
+
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
+
+<div class="container">
+
+<!--#include virtual="/bullying/dynamic-header.html"--> 
+<!--#include virtual="/bullying/topnav.html"-->
+
+<div class="content"> <a href="#" class="contentrow-anchor" aria-hidden="true"></a>
+	<div id="topheroimage" style="position: relative; left: 0; top: 0;"> 
+<div class="addthis_sharing_toolbox" style="position:absolute; left:730px; top:15px; z-index:10;"></div>	
+	<img style="position: relative; left: 0; top: 0;" src="/bullying/getinvolved/images/students-with-solutions.jpg" width="1024" height="490" alt=""/>
+	<p style="position: absolute; left: 0; top: 460px; width:97%; font-size:.9em;" align="right"><strong>&copy;2016, PACER Center | The National Bullying Prevention Center is a program of PACER Center</strong></p>
+</div>
+
+<!--<div class="contentrow row-purplewhite">
+		<h2 style="font-size:24px">Captain McFinn is pleased to support PACER's National Bullying Prevention Center</h2>
+</div>	
+-->
+<div class="contentrow row-purple row-shadow">
+	
+	<div class="singlecolumn" style="clear:right">
+<!--	<div style="width:800px; margin:20px auto">
+-->	
+	<h2 style="font-size:30px; line-height: 40px">Invite your students to be part of the solution for a chance for rewards and recognition!</h2>	
+	<p>This simple, authentic animated video series was created from student drawings and writing, which poignantly provides insight into how painful bullying can feel, but also touchingly shows that kids want it to stop and want to be part of the solution.</p>
+	
+	<h3 style="text-align: center">How it works...</h3>
+
+	<p>Step 1. Watch the video(s), then hold a classroom discussion using the suggested questions, which are provided with each video.</p>
+		<p>Step 2. Using the <a href="/bullying/getinvolved/pdf/students-with-solutions-form.pdf" target="_blank">entry form, <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></a> encourage students to write poetry or stories, create a drawing, or design a graphic (or even film a video) responding to the themes portrayed in the videos including, but not limited to:</p>
+	<ul>
+		<li>Sharing what it means to be together against bullying</li>
+		<li>Describing how to be kind, supportive, and helpful to other students</li>
+		<li>Ways to help others feel like they belong and know that they aren’t alone</li>
+		<li>How to celebrate the differences that makes each person unique.</li>
+	</ul>	
+		<p>Step 3. The images and writing can be scanned and emailed to <a href="mailto:bullying411@PACER.org">bullying411@PACER.org</a> (videos accepted too) or mailed to PACER’s National Bullying Prevention Center, 8161 Normandale Blvd. Bloomington, MN 55437.</p>
+
+
+	<h3 style="text-align: center">Receive awards and recognition</h3>
+		<p><strong>Four classrooms will be awarded LilGadget headphones for every student along with a pizza party! Additional awards include: books, DuckTape rolls and medals!</strong></p>
+		<p>Entries accepted through January 31, 2017. In February 2017, the gallery of submissions will be reviewed by a panel consisting of actors, authors and others. Selected submissions will receive awards and students will have their work recognized on PACER's National Bullying Prevention Center website and social media.</p>
+		
+		<div id="download-button">
+		 <a href="/bullying/getinvolved/pdf/students-with-solutions-flyer.pdf" target="_blank">Download the flyer
+		 <!--<img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" />-->
+		 </a></div>
+
+	<!--<div class="morebutton" id="intromessagebutton">	<div></div></div>-->
+</div>	
+</div>
+
+<div class="contentrow row-purplewhite">
+
+<!--<%'------------------------------------------------------ WEEK 4 ------------------------------------------------------ %>--> 
+	<h2 style="font-size:30px; line-height: 40px">United For Inclusion</h2>
+		<div style="width:700px; margin:50px auto">
+			<p>Most kids want bullying to stop. They don’t like what is happening to their classmates, but aren’t sure what they can do. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-inclusion.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
+			<div style="padding:20px 0">
+				<iframe width="700" height="394" src="https://www.youtube.com/embed/18fs56WHlPQ?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>	
+<hr />
+
+<!--<%'------------------------------------------------------ WEEK 3 ------------------------------------------------------ %> -->
+	<h2 style="font-size:30px; line-height: 40px">United For Acceptance</h2>
+		<div style="width:700px; margin:50px auto">
+			<p>Bullying often makes kids feel left out, isolated and alone. Help change that by letting them know you care. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-acceptance.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
+			<div style="padding:20px 0">
+				<iframe width="700" height="394" src="https://www.youtube.com/embed/rnJdd3eVzBA?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>		
+<hr />
+		
+<!--<%'------------------------------------------------------ WEEK 2 ------------------------------------------------------ %>  -->
+	<h2 style="font-size:30px; line-height: 40px">United For Kindness</h2>
+		<div style="width:700px; margin:50px auto">
+			<p>Friends and classmates can provide support and hope for those who are being bullied. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-kindness.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
+			<div style="padding:20px 0">
+				<iframe width="700" height="394" src="https://www.youtube.com/embed/TUXZ0KjstVo?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>	
+<hr />		
+		
+<!--<%'------------------------------------------------------ WEEK 1 ------------------------------------------------------ %>  -->
+	<h2 style="font-size:30px; line-height: 40px">Together Against Bullying</h2>
+		<div style="width:700px; margin:50px auto">
+			<p>Bullying has hurt too many people in this world. Your voice is important in preventing the hurt and harm that has happened to so many for too long. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-together-against-bullying.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
+			<div style="padding:20px 0">
+				<iframe width="700" height="394" src="https://www.youtube.com/embed/Ykkz-MQFvIM?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>	
+		
+</div>	
+
+<!--<div class="contentrow row-purple row-shadow">
+	<div class="singlecolumn" style="clear:right">
+		<h2 style="font-size:30px; line-height: 40px">Celebrity Panel</h2>
+			<p style="text-align:center">To be announced soon.</p>
+	</div>
+</div>	-->
+
+<hr />	
+
+<div class="contentrow row-purplewhite">
+	<div class="singlecolumn">	
+		<h2 style="font-size:30px; line-height: 40px">Awards</h2>
+			<p>Four classrooms will be awarded LilGadgets headphones for every student along with a pizza party (value up to $500) for their entire class.</p>
+			
+				<p><strong>LilGadgets Untangled Pro Wireless Bluetooth Headphones</strong></p>
+				<img style="float:left" src="/bullying/getinvolved/images/lilgadget-headphones.jpg" width="160" height="160" alt=""/>
+<p>The first Bluetooth headphones designed specifically for children. High quality adult audio drivers that are volume limited so you get high quality sound at safer listening levels. Includes a built in SharePort so you can connect several together on a single device, sharing the audio between listeners. Retail value, $49.</p>
+	
+	
+<p style="padding-top:40px"><strong>Special thanks to LilGadgets!</strong></p>
+<img style="margin-left:15px; margin-top:-10px" src="/bullying/getinvolved/images/lilgadget-logo.jpg" width="300" height="71" alt=""/>
+<p>LilGadgets Headphones are designed to create the best experience for kids. With comfort, safety, premium materials, and high quality audio incorporated into each pair, you can rest assured there's nothing better on the market for young people. Also, we integrate our SharePort in each set of headphones so that the child can easily share what he or she is listening to with those around.</p>
+<p>Connect. Share. Love. That is the driving theme we follow when building both our headphones and our business. And that is why we believe in supporting causes like bullying awareness. Our kids spend much of their time at school so we need to make it as safe and comfortable as possible. The safer the environment, the more we can see their little minds flourish and their hearts grow.</p> 
+				<p><strong>Selected classroom and individuals, as determined by the celebrity panel will also be eligible to receive the following:</strong></p>
+								<img style="float:right" src="/bullying/getinvolved/images/unity-medals.jpg" width="200" height="135" alt=""/>
+				<ul>
+				<li>UNITY Medals featuring engraving with PACER’s logo and the word UNITY, complete with an orange ribbon. Reverse side reads &ldquo;United for Kindness, Inclusion and Acceptance.&rdquo;</li>
+				<li>Colorful rolls of Duck Tape to be used for art projects. Donated by ShurTech.</li>
+				<li>Book titles from Simon and Schuster from authors:
+				<ul>
+					<li>Maya Penn</li>
+ 					<li>Margarita Engle</li>
+					<li>Tim Federle</li>
+					<li>Laurie Halse Anderson</li>
+					<li>Sharon Draper</li>
+					<li>James Howe</li> 
+				</ul></li>
+			</ul> 
+		</div>	
+</div>
+
+<div class="contentrow row-purple row-shadow">
+	<div class="singlecolumn">	
+		<h2 style="font-size:30px; line-height: 40px">Panel of Judges</h2>
+		
+		<div style="margin-bottom: 30px;">
+			<img class="judge-bio-left" src="/bullying/getinvolved/images/sara-ramirez.jpg" width="200" height="250" alt=""/>
+			<h3>SARA RAMIREZ</h3>
+			<p class="judge-bio">Sara is a Tony Award&copy; winner best known to viewers for the past 10 years as orthopedic surgeon Dr. Callie Torres on ABC’s top-rated television drama Grey’s Anatomy. Prior to Grey’s Anatomy, Ramirez was seen in the Broadway smash-hit Monty Python’s Spamalot as Lady of the Lake, for which she earned both a Tony Award© for Best Performance by a Featured Actress in a Musical, and an Outer Critics Award for Outstanding Featured Actress in a Musical. Most recently, Sara co-hosted and performed at TED TALKS LIVE NYC on PBS, and is producing two films: "Loserville" (in partnership with the PACER’s NBPC) and "Sylvia and Marsha" (a documentary by award winning filmmaker David France of How to Survive a Plague about Sylvia Rivera and Marsha P. Johnson). In 2015, Sara was awarded the Ally For Equality Award by the Human Rights Campaign Foundation.</p>
+		</div>
+		
+		<div style="margin-bottom: 30px; clear: left">		
+			<img class="judge-bio-right" src="/bullying/getinvolved/images/laurie-halse-anderson.jpg" width="200" height="250" alt=""/>
+			<h3>LAURIE HALSE ANDERSON</h3>
+			<p class="judge-bio">Laurie is a New York Times bestselling author known for tackling tough subjects with humor and sensitivity. Her work has earned numerous ALA and state awards. Two of her books, Speak and Chains, were National Book Award finalists. Chains also received the 2009 Scott O’Dell Award for Historical Fiction, and Laurie was chosen for the 2009 Margaret A. Edwards Award. Mother of four and wife of one, Laurie lives in Pennsylvania, where she likes to watch the snow fall as she writes. </p>
+		</div>
+	
+		<div style="margin-bottom: 30px; clear: right">
+			<img class="judge-bio-left" src="/bullying/getinvolved/images/sarah-jes-austell.jpg" width="200" height="250" alt=""/>
+			<h3>SARAH JES AUSTEL</h3>
+			<p class="judge-bio">Sarah makes her feature film debut starring as Mary Mercer in Loserville .  Her stage appearances include the World Premiere of Fist in Mouth at Cherry Lane Studio Theater; the West Coast Premiere of Jason Chimonides' play The Optimist at Elephant Stages, as well as The Birds with One Year Lease Theater Company in the mountains of Papingo, Greece. Her other theatre credits include: The Cherry Orchard (Director: Bob Moss) and Friend of the Devil (Director: Laura Braza). Sarah Jes received her training at The NYU Tisch School of the Arts.</p>	
+		</div>
+			
+		<div style="margin-bottom: 30px; clear: left">					
+			<img class="judge-bio-right" src="/bullying/getinvolved/images/jonathan-lipnicki.jpg" width="200" height="250" alt=""/>
+			<h3>JONATHAN LIPNICKI</h3>
+			<p class="judge-bio">Johnathan made his film debut in 1996's Jerry Maguire as the son of Renée Zellweger's character. He subsequently appeared on “The Single Guy,” and “The Jeff Foxworthy Show,” as well as episodes of “Dawson's Creek” and the sitcom “Meego.” He then starred in the film Stuart Little, playing a boy whose family adopts a talking mouse, a role he reprised in the film's sequel. Lipnicki also played the lead role in the film, The Little Vampire and starred opposite Li’l Bow Wow in the film Like Mike, which was released two weeks before Stuart Little 2. He also recently appeared on the comedy “Motherlover” on the YOMYOMF Network as well as “Interns of Field” for Screen Junkies Plus.  Currently he can be seen in the film Loserville as Franklin Hope and upcoming projects include Altitude which he also serves as executive producer.</p>				
+		</div>
+	</div>	
+</div>	
+
+
+
+
+<div class="contentrow row-purplewhite">
+	<div class="singlecolumn">	
+		<h2 style="font-size:30px; line-height: 40px">Submission Guidelines</h2>
+		<div style="width:600px; margin:50px auto">
+		<ul>
+			<li>Send artwork, photographs, graphics, poems, videos or stories to <a href="mailto:bullying411@PACER.org">bullying411@PACER.org</a>.</li>   
+			<li>Entries will be accepted from October 1, 2016, through January 31, 2017 (Note: extended from original December 31, 2016 date).</li>
+			<li>Anyone can participate! Classroom contributions (as an entire class or individually) are encouraged, but individual students can also send in their submissions!</li>
+			<li>Students in K-12 are eligible to participate.</li>
+			<li>The celebrity panel will review and determine the submissions to feature on PACER's National Bullying Prevention Center website and social media.</li>
+			<li>Awards and recognition will be given. Those selected will be notified by PACER's National Bullying Prevention Center.</li>
+			<li>PACER's National Bullying Prevention Center maintains the right to share and post all artwork, stories, and images that are submitted.</li>
+		</ul>
+		</div>
+	<div style="clear:left"></div>
+	</div>	
+</div>
+
+<div class="contentrow row-purple row-shadow">	
+	<div class="singlecolumn" style="clear:right">
+		<h2 style="font-size:30px; line-height: 40px">Animation Production Team</h2>
+		<img style="float:left; margin-right:10px; border: 1px solid white" src="/bullying/getinvolved/images/lewie-noah.jpg" width="150" height="180" alt=""/>
+		<p>Special thanks to college students Lewie and Noah Kloster, of Tall Glass With Ice Productions, the creative team behind the animation vision, execution and development for the four videos. This animation duo respects how animation felt before the digital age claimed king over the medium. Cardboard, construction paper, cotton balls, and magic markers fill their Minneapolis and NYC studios to their brims. <a href="http://tallglasswithiceproductions.com" target="_blank">Learn more at Tall Glass With Ice Productions</a></p> 
+	</div>
+</div>
+	
+	
+	<!-- end .content --> 
+</div>
+<!--#include virtual="/bullying/footer.html"--> 
+<!-- end .container -->
+</div>
+</body>
+</html>

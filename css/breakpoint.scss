@@ -1,0 +1,9 @@
+/* Custom Breakpoint Mixin */
+
+// Breakpoints
+$bp-mobile: 599px;
+$bp-mobile-landscape: 750px;
+
+@mixin breakpoint($breakpoint-target){
+  @media screen and (max-width: $breakpoint-target) { @content }
+}

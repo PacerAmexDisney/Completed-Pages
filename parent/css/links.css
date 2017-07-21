@@ -1,0 +1,87 @@
+#categorytable{
+	margin:5px auto 25px;
+	background:url(/parent/images/green-grad.png) top left repeat-x;
+	background:url(/parent/images/green-grad.png) top left repeat-x, url(/parent/images/white-grey-grad.png) bottom left repeat-x;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	}
+#categorytable th {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:center;
+	font-weight:bold;
+	padding:0px;
+}
+#categorytable td {
+	vertical-align:top;
+	padding:6px 6px 10px 6px;
+
+}
+#categorytable ul {
+	list-style:none;
+	margin-left:0px;
+	padding-left:10px;
+	font-size:.9em;
+	
+}
+#cat-heading{
+	text-align:center;
+}
+.sitelist{
+	width:44%;
+	border: 3px solid #8cc63f;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin: 10px 0px;
+	box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.50);
+}
+.sitelist h3{
+	margin-bottom:25px;
+	margin:5px;
+	padding:5px;
+}
+.sitelist ul{
+	list-style:url(/parent/images/orange-arrow-bullet.png);
+	/*list-style:none;*/
+	margin-left:0px;
+	padding-left:40px;
+
+}
+.sitelist ul li{
+	padding-bottom:10px;
+	
+}
+.fltr{
+	float:right;
+	margin-right:10px;
+	clear:right;
+}
+.fltl{
+	clear:left;
+	float:left;
+	margin-left:10px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}

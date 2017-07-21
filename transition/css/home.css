@@ -1,0 +1,243 @@
+/* COLOR CODES
+-headings: #F15C32 (orange)
+-link: #933 (red)
+-link visited: #772828 (deep red)
+-link hover: #3e5593 (blue)
+hover: #FC0 (gold)
+Bright hover: #FF0 (yellow)
+*/
+.content{
+	min-height:750px;
+}
+#featured{
+	width:357px;
+	float:right;
+	margin-right:5px;
+	background:url(/bullying/images/window_gradient_85opacity.png) repeat-x bottom;
+	border-top:solid 1px #ccc;
+	border-right:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+	border-left:solid 1px #ccc;
+	
+}
+#featured {
+	padding-left:0px;
+	font-size:.8em;	
+}
+#featured p{
+	margin:5px 0 1em 0;
+	padding:0;
+}
+#featured p  a {
+/*	text-decoration:underline;
+	display:inline;
+	background:none;
+	padding-left:0;
+*/}
+#featured .tIcon{
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	display:block;
+	margin-left:-30px;
+	padding-left:50px;
+	min-height:50px;
+	background-position:5px 5px;
+	background-repeat:no-repeat;
+}
+/*#featured p a {
+	margin-left:auto;
+}
+*/#featured a:hover{
+	color:#F15C32;
+	text-decoration:none;	
+}
+#featured ul{
+	list-style:none;
+	padding:5px;	
+}
+#featured li{
+	padding:5px 0px;
+	border-top:solid 1px #999;
+}
+#featured .fIcon a:hover, #featured p.fIcon:hover, #featured h2.fIcon:hover, #featured h3.fIcon:hover{
+	background-position:5px -435px;	
+}
+.tAudio{
+	background:url(/transition/images/features/feature_icon_audio.png);
+}
+.tImage{
+	background:url(/transition/images/features/feature_icon_image.png);
+}
+.tInfo{
+	background:url(/transition/images/features/feature_icon_info.png);
+}
+.tMobile{
+	background:url(/transition/images/features/feature_icon_mobile.png);
+}
+.tNewsfeed{
+	background:url(/transition/images/features/feature_icon_newsfeed.png);
+}
+.tPdf{
+	background:url(/transition/images/features/feature_icon_pdf.png);
+}
+.tVideo{
+	background:url(/transition/images/features/feature_icon_video.png);
+}
+
+
+.bottombox{
+	position:relative;
+	width:316px;
+	margin:5px 0px 5px 5px;
+	float:left;
+	background:url(../images/window_gradient_small.jpg) repeat-x bottom;
+	font-size:.8em;
+	padding:2px 2px 15px 2px;
+	border:solid 1px #ccc;
+	
+}
+.bottombox h2{
+	font-size:18px;
+	margin-bottom:15px;
+}
+
+.bottombox .toprightbox{
+	width:80px;
+	padding-top:3px;
+	float:right;
+	text-align:center;
+	margin-right:10px;
+}
+.additionalinfobox{
+	position:relative;
+	width:637px;
+	margin:5px 0px 5px 5px;
+	clear:left;
+	/*background:url(../images/window_gradient_small.jpg) repeat-x bottom;*/
+	font-size:.8em;
+	padding:5px 5px 15px 5px;
+	border:solid 1px #ccc;
+}
+.additionalinfobox h3 {
+	margin-top:10px;
+	padding-top:10px;
+	border-top:2px solid #ccc;
+}
+#newskeyshow{
+	color:#3e5593;
+	background:url(/bullying/images/color-key-bg.png) no-repeat;		
+}
+#newskeyshow:hover #newskey {
+	display:block;
+	left:5px;
+	top:-60px;
+	z-index:10;
+}
+#newskey{
+	display:none;
+	position:absolute;
+	background:#fff;
+	width:300px;
+	margin:10px auto;
+	padding:0px;
+	border:solid 1px #ccc;
+}
+
+#newsitems a{
+	text-decoration:underline;
+}
+#newsitems p{
+	margin:.5em;
+	padding:0;
+}
+#newsitems .date{
+	text-align:right;
+	margin-right:5px;	
+}
+#newsitems h3 {
+	border-top:solid 1px #ccc;
+	padding:0;
+	margin:0;
+}
+#newsitems h3.feature {
+	border-left:solid 10px #353364;
+	padding-left:5px;
+}
+#newsitems h3.related {
+	border-left:solid 10px #b1221c;
+	padding-left:5px;
+}
+#newsitems h3.web {
+	border-left:solid 10px #ff5a2c;
+	padding-left:5px;
+}
+
+div.smallBox {
+	width:20px;
+	height:20px;
+	display:inline-block;
+}
+div.feature {
+	background-color:#353364;
+}
+div.related {
+	background-color:#b1221c;
+}
+div.web {
+	background-color:#ff5a2c;
+}
+#icarebecause{
+	height:500px;
+	overflow:auto;
+	font-size:.8em;
+}
+#icarebecause .icareitem {
+	font-style:italic;
+}
+#icarebecause .icarename {
+	font-weight:bold;
+	padding:0px 5px 30px 5px;
+	margin:0px 10px 30px 10px;
+	border-bottom:1px solid #ccc;
+}
+/*############Layer Slider CSS ################# */
+.loading ls-layer{
+	display:none;
+	padding:5px;
+}
+#layerslider {
+  width: 637px;
+  height: 375px;
+  border:1px solid #ccc;
+  margin: 0 0 35px 5px;
+}
+
+#featured li.wide {
+	margin-left:22px;
+}
+#featured li.wide h3{
+	margin-left:0px;
+	margin-right:0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+#fbfeeddata .fbpostwrapper {
+  width: 100%;
+  margin: 10px auto;
+  border:none;
+}
+.fbdate {
+	float:right;
+	margin-right:5px;
+}
+.fbheader {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+  min-height: 27px;
+  padding-top:5px;
+  border-top: 10px solid #363465;
+}
+#fbfeeddata .fbpostwrapper:first-of-type .fbheader {
+	border:none;
+}

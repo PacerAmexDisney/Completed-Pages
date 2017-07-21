@@ -1,0 +1,75 @@
+#leftNavBar {
+	background:#FFF;
+	float:left;
+	width:18em;
+	margin-top:.5em;
+	margin-right:20px;
+	margin-bottom:0px;
+}
+#leftNavBar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#leftNavBar ul a {
+	font-weight:bold;
+	display:block;
+	width:18em;
+	height:7em;
+	line-height:7em;
+	color:#FFF;
+	text-decoration:none;
+	background:url(images/nav_back.png) no-repeat -150px center;
+}
+#leftNavBar li {
+	padding-bottom:10px;
+}
+#main #leftNavBar img {
+	border:none;
+	float:none;
+	margin:0px;
+	vertical-align:middle;
+	padding-right:5px;
+	padding-left:5px;
+	margin-right:5px;
+	background:#fff;
+}
+#leftNavBar a:visited {
+	text-decoration:none;
+	color:#000;
+}
+#leftNavBar a:hover {
+	text-decoration:none;
+	background-position: right center;
+	color:#FFF;
+}
+#leftNavBar ul .page a {
+	color:#000;
+	background-position: 160px center;
+	cursor:default;
+}
+#pagecontent {
+	margin-left:18em;
+	background: #FFF url(images/Pacer_watermark.jpg) no-repeat right bottom;
+	border-left:double 5px #009;
+}
+#pagecontent img {
+	float:right;
+	margin:2em;
+	padding-bottom:5px;
+	border: solid 1px #666;
+}
+#pagecontent .photoCaption {
+	text-align:center;
+	font-style:italic;
+	color:#646464;
+	margin:2em;
+	width:360px;
+	display: block;
+	float: right;
+}
+#pagecontent .photoCaption img{
+	margin:0px;
+	padding:0px;
+	float: none;
+}

@@ -1,0 +1,28 @@
+body {
+	min-width:1028px;
+}
+.singlecolumn #pagecontent {
+	margin-left:0px;
+}
+#topbar {
+	min-height:50px;
+}
+#socmedia {
+	text-align:right;
+	position:absolute;
+	top:3px;
+	right:10px;
+}
+#socmedia img {
+	vertical-align:top;
+}
+
+#maincontent {
+	padding-right:0px;
+}
+
+#pagetoporange, #topbar {
+  position:relative;
+  padding: 5px;
+  margin:0px;
+}

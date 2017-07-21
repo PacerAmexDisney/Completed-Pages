@@ -1,0 +1,1 @@
+<%response.Redirect("/newsletters/enews/subscribe.asp")%>

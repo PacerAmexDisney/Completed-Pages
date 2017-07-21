@@ -1,0 +1,89 @@
+@import 'breakpoint.scss';
+
+//-- Colors
+$nav-white: #fff;
+$nav-medium-gray: #666666;
+
+//-- Fonts
+$nav-font: Helvetica;
+
+//-- Responsive | Fourth Level Navigation
+@mixin fourth-nav-styles{
+    .container{
+        .fourth-level-nav-wrapper{
+            .fourth-level-nav{
+                display: block;
+                font-family: $nav-font;
+                a{
+                    color: $nav-medium-gray;
+                    text-decoration: none;
+                }
+                > a{
+                    display: inline-block;
+                    width: 75%;
+                    margin-left: 5%;
+                    margin-right: 5%;
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    vertical-align: top;
+                    text-transform: uppercase;
+                    font-size: 15px;
+                }
+                button{
+                    display: inline-block;
+                    height: 48px;
+                    width: 15%;
+                    margin: 0 0 10px;
+                    padding: 0;
+                    font-weight: 800;
+                    text-align: left;
+                    border: none;
+                    outline: none;
+                    background-color: $nav-white;
+                    background-repeat: no-repeat;
+                    &.fourth-level-show-more{
+                        background-image: url(../../assets/images/key-elements/plus-blue.png);
+                        background-position: center 15px;
+                    }
+                    &.fourth-level-show-less{
+                        background-image: url(../../assets/images/key-elements/minus-red.png);
+                        background-position: center 25px;
+                    }
+                }
+                .divider{
+                    height: 5px;
+                    width: 100%;
+                    background-color: $nav-medium-gray;
+                }
+                ul, .submenu{
+                    display: none; // displayed with js
+                    margin-left: 5%;
+                    li{
+                        display: block;
+                        a{
+                            display: block;
+                            height: 40px;
+                            width: 240px;
+                            font-size: 12px;
+                            line-height: 40px;
+                            border: 1px solid $nav-medium-gray;
+                            border-top: none;
+                            text-transform: capitalize;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            span{
+                                padding-left: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//-- Mobile Breakpoint
+@include breakpoint($bp-mobile-landscape){
+    @include fourth-nav-styles();
+}

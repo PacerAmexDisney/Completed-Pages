@@ -1,0 +1,531 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"hom",
+				"homePage"
+			],
+			[
+				"workshop",
+				"workshop_closed"
+			],
+			[
+				"If",
+				"If"
+			],
+			[
+				"workshop_s",
+				"workshop_series_title"
+			],
+			[
+				"query",
+				"queryFltr"
+			],
+			[
+				"quer",
+				"queryFltr"
+			],
+			[
+				"Re",
+				"Redirect"
+			],
+			[
+				"ar",
+				"archive"
+			],
+			[
+				"header",
+				"headerPosted"
+			],
+			[
+				"banner",
+				"bannerUrl"
+			],
+			[
+				"wor",
+				"workshop_date"
+			],
+			[
+				"addres",
+				"address2"
+			],
+			[
+				"Address",
+				"Address2"
+			],
+			[
+				"add",
+				"address1"
+			],
+			[
+				"addre",
+				"address1"
+			],
+			[
+				"org",
+				"organization"
+			],
+			[
+				"Va",
+				"Value"
+			],
+			[
+				"is",
+				"isValid"
+			],
+			[
+				"Tran",
+				"Transition"
+			],
+			[
+				"cen",
+				"centered"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bullying/templates/header.asp",
+			"settings":
+			{
+				"buffer_size": 976,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bullying/templates/responsive-twocolumn.asp",
+			"settings":
+			{
+				"buffer_size": 2062,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bullying/templates/footer.asp",
+			"settings":
+			{
+				"buffer_size": 3484,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bullying/templates/page-header-nav.asp",
+			"settings":
+			{
+				"buffer_size": 9110,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "bullying/templates/third-level-nav-master.asp",
+			"settings":
+			{
+				"buffer_size": 1563,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 109.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/bullying",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/bullying/templates",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/css",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/templates"
+	],
+	"file_history":
+	[
+		"//Pacer-Bravo/Projects/Publications/MassEmails/IP-2017-July.html",
+		"//Pacer-Bravo/Projects/Publications/MassEmails/IP-2017-04-13.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/transition/news/edition/IP-2017-July.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/transition/news/edition/IP-2016-11-10.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/transition/news/edition/IP-2017-02-17.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/transition/news/edition/IP-2017-03-17.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/transition/news/edition/IP-2017-03-21.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/transition/news/edition/IP-2017-04-13.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/transition/news/edition/IP-2017-05-26.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/sftp-config.json",
+		"/C/Users/jordan.bohm/Documents/Disney - Taproot - Mobile/GitRepo/page-examples/understanding-spec-ed.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/templates/responsive-twocolumn.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/templates/page-header-nav.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/templates/third-level-nav-master.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/forms/workshops.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/webinars/index.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/bullying/nbpm/eventRegistration.asp",
+		"/C/Users/jordan.bohm/AppData/Local/Temp/0db45354-c1a9-4b56-a865-8638d1017a63/srv/bindings/fdc824128991431d88b9c384f2aaf0a3/code/wp-content/themes/pacer_2014/kids_against_bullying/kab-header.php",
+		"//Pacer-Bravo/Projects/Web_Sites/pantheon/TAB/readme.txt",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/help/symposium/index.asp",
+		"/C/Users/jordan.bohm/AppData/Local/Temp/pacer.wordpress.2017-05-05.xml",
+		"/C/Users/jordan.bohm/AppData/Local/Temp/Temp1_pacer-i-care-because-statement-2017-05-05.xml.zip/pacer-i-care-because-statement-2017-05-05.xml",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/bullying/video/player.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/stc/exite/techforgirls.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/housing/index.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/stc/index.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/workshops/wsstyle.css",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/workshops/index.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/index.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/css/home.css",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/index-test.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/workshops/index-test.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/livestream/archive.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/livestream/archive-more.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/css/style.css",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/css/stylenoleftright.css",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/bullying/video/video-not-found.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/webinars/archive-info.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/livestream/index.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/webinars/archive-listing.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/css/leftnavnoright - Copy.css",
+		"/C/Users/jordan.bohm/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/benefit/forms/silent-auction-donations.asp",
+		"//Pacer-Bravo/Projects/Publications/MassEmails/eblast2017HousingSeries_Workshop.html",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/benefit/forms/silent-auction-donations-processing-fy58fh.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/transition/news/optOut-inspiring-possibilities-processing-ao3f55.asp",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/transition/news/optIn-inspiring-possibilities-processing-3eo4g.asp",
+		"/C/development/PIX/provisioning/bin/seed-secrets",
+		"//Pacer-Bravo/Projects/Web_Sites/newPACER/bullying/index.asp"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"</a>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</span></a>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bullying/templates/header.asp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								896,
+								916
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bullying/templates/responsive-twocolumn.asp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1468,
+								2002
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bullying/templates/footer.asp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3464,
+								3400
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bullying/templates/page-header-nav.asp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3450,
+								3450
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 630.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bullying/templates/third-level-nav-master.asp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1060,
+								1060
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ASP/HTML-ASP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "PACER-Website.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

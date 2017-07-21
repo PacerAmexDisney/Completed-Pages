@@ -1,0 +1,78 @@
+@charset "utf-8";
+#header img{ 
+	padding:0; 
+	margin:0 auto;
+}
+#contentheader { margin-right: 0; }
+
+#showToc{ display:none;}
+#topbar h1 { 
+	font-size:20px;
+	text-align:left;
+	margin:10px;
+	padding:0;
+}
+#top-right-image { 
+	display:none;
+	width:0px;
+	height:0px; 
+}
+#contentwrapper #discipline-content { 
+	background:none;
+	border:none;
+	padding-left:10px;
+	margin:0; 
+}
+#discipline-content{ min-height:0; }
+
+#discipline-content h2 {
+	padding:0;
+	margin:10px 0 0 0;
+	font-size:18px;
+}
+#main #discipline-content #top-section {
+	padding:0;
+	margin:0;
+	margin-top:0;
+	border:none;
+	border-bottom:none;
+
+}
+#discipline-content #top-section h1 { 
+	text-shadow:none;
+	font-size:20px;
+	margin:0;
+	padding:0;
+}
+#bcrumb { display:none; }
+#discipline-content #sectionCarryOver {
+	padding:0;
+	margin:10px 0 0 0;
+	border:none;
+	background:none;
+}
+#discipline-content #sectionCarryOver p{
+	padding:0;
+	margin:1em 0;	
+}
+#statutes {
+	margin:5px 0 0 0;
+	padding:0;
+}
+#statutes h3{
+ 	padding:0;
+ 	margin:0;
+}
+#displayWrapper{display:none;}
+.toc {
+	display:none;
+	width:0;
+	height:0;
+}
+.footer {
+	display:none;
+}
+#url{
+	display:block;
+	font-size:.8em;
+}

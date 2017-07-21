@@ -1,0 +1,22 @@
+<script type="text/javascript" src="/js/jquery.mobile-1.4.2/jquery.mobile.touch.min.js"></script>
+
+<script type="text/javascript">
+	function is_touch_device() {
+	  return 'ontouchstart' in window // works on most browsers
+		  || 'onmsgesturechange' in window; // works on ie10
+	}
+	$(document).ready(function() {
+		if(is_touch_device && screen.width <= 1024) {
+			$('body').on('swipeleft', function(){
+				window.location = $('#swipenavright a').attr('href');
+			});
+			$('body').on('swiperight', function(){
+				window.location = $('#swipenavleft a').attr('href');
+			});	
+		}
+	});
+
+</script>
+
+
+

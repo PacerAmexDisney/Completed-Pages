@@ -1,0 +1,647 @@
+.content {
+	position:relative;
+}
+h2 {
+	margin-bottom:1em;	
+}
+.wewillheader {
+	color:#FFFFFF;
+	text-shadow: 1px 1px 3px #000;
+	text-align:center;
+	line-height:1.1em;		
+}
+.horizontaldots {
+	background:url(/bullying/images/styles/whitehorizontaldots.png) center repeat-x; 
+	height:10px; 
+	width:30%; 
+	margin-left:auto; 
+	margin-right:auto;
+	margin-bottom:20px;	
+}
+#swipenavleft a {
+	text-indent:-9999px;
+	position:fixed;
+	display:block;
+	z-index:10;
+	left:0px;
+	top:50%;
+	margin-top:-40px;
+	width:60px;
+	height:80px;
+	background:url('/bullying/images/styles/swipeNavLeft.png') left no-repeat;	
+}
+#swipenavleft a:hover {
+	background:url('/bullying/images/styles/swipeNavLeftHover.png') left no-repeat;	
+}
+#swipenavright a {
+	text-indent:-9999px;
+	position:fixed;
+	display:block;
+	z-index:10;
+	right:0px;
+	top:50%;
+	margin-top:-40px;
+	width:60px;
+	height:80px;
+	background:url('/bullying/images/styles/swipeNavRight.png') right no-repeat;		
+}
+#swipenavright a:hover {
+	background:url('/bullying/images/styles/swipeNavRightHover.png') right no-repeat;	
+}
+/* -- Justified Nav Defaults -- */
+.justifiedlist div, .justifiedlist ul, .justifiedlist li{
+  	margin: 0;
+  	padding: 0;
+  	list-style-type: none;
+}
+/* -- Justified Nav Settings -- */
+ul.justifiedlist {
+	margin-bottom: 0px;
+	text-align: justify;
+	font-size: 0.1px;
+	padding: 0px 20px;
+}
+ul.justifiedlist p{
+	text-align: left;
+}
+.justifiedlist li{
+	display: inline-block;
+	margin-bottom: 1.5%;
+	vertical-align: middle;
+	font-size: 15px;
+}
+ul.justifiedlist:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+.justifiedlist li.dash {
+	width:5px;
+	height:30px;
+	background:url(/bullying/images/styles/verticledots.jpg) top repeat-y;
+}
+.justifiedlist .placeholder{/* Used if you have multiple columns that you need to fill space with */
+  padding: 0;
+  border-top: 10px solid #922d8d; 
+}
+/* -- END Justified Nav Settings -- */
+/* -- Custom Nav Settings -- */
+
+#secondarynav{
+	position:relative;
+	width:1024px;
+	margin:0px;
+	background:#fff;
+	z-index:1;
+}
+.subpage #secondarynav {
+	border-top:solid 1px #ccc;
+	box-shadow:0px -5px 10px -7px #000;
+	padding-top:3px;		
+}
+#secondarynav #navlogo {
+	display:none;
+}
+.is-sticky #secondarynav #navlogo {
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+
+#secondarynav ul {
+	width:800px;
+	margin:10px auto 0px;
+}
+.is-sticky #secondarynav {
+	right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+	/* give it dimensions */
+    min-height: 20px;
+	box-shadow:0px 5px 10px -7px #000;
+}
+
+sticky-wrapper {
+	margin-bottom:200px;
+}
+.justifiedlist li.stickyonly {
+	display:none;
+}
+.is-sticky .justifiedlist li.stickyonly {
+	display:inline-block;
+}
+
+#secondarynav li a{
+	color:#FF5D1D;
+	text-transform:capitalize;
+	font-size:18px;
+	padding:5px 15px;
+	border-radius:5px;
+}
+#secondarynav li a:hover{
+	color:#CB3800;
+}
+
+#secondarynav li.active a{
+	background:#ffdfd2;
+}
+/* -- END Custom Nav Settings -- */
+
+.fourcollist li {
+	width:200px;	
+}
+
+.threecollist li {
+	width:285px;	
+}
+.twocollist li {
+	width:440px;
+}
+.threecoltable {
+	margin:5px 40px;
+}
+.twocoltable {
+	margin:5px 40px;
+}
+
+.row-shadow {
+	background-image:url('/bullying/images/styles/shadow-bottom.png'), url('/bullying/images/styles/shadow-top.png');
+	background-repeat:repeat-x, repeat-x;
+	background-position:left bottom, left top;
+}
+.contentrow {
+	position:relative;
+	padding:10px 10px 30px 10px;
+}
+.contentrow-anchor {
+	position:absolute;
+	top:-50px;
+}
+.contentrow a {
+	text-decoration:underline;
+}
+.contentrow h2 {
+	padding-top: 10px;	
+	text-align:center;
+	text-shadow:none;
+}
+.contentrow .singlecolumn {
+	padding:10px 175px 5px; 
+}
+.contentrow .infobox {
+	margin-left:auto; 
+	margin-right:auto;		
+	margin-top:10px;
+	margin-bottom:10px;	
+	width:50%;
+	padding:5px;
+	border-style:solid;
+	border-color:#fff;
+	border-width:2px;	
+	border-radius:5px;
+	background-color:rgba(255,255,255,.7);	
+	color:#3B3065;
+}
+.contentrow .infobox h3 {
+	text-align:center;	
+	font-size:1.2em;
+	line-height:1.2em;
+	padding:0px;
+	color:#3B3065;	
+}
+#righsidebox {
+	width:10em;
+	max-width:250px;
+	position:absolute;
+	text-align:left;	
+	right:10px;
+}
+.contentrow .infobox li {
+	text-align:left;
+	margin-left:30px;	
+}
+.contentrow .infobox a {
+	color:#3B3065;
+}
+.contentrow .infobox a:hover {
+	color:rgba(59,48,101,.5);
+}
+
+/* ------------------ COLOR ROWS ------------------------ */
+
+.row-orange, .row-orange h1, .row-orange h2, .row-orange h3, .row-orange .morebutton {
+	background-color:#C85024;
+	color:#fff;
+}
+.row-orange h1 {
+	text-align:center;	
+	font-size:30px; 
+	line-height:40px; 
+	text-shadow:0px 0px 5px #000;	
+}
+.row-orange a {
+	color:#FFF;
+}
+.row-orange a:hover {
+	color:rgba(255,255,255,0.5);
+}
+.row-orange .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+.row-orange .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+	color:rgba(255,255,255,0.5);
+}
+
+
+
+.row-whitered, .row-whitered h2, .row-whitered h3, .row-whitered .morebutton {
+	background-color:#fff;
+	color:#B12515;
+}
+.row-whitered .imagethumblist li.dash {
+	background:url(/bullying/images/styles/redverticledots.png) center repeat-y;
+}
+
+
+
+
+.row-whiteorange, .row-whiteorange h2, .row-whiteorange h3, .row-whiteorange .morebutton {
+	background-color:#fff;
+	color:#F5612D;
+}
+.row-whiteorange .imagethumblist li.dash {
+	background:url(/bullying/images/styles/verticledots.jpg) center repeat-y;
+}
+
+
+.row-whitepurple, .row-whitepurple h2, .row-whitepurple h3, .row-whitepurple .morebutton {
+	background-color:#fff;
+	color:#3B3065;
+}
+.row-whitepurple .imagethumblist li.dash {
+	background:url(/bullying/images/styles/verticledots.jpg) center repeat-y;
+}
+
+
+
+.row-bluewhite, .row-bluewhite h2, .row-bluewhite h3, .row-bluewhite .morebutton {
+	background-color:#397CA9;
+	color:#fff;
+}
+.row-bluewhite .imagethumblist li.dash {
+	background:url(/bullying/images/styles/whiteverticledots.png) center repeat-y;
+}
+.row-bluewhite a {
+	color:#FFF;
+}
+.row-bluewhite a:hover {
+	color:rgba(255,255,255,0.5);
+}
+.row-bluewhite .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+.row-bluewhite .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+}
+
+
+
+.row-redwhite, .row-redwhite h2, .row-redwhite h3, .row-redwhite .morebutton {
+	background-color:#A92D22;
+	color:#FFF;
+}
+.row-redwhite .imagethumblist li.dash {
+	background:url(/bullying/images/styles/whiteverticledots.png) center repeat-y;
+}
+.row-redwhite a {
+	color:#FFF;
+}
+.row-redwhite a:hover {
+	color:rgba(255,255,255,0.5);
+}
+.row-redwhite h3 {
+	text-align:left;
+}
+.row-redwhite .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+.row-redwhite .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+}
+
+
+
+.row-purplewhite, .row-purplewhite h2, .row-purplewhite h3, .row-purplewhite .morebutton {
+	background-color:#3B3065;
+	color:#FFF;
+}
+.row-purplewhite .imagethumblist li.dash {
+	background:url(/bullying/images/styles/whiteverticledots.png) center repeat-y;
+}
+.row-purplewhite a {
+	color:#fff;
+}
+.row-purplewhite a:hover {
+	color:rgba(255,255,255,0.5);
+}
+.row-purplewhite .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+.row-purplewhite .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+}
+
+
+.row-brightred, .row-brightred h1, .row-brightred h2, .row-brightred h3, .row-brightred .morebutton {
+	background-color:#dc223b;
+	color:#fff;
+}
+.row-brightred h1 {
+	text-align:center;	
+	font-size:30px; 
+	line-height:40px; 
+	text-shadow:0px 0px 5px #000;	
+}
+.row-brightred a {
+	color:#FFF;
+}
+.row-brightred a:hover {
+	color:rgba(255,255,255,0.5);
+}
+.row-brightred .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+.row-brightred .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+	color:rgba(255,255,255,0.5);
+}
+
+.row-brightwhitered, .row-brightwhitered h2, .row-brightwhitered h3, .row-brightwhitered .morebutton {
+	background-color:#fff;
+	color:#e71c36;
+}
+.row-brightwhitered .imagethumblist li.dash {
+	background:url(/bullying/images/styles/redverticledots.png) center repeat-y;
+}
+
+
+/* ------------------END COLOR ROWS ------------------------ */
+
+
+
+
+.imagethumblist li.dash {
+	width:5px;
+	height:175px;
+	background:url(/bullying/images/styles/verticledots.jpg) center repeat-y;
+}
+.expanded {
+	height:auto !important;
+}
+.expanded .morebutton {
+	display:none;
+}
+.morebutton {
+	position:absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 1004px;
+	background-color:#ccc;
+	padding:10px;
+}
+.row-shadow .morebutton {
+	background-image:url('/bullying/images/styles/shadow-bottom.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.morebutton div {
+	position:relative;
+	left: 487px;
+	background:url(/bullying/images/styles/morePlusReverse.png) no-repeat center;
+	width:50px;
+	height:50px;	
+}
+.morebutton div:hover {
+	cursor:pointer;
+	background:url(/bullying/images/styles/morePlusHover.png) no-repeat center;	
+}
+a.continuereading {
+	font-weight:normal;
+	text-decoration:underline;
+	background:url(/bullying/images/styles/redarrow.png) no-repeat right;
+	padding-right:17px;
+	padding-bottom:2px;
+}
+a.continuereading:hover {
+	font-weight:normal;
+	color:#d48f88;
+	text-decoration:underline;
+	background:url(/bullying/images/styles/redarrowhover.png) no-repeat right;
+	padding-right:17px;
+	padding-bottom:2px;
+}
+.justifiedlist li a.continuereadingwhite {
+	color:#fff;
+	text-decoration:underline;
+	background:url(/bullying/images/styles/whitearrow.png) no-repeat right;
+	padding-right:17px;
+	padding-bottom:2px;
+}
+.justifiedlist li a.continuereadingwhite:hover {
+	color:rgba(255,255,255,0.5);
+	text-decoration:underline;
+	background:url(/bullying/images/styles/whitearrowhover.png) no-repeat right;
+	padding-right:17px;
+	padding-bottom:2px;
+}
+a.arrowred {
+	background:url(/bullying/images/styles/redarrow.png) no-repeat right;
+	padding-right:17px;
+}
+a.arrowred:hover {
+	background:url(/bullying/images/styles/redarrowhover.png) no-repeat right;
+}
+.content .widebutton {
+	width: 175px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: block;
+	line-height: 20px;
+}
+.content .arrowredbutton {
+	padding-right:10px;
+	color:#fff;
+	background:#F5612D url(/bullying/images/styles/whitearrowredbackground.png) no-repeat right;
+}
+.content .arrowredbutton:hover{
+	text-decoration:underline;
+	background:#C03707 url(/bullying/images/styles/whitearrowredbackground.png) no-repeat right;
+}
+.content .arrowwhitebutton {
+	padding-right:10px;
+	color:#3b3264;
+	text-align:center;
+	background:#fff url(/bullying/images/styles/whitearrowbluebackground.jpg) no-repeat right;
+}
+.content .arrowwhitebutton:hover{
+	text-decoration:underline;
+	color:#3b3264;
+	background:#d3d3d5 url(/bullying/images/styles/whitearrowbluebackground.jpg) no-repeat right;
+}
+.rightNavWrapper{
+	width:190px;
+	float:right;
+	margin-right:-5px;
+}
+.rightNav {
+	width:190px;
+	min-height:100px;
+}
+.rightNav h2 {
+	color:#767676;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	text-shadow:none;
+	
+}
+.rightNav li {
+	list-style:none;
+	display:block;
+	border-radius: 5px 0px 0px 5px;
+	padding:5px;
+}
+.rightNav li.active {
+	background: #FFA482;
+}
+.rightNav li.active a {
+	color:#5B5B5B;
+}
+.rightNav a {
+	color:#767676;
+	font-weight:normal;
+	text-decoration:none;
+}
+.rightNav a:hover, .rightNav a:focus {
+	color:#FFA482;
+}
+
+.hasRightNav {
+	width:830px;
+}
+.twocol .hasRightNav {
+	width:654px;
+	margin-left:15px;
+}
+.tablelisting {
+	/*border-spacing: 10px;*/
+	border-spacing:0px;
+    border-collapse: separate;
+}
+
+.tablelisting td {
+	border-top:1px solid#ccc;
+	padding:30px 10px;
+}
+.tablelisting tr:first-child td{
+	border:none;
+}
+
+.listheading{
+	text-align:center;
+	background:#FF7440;
+	color:#fff;
+	text-shadow:1px 1px 2px #000;
+	font-size:1.5em;
+	padding:5px;
+	margin:10px;
+	border-radius:0px 5px 5px 0px;	
+}
+.twocol .hasRightNav .listheading{
+	border-radius:5px;	
+}
+
+.listitem {
+	position:relative;
+}
+.listitem p {
+	padding:0px;
+	margin:1.2em 0em;
+}
+.listitem .author {
+	font-weight:bold;
+	padding-top:10px;
+	margin:0px;
+}
+.listitem .audience {
+	color:#767676;
+	padding:0px 0px 10px 0px;
+	margin:0px;
+}
+
+.listitem h3 {
+	max-width:430px;
+	margin-left:0px;
+	padding-left:0px;
+	margin-bottom:5px;
+	padding-bottom:0px;
+	line-height:1.2em;
+}
+.twocol .listitem h3 {
+	max-width:350px;	
+}
+.twocol .hasRightNav .listitem h3 {
+	max-width:295px;	
+}
+.orderfrom {
+	text-align:right;
+	max-width:175px;
+	position: absolute;
+	font-size:.9em;
+	top: 0px;
+	right: 0px;
+	line-height:1.2em;
+}
+h1.haspageback {
+	margin-left:35px;	
+}
+.content #pageBack {
+	text-indent:-9999px;
+	position:absolute;
+	display:block;
+	left:5px;
+	width:50px;
+	height:50px;
+	background:url('/bullying/images/styles/backArrow.jpg') center no-repeat;
+}
+.content #pageBack:hover{
+	background:url('/bullying/images/styles/backArrowHover.jpg') center no-repeat;
+}
+.subpage .content #pageBack {
+	background:url('/bullying/images/styles/backArrowWhite.png') center no-repeat;
+}
+.subpage .content #pageBack:hover {
+	background:url('/bullying/images/styles/backArrowWhiteHover.png') center no-repeat;
+}
+.externallink {
+	background:url(/bullying/images/styles/externallinklightred.png) no-repeat right;
+	padding-right:17px;
+	padding-bottom:1px;	
+}
+.externallink:hover {
+	background:url(/bullying/images/styles/externallinkblue.png) no-repeat right;
+}
+.infobox .datasetnav{
+	width:500px;
+	border: 1px solid #999;
+	padding: 5px;
+	margin:5px 46px 5px 5px;
+	background:#eee;
+}
+#bottomdataset {
+	border: 1px solid #3B3065;		
+}
+

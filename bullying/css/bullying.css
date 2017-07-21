@@ -1,0 +1,862 @@
+@import url('/fonts/font-awesome-4.2.0/css/font-awesome.min.css');
+
+/* COLOR CODES
+-headings: #F15C32 (orange)
+-link: #772828 (deep red)
+-link visited: #CE0000 (red)
+-link hover: #3e5593 (blue)
+hover: #FC0 (gold)
+Bright hover: #FF0 (yellow)
+*/
+
+body {
+	font: 1em/1.5 Calibri, Arial, sans-serif;
+	background: #ccc;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+body, #pacerwrapper {
+	background-color:#ccc;
+	
+	/*background-image: url(/bullying/images/grey-bully-background-v2.jpg); 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:top center;
+	background-size:cover;*/
+	}			
+
+img {
+	border:none;
+	text-decoration:none;
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+	
+}
+
+h1, h2, h3, h4, h5, h6, p, pre {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#F15C32;
+}
+h1, h2 {text-shadow: 1px 1px 1px #000;}
+h1{
+	font-size:2.1em;
+	letter-spacing:.03em;	
+}
+h2{
+	font-size:1.5em;
+	letter-spacing:.04em;
+}
+h3{
+	font-size:1.2em;
+	
+}
+pre{
+	font-size:1em;
+	font-family:Arial, Helvetica, sans-serif;
+	word-wrap:break-word;
+	white-space:pre-wrap;
+	
+}
+.sidebar2 h4{text-align:center;}
+a img {
+	border:none;
+	text-decoration:none;
+}
+a{font-weight:bold;}
+a:link{color: #772828;}
+a:visited{color: #CE0000;}
+a:hover, a:active, a:focus { 
+	color:#3e5593;
+	text-decoration: underline;
+}
+.container {
+	width: 1024px;
+	background: #FFF;
+	margin: 0px auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+/* ---------------------------------------------------
+   ---------------- header ---------------------------
+   ---------------------------------------------------*/
+.header {
+	position:relative;
+	background: #d73d23;
+	background-image:url(/bullying/images/header-bg.jpg);
+	background-repeat:repeat-y;
+	min-height:104px;
+}
+.header #mainlogo {
+	z-index:100;
+}
+.header #header-right {
+	position:absolute;
+	text-align:right;
+	top:10px;
+	right:5px;
+	width:440px;
+	overflow:hidden;
+	margin:0;
+	margin-right:5px;
+	font-size:13px;
+	z-index:0;
+}
+.header #header-right img{
+	vertical-align:middle;
+	margin:5px;	
+}
+.header #header-right a{
+	color:#fff;
+	padding:5px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.header #header-right a:hover{
+	color:#FC3;
+	text-decoration:underline;
+}
+.header #header-right a.leftborder{border-left:solid 2px #fff;}
+
+.header #header-right #imagerow{
+	margin-top:10px;
+	text-align:right;
+}
+#header-right .searchBox{width:150px;}
+
+#imagerow a:hover img{
+	border:none;
+	-moz-box-shadow: 0px 0px 5px #FF0;
+	-webkit-box-shadow: 0px 0px 5px #FF0;
+	box-shadow: 0px 0px 5px #FF0;
+}
+
+.topicon img{
+	display:block;
+	width:35px;
+	height:35px;
+	float:right;
+}
+
+.header #header-right a.topbutton{
+	display:block;
+	float:right;
+	text-indent: 3000em;
+	white-space:nowrap;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+.header #header-right a.topbutton span{
+	display:block;
+	width:0px;
+	height:0px;
+	overflow:hidden;
+}
+a#newsletterbutton{
+	width:89px;
+	height:35px;
+	background-image:url(/bullying/images/button-bully-newsletter.png);
+	background-position:0px center;
+}
+a#newsletterbutton:hover{
+	background-position:-120px center;
+}
+a#donatebutton{
+	width:89px;
+	height:35px;
+	background-image:url(/bullying/images/button-bully-donate.png);
+	background-position:0px center;
+}
+a#donatebutton:hover{
+	background-position:-110px center;
+}
+
+
+
+
+
+#pacerwrapper{
+	width:100%;
+	background-color:#ccc;	
+}
+#pacer {
+	background:url('/bullying/images/nav_up.jpg');
+	background-color:#039;
+	font-size:.8em;
+	width:6em;
+	padding:2px 5px 5px 5px;
+	margin-top:5px;
+	text-align:center;
+	
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+#pacer a{
+	color:#FFF;
+	text-decoration:none;
+}
+#pacer a:hover{
+	color:#FC0;	
+}
+#cse-search-box {
+	display:inline;
+	padding:0px;
+	margin:0px;
+}
+#cse-search-box label {
+	position:absolute;
+	left:-9999em;
+}
+#cse-search-box input{font-size:12px;}
+/* ---------------------------------------------------
+   ---------------- Breadcrumb -----------------------
+   ---------------------------------------------------*/
+.breadcrumb {
+	padding:5px 5px 5px 10px;
+	font-size:.7em;
+}
+.breadcrumb a, .breadcrumb a:visited, .breadcrumb a:hover, .breadcrumb a:active{
+	color:#3e5593;
+}
+/* -----------------------------------------------------------
+   --------------- Navigation CSS ----------------------------
+   ----------------------------------------------------------- */
+#navWrap{
+background:#fff;
+padding-top:5px;
+height:55px;
+z-index:10;
+position:relative;	
+}
+#topnav {
+	width:1024px;
+	font-size:13px !important;
+	background:#343263;
+	margin-top:5px;
+    }
+#topnav, #topnav ul {
+    float:left;
+    list-style:none;
+    line-height:20px;
+    padding:0;
+    margin:0;
+    width:1024px;
+    }
+#topnav a {
+    display:block;
+    text-decoration:none;
+    padding:0px 10px;
+	font-weight:bold;
+	line-height:17px;
+	margin-top:6px;
+	height:45px;
+	width:130px;
+	padding-left:10px;
+	padding-right:5px; 
+	color:#fff;
+    }
+#topnav li.longNavItem {
+		font-size:12px !important;
+}
+#topnav li.longNavItem li{
+		font-size:13px !important;
+}
+
+#topnav li {
+    float:left;
+    padding:0;
+	background:url('/bullying/images/nav_up.jpg') repeat-y right top; 
+    }
+#topnav li.hassubnav{
+	background:#3e5593 url('/bullying/images/nav_up_arrow.jpg') repeat-y right; 	
+}
+#topnav ul {
+    position:absolute;
+    left:-999em;
+    height:auto;
+    width:200px;
+    font-weight:normal;
+    margin:0;
+    line-height:20px;
+    border:0;
+	-moz-box-shadow: 17px 10px 40px #4a4a4a;
+	-webkit-box-shadow: 17px 10px 40px #4a4a4a;
+	box-shadow: 17px 10px 40px #4a4a4a;
+    }
+#topnav li li {
+    width:200px;
+    }
+#topnav li li a {
+    padding:4px 10px;
+    width:200px;
+    color:#F00;
+    }
+	
+#topnav li ul ul {
+    margin:-21px 0 0 150px;
+    }
+#topnav li li:hover {
+	/*Sub Level Hover Background*/
+	background:green;
+	background:#9797af url('/bullying/images/nav_over.jpg') repeat-y right; 
+    }
+#topnav li ul li:hover a, #topnav li ul li li:hover a, #topnav li ul li li li:hover a, #topnav li ul li li li:hover a {
+	/*Sub Level Hover Text*/
+	color:#000;
+    }
+#topnav li:hover a, #topnav li.sfhover a {
+	/*Top Level Hover Text*/
+    color:#000;
+    }
+#topnav li:hover li a, #topnav li li:hover li a, #topnav li li li:hover li a, #topnav li li li li:hover li a {
+	/*Sub Level Normal Text*/
+	color:#fff;
+    }
+#topnav li:hover ul ul, #topnav li:hover ul ul ul, #topnav li:hover ul ul ul ul, #topnav li.sfhover ul ul, #topnav li.sfhover ul ul ul, #topnav li.sfhover ul ul ul ul {
+    left:-999em;
+    }
+#topnav li:hover ul, #topnav li li:hover ul, #topnav li li li:hover ul, #topnav li li li li:hover ul, #topnav li.sfhover ul, #topnav li li.sfhover ul, #topnav li li li.sfhover ul, #topnav li li li li.sfhover ul {
+    left:auto;
+    }
+#topnav li:hover, #topnav li.sfhover {
+	/*Top Level Hover Background*/
+	background:#9797af url('/bullying/images/nav_over.jpg') repeat-y right; 
+    }
+#topnav li.hassubnav:hover{
+	/*Top Level Hover Background w/ hassubnav*/
+	background:#9797af url('/bullying/images/nav_over_arrow.jpg') repeat-y right; 		
+}
+
+#topnav li.twoCol li a {
+  height: 45px;
+}
+#topnav li.twoCol li:nth-child(even) a {
+  	width: 200px;
+	padding-left:25px;
+}
+#topnav li.twoCol ul {
+  border-top:3px solid #ccc;
+  background:#353364;
+  width: 400px;
+}
+#topnav li.twoCol li.doubleWide, #topnav li.twoCol li.twoCol {
+	width:400px;
+	background-size:contain;
+}
+@media screen and (max-width: 1145px) {
+	
+	#topnav li:hover ul.MediumScreenOpenLeft {
+		margin-left:-55px;
+	}
+	
+	#topnav li.twoCol:hover ul.MediumScreenOpenLeft {
+		margin-left:-254px;
+	}
+	
+	#topnav ul.MediumScreenOpenLeft li {
+		float:right;
+	}
+}
+
+/* ---------------------------------------------------
+   ---------------- 2+ Column Left Nav and Right Bar -
+   ---------------------------------------------------*/
+.content {
+	width:100%;
+	padding: 5px 0px;
+	position:relative;
+	z-index:0;
+	float: left;
+	background:#fff url('/bullying/images/window_gradient_small.jpg') repeat-x bottom;
+	min-height:670px;
+}
+
+.sidebar1 {
+	float: left;
+	width: 175px;
+	margin-left:5px;
+	margin-bottom:5px;
+	font-size:.9em;
+	background: #FFF url('/bullying/images/nbpc-logo-small.png') top right no-repeat;
+}
+.sidebar2 {
+	font-size:.8em;
+	float: left;
+	width: 200px;
+	margin-left:5px;
+	background: #FFF;	
+}
+.twocolright .sidebar2 {
+	float: right;
+	width:250px;
+}
+
+.sidebar2 li{
+	padding-left:3px;
+	margin-left:25px;
+	margin-bottom:1em;
+}
+.sidebar2 .sidenote{
+	padding-top:25px;
+	padding-bottom:25px;
+	margin-bottom:10px;
+	background:url(/bullying/images/small-blue-grad.png) top repeat-x, url(/bullying/images/small-blue-grad-bottom.png) bottom repeat-x;	
+}
+.content {
+	width:100%;
+}
+.twocol .content {
+	width: 844px;
+}
+.twocolright .content {
+	width:765px;
+}
+.threecol .content {
+	width:636px;
+	border-right:1px solid #ccc;
+}
+.sidebar1 ul.nav {
+	list-style: none;
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-top:50px;
+	margin-bottom: 20px; /* this creates the space between the navigation on the content below */
+}
+.sidebar1 ul.nav li {
+	border-bottom: 1px solid #666; /* this creates the button separation */
+}
+.sidebar1 ul.nav li:last-child {
+	border-bottom: none;
+}
+.sidebar1 ul.nav a,.sidebar1 ul.nav a:visited { 
+	padding: 5px 5px 5px 10px;
+	display: block; 
+	text-decoration: none;
+	background: #3e5593 url('/bullying/images/nav_up.jpg') repeat-y right;
+	color:#FFF;
+}
+.sidebar1 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background: #9797af url('/bullying/images/nav_over.jpg') repeat-y right;
+	color: #000;
+}
+.sidebar1 ul.nav li.active a {
+	background: #9797af url('/bullying/images/nav_at.jpg') repeat-y right;
+	color:#000;
+}
+.sidebar1 ul.nav ul.submenu {
+	margin-left:15px;
+	list-style:none;
+}
+.sidebar1 ul.nav ul.submenuhidden {
+	display:none;
+}
+.sidebar1 ul.nav ul.submenu a, .sidebar1 ul.nav ul.submenu a:visited {
+	font-size:.8em;
+	background: #ccc url('/bullying/images/nav_up-sub.jpg') repeat-y right;
+	color:#fff;
+}
+.sidebar1 ul.nav ul.submenu a:hover, .sidebar1 ul.nav ul.submenu a:active{
+	background: #3e5593 url('/bullying/images/nav_over.jpg') repeat-y right;
+	color:#000;
+}
+.sidebar1 ul.nav ul.submenu li.active a{
+	background: #3e5593 url('/bullying/images/nav_at.jpg') repeat-y right;
+	color:#000;
+}
+.sidebar1 ul.nav ul.submenu li li a, .sidebar1 ul.nav ul.submenu li li a:visited{
+	background: #ccc;
+	background-image:none;
+	color:#000;
+}
+.sidebar1 ul.nav ul.submenu li li a:hover{
+	background:#9797af;
+}
+.sidebar1 ul.nav ul.submenu li li.active a{
+	background: #3e5593 url('/bullying/images/nav_at.jpg') repeat-y right;
+	color:#000;
+}
+.sidebar1 ul.nav ul.submenu li.active li a, .sidebar1 ul.nav ul.submenu li.active li a:visited{
+	background: #ccc;
+	background-image:none;
+	color:#000;
+}
+.sidebar1 ul.nav ul.submenu li.active li a:hover{
+	background:#9797af;
+}
+
+.sidebar1 ul.nav li.topheader a {
+  background-color: #22203e;
+  background-image: none;
+  color: #fff;
+  cursor: default;
+  font-size: 1.1em;
+  text-align: center;
+}
+/* ---------------------------------------------------
+   ---------------- layout info ----------------------
+   ---------------------------------------------------*/
+#skiptocontent, .skiptocontent{
+	display:block;
+	position:fixed;
+	left:-9999px;
+}
+.splitlayout td{
+	width:50%;
+	vertical-align:top;
+}
+.content li{
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:0.5em;
+}
+.content ul, .content ol {
+	margin-bottom:1em;
+}
+
+
+
+.footer {
+	position:relative;
+	clear:both;
+	font-size:.8em;
+	line-height:2.0;
+	background: #d73d23;
+	background-image:url(/bullying/images/footer-bg.jpg);
+}
+.footer a {
+	color:#fff;
+}
+.footer {
+	color:#fff;
+	position:relative;
+	background-image:none;
+	background-color:#373564;
+}
+.footer .btn {
+	width:18em;
+	max-width:500px;
+	margin-top:15px;
+	background-image:none;
+	text-align:center;
+	border:white 1px solid;
+	border-radius: 5px;
+	font-size:1.05em;
+}
+#kidsBtn:link, #kidsBtn:visited{
+	background-color:rgba(197,75,40,0.50);
+	background-image:none;
+}
+#kidsBtn:hover, #kidsBtn:active{
+	background-color:rgba(197,75,40,0.25);
+	background-image:none;
+}
+#teensBtn:link, #teensBtn:visited{
+	background-color:rgba(255,255,255,0.10);
+	background-image:none;
+}
+#teensBtn:hover, #teensBtn:active{
+	background-color:rgba(255,255,255,0.25);
+	background-image:none;
+}
+#tagBtn:link, #tagBtn:visited{
+	background-color:rgba(255,85,0,0.50);
+	background-image:none;
+}
+#tagBtn:hover, #tagBtn:active{
+	background-color:rgba(255,85,0,0.25);
+	background-image:none;
+}	
+.footer-col {
+	padding:20px;
+	float:left;
+}
+.footer-col li {
+	list-style:none;
+}
+#footer-logo {
+	margin-left:10px;
+}
+/* Column Sizing - All Width and Padding <= 1024  (default padding per box = 20+20)*/
+#leftCol-branding {
+	width:340px;
+}
+#centerCol-links {
+	width:208px;
+	padding-left:85px;
+	font-size:1.3em;
+}
+#rightCol-Sites {
+	width:280px;
+	padding-left:30px;
+}
+/* End Column Sizing */
+
+.footer a:link, .footer a:visited{
+	text-decoration:none;
+}
+.footer a:hover, #footer a:active{
+	text-decoration:underline;
+}
+#leftCol-branding p {
+	font-size:1.05em;
+}
+#footer-topright {
+	position:absolute;
+	top:5px;
+	right:10px;
+}
+.footer #copywrite{
+	color:#fff;
+	text-align:right;
+	margin-right:10px;
+	font-size:10px;
+	padding:0px;
+}
+.footer #copywrite #yna{
+	clear:left;
+	position:absolute;
+	bottom:5px; 
+	right:10px; 	
+}
+
+
+
+
+/* ~~ miscellaneous float/clear classes ~~ */
+
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+	margin-right:5px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+	margin-left:5px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.centered {text-align:center;}
+img.centered {
+	display:block;
+	margin:5px auto;
+}
+hr {
+	margin-left:10px;
+	margin-right:10px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.hr {
+	border-top:solid 1px #000;
+	margin-top:20px;
+	margin-left:10px;
+	margin-right:10px;
+	padding-top:20px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.date {
+	color:#666;
+	font-size:.9em;
+	margin-top:2px;
+}
+a:hover .glow {
+	-moz-box-shadow: 0px 0px 5px #FF0;
+	-webkit-box-shadow: 0px 0px 5px #FF0;
+	box-shadow: 0px 0px 5px #FF0;
+}
+a:hover .glowred {
+	-moz-box-shadow: 0px 0px 5px #772828;
+	-webkit-box-shadow: 0px 0px 5px #772828;
+	box-shadow: 0px 0px 5px #772828;
+}
+ul.nobullet {
+	list-style:none;
+}
+ul.space  li {
+	margin-bottom:1em;
+}
+.datasetnav{
+	width:300px;
+	border: 1px solid #999;
+	padding: 5px;
+	margin:5px 46px 5px 5px;
+	background:#eee;
+}
+.watermark{
+	background:url(/bullying/images/nbpc-logo-bg.png) no-repeat right bottom;
+}
+
+.content .alertBox {
+  background: none repeat scroll 0 0 #FFFF99;
+  border: 2px solid #FF9933;
+  float: right;
+  font-size: 0.8em;
+  margin: 10px 10px 10px 15px;
+  padding: 8px;
+  width: 225px;
+}
+.content .alertBox h2{
+	text-align:center;
+}
+.content img.alertBox {
+  background: none;
+  border: none;
+  padding:0px;
+  width: 245px;
+}
+.resources {
+  background: #eee none repeat scroll 0 0;
+  border: 1px solid #007299;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 5px;
+  width: 90%;
+}
+.extralinktext{
+	display:block;
+	position:absolute;
+	left:-9999px;
+}
+li.pdficonlist {
+	list-style-image:url(/images/pdficon_small.gif);
+	list-style-type:none;
+}
+li.wordiconlist {
+	list-style-image:url(/images/wordicon_small.gif);
+	list-style-type:none;
+}
+li.videoiconList {
+	list-style-image:url(/images/movieReelIcon_small.gif);
+	list-style-type:none;
+}
+li.fbiconlist {
+	list-style-image:url(/images/facebookicon_tiny.gif);
+	list-style-type:none;
+}
+li.ppticonlist {
+	list-style-image:url(/images/ppticon_small.gif);
+	list-style-type:none;
+}
+li.trophyiconlist {
+	list-style-image:url(/images/trophyicon_small.jpg);
+	list-style-type:none;	
+}
+li.trophyiconlist li{
+	list-style-image:none;
+	list-style-type:inherit;	
+}
+
+.fa-external-link {
+	font-size:.6em;
+}
+.addthis_sharing_toolbox {
+	float: right;
+	min-height: 37px;
+	min-width: 240px;
+	margin-bottom: 25px;	
+	padding-right: 10px;
+    clear:none !important;
+}
+.breadcrumb .addthis_sharing_toolbox {
+	margin-bottom:5px;
+}
+.sharethis {
+	float:right;
+}
+
+
+.btn-cta:before {
+  background-color: #921C17;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  box-sizing: border-box;
+  content: ">";
+  display: inline-block;
+  font-size: 0.75em;
+  height: 45px;
+  line-height: 45px;
+  margin-left: 8px;
+  padding: 0 8px 0 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.btn:hover{
+  background:#FF5A2C;
+  background: linear-gradient(to bottom, #FF6E46 0%, #CB251F 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.btn-cta, .btn, a.btn:link, a.btn:visited {
+  color: #fff;
+}
+a.btn:hover, a.btn:active {
+  color: #fff;
+}
+.btn {
+
+  background:#FF5A2C;
+  background: linear-gradient(to bottom, #FF5A2C 0%, #B2211C 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+  border-radius: 3px;
+  border-width: 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: bold;
+  height: 45px;
+  letter-spacing: 0.05em;
+  line-height: 45px;
+  padding: 0 25px;
+  position: relative;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  white-space: nowrap;
+  margin:5px;
+}
+.btn.btn-cta {
+	padding-right:40px;
+}
+.tabbedPanel {
+  margin: 20px;
+}
+.ui-widget-content a.mover {
+    background: #cccccc url("/js/jquery-ui-1.11.4.custom/images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50%;
+    border: 1px solid #2a2950;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ccc;
+    color: #772828;
+    margin-top: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+.ui-widget-content a.mover:hover {
+    background: #dadada url("/js/jquery-ui-1.11.4.custom/images/ui-bg_glass_75_dadada_1x400.png") repeat-x scroll 50% 50%;
+    border: 1px solid #5b59a9;
+    color: #3e5593;
+    text-decoration: none;
+}
+.container .ui-widget {
+	font-size:1em;
+	font-family:Calibri, Arial, sans-serif;
+}
+.next-tab {
+    float: right;
+}
+.prev-tab {
+    float: left;
+}

@@ -1,0 +1,74 @@
+@charset "utf-8";
+* {
+	margin:0;
+	padding:0;
+	outline:none;
+}
+body {
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:30px;
+	/*background: #009FAA url(../images/body_bg.png) repeat-x;*/
+}
+#contact_form {
+	width:600px;
+	height:200px;
+	margin:0px auto;
+	padding-top:10px;
+	background: transparent url(../images/form_bg.png) no-repeat;
+	border:none;
+	position:relative;
+}
+#closebutton{
+	width:600px;
+	margin:0px auto;
+	position:relative;
+	top:30px;
+	right:15px;
+	text-align:right;
+	z-index:5;
+}
+label {
+	display:block;
+	margin-left:10px;
+	color:#ffd;
+	font-weight:bold;
+	padding:8px 0px;
+}
+textarea{
+	margin-left:10px;
+	
+}
+#submit_btn {
+	position:absolute;
+	top:163px;
+	left:388px;
+	font-size:16px;
+
+}
+#submit_btn:hover {
+	background:#009FAA none repeat scroll 0% 0%;
+	color:white;
+}
+#message {
+	color:#fff;
+	width:260px;
+	margin:55px 0 0 100px;
+}
+#message a{
+	color:#fff;	
+}
+#message h2 {
+	font-size:150%;
+	color:white;
+}
+#message p {
+	color:white;
+	font-weight:bold;
+	margin:6px 0px;
+}
+#checkmark {
+	position:relative;
+	top:-46px;
+	left:-60px;
+}

@@ -1,0 +1,25 @@
+/* CSS Document */
+body, #pagecontent, #wrapper {
+	width:100%;
+	max-width:none;
+	min-width:none;
+	border:none;
+	background:#fff;
+	
+}
+#header {display:none;}
+#datePicker {display:none;}
+#skiptocontent {display:none;}
+#topbar {display:none;}
+#leftbar {display:none;}
+#footer1 {display:none;}
+#footer2 {display:none;}
+
+#pagecontent{margin:0px;}
+
+.page-break {
+	page-break-after:avoid;
+}
+#pagecontent .reportDates {
+	text-align:left;
+}
