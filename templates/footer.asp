@@ -26,7 +26,7 @@
                     <a href="http://www.pacerteensagainstbullying.org/tab/">Teens Against Bullying</a>
                     <a href="http://www.pacerkidsagainstbullying.org/kab/">Kids Against Bullying</a>
                     <a href="http://www.fastfamilysupport.org">FAST Family Support</a>
-                    <a href="http://www.fape.org">FAPE</a>
+                    <!--<a href="http://www.fape.org">FAPE</a>-->
                     <a href="http://www.mnseacinfo.org">MN SEACs</a>
                 </div>
                 <div class="footer-translated">

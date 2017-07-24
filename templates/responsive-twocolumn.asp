@@ -50,6 +50,8 @@
 	}
 </script>
 
+<div id="maincontent">
+
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->

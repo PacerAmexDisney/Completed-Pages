@@ -25,7 +25,7 @@
 		  <a href="https://www.instagram.com/pacercenter/" title="Instagram" target="_blank" class="socialButton instagram"><img name="instagram" src="/images/instagramicon_medium.gif" width="35" height="35" alt="Join us on Instagram" style="margin-right:10px" /></a>
   
 	</div>
-	<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center - Champions for Children with Disabilities" class="logoImg" /></a>
+	<a href="/"><img id="mainLogo" src="/images/pacerLogo.gif" alt="PACER Center - Champions for Children with Disabilities" class="logoImg" /></a>
 </div>
 
 		<div id="menu">
@@ -35,7 +35,6 @@
 			</div>
 
 		<ul id="nav" class="parent-nav global-nav">
-            <li class="first-level-nav"><a href="/"><span>Home</span></a></li>
 			<li class="events first-level-nav"><a href="/about/howpacerhelps.asp"><span>How PACER Helps</span></a>
             	<ul>
 					<li><a href="/stories/"><span>PACER Success Stories</span></a></li>
