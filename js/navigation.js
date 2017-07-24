@@ -99,10 +99,10 @@ function MobileNavInit() {
             $newsletter = $('.header-newsletter');
 
         if ($donate.length){
-            addToNav($donate.html('<span>donate</span>'), 'first-level-nav', true);
+            addToNav($donate.html('<span>donate</span>'), 'first-level-nav', false);
         }
         if ($newsletter.length){
-            addToNav($newsletter.html('<span>newsletter</span>'), 'first-level-nav', true);
+            addToNav($newsletter.html('<span>newsletter</span>'), 'first-level-nav', false);
         }
     }
 
@@ -124,11 +124,11 @@ function MobileNavInit() {
     }
 
     function injectThirdLevelNav(){
+        //alert('3rd Level');
         var $tertiaryCategories,
 			$nav = $('.global-nav'),
 			$thirdLevelNavFile = "/templates/third-level-nav-master.asp",
 			$currentURL = window.location.pathname;
-
 		$nav.find('br').replaceWith(' ');
 		
 		if ($currentURL.match("^/bullying")) {
@@ -138,8 +138,8 @@ function MobileNavInit() {
 			$thirdLevelNavFile = "/transition/templates/third-level-nav-master.asp";
 			}
 
-		$.get('/templates/third-level-nav-master.asp', function (data) {
-  			$tertiaryCategories = $(data).find('.third-level-nav, submenu');
+		$.get($thirdLevelNavFile, function (data) {
+  			$tertiaryCategories = $(data).find('.third-level-nav, .submenu');
 			$tertiaryCategories.find('br').replaceWith(' ');
 			
 			if ($tertiaryCategories.length && $nav.length){
@@ -199,5 +199,9 @@ function MobileNavInit() {
     // Let's get this party started.
     initialize();
 }
+
+//alert('initialize mobile');
+
 $(window).resize(MobileNavInit);
+
 MobileNavInit();

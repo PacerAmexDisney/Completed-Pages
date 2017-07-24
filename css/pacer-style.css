@@ -8,6 +8,10 @@ body {
 	text-align: left;
 	padding-top:15px;
 }
+#mainLogo {
+	max-width: 50%;
+	height: auto;
+}
 #header {
 	position:relative;
 }
@@ -54,7 +58,6 @@ img {
 *****                          *****
 ***********************************/
 #wrapper {
-	min-width: 980px;
 	max-width: 1200px;
 	margin: 0 auto;
 	background-color:#eee;

@@ -263,6 +263,13 @@ $primary-border: 1px solid $parent-blue;
                             }
                         }
                     }
+					.third-level-nav {
+						a{
+							span{
+								margin-left:50px;
+							}
+						}
+					}
                 }
                 &:last-of-type{
                     border-bottom: $primary-border;

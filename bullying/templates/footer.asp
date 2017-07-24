@@ -38,6 +38,7 @@
                 </ul>
             </div>
             <div id="rightCol-Sites" class="footer-col">
+                <h3>Visit our other sites</h3>
                 <ul>
                     <li><a class="btn" id="kidsBtn" href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank">KidsAgainstBullying.org <span class="fa fa-external-link"></span></a></li>
                     <li><a class="btn" id="teensBtn" href="http://www.pacerteensagainstbullying.org/tab/" target="_blank">TeensAgainstBullying.org <span class="fa fa-external-link"></span></a></li>

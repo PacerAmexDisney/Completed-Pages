@@ -77,7 +77,7 @@ a:hover, a:active, a:focus {
 	text-decoration: underline;
 }
 .container {
-	width: 1024px;
+	max-width: 1024px;
 	background: #FFF;
 	margin: 0px auto; /* the auto value on the sides, coupled with the width, centers the layout */
 }
@@ -250,11 +250,9 @@ position:relative;
 #navWrap a#newsletterbutton, #navWrap a#donatebutton{
 	display: none;
 }
-
 /* ---------------- END MOBILE Pieces ----------------- */
 
 #topnav {
-	width:1024px;
 	font-size:13px !important;
 	background:#343263;
 	margin-top:5px;
@@ -265,7 +263,7 @@ position:relative;
     line-height:20px;
     padding:0;
     margin:0;
-    width:1024px;
+    width:100%;
     }
 #topnav a {
     display:block;
@@ -371,6 +369,28 @@ position:relative;
 	width:400px;
 	background-size:contain;
 }
+/* ---------------------------
+Adjust Nav for smallish screens but not mobile sizes
+-----------------------------------*/
+@media screen and (max-width: 1032px) {
+	#topnav a {
+		width: 108px;
+		font-size: 12px;
+	}	
+	body.twocol div.content {
+		width: calc(100% - 185px);
+	}
+}
+@media screen and (max-width: 880px) {
+	#topnav a {
+		width: 88px;
+		font-size: 10px;
+	}	
+}
+/* ---------------------------
+FIX Nav where the navigation doesn't have room to open to the right on the last item 
+-----------------------------------*/
+
 @media screen and (max-width: 1145px) {
 	
 	#topnav li:hover ul.MediumScreenOpenLeft {
@@ -434,14 +454,8 @@ position:relative;
 	width:100%;
 }
 .twocol .content {
-	width: 844px;
-}
-.twocolright .content {
-	width:765px;
-}
-.threecol .content {
-	width:636px;
-	border-right:1px solid #ccc;
+	width: 100%;
+	max-width: 844px;
 }
 .sidebar1 ul.nav {
 	list-style: none;

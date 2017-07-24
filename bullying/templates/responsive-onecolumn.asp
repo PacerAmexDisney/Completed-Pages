@@ -1,37 +1,31 @@
-<!--#include virtual="/templates/header.asp"-->
+<!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
-<title> - Template - PACER Center</title>
+<title>Template - National Bullying Prevention Center</title>
 
 <meta property="og:title" content="" />
 <meta property="og:url" content="" />
-<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
-
-<link rel="stylesheet" type="text/css" href="/css/pacer-style.css" />
-<link rel="stylesheet" type="text/css" href="/css/parent-responsive-v1.03.min.css" />
 </head>
-<body class="singleCol">
+<body class="onecol">
+<div class="container">
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/templates/page-header-nav.asp"-->
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
-<div id="topbar">
-<div id="breadcrumb">
+<div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
 
-<a href="/">Home</a> / <a href="/cultural-diversity/">Working with Culturaly Diverse Families</a> /
-</div>
-	<h1>One Cloumn Page Heading</h1>
-</div>
-
-<div id="maincontent">
-
-<div id="pagecontent">
-
-<!--BEGIN CONTENT-->
-<h2>Content Section Title</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil alias cupiditate, voluptatibus laborum consequuntur aliquam animi quia, dolorem qui unde recusandae ipsam iusto veritatis possimus numquam, ab vitae hic perspiciatis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus deserunt repudiandae, deleniti nisi aperiam quaerat ab voluptates labore expedita consectetur quas veritatis at officia mollitia qui aliquid iste! Consequuntur, minus!</p>
+<!-- ########################## MAIN CONTENT ########################################### -->
 
 
-<!--END CONTENT-->
-<!--#include virtual="/templates/footer.asp"-->
+<div class="content">
+    <h1 id="maincontent">National Bullying Prevention Main Conntent</h1>
+    
+    
+	<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

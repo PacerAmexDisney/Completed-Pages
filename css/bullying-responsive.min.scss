@@ -56,7 +56,8 @@ $primary-border: 1px solid $bullying-orange;
 
 //-- Responsive | Bullying Styles
 @mixin bullying-responsive-styles{
-    .container{
+	body.twocol div.content { width: 100%}
+	.container{
         width: 100%;
         #pacerwrapper, .header { display: none }
 		.content { width: 100%;}
@@ -89,7 +90,10 @@ $primary-border: 1px solid $bullying-orange;
                 background-size: 200px 38px;
             }
         }
-
+		
+		.breadcrumb {
+			display: none;
+		}
         //-- Primary nav
         #navWrap{
             display: none; // displayed w/ js
@@ -194,7 +198,7 @@ $primary-border: 1px solid $bullying-orange;
                                     border: 1px solid $bullying-white;
                                 }
                                 .submenu{
-                                    display: block;
+                                    display: none;
                                     margin: 0;
                                     li{
                                         width: 100%;
@@ -230,6 +234,7 @@ $primary-border: 1px solid $bullying-orange;
 
             //-- Social icons
             .social-list{
+				display: block;
                 width: 100%;
                 border: 1px solid $bullying-orange;
                 .social-elements{
@@ -258,7 +263,7 @@ $primary-border: 1px solid $bullying-orange;
                             background-image: url(images/mobile/bullying/instagram-icon.png);
                         }
                         &.pinterest{
-                            background-image: url(images/mobile/bullying/youtube-icon.png);
+                            background-image: url(images/mobile/bullying/pintrest-icon.png);
                         }
                         &.youtube{
                             background-image: url(images/mobile/bullying/youtube-icon.png);
@@ -275,13 +280,14 @@ $primary-border: 1px solid $bullying-orange;
 
         //-- Search
         .search-wrapper{
+			display: block;
             background-color: $bullying-orange;
             border: 1px solid $bullying-white;
             #cse-search-box{
                 line-height: 0;
                 .searchBox{
                     height: 30px;
-                    width: calc(100% - 75px);
+                    width: calc(100% - 80px);
                     margin: 10px;
                     padding: 0;
                     vertical-align: top;
