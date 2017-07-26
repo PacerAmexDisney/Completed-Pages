@@ -9,6 +9,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximumscale=1,user-scalable=no">
 <title>PACER's National Bullying Prevention Center</title>
 <meta name="description" content="unites, engages, and educates kids, teens, parents and communities nationwide to address bullying through creative, relevant, and interactive resources.
 " />
@@ -33,6 +34,7 @@
 <link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
 <link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
 <link href="/bullying/css/home.css" rel="stylesheet" type="text/css" />
+<link href="/bullying/css/bullying-responsive.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/bullying/dynamic-head-items.html"-->
 
 
@@ -414,7 +416,7 @@ will be bullied this year. Learn how you can help prevent bullying.</span></a>
 
 <li class="wide">
 	
-	<h3>Pledge To Join &ldquo;Together Against Bullying&rdquo;</h3>
+	<h3>Pledge Toï¿½Join &ldquo;Together Against Bullying&rdquo;</h3>
 	<img style="border:1px solid #999" src="/bullying/pledge/images/pledge-banner.jpg" width="315" height="100" alt=""/>
 	<p>More than one of every five students report being bullied. This might be happening to someone you know and care about. Want to take action to help prevent bullying?</p>
 	<p><a href="/bullying/pledge">Take the pledge</a> and <a href="http://www.pacer.org/bullying/pledge/#hold-a-pledge-event">encourage others</a> to get involved.</p>
@@ -447,7 +449,7 @@ will be bullied this year. Learn how you can help prevent bullying.</span></a>
 
  <li class="wide">
  <img width="100%" src="/bullying/getinvolved/images/natalieHamptonBanner.jpg" alt="" />
- <h3>SIT WITH US! Teen App Developer Partners with PACER’s NBPC to Create Inclusive Communities</h3>
+ <h3>SIT WITH US! Teen App Developer Partners with PACERï¿½s NBPC to Create Inclusive Communities</h3>
  <p>At 16 years old Natalie Hampton designed the app SIT WITH US to address bullying by helping students who have difficulty finding a place to sit locate a welcoming group in the lunchroom. Natalie is teaming with NBPC to share the message that no one should ever have to feel alone. </p>
  <p><a href="/bullying/getinvolved/natalie-hampton.asp">Learn More</a></p>
  </li>
@@ -489,7 +491,7 @@ will be bullied this year. Learn how you can help prevent bullying.</span></a>
 
  <li>
  <p class="fIcon fInfo">Notifying the School About Bullying &ndash; Using a Template Letter</p>
- <p><a href="/bullying/resources/publications/#notifytheschool"><img class="fltrt" src="/bullying/images/homepage-extra/template-letter-thumb.jpg" width="120" height="155" alt="Read More"/></a>Parents should contact school staff each time their child informs them that he or she has been bullied.  PACER Center has created template letters that parents may use as a guide for writing a letter to their child&rsquo;s school.  These letters contain standard language and &ldquo;fill in the blank&rdquo; spaces so the letter can be customized for your child&rsquo;s situation.</p>
+ <p><a href="/bullying/resources/publications/#notifytheschool"><img class="fltrt" src="/bullying/images/homepage-extra/template-letter-thumb.jpg" width="120" height="155" alt="Read More"/></a>Parents should contact school staff each time their child informs them that he or she has been bullied.ï¿½ PACER Center has created template letters that parents may use as a guide for writing a letter to their child&rsquo;s school. ï¿½These letters contain standard language and &ldquo;fill in the blank&rdquo; spaces so the letter can be customized for your child&rsquo;s situation.</p>
  <p><a href="/bullying/resources/publications/#notifytheschool">Read More</a></p>
 </li>
 
@@ -571,7 +573,7 @@ will be bullied this year. Learn how you can help prevent bullying.</span></a>
 '<h3>Unity Day 2016, Oct. 19<sup>th</sup><br />
 ' Make it orange! Make it end!
 '</h3>
-'<p><strong><a href="/bullying/nbpm/unity-day.asp">UNITY DAY: Together against bullying — united for kindness, acceptance and inclusion.</a></strong><br />
+'<p><strong><a href="/bullying/nbpm/unity-day.asp">UNITY DAY: Together against bullying ï¿½ united for kindness, acceptance and inclusion.</a></strong><br />
 ' 
 'Go orange to show your support! Ideas to share orange online include:</p>
 '<ol type="square">
@@ -633,9 +635,9 @@ will be bullied this year. Learn how you can help prevent bullying.</span></a>
  
 '<li class="wide">
 '	<div>
-'	<h3>YouTube Sensation Bethany Mota joins PACER’s National Bullying Prevention Center and Viktor’s Quest to S.T.O.P. Bullying at Mall of America&reg; October 20th</h3>
+'	<h3>YouTube Sensation Bethany Mota joins PACERï¿½s National Bullying Prevention Center and Viktorï¿½s Quest to S.T.O.P. Bullying at Mall of America&reg; October 20th</h3>
 '	<img src="/bullying/images/homepage-extra/bethany-moa.jpg" style="border:1px solid black;" width="320" height="213" alt=""/>
-'	<p>October is National Bullying Prevention Month, which was started by PACER Center in 2006, and YouTube sensation Bethany Mota will help mark the occasion Tuesday, Oct. 20 at Mall of America&reg; during PACER’s Together Against Bullying Day. <a href="http://www.pacer.org/bullying/getinvolved/moa-event.asp">Learn More >>></a></p>
+'	<p>October is National Bullying Prevention Month, which was started by PACER Center in 2006, and YouTube sensation Bethany Mota will help mark the occasion Tuesday, Oct. 20 at Mall of America&reg; during PACERï¿½s Together Against Bullying Day. <a href="http://www.pacer.org/bullying/getinvolved/moa-event.asp">Learn More >>></a></p>
 '	</div>
 '</li>
 
@@ -729,7 +731,7 @@ rs.movenext
 <!--	<tr>
 		<td>
 			<h3>Vote &ldquo;Kindness&rdquo;</h3>
-			<p>The Cat in the Hat, in his Presidential campaign, will represent all that Dr. Seuss believed about children—that they have the intellect, imagination and power to impact our world positively, while also having fun doing so. On the ballot are his supporters and their causes, including “kindness for all” sponsored by PACER’s National Bullying Prevention Center. The organization with the most votes receives a $10,000 donation.</p>
+			<p>The Cat in the Hat, in his Presidential campaign, will represent all that Dr. Seuss believed about childrenï¿½that they have the intellect, imagination and power to impact our world positively, while also having fun doing so. On the ballot are his supporters and their causes, including ï¿½kindness for allï¿½ sponsored by PACERï¿½s National Bullying Prevention Center. The organization with the most votes receives a $10,000 donation.</p>
 			<p><a href="http://www.seussville.com/catinhat4prez/" target="_blank">Vote to support kindness</a></p>
 		</td>
 		<td>
@@ -741,7 +743,7 @@ rs.movenext
 		<td>
 			<h3>Take surveys, join Survey Monkey Contribute</h3>
 			<p>Sign up and you will receive surveys by e-mail from SurveyMonkey customers who need your opinion. For every survey you take, SurveyMonkey will donate 50 cents to PACER's National Bullying Prevention Center, plus you'll get a chance to win $100 in an instant win game.</p>
-			 <p><a href="https://contribute.surveymonkey.com/sign-in" target="_blank">Join Survey Monkey in supporting PACER’s NBPC</a></p>
+			 <p><a href="https://contribute.surveymonkey.com/sign-in" target="_blank">Join Survey Monkey in supporting PACERï¿½s NBPC</a></p>
 		</td>
 		<td>
 			<img src="/bullying/images/survey-monkey-200w.jpg" width="200" height="200" alt=""/>
@@ -784,7 +786,7 @@ rs.movenext
 	<tr>
 		<td>
 			<h3>Nominate someone for a Unity Award</h3>
-			<p>The annual Unity Awards event celebrates a few individuals and groups, in Minnesota and throughout the nation, who have made outstanding contributions to prevent bullying—whether it’s building awareness, inspiring and empowering others to take positive action, or advocating for those who need support.</p>
+			<p>The annual Unity Awards event celebrates a few individuals and groups, in Minnesota and throughout the nation, who have made outstanding contributions to prevent bullyingï¿½whether itï¿½s building awareness, inspiring and empowering others to take positive action, or advocating for those who need support.</p>
 			<p><a href="http://www.pacer.org/bullying/getinvolved/unity-awards.asp">Recognize someone in your community.</a></p>
 		</td>
 		<td>
@@ -795,7 +797,7 @@ rs.movenext
 	<tr>
 		<td>
 			<h3>Hold an event in your community</h3>
-			<p>A complete event toolkit provides resources and giveaways to initiate conversation and action on ways to “be there” for those who experience bullying, providing kindness, hope, and support. The toolkit can be used in coordination with a bullying prevention event in the school or community, such as a Run, Walk, Roll Against Bullying, school open house, or parent-teacher conferences.</p>
+			<p>A complete event toolkit provides resources and giveaways to initiate conversation and action on ways to ï¿½be thereï¿½ for those who experience bullying, providing kindness, hope, and support. The toolkit can be used in coordination with a bullying prevention event in the school or community, such as a Run, Walk, Roll Against Bullying, school open house, or parent-teacher conferences.</p>
 			<p><a href="http://www.pacer.org/bullying/yourenotalone/event-toolkit.asp">Order the &ldquo;You're Not Alone, We're Here for You&rdquo; toolkit</a></p>
 		</td>
 		<td>
@@ -842,7 +844,7 @@ rs.movenext
 
 <%
 '<h3>All About Bullies . . . Big And Small</h3>
-'<p><a href="http://allaboutbulliesbigandsmall.com/" target="_blank"><img class="fltlft" style="margin-bottom:10px;" src="/bullying/getinvolved/supporter-resources/images/All-About-Bullies-CD-front3.jpg" width="146" height="147" 'alt="All About Bullies &hellip; Big and Small" /></a>A CD for young children, and winner of a Grammy for Best Children&rsquo;s Album, <a href="http://allaboutbulliesbigandsmall.com/" target="_blank">All About Bullies &hellip; Big 'and Small</a> is a collection of music, poetry and storytelling designed to put an interesting and heartfelt twist on bullying prevention, so that young learners can identify with the topic in an age appropriate manner. The 'artists all generously contributed their time and talents. 100% of the profit proceeds are donated to PACER’s Kids Against Bullying initiatives. </p>
+'<p><a href="http://allaboutbulliesbigandsmall.com/" target="_blank"><img class="fltlft" style="margin-bottom:10px;" src="/bullying/getinvolved/supporter-resources/images/All-About-Bullies-CD-front3.jpg" width="146" height="147" 'alt="All About Bullies &hellip; Big and Small" /></a>A CD for young children, and winner of a Grammy for Best Children&rsquo;s Album, <a href="http://allaboutbulliesbigandsmall.com/" target="_blank">All About Bullies &hellip; Big 'and Small</a> is a collection of music, poetry and storytelling designed to put an interesting and heartfelt twist on bullying prevention, so that young learners can identify with the topic in an age appropriate manner. The 'artists all generously contributed their time and talents. 100% of the profit proceeds are donated to PACERï¿½s Kids Against Bullying initiatives. </p>
 '<br style="clear:left" />
 '</div>
 
