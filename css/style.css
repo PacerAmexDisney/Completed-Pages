@@ -225,7 +225,7 @@ div.grantad {
 .grantad p {
 	padding: 0;
 	margin: 0;
-	text-transform: uppercase;
+
 }
 .grantad a, .grantad a:visited {
 	color: #fff;
@@ -532,7 +532,6 @@ p{
 	font-size: 125%;
 	margin: 1.5em 0;
 	padding: 0;
-	text-transform: uppercase;
 }
 
 #maincontent {
@@ -551,7 +550,6 @@ p{
 #pagetoporange h1 {
 	padding: 0;
 	margin: .5em 0 0 0;
-	text-transform: uppercase;
 }
 
 #maincontent p {
@@ -761,7 +759,6 @@ div.stayinformed {
 .stayinformed h2 {
 	color: #c60;
 	font-size: 110%;
-	text-transform: uppercase;
 }
 .stayinformed p {
 	padding: .5em 0;

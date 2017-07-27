@@ -59,7 +59,5 @@
 <img class="crclImg fltrt" src="/puppets/images/Puppets-and-Slide.jpg" width="250" height="333" alt="Count Me In puppets on a slide." /><br />
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur illum cupiditate numquam quos ea autem odit quibusdam illo, nostrum animi, praesentium nesciunt excepturi tempora fugiat nulla sunt suscipit. Explicabo, quo!</p>
 
-
-
 <!--END CONTENT-->
 <!--#include virtual="/templates/footer.asp"-->

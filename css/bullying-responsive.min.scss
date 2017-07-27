@@ -99,7 +99,7 @@ $primary-border: 1px solid $bullying-orange;
             display: none; // displayed w/ js
             height: auto;
             padding-top: 0;
-			
+			a#donatebutton, a#newsletterbutton{display: block;}
 			#topnav ul { box-shadow: none;}
             #topnav.bullying-nav{
                 float: none;

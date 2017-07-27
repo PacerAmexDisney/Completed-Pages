@@ -270,13 +270,8 @@ h4 {
 	margin-left: 5px;
 
 }
-#pagecontent .greenBar {
-	background:#246C00;
-	color:#fff;
-	padding:20px 10px;
-	margin-top:40px;
-	margin-left:-.8em;
-	margin-right:-.8em;
+#pagecontent p {
+	line-height: 1.2;
 }
 li.pacericonlist {
 	list-style-image:url(/images/pacericon_small.gif);
@@ -413,13 +408,8 @@ td.footerlinks {
 #maincontent {
 	margin: 0;
 	padding: 0em;
+	background: #fff;
 }
-
-#maincontent p {
-	clear: none;
-}
-
-
 #pagetoporange, #topbar {
 	background-color: #f93;
 	color: black;
@@ -442,6 +432,15 @@ body.singleCol #pagecontent {
 	margin-left: 0px;
 }
 
+#maincontent #pagecontent.narrowContent {
+	max-width: 60em;;
+	margin: 0px auto;
+}
+.narrowContent > h1, .narrowContent > h2, .narrowContent > h3 {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
 #pagecontent p {
 	padding: 0;
 	margin: 1em .5em;
@@ -449,7 +448,7 @@ body.singleCol #pagecontent {
 
 #pagecontent a {
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
 	color: #007FA9;
 }
 #pagecontent a:visited {
@@ -457,14 +456,9 @@ body.singleCol #pagecontent {
 }
 
 #pagecontent a:hover, #pagecontent a:active {
-	text-decoration: underline;
+	color: #00B4F0;
 }
 
-#pagecontent h2 {
-	/*font-size: 100%;*/
-	margin: 1em 5px;
-	padding: 0;
-}
 #pagecontent li {
 	margin-bottom:1em;
 }
@@ -825,10 +819,14 @@ h2.enhanced, h3.enhanced{
 #pagecontent .greenBar {
 	background:#246C00;
 	color:#fff;
-	padding:20px 5px;
+	padding:20px 10px;
 	margin-top:40px;
 	margin-left:-6px;
 	margin-right:-6px;
+}
+#pagecontent.narrowContent > h1.greenBar, #pagecontent.narrowContent > h2.greenBar, #pagecontent.narrowContent > h3.greenBar {
+	margin-left: -20px;
+	margin-right: -20px;
 }
 
 #pagecontent a .fa-external-link{

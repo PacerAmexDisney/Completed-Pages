@@ -17,12 +17,12 @@
 <div class="nav" id="header-top-right"> 
 	<div id="returnTab"><a href="/es/">Espa&ntilde;ol</a></div>
 
-		  <a class="header-donate" href="/help/donate.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Donate','','/images/donateicon_over_medium.gif',0)"><img src="/images/donateicon_medium.gif" alt="Donate" name="Donate" width="124" height="35" border="0" id="Donate" style="margin-right:10px" /></a> 
+		  <a class="header-donate" href="/help/donate.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Donate','','/images/donateicon_over_medium.gif',0)"><img src="/images/donateicon_medium.gif" alt="Donate" width="124" height="35" id="Donate" style="margin-right:10px" /></a> 
 
-		  <a href="http://www.facebook.com/PACERCenter" title="Facebook" target="_blank" class="socialButton facebook"><img name="facebook" src="/images/facebookicon_medium.gif" width="35" height="35" alt="Join us on Facebook" style="margin-right:10px" /></a>
-		  <a class="socialButton youtube" href="http://www.youtube.com/pacercenter" title="YouTube" target="_blank"><img name="youtube" src="/images/youtubeicon_medium.gif" width="35" height="35" alt="Join us on YouTube" style="margin-right:10px" /></a>
-		  <a class="socialButton twitter" href="https://twitter.com/pacercenter" title="Twitter" target="_blank"><img name="twitter" src="/images/twittericon_medium.gif" width="35" height="35" alt="Join us on Twitter" style="margin-right:10px" /></a>
-		  <a href="https://www.instagram.com/pacercenter/" title="Instagram" target="_blank" class="socialButton instagram"><img name="instagram" src="/images/instagramicon_medium.gif" width="35" height="35" alt="Join us on Instagram" style="margin-right:10px" /></a>
+		  <a href="http://www.facebook.com/PACERCenter" title="Facebook" target="_blank" class="socialButton facebook"><img src="/images/facebookicon_medium.gif" width="35" height="35" alt="Join us on Facebook" style="margin-right:10px" /></a>
+		  <a class="socialButton youtube" href="http://www.youtube.com/pacercenter" title="YouTube" target="_blank"><img src="/images/youtubeicon_medium.gif" width="35" height="35" alt="Join us on YouTube" style="margin-right:10px" /></a>
+		  <a class="socialButton twitter" href="https://twitter.com/pacercenter" title="Twitter" target="_blank"><img src="/images/twittericon_medium.gif" width="35" height="35" alt="Join us on Twitter" style="margin-right:10px" /></a>
+		  <a href="https://www.instagram.com/pacercenter/" title="Instagram" target="_blank" class="socialButton instagram"><img src="/images/instagramicon_medium.gif" width="35" height="35" alt="Join us on Instagram" style="margin-right:10px" /></a>
   
 	</div>
 	<a href="/"><img id="mainLogo" src="/images/pacerLogo.gif" alt="PACER Center - Champions for Children with Disabilities" class="logoImg" /></a>

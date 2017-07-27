@@ -1,6 +1,7 @@
  <div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-</div>
+</div><!-- Close #pagecontent -->
+</div><!-- Close #maincontent -->
+
     
          <footer id="parent-footer">
             <div class="footer-section primary has-footer-social">
@@ -38,7 +39,7 @@
                 <p class="footer-message legal">©2017 PACER Center, Inc.</p>
             </div>
         </footer>
-
+</div> <!-- Close #wrapper -->
 <script type="text/javascript">
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

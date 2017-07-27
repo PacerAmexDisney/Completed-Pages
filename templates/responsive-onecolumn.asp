@@ -26,7 +26,7 @@
 
 <div id="maincontent">
 
-<div id="pagecontent">
+<div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
 <h2>Content Section Title</h2>
