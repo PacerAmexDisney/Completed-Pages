@@ -1,0 +1,78 @@
+/**
+ * @copyright   Copyright (C) 2005 - 2007 Open Source Matters. All rights reserved.
+ * @license      GNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant
+ * to the GNU General Public License, and as distributed it includes or
+ * is derivative of works licensed under the GNU General Public License or
+ * other free or open source software licenses.
+ * See COPYRIGHT.php for copyright notices and details.
+ */
+
+
+.sidebar {
+  height: 100px;
+}
+
+#wrapper {
+  height: 216px;
+}
+
+ul li {
+  background-image: url(../images/list.gif);
+}
+
+ul.menu li {
+
+}
+
+#subheader {
+  top: -339px;
+}
+
+#user4 {
+  top: 6px;
+}
+
+#searchbox input {
+  margin: 3px 0 2px 6px;
+}
+
+table.pollstableborder td {
+  padding: 0;
+}
+
+table.pollstableborder input {
+  margin: -4px -3px 0 -3px;
+}
+
+#form-login-remember input.inputbox {
+  border: none;
+}
+
+div#searchbox div.magnifier {
+  margin: 2px 2px 0 0;
+}
+
+div#horizontal-menu-border-top, #horizontal-menu-border-bottom {
+  overflow: hidden;
+}
+
+ul#mainlevel-nav {
+  padding-top: 3px;
+}
+
+#middlebar {
+  overflow: hidden;
+}
+
+#subheader #identity .clear {
+  display: inline;
+}
+
+#sitename {
+  overflow: hidden;
+}
+
+h1.supporter {
+  margin-right: 10px;
+}

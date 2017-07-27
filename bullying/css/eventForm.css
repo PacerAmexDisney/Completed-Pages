@@ -1,0 +1,64 @@
+.splitlayout td {
+	width:410px;
+}
+#eventregistration{
+	background:#eee;
+	font-size:.9em;
+	padding-top:10px;
+	padding-bottom:10px;
+	border: 1px solid #d73d23;
+}
+.requiredindicator{
+	color:red;
+	font-size:.8em;
+	position:absolute;
+	left:4px;
+	top:0px;
+}
+label{
+	font-weight:bold;
+}
+.longinput input, .longinput textarea {
+	display:block;
+	width:370px;
+	margin:10px;
+}
+.normalinput, .longinput, .specialinput {
+	position:relative;
+}
+.normalinput input {
+	left:188px;
+	width:208px;
+	position:absolute;
+}
+.submitinput{
+	text-align:right;
+	margin-top:30px;
+}
+.textfieldRequiredMsg, .selectRequiredMsg, .passwordRequiredMsg, .confirmRequiredMsg, .confirmInvalidMsg, .textareaRequiredMsg, .textfieldInvalidFormatMsg, .passwordInvalidStrengthMsg, .passwordMinCharsMsg, .checkboxRequiredMsg{
+	position:absolute;
+	left:-160px;
+	top:0px;
+	padding:2px;
+	text-align:center;
+	width:145px;
+}
+
+.extramessage{
+	color:#666;
+	font-size:.8em;
+	font-style:italic;
+}
+.updateinfobutton a{
+	text-indent:-9999em;
+	width:134px;
+	height:49px;
+	margin:5px;
+	display:block;
+	background:url(/bullying/images/update-existing-information.png) no-repeat;
+	background-position:0px 0px;
+	float:right;
+}
+.updateinfobutton a:hover{
+	background-position:-139px 0px;
+}

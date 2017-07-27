@@ -1,0 +1,178 @@
+
+
+<%
+Response.Status="301 Moved Permanently" 
+Response.AddHeader "Location", "/multicultural/"
+%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>FACT Project</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="description" content="PACER Center&rsquo;s  Families Accessing Communities Together (FACT) Project will work with families  to identify and provide effective family support services and leadership  training for families of individuals with developmental disabilities from birth  to age 25 in the Minneapolis/St. Paul area
+" />
+<meta name="keywords" content="Families, Accessing, Communities, Together, Minneapolis, St. Paul, support services, developmental disabilities
+" />
+
+<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
+
+<script type="text/javascript" src="../css/menu.js"></script>
+<script type="text/javascript">
+<!--
+function wopen(url, name, w, h)
+{
+// Fudge factors for window decoration space.
+ // In my tests these work well on all platforms & browsers.
+w += 32;
+h += 96;
+ var win = window.open(url,
+  name, 
+  'width=' + w + ', height=' + h + ', ' +
+  'location=no, menubar=no, ' +
+  'status=no, toolbar=no, scrollbars=yes, resizable=yes');
+ win.resizeTo(w, h);
+ win.focus();
+}
+// -->
+</script> 
+<style type="text/css">
+h4 {
+	margin:1em 0 0 0;
+	padding:0px;
+}
+</style>
+</head>
+
+<body>
+<div id="skiptocontent">
+<a href="#maincontent">Skip to main content</a>
+</div>
+
+<div id="wrapper">
+
+<div id="main">
+
+<div id="header">
+	<div>			<!--#include virtual="/googleSearchBox.htm"-->
+            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
+<a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
+	</div>
+	<!--#include virtual="/dynamicheader.htm"-->
+</div>
+
+<div id="rightBar" style="width: 250px;">
+			<p class="pacerinfo"> <strong>PACER Center<br />
+				952-838-9000</strong> </p>
+			<p class="pacerinfo2"> Champions for Children with Disabilities </p>
+			<p class="pacerinfo3"> <a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a> </p>
+			
+			<p class="rightsidebarpic"> <img src="../images/sidebar/familyOfFour.jpg" width="250" height="166" alt="" /> </p>
+			<p class="rightsidebarpic"> <img src="../images/sidebar/teenwithmother.jpg" width="250" height="165" alt="" /> </p>
+			<p class="rightsidebarpic"> <img src="../images/sidebar/fatherDaughter.jpg" width="250" height="167" alt="" /> </p>
+</div>
+
+
+<div id="topbar">
+<div id="breadcrumb"> <a href="/" title="PACER's home page">Home</a> / <a href="/pandr/" title="PACER's programs and resources">Programs &amp; Resources</a> /
+					<h1>Families Accessing  Communities Together (FACT) Project </h1>
+				</div>
+</div>
+
+<div id="leftbar">
+<!--#include file="navBar.html" -->
+<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+<script type="text/javascript">
+	// ID and SubId to be Orange
+	var currId="fact_index";
+	var currSubId="none";
+	// any Subtree that I want to Display
+	var showTree = "none";
+	
+	if (document.getElementById(currId)){
+		document.getElementById(currId).className = "page";
+	}
+	if (document.getElementById(currSubId)){
+		document.getElementById(currSubId).className = "page";
+	}
+	var subTrees = document.getElementsByTagName("ul");
+	for (var i = 0; i < subTrees.length; i++) {
+		if (subTrees[i].className == "treemenu") {
+			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
+			if (subTrees[i].id != showTree) {
+				subTrees[i].className = "treemenuhidden";
+			}
+		}
+	}
+</script>
+
+</div>
+
+<div id="maincontent">
+
+<div id="pagecontent">
+
+<!--BEGIN CONTENT-->
+
+<p>PACER Center&rsquo;s  Families Accessing Communities Together (FACT) Project will work with families  to identify and provide effective family support services and leadership  training for families of individuals with developmental disabilities from birth  to age 25 in the Minneapolis/St. Paul area. </p>
+<p><strong>Many families have expressed the  need for assistance</strong> in navigating the multitude of public and private systems  that provide services to meet the complex needs of their families. The FACT  Project&rsquo;s innovative process will provide family-centered support services,  improve the community&rsquo;s capacity to serve individuals with developmental  disabilities and their families, and support systems change activities. </p>
+<p><strong>During  the first year of the five-year project,</strong> FACT Project staff will meet with  family members and community organizations to plan effective ways of meeting  the needs as they are defined by the families. Collaborating with multiple  service providers in the metro area, the project will use that information during  the following four years to respond to the needs identified by culturally and racially diverse and underserved families of  individuals with developmental disabilities. </p>
+<p><strong>Through family-centered activities,</strong> families will learn to use and build on their family&rsquo;s  strengths and gain communication and advocacy skills. Families will also gain  skills to effectively participate in systems change activities and promote  family-centered community practices and structures.</p>
+
+<table cellspacing="20" align="center"><tr>
+  <td valign="top">
+<h3>Project FACT Handout</h3>
+<img src="/fact/images/fact-handout-thumb.jpg" width="200" height="259" alt="" class="fltrt" /><p><a href="pdf/2011-FACT-handout.pdf" target="_blank"><img src="../images/pdficon_small.gif" width="15" height="15" alt="pdf document" /> FACT Handout</a></p>
+</td>
+</tr><tr><td valign="top" width="350">
+<h3>Project FACT Brochure</h3><img src="/fact/images/fact-brochure-thumb.jpg" width="200" height="156" alt="" class="fltrt" />
+<ul>
+  <li class="pdficonlist"><a href="/fact/pdf/FACT-brochure-english.pdf">English</a></li>
+  <li class="pdficonlist"><a href="/fact/pdf/FACT-brochure-spanish.pdf">Spanish</a></li>
+  <li class="pdficonlist"> <a href="/fact/pdf/FACT-brochure-hmong.pdf">Hmong</a></li>
+  <li class="pdficonlist"><a href="/fact/pdf/FACT-brochure-somali.pdf">Somali</a></li>
+</ul>
+</td></tr></table>
+
+
+
+
+
+
+
+
+<!--END CONTENT-->
+<div id="pageextender" style="clear:both">&nbsp;</div>
+
+
+</div>
+
+
+
+</div>
+</div>
+
+<!--#include virtual="/footer.htm"-->
+
+</div>
+
+</body>
+</html>

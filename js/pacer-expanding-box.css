@@ -1,0 +1,48 @@
+.ExpandHeader {
+	cursor:pointer;
+	/*padding-left:20px;*/
+	position:relative;
+	min-height:20px;
+	clear:right;
+}
+.ExpandHeader span.fa {
+	font-size:1.3em;
+	color:#339900;
+}
+.ExpandHeader:hover span.fa {
+	color:#257400;
+}
+.ExpandItemWrapper {
+	min-height: 1em;
+}
+.ExpandItem {
+	display:none;
+	padding:10px;
+	margin:5px;
+}
+.OpenBorder {
+	border:2px dashed #8ba0c2;	
+}
+.ReadMore, #ExpandAll {
+	font-size:.9em;
+	cursor:pointer;
+}
+.ReadMore{
+	color:#ADADAD;
+	padding-left:10px;
+	text-decoration:underline;
+}
+.ReadMore.ReadMoreDarker {
+	color:#7D7D7D;
+}
+#ExpandAll {
+	color:#0A0D91;
+	text-align:right;
+	margin-right:15px;
+	text-decoration:underline;
+	float:right;
+	width:12em;
+	padding-right:35px;
+	margin-top:-25px;
+}
+

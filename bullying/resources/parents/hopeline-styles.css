@@ -1,0 +1,190 @@
+#toolMainBanner {
+	position:relative;
+	padding:0px;
+	background:#fff;
+	margin-bottom:10px;
+	min-height:80px;
+}
+#toolMainBanner h1 {
+	margin-bottom:0px;
+	padding-top:12px;
+}
+
+#toolMainBanner .tagline {
+	text-align:center;
+	font-size:18px;
+	width:250px;
+	height:50px;
+	position:absolute;
+	right:15px;
+	top:10px;
+	color:#57585C;
+	font-weight:bold;
+}
+#toolMainBanner .tagline img{
+	vertical-align:middle; 
+	margin-right:5px;
+}
+.bottomright {
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+#toolDescription {
+	position:relative;
+	width:100%;
+	height:400px;
+	background:#fff url(/bullying/resources/parents/images/kids-and-tech-bg.jpg) no-repeat;
+}
+#toolDescription #descriptionWrap {
+	width:406px;
+	padding:20px;
+	font-size:.9em;
+	background:#000;
+	color:#fff;
+	background:rgba(0,0,0,0.75);
+	border-radius:0px 8px 0px 0px;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+}
+#secondarynav li {
+	position:relative;
+}
+#secondarynav div.bluecircle {
+	padding:3px 3px 3px;
+	width: 20px;
+	height:20px;
+	border-radius:19px;
+	background:#353364;
+	color:#fff;
+	font-weight:bold;
+	display:block;
+	text-align:center;
+	position:absolute;
+	left:-5px;
+	top:35%;
+	line-height:1.2;
+	
+}
+#secondarynav {
+	width:989px;
+	padding-left:35px;
+}
+#secondarynav ul {
+  width: 960px;
+}
+#secondarynav li a {
+  display: block;
+  font-size: 16px;
+  margin-left: 13px;
+  text-transform: none;
+  text-align:left;
+  width: 123px;
+}
+#secondarynav li a.singleRowNav {
+	padding-top:17px;
+}
+.content {
+	background:#fff;
+}
+#sponsors {
+	margin-bottom:50px;
+}
+.btn {
+	padding:0px 34px 0px 15px;
+}
+.content.subpage {
+	padding:0px;
+}
+#secondarynav li.active div.bluecircle {
+  background: #FF5A2C;
+}
+
+/*
+.subpage #toolMainBanner {
+	background:#fff url(/bullying/resources/parents/images/tool-banner-bg.jpg) no-repeat right top;
+	margin-bottom:0px;
+	min-height:124px;
+	margin-top:3px;
+	border-bottom:2px solid #393766;
+}
+
+.subpage #toolMainBanner .tagline {
+  height: 50px;
+  position: relative;
+  right: auto;
+  text-align: center;
+  top: auto;
+  width: 450px;
+}
+
+.subpage #secondarynav {
+	box-shadow:none;
+}
+*/
+.subpage #secondarynav li {
+	padding-bottom:10px;
+}
+.subpage #secondarynav li.active {
+	border-bottom:5px solid #393766;
+}
+.subpage #secondarynav li.active a{
+	background:none;
+	text-decoration:none;
+}
+.subpage #intromessage.contentrow {
+	padding-bottom:20px;
+}
+.subpage #intromessage.contentrow h2 {
+	margin-bottom:10px;
+}
+.subpage .contentrow h2 {
+	text-align:left;
+}
+.subpage .tabbedPanel {
+	margin:20px;
+}
+.subpage .ui-widget {
+  font: 1em/1.5 Calibri, Arial, sans-serif;
+}
+.GoToNextSection {
+	text-align:center;
+	margin-top:30px;
+	position:relative;
+}
+.subpage #homeLink {
+	display:block;
+	width:150px;
+	height:40px;
+	position:absolute;
+	top:3px;
+	left:19px;
+}
+.ui-widget-content a.mover {
+	color:#772828;
+	margin-top:20px;
+	text-decoration:none;
+	padding:5px;
+	background:#DBDAE1;
+	background: #cccccc url("/js/jquery-ui-1.11.4.custom/images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50%;	border:1px solid #2A2950;
+	border-radius:5px;
+	box-shadow:#ccc 2px 2px 2px;
+	
+}
+.ui-widget-content a.mover:hover {
+	color: #3e5593;
+	text-decoration:none;
+	background:#E2E1E7;
+	background: #dadada url("/js/jquery-ui-1.11.4.custom/images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+	border:1px solid #5B59A9;
+}
+.next-tab {
+	float:right;
+}
+.prev-tab {
+	float:left;
+}
+.GoToNextSection {
+	min-height:50px;
+}

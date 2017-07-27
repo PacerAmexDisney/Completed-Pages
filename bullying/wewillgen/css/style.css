@@ -1,0 +1,95 @@
+.sidebar1 ul.nav a, ul.nav a:visited {
+  background: #d24924 url("/bullying/images/nav_up_orange.jpg") repeat-y scroll right center;
+  color: #fff;
+}
+.sidebar1 ul.nav li.active a {
+	background: #393766;
+	color:#FFF;
+}
+.sidebar1 ul.nav ul.submenu a, .sidebar1 ul.nav ul.submenu a:visited {
+  background: url("/bullying/images/nav_up-sub.jpg") repeat-y scroll right center #CCCCCC;
+  color: #FFFFFF;
+  font-size: 0.8em;
+}
+.sidebar1 ul.nav ul.submenu li.active a {
+  background: #393766;
+  color: #FFF;
+}
+#tagline{
+	padding-left:55px;
+	margin-top:-10px;
+	font-size:1.1em;
+	font-weight:bold;
+	margin-bottom:25px;
+}
+#maincontent{
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.sidebar1 {
+	background: #fff url('/bullying/wewillgen/images/wewillgen.png') no-repeat top right;
+}
+#bottomContentWrapper{
+	width:800px;
+	margin:0px auto;
+	
+}
+
+.bottomContent{
+	width:371px;
+	min-height:350px;
+	float:left;
+/*	
+	border-left:2px solid #ccc;
+	border-right:2px solid #ccc;
+*/	
+	padding:12px;
+	margin:35px 0px;
+}
+.rightBox {
+	border-left:none;
+}
+.indented{
+	padding-left:50px;
+}
+.materials{
+	padding-bottom:10px;
+	margin:0px 10px 10px 10px;
+	border-bottom: 1px solid #ccc;
+}
+.content .downloadbox{
+	width:250px;
+	float:right;
+	margin:-60px 20px 20px 20px;
+	border:2px solid #C46200;
+	border-top:6px solid #C46200;
+	background-color:#FFFFB7;
+	background:url(/bullying/wewillgen/images/yellow-paper-bkgnd.jpg) no-repeat top left;
+}
+.downloadbox h2 {
+	color:#006;
+	text-shadow:none;
+}
+.content .curriculumLogin {
+	font-size:.8em;
+	width:9em;
+	height:2em;
+	float:right;
+	margin-right:10px;
+	margin-top:-10px;
+}
+.content .curriculumLogin a{
+	width:9em;
+	height:2em;
+	padding:3px;
+	background:#E8E8E8;
+	color:#333;
+	border:1px solid #333;
+	border-radius:5px;
+	text-align:center;
+	box-shadow:3px 3px 4px #848484;
+}
+.content .curriculumLogin a:hover{
+	background:#F45329;
+	color:#FFF;
+}

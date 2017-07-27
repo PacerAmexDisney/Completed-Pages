@@ -1,0 +1,727 @@
+
+html,
+body {
+	font-family: arial, sans-serif;
+	color: black;
+	background-color: #ccc;
+	text-align: left;
+}
+
+abbr,
+acronym,
+help {
+	border: none;
+	cursor: help;
+}
+
+.oldBrowser {
+	display: none;
+}
+
+img {
+	border: none;
+}
+.nobullet {
+	list-style-type: none;
+}
+.funded {
+	font-style: italic;
+}
+#rightBar a {
+	font-weight: bold;
+}
+#main {
+	background-color: #eee;
+}
+#submenu {
+	padding: 0;
+	font-size: 80%;
+	margin: 0;
+}
+#submenulist {
+	list-style-type: none;
+	margin: .5em 0 0 0;
+	padding: 0;
+}
+#submenulist li {
+	border-bottom: solid 1px #fff;
+}
+#submenulist li a, #submenulist li a:visited {
+	background-color: #09c;
+	display: block;
+	padding: .5em;
+	color: #fff;
+	text-decoration: none;
+}
+#submenulist li a:hover, #submenulist li a:active {
+	background-color: #fff;
+	color: #09c;
+}
+#submenulist li a.page {
+	background-color: #f93;
+	color: #000;
+}
+.pacerinfo {
+	background-color: #390;
+	color: #fff;
+	text-align: center;
+	font-size: 110%;
+	padding: .5em 0 0 0;
+	margin: 0;
+}
+
+.pacerinfo2 {
+	font-size: 90%;
+	background-color: #390;
+	color: white;
+	text-align: center;
+	padding: 1em .5em 0 .5em;
+	margin: 0;
+}
+.pacerinfo3 {
+	font-size: 90%;
+	background-color: #390;
+	color: white;
+	text-align: right;
+	padding: 0 .5em .5em 0;
+	margin: 0;
+}
+
+.pacerinfo3 a, .pacerinfo3 a:visited {
+	font-size: 80%;
+	padding-bottom: .5em;
+	color: #fff;
+	text-align: right;
+	text-decoration: none;
+}
+
+.pacerinfo3 a:hover, .pacerinfo3 a:active {
+	text-decoration: underline;
+}
+.stayinformed {
+	background-color: #fff;
+	font-size: 80%;
+	padding: 0;
+	color: #000;
+	margin: .5em 0 0 0;
+}
+div.stayinformed {
+	padding: .5em;
+}
+.stayinformed h2 {
+	color: #c60;
+	margin: 0;
+	padding: 0;
+	font-size: 110%;
+}
+p.stayinformed {
+	padding: .5em;
+}
+.stayinformed a, .stayinformed a:visited {
+	/*color: #09c;*/
+	color: #069;
+	text-decoration: none;
+}
+.stayinformed a:hover, .stayinformed a:active {
+	text-decoration: underline;
+}
+.stayinformed img {
+	border: solid 1px black;
+	text-align: center;
+	padding: 0;
+	margin: .5em;
+}
+table.stayinformed {
+	background-color: #fff;
+	width: 100%;
+	margin: 0;
+}
+table.stayinformed td {
+	text-align: center;
+	width: 50%;
+	font-size: 90%;
+}
+/***********************************
+*****                          *****
+***     WRAPPER CONTENTS       ***
+*****                          *****
+***********************************/
+
+#wrapper {
+	min-width: 980px;
+	max-width: 1200px;
+	margin: 0 auto;
+	border: solid 1px #09c;
+}
+
+/***********************************
+*****                          *****
+***       HEADING CONTENTS       ***
+*****                          *****
+***********************************/
+#skiptocontent, #skiptocontent a, #skiptocontent a:visited {
+	color: #000;
+	background-color: #ccc;
+	font-size: 80%;
+	text-decoration: none;
+}
+
+#skiptocontent a:hover, #skiptocontent a:active {
+	text-decoration: underline;
+}
+.nav {
+	margin: 0;
+	float: right;
+	padding: 1em 1em 0 0;
+	clear: none;
+}
+
+#header a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#header a:hover, #header a:active {
+	text-decoration: underline;
+}
+
+#header {
+	font-family: Century Gothic, Arial, Sans-Serif;
+	background-color: #09c;
+	color: white;
+	font-size: 80%;
+}
+
+#nav a, #nav a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header a:active, #header a:hover {
+	color: #fff;
+}
+
+#header img {
+	margin-top: 0;
+	padding: 0;
+	clear: none;
+}
+
+#header table td {
+	vertical-align: top;
+}
+
+.searchBtn {
+	margin-left: .2em;
+	border-style: inset;
+}
+
+#menu {
+	width: 100%;
+	border-bottom: solid 2px #fff;
+	background:#390;
+	clear: both;
+	min-height: 3.6em;
+}
+
+ul#nav {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background: #390;
+	font-family: Century Gothic, Arial,Sans-Serif;
+	border-top: 2px solid #fff;
+	font-size: 100%;
+	width: 100%;
+}
+
+#nav li {
+	display: block;
+	float: left;
+	width: 10em;
+	list-style-type:none;
+	color:#FFF;
+	text-align: left;
+	background:#390;
+	border-right: solid 1px #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#nav li a {
+	display: block;
+	width: 9em;
+	color:#FFF;
+	text-decoration: none;
+	margin: 0;		
+	padding:.5em .5em 0 .5em;
+	height: 3em;
+}
+
+#nav li a:hover, #nav li a:active {
+	background: #09C;
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav li ul {
+	position: absolute;
+	width: 10em;
+	left: -999em;
+	background:#390;
+	margin:0;
+}
+
+#nav li ul li a {
+	border-top: solid 1px white;
+}
+
+#nav li:hover ul, #nav li.sfhover ul, #nav li:active ul {
+	left: auto;
+	background: #09C;
+	color:#FFF;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#nav li li a:hover, #nav li li a:active, #nav li.sfhover ul li a {
+	background:#09C;
+	color: #fff;
+	border: 0;
+	margin:0;
+	padding: .5em .5em 0 .5em;
+	height: 3em;
+	border-top: solid 1px white;
+	text-decoration: none;
+}
+/***********************************
+*****                          *****
+***     MAIN CONTENT STYLE     ***
+*****                          *****
+***********************************/
+
+h1 {
+	font-size: 160%;
+	margin: .5em 0 0 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 135%;
+}
+
+.green {
+	font-size: 135%;
+	background-color: #066;
+	color: white;
+	padding: .2em;
+}
+
+.yellow {
+	font-size: 135%;
+	background-color: #ffcc33;
+	color: black;
+	padding: .2em;
+}
+
+h3 {
+	font-size: 115%;
+	padding: 0;
+	margin: 0;
+	color: #247e8c;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 105%;
+}
+ol.toc li {
+	padding: 0;
+	margin: 0;
+}
+ol.toc {
+	padding: 0;
+	margin-top: .5em;
+}
+
+#rightBar {
+	width: 250px;
+	float: right;
+	margin: 0;
+	padding: .5em 0 .5em 0;
+	background-color: #eee;
+}
+
+.rightsidebarpic {
+	background-color: #fff;
+	font-size: 80%;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.rightsidebarpic a, .rightsidebarpic a:visited, .rightsidebarpic a:hover {
+	color: white;
+}
+.pubad {
+	background-color: #036;
+	font-size: 85%;
+	padding: .5em;
+	color: white;
+	margin: 0;
+	text-align: center;
+}
+.pubad a, .pubad a:visited, .pubad a:hover {
+	color: white;
+}
+.pubad img {
+	padding: .3em;
+}
+.bullylist li {
+	padding: 1em;
+}
+.piccollage {
+	background-color: #303;
+	text-align: center;
+	margin: 0;
+	padding: .5em;
+	color: white;
+	font-size: 85%;
+}
+#aboutPACER {
+	font-size: 85%;
+	padding: 1em;
+}
+#aboutPACER td {
+	padding: 1em;
+}
+#aboutPACER td img {
+	vertical-align: middle;
+}
+#timeline td {
+	padding: .5em;
+}
+
+/***********************************
+*****                          *****
+***        FOOTER STYLE        ***
+*****                          *****
+***********************************/
+
+#footer1 {
+	background-color: #09c;
+	font-size: 75%;
+	padding-bottom: 0;
+	margin-bottom: .1em;
+	color: #fff;
+	margin-top: 1px;
+}
+
+table.footer {
+	width: 100%;
+}
+.footer td {
+	width: auto;
+}
+
+td.footerlinks {
+	text-align: right;
+}
+
+#footer2 {
+	background-color: #fff;
+	font-size: 80%;
+	padding: .1em .1em .1em .1em;
+	margin-top: 0;
+	color: #000;
+}
+
+#footer2 p {
+	padding: 0;
+	margin: 5px;
+}
+
+#footer1 a, #footer1 a:visited { 
+	color: #fff;
+	text-decoration: none;
+}
+
+#footer2 a, #footer2 a:visited {
+	color: #000;
+	text-decoration: none;
+	padding: .2em;
+}
+
+#footer1 a:hover, #footer1 a:active {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#footer2 a:hover, #footer2 a:active {
+	color: #000;
+	text-decoration: underline;
+	background-color: #fff;
+}
+
+img {
+	border: none;
+	padding: 0;
+}
+
+.noborder {
+	background-color: white;
+}
+
+#footCopyRight {
+	text-align: left;
+	padding-left: .5em;
+	font-size: 75%;
+}
+
+.extfooter {
+	padding: .5em;
+}
+
+img {
+	border: none;
+}
+
+
+/***********************************
+*****                          *****
+***     BREADCRUMB STYLE       ***
+*****                          *****
+***********************************/
+
+#breadcrumb {
+	font-size: 80%;
+	padding: .5em;
+	margin: 0;
+	background-color: #f93;
+}
+#breadcrumb a, #breadcrumb a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+#breadcrumb a:hover, #breadcrumb a:active {
+	text-decoration: underline;
+}
+
+/***********************************
+*****                          *****
+***     MAIN CONTENT STYLE     ***
+*****                          *****
+***********************************/
+
+#maincontent {
+	margin: 0 250px 0 200px;
+	padding: 0 .5em .5em .5em;
+	font-size: 85%;
+	background-color: #eee;
+}
+
+#maincontent p {
+	clear: none;
+}
+
+#pagecontent p a, #pagecontent p a:visited, #pagecontent ul li a, #pagecontent ul li a:visited, #pagecontent td a, #pagecontent td a:visited, #pagecontent a, #pagecontent a:visited {
+	color: #247e8c;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#pagecontent p a:hover, #pagecontent p a:active, #pagecontent ul li a:hover, #pagecontent ul li a:active, #pagecontent ul a:visited, #pagecontent td a:hover, #pagecontent td a:active, #pagecontent a:hover, #pagecontent a:active {
+	text-decoration: underline;
+}
+
+#pagecontent h2 a, #pagecontent h2 a:visited {
+	text-decoration: none;
+	color: #247e8c;
+}
+#pagecontent h2 a:hover, #pagecontent h2 a:active {
+	text-decoration: underline;
+}
+#pagecontent h2.nolinkcolor a, #pagecontent h2.nolinkcolor a:visited {
+	color: #000;
+	text-decoration: none;
+}
+#pagecontent h2.nolinkcolor a:hover, #pagecontent h2.nolinkcolor a:active {
+	text-decoration: none;
+}
+#maincontent #pagecontent .nounderline a {
+	color: #000;
+	text-decoration: none;
+}
+#maincontent #pagecontent .nounderline a:hover, #maincontent #pagecontent .nounderline a:active {
+	text-decoration: none;
+}
+#pagecontent {
+	background-color: #fff;
+	color: black;
+	padding: .5em;
+	margin: 0;
+}
+#pagecontent h1 {
+	text-transform: uppercase;
+}
+#pagecontent p {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+.printemail {
+	background-color: #f93;
+	float: right;
+	padding: 0;
+	margin: 0 .5em 0 0;
+}
+
+.printemail a, .printemail a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.printemail a:hover, .printemail a:active {
+	color: black;
+	text-decoration: underline;
+}
+
+.printemail p {
+	padding: 0 .5em 0 0;
+	margin: 0;
+}
+
+.printemail img {
+	padding: 0 .2em 0 0;
+	margin: 0;
+}
+#rightBar {
+	width: 250px;
+	float: right;
+	margin: 0;
+	padding: .5em 0 .5em 0;
+	background-color: #eee;
+}
+#topbar{
+	background-color: #eee;
+	color: black;
+	padding: .5em;
+	margin: 0 250px 0 0;
+}
+.volunteer {
+	background-color: #09c;
+	font-size: 85%;
+	padding: 1em;
+	color: #fff;
+	margin: 0;
+}
+.volunteer a, .volunteer a:visited {
+	color: white;
+	text-decoration: none;
+}
+.volunteer a:hover, .volunteer a:active {
+	text-decoration: underline;
+}
+
+/***********************************
+*****                          *****
+***    LEFT NAVIGATION STYLE     ***
+*****                          *****
+***********************************/
+
+#leftbar {
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	background-color: #eee;
+}
+#leftbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 .5em;
+}
+#leftbar ul li a {
+	display: block;
+	background-color: #09c;
+	color: #fff;
+	padding: .5em;
+	margin: 0 0 .2em 0;
+	text-decoration: none;
+	font-size: 75%;
+}
+#leftbar ul li a:hover {
+	background-color: #ccc;
+	display: block;
+	color: #000;
+}
+#leftbar ul li a.page {
+	background-color: #f93;
+	color: #000;
+}
+
+/***********************************
+*****                          *****
+***          STC STYLE         ***
+*****                          *****
+***********************************/
+
+ol li {
+	margin: 1em;
+}
+#projects {
+	padding: .3em;
+}
+#projects td {
+	padding: .5em;
+	margin: .5em;
+	font-size: 95%;
+	width: 50%;
+	vertical-align: top;
+}
+#super td {
+	padding: 1em;
+	margin: .5em;
+	font-size: 85%;
+	width: 50%;
+	vertical-align: top;
+}
+#superlisting ul {
+	margin: 0;
+	padding: 0;
+}
+#superlisting li {
+	margin: .5em;
+	padding: 0;
+}
+.top {
+	font-size: 85%;
+}
+.border {
+	border-top: solid 1px black;
+}
+.atlist li {
+	margin: .5em;
+	list-style-type: none;
+}
+ul.atlist {
+	padding: 0;
+	margin: 0;
+}
+
+#nav li.twoCol li a {
+  height: 2.5em;
+}
+#nav li li{
+  background:#1E5303;}
+#nav li.twoCol li:nth-child(even) a {
+  	width: 200px;
+	padding-left:25px;
+}
+#nav li.twoCol ul {
+  background:#fff;
+  width: 39em;
+}

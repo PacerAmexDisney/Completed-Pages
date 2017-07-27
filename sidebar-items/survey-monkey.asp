@@ -1,0 +1,4 @@
+<div class="stayinformed">
+<p><a href="https://contribute.surveymonkey.com/charity/pacer" target="_blank"><img class="fltrt" style="margin-bottom:5px;" src="/images/homenews-sml/survey-monkey.png" width="50" height="33" alt="" /></a>Join <a href="https://contribute.surveymonkey.com/charity/pacer" target="_blank">Survey Monkey Contribute</a> today!</p>
+<p>PACER is excited to announce our new partnership with <a href="https://contribute.surveymonkey.com/charity/pacer" target="_blank">SurveyMonkey Contribute</a> and <strong>a new way for anyone to support PACER programs</strong>!  Sign up and you will receive surveys by e-mail from SurveyMonkey customers who need your opinion. For every survey you take, SurveyMonkey will donate $0.50 to PACER, and you'll get a chance to win $100 in an instant-win game. </p>       
+</div>

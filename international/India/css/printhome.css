@@ -1,0 +1,53 @@
+html,
+body {
+	color: black;
+	background-color: white;
+}
+p {
+	margin: 25px 0 25px 0;
+}
+
+a {
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	padding: 0 .5em .5em .5em;
+}
+
+li {
+	padding-bottom: .5em;
+}
+
+object,
+.nav,
+.searchBtn,
+#nav,
+.footerlinks,
+#footer2,
+#breadcrumb,
+#breadcrumb,
+#leftbar ul,
+#skiptocontent {
+	display: none;
+}
+
+#maincontent,
+#maincontent {
+	margin: 5px 0 5px 0;
+}
+
+#leftBar {
+	padding-top: 10px;
+}
+
+#footer1 {
+	color: black;
+	background-color: white;
+	padding-top: 1em;
+	border-top: solid 1px black;
+	font-size: 10pt;
+}

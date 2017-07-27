@@ -1,0 +1,422 @@
+@import 'breakpoint.scss';
+
+//-- Colors
+$bullying-orange: #e25b25;
+$bullying-purple: #373564;
+$bullying-white: #fff;
+$bullying-gray: #CDCDCD;
+$bullying-dark-gray: #333333;
+$bullying-medium-gray: #666666;
+$bullying-red: #D34040;
+$bullying-blue: #0066cc;
+
+//-- Fonts
+$bullying-primary-font: Helvetica;
+$bullying-primary-font-size: 10px;
+
+//-- Elements
+$category-height: 50px;
+$button-size: $category-height + 2px;
+$primary-border: 1px solid $bullying-orange;
+
+//-- Desktop | Menu Icon & Logo
+.menu-icon-logo-wrapper{
+    display: none;
+}
+
+//-- Desktop | Footer
+.footer{
+    #leftCol-branding{
+        #footer-logo{
+            width: 281px;
+            height: 36px;
+        }
+        .footer-section.offices{
+            h4, p{
+                color: $bullying-white;
+                margin-bottom: 0;
+            }
+            &:last-of-type{
+                margin-bottom: 15px;
+            }
+        }
+        .footer-message{
+            line-height: 1.5;
+            padding: 10px 15px;
+        }
+    }
+    #rightCol-Sites{
+        padding-top: 18px;
+        ul{ margin-top: 0; }
+    }
+    #copywrite{
+        clear: left;
+    }
+}
+
+//-- Responsive | Bullying Styles
+@mixin bullying-responsive-styles{
+	body.twocol div.content { width: 100%}
+	.container{
+        width: 100%;
+        #pacerwrapper, .header { display: none }
+		.content { width: 100%;}
+        //-- Menu icon and logo
+        .menu-icon-logo-wrapper{
+            display: block;
+            padding: 20px 20px 15px;
+            .menu-button{
+                display: inline-block;
+                width: 30px;
+                height: 33px;
+                padding: 0;
+                background: $bullying-white url(images/mobile/bullying/menu-icon.png) no-repeat top;
+                border: none;
+                outline: none;
+                &:after{
+                    content: 'menu';
+                    display: block;
+                    margin: 25px 1px;
+                    color: $bullying-orange;
+                    font-size: 10px;
+                }
+            }
+            .pacer-logo{
+                display: inline-block;
+                float: right;
+                height: 38px;
+                width: 200px;
+                background: $bullying-white url(images/mobile/bullying/bullying-logo.jpg) no-repeat center;
+                background-size: 200px 38px;
+            }
+        }
+		
+		.breadcrumb {
+			display: none;
+		}
+        //-- Primary nav
+        #navWrap{
+            display: none; // displayed w/ js
+            height: auto;
+            padding-top: 0;
+			a#donatebutton, a#newsletterbutton{display: block;}
+			#topnav ul { box-shadow: none;}
+            #topnav.bullying-nav{
+                float: none;
+                border: none;
+                width: 100%;
+
+                li{
+                    display: block;
+                    float: none;
+                    width: 100%;
+                    overflow: hidden;
+                }
+
+                //-- Primary Category
+                .first-level-nav{
+                    background: $bullying-white;
+                    //-- Show more button
+                    button{
+                        display: none; // displayed with js
+                        padding: 0;
+                        margin: 0 -2px 0 0;
+                        position: absolute;
+                        right: 0;
+                        height: $button-size;
+                        width: $button-size;
+                        outline: none;
+                        &.show-more{
+                            border: $primary-border;
+                            background-color: $bullying-white;
+                            color: $bullying-orange;
+                            font-size: 22px;
+                            font-weight: bold;
+                        }
+                        &.show-less{
+                            border: 1px solid $bullying-white;
+                            background-color: $bullying-red;
+                            color: $bullying-white;
+                            font-size: 28px;
+                            font-weight: normal;
+                        }
+                    }
+                    //-- All links
+                    a{
+                        width: 100%;
+                        height: $category-height;
+                        margin-top: 0;
+                        line-height: $category-height;
+                        padding: 0;
+                        font-family: $bullying-primary-font;
+                        font-size: $bullying-primary-font-size;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        span{
+                            margin-left: 20px;
+                        }
+                    }
+                    //-- First level nav links
+                    > a{
+                        color: $bullying-orange;
+                        border: $primary-border;
+                        border-bottom: none;
+                    }
+
+                    ul{
+                        display: none; // displayed with js
+                        width: 100%;
+                        position: relative;
+                        left: 0;
+                        padding-left: 0;
+                        margin-left: 0;
+                        border: none;
+
+                        //-- Second level nav
+                        .second-level-nav{
+                            color: $bullying-white;
+                            background-color: $bullying-orange;
+                            //-- Second-level-nav links
+                            > a{
+                                color: $bullying-white;
+                                background-color: $bullying-orange;
+                                border: 1px solid $bullying-white;
+                                border-bottom: none;
+                                span{
+                                    margin-left: 40px;
+                                }
+                            }
+
+                            //-- Sub Category
+                            &.has-more{
+                                .show-more{
+                                    color: $bullying-white;
+                                    background-color: $bullying-orange;
+                                    border: 1px solid $bullying-white;
+                                }
+                                .submenu{
+                                    display: none;
+                                    margin: 0;
+                                    li{
+                                        width: 100%;
+                                        background-color: $bullying-gray;
+                                        background-image: none;
+                                        a{
+                                            color: $bullying-dark-gray;
+                                            font-size: 10px;
+                                            text-transform: capitalize;
+                                            border: 1px solid $bullying-white;
+                                            border-bottom: none;
+                                            span{
+                                                margin-left: 60px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:last-of-type{
+                        border-bottom: $primary-border;
+                    }
+
+                    //-- Donate & Newsletter buttons
+                    .header-donate, .header-newsletter{
+                        background-image: none;
+                        img{ display: none; }
+                    }
+
+                }
+            }
+
+            //-- Social icons
+            .social-list{
+				display: block;
+                width: 100%;
+                border: 1px solid $bullying-orange;
+                .social-elements{
+                    background-color: $bullying-white;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    .socialButton{
+                        width: 40px;
+                        height: 40px;
+                        padding: 0;
+                        display: inline-block;
+                        background-color: $bullying-white;
+                        margin: 20px auto;
+                        color: $bullying-orange;
+                        text-align: center;
+                        background-size: 40px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        &.facebook{
+                            background-image: url(images/mobile/bullying/facebook-icon.png);
+                        }
+                        &.twitter{
+                            background-image: url(images/mobile/bullying/twitter-icon.png);
+                        }
+                        &.instagram{
+                            background-image: url(images/mobile/bullying/instagram-icon.png);
+                        }
+                        &.pinterest{
+                            background-image: url(images/mobile/bullying/pintrest-icon.png);
+                        }
+                        &.youtube{
+                            background-image: url(images/mobile/bullying/youtube-icon.png);
+                        }
+                    }
+                }
+            }
+        }
+
+        //-- side bar
+        .sidebar1{
+            display: none;
+        }
+
+        //-- Search
+        .search-wrapper{
+			display: block;
+            background-color: $bullying-orange;
+            border: 1px solid $bullying-white;
+            #cse-search-box{
+                line-height: 0;
+                .searchBox{
+                    height: 30px;
+                    width: calc(100% - 80px);
+                    margin: 10px;
+                    padding: 0;
+                    vertical-align: top;
+                    border: 1px solid $bullying-white
+                }
+                .search-submit{
+                    height: 50px;
+                    width: 48px;
+                    margin-left: -2px;
+                    padding: 0;
+                    background: $bullying-orange url(images/mobile/bullying/search-icon.png) no-repeat center;
+                    background-size: 18px;
+                    border: none;
+                    border-left: 1px solid $bullying-white;
+                }
+            }
+        }
+
+        //-- Footer
+        .footer.bullying{
+            padding: 20px 30px 0 30px;
+            font-family: $bullying-primary-font;
+            #leftCol-branding{
+                width: 100%;
+                padding: 0;
+                #footer-logo{
+                    max-width: 100%;
+                    margin: 0 auto 15px;
+                }
+                .footer-section.offices{
+                    h4, p{
+                        padding: 0;
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                    &:last-of-type{
+                        margin-top: 15px;
+                        margin-bottom: 0;
+                    }
+                }
+                .footer-message{
+                    margin: 30px auto 0;
+                    padding: 0;
+                    font-size: 15px;
+                }
+                .footer.e-mail{
+                    display: none;
+                }
+            }
+            #centerCol-links{
+                width: 100%;
+                padding: 0;
+                // social icons
+                .social-elements{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    .socialButton{
+                        width: 40px;
+                        height: 40px;
+                        padding: 0;
+                        display: inline-block;
+                        background-color: $bullying-purple;
+                        margin: 20px auto;
+                        color: $bullying-orange;
+                        text-align: center;
+                        background-size: 40px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        &:first-child{
+                            margin-left: 0;
+                        }
+                        &:last-child{
+                            margin-right: 0;
+                        }
+                        &.facebook{
+                            background-image: url(images/mobile/icons-general/facebook-icon-white.png);
+                        }
+                        &.twitter{
+                            background-image: url(images/mobile/icons-general/twitter-icon-white.png);
+                        }
+                        &.instagram{
+                            background-image: url(images/mobile/icons-general/instagram-icon-white.png);
+                        }
+                        &.pinterest{
+                            background-image: url(images/mobile/icons-general/pinterest-icon-white.png);
+                        }
+                        &.youtube{
+                            background-image: url(images/mobile/icons-general/youtube-icon-white.png);
+                        }
+                    }
+                }
+                ul{
+                    margin-bottom: 20px;
+                    li{
+                        margin-top: 30px;
+                        line-height: 15px;
+                        a{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            #rightCol-Sites{
+                width: 100%;
+                padding: 0;
+                ul li a{
+                    width: 100%;
+                    margin: 20px 0 0;
+                    color: $bullying-white;
+                    font-size: 13px;
+                    font-weight: normal;
+                    text-align: left;
+                    border: none;
+                    border-radius: 0;
+                    .fa-external-link{
+                        font-size: 14px;
+                    }
+                }
+            }
+            #copywrite{
+                margin: 0;
+                padding: 20px 0 5px;
+                text-align: left;
+            }
+        }
+    }
+}
+
+//-- Mobile Breakpoint
+@include breakpoint($bp-mobile-landscape){
+    @include bullying-responsive-styles();
+}

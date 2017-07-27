@@ -1,0 +1,780 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>LayerSlider - The Parallax Effect Slider from Kreatura Media</title>
+
+		<link rel="stylesheet" href="../assets/SyntaxHighlighter/styles/shCoreEclipse.css" type="text/css">
+		<link rel="stylesheet" href="../assets/SyntaxHighlighter/styles/shThemeEclipse.css" type="text/css">
+
+		<link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+		<!--[if lt IE 9]>
+			<script src="../assets/js/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="dim">
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<div class="doc">
+						<img id="doc_banner" src="../assets/img/doc_banner.png" alt="LayerSlider Documentation">
+						<h1>LayerSlider 2.0</h1>
+						<h2>The Parallax Effect Slider</h2>						
+						<h3>Documentation</h3>
+						<ul>
+							<li>
+								<a href="#overview">Overview</a>
+								<ul>
+									<li><a href="#thankyou">Thank you</a></li>
+									<li><a href="#features">Features</a></li>
+									<li><a href="#changelog">Changelog</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#requirements">Requirements</a>
+								<ul>
+									<li><a href="#jquery">jQuery</a></li>
+									<li><a href="#browser_support">Browser Support</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#usage">Usage</a>
+								<ul>
+									<li><a href="#setup">Setup</a></li>
+									<li><a href="#loading">Loading the Script</a></li>
+									<li><a href="#html_markup">HTML Markup</a></li>
+									<li><a href="#responsive">Make LayerSlider Responsive</a></li>
+									<li><a href="#global_settings">Global Settings</a></li>
+									<li><a href="#local_settings">Local Settings</a></li>
+									<li><a href="#linkto">How to add a link which jumps to another layer (linkTo)</a></li>
+									<li><a href="#api">LayerSlider API</a></li>
+									<li><a href="#videos">Embedding Videos (YouTube and Vimeo)</a></li>
+								</ul>
+							</li>
+							<li><a href="#skinsupport">Skin support</a></li>
+							<li><a href="#examples">Examples</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="overview"></a>
+					<h3>Overview</h3>
+					<h2 class="description">This is a jQuery content slider using the parallax-effect. You can create as many layers and sublayers as you want. You can use images or any other HTML elements, including Flash movies as layers. The script is very user-friendly, you can add global settings or local (per slide) settings to each layer or sublayer. You can change delay times, easing types, durations and much more.</h2>
+					<a name="thankyou"></a>
+					<h3>Thank you</h3>
+					<p>
+						Thank you for purchasing this product. If you have any questions that are beyond the scope of this documentation, please feel free to email us.
+					</p>
+					<a name="features"></a>
+					<h3>Features</h3>
+					<ul>
+						<li>Use with ANY content you want (images, HTML elements, Flash movies, YouTube videos, etc.)<br>(best view with semi-transparent PNG images or CSS3 styled HTML elements)</li>
+						<li>Sliding from / to 4 directions or fading in / out (sublayers only)</li>
+						<li>Unlimited number of layers / sublayers</li>
+						<li>Multiple animations and easing</li>
+						<li>Responsive layout</li>						
+						<li>Automatic slideshow feature (optional: Backwards-Slideshow)</li>
+						<li>Image preload feature</li>
+						<li>Auto-play embedded YouTube and Vimeo videos (configurable)</li>
+						<li>Auto-pause slideshow while videos are playing</li>
+						<li>Auto-preview images to YouTube and Vimeo videos</li>
+						<li>Loops feature</li>
+						<li>Customizable UI</li>
+						<li>Easy per-layer settings with rel or style tags</li>
+						<li>Now it's easy to add a link which jumps to another layer</li>						
+						<li>Powerful API with callback functions</li>						
+						<li>Keyboard navigation</li>
+						<li>Touch control for mobile devices (iOS tested)</li>
+						<li>yourLogo feature with link option</li>
+						<li>Skin support with 5 pre-defined skins</li>						
+						<li>SEO friendly</li>
+						<li>Multiple browser support (IE 7+, Safari 3+, iOS Safari, Chrome 3+, Firefox 3+, Opera 10+)</li>
+						<li>Detailed Documentation with examples</li>
+					</ul>
+					<a name="changelog"></a>
+					<h3>Changelog</h3>
+					<p>
+						2.0
+					</p>
+					<ul>
+						<li>added loops feature</li>
+						<li>added autoPlay feature for embedded YouTube and Vimeo videos</li>
+						<li>added autoPauseSlideshow feature while videos are playing</li>
+						<li>added auto-preview image feature to YouTube and Vimeo videos</li>
+						<li>added linkTo feature</li>						
+						<li>included two new skins</li>
+						<li>touch control now can be disabled</li>
+						<li>changed one layer mode (not duplicating it now)</li>
+						<li>fixed a wrong variable</li>
+						<li>fixed a wrong function in forceResponsive mode</li>
+						<li>the bottom side of the slider (next to the controls) is now clickable</li>
+						<li>a lot of minor bugfixes and improvements</li>
+					</ul>
+					<p>
+						1.8
+					</p>
+					<ul>
+						<li>fixed some animations</li>
+						<li>added background-images of layers to preload</li>
+						<li>modified some CSS styles</li>
+						<li>some parts of the source code rewritten</li>
+						<li>added yourLogoLink feature</li>
+						<li>added yourLogoTarget feature</li>
+						<li>added noskin feature</li>
+					</ul>
+					<p>
+						1.7
+					</p>
+					<ul>
+						<li>fixed fading bug (sublayers now appears if sliding in after fading out)</li>
+						<li>fixed preload bug with sublayers with gradient backgrounds</li>
+						<li>fixed working delayout of layers (From now, if you add a delayout to a layer, sublayers of that layer will be animating out immediately, but the layer (and the next layer) will be delayed by the delayout time of the current layer. So, you can animate out all sublayers BEFORE the parent layer will begin the animation.)</li>
+						<li>fixed imagepreload bug</li>
+						<li>added an option to animating the first slide instead of fading in</li>
+						<li>the script is now fully responsive! (You can add % instead of pixels to left and top properties of sublayers and width or height properties of LayerSlider container. IMPORTANT: you have to use style tags to add these values! For more information, please read the documentation about this!)</li>
+						<li>added yourLogo feature (You can now display your fixed logo above LayerSlider container.)</li>						
+						<li>added a new API function called cbInit()</li>						
+						<li>some minor bugfixes</li>
+					</ul>
+					<p>
+						1.6
+					</p>
+					<ul>
+						<li>now sublayers supports fading transition</li>
+						<li>added slideoutdirection property to sublayers</li>
+						<li>added global background color / background image support</li>
+						<li>fixed '1px gap' bug</li>
+						<li>fixed one layer bug</li>
+						<li>fixed swing, linear and easeInOutQuint animations</li>
+						<li>fixed hover on pause / stop bug</li>
+						<li>fixed wrong directions of animations if navigating by slidebuttons</li>
+						<li>fixed durationout property for sublayers</li>
+					</ul>
+					<p>
+						1.5
+					</p>
+					<ul>
+						<li>added touch control for mobile devices</li>
+						<li>now supports rel tags for properties</li>
+						<li>added slidedirection property for sublayers too</li>
+						<li>added pauseOnHover feature</li>
+						<li>added a powerful API with callback functions</li>
+					</ul>
+					<p>
+						1.0
+					</p>
+					<ul>
+						<li>first release</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="requirements"></a>
+					<h3>Requirements</h3>
+					<a name="jquery"></a>
+					<h3>jQuery</h3>
+					<h2 class="description">Because this is a jQuery plugin, you'll need jQuery and jQuery Easing JS or jQuery's UI's Effects Core to run it.</h2>
+					<ul>
+						<li>jQuery 1.4+</li>
+						<li>jQuery Easing JS or jQuery UI Effects Core 1.8.9+</li>
+						<li>recommended: valid xHTML or HTML 5 markup</li>
+					</ul>
+					<a name="browser_support"></a>
+					<h3>Browser Support</h3>
+					<ul>
+						<li>Mozilla Firefox 3+</li>
+						<li>Google Chrome 10+</li>
+						<li>Safari 3+</li>
+						<li>iOS Safari</li>
+						<li>Opera 10+</li>
+						<li>Internet Explorer 7+</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="usage"></a>
+					<h3>Usage</h3>
+					<h2 class="description">Please note, that the following source codes are in HTML 5 markup.<br>If you are using xHTML, please be aware of the differences.</h2>
+					<a name="setup"></a>
+					<h3>Setup</h3>
+					<p>
+						Include the following lines into the <span class="hl">head</span> section of your page. Of course the path can be different, depending where is layerslider folder on your server.
+					</p>
+					<pre name="code" class="brush: xml">
+						<!-- LayerSlider styles -->
+						<link rel="stylesheet" href="../layerslider/css/layerslider.css" type="text/css">
+
+						<!-- jQuery with jQuery Easing JS -->
+						<script src="../layerslider/jQuery/jquery-1.6.2.min.js" type="text/javascript"></script>
+						<script src="../layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
+
+						<!-- LayerSlider from Kreatura Media -->
+						<script src="../layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script></pre>
+					<a name="loading"></a>
+					<h3>Loading the Script</h3>
+					<p>
+						You have to run this plugin like any other jQuery plugins:
+					</p>
+					<pre name="code" class="brush: js">
+						$(selector).layerSlider();</pre>
+					<p>
+						For example: if your LayerSlider container has an id named slider, the correct call method will be:
+						<pre name="code" class="brush: js">
+							$('#layerslider').layerSlider();</pre>						
+					</p>
+					<a name="html_markup"></a>
+					<h3>HTML Markup</h3>
+					<p>
+						Create HTML markup for layers into the <span class="hl">body</span> section of your page. A typical HTML markup for the script looks like this:
+					</p>
+					<pre name="code" class="brush: xml">
+						<!--LayerSlider begin-->
+						<div id="slider">
+
+							<!--LayerSlider layer-->
+							<div class="ls-layer">
+
+								<!--LayerSlider background-->
+								<img class="ls-bg" src=".." alt="layer1-background">
+
+								<!--LayerSlider sublayers-->
+								<img class="ls-s1" src=".." alt="layer1-sublayer1">
+								<img class="ls-s2" src=".." alt="layer1-sublayer2">
+								<img class="ls-s3" src=".." alt="layer1-sublayer3">
+							</div>
+
+							<!--LayerSlider layer-->
+							<div class="ls-layer">
+
+								<!--LayerSlider background-->
+								<img class="ls-bg" src=".." alt="layer2-background">
+
+								<!--LayerSlider sublayers-->
+								<img class="ls-s1" src=".." alt="layer2-sublayer1">
+								<img class="ls-s2" src=".." alt="layer2-sublayer2">
+								<img class="ls-s3" src=".." alt="layer2-sublayer3">
+							</div>
+
+						</div>
+						<!--LayerSlider end--></pre>
+					<p>
+						As you can see, we created two layers with adding <span class="hl">class</span> named <span class="hl">ls-layer</span> to the divs - in this case the slideshow will have only two complete screens. We also put sublayers into layers - these are images, but you can use any type of content you want, including HTML code, or Flash movies too.
+					</p>
+					<p>
+						There are a special sublayer, it is called background and it has a <span class="hl">class</span> named <span class="hl">ls-bg</span>. The parallax-effect does not apply to background sublayers - so they are always staying in the background of the parent layer. (Otherwise you can add background-images to layers too.)
+					</p>
+					<p>
+						Other sublayers have a <span class="hl">class</span> named <span class="hl">ls-l</span><span class=" i">number</span>. This number is a positive integer and it is important because of the parallax effect: sublayers with higher number will animate faster and therefore it seems that you see the whole animation in 3D.
+					</p>
+					<p>
+						Obviously you can create unlimited sublayers and they can have the same <span class="hl">class</span> too.
+					</p>
+					<a name="responsive"></a>
+					<h3>Make LayerSlider Responsive</h3>
+					<p>
+						From version 1.7 you can make the slider responsive. So, you can add percentage values to width and height* properties of LayerSlider container and of course left and top properties of sublayers.
+					</p>
+					<p class="b">
+						Important: Because of browser incompatibility you must use style tag if you want to add percentage values to these properties! Example: this is 80% wide LayerSlider with a layer that contains some sublayer that have left and top properties set in percentage:
+					</p>
+					<pre name="code" class="brush: xml">
+						<!--LayerSlider begin-->
+						<div id="slider" style="width: 80%; height: 400px;">
+
+							<!--LayerSlider layer-->
+							<div class="ls-layer">
+
+								<!--LayerSlider background-->
+								<img class="ls-bg" src=".." alt="layer1-background">
+
+								<!--LayerSlider sublayers-->
+								<img class="ls-s2" src=".." alt="layer1-sublayer1" style="left: 50%; top: 50%;">
+								<img class="ls-s4" src=".." alt="layer1-sublayer2" style="left: 20%; top: 20%;">
+								<img class="ls-s6" src=".." alt="layer1-sublayer3" style="left: 80%; top: 80%;">
+							</div>
+
+						</div>
+						<!--LayerSlider end--></pre>
+					<p class="b">
+						Important: If you are using responsive layout, do not set imgPreload property to false!
+					</p>
+					<p>
+						Note, that in this case the left and top properties will point to the center of the current sublayer! For example if you add style="left: 50%; top: 50%;" to a sublayer, than it will be in the absolute center of the layer.
+					</p>					
+					<p>
+						* If you want to add the height of the LayerSlider container also in percentage you must also add the height (in pixels) of the parent element of the LayerSlider container!
+					</p>
+					<a name="global_settings"></a>
+					<h3>Global Settings</h3>
+					<p>
+						You can use the following - global - settings which are applied to the container of the slider. If you run multiple sliders on the same page, you can add different settings to each sliders. Note, that these are case sensitive.
+					</p>
+					<pre name="code" class="brush: js">
+						$('#slider').layerSlider({
+
+							autoStart				: true,
+							firstLayer				: 1,
+							twoWaySlideshow			: false,
+							keybNav					: true,
+							touchNav				: true,
+							imgPreload				: true,
+							navPrevNext				: true,
+							navStartStop			: true,
+							navButtons				: true,
+							skin					: 'default',
+							skinsPath				: '/layerslider/skins/',
+							pauseOnHover			: true,
+							globalBGColor			: 'transparent',
+							globalBGImage			: false,
+							animateFirstLayer		: false,
+							yourLogo				: false,
+							yourLogoStyle			: 'position: absolute; z-index: 1001; left: 10px; top: 10px;',
+							yourLogoLink			: false,
+							yourLogoTarget			: '_blank',
+							loops					: 0,
+							forceLoopNum			: true,
+							autoPlayVideos			: true,
+							autoPauseSlideshow		: 'auto',
+							youtubePreview			: 'maxresdefault.jpg',
+
+							// you can change this settings separately by layers or sublayers with using html style attribute
+
+							slideDirection			: 'right',
+							slideDelay				: 4000,
+							parallaxIn				: .45,
+							parallaxOut				: .45,
+							durationIn				: 1000,
+							durationOut				: 1000,
+							easingIn				: 'easeInOutQuint',
+							easingOut				: 'easeInOutQuint',
+							delayIn					: 0,
+							delayOut				: 0
+
+						});</pre>
+					<p>
+						<span class="hl">autoStart</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						If true, slideshow will automatically start after loading the page.
+					</p>
+					<p>
+						<span class="hl">firstLayer</span> : <span class="hl i">number</span> <span class="i">(positive integer)</span><br>
+						LayerSlider will begin with this layer.
+					</p>
+					<p>
+						<span class="hl">twoWaySlideshow</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						If true, slideshow will go backwards if you click the prev button.
+					</p>
+					<p>
+						<span class="hl">keybNav</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						Keyboard navigation. You can navigate with the left and right arrow keys.
+					</p>
+					<p>
+						<span class="hl">touchNav</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						Touch-control (on mobile devices)
+					</p>
+					<p>
+						<span class="hl">imgPreload</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						Image preload. Preloads all images and background-images of the next layer.
+					</p>
+					<p>
+						<span class="hl">navPrevNext</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						If false, Prev and Next buttons will be invisible.
+					</p>
+					<p>
+						<span class="hl">navStartStop</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						If false, Start and Stop buttons will be invisible.
+					</p>
+					<p>
+						<span class="hl">navButtons</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						If false, slide buttons will be invisible.
+					</p>
+					<p>
+						<span class="hl">skin</span> : <span class="hl i">'name_of_the_skin'</span><br>
+						You can change the skin of the Slider. You can read more abut this at <a href="#skinsupport">Skin support</a>.
+					</p>
+					<p>
+						<span class="hl">skinsPath</span> : <span class="hl i">'path_of_the_skins_folder/'</span><br>
+						You can change the default path of the skins folder. Note, that you must use the slash at the end of the path.
+					</p>
+					<p>
+						<span class="hl">pauseOnHover</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						If ture, SlideShow will pause when you move the mouse pointer over the LayerSlider container.
+					</p>
+					<p>
+						<span class="hl">globalBGColor</span> : <span class="hl i">CSS color methods</span><br>
+						Background color of LayerSlider. You can use all CSS methods, like hexa colors, rgb(r,g,b) method, color names, etc. Note, that background sublayers are covering the background.
+					</p>
+					<p>
+						<span class="hl">globalBGImage</span> : <span class="hl i">URL of the background image</span><br>
+						Background image of LayerSlider. This will be a fixed background image of LayerSlider by default. Note, that background sublayers are covering the global background image.
+					</p>
+					<p>
+						<span class="hl">animateFirstLayer</span> : <span class="hl i">false</span> or <span class="hl i">true</span><br>
+						If true, first layer will animate (slide in) instead of fading.
+					</p>
+					<p>
+						<span class="hl">yourLogo</span> : <span class="hl i">'path_of_your_image'</span><br>
+						This is a fixed image that will be shown above of LayerSlider container. For example if you want to display your own logo, etc. You have to add the correct path to your image file.
+					</p>
+					<p>
+						<span class="hl">yourLogoStyle</span> : <span class="hl i">'css_properties'</span><br>
+						You can style your logo. You are allowed to use any CSS properties, for example add left and top properties to place the image inside the LayerSlider container anywhere you want.
+					</p>
+					<p>
+						<span class="hl">yourLogoLink</span> : <span class="hl i">'domain_or_page'</span> or <span class="hl i">false</span><br>
+						You can add a link to your logo. Set false is you want to display only an image without a link.
+					</p>
+					<p>
+						<span class="hl">yourLogoTarget</span> : <span class="hl i">'target'</span><br>
+						If '_blank', the clicked url will open in a new window.
+					</p>
+					<p>
+						<span class="hl">loops</span> : <span class="hl i">number</span> <span class="i">(0 or a positive integer)</span><br>
+						Number of loops if autoStart set true (0 means infinite).
+					</p>
+					<p>
+						<span class="hl">forceLoopNum</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						If true, the slider will always stop at the given number of loops even if the user restarts the slideshow.
+					</p>
+					<p>
+						<span class="hl">autoPlayVideos</span> : <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						If true, slider will autoplay youtube / vimeo videos - you can use it with autoPauseSlideshow.
+					</p>
+					<p>
+						<span class="hl">autoPauseSlideshow</span> : <span class="hl i">'auto'</span>, <span class="hl i">true</span> or <span class="hl i">false</span><br>
+						'auto', true or false. 'auto' means, if autoPlayVideos is set to true, slideshow will stop UNTIL the video is playing and after that it continues. True means slideshow will stop and it won't continue after video is played.
+					</p>
+					<p>
+						<span class="hl">youtubePreview</span> : <span class="hl i">'videopreviewname.jpg'</span><br>
+						Default thumbnail picture of YouTube videos. Can be 'maxresdefault.jpg', 'hqdefault.jpg', 'mqdefault.jpg' or 'default.jpg'. Note, that 'maxresdefault.jpg' os not available to all (not HD) videos.
+					</p>
+					<h2 class="description">
+						The following global settings can be override separately by each layers or sublayers local settings.
+					</h2>
+					<p>
+						<span class="hl">slideDirection</span> : <span class="hl i">'left'</span>, <span class="hl i">'right'</span>, <span class="hl i">'top'</span>, <span class="hl i">'bottom'</span> or <span class="hl i">'fade' *</span><br>
+						Slide direction. New layers sliding FROM(!) this direction.<br>* From version 1.6 you can use the fade parameter if you want to fade in / out a sublayer instead of sliding. Note, that fade is working ONLY on sublayers but not on layers so if you want to fade in / out a sublayer (instead of sliding), you have to add the slidedirection or the slideoutdirection property to that sublayer and you cannot use fade as a global property! See the Local Settings below.
+					</p>
+					<p>
+						<span class="hl">slideDelay</span> : <span class="hl i">number</span> <span class="i">(millisecs)</span><br>
+						Time before the next slide will be loading.
+					</p>
+					<p>
+						<span class="hl">parallaxIn</span> : <span class="hl i">number</span><br>
+						Modifies the parallax-effect of the slide-in animation.
+					</p>
+					<p>
+						<span class="hl">parallaxOut</span> : <span class="hl i">number</span><br>
+						Modifies the parallax-effect of the slide-out animation.
+					</p>
+					<p>
+						<span class="hl">durationIn</span> : <span class="hl i">number</span> <span class="i">(millisecs)</span><br>
+						Duration of the slide-in animation.
+					</p>
+					<p>
+						<span class="hl">durationOut</span> : <span class="hl i">number</span> <span class="i">(millisecs)</span><br>
+						Duration of the slide-out animation.
+					</p>
+					<p>
+						<span class="hl">easingIn</span> : <span class="hl i">easing</span> <span class="i">(all <a target="_blank" href="http://jqueryui.com/demos/effect/easing.html">easing types</a> of jQuery UI Effects Core can be used)</span><br>
+						Easing (type of transition) of the slide-in animation.
+					</p>
+					<p>
+						<span class="hl">easingOut</span> : <span class="hl i">easing</span> or <span class="i">(all <a target="_blank" href="http://jqueryui.com/demos/effect/easing.html">easing types</a> of jQuery UI Effects Core can be used)</span><br>
+						Easing (type of transition) of the slide-out animation.
+					</p>
+					<p>
+						<span class="hl">delayIn</span> : <span class="hl i">number</span> <span class="i">(millisecs)</span><br>
+						Delay time of the slide-in animation.
+					</p>
+					<p>
+						<span class="hl">delayOut</span> : <span class="hl i">number</span> <span class="i">(millisecs)</span><br>
+						Delay time of the slide-out animation.
+					</p>
+					<a name="local_settings"></a>
+					<h3>Local Settings</h3>
+					<p>
+						Some of the above settings you can apply uniquely to a layer or a sublayer. For example, if you want to add an extra slide direction and slide delay property to a layer, use the following code:
+					</p>
+					<pre name="code" class="brush: xml">
+						<div class="ls-layer" style="slidedirection: top; slidedelay: 6000">
+							
+							<!--sublayers-->
+						
+						</div></pre>
+						<p>
+							As you can see, we used the style tag to add properties.* Another example, we are adding some other properties to a sublayer:
+						</p>
+						<pre name="code" class="brush: js">
+							<img class="ls-s10" src="../gallery/l29.png" style="durationin: 1000; easingin: easeOutExpo"></pre>
+						<p>
+							* From version 1.5, you can use both rel and style tags to add properties. Some older browser (like Firefox 2) doesn't allow to add custom properties into style tag, so in that case you can use rel tag.
+						</p>
+						<p>
+							You can add this properties to layers:
+						</p>
+						<ul>
+							<li>slidedirection</li>
+							<li>slidedelay</li>
+							<li>durationin</li>
+							<li>durationout</li>
+							<li>easingin</li>
+							<li>easingout</li>
+							<li>delayin</li>
+							<li>delayout</li>
+						</ul>
+						<p>
+							You can add this properties to sublayers:
+						</p>
+						<ul>
+							<li>slidedirection *</li>
+							<li>slideoutdirection **</li>
+							<li>parallaxin</li>
+							<li>parallaxout</li>
+							<li>durationin</li>
+							<li>durationout</li>
+							<li>easingin</li>
+							<li>easingout</li>
+							<li>delayin</li>
+							<li>delayout</li>
+						</ul>
+						<p>
+							* From version 1.5, you can add the slidedirection property to the sublayers too. So you can animate some sublayers for example from top as the main layer is sliding from left. You can use all four directions at the same time with different sublayers inside a main layer!
+						</p>
+						<p>
+							** From version 1.6, you can add the slideoutdirection property to the sublayers. So you can set the slide out animation independent from the slide in animation. You can also use the fade parameter if you want to fade out a sublayer.
+						</p>
+						<a name="linkto"></a>
+						<h3>How to add a link which jumps to another layer (linkTo)</h3>
+						<p>
+							From version 2.0 you can easily add a special link to any sublayer which jumps to the selected layer of the slider. You don't have to write any JS code, just add a special class to the sublayer by the following way:
+						</p>
+						<pre name="code" class="brush: js">
+							<img class="ls-s2 ls-linkto-3" src="../gallery/l29.png" style="durationin: 1000; easingin: easeOutExpo"></pre>
+						<p>
+							As you can see, we used a class name "ls-linkto-" and a <span class="i">number</span> which is of course the ordinal number of the layer where you want to jump to.
+						</p>
+						<a name="api"></a>
+						<h3>LayerSlider API</h3>
+						<p>
+							We added an API to make more comfortable the usage of this script.<br>
+							The API can be divided into three parts:
+						</p>
+						<h4>1. The LayerSlider Data Object</h4>
+						<p>
+							Sometimes you may need to know the current layer index or for example if the script is even animating or not. Now you can get the whole LayerSlider object with realtime values of variables at any time. Just call the $(your-layerslider-container).layerSlider('data'); function and you can get back this object. Try this:
+						</p>
+						<pre name="code" class="brush: js">
+							var lsdata = $(your-layerslider-container).layerSlider('data');
+							alert(lsdata.g.curLayerIndex);</pre>
+						<p>
+							This will show you the current layer index.<br>
+							You can get ALL the events and variables in real time, but the more important are the following:
+						</p>
+						<ul>
+							<li>lsdata<span class="hl">.g.curLayer</span> (jQuery object of the current layer)</li>
+							<li>lsdata<span class="hl">.g.curLayerIndex</span> (current layer index)</li>
+							<li>lsdata<span class="hl">.g.isAnimating</span> (true or false)</li>
+							<li>lsdata<span class="hl">.g.layersNum</span> (number of layers)</li>
+							<li>lsdata<span class="hl">.g.autoSlideshow</span> (true or false, slideshow is running if true)</li>
+						</ul>
+						<h4>2. Callback functions</h4>
+						<p>
+							You can use some callback functions too. You have to define these functions with the global settings:
+						</p>
+						<pre name="code" class="brush: js">
+							$('#slider').layerSlider({
+								
+								...
+
+								global settings
+
+								...
+
+								cbInit			: function(){ yourcode },	// Calling when LayerSlider loads.
+								cbStart			: function(){ yourcode },	// Calling when you click the slideshow start button.
+								cbStop			: function(){ yourcode },	// Calling when click the slideshow stop / pause button.
+								cbPause			: function(){ yourcode },	// Calling when slideshow pauses (if pauseOnHover is true).
+								cbAnimStart		: function(){ yourcode },	// Calling when animation starts.
+								cbAnimStop		: function(){ yourcode },	// Calling when the animation of current layer ends, but the sublayers of this layer still may be animating.
+								cbPrev			: function(){ yourcode },	// Calling when you click the previous button (or if you use keyboard or touch navigation).
+								cbNext			: function(){ yourcode }	// Calling when you click the next button (or if you use keyboard or touch navigation).
+
+							});</pre>
+						<h4>3. Controller functions</h4>
+						<p>
+							You can call these functions to control the slider:
+						</p>
+						<ul>
+							<li>$('#slider').layerSlider(<span class="hl">'prev'</span>); if you want to change to the previous layer</li>
+							<li>$('#slider').layerSlider(<span class="hl">'next'</span>); if you want to change to the next layer</li>
+							<li>$('#slider').layerSlider(<span class="hl">2</span>); if you want to jump to a specified layer</li>
+							<li>$('#slider').layerSlider(<span class="hl">'start'</span>); if you want to start the slideshow</li>
+							<li>$('#slider').layerSlider(<span class="hl">'stop'</span>); if you want to stop the slideshow</li>
+						</ul>
+						<a name="videos"></a>
+						<h3>Embedding Videos (YouTube and Vimeo)</h3>
+						<p>
+							We want to show an example how to create a layer with an embedded video sublayer. LayerSlider works with embed codes of many video sharing websites, but we created some features to improve the work with two most popular sites: YouTube and Vimeo.
+						</p>
+						<h4>So, how to put your video into a layer?</h4>
+						<p>
+							It is very simple: you will need to create a DIV sublayer and put your video embed code into. That's it! You can see in the following example, that we created a slider with two layers and we put a YouTube video into a sublayer of the first layer, and put a Vimeo video into a sublayer of the second layer.
+						</p>
+						<pre name="code" class="brush: xml">
+							<div id="slider">
+
+								<div class="ls-layer">
+
+									<img class="ls-bg" src=".." alt="layer1-background">
+									<div class="ls-s2">
+										<iframe width="640" height="360" src="http://www.youtube.com/embed/MT_r7Nw14EA" frameborder="0" allowfullscreen></iframe>
+									</div>
+								</div>
+
+								<div class="ls-layer">
+
+									<img class="ls-bg" src=".." alt="layer2-background">
+									<div class="ls-s2">
+										<iframe src="http://player.vimeo.com/video/24535181?color=ff9933" width="873" height="491" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+									</div>
+								</div>
+
+							</div></pre>
+						<p>
+							Important things about embedding:
+						</p>
+						<ul>
+							<li>You can position the video by adding style tag to the container DIV sublayer</li>
+							<li>The dimensions of the video will be always the same as you define in the embed code with width and height properties</li>
+							<li>You can create a full size video by adding the same width and height property to the iframe embed code as your slider's width and height</li>
+						</ul>
+						<h4>YouTube and Vimeo video features</h4>
+						<p>
+							As we said, we included some nice features if you are using YouTube and / or Vimeo video services.
+						</p>
+						<h4>Video Preview Image</h4>
+						<p>
+							LayerSlider adds a video preview image (from the video) with a play button, so when the layer slides in with a video sublayer, you don't see those video controls until the video will begin to play. If you are using YouTube, you can choose from different sizes of preview images (see youtubePreview option in Global Settings).
+						</p>
+						<h4>autoPlayVideos</h4>
+						<p>
+							If you set it true, videos will begin to play immediately when the layer slides in.
+						</p>
+						<h4>autoPauseSlideshow</h4>
+						<p>
+							If a slideshow is running and autoPlayVideos is set to true, the slideshow can be auto-paused while videos are playing. Just set autoPauseSlideshow to true or 'auto' and the slideshow will stop. Of course in 'auto' mode it will continue after the video has played.
+						</p>
+				</div>
+			</div>
+			
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="skinsupport"></a>
+					<h3>Skin support</h3>
+					<h2 class="description">
+						You can easily add skins to LayerSlider.
+					</h2>
+					<p>
+						Actually there are five pre-defined skins that you can use. These are:
+					</p>
+					<ul>
+						<li>defaultskin</li>
+						<li>lightskin</li>
+						<li>darkskin</li>
+						<li>minimal</li>
+						<li>glass</li>
+					</ul>
+					<p>
+						and if you want to forbid LayerSlider to load any skin, use: skin : 'noskin'.
+					</p>
+					<p>
+						Each of them have a separated folder in <span class="hl">/layerslider/skins/</span>. The name of the folder is the name of the skin too. If you open skin.css from any skin folder, you realize, that I used the name of the skin as a css class by the following way:
+					</p>
+					<p>
+						<span class="hl">.ls-</span><span class="hl i">name_of_the_skin</span>
+					</p>
+					<p>
+						If you run LayerSlider with the skin property, it will trying to load skin.css from the folder <span class="hl">/layerslider/skin/name_of_the_skin/</span> and it will add <span class="hl">ls-name_of_the_skin</span> css class to LayerSlider container.
+					</p>
+					<p>
+						So, you can easily load your skin, but don't forget that the path of the skins folder.
+					</p>
+					<pre name="code" class="brush: js">
+						$('#layerslider').layerSlider({
+							skin : 'darkskin'
+						});</pre>
+					<p>
+						We attached a layered PSD file with the five skins.
+					</p>
+				</div>
+			</div>
+			
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="examples"></a>
+					<h3>Examples</h3>
+					<p>
+						<a href="../examples/example1.html">Example 1.</a> - A fully configured slider with local settings (default skin).						
+					</p>
+					<p>
+						<a href="../examples/example2.html">Example 2.</a> - Light Skin
+					</p>
+					<p>
+						<a href="../examples/example3.html">Example 3.</a> - Dark Skin
+					</p>
+					<p>
+						<a href="../examples/example4.html">Example 4.</a> - Multiple sliders with new skins (v2.0) and different settings
+					</p>
+					<p>
+						<a href="../examples/example5.html">Example 5.</a> - Embedding YouTube and Vimeo videos (glass skin)
+					</p>
+					<p>
+						<a href="../examples/example6.html">Example 6.</a> - Responsive layout &amp; yourLogo sample
+					</p>
+					<p>
+						<a href="../examples/example7.html">Example 7.</a> - Fullscreen Responsive layout
+					</p>
+				</div>
+			</div>
+
+			<div class="page">
+				<div class="bg"></div>
+				<div class="inner">
+					<a name="contact"></a>
+					<h3>Contact us!</h3>
+					<h2 class="description">
+						If you like our works.<br>
+						If you need a help in using one of our CodeCanyon items.<br>
+						If you have a great idea which we can work together.
+					</h2>
+					<nav>
+						<a id="kmlogo" href="http://kreaturamedia.com/"></a><span>Visit our website!</span>
+						<a id="fblogo" href="http://facebook.com/kreaturamedia/"></a><span>Find us on Facebook!</span>
+						<a id="cclogo" href="http://codecanyon.net/user/kreatura?ref=kreatura"></a><span>Our Apps &amp; Codecanyon</span>
+						<div class="clear"></div>
+					</nav>
+				</div>
+			</div>
+			
+		</div>
+		<script src="../assets/js/documentation.js" type="text/javascript"></script>
+		<script src="../assets/SyntaxHighlighter/scripts/shCore.js" type="text/javascript"></script>
+		<script src="../assets/SyntaxHighlighter/scripts/shBrushJScript.js" type="text/javascript"></script>
+		<script src="../assets/SyntaxHighlighter/scripts/shBrushXml.js" type="text/javascript"></script>
+		<script src="../assets/SyntaxHighlighter/scripts/shBrushCss.js" type="text/javascript"></script>
+	</body>
+</html>

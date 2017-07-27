@@ -1,0 +1,6060 @@
+a {
+	color: #330099;
+}
+
+a:visited {
+	color: #663333;
+}
+
+li {
+	font-family: "Arial", sans-serif;
+	color: black;
+	/*font-size: 24pt;*/
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	/*background-color: #008000;*/
+	text-align: left;
+}
+
+.style-125
+{
+	background-color: #008000;
+}
+
+.style-124
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-129
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-128
+{
+	background-color: #008000;
+}
+
+.style-264
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-356
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-357
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-309
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-355
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-352
+{
+	background-color: #008000;
+}
+
+.style-158
+{
+	background-color: #008000;
+}
+
+.style-350
+{
+	background-color: #008000;
+}
+
+.style-182
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Body
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-139
+{
+	background-color: #008000;
+}
+
+.style-315
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-318
+{
+	background-color: #008000;
+}
+
+.style-319
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-299
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-275
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-293
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-292
+{
+	background-color: #008000;
+}
+
+.style-291
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-290
+{
+	background-color: #008000;
+}
+
+.style-297
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-365
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-364
+{
+	background-color: #008000;
+}
+
+.style-367
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-366
+{
+	background-color: #008000;
+}
+
+.style-361
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-360
+{
+	background-color: #008000;
+}
+
+.style-149
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-148
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2484
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2487
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2480
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2481
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2482
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2483
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2488
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-74
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-72
+{
+	background-color: #008000;
+}
+
+.style-71
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Body3
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Body2
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-376
+{
+	background-color: #008000;
+}
+
+.style-377
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-371
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Body5
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 20pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Body4
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 20pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-388
+{
+	color: #D0FFB9;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-382
+{
+	background-color: #008000;
+}
+
+.style-380
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-387
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-386
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-298
+{
+	background-color: #008000;
+}
+
+.style-347
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-346
+{
+	background-color: #008000;
+}
+
+.style-345
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-344
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-343
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-342
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-341
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-340
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-392
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-393
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-349
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-348
+{
+	background-color: #008000;
+}
+
+.style-396
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-397
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-394
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-395
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-301
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-300
+{
+	background-color: #008000;
+}
+
+.style-354
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-94
+{
+	background-color: #008000;
+}
+
+.style-353
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-351
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2441
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2448
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2449
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-415
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.hangingbullet
+{
+	font-size: 1pt;
+	background-color: #008000;
+	list-style-type: none;
+}
+
+.SlideMaster-Default
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2442
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2443
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2444
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2445
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2446
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2447
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-363
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-362
+{
+	background-color: #008000;
+}
+
+.style-375
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-372
+{
+	background-color: #008000;
+}
+
+.style-373
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-389
+{
+	color: #D0FFB9;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2468
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2469
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2462
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2463
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2460
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2461
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2466
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2467
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2459
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2458
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-399
+{
+	/*color: #D0FFB9;*/
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2451
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2450
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2453
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2452
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2455
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2454
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Body4
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 20pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Body5
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 20pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2479
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Body2
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-0
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 48pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	background-color: #008000;
+}
+
+.style-1
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 48pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Default
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-3
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 48pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-4
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 48pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-5
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 48pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-6
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 48pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-7
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 48pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-8
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-9
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2401
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2402
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2365
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2366
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2361
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-73
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2363
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2362
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-70
+{
+	background-color: #008000;
+}
+
+.ListItemStyle2478
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2473
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2472
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2471
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2470
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2477
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2476
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2475
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2474
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Title3
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 54pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Title2
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 54pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Title5
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 54pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Title4
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 54pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2372
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2373
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.backcolor
+{
+	background-color: #008000;
+}
+
+.ListItemStyle2419
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2418
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2414
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2417
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2416
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-398
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-417
+{
+	color: #D0FFB9;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-390
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-391
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Title
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Body3
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Default5
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Default4
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Default3
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Default2
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-321
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-320
+{
+	background-color: #008000;
+}
+
+.style-323
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-322
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-325
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-324
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-327
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-326
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-329
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-328
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2383
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2382
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2381
+{
+	color: #00CC00;
+	font-family: "", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2380
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2387
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2386
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2385
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2384
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-330
+{
+	background-color: #008000;
+}
+
+.style-331
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2389
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2388
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-334
+{
+	background-color: #008000;
+}
+
+.style-335
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-336
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-337
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-55
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-54
+{
+	background-color: #008000;
+}
+
+.style-57
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-56
+{
+	background-color: #008000;
+}
+
+.style-59
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2392
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2393
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2390
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2391
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2396
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2397
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2394
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2395
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-303
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-302
+{
+	background-color: #008000;
+}
+
+.ListItemStyle2398
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2399
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-307
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-306
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-305
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-304
+{
+	background-color: #008000;
+}
+
+.style-88
+{
+	background-color: #008000;
+}
+
+.style-89
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-308
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-80
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-81
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-82
+{
+	background-color: #008000;
+}
+
+.style-83
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-84
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-85
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-86
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-87
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-101
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-100
+{
+	background-color: #008000;
+}
+
+.style-103
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-102
+{
+	background-color: #008000;
+}
+
+.style-105
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-104
+{
+	background-color: #008000;
+}
+
+.style-107
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-106
+{
+	background-color: #008000;
+}
+
+.style-109
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-108
+{
+	background-color: #008000;
+}
+
+.ListItemStyle2485
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2486
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-77
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-76
+{
+	background-color: #008000;
+}
+
+.style-75
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-220
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-221
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-222
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-223
+{
+	background-color: #008000;
+}
+
+.style-224
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-225
+{
+	background-color: #008000;
+}
+
+.style-226
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-227
+{
+	background-color: #008000;
+}
+
+.style-228
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-229
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-79
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-78
+{
+	background-color: #008000;
+}
+
+.style-110
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-111
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-112
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-113
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-114
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-115
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-116
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-117
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-118
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-119
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-369
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-368
+{
+	background-color: #008000;
+}
+
+.style-404
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-405
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-406
+{
+	background-color: #008000;
+}
+
+.style-407
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-400
+{
+	background-color: #008000;
+}
+
+.style-401
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-402
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-403
+{
+	background-color: #008000;
+}
+
+.TitleMaster-Title
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 54pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-408
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-409
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-123
+{
+	background-color: #008000;
+}
+
+.style-122
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-121
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-120
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-127
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-126
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-22
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-23
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-20
+{
+	background-color: #008000;
+}
+
+.style-21
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-26
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-27
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 40pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-24
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-25
+{
+	/*color: #D0FFB9;*/
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-378
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-202
+{
+	background-color: #008000;
+}
+
+.style-28
+{
+	background-color: #008000;
+}
+
+.style-29
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-201
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-206
+{
+	background-color: #008000;
+}
+
+.style-207
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-204
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-205
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-92
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-95
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Body
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-97
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-96
+{
+	background-color: #008000;
+}
+
+.style-132
+{
+	background-color: #008000;
+}
+
+.style-133
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-130
+{
+	background-color: #008000;
+}
+
+.style-131
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-136
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-137
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-11
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-10
+{
+	background-color: #008000;
+}
+
+.style-13
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-12
+{
+	background-color: #008000;
+}
+
+.style-15
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-14
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-17
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-16
+{
+	background-color: #008000;
+}
+
+.style-19
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-18
+{
+	background-color: #008000;
+}
+
+.style-230
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-233
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-232
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-235
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-234
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-237
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-236
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-239
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-238
+{
+	background-color: #008000;
+}
+
+.style-145
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-144
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-147
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-146
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-141
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-140
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-44
+{
+	background-color: #008000;
+}
+
+.style-45
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-46
+{
+	background-color: #008000;
+}
+
+.style-47
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-40
+{
+	background-color: #008000;
+}
+
+.style-41
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-42
+{
+	background-color: #008000;
+}
+
+.style-43
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-203
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-200
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-265
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2440
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-48
+{
+	background-color: #008000;
+}
+
+.style-49
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-261
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-262
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-263
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-208
+{
+	background-color: #008000;
+}
+
+.style-209
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-268
+{
+	background-color: #008000;
+}
+
+.style-269
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-419
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-418
+{
+	background-color: #008000;
+}
+
+.style-154
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-155
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Default2
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Default3
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Default4
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.TitleMaster-Default5
+{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	font-size: 18pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-33
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-32
+{
+	background-color: #008000;
+}
+
+.style-31
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-30
+{
+	background-color: #008000;
+}
+
+.style-37
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-36
+{
+	background-color: #008000;
+}
+
+.style-35
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-34
+{
+	background-color: #008000;
+}
+
+.style-231
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-213
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-39
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-38
+{
+	background-color: #008000;
+}
+
+.style-210
+{
+	background-color: #008000;
+}
+
+.style-217
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-216
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-215
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-214
+{
+	background-color: #008000;
+}
+
+.style-219
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-218
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-167
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-166
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-165
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-164
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-163
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-162
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-66
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-67
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-64
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-65
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 40pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-62
+{
+	background-color: #008000;
+}
+
+.style-63
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-60
+{
+	background-color: #008000;
+}
+
+.style-61
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-169
+{
+	background-color: #008000;
+}
+
+.style-168
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-247
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-244
+{
+	background-color: #008000;
+}
+
+.style-245
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-242
+{
+	background-color: #008000;
+}
+
+.style-68
+{
+	background-color: #008000;
+}
+
+.style-69
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-241
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2464
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2465
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-248
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-249
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-176
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-177
+{
+	background-color: #008000;
+}
+
+.style-174
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-175
+{
+	background-color: #008000;
+}
+
+.style-172
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-173
+{
+	background-color: #008000;
+}
+
+.style-170
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-171
+{
+	background-color: #008000;
+}
+
+.style-143
+{
+	background-color: #008000;
+}
+
+.style-142
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-51
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-50
+{
+	background-color: #008000;
+}
+
+.style-53
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-52
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-178
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-179
+{
+	background-color: #008000;
+}
+
+.style-274
+{
+	background-color: #008000;
+}
+
+.style-212
+{
+	background-color: #008000;
+}
+
+.style-211
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-58
+{
+	background-color: #008000;
+}
+
+.style-270
+{
+	background-color: #008000;
+}
+
+.style-273
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-272
+{
+	background-color: #008000;
+}
+
+.ListItemStyle2457
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2456
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-422
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-279
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-278
+{
+	background-color: #008000;
+}
+
+.ListItemStyle2369
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2368
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-189
+{
+	background-color: #008000;
+}
+
+.style-188
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-2
+{
+	color: #FFFFB7;
+	font-family: sans-serif;
+	font-size: 48pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2364
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2367
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Title4
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Title5
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2360
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-181
+{
+	background-color: #008000;
+}
+
+.style-180
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-183
+{
+	background-color: #008000;
+}
+
+.SlideMaster-Title2
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.SlideMaster-Title3
+{
+	color: #000000;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2408
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2409
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-186
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-159
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2404
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2405
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2406
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2407
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2400
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-243
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-240
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2403
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-416
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-411
+{
+	color: #D0FFB9;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-410
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-413
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: italic;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-412
+{
+	background-color: #008000;
+}
+
+.ListItemStyle2378
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2379
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-198
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-199
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2374
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2375
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2376
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2377
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2370
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2371
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-190
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-191
+{
+	background-color: #008000;
+}
+
+.style-192
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-193
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-194
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-195
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-196
+{
+	background-color: #008000;
+}
+
+.style-197
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-256
+{
+	background-color: #008000;
+}
+
+.style-255
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-254
+{
+	background-color: #008000;
+}
+
+.style-253
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-252
+{
+	background-color: #008000;
+}
+
+.style-251
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-250
+{
+	background-color: #008000;
+}
+
+.style-358
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-359
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-259
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-258
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-312
+{
+	background-color: #008000;
+}
+
+.style-313
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-310
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-311
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-316
+{
+	background-color: #008000;
+}
+
+.style-317
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-314
+{
+	background-color: #008000;
+}
+
+.ListItemStyle2428
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2429
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2426
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2427
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2424
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2425
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2422
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2423
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2420
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2421
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-280
+{
+	background-color: #008000;
+}
+
+.style-281
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-286
+{
+	background-color: #008000;
+}
+
+.style-287
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-284
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-285
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2358
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2359
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-99
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-98
+{
+	background-color: #008000;
+}
+
+.style-156
+{
+	background-color: #008000;
+}
+
+.style-157
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-150
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 36pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-151
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-152
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-153
+{
+	text-align: left;
+	background-color: #008000;
+}
+
+.style-91
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-90
+{
+	background-color: #008000;
+}
+
+.style-93
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2415
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-185
+{
+	background-color: #008000;
+}
+
+.style-184
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-187
+{
+	background-color: #008000;
+}
+
+.ListItemStyle2411
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2410
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2413
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2412
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-271
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-420
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-421
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-134
+{
+	background-color: #008000;
+}
+
+.style-135
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-374
+{
+	background-color: #008000;
+}
+
+.style-138
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 44pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-161
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-160
+{
+	background-color: #008000;
+}
+
+.style-370
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-266
+{
+	background-color: #008000;
+}
+
+.style-267
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-260
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-383
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-246
+{
+	background-color: #008000;
+}
+
+.style-381
+{
+	color: #FFFFB7;
+	font-family: "Arial Black", sans-serif;
+	font-size: 40pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-288
+{
+	background-color: #008000;
+}
+
+.style-289
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-379
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-385
+{
+	background-color: #008000;
+}
+
+.style-384
+{
+	color: #D0FFB9;
+	font-family: "Arial", sans-serif;
+	font-size: 32pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: underline;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-414
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-282
+{
+	background-color: #008000;
+}
+
+.style-283
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-332
+{
+	background-color: #008000;
+}
+
+.style-333
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-338
+{
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-339
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2439
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2438
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2437
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2436
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2435
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2434
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2433
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2432
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2431
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.ListItemStyle2430
+{
+	color: #D0FFB9;
+	font-family: "Wingdings", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-257
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-277
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-276
+{
+	background-color: #008000;
+}
+
+.style-296
+{
+	background-color: #008000;
+}
+
+.style-295
+{
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+	font-size: 28pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	vertical-align: baseline;
+	background-color: #008000;
+}
+
+.style-294
+{
+	background-color: #008000;
+}

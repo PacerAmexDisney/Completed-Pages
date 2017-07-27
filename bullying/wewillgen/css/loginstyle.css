@@ -1,0 +1,57 @@
+.sidebar1 {
+	background: #fff url('/bullying/wewillgen/images/wewillgen.png') no-repeat top right;
+}
+#maincontent{
+	padding-right:285px;
+}
+#topnav li#wewillbanner{
+	width:440px;
+	margin-left:380px;
+	margin-top:9px;
+	font-size:32px;
+	letter-spacing:8px;
+	color:white;
+	padding-top:8px;
+	background:none;
+}
+#topnav li#logout{
+	float:right;
+}
+#logout a{
+	width:5em;
+}
+.breadcrumb{
+	position:relative;
+}
+#loginname{
+	position:absolute;
+	top:0px;
+	right:0px;
+	text-align:right;
+	float:right;
+	padding-right:25px;
+	font-size:14px;
+}
+
+.content .downloadbox{
+	width:250px;
+	float:right;
+	margin:-60px 20px 20px 20px;
+	border:2px solid #C46200;
+	border-top:6px solid #C46200;
+	background-color:#FFFFB7;
+	background:url(/bullying/wewillgen/images/yellow-paper-bkgnd.jpg) no-repeat top left;
+}
+.downloadbox h2 {
+	color:#006;
+	text-shadow:none;
+}
+.indented{
+	padding-left:50px;
+}
+.materials {
+	padding-bottom:10px;
+	margin:0px 10px 10px 10px;
+	border-bottom: 1px solid #ccc;
+}
+

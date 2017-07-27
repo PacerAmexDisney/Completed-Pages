@@ -1,0 +1,495 @@
+@import url('/fonts/font-awesome-4.2.0/css/font-awesome.min.css');
+
+html,
+body {
+	font-family: century gothic, arial, sans-serif;
+	color: black;
+	background-color: #ccc;
+	text-align: left;
+}
+#header {
+	position:relative;
+}
+#returnTab {
+	width:9em;
+	font-size:.9em; 
+	text-align:center; 
+	background-color:#F9F9F9;
+border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top:1px solid #00769d; 
+	border-left:1px solid #00769d; 
+	border-right:1px solid #00769d; 
+	position:absolute; 
+	top:-21px; 
+	right:-1px; 
+	padding-bottom:3px;
+}
+#header #returnTab a {
+	color:#666;
+	font-weight:normal;
+}
+body{
+	padding-top:15px;
+}
+
+abbr,
+acronym,
+help {
+	border: none;
+	cursor: help;
+}
+.nowrap {
+	white-space:nowrap;
+}
+.oldBrowser {
+	display: none;
+}
+.nobullet {
+	list-style-type: none;
+}
+#mainArea #rightBar ul.homepagenews {
+	list-style-type: none;
+	list-style-position: outside;
+}
+#mainArea #rightBar .homepagenews {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:.75em;
+	padding: 0; 
+	margin: 0 0 0 .7em;
+}
+#mainArea #rightBar {
+	overflow:auto;
+	height:375px;
+}
+.homepagenews a, .homepagenews a:visited {
+	font-weight:bold;
+	color: #069;
+	text-decoration: none;
+}
+.homepagenews .alternate a, .homepagenews .alternate a:visited {
+	font-weight:bold;
+	color: #069;
+	text-decoration: none;
+}
+.homepagenews a:hover, .homepagenews a:active {
+	/*text-decoration: underline;*/
+	color:#00F;
+}
+.homepagenews .alternate a:hover, .homepagenews .alternate a:active {
+	/*text-decoration: underline;*/
+	color: #00F;
+}
+.homepagenews li {
+	margin-right:.5em;
+	border-bottom:solid 1px #D4D4D4;
+}
+#mainArea #rightBar .homepagenews li {
+	padding: .5em 0 .3em 0;
+}
+.homepagenews li li{
+	border:none;
+}
+/***********************************
+*****                          *****
+***     WRAPPER CONTENTS       ***
+*****                          *****
+***********************************/
+
+#wrapper {
+	width: 980px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	background: white;
+	border: solid 1px #09c;
+	color: black;
+}
+
+/***********************************
+*****                          *****
+***       HEADING CONTENTS       ***
+*****                          *****
+***********************************/
+#skiptocontent{
+	height:1px;
+	width:1px;
+	margin-left:-1px;
+	margin-top:-1px;
+	overflow:hidden;
+}
+
+#skiptocontent, #skiptocontent a, #skiptocontent a:hover, #skiptocontent a:visited {
+	color: #ccc;
+	background-color: #ccc;
+	font-size: 50%;
+}
+
+.nav {
+	margin: 0;
+	float: right;
+	padding: 1em 1em 0 0;
+	clear: none;
+}
+
+#header a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#header a:hover, #header a:active {
+	text-decoration: underline;
+}
+
+#header {
+	background-color: #09c;
+	color: white;
+	font-size: 80%;
+}
+
+#nav a, #nav a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header a:active, #header a:hover {
+	color: #fff;
+}
+
+#header img {
+	margin-top: 0;
+	padding: 0;
+	clear: none;
+}
+
+#header table td {
+	vertical-align: top;
+}
+
+.searchBtn {
+	margin-left: .2em;
+	border-style: inset;
+}
+
+
+
+#menu {
+	width: 980px;
+	border-bottom: solid 2px #fff;
+	background:#390;
+	clear: both;
+	min-height: 3.6em;
+}
+
+ul#nav {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background: #390;
+	font-family: Century Gothic, Arial,Sans-Serif;
+	font-size: 100%;
+	border-top: 2px solid #fff;
+	width: 980px;
+}
+
+#nav li {
+	display: block;
+	float: left;
+	width: 9em;
+	list-style-type:none;
+	color:#FFF;
+	text-align: left;
+	background:#390;
+	border-right: solid 1px #fff;
+	margin: 0;
+	padding: 0;
+}
+
+
+#nav li a {
+	display: block;
+	width: 8em;
+	color:#FFF;
+	text-decoration: none;
+	margin: 0;		
+	padding:.5em .5em 0 .5em;
+	height: 3em;
+}
+#nav li.events li {
+	width:245px;
+	padding:0px;
+	margin:0px;
+}
+#nav li.events li a {
+	width:225px;
+	padding:10px;
+	margin:0px;
+}
+#nav li.events li.doubleWide {
+	width:491px;
+}
+#nav li.events li.doubleWide a {
+	width:471px;
+}
+
+#nav li a:hover, #nav li a:active {
+	background: #09C;
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav li ul {
+	position: absolute;
+	width: 9em;
+	left: -999em;
+	background:#390;
+	margin:0;
+}
+
+#nav li ul li a {
+	border-top: solid 1px white;
+}
+
+#nav li:hover ul, #nav li.sfhover ul, #nav li:active ul {
+	left: auto;
+	background: #09C;
+	color:#FFF;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	z-index:1000;
+}
+
+#nav li li a:hover, #nav li li a:active, #nav li.sfhover ul li a {
+	background:#09C;
+	color: #fff;
+	border: 0;
+	margin:0;
+	height: 3em;
+	border-top: solid 1px white;
+	text-decoration: none;
+}
+
+p{
+	clear:both;
+	float:none;
+}
+
+
+
+/********************************
+*****                       *****
+***       MAIN CONTENTS       ***
+*****                       *****
+********************************/
+img {
+	border: none;
+	margin: 0;
+}
+
+#mainArea {
+	clear: both;
+	border-top: solid 1px #fff;
+}
+
+
+/***********************************
+*****                          *****
+***       MENU INFORMATION       ***
+*****                          *****
+***********************************/
+
+#leftBar {
+	margin-top: 0;
+	margin-left: 0;
+	text-align: left;
+	width: 650px;
+	height: 375px;
+	/*border-top: solid 1px #fff;*/
+	border-bottom: solid 1px #fff;
+	clear: left;
+}
+
+#rightBar {
+	margin: 0;
+	float: right;
+	width: 321px;
+	height: 375px;
+	background: white;
+	/*border-top: solid 1px #fff;*/
+	border-bottom: solid 1px #fff;
+}
+
+#rightBar p {
+	/*font-size: 80%;*/
+	padding: .1em;
+	color: #000;
+}
+#separator {
+	clear: both;
+	/*border-top: solid 1px #4c9a31;*/
+	margin-top: 1px;
+	/*border-bottom: solid 5px #fff;*/
+}
+
+.highlights {
+	margin-bottom: 2px;
+	padding: 0;
+	width: 800px;
+	clear: right;
+}
+
+#highlightlinks {
+	font-weight:500;
+	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+#highlightImages {
+	height: 75px;
+	text-align: left;
+}
+
+#highlightImages td {
+	width: 195px;
+	text-align: left;	
+}
+
+#highlightlinks a, #highlightlinks a:visited {
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-right: solid 1px white;
+	font-size: 80%;
+	display: block;
+	background-color: #390;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+#highlightlinks a:hover, #highlightlinks a:active {
+	background-color: #09C;
+	color: #fff;
+	display: block;
+}
+
+/***********************************
+*****                          *****
+***        FOOTER STYLE        ***
+*****                          *****
+***********************************/
+
+#footer1 {
+	background-color: #09c;
+	font-size: 75%;
+	padding-bottom: 0;
+	margin-bottom: .1em;
+	color: #fff;
+	margin-top: 1px;
+}
+
+table.footer {
+	width: 100%;
+}
+.footer td {
+	width: auto;
+}
+
+td.footerlinks {
+	text-align: right;
+}
+
+#footer2 {
+	background-color: #fff;
+	font-size: 80%;
+	padding: .1em .1em .1em .1em;
+	margin-top: 0;
+	color: #000;
+}
+
+#footer2 p {
+	padding: 0;
+	margin: 5px;
+}
+
+#footer1 a, #footer1 a:visited { 
+	color: #fff;
+	text-decoration: none;
+}
+
+#footer2 a, #footer2 a:visited {
+	color: #000;
+	text-decoration: none;
+	padding: .2em;
+}
+
+#footer1 a:hover, #footer1 a:active {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#footer2 a:hover, #footer2 a:active {
+	color: #000;
+	text-decoration: underline;
+	background-color: #fff;
+}
+
+img {
+	border: none;
+	padding: 0;
+}
+
+.noborder {
+	background-color: white;
+}
+
+#footCopyRight {
+	text-align: left;
+	padding-left: .5em;
+	font-size: 75%;
+}
+
+.extfooter {
+	padding: .5em;
+}
+
+img {
+	border: none;
+}
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+	margin-right:5px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+	margin-left:5px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.centered {text-align:center;}
+
+.extralinktext{
+	display:block;
+	position:absolute;
+	left:-9999px;
+}
+
+#nav li.twoCol li a {
+  height: 2.5em;
+}
+#nav li li{
+  background:#1E5303;}
+#nav li.twoCol li:nth-child(even) a {
+  	width: 200px;
+	padding-left:25px;
+}
+#nav li.twoCol ul {
+  background:#fff;
+  width: 39em;
+}

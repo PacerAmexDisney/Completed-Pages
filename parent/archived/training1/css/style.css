@@ -1,0 +1,65 @@
+body {
+	color: black;
+	background-color: #FFC;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 140%;
+	border-bottom: solid 1px #CCC;
+	font-family: georgia, serif;
+}
+
+h2 {
+	padding-top: .5em;
+	font-size: 120%;
+	font-family: georgia;
+}
+
+h3 {
+	font-size: 100%;
+	font-family: georgia;
+}
+
+.nobullet {
+	list-style-type: none;
+}
+
+#start, #one, #two, #twoA, #three, #threeA, #threeB, #four, #fourA, #fourB, #fourC, #five,
+#six, #sixA, #sixB, #sixC, #sixD, #sixE, #seven, #sevenA, #sevenB, #sevenC, #eight, #eightA,
+#eightB, #eightC, #nine, #nineA, #ten, #tenA, #tenB, #eleven, #elevenA, #elevenB, #twelve, #twelveA {
+	display: none;
+}
+
+#menu {
+	position: absolute;
+	top: 3.4em;
+	left: .5em;
+	width: 20em;
+	font-size: 75%;
+	font-family: arial, sans-serif;
+	border-right: solid 1px #ccc;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#menu ul li {
+	padding-bottom: .5em;
+}
+
+#menu a {
+	color: #069;
+}
+
+#menu a:hover {
+	color: red;
+}
+
+#main {
+	margin-left: 16em;
+}

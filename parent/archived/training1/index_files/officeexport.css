@@ -1,0 +1,373 @@
+
+/* OfficeExport.css Base Style Sheet */
+
+/* General Settings and Presentation Control Menu Styles */
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div.outerframe
+{
+	margin-top: 0;
+	padding-bottom: 0;
+	background-color: #FFFFFF;
+	border-left: .2em solid #000066;
+	border-right: .2em solid #000066;
+	border-bottom: .2em solid #000066;
+}
+
+div.header
+{
+	background-color: #000066;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+.headertext
+{
+	color: #D8D8F0;
+	background-color: #000066;
+}
+
+a:link.header, a:visited.header
+{
+	color: #DDD9f7;
+}
+
+a:hover.header {
+	color: #ffffff;
+}
+
+div.content
+{
+	background-color: #FFFFFF;
+	padding-left: 1em;
+}
+
+.contenttext
+{
+	color: #003399;
+	background-color: #FFFFFF;
+}
+
+ol.contentlist
+{
+	color: #003399;
+	background-color: #FFFFFF;
+}
+
+a:link.content
+{
+	color: #003399;
+}
+a:visited.content 
+{
+	color: #cc0033;
+}
+
+a:hover.content {
+	color: #000066;
+}
+
+p.footer, div.footer
+{
+	font-size: 85%;
+	color: #FFFFFF;
+	padding: .25em;
+	margin-bottom: 0;
+	background-color: #003399;
+}
+
+a:link.footer, a:visited.footer
+{
+	color: #D6D6EB;
+}
+
+a:hover.footer {
+	color: #FFFFFF;
+}
+
+div.sheetlist
+{
+	text-align: center;
+}
+
+/* misc */
+
+table
+{
+	border: none;
+	border-collapse: collapse;
+}
+
+td, th
+{
+	border: solid 1px black;
+	padding: 0.5em;
+}
+
+span.accesskey
+{
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+div.skip
+{
+	font-size: x-small;
+	color: #003399;
+	background-color: #FFFFFF;
+}
+
+a:link.skip, a:visited.skip
+{
+	color: #003399;
+}
+
+a:hover.skip {
+	color: #000066;
+}
+
+span.slidenum
+{
+	width: 20%;
+	float: right;
+	text-align: center;
+	color: #D8D8F0;
+	background-color: #000066;
+}
+
+div.imagecontainer
+{
+	text-align: center;
+}
+
+img.slideimagecapture
+{
+	border: solid 1px black;
+}
+
+/* Handout View */
+
+div.notes
+{
+	text-align: center;
+	width: 100%;
+	border: none;
+	margin-bottom: 1em;
+}
+
+div.notesbreak
+{
+	text-align: center;
+	width: 100%;
+	border: none;
+	margin-bottom: 1em;
+	page-break-before: always;
+}
+
+img.theimage
+{
+	width: 45%;
+	margin-right: 2%;
+}
+
+img.thenotes
+{
+	width: 45%;
+	margin-left: 2%;
+	border: solid 1px black;
+}
+
+/* Text Mostly Layout */
+
+div.mainbody
+{
+	padding: 0.5em;
+	clear: both;
+	color: black;
+}
+
+div.mainbody a:link
+{
+	color: #330099;
+}
+
+div.mainbody a:visited
+{
+	color: #663333;
+}
+
+div.title, div.subtitle
+{
+	width: 98%;
+	clear: both;
+}
+
+div.fullregion
+{
+	width: 98%;
+	clear: both;
+	text-align: center;
+}
+
+div.lefthalf
+{
+	float: left;
+	width: 49%;
+}
+
+div.righthalf
+{
+	float: right;
+	width: 49%;
+}
+
+div.upquad, div.downquad
+{
+	height: 49%;
+}
+
+div.rightquad
+{
+	float: right;
+	width: 49%;
+}
+
+div.leftquad
+{
+	float: left;
+	width: 49%;
+}
+
+div.postclear
+{
+	clear: both;
+}
+
+/* Relating to the Top Navbar */
+
+div.navigation
+{
+	background-color: #000066;
+	padding: 1ex;
+	text-align: center;
+}
+
+span.navcontrols
+{
+	text-align: center;
+	width: 60%;
+}
+
+a:link.button, a:visited.button
+{
+	font-size: small;
+	color: #D8D8F0;
+	background-color: #000066;
+	text-decoration: none;
+	margin-left: .25em;
+	margin-right: .25em;
+}
+
+a:hover.button, a:focus.button
+{
+	font-size: small;
+	color: #ffffff;
+	background-color: #000066;
+	text-decoration: underline;
+	margin-left: .25em;
+	margin-right: .25em;
+}
+
+span.button-inactive
+{
+	font-size: small;
+	color: #dddddd;
+	background-color: #000066;
+	margin-left: .25em;
+	margin-right: .25em;
+}
+
+/* View Selection */
+
+div.view
+{
+	background-color: #000066;
+	padding: 1ex;
+	text-align: right;
+}
+
+span.viewcontrols
+{
+	text-align: center;
+}
+
+a:link.viewbutton, a:visited.viewbutton
+{
+	font-size: x-small;
+	color: #D8D8F0;
+	background-color: #000066;
+	text-decoration: none;
+	margin-left: .25em;
+	margin-right: .25em;
+}
+
+a:hover.viewbutton, a:focus.viewbutton
+{
+	font-size: x-small;
+	color: #ffffff;
+	background-color: #000066;
+	text-decoration: underline;
+	margin-left: .25em;
+	margin-right: .25em;
+}
+
+span.viewbutton-inactive
+{
+	font-size: x-small;
+	color: #dddddd;
+	background-color: #000066;
+	margin-left: .25em;
+	margin-right: .25em;
+}
+
+/* Zoom Selection Button */
+
+span.zoomcontrols
+{
+	float: left;
+	text-align: center;
+}
+
+a:link.zoombutton, a:visited.zoombutton
+{
+	font-size: x-small;
+	color: #D8D8F0;
+	background-color: #000066;
+	text-decoration: none;
+	margin-left: .25em;
+	margin-right: .25em;
+}
+
+a:hover.zoombutton, a:focus.zoombutton
+{
+	font-size: x-small;
+	color: #D8D8F0;
+	background-color: #000066;
+	text-decoration: underline;
+	margin-left: .25em;
+	margin-right: .25em;
+}
+
+span.zoombutton-inactive
+{
+	font-size: x-small;
+	color: #dddddd;
+	background-color: #000066;
+	text-decoration: none;
+	margin-left: .25em;
+	margin-right: .25em;
+}
