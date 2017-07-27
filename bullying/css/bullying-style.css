@@ -91,8 +91,23 @@ a:hover, a:active, a:focus {
 	background-repeat:repeat-y;
 	min-height:104px;
 }
-.header #mainlogo {
+.header #mainLogo {
 	z-index:100;
+	background: #eb4c27; 
+	display:block;
+}
+.header #transparentLogo {
+	display: none;
+	width: 52%;
+	height: auto;
+}
+@media screen and (max-width: 1020px) {
+	.header #mainLogo {
+		display: none;
+	}
+	.header #transparentLogo {
+		display: block;
+	}
 }
 .header #header-right {
 	position:absolute;
@@ -418,7 +433,16 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	background:#fff url('/bullying/images/window_gradient_small.jpg') repeat-x bottom;
 	min-height:670px;
 }
-
+.narrowContent {
+	max-width: 800px;;
+	margin: 0px auto;
+}
+@media screen and (min-width: 900px) {
+	.narrowContent > h1, .narrowContent > h2, .narrowContent > h3 {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+}
 .sidebar1 {
 	float: left;
 	width: 175px;

@@ -2,7 +2,9 @@
 <div id="pacer"><a href="http://www.pacer.org/">PACER.org</a></div>
 </div>
   <div class="header">
-  <a href="/bullying/"><img src="/bullying/images/header.jpg" alt="National Bullying Prevention Center" name="mainlogo" id="mainlogo" style="background: #eb4c27; display:block;" /></a> 
+  <a href="/bullying/"><img src="/bullying/images/header.jpg" alt="National Bullying Prevention Center" id="mainLogo" />
+  <img src="/bullying/images/header-transparent.png" alt="National Bullying Prevention Center" id="transparentLogo" />
+  </a> 
   <div id="header-right"> <span id="preLinks"><a href="/bullying/about/">About Us</a> <a href="/bullying/about/contact.asp" class="leftborder">Contact Us</a> </span>  
   	<!-- Google CSE Search Box Begins  -->
 	<form action="/bullying/searchresults.asp" id="cse-search-box"><label for="q">Search</label>
