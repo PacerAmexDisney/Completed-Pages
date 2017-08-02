@@ -8,7 +8,6 @@
 <meta property="og:url" content="" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
-
 </head>
 <body>
 
