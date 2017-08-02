@@ -1,4 +1,4 @@
-@import url('/fonts/font-awesome-4.2.0/css/font-awesome.min.css');
+@import url('../fonts/font-awesome-4.2.0/css/font-awesome.min.css');
 
 /* COLOR CODES
 -headings: #F15C32 (orange)
@@ -87,7 +87,7 @@ a:hover, a:active, a:focus {
 .header {
 	position:relative;
 	background: #d73d23;
-	background-image:url(/bullying/images/header-bg.jpg);
+	background-image:url(../images/header-bg.jpg);
 	background-repeat:repeat-y;
 	min-height:104px;
 }
@@ -174,7 +174,7 @@ a:hover, a:active, a:focus {
 .header a#newsletterbutton{
 	width:89px;
 	height:35px;
-	background-image:url(/bullying/images/button-bully-newsletter.png);
+	background-image:url(../images/button-bully-newsletter.png);
 	background-position:0px center;
 }
 .header a#newsletterbutton:hover{
@@ -183,7 +183,7 @@ a:hover, a:active, a:focus {
 .header a#donatebutton{
 	width:89px;
 	height:35px;
-	background-image:url(/bullying/images/button-bully-donate.png);
+	background-image:url(../images/button-bully-donate.png);
 	background-position:0px center;
 }
 .header a#donatebutton:hover{
@@ -199,7 +199,7 @@ a:hover, a:active, a:focus {
 	background-color:#ccc;	
 }
 #pacer {
-	background:url('/bullying/images/nav_up.jpg');
+	background:url('../images/nav_up.jpg');
 	background-color:#039;
 	font-size:.8em;
 	width:6em;
@@ -306,10 +306,10 @@ position:relative;
 #topnav li {
     float:left;
     padding:0;
-	background:url('/bullying/images/nav_up.jpg') repeat-y right top; 
+	background:url('../images/nav_up.jpg') repeat-y right top;
     }
 #topnav li.hassubnav{
-	background:#3e5593 url('/bullying/images/nav_up_arrow.jpg') repeat-y right; 	
+	background:#3e5593 url('../images/nav_up_arrow.jpg') repeat-y right;
 }
 #topnav ul {
     position:absolute;
@@ -339,7 +339,7 @@ position:relative;
 #topnav li li:hover {
 	/*Sub Level Hover Background*/
 	background:green;
-	background:#9797af url('/bullying/images/nav_over.jpg') repeat-y right; 
+	background:#9797af url('../images/nav_over.jpg') repeat-y right;
     }
 #topnav li ul li:hover a, #topnav li ul li li:hover a, #topnav li ul li li li:hover a, #topnav li ul li li li:hover a {
 	/*Sub Level Hover Text*/
@@ -361,11 +361,11 @@ position:relative;
     }
 #topnav li:hover, #topnav li.sfhover {
 	/*Top Level Hover Background*/
-	background:#9797af url('/bullying/images/nav_over.jpg') repeat-y right; 
+	background:#9797af url('../images/nav_over.jpg') repeat-y right;
     }
 #topnav li.hassubnav:hover{
 	/*Top Level Hover Background w/ hassubnav*/
-	background:#9797af url('/bullying/images/nav_over_arrow.jpg') repeat-y right; 		
+	background:#9797af url('../images/nav_over_arrow.jpg') repeat-y right;
 }
 
 #topnav li.twoCol li a {
@@ -430,7 +430,7 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	position:relative;
 	z-index:0;
 	float: left;
-	background:#fff url('/bullying/images/window_gradient_small.jpg') repeat-x bottom;
+	background:#fff url('../images/window_gradient_small.jpg') repeat-x bottom;
 	min-height:670px;
 }
 .narrowContent {
@@ -449,7 +449,7 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	margin-left:5px;
 	margin-bottom:5px;
 	font-size:.9em;
-	background: #FFF url('/bullying/images/nbpc-logo-small.png') top right no-repeat;
+	background: #FFF url('../images/nbpc-logo-small.png') top right no-repeat;
 }
 .sidebar2 {
 	font-size:.8em;
@@ -472,7 +472,7 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	padding-top:25px;
 	padding-bottom:25px;
 	margin-bottom:10px;
-	background:url(/bullying/images/small-blue-grad.png) top repeat-x, url(/bullying/images/small-blue-grad-bottom.png) bottom repeat-x;	
+	background:url(../images/small-blue-grad.png) top repeat-x, url(../images/small-blue-grad-bottom.png) bottom repeat-x;
 }
 .content {
 	width:100%;
@@ -497,15 +497,15 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	padding: 5px 5px 5px 10px;
 	display: block; 
 	text-decoration: none;
-	background: #3e5593 url('/bullying/images/nav_up.jpg') repeat-y right;
+	background: #3e5593 url('../images/nav_up.jpg') repeat-y right;
 	color:#FFF;
 }
 .sidebar1 ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
-	background: #9797af url('/bullying/images/nav_over.jpg') repeat-y right;
+	background: #9797af url('../images/nav_over.jpg') repeat-y right;
 	color: #000;
 }
 .sidebar1 ul.nav li.active a {
-	background: #9797af url('/bullying/images/nav_at.jpg') repeat-y right;
+	background: #9797af url('../images/nav_at.jpg') repeat-y right;
 	color:#000;
 }
 .sidebar1 ul.nav ul.submenu {
@@ -517,15 +517,15 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 }
 .sidebar1 ul.nav ul.submenu a, .sidebar1 ul.nav ul.submenu a:visited {
 	font-size:.8em;
-	background: #ccc url('/bullying/images/nav_up-sub.jpg') repeat-y right;
+	background: #ccc url('../images/nav_up-sub.jpg') repeat-y right;
 	color:#fff;
 }
 .sidebar1 ul.nav ul.submenu a:hover, .sidebar1 ul.nav ul.submenu a:active{
-	background: #3e5593 url('/bullying/images/nav_over.jpg') repeat-y right;
+	background: #3e5593 url('../images/nav_over.jpg') repeat-y right;
 	color:#000;
 }
 .sidebar1 ul.nav ul.submenu li.active a{
-	background: #3e5593 url('/bullying/images/nav_at.jpg') repeat-y right;
+	background: #3e5593 url('../images/nav_at.jpg') repeat-y right;
 	color:#000;
 }
 .sidebar1 ul.nav ul.submenu li li a, .sidebar1 ul.nav ul.submenu li li a:visited{
@@ -537,7 +537,7 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	background:#9797af;
 }
 .sidebar1 ul.nav ul.submenu li li.active a{
-	background: #3e5593 url('/bullying/images/nav_at.jpg') repeat-y right;
+	background: #3e5593 url('../images/nav_at.jpg') repeat-y right;
 	color:#000;
 }
 .sidebar1 ul.nav ul.submenu li.active li a, .sidebar1 ul.nav ul.submenu li.active li a:visited{
@@ -586,7 +586,7 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	font-size:.8em;
 	line-height:2.0;
 	background: #d73d23;
-	background-image:url(/bullying/images/footer-bg.jpg);
+	background-image:url(../images/footer-bg.jpg);
 }
 .footer a {
 	color:#fff;
@@ -762,7 +762,7 @@ ul.space  li {
 	background:#eee;
 }
 .watermark{
-	background:url(/bullying/images/nbpc-logo-bg.png) no-repeat right bottom;
+	background:url(../images/nbpc-logo-bg.png) no-repeat right bottom;
 }
 
 .content .alertBox {
@@ -797,27 +797,27 @@ ul.space  li {
 	left:-9999px;
 }
 li.pdficonlist {
-	list-style-image:url(/images/pdficon_small.gif);
+	list-style-image:url(../images/pdficon_small.gif);
 	list-style-type:none;
 }
 li.wordiconlist {
-	list-style-image:url(/images/wordicon_small.gif);
+	list-style-image:url(../images/wordicon_small.gif);
 	list-style-type:none;
 }
 li.videoiconList {
-	list-style-image:url(/images/movieReelIcon_small.gif);
+	list-style-image:url(../images/movieReelIcon_small.gif);
 	list-style-type:none;
 }
 li.fbiconlist {
-	list-style-image:url(/images/facebookicon_tiny.gif);
+	list-style-image:url(../images/facebookicon_tiny.gif);
 	list-style-type:none;
 }
 li.ppticonlist {
-	list-style-image:url(/images/ppticon_small.gif);
+	list-style-image:url(../images/ppticon_small.gif);
 	list-style-type:none;
 }
 li.trophyiconlist {
-	list-style-image:url(/images/trophyicon_small.jpg);
+	list-style-image:url(../images/trophyicon_small.jpg);
 	list-style-type:none;	
 }
 li.trophyiconlist li{
@@ -901,7 +901,7 @@ a.btn:hover, a.btn:active {
   margin: 20px;
 }
 .ui-widget-content a.mover {
-    background: #cccccc url("/js/jquery-ui-1.11.4.custom/images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50%;
+    background: #cccccc url("../js/jquery-ui-1.11.4.custom/images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50%;
     border: 1px solid #2a2950;
     border-radius: 5px;
     box-shadow: 2px 2px 2px #ccc;
@@ -911,7 +911,7 @@ a.btn:hover, a.btn:active {
     text-decoration: none;
 }
 .ui-widget-content a.mover:hover {
-    background: #dadada url("/js/jquery-ui-1.11.4.custom/images/ui-bg_glass_75_dadada_1x400.png") repeat-x scroll 50% 50%;
+    background: #dadada url("../js/jquery-ui-1.11.4.custom/images/ui-bg_glass_75_dadada_1x400.png") repeat-x scroll 50% 50%;
     border: 1px solid #5b59a9;
     color: #3e5593;
     text-decoration: none;

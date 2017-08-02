@@ -1,4 +1,5 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -8,7 +9,9 @@
 <link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
 <link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css"/>
+
 <!--#include virtual="/bullying/dynamic-head-items.html"-->
+
 </head>
 
 <body class="onecol">
@@ -34,18 +37,18 @@
 				</div>
 <p><a href="http://www.pacer.org/bullying/about/history.asp">Founded in 2006</a>, PACER&rsquo;s National Bullying Prevention Center actively leads social change, so that bullying is no longer considered an accepted childhood rite of passage. PACER provides innovative resources for students, parents, educators, and others, and recognizes bullying as a serious community issue that impacts education, physical and emotional health, and the safety and well-being of students.</p>
 
-				<h3>How does PACER’s National Bullying Prevention Center help?</h3>
+				<h3>How does PACERï¿½s National Bullying Prevention Center help?</h3>
  				<ul>
 					<li>Promotes a shared conversation and response to bullying in which everyone works together responsibly and collaboratively to create safe environments for students</li>
 					<li>Inspires entire communities to get involved with social change and promoting kindness, acceptance, and inclusion</li>
 					<li>Offers classroom activities, toolkits, and lesson plans for educators</li>
 					<li>Provides informative guides for parents to understand the dynamics of bullying, help their children through bullying situations, and learn how to communicate with school staff</li>
 					<li>Educates students with age-appropriate resources and information to manage bullying situations, be supportive of their peers, and take action to prevent bullying in their school, community, and online</li>
-					<li>Creates school-wide opportunities to address bullying, including National Bullying Prevention Month in October and Unity Day, initiatives both founded by PACER’s National Bullying Prevention Center</li>	
+					<li>Creates school-wide opportunities to address bullying, including National Bullying Prevention Month in October and Unity Day, initiatives both founded by PACERï¿½s National Bullying Prevention Center</li>	
 				</ul>					
 									
 <!--				<h3 style="text-align:center">Inspires</h3>
-				<p>PACER engages communities to recognize that bullying is a behavior that has affected too many for too long.  Preventing bullying begins with creating social change with bullying being recognized as a serious issue that impacts educational performance, physical and emotional health, and student’s safety and well-being.</p>
+				<p>PACER engages communities to recognize that bullying is a behavior that has affected too many for too long.  Preventing bullying begins with creating social change with bullying being recognized as a serious issue that impacts educational performance, physical and emotional health, and studentï¿½s safety and well-being.</p>
 				<h3 style="text-align:center">Educates</h3>
 				<p>PACER provides free, innovative web-based information, ideas and actions that can be shared in communities across the nation to address bullying. Resources include engaging websites designed just for students, literature for parents to help their children through bullying situations, classroom toolkits for educators, and much more.</p>
 				<h3 style="text-align:center">Involves</h3>
