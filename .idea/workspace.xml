@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7515a454-03d6-44be-a07a-d8140a378c33" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/about/images/bullying-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/about/images/kab-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/about/images/pacerorgbullying-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/about/images/tab-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/about/images/wewillgen-thumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/fonts/font-awesome-4.2.0/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/fonts/font-awesome-4.2.0/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/fonts/font-awesome-4.2.0/fontawesome-webfont.ttf?v=4.7.0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/fonts/font-awesome-4.2.0/fontawesome-webfont.woff2?v=4.7.0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/fonts/font-awesome-4.2.0/fontawesome-webfont.woff?v=4.7.0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/PACER-LogoOnly-Med.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/bullying-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/facebook-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/facebook-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/facebookicon_medium.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/instagram-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/instagramicon_medium.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/menu-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/nbpc-logo-whiteletters.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/pinterest-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/pinterest-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/pinteresticon_medium.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/pintrest-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/search-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/twitter-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/twitter-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/twittericon_medium.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/window_gradient_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/youtube-icon-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/images/youtube-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/about/responsive-index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/css/bullying-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/fonts/font-awesome-4.2.0/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bullying/js/navigation.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bullying/about/index.asp" afterPath="$PROJECT_DIR$/bullying/about/index.asp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bullying/about/template-about.asp" afterPath="$PROJECT_DIR$/bullying/about/template-about.asp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bullying/css/bullying-style.css" afterPath="$PROJECT_DIR$/bullying/css/bullying-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bullying/css/bullying.css" afterPath="$PROJECT_DIR$/bullying/css/bullying.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Original-Pages.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -742,12 +704,12 @@
       <workItem from="1501086187042" duration="2131000" />
       <workItem from="1501088650557" duration="1861000" />
       <workItem from="1501187034808" duration="456000" />
-      <workItem from="1501580169240" duration="9614000" />
+      <workItem from="1501580169240" duration="9682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14062000" />
+    <option name="totallyTimeSpent" value="14130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-249" width="1920" height="1080" extended-state="0" />
