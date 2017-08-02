@@ -29,7 +29,7 @@
 				</div>
 <p><a href="http://www.pacer.org/bullying/about/history.asp">Founded in 2006</a>, PACER's National Bullying Prevention Center actively leads social change, so that bullying is no longer considered an accepted childhood rite of passage. PACER provides innovative resources for students, parents, educators, and others, and recognizes bullying as a serious community issue that impacts education, physical and emotional health, and the safety and well-being of students.</p>
 
-				<h3>How does PACERs National Bullying Prevention Center help?</h3>
+				<h3>How does PACER's National Bullying Prevention Center help?</h3>
  				<ul>
 					<li>Promotes a shared conversation and response to bullying in which everyone works together responsibly and collaboratively to create safe environments for students</li>
 					<li>Inspires entire communities to get involved with social change and promoting kindness, acceptance, and inclusion</li>
