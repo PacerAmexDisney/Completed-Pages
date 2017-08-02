@@ -25,14 +25,14 @@
 
             <div id="centerCol-links" class="footer-col has-footer-social">
                 <ul>
-                    <li><a href="/bullying/about/">About Us</a></li>
-                    <li><a href="/bullying/about/news.asp">In The News</a></li>
-                    <li><a href="/bullying/about/history.asp">History</a></li>
-                    <li><a href="/bullying/about/pressroom.asp">Press Releases</a></li>
-                    <li><a href="/bullying/about/media-kit/impact.asp">Impact</a></li>
-                    <li><a href="/bullying/about/media-kit/stats.asp">Stats</a></li>
-                    <li><a href="/bullying/about/media-kit/bios.asp">Bios</a></li>
-                    <li><a href="/bullying/about/media-kit/psa-audio-scripts.asp">PSA Audio Scripts</a></li>
+                    <li><a href="../about/">About Us</a></li>
+                    <li><a href="../about/news.asp">In The News</a></li>
+                    <li><a href="../about/history.asp">History</a></li>
+                    <li><a href="../about/pressroom.asp">Press Releases</a></li>
+                    <li><a href="../about/media-kit/impact.asp">Impact</a></li>
+                    <li><a href="../about/media-kit/stats.asp">Stats</a></li>
+                    <li><a href="../about/media-kit/bios.asp">Bios</a></li>
+                    <li><a href="../about/media-kit/psa-audio-scripts.asp">PSA Audio Scripts</a></li>
                     <li><a href="http://www.pacer.org/privacy.asp" target="_blank">Privacy</a></li>
                     <li><a href="http://www.pacer.org/accessibility.asp" target="_blank" class="leftborder">Accessibility</a></li>
                 </ul>
@@ -61,7 +61,7 @@
  <!-- end .container --></div>
 
 
-<script type="text/javascript" src="/js/navigation.js"></script>
+<script type="text/javascript" src="../js/navigation.js"></script>
 
  
 </body>
