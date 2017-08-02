@@ -22,7 +22,7 @@
     <!--#include virtual="/bullying/templates/nav.html"-->
 </div>
 <script type="text/javascript">
-	var currId="unityday";
+	var currId="contact";
 	var showTree = "none";
 </script>
 
