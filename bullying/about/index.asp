@@ -22,25 +22,25 @@
 	<div class="content">
 		<div class="contentrow row-orange row-shadow" style="padding:10px 10px 10px">
 			<div class="singlecolumn">
-				<h1 id="maincontent">PACER&rsquo;s National Bullying Prevention Center</h1>
+				<h1 id="maincontent">PACER's National Bullying Prevention Center</h1>
 				<!--<div class="alertBox registrationBox" style="width:120px; text-align:center"><a href="http://www.pacer.org/bullying/about/contact.asp">Contact Us</a></div>-->
 				<div style="width:640px; margin:20px auto">
 					<img src="/bullying/about/images/bullying-banner.jpg" width="640" height="237" alt=""/>
 				</div>
-<p><a href="http://www.pacer.org/bullying/about/history.asp">Founded in 2006</a>, PACER&rsquo;s National Bullying Prevention Center actively leads social change, so that bullying is no longer considered an accepted childhood rite of passage. PACER provides innovative resources for students, parents, educators, and others, and recognizes bullying as a serious community issue that impacts education, physical and emotional health, and the safety and well-being of students.</p>
+<p><a href="http://www.pacer.org/bullying/about/history.asp">Founded in 2006</a>, PACER's National Bullying Prevention Center actively leads social change, so that bullying is no longer considered an accepted childhood rite of passage. PACER provides innovative resources for students, parents, educators, and others, and recognizes bullying as a serious community issue that impacts education, physical and emotional health, and the safety and well-being of students.</p>
 
-				<h3>How does PACER�s National Bullying Prevention Center help?</h3>
+				<h3>How does PACERs National Bullying Prevention Center help?</h3>
  				<ul>
 					<li>Promotes a shared conversation and response to bullying in which everyone works together responsibly and collaboratively to create safe environments for students</li>
 					<li>Inspires entire communities to get involved with social change and promoting kindness, acceptance, and inclusion</li>
 					<li>Offers classroom activities, toolkits, and lesson plans for educators</li>
 					<li>Provides informative guides for parents to understand the dynamics of bullying, help their children through bullying situations, and learn how to communicate with school staff</li>
 					<li>Educates students with age-appropriate resources and information to manage bullying situations, be supportive of their peers, and take action to prevent bullying in their school, community, and online</li>
-					<li>Creates school-wide opportunities to address bullying, including National Bullying Prevention Month in October and Unity Day, initiatives both founded by PACER�s National Bullying Prevention Center</li>	
+					<li>Creates school-wide opportunities to address bullying, including National Bullying Prevention Month in October and Unity Day, initiatives both founded by PACER's National Bullying Prevention Center</li>
 				</ul>					
 									
 <!--				<h3 style="text-align:center">Inspires</h3>
-				<p>PACER engages communities to recognize that bullying is a behavior that has affected too many for too long.  Preventing bullying begins with creating social change with bullying being recognized as a serious issue that impacts educational performance, physical and emotional health, and student�s safety and well-being.</p>
+				<p>PACER engages communities to recognize that bullying is a behavior that has affected too many for too long.  Preventing bullying begins with creating social change with bullying being recognized as a serious issue that impacts educational performance, physical and emotional health, and student's safety and well-being.</p>
 				<h3 style="text-align:center">Educates</h3>
 				<p>PACER provides free, innovative web-based information, ideas and actions that can be shared in communities across the nation to address bullying. Resources include engaging websites designed just for students, literature for parents to help their children through bullying situations, classroom toolkits for educators, and much more.</p>
 				<h3 style="text-align:center">Involves</h3>
