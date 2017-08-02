@@ -149,8 +149,6 @@
 			</ul>	
 			</p>
 			</div>
-		</div>
-		<br class="clearfloat" />
-		
+
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

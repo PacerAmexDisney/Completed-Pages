@@ -89,7 +89,6 @@
   <a href="mailto:Judy.French@pacer.org">Judy French</a>, PACER's NBPC, LA Office</p>
 <p><strong>Media Contact</strong><br />
   <a href="mailto:Bailey.Lindgren@pacer.org">Bailey Lindgren</a>, Associate, PACER&rsquo;s National Bullying Prevention Center (952.838.9000)</p>
-<br class="clearfloat" />
 
 <!-- ########################## END MAIN CONTENT ########################################### -->
 

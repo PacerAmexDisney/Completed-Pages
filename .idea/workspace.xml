@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7515a454-03d6-44be-a07a-d8140a378c33" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bullying/about/contact.asp" afterPath="$PROJECT_DIR$/bullying/about/contact.asp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bullying/about/history.asp" afterPath="$PROJECT_DIR$/bullying/about/history.asp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bullying/about/media-kit/bios.asp" afterPath="$PROJECT_DIR$/bullying/about/media-kit/bios.asp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bullying/about/media-kit/index.asp" afterPath="$PROJECT_DIR$/bullying/about/media-kit/index.asp" />
     </list>
     <ignored path="Original-Pages.iws" />
@@ -26,8 +30,8 @@
       <file leaf-file-name="index.asp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bullying/about/index.asp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+            <state relative-caret-position="385">
+              <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -36,8 +40,8 @@
       <file leaf-file-name="history.asp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bullying/about/history.asp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="98" />
+            <state relative-caret-position="366">
+              <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -46,8 +50,28 @@
       <file leaf-file-name="index.asp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bullying/about/media-kit/index.asp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="347">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.asp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bullying/templates/footer.asp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bios.asp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bullying/about/media-kit/bios.asp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,8 +80,8 @@
       <file leaf-file-name="contact.asp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bullying/about/contact.asp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="404">
+              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,9 +121,10 @@
         <option value="$PROJECT_DIR$/bullying/templates/footer.asp" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/bullying/about/index.asp" />
+        <option value="$PROJECT_DIR$/bullying/about/media-kit/index.asp" />
+        <option value="$PROJECT_DIR$/bullying/about/media-kit/bios.asp" />
         <option value="$PROJECT_DIR$/bullying/about/contact.asp" />
         <option value="$PROJECT_DIR$/bullying/about/history.asp" />
-        <option value="$PROJECT_DIR$/bullying/about/media-kit/index.asp" />
       </list>
     </option>
   </component>
@@ -684,12 +709,12 @@
       <workItem from="1501086187042" duration="2131000" />
       <workItem from="1501088650557" duration="1861000" />
       <workItem from="1501187034808" duration="456000" />
-      <workItem from="1501580169240" duration="12909000" />
+      <workItem from="1501580169240" duration="13063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17357000" />
+    <option name="totallyTimeSpent" value="17511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-249" width="1920" height="1080" extended-state="0" />
@@ -763,14 +788,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bullying/dynamic-head-items.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1036,14 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bullying/templates/footer.asp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1136,34 +1145,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bullying/about/index.asp">
+    <entry file="file://$PROJECT_DIR$/bullying/templates/footer.asp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bullying/about/history.asp">
+    <entry file="file://$PROJECT_DIR$/bullying/about/media-kit/bios.asp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="98" />
+        <state relative-caret-position="385">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bullying/about/contact.asp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="404">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bullying/about/index.asp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bullying/about/history.asp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bullying/about/media-kit/index.asp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="347">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding />
         </state>
       </provider>
