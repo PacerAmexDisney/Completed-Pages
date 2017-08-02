@@ -75,7 +75,7 @@
 	<p><strong>Were Here for You</strong><br />
 	In 2014, PACER had over 5,900 individual contacts regarding bullying prevention situations and resources.</p>
 
-	<p><strong>New Event: The Unity Awards</strong><br />
+	<p><strong>New Event - The Unity Awards</strong><br />
 	In 2015, PACER hosted the first Unity Awards, recognizing individuals and groups who have made outstanding contributions to address and prevent bullying.</p>
 
 	<p><strong>Bullying Prevention Bookmarks</strong><br /> 
