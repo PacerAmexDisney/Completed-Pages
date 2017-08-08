@@ -9,8 +9,7 @@
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
-<link rel="stylesheet" type="text/css" href="/css/pacer-style.css" />
-<link rel="stylesheet" type="text/css" href="/css/parent-responsive-v1.03.min.css" />
+
 </head>
 <body class="singleCol">
 
