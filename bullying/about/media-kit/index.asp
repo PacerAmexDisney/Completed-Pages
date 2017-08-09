@@ -2,7 +2,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
-<title>Template - National Bullying Prevention Center</title>
+<title>Media Kit - National Bullying Prevention Center</title>
 
 <meta property="og:title" content="" />
 <meta property="og:url" content="" />

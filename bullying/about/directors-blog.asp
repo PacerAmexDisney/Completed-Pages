@@ -7,7 +7,7 @@ Response.AddHeader "Location", "/bullying/stories/directors-blog.asp"
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
-<title>Template - National Bullying Prevention Center</title>
+<title>Director's Blog - National Bullying Prevention Center</title>
 
 <meta property="og:title" content="" />
 <meta property="og:url" content="" />
