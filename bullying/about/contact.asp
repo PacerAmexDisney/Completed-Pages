@@ -47,7 +47,7 @@
     <h1 style="font-size:24px">Connect with PACER&rsquo;s National Bullying Prevention Center</h1>
 
 <div id="rightside" class="fltrt" style="width:430px; margin-left:15px; margin-bottom:15px;">
-<img alt="" width="422" height="317" src="/images/pacer-exteriorsign_medium.jpg" style="margin-bottom:5px;" /><br />
+<img alt="" width="422" height="317" src="/bullying/about/images/pacer-exteriorsign_medium.jpg" style="margin-bottom:5px;" /><br />
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=200215112840656423095.00047a75fd0a6e2ded43d&amp;hl=en&amp;ie=UTF8&amp;ll=44.855192,-93.349687&amp;spn=0,0&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?msa=0&amp;msid=200215112840656423095.00047a75fd0a6e2ded43d&amp;hl=en&amp;ie=UTF8&amp;ll=44.855192,-93.349687&amp;spn=0,0&amp;source=embed" target="_blank" style="color:#0000FF;text-align:left">PACER Center</a> in a larger map</small>
 </div>
 
@@ -72,13 +72,13 @@
   
   <p><strong>Social Media</strong></p>
   <p>
-  <a href="https://www.facebook.com/PACERsNationalBullyingPreventionCenter" target="_blank"><img src="/images/facebookicon_medium.gif" width="35" height="35" alt=""/> PACERsNationalBullyingPreventionCenter</a>
+  <a href="https://www.facebook.com/PACERsNationalBullyingPreventionCenter" target="_blank"><img src="/bullying/images/facebookicon_medium.gif" width="35" height="35" alt=""/> PACERsNationalBullyingPreventionCenter</a>
   <br />
-  <a href="https://twitter.com/PACER_NBPC" target="_blank"><img src="/images/twittericon_medium.gif" width="35" height="35" alt=""/> @pacer_nbpc</a>
+  <a href="https://twitter.com/PACER_NBPC" target="_blank"><img src="/bullying/images/twittericon_medium.gif" width="35" height="35" alt=""/> @pacer_nbpc</a>
   <br />
-  <a href="https://instagram.com/pacer_nbpc/" target="_blank"><img src="/images/instagramicon_medium.gif" width="35" height="35" alt=""/> pacer_nbpc</a>
+  <a href="https://instagram.com/pacer_nbpc/" target="_blank"><img src="/bullying/images/instagramicon_medium.gif" width="35" height="35" alt=""/> pacer_nbpc</a>
   <br />
-  <a href="https://www.pinterest.com/PACER_NBPC/" target="_blank"><img src="/images/pinteresticon_medium.png" width="35" height="35" alt=""/> PACER_NBPC on Pinterest</a>
+  <a href="https://www.pinterest.com/PACER_NBPC/" target="_blank"><img src="/bullying/images/pinteresticon_medium.png" width="35" height="35" alt=""/> PACER_NBPC on Pinterest</a>
   </p>
 
 <p><strong>Staff Contacts</strong><br />
