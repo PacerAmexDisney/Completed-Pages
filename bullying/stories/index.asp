@@ -359,21 +359,33 @@ Else
 End If
 %>
 
+<!-- ******* Start Remove
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+End Remove *******-->
+
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <title>National Bullying Prevention Center - Stories</title>
 
 <!-- for Facebook -->     
 <meta property="og:title" content="National Bullying Prevention Center - Stories" />
+
+<!-- ******* Start Remove
 <meta property="og:type" content="article" />
+End Remove *******-->
+
 <meta property="og:image" content="http://www.pacer.org/bullying/stories/images/stories-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/stories/" />
 <meta property="og:description" content="Bullying can make you feel silenced, scared, and alone. By sharing your story, you can help let others know they’re not alone." />
 
+<!-- ******* Start Remove
 <link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
 <link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
+End Remove *******-->
+
 <!--#include virtual="/bullying/dynamic-head-items.html"-->
 <style type="text/css">
 .storyNavItems {
@@ -447,8 +459,12 @@ ol, ul {
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
+<!-- ******* Start Remove
 <!--#include virtual="/bullying/dynamic-header.html"-->
 <!--#include virtual="/bullying/topnav.html"-->
+End Remove *******-->
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
 <script type="text/javascript">
 	var navId="stories";
@@ -660,7 +676,15 @@ Wend
 
 <br class="clearfloat" />
   <!-- end .content --></div>
-<!--#include virtual="/bullying/footer.html"-->
+
+
+	<!-- ******* Start Remove
+	<!--#include virtual="/bullying/footer.html"-->
+	End Remove *******-->
+	
+  <!--#include virtual="/bullying/templates/footer.asp"-->
+  
+  
   <!-- end .container --></div>
 </body>
 </html>
