@@ -1,32 +1,7 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>National Bullying Prevention Center - National Bullying Prevention Month</title>
+<!--#include virtual="/bullying/templates/header.asp"-->
 
-<!-- for Facebook -->     
-<meta property="og:title" content="National Bullying Prevention Center - National Bullying Prevention Month" />
-<meta property="og:type" content="article" />
-<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/nbpm-fb-10yr.jpg" />
-<meta property="og:url" content="http://www.pacer.org/bullying/nbpm/" />
-<meta property="og:description" content="National Bullying Prevention Month is a nationwide campaign founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities around the world to educate and raise awareness of bullying prevention." />
-
-
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
+<!-- Custom for this page:START -->
 <link href="/js/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
-
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.7.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
-
 <script src="/js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -37,13 +12,13 @@ if (typeof jQuery == 'undefined')
 
 <style type="text/css">
 .eventtable {
-	border-spacing: 10px;
-	border-collapse: separate;
+  border-spacing: 10px;
+  border-collapse: separate;
 }
 
 .eventtable td:nth-child(2) {
-	border-top: 1px solid #ccc;
-	padding-top: 5px;
+  border-top: 1px solid #ccc;
+  padding-top: 5px;
 }
 
 .eventtable tr:first-child td { border: none; }
@@ -51,63 +26,56 @@ if (typeof jQuery == 'undefined')
 .eventtable td { vertical-align: top; }
 
 .eventtable img {
-	margin-bottom: 25px;
-	margin-top: 5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
 }
 
 .topTenInfo img {
-	float: left;
-	padding: 5px 10px;
+  float: left;
+  padding: 5px 10px;
 }
 
 .topTenInfo h3 {
-	background-color: #f5592e;
-	color: #fff;
-	font-size: 1.7em;
-	margin: 10px;
-	padding: 5px 10px;
+  background-color: #f5592e;
+  color: #fff;
+  font-size: 1.7em;
+  margin: 10px;
+  padding: 5px 10px;
 }
 </style>
 
-<script type="text/javascript">
-$(document).ready(function(){
-		$(".group1").colorbox({rel:'group1'});
-	});
-</script>
+<!-- Custom for this page:END -->
 
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>National Bullying Prevention Center - National Bullying Prevention Month</title>
+
+<meta property="og:title" content="National Bullying Prevention Center - National Bullying Prevention Month" />
+<meta property="og:url" content="http://www.pacer.org/bullying/nbpm/" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/nbpm-fb-10yr.jpg" />
+<meta property="og:description" content="National Bullying Prevention Month is a nationwide campaign founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities around the world to educate and raise awareness of bullying prevention." />
 </head>
-
 <body class="twocol">
-<div class="container"> <a id="skiptocontent" href="#maincontent">Skip to main content</a> 
-	<!--#include virtual="/bullying/dynamic-header.html"--> 
-	<!--#include virtual="/bullying/topnav.html"--> 
-	
+<div class="container">
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-	
-	<script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
-	<div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/nbpm/">National Bullying Prevention Month</a> /
-       		<div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
-			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>	
-	</div>
-	
-	<!-- ######################### NAVIGATION ################################# -->
-	<div class="sidebar1"> 
-		<!--#include virtual="/bullying/nbpm/nav.html"--> 
-		<script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="overview";
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+<div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"--> 
+</div>
+<script type="text/javascript">
+	var currId="unityday";
 	var showTree = "none";
-	var currSubId="none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "active";
-	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
@@ -117,16 +85,16 @@ $(document).ready(function(){
 			}
 		}
 	}
-</script> 
-	</div>
-	<!-- ###################### END Navigation ############################## -->
-	
-	<div class="content">
-		<h1 id="maincontent">October is National Bullying Prevention Month</h1>
+</script>
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
+    <h1 id="maincontent">October is National Bullying Prevention Month</h1>
 		<h2>Sponsored by PACER's National Bullying Prevention Center</h2>
-		
-		
-      <h3>More than 1 out of every 5 students report being bullied</h3>
+    
+ <h3>More than 1 out of every 5 students report being bullied</h3>
 <p>National Bullying Prevention Month is a nationwide campaign founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities around the world to educate and raise awareness of bullying prevention. This campaign has grown from an initial week-long event to a worldwide effort with thousands of individuals participating in multiple activities throughout October.</p>
 <p>Hundreds of schools, major corporations, and many celebrities have joined the movement. Take action and show that you care about kids being safe at school, while online, and in the community.</p>
 		
@@ -326,9 +294,7 @@ $(document).ready(function(){
 			</tr>
 		</table>
 		<p>&nbsp;</p>
-		<br class="clearfloat" />
-		<!-- end .content --></div>
-	<!--#include virtual="/bullying/footer.html"--> 
-	<!-- end .container --></div>
-</body>
-</html>
+
+
+
+<!--#include virtual="/bullying/templates/footer.asp"-->
