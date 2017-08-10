@@ -2,6 +2,7 @@
 
 <!-- Custom for this page:START -->
 <link href="/js/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+<link href="/css/key-elements-responsive.min.css" rel="stylesheet" type="text/css" />
 <script src="/js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -47,8 +48,8 @@
 <!-- Custom for this page:END -->
 
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html" charset=UTF-8" />
+<meta name="description" content="National Bullying Prevention Month is a nationwide campaign founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities around the world to educate and raise awareness of bullying prevention." />
 <title>National Bullying Prevention Center - National Bullying Prevention Month</title>
 
 <meta property="og:title" content="National Bullying Prevention Center - National Bullying Prevention Month" />
@@ -66,7 +67,7 @@
 
 <!-- ########################## LEFT NAV ########################################### -->
 <div class="sidebar1">
-    <!--#include virtual="/bullying/templates/nav.html"--> 
+<!--#include virtual="/bullying/nbpm/nav.html"-->
 </div>
 <script type="text/javascript">
 	var currId="unityday";
