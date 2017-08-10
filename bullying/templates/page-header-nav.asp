@@ -2,8 +2,8 @@
 <div id="pacer"><a href="http://www.pacer.org/">PACER.org</a></div>
 </div>
   <div class="header">
-  <a href="/bullying/"><img src="/bullying/images/header.jpg" alt="National Bullying Prevention Center" name="mainlogo" id="mainlogo" style="background: #eb4c27; display:block;" /></a> 
-  <div id="header-right"> <span id="preLinks"><a href="/bullying/about/">About Us</a> <a href="/bullying/about/contact.asp" class="leftborder">Contact Us</a> </span>  
+  <a href="/bullying/"><img src="/bullying/images/header.jpg" alt="National Bullying Prevention Center" name="mainlogo" id="mainlogo" style="background: #eb4c27; display:block;" /></a>
+  <div id="header-right"> <span id="preLinks"><a href="/bullying/about/">About Us</a> <a href="/bullying/about/contact.asp" class="leftborder">Contact Us</a> </span>
   	<!-- Google CSE Search Box Begins  -->
 	<form action="/bullying/searchresults.asp" id="cse-search-box"><label for="q">Search</label>
 	<input type="hidden" name="cx" value="008159103446416441332:ztnv2wmj0ug" />
@@ -20,7 +20,7 @@
         <a class="topicon socialButton twitter" href="https://twitter.com/PACER_NBPC" target="_blank"><img src="/images/twittericon_medium.gif" width="35" height="35" alt="Twitter" /></a>
         <a class="topicon socialButton facebook" href="https://www.facebook.com/PACERsNationalBullyingPreventionCenter" target="_blank"><img src="/images/facebookicon_medium.gif" width="35" height="35" alt="Facebook" /></a>
         <a class="topbutton header-donate" id="donatebutton"  href="https://pacer.ejoinme.org/MyPages/DonateToTheNationalBullyingPreventionCenter/tabid/229451/Default.aspx" target="_blank"><span>Donate</span></a> 
-        <a class="topbutton header-newsletter" id="newsletterbutton"  href="/bullying/newsletter/"><span>Newsletter</span></a> 
+        <a class="topbutton header-newsletter" id="newsletterbutton"  href="/bullying/newsletter/"><span>Newsletter</span></a>
 	</div>
   </div>
   
@@ -53,7 +53,7 @@
         <li><a href="/bullying/nbpm/runwalkroll/"><span>PACER's Run, Walk, Roll Against Bullying</span></a></li>
         <li><a href="/bullying/nbpm/runwalkroll/events-around-the-country.asp"><span>Run, Walk, Roll Events Across the Country</span></a></li>
         <li><a href="/bullying/nbpm/communityevents.asp"><span>Community Events</span></a></li>
-        
+
         <!--        <li><a href="/bullying/nbpm/unity-day-t-shirt.asp"><span>Unity Day T-Shirts</span></a></li>
  -->
       </ul>
@@ -62,7 +62,7 @@
       <ul>
         <li><a href="/bullying/resources/info-facts.asp"><span>Questions Answered</span></a></li>
         <li class="has-more" data-third-level-nav="publications_tln"><a href="/bullying/resources/publications/"><span>Information Handouts</span></a></li>
-        
+
         <li><a href="/bullying/resources/stats.asp"><span>Stats</span></a></li>
         <li><a href="/bullying/resources/book-club.asp"><span>Book Club</span></a></li>
 
@@ -71,7 +71,7 @@
 
         <li><a href="/bullying/resources/cyberbullying/"><span>Cyberbullying</span></a></li>
         <li><a href="/bullying/resources/posters.asp"><span>Unity Day Posters</span></a></li>
-        
+
         <li><a href="/bullying/resources/students-with-disabilities/"><span>Students with Disabilities</span></a></li>
         <li><a href="/bullying/resources/sites-for-kids-and-teens.asp"><span>Sites for Kids and Teens</span></a></li>
       </ul>
@@ -99,10 +99,10 @@
       <ul>
         <li><a href="/bullying/stories/"><span>All Stories</span></a></li>
         <li><a href="/bullying/stories/disability/"><span>Disability</span></a></li>
-        
+
         <li><a href="/bullying/stories/student-action/"><span>Students Taking Action</span></a></li>
         <li><a href="/bullying/stories/fundraising/"><span>Inspired Fundraising</span></a></li>
-        
+
         <li><a href="/bullying/stories/school-action/"><span>Schools Taking Action</span></a></li>
         <li><a href="/bullying/stories/directors-blog.asp"><span>Directors Blog</span></a></li>
       </ul>
@@ -112,16 +112,16 @@
       <ul class="MediumScreenOpenLeft">
         <li><a href="/bullying/getinvolved/"><span>What You Can Do!</span></a></li>
         <li><a href="/bullying/getinvolved/students-with-solutions.asp"><span>Students With Solutions</span></a></li>
-        
+
         <li><a href="/bullying/yourenotalone/"><span>You&rsquo;re Not Alone</span></a></li>
         <li><a href="/bullying/getinvolved/unity-awards.asp"><span>The Unity Awards</span></a></li>
-        
+
         <li><a href="/bullying/wewillgen/"><span>The WE WILL Generation</span></a></li>
         <li><a href="/bullying/getinvolved/partners/"><span>Partners</span></a></li>
-        
+
         <li><a href="/bullying/getinvolved/peer-ambassadors.asp"><span>Peer Ambassadors</span></a></li>
         <li><a href="/bullying/getinvolved/fundraising-ideas.asp"><span>Fundraising</span></a></li>
-        
+
         <li><a href="/bullying/getinvolved/supporter-resources/"><span>Supporter Resources</span></a></li>
       </ul>
     </li>
