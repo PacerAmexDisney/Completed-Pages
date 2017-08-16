@@ -6,7 +6,7 @@
         <!-- Bullying Footer -->
         <div class="footer bullying">
             <div id="leftCol-branding" class="footer-col">
-                <img id="footer-logo" src="http://www.pacer.org/bullying/images/nbpc-logo-whiteletters.png" alt="PACER's National Bullying Prevention Center" />
+                <img id="footer-logo" src="/bullying/images/nbpc-logo-whiteletters.png" alt="PACER's National Bullying Prevention Center" />
 
                 <div class="footer-section offices">
                     <h4>Minneapolis Office:</h4>
