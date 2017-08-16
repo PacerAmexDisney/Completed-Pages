@@ -1,52 +1,46 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>National Bullying Prevention Center - CustomInk Campaign</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
-<style>
-a#newsletterbutton{
-	width:89px;
-	height:35px;
-	background-image:url(/bullying/images/button-bully-newsletter.png);
-	background-position:0px center;
-}
-a#newsletterbutton:hover{
-	background-position:-120px center;
-}
-a#donatebutton{
-	width:89px;
-	height:35px;
-	background-image:url(/bullying/images/button-bully-donate.png);
-	background-position:0px center;
-}
-a#donatebutton:hover{
-	background-position:-110px center;
-}
+<!--#include virtual="/bullying/templates/header.asp"-->
 
-</style>
+<link href="/css/flexbox-responsive-min.css" rel="stylesheet" type="text/css" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="description" content="National Bullying Prevention Center - CustomInk Campaign" />
+
+<title>National Bullying Prevention Center - CustomInk Campaign</title>
+
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+
+<meta property="og:description" content="National Bullying Prevention Center - CustomInk Campaign" />
+
 </head>
 
-<body>
+<body class="onecol">
 
 <div class="container">
+
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
 
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
-  <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+
+
   <div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
 
-  <div class="content">
+
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+
+
+
+<div class="content">
+
+   	<div class="narrowContent">
+
+    	
     <h1 id="maincontent">Be Good to Each Other</h1>
 <table><tr><td>
 
@@ -63,14 +57,15 @@ a#donatebutton:hover{
   <p>Each celebrity has designed their own custom bullying prevention t-shirt that will be available for purchase for $20, with 100% of the profits benefiting PACER&rsquo;s National Bullying Prevention Center (with at least $9 per shirt donated to PACER).  Celebrities will also utilize the power of social media to engage and connect with their fans to spread a message of kindness and understanding.</p>
   
   <p>Everyone is encouraged to get involved on social media and show their support by using the hashtags #BG2EO and #UNITYDAY2014.</p></td>
-  
-  <td valign="top"><img src="/bullying/nbpm/images/2014-UD-Tshirt.jpg" width="200" height="248" alt="Unity Day tshirt" vspace="10" />
-    <img src="/bullying/nbpm/images/2014-UD-Tshirt-Front.jpg" width="200" height="202" alt="tshirt front" vspace="10" />
-    <img src="/bullying/nbpm/images/2014-UD-Tshirt-Back.jpg" width="200" height="191" alt="tshirt back" vspace="10" /></td></tr>
+ </tr>
   </table>
   
-  <!-- end .content --></div>
-<!--#include virtual="/bullying/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+  
+
+	</div>
+
+
+
+
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

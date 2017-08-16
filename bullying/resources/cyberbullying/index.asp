@@ -1,10 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Cyberbullying - National Bullying Prevention Center</title>
+<!--#include virtual="/bullying/templates/header.asp"-->
 
-<!-- for Facebook -->     
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Cyberbullying - National Bullying Prevention Center</title>
 <meta property="fb:app_id" content="271376943231875"  />
 <meta property="og:title" content="Cyberbullying" />
 <meta property="og:type" content="article" />
@@ -13,43 +11,33 @@
 <meta property="og:description" content="Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;
 
 As adults, thinking back, it was just a generation ago that kids and teens were asking their parents for a phone in their room &mdash; maybe even one with a separate line or three-way calling &mdash; so they could easily and somewhat privately connect with more friends." />
-
-
-
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
-
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
- <!--#include virtual="/bullying/dynamic-header.html"--> 
- <!--#include virtual="/bullying/topnav.html"--> 
- 
- <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
  <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Resources</a> /
  
  	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
 
  </div>
- 
- <!-- ######################### NAVIGATION ################################# -->
- <div class="sidebar1"> 
- <!--#include virtual="/bullying/resources/nav.html"--> 
- <script type="text/javascript">
-	// ID and SubId to be Orange
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"--> 
+</div>
+<script type="text/javascript">
 	var currId="cyber";
 	var showTree = "none";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
- document.getElementById(currId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
@@ -59,11 +47,14 @@ As adults, thinking back, it was just a generation ago that kids and teens were 
 			}
 		}
 	}
- </script> 
- </div>
- <!-- ###################### END Navigation ############################## -->
- 
- <div class="content"> 
+</script> 
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
+
+     
  <h1 id="maincontent">Cyberbullying</h1>
  <p><img class="fltrt" src="/bullying/resources/images/cyberbullying-image-circle.png" width="330" height="330" alt=""/>Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;</p>
  <p>As adults, thinking back, it was just a generation ago that kids and teens were asking their parents for a phone in their room &mdash; maybe even one with a separate line or three-way calling &mdash; so they could easily and somewhat privately connect with more friends.</p>
@@ -183,8 +174,6 @@ As adults, thinking back, it was just a generation ago that kids and teens were 
  <p>Youth Risk Behavior Survey. (2015). Trends in the prevalence of behaviors that contribute to violence. <em>Centers for Disease Control.</em> Retrieved from <a href="http://www.cdc.gov/healthyyouth/data/yrbs/pdf/trends/2015_us_violence_trend_yrbs.pdf" target="_blank"><em>http://www.cdc.gov/healthyyouth/data/yrbs/pdf/trends/2015_us_violence_trend_yrbs.pdf</em> <span class="fa fa-external-link"></span></a></p>
  
 <br class="clearfloat" />
- <!-- end .content --></div>
- <!--#include virtual="/bullying/footer.html"--> 
- <!-- end .container --></div>
-</body>
-</html>
+ 
+
+<!--#include virtual="/bullying/templates/footer.asp"-->
