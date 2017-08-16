@@ -47,7 +47,7 @@
 		<p>In October 2014, From New York to New Zealand, thousands of schools, communities, organizations, and individuals came together during PACER’s National Bullying Prevention Month to raise awareness for bullying prevention. It was the largest demonstration of support for students who have been bullied since PACER initiated the campaign in 2006.</p>
       </article>
 	  <aside>
-		  <img src="http://staging.pacer.org/bullying/nbpm/articles/images/paula-with-participants.jpg" alt="" />
+		  <img src="/bullying/nbpm/articles/images/paula-with-participants.jpg" alt="" />
 		  <p><em>PACER's Executive Director Paula Goldberg (center) with participants in PACER's fifth annual Run, Walk, Roll Against Bullying in Bloomington, MN.</em></p>
      </aside>
     </div> 
@@ -92,12 +92,12 @@
     
 	<div class="flex">
 		<div style="margin: 20px">
-			<img style="margin-bottom: 20px" src="http://staging.pacer.org/bullying/nbpm/articles/images/lakeview-students.jpg" width="440" height="314" alt=""/>
+			<img style="margin-bottom: 20px" src="/bullying/nbpm/articles/images/lakeview-students.jpg" width="440" height="314" alt=""/>
 			<em>Lakeview Elementary School students in Lakeville, MN,  wore orange to show their support for students who have been bullied.</em>
 		</div>
 		
 		<div style="margin: 20px">
-			<img style="margin-bottom: 20px" src="http://staging.pacer.org/bullying/nbpm/articles/images/nick-mexico-city.jpg" width="440" height="314" alt=""/>
+			<img style="margin-bottom: 20px" src="/bullying/nbpm/articles/images/nick-mexico-city.jpg" width="440" height="314" alt=""/>
 			<em>Motivational speaker and PACER partner Nick Vujicic held a press conference in Mexico City in support of Unity Day.</em>
 		</div>
 	</div>  
