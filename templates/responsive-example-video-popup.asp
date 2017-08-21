@@ -77,10 +77,10 @@ window.addEventListener("orientationchange", resizeColorBox, false);
 <!--BEGIN CONTENT-->
 
 <div style="margin: 40px;">
-		<p><a class='videoPopUp' href="http://www.youtube.com/embed/VOJyrQa_WR4?rel=0&amp;wmode=transparent">Original Link to Embed YouTube Video Popup (Iframe/Direct Link To YouTube)</a></p>
+		<p><a class='videoPopUp' href="http://www.youtube.com/embed/VWf8CXwPoqI?rel=0&amp;wmode=transparent">Original Link to Embed YouTube Video Popup (Iframe/Direct Link To YouTube)</a></p>
 	
     
-		<p><a class='videoPopUp' href="http://www.youtube.com/?v=VOJyrQa_WR4&rel=0&amp;wmode=transparent">Modified Link to use v= style link to YouTube Video Popup (Iframe/Direct Link To YouTube)</a></p>
+		<p><a class='videoPopUp' href="https://www.youtube.com/watch?v=VWf8CXwPoqI&rel=0&amp;wmode=transparent">Modified Link to use v= style link to YouTube Video Popup (Iframe/Direct Link To YouTube)</a></p>
 
 </div>
 
