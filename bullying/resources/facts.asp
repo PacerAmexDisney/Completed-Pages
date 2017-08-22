@@ -1,10 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="According to the Center for Disease Control, students who are bullied are more likely to experience low self-esteem and isolation, perform poorly in school, have few friends in school, have a negative view of school, experience physical symptoms (such as headaches, stomachaches, or problems sleeping), and to experience mental health issues (such as depression, suicidal thoughts, and anxiety)" />
 <title>Bullying Facts - National Bullying Prevention Center</title>
 
-<!-- for Facebook -->     
+<!-- for Facebook -->
 <meta property="fb:app_id" content="271376943231875"  />
 <meta property="og:title" content="Bullying Facts" />
 <meta property="og:type" content="article" />
@@ -12,42 +12,33 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/facts.asp" />
 <meta property="og:description" content="According to the Center for Disease Control, students who are bullied are more likely to experience low self-esteem and isolation, perform poorly in school, have few friends in school, have a negative view of school, experience physical symptoms (such as headaches, stomachaches, or problems sleeping), and to experience mental health issues (such as depression, suicidal thoughts, and anxiety)" />
 
-
-
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
-
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
- <!--#include virtual="/bullying/dynamic-header.html"--> 
- <!--#include virtual="/bullying/topnav.html"--> 
- 
- <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
- <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Resources</a> /
- 
- 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
-    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
 
- </div>
- 
- <!-- ######################### NAVIGATION ################################# -->
- <div class="sidebar1"> 
-  <!--#include virtual="/bullying/resources/nav.html"--> 
-  <script type="text/javascript">
-	// ID and SubId to be Orange
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+<div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Resources</a> /
+
+ <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+   <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
+
+</div>
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"-->
+</div>
+<script type="text/javascript">
 	var currId="facts";
 	var showTree = "none";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
- document.getElementById(currId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
@@ -57,11 +48,14 @@
 			}
 		}
 	}
-  </script> 
- </div>
- <!-- ###################### END Navigation ############################## -->
- 
- <div class="content"> 
+</script>
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
+
+
   <h1 id="maincontent">Bullying Facts</h1>
   <p><strong><img class="fltrt" src="/bullying/resources/images/facts-image-circle.png" width="330" height="330" alt=""/>Bullying directly affects students&rsquo; ability to learn.</strong></p>
   <ul type="disc">
@@ -92,7 +86,7 @@
     <li>Bullying is a behavior, not an identity. Labeling as student as a &ldquo;bully&rdquo; can have a detrimental effect on their future and often limits their ability to change their behavior (<a href="https://www.stopbullying.gov/blog/2013/10/23/why-we-don%25E2%2580%2599t-use-word-%25E2%2580%259Cbully%25E2%2580%259D-label-kids">StopBullying.gov, 2016 <span class="fa fa-external-link"></span></a>).</li>
     <li>Students can have multiple roles: they can be the one subjected to bullying and the one who bullies (<a href="https://www.stopbullying.gov/blog/2013/10/23/why-we-don%25E2%2580%2599t-use-word-%25E2%2580%259Cbully%25E2%2580%259D-label-kids">StopBullying.gov, 2016 <span class="fa fa-external-link"></span></a>). Strategies that focus on holding students accountable for their behavior &ndash; but also empower them to change that behavior &ndash; are more effective than punitive punishments and peer mediation in bullying situations.</li>
    <li>Any student can exhibit bullying behavior &ndash; male or female, popular or un popular, students with good grades, and those who struggle academically. Teachers need to focus on a student&rsquo;s behavior, not their profile, when determining if bullying occurred.</li></ul>
-   
+
      <p><strong>Bullying isn&rsquo;t about resolving conflict; bullying is about control. </strong></p>
      <ul>
  <li>In conflict, children self-monitor their behavior and generally stop when they realize they are hurting someone. </li>
@@ -121,8 +115,6 @@
   <p>Swearer, S. M., Wang, C., Collins, A., Strawhun, J., &amp; Fluke, S. (2014). Bullying: A school mental health perspective. In M. Weist, N. Lever, C. Bradshaw, &amp; O. J. Sarno (Eds.), Handbook of school mental health: Research, training, practice, and policy (2nd ed. Pp. 341-354). New York: NY: Springer Science <a href="http://link.springer.com/chapter/10.1007%2F978-1-4614-7624-5_25">http://link.springer.com/chapter/10.1007%2F978-1-4614-7624-5_25 <span class="fa fa-external-link"></span></a></p>
   <p>Tenebaum, L. S., Varjas, K., Meyers, J., &amp; Parris, L. (2011). Coping strategies and perceived effectiveness in fourth through eighth grade victims of bullying. School Psychology International, 32, 263-287. Retrieved from <a href="http://spi.sagepub.com/content/32/3/263.abstract" target="_blank">http://spi.sagepub.com/content/32/3/263.abstract <span class="fa fa-external-link"></span></a></p>
 <br class="clearfloat" />
-  <!-- end .content --></div>
- <!--#include virtual="/bullying/footer.html"--> 
- <!-- end .container --></div>
-</body>
-</html>
+
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

@@ -7,27 +7,27 @@
 <meta name="title" content="Teen Talk - National Bullying Prevention Center" />
 <meta name="description" content="The seventh-grade students featured in the video Teen Talk on Cyberbullying share their insightful, authentic response to questions related to cyberbullying." />
 
-<!-- for Facebook -->     
-<meta property="fb:app_id" content="271376943231875"  />       
+<!-- for Facebook -->
+<meta property="fb:app_id" content="271376943231875"  />
 <meta property="og:title" content="Teen Talk - National Bullying Prevention Center" />
 <meta property="og:type" content="article" />
-<meta property="og:image" content="http://www.pacer.org/bullying/resources/images/teen-talk-fbv2.jpg" />
-<meta property="og:url" content="http://www.pacer.org/bullying/resources/cyberbullying/teen-talk.asp" />
+<meta property="og:image" content="/bullying/resources/images/teen-talk-fbv2.jpg" />
+<meta property="og:url" content="/bullying/resources/cyberbullying/teen-talk.asp" />
 <meta property="og:description" content="The seventh-grade students featured in the video Teen Talk on Cyberbullying share their insightful, authentic response to questions related to cyberbullying." />
 
 
 <style type="text/css">
 	.img-containter {
-	  width:400px; 
-	  height:400px; 
+	  width:400px;
+	  height:400px;
 	  margin:0 15px 20px;
 	}
-	
+
 	@media(max-width: 750px) {
 		.img-containter {
-			width:100%; 
-			height:auto; 
-			float:none; 
+			width:100%;
+			height:auto;
+			float:none;
 			margin: 0;
 		}
 	}
@@ -41,8 +41,8 @@
 
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
- <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Resources</a> / 
- 
+ <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Resources</a> /
+
        		<div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
 			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
 
@@ -50,7 +50,7 @@
 
 <!-- ########################## LEFT NAV ########################################### -->
 <div class="sidebar1">
-    <!--#include virtual="/bullying/templates/nav.html"--> 
+    <!--#include virtual="/bullying/resources/nav.html"-->
 </div>
 <script type="text/javascript">
 	var currId="helpingyourchild";
@@ -70,14 +70,14 @@ document.getElementById(currId).className = "active";
 			}
 		}
 	}
-</script> 
+</script>
 
 <!-- ########################## MAIN CONTENT ########################################### -->
 
 
 <div class="content">
 
-     
+
 
   <h1 id="maincontent">Teen Talk</h1>
 
@@ -92,9 +92,9 @@ document.getElementById(currId).className = "active";
 		 <p><strong>Complete this sentence: I wish the person who was bullying knew &hellip; </strong> That they were not only hurting one person, but hurting the person's friends. That we are hurting multiple people's feelings. The person has friends who think about them, and the bullying hurts them too.</p>
 		 <p><strong>You may have heard the expression'Be comfortable in your own skin.' What does that mean to you?</strong> Be yourself. Just be yourself.</p>
 	 </div>
-	<div style="clear: both"></div>	 
+	<div style="clear: both"></div>
 
-<hr style="margin: 20px 0" />	 
+<hr style="margin: 20px 0" />
 
 	<div style="float:right" class="img-containter"><img src="/bullying/resources/images/aniza-profile.jpg"  alt=""/></div>
 	<div>
@@ -102,7 +102,7 @@ document.getElementById(currId).className = "active";
 		 <p><strong>What is cyberbullying?</strong> Cyberbullying is when you choose to go online and make fun of other people.</p>
 		 <p><strong>What is one thing you want everyone to know about cyberbullying?</strong> What you say is harmful. So if you type something up that you don't actually mean, it can be taken in the wrong way and it can lead to other problems.</p>
 		 <p><strong>How does being cyberbullied or seeing cyberbullying make you feel?</strong> Sad and not worthy.</p>
-		 <p><strong>What would you do if you see someone at school who is being bullied online?</strong> You can eat lunch with them. You could write them a letter and put it in their locker, so maybe if they are sad in the morning they can open their locker and then it would fall on the floor and they would read it and be happy.</p>	 
+		 <p><strong>What would you do if you see someone at school who is being bullied online?</strong> You can eat lunch with them. You could write them a letter and put it in their locker, so maybe if they are sad in the morning they can open their locker and then it would fall on the floor and they would read it and be happy.</p>
 	</div>
 	<div style="clear: both"></div>
 
@@ -117,9 +117,9 @@ document.getElementById(currId).className = "active";
 		 <p><strong>You may have heard the expression 'Be comfortable in your own skin.' What does that mean to you?</strong> Be you, don't let nobody try and change you. There's always going to be that one kid you feel like you want to be like, or that one adult, or one teenager, you're going to strive to be like. But at the end of the day, you're going to realize just be yourself.</p>
 	</div>
 		<div style="clear: both"></div>
-	 
+
 <hr style="margin: 20px 0" />
-	 
+
 <div style="float:right" class="img-containter"><img src="/bullying/resources/images/giselle-profile.jpg"  alt=""/></div>
 	 <div>
 	 <h3 id="giselle">Giselle, 7th Grade</h3>
@@ -129,7 +129,7 @@ document.getElementById(currId).className = "active";
 		 <p><strong>You may have heard the expression 'Be comfortable in your own skin.' What does that mean to you?</strong> Stay confident.</p>
 	 </div>
 	 	<div style="clear: both"></div>
-	 
+
 <hr style="margin: 20px 0" />
 
 <div style="float:left" class="img-containter"><img src="/bullying/resources/images/sulekha-profile.jpg"  alt=""/></div>
@@ -141,13 +141,13 @@ document.getElementById(currId).className = "active";
 		 <p><strong>Complete this sentence: I wish the person who was bullying knew'</strong> how it felt and how it feels to be bullied.</p>
 	 </div>
 	 	<div style="clear: both"></div>
-	 
+
 <hr style="margin: 20px 0" />
- 
- 
-	 <h3 style="text-align: center">Special thanks to Clarisonic for funding 'Teen Talk on Cyberbullying"</h3>	 
+
+
+	 <h3 style="text-align: center">Special thanks to Clarisonic for funding 'Teen Talk on Cyberbullying"</h3>
 	 <img class="centered" src="/bullying/resources/images/clairsonic-logo.png" width="294" height="48" alt=""/><br class="clearfloat" />
-  
-  
+
+
 
 <!--#include virtual="/bullying/templates/footer.asp"-->

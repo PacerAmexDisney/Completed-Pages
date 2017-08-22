@@ -29,7 +29,6 @@
   <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/nbpm/">National Bullying Prevention Month</a> / <a href="/bullying/nbpm/history.asp">History</a> /</div>
 
 
-
 <!-- ########################## MAIN CONTENT ########################################### -->
 
 
@@ -43,15 +42,15 @@
     <div class="flex" id="Row1">
      <article class="flexItemDescription">
 		<h2 style="clear:left">Schools, communities, and organizations around the world unite during PACER’s National Bullying Prevention Month </h2>
-			
+
 		<p>In October 2014, From New York to New Zealand, thousands of schools, communities, organizations, and individuals came together during PACER’s National Bullying Prevention Month to raise awareness for bullying prevention. It was the largest demonstration of support for students who have been bullied since PACER initiated the campaign in 2006.</p>
       </article>
 	  <aside>
 		  <img src="/bullying/nbpm/articles/images/paula-with-participants.jpg" alt="" />
 		  <p><em>PACER's Executive Director Paula Goldberg (center) with participants in PACER's fifth annual Run, Walk, Roll Against Bullying in Bloomington, MN.</em></p>
      </aside>
-    </div> 
-  
+    </div>
+
   <p>“National Bullying Prevention Month has grown more than we could have ever expected,” said Paula Goldberg, PACER’s executive director. “In less than 10 years, PACER has helped to create a global bullying prevention movement with millions of supporters. We know it is making a positive difference for children and families.”</p>
     <h3>Unity Day celebrated worldwide</h3>
     <p>On Unity Day, Oct. 22, PACER’s National Bullying Prevention Month reached its pinnacle when students, educators, families, TV personalities, and others wore orange, held events, and shared stories, photos, videos, and more on social media. In Mexico, a middle school held the first international Run, Walk, Roll Against Bullying event; students in New Zealand decorated bullying prevention cookies; and a school in Taiwan displayed Unity Day posters.</p>
@@ -62,7 +61,7 @@
       <li>At Incarnate Word Academy in Corpus Christi, Texas, students celebrated Unity by wearing orange shirts, placing orange ribbons on locker handles, and participating in bullying prevention activities in the classroom.</li>
       <li>Nearly 500 students and school staff in Hilbert, Wis., showed their commitment by standing together in a gymnasium to spell a giant human U-N-I-T-Y, and doing a district-wide Unity Dance.</li>
     </ul>
-    
+
       <table cellspacing="10" style="width:100%">
   <tbody>
   <tr>
@@ -89,18 +88,18 @@
     </tr>
   </tbody>
 </table>
-    
+
 	<div class="flex">
 		<div style="margin: 20px">
 			<img style="margin-bottom: 20px" src="/bullying/nbpm/articles/images/lakeview-students.jpg" width="440" height="314" alt=""/>
 			<em>Lakeview Elementary School students in Lakeville, MN,  wore orange to show their support for students who have been bullied.</em>
 		</div>
-		
+
 		<div style="margin: 20px">
 			<img style="margin-bottom: 20px" src="/bullying/nbpm/articles/images/nick-mexico-city.jpg" width="440" height="314" alt=""/>
 			<em>Motivational speaker and PACER partner Nick Vujicic held a press conference in Mexico City in support of Unity Day.</em>
 		</div>
-	</div>  
+	</div>
 
 	</div>
 

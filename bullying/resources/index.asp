@@ -19,7 +19,7 @@
 
 <!-- ########################## LEFT NAV ########################################### -->
 <div class="sidebar1">
-    <!--#include virtual="/bullying/templates/nav.html"--> 
+    <!--#include virtual="/bullying/resources/nav.html"-->
 </div>
 <script type="text/javascript">
 	var currId="overview";
@@ -39,14 +39,14 @@ document.getElementById(currId).className = "active";
 			}
 		}
 	}
-</script> 
+</script>
 
 <!-- ########################## MAIN CONTENT ########################################### -->
 
 
 <div class="content">
 
-     
+
     <h1 id="maincontent">Resources</h1>
     <p><a href="/bullying/resources/info-facts.asp">Questions Answered</a><br />
     Responses in a variety of formats, including images, 60 second response, article and more, to commonly asked questions.</p>
@@ -67,9 +67,9 @@ Advocating for students with disabilities. Visit the comprehensive online module
       <p><a href="/bullying/resources/posters.asp">Unity Day Posters</a><br />
     Order your free poster to promote Unity Day in your school, home or community.</p>
       <p><a href="/bullying/resources/sites-for-kids-and-teens.asp">Sites for Kids and Teens</a><br />
-    Websites for kids and teens to learn about bullying, engage in activities, and be inspired to own an important social cause.</p>   
+    Websites for kids and teens to learn about bullying, engage in activities, and be inspired to own an important social cause.</p>
 <br class="clearfloat" />
-    
-    
+
+
 
 <!--#include virtual="/bullying/templates/footer.asp"-->
