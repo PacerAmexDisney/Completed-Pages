@@ -567,11 +567,22 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	margin-right:50px;
 	margin-bottom:0.5em;
 }
+.content li li {
+	margin-right: 0px;
+}
 .content ul, .content ol {
 	margin-bottom:1em;
 }
+@media screen and (max-width: 500px) {
+	.content li{
+		margin-left:40px;
+		margin-right:20px;
+	}
+.content li li {
+	margin-left: 25px;
+}
 
-
+}
 
 .footer {
 	position:relative;
@@ -820,7 +831,7 @@ li.trophyiconlist li{
 .addthis_sharing_toolbox {
 	float: right;
 	min-height: 37px;
-	min-width: 240px;
+	min-width: 185px;
 	margin-bottom: 25px;	
 	padding-right: 10px;
     clear:none !important;
