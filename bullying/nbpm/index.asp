@@ -48,15 +48,14 @@
 
 <!-- Custom for this page:END -->
 
-
 <meta http-equiv="Content-Type" content="text/html" charset=UTF-8" />
 <meta name="description" content="National Bullying Prevention Month is a nationwide campaign founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities around the world to educate and raise awareness of bullying prevention." />
 <title>National Bullying Prevention Center - National Bullying Prevention Month</title>
 
-<meta property="og:title" content="National Bullying Prevention Center - National Bullying Prevention Month" />
-<meta property="og:url" content="http://www.pacer.org/bullying/nbpm/" />
-<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/nbpm-fb-10yr.jpg" />
-<meta property="og:description" content="National Bullying Prevention Month is a nationwide campaign founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities around the world to educate and raise awareness of bullying prevention." />
+<meta property="og:title" content="" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
 </head>
 <body class="twocol">
 <div class="container">
@@ -100,7 +99,7 @@
  <h3>More than 1 out of every 5 students report being bullied</h3>
 <p>National Bullying Prevention Month is a nationwide campaign founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities around the world to educate and raise awareness of bullying prevention. This campaign has grown from an initial week-long event to a worldwide effort with thousands of individuals participating in multiple activities throughout October.</p>
 <p>Hundreds of schools, major corporations, and many celebrities have joined the movement. Take action and show that you care about kids being safe at school, while online, and in the community.</p>
-    
+
 <%'----------------------------------- START TOP TEN LIST -------------------------------------- %>   
   <h2 id="Top10">Top 10 reasons to celebrate</h2>
     <div class="flex" id="Row1">
@@ -108,7 +107,7 @@
       <img width="160" height="160" src="/bullying/getinvolved/images/topTen_thumb.jpg" alt="" />
      </aside>
      <article class="flexItemDescription">
-        <p>The number one reason to celebrate? You can be a part of a cause thatís uniting a nation! Historically, bullying had been viewed as ìa childhood rite of passage,î but National Bullying Prevention Month is now a nationwide call to action ó providing schools, parents and students with the educational resources and support to better respond to bullying behavior.</p>
+        <p>The number one reason to celebrate? You can be a part of a cause that‚Äôs uniting a nation! Historically, bullying had been viewed as ‚Äúa childhood rite of passage,‚Äù but National Bullying Prevention Month is now a nationwide call to action ‚Äî providing schools, parents and students with the educational resources and support to better respond to bullying behavior.</p>
               <p><a class="topTenList" href="#list1">View the top 10 list</a> to learn ways you can get involved.</p>
                 <p><a class="topTenList" href="#list2" style="display:none"></a></p>  
                 <p><a class="topTenList" href="#list3" style="display:none"></a></p>  
@@ -124,41 +123,40 @@
     
     <div style="display:none; clear:left">
       <div class="topTenInfo" id="list1">
-        <h3>1. Be part of a cause thatís uniting a nation</h3>
+        <h3>1. Be part of a cause that‚Äôs uniting a nation</h3>
         <img src="/bullying/nbpm/images/top10-1.jpg" width="359" height="318" alt=""/>
         <p>National Bullying Prevention Month was <a href="http://www.pacer.org/bullying/nbpm/history.asp">founded</a> in 2006 by PACER's National Bullying Prevention Center. The campaign unites communities nationwide to educate and raise awareness of bullying prevention.</p>
-        <p>Historically, bullying had been viewed as ìa childhood rite of passage,î but National Bullying Prevention Month is now a nationwide call to action ó providing schools, parents and students with the educational resources and support to better respond to bullying behavior.</p>
+        <p>Historically, bullying had been viewed as ‚Äúa childhood rite of passage,‚Äù but National Bullying Prevention Month is now a nationwide call to action ‚Äî providing schools, parents and students with the educational resources and support to better respond to bullying behavior.</p>
       </div>
       
       <div class="topTenInfo" id="list2">
         <h3>2. Get free stuff</h3>
         <img src="/bullying/nbpm/images/top10-2.jpg" width="356" height="162" alt=""/>
         <!--<p>Eye-catching <a href="http://www.pacer.org/bullying/resources/shoelaces.asp">shoelaces</a> are a creative and inexpensive way to wear orange! Show your support of bullying prevention on <a href="http://www.pacer.org/bullying/nbpm/unity-day.asp">Unity Day</a> or throughout the year.</p>-->
-        <p>Handy <a href="http://www.pacer.org/bullying/resources/bookmarks.asp">bookmarks</a> are available for elementary students who are encouraged to take the pledge to ìBe a Kid Against Bullying,î and middle and high school students who can ìBe a Champion Against Bullying.î</p>
+        <p>Handy <a href="http://www.pacer.org/bullying/resources/bookmarks.asp">bookmarks</a> are available for elementary students who are encouraged to take the pledge to ‚ÄúBe a Kid Against Bullying,‚Äù and middle and high school students who can ‚ÄúBe a Champion Against Bullying.‚Äù</p>
         <p><em>(Shipping & Handling will be charged)</em></p>
       </div>  
       
       <div class="topTenInfo" id="list3">
         <h3>3. Create safe and supportive schools and communities</h3>
         <img src="/bullying/nbpm/images/top10-3.jpg" width="339" height="204" alt=""/>
-        <p>Visit PACERís National Bullying Prevention Center to find out how you can create a safe and supportive environment in your school and community.</p>
+        <p>Visit PACER‚Äôs National Bullying Prevention Center to find out how you can create a safe and supportive environment in your school and community.</p>
         <p><a href="http://www.pacer.org/bullying/nbpm/spreadtheword/key-messages.asp">Let everyone know</a> about National Bullying Prevention Month. Notify local media, share information on Facebook and Twitter, and influence key decision makers, such as school administrators and lawmakers.</p>
       </div>  
       <div class="topTenInfo" id="list4">
-        <h3>4. ìBeing Thereî for someone makes a difference</h3>
+        <h3>4. ‚ÄúBeing There‚Äù for someone makes a difference</h3>
         <img src="/bullying/nbpm/images/top10-4.jpg" width="357" height="237" alt=""/>
         <p>Create communities that send the message to students who are bullied that they are not alone!</p>
         <p>Toolkits help educate students, adults and community members that support, kindness and hope is something everyone can give.</p>
-        <p><a href="http://www.pacer.org/bullying/yourenotalone/classroom-toolkit.asp">Classroom toolkits</a> created by PACERí National Bullying Prevention Center provides opportunities for meaningful conversation, visual reminders and participation incentives.</p>
-        <p><a href="http://www.pacer.org/bullying/yourenotalone/event-toolkit.asp">Community toolkits</a> created by PACERí National Bullying Prevention Center includes resources for holding a public event at school or in the community with posters, a petition, handouts and giveaways.</p>
+        <p><a href="http://www.pacer.org/bullying/yourenotalone/classroom-toolkit.asp">Classroom toolkits</a> created by PACER‚Äô National Bullying Prevention Center provides opportunities for meaningful conversation, visual reminders and participation incentives.</p>
+        <p><a href="http://www.pacer.org/bullying/yourenotalone/event-toolkit.asp">Community toolkits</a> created by PACER‚Äô National Bullying Prevention Center includes resources for holding a public event at school or in the community with posters, a petition, handouts and giveaways.</p>
       </div>  
       <div class="topTenInfo" id="list5">
         <h3>5. Release your inner artist</h3>
         <img src="/bullying/nbpm/images/top10-5.jpg" width="312" height="240" alt=""/>
-        <p>Plant a seed of unity in schools and communities by creating a Unity Tree, a powerful and visual experience to see the importance of supporting those who are experiencing bullying. Participants are reminded that we are all in this together ó united for kindness, acceptance and inclusion.</p>
+        <p>Plant a seed of unity in schools and communities by creating a Unity Tree, a powerful and visual experience to see the importance of supporting those who are experiencing bullying. Participants are reminded that we are all in this together ‚Äî united for kindness, acceptance and inclusion.</p>
 
         <p>Citrus Grove Elementary in Palm City, Fla., shared the inspiration behind <a href="http://www.pacer.org/bullying/resources/toolkits/classroom/project-connect.asp">Project Connect</a>, which creates chains of orange that can be displayed and linked together. This project reinforces the message that while one person can speak out against bullying, our message is much stronger when we come together to make a difference.</p>
-</p>
       </div>  
       <div class="topTenInfo" id="list6">
         <h3>6. Wear Orange and Be United</h3>
@@ -169,30 +167,30 @@
         <h3>7. Learn that what you do matters</h3>
         <img src="/bullying/nbpm/images/top10-7.jpg" width="355" height="200" alt=""/>
         <p>Have you ever felt like the whispers, giggles, note passing and looks were directed at you or someone you care about? Imagine if all that attention was channeled into positive action.</p> 
-        <p>The Disney company supports PACERís National Bullying Prevention Center with the creation of an inspiring video titled ì<a href="http://www.pacer.org/bullying/video/player.asp?video=81">You are Braver, Stronger and Smarter Than You Think</a>.î</p>
+        <p>The Disney company supports PACER‚Äôs National Bullying Prevention Center with the creation of an inspiring video titled ‚Äú<a href="http://www.pacer.org/bullying/video/player.asp?video=81">You are Braver, Stronger and Smarter Than You Think</a>.‚Äù</p>
         <p>Share it with others to inspire social change among young people everywhere!</p>
       </div>      
       <div class="topTenInfo" id="list8">
         <h3>8. Recognize that your actions are powerful</h3>
         <img src="/bullying/nbpm/images/top10-8.jpg" width="395" height="222" alt=""/>
-        <p>PACERís National Bullying Prevention Center is proud to highlight ì<a href="https://www.youtube.com/watch?v=_an9aIryJb8" target="_blank">Silent <span class="fa fa-external-link"></span></a>,î a short film about the power of kindness by 15-year-old Lindsey Hunter, a freshman at Folsom High School in Folsom, Calif.</p>   
-        <p>Lindseyís powerful film is about a girl living in a silent world. She wanted to convey the message, ìIf you are going to say something mean, remain silent.î</p>
-        <p>Lindseyís father is blind and she has a genuine heart for those with disabilities.</p>
+        <p>PACER‚Äôs National Bullying Prevention Center is proud to highlight ‚Äú<a href="https://www.youtube.com/watch?v=_an9aIryJb8" target="_blank">Silent <span class="fa fa-external-link"></span></a>,‚Äù a short film about the power of kindness by 15-year-old Lindsey Hunter, a freshman at Folsom High School in Folsom, Calif.</p>   
+        <p>Lindsey‚Äôs powerful film is about a girl living in a silent world. She wanted to convey the message, ‚ÄúIf you are going to say something mean, remain silent.‚Äù</p>
+        <p>Lindsey‚Äôs father is blind and she has a genuine heart for those with disabilities.</p>
       </div>
       <div class="topTenInfo" id="list9">
-        <h3>9. Know that youíre helping one in every five students </h3>
+        <h3>9. Know that you‚Äôre helping one in every five students </h3>
         <img src="/bullying/nbpm/images/top10-9.jpg" width="357" height="264" alt=""/>
         <p>One out of every five report being bullied during the school year, according to the National Center for Educational Statistics.</p>
-        <p>And thatís not all. PACERís National Bullying Prevention Center shares <a href="http://www.pacer.org/bullying/about/media-kit/stats.asp">statistics</a> on the different types of bullying as well as interventions.</p>
-        <p>But thereís good news! According to another statistic, if students believe they can make a difference, theyíre more likely to act.</p> 
+        <p>And that‚Äôs not all. PACER‚Äôs National Bullying Prevention Center shares <a href="http://www.pacer.org/bullying/about/media-kit/stats.asp">statistics</a> on the different types of bullying as well as interventions.</p>
+        <p>But there‚Äôs good news! According to another statistic, if students believe they can make a difference, they‚Äôre more likely to act.</p> 
         <p>Be the change!</p>
       </div>        
       <div class="topTenInfo" id="list10">
-        <h3>10. Meet new friends (who are ìTwo in a Millionî)</h3>
+        <h3>10. Meet new friends (who are ‚ÄúTwo in a Million‚Äù)</h3>
         <img src="/bullying/nbpm/images/top10-10.jpg" width="355" height="237" alt=""/>
-        <p>Meet Austin and Elena, who are two in a million ó both diagnosed with <a href="http://www.tlc.com/tlcme/what-is-goldenhar-syndrome/" target="_blank">Goldenhar Syndrome <span class="fa fa-external-link"></span></a>. They appear in TLCís new series, ìTwo In A Million,î which premiered in April.</p> 
-        <p>They also shared their personal stories of being bullied by posting a <a href="https://www.facebook.com/PACERsNationalBullyingPreventionCenter/videos/983401041714938/" target="_blank">video <span class="fa fa-external-link"></span></a> with PACERís National Bullying Prevention Center.</p>
-        <p>ìIf you get pushed down, you get right back up,î Elena says.</p>
+        <p>Meet Austin and Elena, who are two in a million ‚Äî both diagnosed with <a href="http://www.tlc.com/tlcme/what-is-goldenhar-syndrome/" target="_blank">Goldenhar Syndrome <span class="fa fa-external-link"></span></a>. They appear in TLC‚Äôs new series, ‚ÄúTwo In A Million,‚Äù which premiered in April.</p> 
+        <p>They also shared their personal stories of being bullied by posting a <a href="https://www.facebook.com/PACERsNationalBullyingPreventionCenter/videos/983401041714938/" target="_blank">video <span class="fa fa-external-link"></span></a> with PACER‚Äôs National Bullying Prevention Center.</p>
+        <p>‚ÄúIf you get pushed down, you get right back up,‚Äù Elena says.</p>
       </div>                                            
     </div>
     
@@ -206,7 +204,7 @@
       <li><a href="/bullying/nbpm/spreadtheword/">Speak in  your community</a> about bullying prevention and local activities.</li>
       <li><a href="/bullying/nbpm/pdf/NBPM_GetInvolved.pdf" target="_blank">Download, print and share</a> the flyer with your school, organization or community. </li>
       <li><a href="https://www.surveymonkey.com/r/S8ZRM38" target="_blank">Complete the brief on-line form</a> sharing your plans to celebrate National Bullying Prevention Month.</li>
-            </ul>
+    </ul>
       <h2>Unity Day 2017, Oct. 25! Wear and Share Orange!</h2>
             <div class="flex" id="Row1">
         <aside class="flexItemThumb">
@@ -292,4 +290,5 @@
 
 
 
+<!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

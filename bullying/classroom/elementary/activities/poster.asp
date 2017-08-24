@@ -1,25 +1,23 @@
-
-
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Create A Poster - National Bullying Prevention Center</title>
-<meta name="description" content="Have you ever been bullied? Have you seen bullying? What happened? How did you feel? We want to hear about it! Send us your story, poem, artwork or video on the topic expressing your ideas on bullying prevention.
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+<meta name="description" content="Have you ever been bullied? Have you seen bullying? What happened? How did you feel? We want to hear about it! Send us your story, poem, artwork or video on the topicï¿½expressing your ideas on bullying prevention.
 " />
 
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Elementary Tool Kits - National Bullying Prevention Center</title>
+
+<meta property="og:title" content="" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"--> 
-  
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/activities/">Activities</a></div>
   
   <!-- ######################### NAVIGATION ################################# -->
@@ -62,11 +60,6 @@
       
       
 <br class="clearfloat" />
-
-    
-    <!-- end .content --></p>
-  </div>
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+<!-- end .content --></p>
+<!-- ########################## END MAIN CONTENT ########################################### -->
+<!--#include virtual="/bullying/templates/footer.asp"-->
