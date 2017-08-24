@@ -1,8 +1,6 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>History - National Bullying Prevention Month</title>
 <!-- for Facebook -- images 600x315/1200x630 -->             
 <meta property="og:title" content="History of National Bullying Prevention Month" />
@@ -11,62 +9,47 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/nbpm/history.asp" />
 <meta property="og:description" content="National Bullying Prevention Month is a campaign in the United States founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities nationwide to educate and raise awareness of bullying prevention. Traditionally held the first week in October, the event was expanded in 2010 to include activities, education, and awareness building for the entire month. National Bullying Prevention Month is recognized in communities across the United States, with hundreds of schools and organizations signing on as partners. Facebook, Disney, CNN and Yahoo! Kids have supported the month through media outreach and dissemination." />
 <meta name="description" content="National Bullying Prevention Month is a campaign in the United States founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities nationwide to educate and raise awareness of bullying prevention. Traditionally held the first week in October, the event was expanded in 2010 to include activities, education, and awareness building for the entire month. National Bullying Prevention Month is recognized in communities across the United States, with hundreds of schools and organizations signing on as partners. Facebook, Disney, CNN and Yahoo! Kids have supported the month through media outreach and dissemination." />
-
-
-
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
-
+</head>
 <body class="twocol">
-
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
-<script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+<div class="breadcrumb"><a href="/bullying/">Home</a> / <a href="/bullying/nbpm/">National Bullying Prevention Month</a> /</div>
 
-
-<div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/nbpm/">National Bullying Prevention Month</a> /
-<div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
-			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
-
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+<!--#include virtual="/bullying/nbpm/nav.html"-->
 </div>
-  <div class="sidebar1">
-    <!--#include virtual="/bullying/nbpm/nav.html"--> 
-    <!-- end .sidebar1 --></div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
-	// ID and SubId to be Orange
 	var currId="history";
 	var showTree = "none";
-	var currSubId="history";
+	var showTree2 = "history";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "active";
-	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "submenu") {
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "submenuhidden";
 			}
 		}
 	}
-</script>
+</script> 
 
-  <div class="content">
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
+
+    
     <h1 id="maincontent2">History - National Bullying Prevention Month</h1>
-	<h3 style="text-align:center">More than a decade together against bullying—and united for kindness, acceptance and inclusion.</h3>
+	<h3 style="text-align:center">More than a decade together against bullying-and united for kindness, acceptance and inclusion.</h3>
     <p>National Bullying Prevention Month is a campaign in the United States founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities nationwide to educate and raise awareness of bullying prevention. Initially held the first week in October, the event was expanded in 2010 to the entire month.</p>
     
     <p>PACER developed the initial campaign, National Bullying Prevention and Awareness Week, to raise awareness about bullying.  Historically, bullying had been viewed as &ldquo;a childhood rite of passage&rdquo; that &ldquo;made kids tougher,&rdquo; but the reality has always been that bullying can leave devastating and often long-term effects such as a loss of self-esteem, increased anxiety, and depression for those involved.  PACER reached out to the community through partnerships with education-based organizations such as the National PTA, the American Federation of Teachers and the National Education Association to provide schools, parents and students with the educational resources and support to better respond to bullying behavior.  The National Bullying Prevention Center laid the groundwork so that National Bullying Prevention Month is now a nationwide call to action around educating communities as to their roles in bullying prevention.  This initiative has helped shift thinking away from bullying as &ldquo;rite of passage&rdquo; and toward the knowledge that bullying can be prevented and stopped through education and awareness.</p>
@@ -139,8 +122,6 @@
     <h1 id="maincontent" style="font-size:1.7em">&nbsp;</h1>
 <p><br class="clearfloat" />
 </p>
-  <!-- end .content --></div>
-<!--#include virtual="/bullying/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+  
+
+<!--#include virtual="/bullying/templates/footer.asp"-->
