@@ -57,7 +57,7 @@ document.getElementById(currId).className = "active";
 
 
   <h1 id="maincontent">Bullying Facts</h1>
-  <p><strong><img class="fltrt" src="/bullying/resources/images/facts-image-circle.png" width="330" height="330" alt=""/>Bullying directly affects students&rsquo; ability to learn.</strong></p>
+  <p><strong><img class="fltrt mobileHidden" src="/bullying/resources/images/facts-image-circle.png" width="330" height="330" alt=""/>Bullying directly affects students&rsquo; ability to learn.</strong></p>
   <ul type="disc">
   <li>According to the Center for Disease Control, students who are bullied are more likely to experience low self-esteem and isolation, perform poorly in school, have few friends in school, have a negative view of school, experience physical symptoms (such as headaches, stomachaches, or problems sleeping), and to experience mental health issues (such as depression, suicidal thoughts, and anxiety) <a href="http://www.cdc.gov/violenceprevention/pdf/bullying-definitions-final-a.pdf" target="_blank">(Center for Disease Control, <em>Bullying Surveillance Among Youths, </em>2014). <span class="fa fa-external-link"></span></a></li>
     <li>Bullying affects witnesses as well as targets. Witnesses are more likely to use tobacco, alcohol, or other drugs; have increased mental health problems; and miss or skip school <a href="http://www.stopbullying.gov/at-risk/effects/index.html#bystanders" target="_blank">(StopBullying.gov). <span class="fa fa-external-link"></span></a></li>

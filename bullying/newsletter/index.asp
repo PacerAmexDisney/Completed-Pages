@@ -56,7 +56,7 @@ document.getElementById(currId).className = "active";
 
      
   <h3>Published April 2017</h3>
-  <div class="alertBox" style="text-align:center; width:10em; margin-right:35px; font-size:1.1em;"><a href="/bullying/newsletter/opt-in.asp">Sign Up Here!</a></div>
+  <div class="alertBox mobileCentered" style="text-align:center; width:10em; margin-right:35px; font-size:1.1em;"><a href="/bullying/newsletter/opt-in.asp">Sign Up Here!</a></div>
   
   
 <div id="importContent" class="newsblock"><p style="text-align:center; margin:25px;">Loading Content ...</p></div>

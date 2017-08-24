@@ -56,7 +56,7 @@ document.getElementById(currId).className = "active";
 
 
  <h1 id="maincontent">Cyberbullying</h1>
- <p><img class="fltrt" src="/bullying/resources/images/cyberbullying-image-circle.png" width="330" height="330" alt=""/>Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;</p>
+ <p><img class="fltrt mobileHidden" src="/bullying/resources/images/cyberbullying-image-circle.png" width="330" height="330" alt=""/>Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;</p>
  <p>As adults, thinking back, it was just a generation ago that kids and teens were asking their parents for a phone in their room &mdash; maybe even one with a separate line or three-way calling &mdash; so they could easily and somewhat privately connect with more friends.</p>
  <p>Today, a kid or teen&rsquo;s desire to connect with friends has not changed, but the options for doing so have grown tremendously. Children are not only asking for their own tablets, gaming devices, and mobile phones at a younger age, they also want access to popular social media sites, and the ability to engage in online games and share information. </p>
  <p>Just as young people used to spend unmonitored time playing with friends in the neighborhood, outside the periphery of adults, they are now engaging with each other in the cyberworld, &ldquo;talking&rdquo; with each other, &ldquo;talking&rdquo; to each other, and &ldquo;talking&rdquo; about each other, often without adult or parental monitoring. While technology allows young people to connect in meaningful ways, such as the opportunity to share ideas, photos, videos, and more, the unsupervised nature of the cyberworld demands the need for guidance, guidelines, and social responsibility. </p>
@@ -149,7 +149,7 @@ document.getElementById(currId).className = "active";
  </ul>
 </div>
 
- <h2><img src="/bullying/images/livestream-screenshot.jpg" width="275" height="178" class="fltrt" alt=""/>Watch &ldquo;Social Media &amp; Bullying: <br />
+ <h2><img src="/bullying/images/livestream-screenshot.jpg" width="275" height="178" class="fltrt mobileCentered" alt=""/>Watch &ldquo;Social Media &amp; Bullying: <br />
    Using Technology to Keep Kids Safe&rdquo;</h2>
  <p>Staff from PACER&rsquo;s Simon Technology Center (STC) and National Bullying Prevention Center (NBPC) discuss the technology young people use, and the technology parents can use to keep them safe and raise responsible young digital citizens.</p>
  <p><a href="http://www.pacer.org/livestream/?wksp=2836FE85-C306-4AAA-909A-B85E0B3EDE1F" target="_blank">Watch the archived live stream</a>.</p>
