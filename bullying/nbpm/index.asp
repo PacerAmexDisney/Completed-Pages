@@ -48,7 +48,7 @@
 
 <!-- Custom for this page:END -->
 
-<meta http-equiv="Content-Type" content="text/html" charset=UTF-8" />
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 <meta name="description" content="National Bullying Prevention Month is a nationwide campaign founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities around the world to educate and raise awareness of bullying prevention." />
 <title>National Bullying Prevention Center - National Bullying Prevention Month</title>
 

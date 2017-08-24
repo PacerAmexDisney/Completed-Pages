@@ -1,4 +1,3 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -41,7 +40,7 @@
   
   <div class="content"> 
     <h1 id="maincontent">Kids Against Bullying Newsletter</h1>
-	<p><a href="/bullying/classroom/elementary/activities/pdf/kab-newsletter-Sept2016.pdf" target="_blank"><img src="/bullying/classroom/elementary/activities/images/kab-newsletter.jpg" width="400" height="531" alt="Kiads Against Bullying Newsletter - Fall 2016" align="right"/></a>PACER&rsquo;s National Bullying Prevention Center publishes a Kids Against Bullying newsletter specially designed for elementary students. It includes lots of information and ideas about National Bullying Prevention Month in October, and how kids can become involved in their own school on Unity Day.</p>
+	<p><a href="/bullying/classroom/elementary/activities/pdf/kab-newsletter-Sept2016.pdf" target="_blank"><img class="fltrt mobileCentered" src="/bullying/classroom/elementary/activities/images/kab-newsletter.jpg" width="400" height="531" alt="Kiads Against Bullying Newsletter - Fall 2016" /></a>PACER&rsquo;s National Bullying Prevention Center publishes a Kids Against Bullying newsletter specially designed for elementary students. It includes lots of information and ideas about National Bullying Prevention Month in October, and how kids can become involved in their own school on Unity Day.</p>
 	<p>The newsletter can be  shared in classrooms and libraries. Involve your friends, teachers, coaches, and parents, and unite for kindness, acceptance, and inclusion!</p>
 	<p><a href="https://www.surveymonkey.com/r/T635T87" target="_blank">Sign up for PACER&rsquo;s Kids Against Bullying newsletter.</a></p>
 	<p><strong>Kids Against Bullying Newsletter:</strong></p>

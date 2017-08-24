@@ -1,4 +1,3 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta name="description" content="Have you ever been bullied? Have you seen bullying? What happened? How did you feel? We want to hear about it! Send us your story, poem, artwork or video on the topic�expressing your ideas on bullying prevention.
@@ -45,14 +44,14 @@
   
   <div class="content"> 
     <h1 id="maincontent">Create A Poster</h1>
-    <a href="/bullying/resources/toolkits/activities/pdf/entryForm.pdf" target="_blank" title="Download the Poster Form"><img class="fltrt" src="/bullying/classroom/images/poster-sml1.png" width="300" height="388" alt="Download the Poster Form" /></a>
+    <a href="/bullying/resources/toolkits/activities/pdf/entryForm.pdf" target="_blank" title="Download the Poster Form"><img class="fltrt mobileCentered" src="/bullying/classroom/images/poster-sml1.png" width="300" height="388" alt="Download the Poster Form" /></a>
     
     <p>Have you ever been bullied? Have you seen bullying? What  happened? How did you feel? We want to hear about it! </p>
     <p>Send us your story, poem, artwork or video on the  topic&nbsp;expressing your ideas on bullying prevention. It can be about what  happened to you or someone else, how you feel about bullying, how you think it  affects students and schools, what you have done to prevent bullying, or what  others can do to prevent bullying. We want to hear from everyone&mdash;teens,  parents, teachers, and others with great ideas who want to improve the world. <br />
       </p>
     <p><a href="/bullying/classroom/pdf/entryForm.pdf" target="_blank">Download the Poster Form</a>    </p>
     <p>Send us your entry: </p>
-      <p>PACER's National Bullying Prevention&nbsp;Center<br />
+      <p>PACER's National Bullying Prevention Center<br />
         8161 Normandale Blvd.<br />
       Minneapolis, MN 55437 
       

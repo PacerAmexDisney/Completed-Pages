@@ -1,4 +1,3 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -41,7 +40,7 @@
 	
 	<div class="content">
 		<h1 id="maincontent">Community Toolkits</h1>
-		<img class="fltrt" src="/bullying/classroom/images/community-circle.jpg" width="330" height="330" alt=""/>
+		<img class="fltrt mobileCentered" src="/bullying/classroom/images/community-circle.jpg" width="330" height="330" alt=""/>
 		<p>Free, downloadable  toolkits designed for students and community members &nbsp;to hold events,  raise awareness and share information about bullying prevention.</p>
 		<ul>
 			<li><a href="http://www.pacer.org/bullying/nbpm/runwalkroll/events-around-the-country.asp">Run, Walk, Roll Against Bullying</a>
