@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="An eight-page classroom activity book designed with educational activities featuring the Club Crew from the Kids Against Bullying website. It engages young learners in creative ways, providing activities to help students think about their feelings, explore responses to bullying situations, and take the pledge to be a Kid Against Bullying." />
 <title>Classroom Activity Book - National Bullying Prevention Center</title>
 
 <!-- for Facebook -->          
@@ -10,17 +10,12 @@
 <meta property="og:image" content="http://www.pacer.org/bullying/classroom/elementary/activities/images/activity-book-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/activity-book.asp" />
 <meta property="og:description" content="An eight-page classroom activity book designed with educational activities featuring the Club Crew from the Kids Against Bullying website. It engages young learners in creative ways, providing activities to help students think about their feelings, explore responses to bullying situations, and take the pledge to be a Kid Against Bullying." />
-
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
-
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"-->
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Resources</a> / <a href="/bullying/resources/toolkits/">Educator Toolkits</a> / <a href="/bullying/resources/toolkits/activities/">Activities for Youth</a></div>
 
 
@@ -68,7 +63,7 @@ document.getElementById(currId).className = "active";
 <div style="clear:right"></div>
 
 <h1>Kindness Catcher</h1>
-<p>Young learners will also enjoy sharing the “kindness catcher” with classmates.</p>
+<p>Young learners will also enjoy sharing the ï¿½kindness catcherï¿½ with classmates.</p>
 
 <div style="width:600px; margin:0 auto">
 	<div style="width:265px; float:right"><a href="/bullying/classroom/elementary/activities/images/kindness-catcher-bw-thumb.jpg" target="_blank"><img style="display:block; margin:0 auto" src="/bullying/classroom/elementary/activities/images/kindness-catcher-bw-thumb.jpg" alt="" /></a>
@@ -84,7 +79,5 @@ document.getElementById(currId).className = "active";
     <br class="clearfloat" />
     
     <!-- end .content --></div>
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+<!-- ########################## END MAIN CONTENT ########################################### -->
+<!--#include virtual="/bullying/templates/footer.asp"-->

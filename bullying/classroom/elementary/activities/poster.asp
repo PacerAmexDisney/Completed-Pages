@@ -1,25 +1,22 @@
+<!--#include virtual="/bullying/templates/header.asp"-->
 
-
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Create A Poster - National Bullying Prevention Center</title>
-<meta name="description" content="Have you ever been bullied? Have you seen bullying? What happened? How did you feel? We want to hear about it! Send us your story, poem, artwork or video on the topic expressing your ideas on bullying prevention.
+<meta name="description" content="Have you ever been bullied? Have you seen bullying? What happened? How did you feel? We want to hear about it! Send us your story, poem, artwork or video on the topicï¿½expressing your ideas on bullying prevention.
 " />
 
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Elementary Tool Kits - National Bullying Prevention Center</title>
+
+<meta property="og:title" content="" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"--> 
-  
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/activities/">Activities</a></div>
   
   <!-- ######################### NAVIGATION ################################# -->
@@ -47,14 +44,14 @@
   
   <div class="content"> 
     <h1 id="maincontent">Create A Poster</h1>
-    <a href="/bullying/resources/toolkits/activities/pdf/entryForm.pdf" target="_blank" title="Download the Poster Form"><img class="fltrt" src="/bullying/classroom/images/poster-sml1.png" width="300" height="388" alt="Download the Poster Form" /></a>
+    <a href="/bullying/resources/toolkits/activities/pdf/entryForm.pdf" target="_blank" title="Download the Poster Form"><img class="fltrt mobileCentered" src="/bullying/classroom/images/poster-sml1.png" width="300" height="388" alt="Download the Poster Form" /></a>
     
     <p>Have you ever been bullied? Have you seen bullying? What  happened? How did you feel? We want to hear about it! </p>
     <p>Send us your story, poem, artwork or video on the  topic&nbsp;expressing your ideas on bullying prevention. It can be about what  happened to you or someone else, how you feel about bullying, how you think it  affects students and schools, what you have done to prevent bullying, or what  others can do to prevent bullying. We want to hear from everyone&mdash;teens,  parents, teachers, and others with great ideas who want to improve the world. <br />
       </p>
     <p><a href="/bullying/classroom/pdf/entryForm.pdf" target="_blank">Download the Poster Form</a>    </p>
     <p>Send us your entry: </p>
-      <p>PACER's National Bullying Prevention&nbsp;Center<br />
+      <p>PACER's National Bullying Prevention Center<br />
         8161 Normandale Blvd.<br />
       Minneapolis, MN 55437 
       
@@ -62,11 +59,6 @@
       
       
 <br class="clearfloat" />
-
-    
-    <!-- end .content --></p>
-  </div>
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+<!-- end .content --></p>
+<!-- ########################## END MAIN CONTENT ########################################### -->
+<!--#include virtual="/bullying/templates/footer.asp"-->
