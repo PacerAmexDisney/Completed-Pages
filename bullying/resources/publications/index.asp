@@ -1,3 +1,40 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/Connections/PACER_WEB.asp" -->
+<%
+'Get Bullying Publications recordset
+Dim rs, rs_cmd
+Set rs_cmd = Server.CreateObject ("ADODB.Command")
+rs_cmd.ActiveConnection = MM_PACER_WEB_STRING
+rs_cmd.CommandText = "SELECT * FROM Publications WHERE pub_type='handout' AND pub_bp='yes' AND pub_somali <> 'yes' AND pub_spanish <> 'yes' AND pub_hmong <> 'yes' ORDER BY pub_name;" 
+rs_cmd.Prepared = true
+Set rs = rs_cmd.Execute
+rs_numRows = 0
+Function IsDisabilityPub(pubCode)
+Dim result, pubList
+result = false
+pubList = "BP-4, PHP-c101, BP-16, PHP-c149, BP-18,"
+If InStr(pubList, pubCode & ",") > 0 Then
+  result = true
+End If
+IsDisabilityPub = result
+End Function
+Sub DisplayCurrentRecord()
+%>
+<li>
+    <div class="pub-description"><strong class="topline"><a id="<%=rs.Fields.Item("pub_code").Value%>" href="<%=(rs.Fields.Item("pub_link").Value)%>" target="_blank"><%=(rs.Fields.Item("pub_name").Value)%></a>
+    <%If IsDate(rs.Fields.Item("pub_date").Value) Then
+      If DateAdd("m", 3, rs.Fields.Item("pub_date").Value) > Now Then%>
+      <span class="updateInfo">Updated: <%=MonthName(DatePart("m", rs.Fields.Item("pub_date").Value))%>&nbsp;<%=DatePart("yyyy", rs.Fields.Item("pub_date").Value)%></span>
+      <%End If 
+      End if%>
+    </strong>
+     <p><%=rs.Fields.Item("pub_description").Value%></p>
+    </div>
+</li>
+<%
+End Sub
+%>
+
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />

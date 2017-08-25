@@ -1,3 +1,16 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/Connections/PACER_WEB.asp" -->
+<%
+Dim rs
+Dim rs_cmd
+Dim rs_numRows
+Set rs_cmd = Server.CreateObject ("ADODB.Command")
+rs_cmd.ActiveConnection = MM_PACER_WEB_STRING
+rs_cmd.CommandText = "SELECT pub_id, pub_name, pub_name_translated, pub_link FROM Publications WHERE pub_type='handout' AND pub_bp='yes' AND pub_somali='yes';" 
+rs_cmd.Prepared = true
+Set rs = rs_cmd.Execute
+rs_numRows = 0
+%>
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
