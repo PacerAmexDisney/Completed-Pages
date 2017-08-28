@@ -30,7 +30,8 @@
 <script src="/js/LayerSlider/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="/css/tabbed-panel-responsive.min.css" />
 <script type="text/javascript" src="/js/tabbed-panel-init.js"></script>
-
+<script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 </head>
 
 <body class="onecol">
