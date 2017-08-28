@@ -305,8 +305,8 @@
 						<li>Students often see and know of bullying long before adults are aware of it. The student voice and peer influence is powerful in speaking out on behalf of others.</li>
 						<li>A student telling someone to stop bullying often has much more impact than an adult giving the same advice.</li>
 					</ol>
-					<a style="float:right" href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank"><img style="border:black solid 1px; margin-left:10px" src="/bullying/resources/images/peer-advocacy-thumb.jpg" width="300" height="389" alt=""/></a>
-					<h3><a href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank">Interview on Peer Advocacy � A Look Back</a> <i class="fa fa-file-pdf-o" aria-hidden="true"></i></h3>
+					<a href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank"><img class="fltrt mobileCentered"  style="border:black solid 1px;" src="/bullying/resources/images/peer-advocacy-thumb.jpg" width="300" height="389" alt=""/></a>
+					<h3><a href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank">Interview on Peer Advocacy &mdash; A Look Back</a> <i class="fa fa-file-pdf-o" aria-hidden="true"></i></h3>
 					<p>In this interview, Anna, a college sophomore in the fall of 2016, reflects back on her involvement during middle school in the innovative &ldquo;Peer Advocacy&rdquo; project. The project was designed to connect students with disabilities and their nondisabled peers in meaningful ways to help them navigate bullying situations.</p>
 					<p><a href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank">Download the Interview</a></p>
 					<h3>How do I involve my school?</h3>
@@ -420,7 +420,7 @@
 				  <h3>Books</h3>
 					<p>Book suggestions to read anytime throughout the year.</p>
 					<div id="spookleyBook" style="width:80%; background-color:#c85024; color:#fff; padding:20px 10px; margin:20px auto">
-						<h4 style="color:#fff"><img src="/bullying/wewillgen/images/spookley.jpg" width="250" height="250" alt="" align="right" hspace="10"/>The Legend of Spookley the Square Pumpkin</h4>
+						<h4 style="color:#fff"><img class="fltrt mobileCentered" src="/bullying/wewillgen/images/spookley.jpg" width="250" height="250" alt=""/>The Legend of Spookley the Square Pumpkin</h4>
 						<p>By Joe Troiano, illustrated by Susan Banta<br />
 							Order From: <a style="color:#fff" href="https://www.e2e-store.com/evergreen/evergreen-category.cgi?cat_id=7&amp;cat_desc=Spookley">Holiday Hill Farms</a><br />
 							Suggested Audiences: Kindergarten &ndash; 4th grade</p>
@@ -429,7 +429,7 @@
 						<p><a style="color:#fff" href="http://www.pacer.org/bullying/classroom/elementary/spookley/" target="_blank">Access the online toolkit &ldquo;Stop Bullying Before It Starts&rdquo;</a></p>
 					</div>
 					<div id="wonderBook" style="width:80%; background-color:#c85024; color:#fff; padding:20px 10px; margin:20px auto">
-						<h4 style="color:#fff"><img src="/bullying/getinvolved/supporter-resources/wonder/images/WONDER-cover.jpg" width="200" height="295" alt="" align="right" hspace="10"/>Wonder</h4>
+						<h4 style="color:#fff"><img class="fltrt mobileCentered" src="/bullying/getinvolved/supporter-resources/wonder/images/WONDER-cover.jpg" width="200" height="295" alt="" />Wonder</h4>
 						<p>By R.J. Palacio<br />
 							Order from: <a style="color:#fff" href="http://www.penguinrandomhouse.com/books/208913/wonder-by-r-j-palacio/9780375869020">Random House</a> <br />
 							Suggested   Audiences: 5th &ndash; 7th grade</p>
