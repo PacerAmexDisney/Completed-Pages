@@ -57,7 +57,7 @@ document.getElementById(currId).className = "active";
 <div class="content">
      
   <h1 id="maincontent">Bullying statistics</h1>
-  <img class="fltrt" src="/bullying/resources/images/stats-image-circle.png" width="330" height="330" alt=""/>
+  <img class="fltrt mobileCentered" src="/bullying/resources/images/stats-image-circle.png" width="330" height="330" alt=""/>
   <ul>
       <li>More than one out of every five (20.8%) students report being bullied (<a href="https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2017015" target="_blank">National Center for Educational Statistics, 2016</a>).</li>
       <li>The federal government began collecting data on school bullying in 2005, when the prevalence of bullying was around 28 percent (<a href="https://www.ed.gov/news/press-releases/new-data-show-decline-school-based-bullying" target="_blank">U.S. Department of Education, 2015</a>).</li>

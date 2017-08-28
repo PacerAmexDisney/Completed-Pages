@@ -1,4 +1,4 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/bullying/templates/header.asp"-->
 <!--#include virtual="/Connections/PACER_WEB.asp" -->
 <%
 Dim rs
@@ -12,7 +12,7 @@ Set rs = rs_cmd.Execute
 rs_numRows = 0
 %>
 
-<!--#include virtual="/bullying/templates/header.asp"-->
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
