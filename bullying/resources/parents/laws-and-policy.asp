@@ -11,7 +11,6 @@
 
 <!-- for Facebook -->     
 <meta property="og:title" content="Laws and Policy - What Parents Should Know About Bullying" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/parents/images/laws-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/parents/laws-and-policy.asp" />
 <meta property="og:description" content="There are many laws and policies that could affect your child&rsquo;s experience with bullying. Learn more to become the best advocate for your child." />

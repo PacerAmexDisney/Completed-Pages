@@ -11,7 +11,6 @@ currentPage = "/bullying/newsletter/edition/2017-04-BullyingPreventionE-news.htm
 <title>National Bullying Prevention Center - Bullying Prevention E-News</title>
 
 <meta property="og:title" content="National Bullying Prevention Center - Newsletter" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/newsletter/images/newsletter-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/newsletter/" />
 <meta property="og:description" content="Stay up to date on all the exciting news from PACER’s National Bullying Prevention Center!" />

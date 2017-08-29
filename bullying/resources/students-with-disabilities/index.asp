@@ -11,7 +11,6 @@
 
 
 <meta property="og:title" content="Students with Disabilities - National Bullying Prevention Center" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/images/nbpc-logo.png" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/index.asp" />
 <meta property="og:description" content="Children with disabilities are two to three times more likely to be bullied than their nondisabled peers." />

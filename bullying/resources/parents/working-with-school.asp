@@ -10,7 +10,6 @@
 
 <!-- for Facebook -->     
 <meta property="og:title" content="Working With the School - What Parents Should Know About Bullying" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/parents/images/working-with-school-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/parents/working-with-school.asp" />
 <meta property="og:description" content="If your child has been bullied, you may need to work with the school to keep your child safe. Learn how to report an incident, meet with school staff, create an action plan, and more." />

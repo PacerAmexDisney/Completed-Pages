@@ -374,7 +374,6 @@ End Remove *******-->
 <meta property="og:title" content="National Bullying Prevention Center - Stories" />
 
 <!-- ******* Start Remove
-<meta property="og:type" content="article" />
 End Remove *******-->
 
 <meta property="og:image" content="http://www.pacer.org/bullying/stories/images/stories-fb.jpg" />

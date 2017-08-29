@@ -5,9 +5,8 @@
 <title>Bullying Facts - National Bullying Prevention Center</title>
 
 <!-- for Facebook -->
-<meta property="fb:app_id" content="271376943231875"  />
+
 <meta property="og:title" content="Bullying Facts" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/images/facts-image-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/facts.asp" />
 <meta property="og:description" content="According to the Center for Disease Control, students who are bullied are more likely to experience low self-esteem and isolation, perform poorly in school, have few friends in school, have a negative view of school, experience physical symptoms (such as headaches, stomachaches, or problems sleeping), and to experience mental health issues (such as depression, suicidal thoughts, and anxiety)" />

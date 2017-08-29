@@ -5,9 +5,8 @@
 Rates of bullying vary across studies (from 9% to 98%). A meta-analysis of 80 studies analyzing bullying involvement rates (for both bullying others and being bullied) for 12-18 year old students reported a mean prevalence rate of 35% for traditional bullying involvement and 15% for cyberbullying involvement (Modecki, Minchin, Harbaugh, Guerra, & Runions, 2014)." />
 <title>Bullying Statistics - National Bullying Prevention Center</title>
 
-<meta property="fb:app_id" content="271376943231875"  />
+
 <meta property="og:title" content="Bullying Statistics" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/images/stats-image-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/stats.asp" />
 <meta property="og:description" content="Almost one out of every four students (22%) report being bullied during the school year (National Center for Educational Statistics, 2015).

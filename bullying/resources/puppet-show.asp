@@ -51,7 +51,10 @@ document.getElementById(currId).className = "active";
     <h1 id="maincontent">Puppet Shows</h1>
     <h3>KIDS AGAINST BULLYING Puppet Show  for Youth </h3>
     <p>Charming life-size, multicultural puppets deliver an important message of bullying prevention. Using an engaging, child-friendly approach, puppet shows educate, entertain and inspire. The KIDS AGAINST BULLYING puppet program helps students in grades 1-3 learn ways to respond if they are being bullied, how to help if they see someone else being bullied, the difference between telling and tattling, and most importantly that no one ever deserves to be bullied.</p>
-    <div align="center" STYLE="margin-bottom: 30px;" ><iframe src="https://www.youtube.com/embed/vd64U11uul8?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+    <div class="videoContainer mobileCentered">
+      <div align="center" STYLE="margin-bottom: 30px;" ><iframe width="640" height="480" src="https://www.youtube.com/embed/vd64U11uul8?rel=0" frameborder="0" allowfullscreen></iframe></div>
+    </div>
       
       <div style="margin:40px; padding:5px; border:1px solid #ccc; background:#FFC">
       <h3>Purchase Puppets and Scripts</h3>
