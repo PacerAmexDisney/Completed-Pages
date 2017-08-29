@@ -24,6 +24,7 @@
 <script src="/js/LayerSlider/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
 <link rel="stylesheet" type="text/css" href="/css/tabbed-panel-responsive.min.css" />
 <script type="text/javascript" src="/js/tabbed-panel-init.js"></script>
+<link href="/css/flexbox-responsive-min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body class="onecol">
@@ -512,38 +513,70 @@
 				<%'------------------------------------------------- TAB 8 ------------------------------' %>
 				<div id="tab-resources">
 					<h2>Resources</h2>
-					<table id="resourceTable">
-						<tr>
-							<td valign="top"><a href="http://www.pacer.org/"><img src="/images/PACER-Logo-Web.gif" width="250" height="60" alt="PACER Center Logo"/></a></td>
-							<td><h3><a href="http://www.pacer.org/" target="_blank">PACER Center <span class="fa fa-external-link"></span></a></h3>
-								<p>PACER Center enhances the quality of life and expands opportunities for children, youth, and young adults with all disabilities and their families so each person can reach his or her highest potential. PACER operates on the principles of parents helping parents, supporting families, promoting a safe environment for all children, and working in collaboration with others.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://www.pacerteensagainstbullying.org/tab/" target="_blank"><img src="/bullying/resources/students-with-disabilities/images/tab-logo.jpg" width="250" height="99" alt="Teens Against Bullying Logo"/></a></td>
-							<td><h3><a href="http://www.pacerteensagainstbullying.org/tab/" target="_blank">Teens Against Bullying <span class="fa fa-external-link"></span></a></h3>
-								<p>Created by and for teens, this website is a place for middle and high school students to find ways to address bullying, to take action, to be heard, and to own an important social cause.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank"><img src="/bullying/resources/students-with-disabilities/images/kab-logo-plain.jpg" width="193" height="84" alt="Kids Against Bullying Logo"/></a></td>
-							<td><h3><a href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank">Kids Against Bullying <span class="fa fa-external-link"></span></a></h3>
-								<p>A creative, innovative and educational website designed for elementary school students to learn about bullying prevention, engage in activities and be inspired to take action.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://specialolympicsminnesota.org/" target="_blank"><img src="/bullying/resources/images/special-olympics.jpg" width="250" height="92" alt="Special Olympics Minnesota Logo"/></a></td>
-							<td><h3><a href="http://specialolympicsminnesota.org/" target="_blank">Special Olympics <span class="fa fa-external-link"></span></a></h3>
-								<p>Special Olympics is a global movement of people creating a new world of inclusion and community, a world in which every single person is accepted and welcomed regardless of ability or disability. We are helping to make the world a better, healthier and more joyful place&mdash;one athlete, one volunteer, one family member at a time.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://www.r-word.org/" target="_blank"><img src="/bullying/resources/images/spread-the-word.jpg" width="250" height="71" alt="Spread The Word Logo"/></a></td>
-							<td><h3><a href="http://www.r-word.org/" target="_blank">Spread the Word <span class="fa fa-external-link"></span></a></h3>
-								<p>The R-word is the word 'retard(ed)'. Why does it hurt? The R-word hurts because it is exclusive. It's offensive. It's derogatory. Our campaign asks people to pledge to stop saying the R-word as a starting point toward creating more accepting attitudes and communities for all people.  Language affects attitudes and attitudes affect actions.  Pledge today to use respectful, people-first language.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://specialolympicsminnesota.org/programs/projectunify/" target="_blank"><img src="/bullying/resources/images/special-olympics-unified-schools.jpg" width="250" height="63" alt="Special Olympics Unified Schools Logo"/></a></td>
-							<td><h3><a href="http://specialolympicsminnesota.org/programs/projectunify/" target="_blank">Unified Schools <span class="fa fa-external-link"></span></a></h3>
-								<p>Special Olympics Unified Schools is an education and sports based strategy powered by an engaged youth community. The program aims to increase athletic and leadership opportunities for students with and without intellectual disabilities, while creating communities of acceptance for all.</p></td>
-						</tr>
-					</table>
+
+					<div id="resourceTable">
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://www.pacer.org/"><img src="/images/PACER-Logo-Web.gif" alt="PACER Center Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://www.pacer.org/" target="_blank">PACER Center <span class="fa fa-external-link"></span></a></h3>
+								<p>PACER Center enhances the quality of life and expands opportunities for children, youth, and young adults with all disabilities and their families so each person can reach his or her highest potential. PACER operates on the principles of parents helping parents, supporting families, promoting a safe environment for all children, and working in collaboration with others.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://www.pacerteensagainstbullying.org/tab/" target="_blank"><img src="/bullying/resources/students-with-disabilities/images/tab-logo.jpg" alt="Teens Against Bullying Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://www.pacerteensagainstbullying.org/tab/" target="_blank">Teens Against Bullying <span class="fa fa-external-link"></span></a></h3>
+								<p>Created by and for teens, this website is a place for middle and high school students to find ways to address bullying, to take action, to be heard, and to own an important social cause.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank"><img src="/bullying/resources/students-with-disabilities/images/kab-logo-plain.jpg" alt="Kids Against Bullying Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank">Kids Against Bullying <span class="fa fa-external-link"></span></a></h3>
+								<p>A creative, innovative and educational website designed for elementary school students to learn about bullying prevention, engage in activities and be inspired to take action.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://specialolympicsminnesota.org/" target="_blank"><img src="/bullying/resources/images/special-olympics.jpg" alt="Special Olympics Minnesota Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<a href="http://specialolympicsminnesota.org/" target="_blank">Special Olympics <span class="fa fa-external-link"></span></a></h3>
+								<p>Special Olympics is a global movement of people creating a new world of inclusion and community, a world in which every single person is accepted and welcomed regardless of ability or disability. We are helping to make the world a better, healthier and more joyful place&mdash;one athlete, one volunteer, one family member at a time.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://www.r-word.org/" target="_blank"><img src="/bullying/resources/images/spread-the-word.jpg" width="250" height="71" alt="Spread The Word Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://www.r-word.org/" target="_blank">Spread the Word <span class="fa fa-external-link"></span></a></h3>
+								<p>The R-word is the word 'retard(ed)'. Why does it hurt? The R-word hurts because it is exclusive. It's offensive. It's derogatory. Our campaign asks people to pledge to stop saying the R-word as a starting point toward creating more accepting attitudes and communities for all people.  Language affects attitudes and attitudes affect actions.  Pledge today to use respectful, people-first language.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://specialolympicsminnesota.org/programs/projectunify/" target="_blank"><img src="/bullying/resources/images/special-olympics-unified-schools.jpg" width="250" height="63" alt="Special Olympics Unified Schools Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://specialolympicsminnesota.org/programs/projectunify/" target="_blank">Unified Schools <span class="fa fa-external-link"></span></a></h3>
+								<p>Special Olympics Unified Schools is an education and sports based strategy powered by an engaged youth community. The program aims to increase athletic and leadership opportunities for students with and without intellectual disabilities, while creating communities of acceptance for all.</p>
+							</article>
+						</div> 
+					</div>
+
 					<div class="resources">
 						<h3>Disability Related Stories</h3>
 						<p>Sharing stories provides a powerful opportunity to learn, influence and understand. The shared experiences often demonstrates that we are not alone, that there are people who care, and that there are solutions.</p>
