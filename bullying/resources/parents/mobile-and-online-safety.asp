@@ -11,7 +11,6 @@
 
 <!-- for Facebook -->     
 <meta property="og:title" content="Mobile and Online Safety - What Parents Should Know About Bullying" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/parents/images/online-safety-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/parents/mobile-and-online-safety.asp" />
 <meta property="og:description" content="With the rapid advancement of technology, bullying behavior has become a part of many children’s experience online. Cyberbullying is when the Internet, cell phones, or other devices are used to send or post text or images intended to hurt or embarrass another person." />

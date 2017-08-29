@@ -3,9 +3,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <title>Cyberbullying - National Bullying Prevention Center</title>
-<meta property="fb:app_id" content="271376943231875"  />
+
 <meta property="og:title" content="Cyberbullying" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="g/bullying/resources/images/cyberbullying-image-fb.jpg" />
 <meta property="og:url" content="/bullying/resources/cyberbullying/" />
 <meta property="og:description" content="Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;

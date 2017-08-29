@@ -11,7 +11,6 @@
 
 <!-- for Facebook -->     
 <meta property="og:title" content="National Bullying Prevention Center - Resources - Sites for Kids and Teens" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/images/sites-kids-teens-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/sites-for-kids-and-teens.asp" />
 <meta property="og:description" content="A creative, innovative and educational website designed for elementary school students to learn about bullying prevention, engage in activities and be inspired to take action." />

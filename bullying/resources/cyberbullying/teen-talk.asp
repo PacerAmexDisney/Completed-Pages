@@ -8,9 +8,8 @@
 <meta name="description" content="The seventh-grade students featured in the video Teen Talk on Cyberbullying share their insightful, authentic response to questions related to cyberbullying." />
 
 <!-- for Facebook -->
-<meta property="fb:app_id" content="271376943231875"  />
+
 <meta property="og:title" content="Teen Talk - National Bullying Prevention Center" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="/bullying/resources/images/teen-talk-fbv2.jpg" />
 <meta property="og:url" content="/bullying/resources/cyberbullying/teen-talk.asp" />
 <meta property="og:description" content="The seventh-grade students featured in the video Teen Talk on Cyberbullying share their insightful, authentic response to questions related to cyberbullying." />

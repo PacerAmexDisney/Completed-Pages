@@ -13,7 +13,6 @@
 
 <!-- for Facebook -->
 <meta property="og:title" content="Definition, Impact and Roles - What Parents Should Know About Bullying" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/parents/images/definition-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/parents/definition-impact-roles.asp" />
 <meta property="og:description" content="What is bullying? At first glance, many people might think this behavior is easy to define. Their first image of bullying might be of a physically intimidating boy beating up a smaller classmate. While that would still be considered bullying today, parents need to know that bullying behavior can be much more complex and varied than the stereotype." />
