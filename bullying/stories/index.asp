@@ -1,4 +1,4 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/bullying/templates/header.asp"-->
 <!--#include virtual="/Connections/PACER_WEB.asp" -->
 <%
 
@@ -366,9 +366,11 @@ End If
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 End Remove *******-->
 
-<!--#include virtual="/bullying/templates/header.asp"-->
+
 
 <title>National Bullying Prevention Center - Stories</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Bullying can make you feel silenced, scared, and alone. By sharing your story, you can help let others know they’re not alone." />
 
 <!-- for Facebook -->     
 <meta property="og:title" content="National Bullying Prevention Center - Stories" />
@@ -457,11 +459,6 @@ ol, ul {
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
-
-<!-- ******* Start Remove
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
-End Remove *******-->
 
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
@@ -675,18 +672,9 @@ Wend
 
 <br class="clearfloat" />
   <!-- end .content --></div>
-
-
-	<!-- ******* Start Remove
-	<!--#include virtual="/bullying/footer.html"-->
-	End Remove *******-->
 	
   <!--#include virtual="/bullying/templates/footer.asp"-->
-  
-  
-  <!-- end .container --></div>
-</body>
-</html>
+ 
 <%
 rs.Close()
 Set rs = Nothing
