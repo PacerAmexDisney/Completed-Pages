@@ -14,7 +14,7 @@
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/parents/images/laws-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/parents/laws-and-policy.asp" />
 <meta property="og:description" content="There are many laws and policies that could affect your child&rsquo;s experience with bullying. Learn more to become the best advocate for your child." />
-<meta name="description" content="There are many laws and policies that could affect your child&rsquo;s experience with bullying. Learn more to become the best advocate for your child." />
+
 
 <!--CUSTOM-->
 <link href="/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />

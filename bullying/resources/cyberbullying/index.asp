@@ -1,6 +1,9 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;
+
+As adults, thinking back, it was just a generation ago that kids and teens were asking their parents for a phone in their room &mdash; maybe even one with a separate line or three-way calling &mdash; so they could easily and somewhat privately connect with more friends." />
 
 <title>Cyberbullying - National Bullying Prevention Center</title>
 
