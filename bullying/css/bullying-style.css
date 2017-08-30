@@ -427,14 +427,8 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	min-height:670px;
 }
 .narrowContent {
-	max-width: 800px;;
+	max-width: 850px;;
 	margin: 0px auto;
-}
-@media screen and (min-width: 900px) {
-	.narrowContent > h1, .narrowContent > h2, .narrowContent > h3 {
-		margin-left: -15px;
-		margin-right: -15px;
-	}
 }
 .sidebar1 {
 	float: left;
@@ -567,11 +561,22 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	margin-right:50px;
 	margin-bottom:0.5em;
 }
+.content li li {
+	margin-right: 0px;
+}
 .content ul, .content ol {
 	margin-bottom:1em;
 }
+@media screen and (max-width: 500px) {
+	.content li{
+		margin-left:40px;
+		margin-right:20px;
+	}
+.content li li {
+	margin-left: 25px;
+}
 
-
+}
 
 .footer {
 	position:relative;
@@ -820,7 +825,7 @@ li.trophyiconlist li{
 .addthis_sharing_toolbox {
 	float: right;
 	min-height: 37px;
-	min-width: 240px;
+	min-width: 185px;
 	margin-bottom: 25px;	
 	padding-right: 10px;
     clear:none !important;
@@ -831,6 +836,38 @@ li.trophyiconlist li{
 .sharethis {
 	float:right;
 }
+#pageBack a {
+    background: #fff url("/bullying/images/styles/backArrow.jpg") no-repeat  center;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+	top:0px;
+    text-indent: -9999px;
+}
+#pageBack a:hover {
+    background: #fff url("/bullying/images/styles/backArrowHover.jpg") no-repeat center;
+}
+
+.videoContainer {
+	position: relative;
+	padding-bottom: 55%;
+	padding-top: 30px; height: 0; overflow: hidden;
+	max-width: 750px;
+	margin: 10px auto;
+}
+
+.videoContainer iframe,
+.videoContainer object,
+.videoContainer embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 95%;
+	height: 95%;
+	margin: 10px;
+}	
 
 
 .btn-cta:before {

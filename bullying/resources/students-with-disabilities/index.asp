@@ -1,181 +1,58 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Students with Disabilities - National Bullying Prevention Center</title>
-<meta name="title" content="Students with Disabilities - National Bullying Prevention Center" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
 <meta name="description" content="Children with disabilities are two to three times more likely to be bullied than their nondisabled peers." />
-<!-- for Facebook -->
+
+<title>Students with Disabilities - National Bullying Prevention Center</title>
+
+
+
 <meta property="og:title" content="Students with Disabilities - National Bullying Prevention Center" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/images/nbpc-logo.png" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/index.asp" />
 <meta property="og:description" content="Children with disabilities are two to three times more likely to be bullied than their nondisabled peers." />
-<link rel="image_src" href="http://www.pacer.org/bullying/images/nbpc-logo.png" />
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css"/>
-<link href="/js/colorbox1.5.9/colorbox.css" rel="stylesheet" type="text/css" />
 
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
-<script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
-<link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
+<link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css" />
 <script type="text/javascript" src="/js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/jquery-ui-1.11.4.custom/jquery-ui.css"/>
-<script type="text/javascript">
-//<![CDATA[
-	$(document).ready(function() {
-		$('.dash').attr('aria-hidden','true');
-		var $pageTabs = $('#tabs').tabs();
-		//When linking to a tab on the page the browser sometimes jumps you to the bottom of the page.  This will start you at the top of the tab if you link directly to a tab on the page.
-		if (window.location.hash) {
-				$('html, body').animate({
-        			scrollTop: $($pageTabs).offset().top - 115
-    			}, 150);
-		}
-
-		$(".ui-tabs-panel").each(function(i){
-	  		var totalSize = $(".ui-tabs-panel").size() - 1;
-	  		if (i != totalSize) {
-	      		next = i + 1;
-   		  		$(this).append("<a href='#' class='next-tab mover' rel='" + next + "'>Next Tab &#187;</a>");
-	  		}
-	  
-	  		if (i != 0) {
-	      		prev = i - 1;
-   		  	$(this).append("<a href='#' class='prev-tab mover' rel='" + prev + "'>&#171; Prev Tab</a>");
-	  		}
-   			$(this).append('<br class="clearfloat" />');
-		});
-	
-		$('.next-tab, .prev-tab').click(function() { 
-		   //scroll back to the top
-		   $('html, body').animate({
-        		scrollTop: $($pageTabs).offset().top - 115
-    		}, 150);
-		   //delay the changing of the tabs until the scroll is complete so the person sees the heading change
-		   setTimeout($.proxy(function() {
-			   	//alert('timeout - ' + $(this).attr("rel"));
-		   		$('#tabs').tabs('option', 'active', $(this).attr("rel"));
-		   		//Re-scroll the window after the content length has changed.
-				$('html, body').animate({
-        			scrollTop: $($pageTabs).offset().top - 115
-    			}, 150);
-				
-		   }, this), 300);
-           return false;
-       	});
-	 });//----------close ready function----------
-//]]>
-</script>
 <script type="text/javascript" src="/js/colorbox1.5.9/jquery.colorbox-min.js"></script>
 <script src="/js/LayerSlider/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
-<style type="text/css">
-#gallery {
-	text-align: center;
-}
-#gallery img {
-	margin: 0px 4px 4px;
-	box-shadow: 2px 2px 3px #333;
-}
-.topRightTabImage {
-	float: right;
-}
-#person_first {
-	width: 90%;
-	background-color: #c85024;
-	background-color: rgba(200, 80, 36, 0.5);
-	color: #000;
-	margin: 20px auto;
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-#person_first th, td {
-	border-collapse: collapse;
-	vertical-align: middle;
-	text-align: center;
-	border: 1px solid #fff;
-}
-#person_first tbody tr:nth-child(odd) {
-	background: #c85024;
-	color: #fff;
-}
-#resourceTable td {
-	padding: 10px;
-}
-</style>
-<style type="text/css">
-.eventtable {
-	border-spacing: 10px;
-	border-collapse: separate;
-}
-.eventtable td:nth-child(2) {
-	border-top: 1px solid #ccc;
-	padding-top: 5px;
-}
-.eventtable tr:first-child td {
-	border: none;
-}
-.eventtable td {
-	vertical-align: top;
-}
-.eventtable img {
-	margin-bottom: 25px;
-	margin-top: 5px;
-}
-.eventtable .captioned {
-	font-size: .8em;
-	font-style: italic;
-}
-.eventtable .captioned img {
-	margin-bottom: 5px;
-}
-</style>
-<script type="text/javascript">
-$(document).ready(function(){
-		$(".group1").colorbox({rel:'group1'});
-	});
-
-</script>
+<link rel="stylesheet" type="text/css" href="/css/tabbed-panel-responsive.min.css" />
+<script type="text/javascript" src="/js/tabbed-panel-init.js"></script>
+<link href="/css/flexbox-responsive-min.css" rel="stylesheet" type="text/css" />
 </head>
-<body>
-<div class="container"> <a id="skiptocontent" href="#maincontent">Skip to main content</a> 
-	
-	<!--#include virtual="/bullying/dynamic-header.html"--> 
-	<!--#include virtual="/bullying/topnav.html"-->
-	
+
+<body class="onecol">
+
+<div class="container">
+
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
+
+
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+
+
 	<div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Resources</a> /</div>
-	
-	<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show --> 
-	<script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="unityday";
-	var showTree = "none";
-	var currSubId="none";
-	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "active";
-	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "active";
-	}
-	var subTrees = document.getElementsByTagName("ul");
-	for (var i = 0; i < subTrees.length; i++) {
-		if (subTrees[i].className == "submenu") {
-			if (subTrees[i].id != showTree) {
-				subTrees[i].className = "submenuhidden";
-			}
-		}
-	}
-</script>
-	<div class="content" style="clear:right">
+
+
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+
+
+
+<div class="content">
+
+   	<div class="">
+
+    	
 		<div class="contentrow row-orange row-shadow">
 			<div class="addthis_sharing_toolbox"></div>
 			<div class="sharethis" style="float:right; width:3em;">Share:</div>
@@ -428,8 +305,8 @@ $(document).ready(function(){
 						<li>Students often see and know of bullying long before adults are aware of it. The student voice and peer influence is powerful in speaking out on behalf of others.</li>
 						<li>A student telling someone to stop bullying often has much more impact than an adult giving the same advice.</li>
 					</ol>
-					<a style="float:right" href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank"><img style="border:black solid 1px; margin-left:10px" src="/bullying/resources/images/peer-advocacy-thumb.jpg" width="300" height="389" alt=""/></a>
-					<h3><a href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank">Interview on Peer Advocacy – A Look Back</a> <i class="fa fa-file-pdf-o" aria-hidden="true"></i></h3>
+					<a href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank"><img class="fltrt mobileCentered"  style="border:black solid 1px;" src="/bullying/resources/images/peer-advocacy-thumb.jpg" width="300" height="389" alt=""/></a>
+					<h3><a href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank">Interview on Peer Advocacy &mdash; A Look Back</a> <i class="fa fa-file-pdf-o" aria-hidden="true"></i></h3>
 					<p>In this interview, Anna, a college sophomore in the fall of 2016, reflects back on her involvement during middle school in the innovative &ldquo;Peer Advocacy&rdquo; project. The project was designed to connect students with disabilities and their nondisabled peers in meaningful ways to help them navigate bullying situations.</p>
 					<p><a href="/bullying/resources/students-with-disabilities/pdf/peer-advocacy-a-look-back.pdf" target="_blank">Download the Interview</a></p>
 					<h3>How do I involve my school?</h3>
@@ -543,7 +420,7 @@ $(document).ready(function(){
 				  <h3>Books</h3>
 					<p>Book suggestions to read anytime throughout the year.</p>
 					<div id="spookleyBook" style="width:80%; background-color:#c85024; color:#fff; padding:20px 10px; margin:20px auto">
-						<h4 style="color:#fff"><img src="/bullying/wewillgen/images/spookley.jpg" width="250" height="250" alt="" align="right" hspace="10"/>The Legend of Spookley the Square Pumpkin</h4>
+						<h4 style="color:#fff"><img class="fltrt mobileCentered" src="/bullying/wewillgen/images/spookley.jpg" width="250" height="250" alt=""/>The Legend of Spookley the Square Pumpkin</h4>
 						<p>By Joe Troiano, illustrated by Susan Banta<br />
 							Order From: <a style="color:#fff" href="https://www.e2e-store.com/evergreen/evergreen-category.cgi?cat_id=7&amp;cat_desc=Spookley">Holiday Hill Farms</a><br />
 							Suggested Audiences: Kindergarten &ndash; 4th grade</p>
@@ -552,7 +429,7 @@ $(document).ready(function(){
 						<p><a style="color:#fff" href="http://www.pacer.org/bullying/classroom/elementary/spookley/" target="_blank">Access the online toolkit &ldquo;Stop Bullying Before It Starts&rdquo;</a></p>
 					</div>
 					<div id="wonderBook" style="width:80%; background-color:#c85024; color:#fff; padding:20px 10px; margin:20px auto">
-						<h4 style="color:#fff"><img src="/bullying/getinvolved/supporter-resources/wonder/images/WONDER-cover.jpg" width="200" height="295" alt="" align="right" hspace="10"/>Wonder</h4>
+						<h4 style="color:#fff"><img class="fltrt mobileCentered" src="/bullying/getinvolved/supporter-resources/wonder/images/WONDER-cover.jpg" width="200" height="295" alt="" />Wonder</h4>
 						<p>By R.J. Palacio<br />
 							Order from: <a style="color:#fff" href="http://www.penguinrandomhouse.com/books/208913/wonder-by-r-j-palacio/9780375869020">Random House</a> <br />
 							Suggested   Audiences: 5th &ndash; 7th grade</p>
@@ -635,38 +512,70 @@ $(document).ready(function(){
 				<%'------------------------------------------------- TAB 8 ------------------------------' %>
 				<div id="tab-resources">
 					<h2>Resources</h2>
-					<table id="resourceTable">
-						<tr>
-							<td valign="top"><a href="http://www.pacer.org/"><img src="/images/PACER-Logo-Web.gif" width="250" height="60" alt="PACER Center Logo"/></a></td>
-							<td><h3><a href="http://www.pacer.org/" target="_blank">PACER Center <span class="fa fa-external-link"></span></a></h3>
-								<p>PACER Center enhances the quality of life and expands opportunities for children, youth, and young adults with all disabilities and their families so each person can reach his or her highest potential. PACER operates on the principles of parents helping parents, supporting families, promoting a safe environment for all children, and working in collaboration with others.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://www.pacerteensagainstbullying.org/tab/" target="_blank"><img src="/bullying/resources/students-with-disabilities/images/tab-logo.jpg" width="250" height="99" alt="Teens Against Bullying Logo"/></a></td>
-							<td><h3><a href="http://www.pacerteensagainstbullying.org/tab/" target="_blank">Teens Against Bullying <span class="fa fa-external-link"></span></a></h3>
-								<p>Created by and for teens, this website is a place for middle and high school students to find ways to address bullying, to take action, to be heard, and to own an important social cause.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank"><img src="/bullying/resources/students-with-disabilities/images/kab-logo-plain.jpg" width="193" height="84" alt="Kids Against Bullying Logo"/></a></td>
-							<td><h3><a href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank">Kids Against Bullying <span class="fa fa-external-link"></span></a></h3>
-								<p>A creative, innovative and educational website designed for elementary school students to learn about bullying prevention, engage in activities and be inspired to take action.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://specialolympicsminnesota.org/" target="_blank"><img src="/bullying/resources/images/special-olympics.jpg" width="250" height="92" alt="Special Olympics Minnesota Logo"/></a></td>
-							<td><h3><a href="http://specialolympicsminnesota.org/" target="_blank">Special Olympics <span class="fa fa-external-link"></span></a></h3>
-								<p>Special Olympics is a global movement of people creating a new world of inclusion and community, a world in which every single person is accepted and welcomed regardless of ability or disability. We are helping to make the world a better, healthier and more joyful place&mdash;one athlete, one volunteer, one family member at a time.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://www.r-word.org/" target="_blank"><img src="/bullying/resources/images/spread-the-word.jpg" width="250" height="71" alt="Spread The Word Logo"/></a></td>
-							<td><h3><a href="http://www.r-word.org/" target="_blank">Spread the Word <span class="fa fa-external-link"></span></a></h3>
-								<p>The R-word is the word 'retard(ed)'. Why does it hurt? The R-word hurts because it is exclusive. It's offensive. It's derogatory. Our campaign asks people to pledge to stop saying the R-word as a starting point toward creating more accepting attitudes and communities for all people.  Language affects attitudes and attitudes affect actions.  Pledge today to use respectful, people-first language.</p></td>
-						</tr>
-						<tr>
-							<td valign="top"><a href="http://specialolympicsminnesota.org/programs/projectunify/" target="_blank"><img src="/bullying/resources/images/special-olympics-unified-schools.jpg" width="250" height="63" alt="Special Olympics Unified Schools Logo"/></a></td>
-							<td><h3><a href="http://specialolympicsminnesota.org/programs/projectunify/" target="_blank">Unified Schools <span class="fa fa-external-link"></span></a></h3>
-								<p>Special Olympics Unified Schools is an education and sports based strategy powered by an engaged youth community. The program aims to increase athletic and leadership opportunities for students with and without intellectual disabilities, while creating communities of acceptance for all.</p></td>
-						</tr>
-					</table>
+
+					<div id="resourceTable">
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://www.pacer.org/"><img src="/images/PACER-Logo-Web.gif" alt="PACER Center Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://www.pacer.org/" target="_blank">PACER Center <span class="fa fa-external-link"></span></a></h3>
+								<p>PACER Center enhances the quality of life and expands opportunities for children, youth, and young adults with all disabilities and their families so each person can reach his or her highest potential. PACER operates on the principles of parents helping parents, supporting families, promoting a safe environment for all children, and working in collaboration with others.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://www.pacerteensagainstbullying.org/tab/" target="_blank"><img src="/bullying/resources/students-with-disabilities/images/tab-logo.jpg" alt="Teens Against Bullying Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://www.pacerteensagainstbullying.org/tab/" target="_blank">Teens Against Bullying <span class="fa fa-external-link"></span></a></h3>
+								<p>Created by and for teens, this website is a place for middle and high school students to find ways to address bullying, to take action, to be heard, and to own an important social cause.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank"><img src="/bullying/resources/students-with-disabilities/images/kab-logo-plain.jpg" alt="Kids Against Bullying Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank">Kids Against Bullying <span class="fa fa-external-link"></span></a></h3>
+								<p>A creative, innovative and educational website designed for elementary school students to learn about bullying prevention, engage in activities and be inspired to take action.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://specialolympicsminnesota.org/" target="_blank"><img src="/bullying/resources/images/special-olympics.jpg" alt="Special Olympics Minnesota Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<a href="http://specialolympicsminnesota.org/" target="_blank">Special Olympics <span class="fa fa-external-link"></span></a></h3>
+								<p>Special Olympics is a global movement of people creating a new world of inclusion and community, a world in which every single person is accepted and welcomed regardless of ability or disability. We are helping to make the world a better, healthier and more joyful place&mdash;one athlete, one volunteer, one family member at a time.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://www.r-word.org/" target="_blank"><img src="/bullying/resources/images/spread-the-word.jpg" width="250" height="71" alt="Spread The Word Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://www.r-word.org/" target="_blank">Spread the Word <span class="fa fa-external-link"></span></a></h3>
+								<p>The R-word is the word 'retard(ed)'. Why does it hurt? The R-word hurts because it is exclusive. It's offensive. It's derogatory. Our campaign asks people to pledge to stop saying the R-word as a starting point toward creating more accepting attitudes and communities for all people.  Language affects attitudes and attitudes affect actions.  Pledge today to use respectful, people-first language.</p>
+							</article>
+						</div> 
+
+						<div class="flex">
+							<aside class="flexItemThumb">
+								<a href="http://specialolympicsminnesota.org/programs/projectunify/" target="_blank"><img src="/bullying/resources/images/special-olympics-unified-schools.jpg" width="250" height="63" alt="Special Olympics Unified Schools Logo"/></a>
+							</aside>
+							<article class="flexItemDescription">
+								<h3><a href="http://specialolympicsminnesota.org/programs/projectunify/" target="_blank">Unified Schools <span class="fa fa-external-link"></span></a></h3>
+								<p>Special Olympics Unified Schools is an education and sports based strategy powered by an engaged youth community. The program aims to increase athletic and leadership opportunities for students with and without intellectual disabilities, while creating communities of acceptance for all.</p>
+							</article>
+						</div> 
+					</div>
+
 					<div class="resources">
 						<h3>Disability Related Stories</h3>
 						<p>Sharing stories provides a powerful opportunity to learn, influence and understand. The shared experiences often demonstrates that we are not alone, that there are people who care, and that there are solutions.</p>
@@ -684,10 +593,14 @@ $(document).ready(function(){
 			<!-- end tabbed pannel --> 
 		</div>
 		
-		<!-- end .content --> 
+		
+
+   
+
 	</div>
-	<!--#include virtual="/bullying/footer.html"--> 
-	<!-- end .container --> 
-</div>
-</body>
-</html>
+
+ <script type="text/javascript" src="/js/tabbed-panel.min.js"></script>
+
+
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

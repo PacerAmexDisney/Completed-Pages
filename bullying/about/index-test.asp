@@ -34,7 +34,7 @@
 				</div>
 <p>Founded in 2006, PACER&rsquo;s National Bullying Prevention Center actively leads social change, so that bullying is no longer considered an accepted childhood rite of passage. PACER provides innovative resources for students, parents, educators, and others, and recognizes bullying as a serious community issue that impacts education, physical and emotional health, and the safety and well-being of students.</p>
 				<h3 style="text-align:center">Inspires</h3>
-				<p>PACER engages communities to recognize that bullying is a behavior that has affected too many for too long.  Preventing bullying begins with creating social change with bullying being recognized as a serious issue that impacts educational performance, physical and emotional health, and student’s safety and well-being.</p>
+				<p>PACER engages communities to recognize that bullying is a behavior that has affected too many for too long.  Preventing bullying begins with creating social change with bullying being recognized as a serious issue that impacts educational performance, physical and emotional health, and students safety and well-being.</p>
 				<h3 style="text-align:center">Educates</h3>
 				<p>PACER provides free, innovative web-based information, ideas and actions that can be shared in communities across the nation to address bullying. Resources include engaging websites designed just for students, literature for parents to help their children through bullying situations, classroom toolkits for educators, and much more.</p>
 				<h3 style="text-align:center">Involves</h3>

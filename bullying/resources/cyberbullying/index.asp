@@ -1,55 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Cyberbullying - National Bullying Prevention Center</title>
+<!--#include virtual="/bullying/templates/header.asp"-->
 
-<!-- for Facebook -->     
-<meta property="fb:app_id" content="271376943231875"  />
-<meta property="og:title" content="Cyberbullying" />
-<meta property="og:type" content="article" />
-<meta property="og:image" content="http://www.pacer.org/bullying/resources/images/cyberbullying-image-fb.jpg" />
-<meta property="og:url" content="http://www.pacer.org/bullying/resources/cyberbullying/" />
-<meta property="og:description" content="Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;
 
 As adults, thinking back, it was just a generation ago that kids and teens were asking their parents for a phone in their room &mdash; maybe even one with a separate line or three-way calling &mdash; so they could easily and somewhat privately connect with more friends." />
 
+<title>Cyberbullying - National Bullying Prevention Center</title>
 
+<meta property="og:title" content="Cyberbullying" />
+<meta property="og:image" content="g/bullying/resources/images/cyberbullying-image-fb.jpg" />
+<meta property="og:url" content="/bullying/resources/cyberbullying/" />
+<meta property="og:description" content="Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;
 
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
-
+As adults, thinking back, it was just a generation ago that kids and teens were asking their parents for a phone in their room &mdash; maybe even one with a separate line or three-way calling &mdash; so they could easily and somewhat privately connect with more friends." />
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
- <!--#include virtual="/bullying/dynamic-header.html"--> 
- <!--#include virtual="/bullying/topnav.html"--> 
- 
- <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
  <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Resources</a> /
- 
+
  	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
 
  </div>
- 
- <!-- ######################### NAVIGATION ################################# -->
- <div class="sidebar1"> 
- <!--#include virtual="/bullying/resources/nav.html"--> 
- <script type="text/javascript">
-	// ID and SubId to be Orange
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/resources/nav.html"-->
+</div>
+<script type="text/javascript">
 	var currId="cyber";
 	var showTree = "none";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
- document.getElementById(currId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
@@ -59,17 +49,20 @@ As adults, thinking back, it was just a generation ago that kids and teens were 
 			}
 		}
 	}
- </script> 
- </div>
- <!-- ###################### END Navigation ############################## -->
- 
- <div class="content"> 
+</script>
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
+
+
  <h1 id="maincontent">Cyberbullying</h1>
- <p><img class="fltrt" src="/bullying/resources/images/cyberbullying-image-circle.png" width="330" height="330" alt=""/>Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;</p>
+ <p><img class="fltrt mobileHidden" src="/bullying/resources/images/cyberbullying-image-circle.png" width="330" height="330" alt=""/>Just as the use of technology itself has evolved, so has the ability to bully. Bullying, once restricted to the school or neighborhood, has now moved into the online world. Bullying through electronic means is referred to as &ldquo;cyberbullying.&rdquo;</p>
  <p>As adults, thinking back, it was just a generation ago that kids and teens were asking their parents for a phone in their room &mdash; maybe even one with a separate line or three-way calling &mdash; so they could easily and somewhat privately connect with more friends.</p>
  <p>Today, a kid or teen&rsquo;s desire to connect with friends has not changed, but the options for doing so have grown tremendously. Children are not only asking for their own tablets, gaming devices, and mobile phones at a younger age, they also want access to popular social media sites, and the ability to engage in online games and share information. </p>
  <p>Just as young people used to spend unmonitored time playing with friends in the neighborhood, outside the periphery of adults, they are now engaging with each other in the cyberworld, &ldquo;talking&rdquo; with each other, &ldquo;talking&rdquo; to each other, and &ldquo;talking&rdquo; about each other, often without adult or parental monitoring. While technology allows young people to connect in meaningful ways, such as the opportunity to share ideas, photos, videos, and more, the unsupervised nature of the cyberworld demands the need for guidance, guidelines, and social responsibility. </p>
- 
+
  <h2>Definition</h2>
  <p>While the definitions of cyberbullying, sometimes called online bullying, vary from source to source, most definitions consist of:</p>
  <ol>
@@ -141,7 +134,7 @@ As adults, thinking back, it was just a generation ago that kids and teens were 
   <li>If someone is being cyberbullied, he/she should keep all evidence of cyberbullying, keep a log with the dates and times of the instances, and report the instances (<a href="http://cyberbullying.org/cyberbullying-fact-sheet-identification-prevention-and-response" target="_blank">Hinduja &amp; Patchin, 2014 <span class="fa fa-external-link"></span></a>).</li>
   <li>Bystanders to cyberbullying might not want to get involved because of the fear that the bullying will come onto them. However, by not doing anything, bystanders are passively encouraging the behavior. Bystanders can make a big difference by actively standing up against cyberbullies. Bystanders should intervene if they feel comfortable, tell a trusted adult after, and never encourage or contribute to the cyberbullying, such as laughing at comments, forwarding hurtful comments, or silently allowing it to continue (<a href="http://cyberbullying.org/cyberbullying-fact-sheet-identification-prevention-and-response" target="_blank">Hinduja &amp; Patchin, 2014 <span class="fa fa-external-link"></span></a>).</li>
  </ul>
- 
+
  <div class="resources">
  <h3>Related Resources</h3>
  <ul>
@@ -157,12 +150,12 @@ As adults, thinking back, it was just a generation ago that kids and teens were 
  <li><a href="http://yourteenmag.com/social-life/teen-bullying-tips/how-to-prevent-cyberbullying" target="_blank">How to Prevent Cyberbullying: Hands Off the Keyboard Until You&rsquo;re Calm!</a> &ndash; YOUR TEEN for parents shared the following quotes in a recent interview: Cyberbullying manifests itself as teens using technology to &ldquo;to hurt, harm, and humiliate&rdquo; their peers, says Julie Hertzog, director of the National Bullying Prevention Center in Bloomington, MN. &ldquo;In some ways,&rdquo; says Hertzog, &ldquo;online bullying can be even more devastating than <a href="http://yourteenmag.com/social-life/teen-bullying-tips/bullying" target="_blank">traditional bullying</a>, as an aggressor is able to access an audience 24/7 instead of being confined to the schoolyard, and the kid being bullied can&rsquo;t escape the bullying.&rdquo; And the hurt can be worse, as &ldquo;the person being bullied can read and re-read a hurtful text or comment on social media, and experience the hurt over and over again,&rdquo; Hertzog states.</li>
  </ul>
 </div>
- 
- <h2><img src="/bullying/images/livestream-screenshot.jpg" width="275" height="178" class="fltrt" alt=""/>Watch &ldquo;Social Media &amp; Bullying: <br />
+
+ <h2><img src="/bullying/images/livestream-screenshot.jpg" width="275" height="178" class="fltrt mobileCentered" alt=""/>Watch &ldquo;Social Media &amp; Bullying: <br />
    Using Technology to Keep Kids Safe&rdquo;</h2>
  <p>Staff from PACER&rsquo;s Simon Technology Center (STC) and National Bullying Prevention Center (NBPC) discuss the technology young people use, and the technology parents can use to keep them safe and raise responsible young digital citizens.</p>
  <p><a href="http://www.pacer.org/livestream/?wksp=2836FE85-C306-4AAA-909A-B85E0B3EDE1F" target="_blank">Watch the archived live stream</a>.</p>
- 
+
  <h2>References</h2>
  <p>Aboujaoude, E., Savage, M. W., Starcevic, V., &amp; Salame, W. O. (2015). Cyberbullying: Review of an old problem gone viral. Journal of Adolescent Health, 57, 10-18 Retrieved from <a href="https://www.ncbi.nlm.nih.gov/pubmed/26095405" target="_blank">https://www.ncbi.nlm.nih.gov/pubmed/26095405 <span class="fa fa-external-link"></span></a></p>
  <p>Arslan, S., Savaser, S., Hallett, V., &amp; Balci, S. (2012). Cyberbullying among primary school students in Turkey: self-reported prevalence and associations with home and school life. Cyberpsychology, Behavior, and Social Networking, 15, 527-533. Retrieved from <a href="https://www.ncbi.nlm.nih.gov/pubmed/23002988" target="_blank">&nbsp;https://www.ncbi.nlm.nih.gov/pubmed/23002988 <span class="fa fa-external-link"></span></a></p>
@@ -181,10 +174,8 @@ As adults, thinking back, it was just a generation ago that kids and teens were 
  <p>Smith, P. K., Mahdavi, J., Carvalho, M., Fisher, S., Russell, S., &amp; Tippett, N. (2008). Cyberbullying: Its nature and impact in secondary school pupils. <em>Journal of Child Psychology and Psychiatry, 49, </em>376-385. Retrieved from <a href="https://www.ncbi.nlm.nih.gov/pubmed/18363945" target="_blank">https://www.ncbi.nlm.nih.gov/pubmed/18363945 <span class="fa fa-external-link"></span></a></p>
  <p>W&ouml;lfer, R., Schultze-Krumbholz, A., Zagorscak, P., J&auml;kel, A., G&ouml;bel, K., &amp; Scheithauer, H. (2014). Prevention 2.0: Targeting cyberbullying @ school. Prevention Science, 15, 879-887. Retrieved from <a href="http://link.springer.com.ezp3.lib.umn.edu/article/10.1007%2Fs11121-013-0438-y" target="_blank">http://link.springer.com.ezp3.lib.umn.edu/article/10.1007%2Fs11121-013-0438-y <span class="fa fa-external-link"></span></a></p>
  <p>Youth Risk Behavior Survey. (2015). Trends in the prevalence of behaviors that contribute to violence. <em>Centers for Disease Control.</em> Retrieved from <a href="http://www.cdc.gov/healthyyouth/data/yrbs/pdf/trends/2015_us_violence_trend_yrbs.pdf" target="_blank"><em>http://www.cdc.gov/healthyyouth/data/yrbs/pdf/trends/2015_us_violence_trend_yrbs.pdf</em> <span class="fa fa-external-link"></span></a></p>
- 
+
 <br class="clearfloat" />
- <!-- end .content --></div>
- <!--#include virtual="/bullying/footer.html"--> 
- <!-- end .container --></div>
-</body>
-</html>
+
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

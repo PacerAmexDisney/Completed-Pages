@@ -435,15 +435,10 @@ body.singleCol #pagecontent {
 }
 
 #maincontent #pagecontent.narrowContent {
-	max-width: 60em;;
+	max-width: 850px;;
 	margin: 0px auto;
 }
-@media screen and (min-width: 900px) {
-.narrowContent > h1, .narrowContent > h2, .narrowContent > h3 {
-	margin-left: -15px;
-	margin-right: -15px;
-}
-}
+
 #pagecontent p {
 	padding: 0;
 	margin: 1em .5em;
@@ -654,6 +649,19 @@ a.external-link {
 	content: "\e600";
 }
 
+#pageBack a {
+    background: #fff url("/bullying/images/styles/backArrow.jpg") no-repeat  center;
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+	top:0px;
+    text-indent: -9999px;
+}
+#pageBack a:hover {
+    background: #fff url("/bullying/images/styles/backArrowHover.jpg") no-repeat center;
+}
 
 .screenReaderText, #pagecontent .screenReaderText{
 	display:block;
@@ -742,6 +750,24 @@ h2.enhanced, h3.enhanced{
   width: 39em;
 }
 
+.videoContainer {
+	position: relative;
+	padding-bottom: 55%;
+	padding-top: 30px; height: 0; overflow: hidden;
+	max-width: 750px;
+	margin: 10px auto;
+}
+
+.videoContainer iframe,
+.videoContainer object,
+.videoContainer embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 95%;
+	height: 95%;
+	margin: 10px;
+}	
 
 #pagecontent .greenBar {
 	background:#246C00;
