@@ -15,7 +15,7 @@
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/parents/images/helping-child-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/parents/helping-your-child.asp" />
 <meta property="og:description" content="When you discover your child is being bullied, you may feel a variety of emotions, from anger to fear to sadness. These reactions and emotional responses are natural for parents who want their child to feel valued, protected, and loved. To become an effective advocate for your child, it is important to acknowledge your emotions and then focus on developing an action plan to help your child." />
-<meta name="description" content="When you discover your child is being bullied, you may feel a variety of emotions, from anger to fear to sadness. These reactions and emotional responses are natural for parents who want their child to feel valued, protected, and loved. To become an effective advocate for your child, it is important to acknowledge your emotions and then focus on developing an action plan to help your child." />
+
 
 <!--CUSTOM-->
 <link href="/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />

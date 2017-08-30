@@ -13,7 +13,7 @@
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/parents/images/working-with-school-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/parents/working-with-school.asp" />
 <meta property="og:description" content="If your child has been bullied, you may need to work with the school to keep your child safe. Learn how to report an incident, meet with school staff, create an action plan, and more." />
-<meta name="description" content="If your child has been bullied, you may need to work with the school to keep your child safe. Learn how to report an incident, meet with school staff, create an action plan, and more." />
+
 
 <!--CUSTOM-->
 <link href="/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />
