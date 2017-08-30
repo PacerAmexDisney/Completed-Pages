@@ -439,7 +439,7 @@ End Remove *******-->
 	clear:right;
 }
 .videoFirst .alertBox {
-	width:910px;
+	width:90%;
 	float:none;
 	margin:14px 43px;
 	clear:both;

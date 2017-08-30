@@ -65,7 +65,7 @@
 			<li><a href="http://www.pacerteensagainstbullying.org/tab/experiencing-bullying/" target="_blank">Explore methods to respond effectively.</a></li>
 			<li><a href="http://www.pacerteensagainstbullying.org/tab/bullying-defined/definitely-true-or-no-way/" target="_blank">Review common assumptions, then decide if they are Definitely, True or No Way.</a></li>
 			<li><a href="http://www.pacerteensagainstbullying.org/tab/experiencing-bullying/language-is-important/" target="_blank">Language is Important: The way we talk about people impacts how we think about them.</a></li>
-			<li><a href="http://www.pacerteensagainstbullying.org/tab/experiencing-bullying/reasons-teens-dont-tell/" target="_blank">Reasons Teens Don�t Tell: Learn some of the reasons and a way to reframe the conversation.</a></li>
+			<li><a href="http://www.pacerteensagainstbullying.org/tab/experiencing-bullying/reasons-teens-dont-tell/" target="_blank">Reasons Teens Don&rsquo;t Tell: Learn some of the reasons and a way to reframe the conversation.</a></li>
 			<li><a href="http://www.pacerteensagainstbullying.org/tab/you-are-not-alone/real-teens-speak-out/" target="_blank">Real Teens Speak Out: Stories from teens and for teens.</a></li>
 			<li><a href="http://www.pacerteensagainstbullying.org/tab/take-action/peer-school-projects/" target="_blank">Peer (School) Projects: Ideas for school &ndash; and community &ndash; engagement.</a></li>
 		</ul>
