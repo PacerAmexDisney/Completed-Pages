@@ -1,23 +1,23 @@
-<!--#include virtual="/bullying/templates/header.asp"--> 
+<!--#include virtual="/bullying/templates/header.asp"-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
- <meta name="description" content="" />
- <title>National Bullying Prevention Center - Student Action - &quot;Keep Your Eyes Open&quot; Bullying Prevention PSA</title>
- <meta property="og:title" content="National Bullying Prevention Center - Student Action - &quot;Keep Your Eyes Open&quot; Bullying Prevention PSA" />
- <meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2013-By-Jhorielle.asp" />
- <meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico" /> 
-<meta property="og:description" content="" />  
+<meta name="description" content="" />
+<title>National Bullying Prevention Center - Student Action - &quot;Keep Your Eyes Open&quot; Bullying Prevention PSA</title>
+<meta property="og:title" content="National Bullying Prevention Center - Student Action - &quot;Keep Your Eyes Open&quot; Bullying Prevention PSA" />
+<meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2013-By-Jhorielle.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico" />
+<meta property="og:description" content="" />
 </head>
-  <body class="onecol"> 
-<div class="container"> 
-    <a id="skiptocontent" href="#maincontent">Skip to main content</a> 
-    <!--#include virtual="/bullying/templates/page-header-nav.asp"--> 
+<body class="onecol">
+<div class="container">
+    <a id="skiptocontent" href="#maincontent">Skip to main content</a>
+    <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
     <div class="breadcrumb">
-        <a href="/bullying/">Home</a> / <a href="/bullying/stories/">Stories</a> / <a href="/bullying/stories/student-action/">Student Action</a> /</div> 
+        <a href="/bullying/">Home</a> / <a href="/bullying/stories/">Stories</a> / <a href="/bullying/stories/student-action/">Student Action</a> /</div>
 
-        <!-- ########################## MAIN CONTENT ########################################### --> 
-         <div class="content"> 
-        <div class="narrowContent"> 
-            <h1 id="maincontent">Stop Bullying by Jhorielle</h1> 
+        <!-- ########################## MAIN CONTENT ########################################### -->
+        <div class="content">
+        <div class="narrowContent">
+            <h1 id="maincontent">Stop Bullying by Jhorielle</h1>
 
             <table width="100%">
                 <tr>
@@ -32,5 +32,5 @@
                     </td>
                 </tr>
             </table>
-        </div> 
+        </div>
     <!--#include virtual="/bullying/templates/footer.asp"-->
