@@ -1,55 +1,44 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Almost one out of every four students (22%) report being bullied during the school year (National Center for Educational Statistics, 2015).
+Rates of bullying vary across studies (from 9% to 98%). A meta-analysis of 80 studies analyzing bullying involvement rates (for both bullying others and being bullied) for 12-18 year old students reported a mean prevalence rate of 35% for traditional bullying involvement and 15% for cyberbullying involvement (Modecki, Minchin, Harbaugh, Guerra, & Runions, 2014)." />
 <title>Bullying Statistics - National Bullying Prevention Center</title>
 
-<!-- for Facebook -->     
-<meta property="fb:app_id" content="271376943231875"  />
+
 <meta property="og:title" content="Bullying Statistics" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/images/stats-image-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/stats.asp" />
 <meta property="og:description" content="Almost one out of every four students (22%) report being bullied during the school year (National Center for Educational Statistics, 2015).
 Rates of bullying vary across studies (from 9% to 98%). A meta-analysis of 80 studies analyzing bullying involvement rates (for both bullying others and being bullied) for 12-18 year old students reported a mean prevalence rate of 35% for traditional bullying involvement and 15% for cyberbullying involvement (Modecki, Minchin, Harbaugh, Guerra, & Runions, 2014)." />
-
-
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
-
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
- <!--#include virtual="/bullying/dynamic-header.html"--> 
- <!--#include virtual="/bullying/topnav.html"--> 
- 
- <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
  <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Resources</a> / 
  
- 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
 
  
  </div>
- 
- <!-- ######################### NAVIGATION ################################# -->
- <div class="sidebar1"> 
-  <!--#include virtual="/bullying/resources/nav.html"--> 
-  <script type="text/javascript">
-	// ID and SubId to be Orange
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/resources/nav.html"--> 
+</div>
+<script type="text/javascript">
 	var currId="stats";
 	var showTree = "none";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
- document.getElementById(currId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
@@ -59,13 +48,15 @@ Rates of bullying vary across studies (from 9% to 98%). A meta-analysis of 80 st
 			}
 		}
 	}
-  </script> 
- </div>
- <!-- ###################### END Navigation ############################## -->
- 
- <div class="content"> 
+</script> 
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
+     
   <h1 id="maincontent">Bullying statistics</h1>
-  <img class="fltrt" src="/bullying/resources/images/stats-image-circle.png" width="330" height="330" alt=""/>
+  <img class="fltrt mobileCentered" src="/bullying/resources/images/stats-image-circle.png" width="330" height="330" alt=""/>
   <ul>
       <li>More than one out of every five (20.8%) students report being bullied (<a href="https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2017015" target="_blank">National Center for Educational Statistics, 2016</a>).</li>
       <li>The federal government began collecting data on school bullying in 2005, when the prevalence of bullying was around 28 percent (<a href="https://www.ed.gov/news/press-releases/new-data-show-decline-school-based-bullying" target="_blank">U.S. Department of Education, 2015</a>).</li>
@@ -187,8 +178,8 @@ Rates of bullying vary across studies (from 9% to 98%). A meta-analysis of 80 st
          <a href="https://nccd.cdc.gov/youthonline/App/Results.aspx?TT=B&amp;OUT=0&amp;SID=MS&amp;QID=M14&amp;LID=LL&amp;YID=RY&amp;LID2=&amp;YID2=&amp;COL=&amp;ROW1=&amp;ROW2=&amp;HT=&amp;LCT=&amp;FS=&amp;FR=&amp;FG=&amp;FSL=&amp;FRL=&amp;FGL=&amp;PV=&amp;TST=&amp;C1=&amp;C2=&amp;QP=&amp;DP=&amp;VA=CI&amp;CS=Y&amp;SYID=&amp;EYID=&amp;SC=&amp;SO=property" target="_blank"><em><u>https://nccd.cdc.gov/youthonline/App/Results.aspx?TT=B&amp;OUT=0&amp;SID=MS&amp;QID=M14&amp;LID=LL&amp;<br />YID=RY&amp;LID2=&amp;YID2=&amp;COL=&amp;ROW1=&amp;ROW2=&amp;HT=&amp;LCT=&amp;FS=&amp;FR=&amp;FG=&amp;FSL=&amp;FRL=&amp;FGL=&amp;PV=&amp;<br />TST=&amp;C1=&amp;C2=&amp;QP=&amp;DP=&amp;VA=CI&amp;CS=Y&amp;SYID=&amp;EYID=&amp;SC=&amp;SO=property</u></em></a></p>
 <p>Updated: December 8, 2016</p>
 <br class="clearfloat" />
-  <!-- end .content --></div>
- <!--#include virtual="/bullying/footer.html"--> 
- <!-- end .container --></div>
-</body>
-</html>
+  
+
+
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

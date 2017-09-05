@@ -1,56 +1,51 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+<link href="/css/flexbox-responsive-min.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="National Bullying Prevention Center - Promotional Materials" />
 <title>National Bullying Prevention Center - Promotional Materials</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
 
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="National Bullying Prevention Center - Promotional Materials" />
+</head>
 <body class="twocol">
-
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
-
-<script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
-
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/nbpm/">National Bullying Prevention Month</a> /</div>
-  <div class="sidebar1">
-    <!--#include virtual="/bullying/nbpm/nav.html"--> 
-    <!-- end .sidebar1 --></div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+<!--#include virtual="/bullying/nbpm/nav.html"-->
+</div>
 <script type="text/javascript">
-	// ID and SubId to be Orange
 	var currId="promo";
 	var showTree = "promo-sub";
-	var currSubId="promo-overview";
+	var showTree2 = "promo-overview";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "active";
-	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "submenu") {
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "submenuhidden";
 			}
 		}
 	}
-</script>
+</script> 
 
-  <div class="content">
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
+
+    
     <h1 id="maincontent" style="font-size:1.7em">Speaking In Your Community</h1>
 <p>Let everyone know that October is National Bullying Prevention Month and make bullying prevention a movement that touches every community. Share information about the event when you connect with someone, or through website updates; posts on social media channels; articles in newspapers, magazines, and online publications.</p>
 <h2 class="hr">Information Handout</h2>
@@ -82,17 +77,21 @@
   National Bullying Prevention Month is a campaign in the United States founded in 2006 by PACER&rsquo;s National Bullying Prevention Center. <a href="http://www.pacer.org/bullying/nbpm/history.asp" target="_blank">Learn more about the history of the month &gt;&gt;&gt;</a></p>
 
 <h2 class="hr"><strong>Request a Governor&rsquo;s Proclamation</strong></h2>
-<div style="width:250px; text-align:center" class="fltrt">2011 MN Governor's Proclamation<br />
-  <a href="/bullying/pdf/BullyingPreventionmonth-MN-Govproc-2011.pdf" target="_blank"><img src="/bullying/nbpm/images/2011-mn-gov-proc.jpg" width="250" height="412" alt="MN Governor's Proclamation" /></a>
-</div>
 
-<p>Promote bullying prevention in your state! Contact your governor&rsquo;s office and ask how to submit a request for a Governor&rsquo;s Proclamation for National Bullying Prevention  Month. Schools, students, parents, organizations, and others can submit requests. Then, all you have to do is fill in the sample text with your state information and submit it. Easy as that! You can even send an image of your state&rsquo;s signed proclamation to <a href="mailto:bullying411@PACER.org">bullying411@PACER.org</a> for posting. <a href="/bullying/nbpm/spreadtheword/governors-proclamation.asp">See the sample <span class="extralinktext">letter to the Governor</span></a></p>
+    <div class="flex" id="Row1">
+       <article class="flexItemDescription">
+          <p>Promote bullying prevention in your state! Contact your governor&rsquo;s office and ask how to submit a request for a Governor&rsquo;s Proclamation for National Bullying Prevention  Month. Schools, students, parents, organizations, and others can submit requests. Then, all you have to do is fill in the sample text with your state information and submit it. Easy as that! You can even send an image of your state&rsquo;s signed proclamation to <a href="mailto:bullying411@PACER.org">bullying411@PACER.org</a> for posting. <a href="/bullying/nbpm/spreadtheword/governors-proclamation.asp">See the sample <span class="extralinktext">letter to the Governor</span></a></p>
+        </article>
+		<aside class="flexItemThumb">
+		<em>2011 MN Governor's Proclamation</em>
+  <a href="/bullying/pdf/BullyingPreventionmonth-MN-Govproc-2011.pdf" target="_blank"><img src="http://staging.pacer.org/bullying/nbpm/images/2011-mn-gov-proc.jpg" width="250" height="412" alt="MN Governor's Proclamation" /></a>
+       </aside>
+    </div>
+	
 <h2 class="hr"><strong>Influence Decision Makers</strong></h2>
 <p>As a student, you have a strong voice in influencing peers, educators, and administrators within your school. You also can persuade lawmakers to explore changes in laws to protect students. Bullying is an issue that directly affects students and school culture. When you lead the cause, you show you care about other students and your school&mdash;and you become a powerful voice for change. <a href="/bullying/nbpm/spreadtheword/influence-decision-makers.asp">Learn more<span class="extralinktext"> about how to influence decision makers</span></a></p>
 <p><br class="clearfloat" />
 </p>
-  <!-- end .content --></div>
-<!--#include virtual="/bullying/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+  
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

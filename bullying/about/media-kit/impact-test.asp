@@ -47,46 +47,46 @@
   <!-- ###################### END Navigation ############################## -->
   
   <div class="content"> 
-    <h1 id="maincontent">2014 &ndash; Interesting Facts About PACER&rsquo;s National Bullying Prevention Center</h1>
+    <h1 id="maincontent">2014 &ndash; Interesting Facts About PACER's National Bullying Prevention Center</h1>
 	<p><strong>We Are Expanding!</strong><br />
-	In 2015, PACER’s National Bullying Prevention Center opened a second office in Los Angeles, California.</p>
+	In 2015, PACER's National Bullying Prevention Center opened a second office in Los Angeles, California.</p>
 	
 	<p><strong>In the Spotlight</strong><br />
-	Over 8 billion media impressions reflecting PACER’s National Bullying Prevention Center</p>
+	Over 8 billion media impressions reflecting PACER's National Bullying Prevention Center</p>
 	
 	<p><strong>Together Against Bullying</strong><br />
 	PACER distributed over 9,000 Unity Day posters to schools and communities across the country. Over 91% of poster recipients reported Unity Day was useful in raising awareness of bullying prevention.</p>
 	
 	<p><strong>Bullying Prevention Across the Globe</strong><br />
-	PACER’s National Bullying Prevention Center sites had over 1.1 million web visits from individuals in 192 countries.</p>
+	PACER's National Bullying Prevention Center sites had over 1.1 million web visits from individuals in 192 countries.</p>
 	
 	<p><strong>New Initiatives</strong><br />
-	In 2015, PACER introduce new initiatives including You’re Not Alone, Together Against Bullying and an online curriculum for parents.</p>
+	In 2015, PACER introduce new initiatives including You're Not Alone, Together Against Bullying and an online curriculum for parents.</p>
 
 	<p><strong>Run, Walk, Roll Against Bullying</strong><br />
 	In 2014, more than 40 Run, Walk, Roll Against Bullying events were held around the country, including 1 in Mexico.</p>
 
 	<p><strong>PACER & Partners</strong><br /> 	
-	In 2015, PACER’s National Bullying Prevention Center partnered with corporate and celebrity partners, including TLC, CustomInk, Duck Tape, and Bethany Mota.</p>
+	In 2015, PACER's National Bullying Prevention Center partnered with corporate and celebrity partners, including TLC, CustomInk, Duck Tape, and Bethany Mota.</p>
 
 	<p><strong>Supporting Students</strong><br /> 	 
-	After using PACER’s bullying prevention resources, 97% of students who were bullied learned about how to get help.</p>
+	After using PACER's bullying prevention resources, 97% of students who were bullied learned about how to get help.</p>
 
-	<p><strong>We’re Here for You</strong><br /> 	 
+	<p><strong>Were Here for You</strong><br />
 	In 2014, PACER had over 5,900 individual contacts regarding bullying prevention situations and resources.</p>
 
-	<p><strong>New Event – The Unity Awards</strong><br /> 
+	<p><strong>New Event - The Unity Awards</strong><br />
 	In 2015, PACER hosted the first Unity Awards, recognizing individuals and groups who have made outstanding contributions to address and prevent bullying.</p>
 
 	<p><strong>Bullying Prevention Bookmarks</strong><br /> 
-	PACER’s National Bullying Prevention Center has distributed over 3.3 million bookmarks to schools, organizations and community.</p>
+	PACER's National Bullying Prevention Center has distributed over 3.3 million bookmarks to schools, organizations and community.</p>
 	
 		
 	
     <table border="0" cellspacing="5" cellpadding="5" style="margin-left:10px;">
       <tr>
         <td width="81" valign="top" align="right"><strong>1,000,000 +</strong></td>
-        <td width="718">Web visits to PACER&rsquo;s National Bullying Prevention Center</td>
+        <td width="718">Web visits to PACER's National Bullying Prevention Center</td>
       </tr>
       <tr>
         <td valign="top" align="right"><strong>1,000,000 +</strong></td>
@@ -94,7 +94,7 @@
       </tr>
       <tr>
         <td valign="top" align="right"><strong>4 billion</strong></td>
-        <td>Media impressions about PACER&rsquo;s National Bullying Prevention Center</td>
+        <td>Media impressions about PACER's National Bullying Prevention Center</td>
       </tr>
       <tr>
         <td valign="top" align="right"><strong>14,279</strong></td>

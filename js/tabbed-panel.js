@@ -1,13 +1,14 @@
 /**
  * Pacer Mobile -- Tabbed Panel
  */
+var mobileTabbedIsInitialized = false;
 
-(function() {
+function MobileTabbedInit() {
     'use strict';
 
     var $ = window.jQuery,
         userAgent = window.navigator.userAgent.toLowerCase(),
-        isMobileBrowser = userAgent.indexOf('mobile') > -1;
+        isMobileBrowser = userAgent.indexOf('mobile') > -1 || $(window).width() <= 750;
 
     // If this is not a mobile browser -- goodbye
     if (!isMobileBrowser) { return; }
@@ -17,15 +18,19 @@
      */
 
     function initialize(){
-        var $tabbedPanels = $('.tabbedPanel');
+        
+        if (!mobileTabbedIsInitialized) {
+            mobileTabbedIsInitialized = true;
+            var $tabbedPanels = $('.tabbedPanel');
 
-        if ($tabbedPanels.length) {
-            // Bind all the things
-            bindClickEvents();
-            // Inject bar above tabbed panel
-            injectTabbedPanelBar($tabbedPanels);
-            // Set active tab text
-            setActiveTabText($tabbedPanels);
+            if ($tabbedPanels.length) {
+                // Bind all the things
+                bindClickEvents();
+                // Inject bar above tabbed panel
+                injectTabbedPanelBar($tabbedPanels);
+                // Set active tab text
+                setActiveTabText($tabbedPanels);
+            }
         }
     }
 
@@ -38,7 +43,7 @@
 
         // Bind show more clicks
         $body.on('click', '.tabbedPanel-showMore', function(e){
-            var $tabbedPanelBtn = $(e.currentTarget),
+			var $tabbedPanelBtn = $(e.currentTarget),
                 $tabs = $tabbedPanelBtn.closest('.tabbedPanel').find('.ui-tabs-nav'),
                 $arrow = $tabbedPanelBtn.find('.arrow');
 
@@ -49,32 +54,37 @@
 
         // Bind anchor clicks
         $body.on('click', '.ui-tabs-anchor', function(e){
-            var $tabAnchor = $(e.currentTarget),
+			var $tabAnchor = $(e.currentTarget),
+				$newSectionInfo = '',
+				$tabs = $tabAnchor.closest('.tabbedPanel').find('.ui-tabs-nav'),
                 $activeTab = $tabAnchor.closest('.tabbedPanel').find('.active-tab-text'),
-                $activeTabText = $tabAnchor.html();
+                $activeTabText = $tabAnchor.html(),
+                $arrow = $('.tabbedPanel-bar .arrow');
 
             $activeTab.html($activeTabText);
+			$newSectionInfo = '(Section ' + (parseInt($("#tabs").tabs("option", "active")) + 1) + ' of ' + $('.ui-tabs-nav li').length + ')';
+			$('.tabSectionInfo').html($newSectionInfo);
+
+			$tabs.slideUp();
+            $arrow.toggleClass('up');
+            $arrow.toggleClass('down');
+			
         });
 
         // Bind prev & next button clicks
         $('.mover').click(function(e){
-            var $moverBtn = $(e.currentTarget),
-                $currentTab = $moverBtn.closest('.ui-tabs-panel'),
-                $newTab = $moverBtn.hasClass('next-tab') ? $currentTab.next() : $currentTab.prev(),
-                $activeTab =  $newTab.closest('.tabbedPanel').find('.active-tab-text'),
-                $activeTabText = $newTab.find('h2').html();
-
-            $activeTab.html($activeTabText);
-        });
-    }
+			MobileMoveButtonClick(e);
+		});
+	}
 
     /**
      * M E T H O D S
      */
 
+	
     function injectTabbedPanelBar($tabbedPanels){
         $tabbedPanels.prepend('<div class="tabbedPanel-bar"></div>');
-        $('.tabbedPanel-bar').html('<div class="active-tab-text"></div><button class="tabbedPanel-showMore"><div class="arrow up"></div></button>');
+        $('.tabbedPanel-bar').html('<div class="active-tab-text">' + $('#tabs li:first a').html() + '</div><button class="tabbedPanel-showMore"><div class="arrow up"></div></button><div class="tabSectionInfo">(Section 1 of ' + $('#tabs div').length + ')</div>');
     }
 
     function setActiveTabText($tabbedPanels){
@@ -89,4 +99,24 @@
 
     // Let's get this party jumpin'.
     initialize();
-}());
+}
+
+	function MobileMoveButtonClick(e) {
+    	'use strict';
+		if ($('.tabbedPanel-bar')){
+
+			var $moverBtn = $(e.currentTarget),
+				$newTabText,
+				$newSectionInfo;
+
+			$newTabText = $('.ui-tabs-nav li:eq(' + $moverBtn.attr('rel') + ' ) a').html();
+			$newSectionInfo = '(Section ' + (parseInt($moverBtn.attr('rel')) + 1) + ' of ' + $('.ui-tabs-nav li').length + ')';
+			$('.active-tab-text').html($newTabText);
+			$('.tabSectionInfo').html($newSectionInfo);
+			console.log('after: ' + $('.active-tab-text').html());			
+		}
+	}
+
+$(window).resize(MobileTabbedInit);
+
+MobileTabbedInit();
