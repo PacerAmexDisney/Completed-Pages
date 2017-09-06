@@ -5,7 +5,7 @@
 <title>National Bullying Prevention Center - Schools Taking Action - &ldquo;iSTANDERS&rdquo; and Citrus Grove Elementary</title>
 <meta property="og:title" content="National Bullying Prevention Center - Schools Taking Action - &ldquo;iSTANDERS&rdquo; and Citrus Grove Elementary" />
 <meta property="og:url" content="http://pacer.org/bullying/stories/school-action/events/istanders-citrus-grove.asp" />
-<meta property="og:image" content="" />
+<meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico" />
 <meta property="og:description" content="" />
 
 </head>
