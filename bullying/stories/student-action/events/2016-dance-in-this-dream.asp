@@ -23,7 +23,7 @@
         <tr>
           <td valign="top">
             <p>Sara Stevens is a 15 year old singer who enjoys every bit of life! She has also experienced being bullied. She was bullied for being too tall, for drawing too much, for singing in class. Sara says, “I can’t help it. I have music inside me and I need to let it out.” Sara decided that she wanted to make singing her life-long career and reach out to those who have experienced bullying. Sara’s song, DANCE IN THIS DREAM, which was inspired by what she had gone through, has a powerful message about “looking for the positive and overcoming the negative. The most important thing a person can do is to be him or herself. Don’t let anything hold you back, take your chance, find your dream and everything is possible!” She hopes this song will touch many lives. </p>
-            <p align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/w_T9CEXPDIs?rel=0" frameborder="0" allowfullscreen></iframe></p>
+            <p align="center" class="videoContainer"><iframe width="640" height="360" src="https://www.youtube.com/embed/w_T9CEXPDIs?rel=0" frameborder="0" allowfullscreen></iframe></p>
             <h3 align="center">DANCE IN THIS DREAM</h3>
             <p align="center">There are dark days we wish to forget<br />
               There are times we feel sadness and pain<br />

@@ -31,7 +31,7 @@
                         <p>&ldquo;I think this thing is building! I can't wait,&rdquo; Mandy says. &ldquo;With your help at PACER, I feel more confident in my ability to speak to students and have used the speech that the PACER staff helped me proofread and edit. I especially appreciated that help and the information I can use from the website.&rdquo;</p>
                         <p>Mandy is a leader! Her school work and her racing career are important, but she also knows that her community is important, too. She has a campaign called &ldquo;Race to Stop Bullying&rdquo; and will use her speed on the track to help kids realize that bullying can deeply affect self-confidence. She can offer tools for how to deal with bullying and build confidence. </p>
                         <p>&ldquo;I challenge you to be kind to everyone you encounter,&rdquo; Mandy says, &ldquo;because you will get so much farther in life if you are nice to everyone.&rdquo;</p>
-                        <p align="center">
+                        <p align="center" class="videoContainer">
                             <iframe width="640" height="360" src="https://www.youtube.com/embed/GuSzm7EJ9hA" frameborder="0" allowfullscreen></iframe>
                         </p>
                     </td>
