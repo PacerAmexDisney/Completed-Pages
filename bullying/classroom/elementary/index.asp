@@ -1,4 +1,3 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -43,7 +42,7 @@ document.getElementById(currId).className = "active";
   <div class="content">
     <h1 id="maincontent">Elementary Toolkits</h1>
     <ul>
-      <img class="fltrt" src="/bullying/classroom/images/elementary-circle.jpg" width="330" height="330" alt=""/>
+      <img class="fltrt mobileCentered" src="/bullying/classroom/images/elementary-circle.jpg" width="330" height="330" alt=""/>
       <li><a href="/bullying/classroom/elementary/ele-starting-the-discussion.asp">Elementary School, Starting the Discussion</a>
         <p>A complete classroom tool kit for discussing bullying prevention. Features free downloads of daily activities, games and contests.</p>
       </li>

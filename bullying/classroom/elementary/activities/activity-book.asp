@@ -1,7 +1,7 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
+<meta name="description" content="An eight-page classroom activity book designed with educational activities featuring the Club Crew from the Kids Against Bullying website. It engages young learners in creative ways, providing activities to help students think about their feelings, explore responses to bullying situations, and take the pledge to be a Kid Against Bullying." />
 <title>Classroom Activity Book - National Bullying Prevention Center</title>
 
 <!-- for Facebook -->          
@@ -10,11 +10,6 @@
 <meta property="og:image" content="http://www.pacer.org/bullying/classroom/elementary/activities/images/activity-book-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/activity-book.asp" />
 <meta property="og:description" content="An eight-page classroom activity book designed with educational activities featuring the Club Crew from the Kids Against Bullying website. It engages young learners in creative ways, providing activities to help students think about their feelings, explore responses to bullying situations, and take the pledge to be a Kid Against Bullying." />
-
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
-<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
-<meta property="og:description" content="" />
 </head>
 <body class="twocol">
 <div class="container">

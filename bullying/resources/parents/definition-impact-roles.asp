@@ -1,91 +1,68 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="description" content="What is bullying? At first glance, many people might think this behavior is easy to define. Their first image of bullying might be of a physically intimidating boy beating up a smaller classmate. While that would still be considered bullying today, parents need to know that bullying behavior can be much more complex and varied than the stereotype." />
+
 <title>Definition, Impact and Roles - What Parents Should Know About Bullying - PACER's National Bullying Prevention Center</title>
+
+
+
 
 <!-- for Facebook -->
 <meta property="og:title" content="Definition, Impact and Roles - What Parents Should Know About Bullying" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/parents/images/definition-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/parents/definition-impact-roles.asp" />
 <meta property="og:description" content="What is bullying? At first glance, many people might think this behavior is easy to define. Their first image of bullying might be of a physically intimidating boy beating up a smaller classmate. While that would still be considered bullying today, parents need to know that bullying behavior can be much more complex and varied than the stereotype." />
-<meta name="description" content="What is bullying? At first glance, many people might think this behavior is easy to define. Their first image of bullying might be of a physically intimidating boy beating up a smaller classmate. While that would still be considered bullying today, parents need to know that bullying behavior can be much more complex and varied than the stereotype." />
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<link href="/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css"/>
 
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
-<script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
-<link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
-<script type="text/javascript" src="/js/jquery.sticky.js"></script>
+
+<!--CUSTOM-->
+<link href="/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="/bullying/resources/parents/hopeline-styles.css"/>
+
+<link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css" />
 <script type="text/javascript" src="/js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/jquery-ui-1.11.4.custom/jquery-ui.css"/>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$("#secondarynav").sticky({ topSpacing:0 });
-		$('.dash').attr('aria-hidden','true');
-		var $pageTabs = $('#tabs').tabs();
-	
-		$(".ui-tabs-panel").each(function(i){
-	  		var totalSize = $(".ui-tabs-panel").size() - 1;
-	  		if (i != totalSize) {
-	      		next = i + 1;
-   		  		$(this).append("<a href='#' class='next-tab mover' rel='" + next + "'>Next Tab &#187;</a>");
-	  		}
-	  
-	  		if (i != 0) {
-	      		prev = i - 1;
-   		  	$(this).append("<a href='#' class='prev-tab mover' rel='" + prev + "'>&#171; Prev Tab</a>");
-	  		}
-   			$(this).append('<br class="clearfloat" />');
-		});
-	
-		$('.next-tab, .prev-tab').click(function() { 
-		   //scroll back to the top
-		   $('html, body').animate({
-        		scrollTop: $($pageTabs).offset().top - 115
-    		}, 150);
-		   //delay the changing of the tabs until the scroll is complete so the person sees the heading change
-		   setTimeout($.proxy(function() {
-			   	//alert('timeout - ' + $(this).attr("rel"));
-		   		$('#tabs').tabs('option', 'active', $(this).attr("rel"));
-		   		//Re-scroll the window after the content length has changed.
-				$('html, body').animate({
-        			scrollTop: $($pageTabs).offset().top - 115
-    			}, 150);
-				
-		   }, this), 300);
-           return false;
-       	});
-	 });//----------close ready function----------
-</script>
+<script type="text/javascript" src="/js/colorbox1.5.9/jquery.colorbox-min.js"></script>
+<script src="/js/LayerSlider/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/css/tabbed-panel-responsive.min.css" />
+<script type="text/javascript" src="/js/tabbed-panel-init.js"></script>
+<script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 </head>
 
-<body>
-<div class="container"> <a id="skiptocontent" href="#maincontent">Skip to main content</a> 
-  
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"--> 
-  <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
-  <div class="content subpage">
-    <div id="toolMainBanner">
+<body class="onecol">
+
+<div class="container">
+
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
+
+
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+
+
+<div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
+
+
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+
+
+
+<div class="content subpage">
+
+   	<div class="">
+
+    	
+    <div id="toolMainBanner" style="display: flex; flex-wrap: wrap;">
       <h1 id="maincontent">What Parents Should Know About Bullying</h1>
-      <div class="tagline"><a href="http://www.verizon.com/about/responsibility/hopeline" target="_blank"><img src="/bullying/resources/parents/images/HopeLine.jpg" width="146" height="44" alt="HOPELINE from Verizon"/></a><br />
+      <div class="tagline" style="position: static; height: auto;"><a href="http://www.verizon.com/about/responsibility/hopeline" target="_blank"><img src="/bullying/resources/parents/images/HopeLine.jpg" width="146" height="44" alt="HOPELINE from Verizon"/></a><br />
         Promoting Healthy Relationships</div>
     </div>
     
@@ -101,7 +78,7 @@ if (typeof jQuery == 'undefined')
       <div class="sharethis" style="float:right; width:3em;">Share:</div>
       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
       <h2>Definition, Impact and Roles</h2>
-      <div style="width:982px; margin:0px auto;"> <img src="/bullying/resources/parents/images/definition-hub.jpg" width="982" height="350" alt=""/> </div>
+      <div style="margin:0px auto;"> <img src="http://staging.pacer.org/bullying/resources/parents/images/definition-hub.jpg" alt=""/> </div>
     </div>
     <div class="tabbedPanel">
       <div id="tabs">
@@ -422,8 +399,14 @@ if (typeof jQuery == 'undefined')
     </div>
     <p class="GoToNextSection"> <a href="/bullying/resources/parents/" id="homeLink"><span class="fa fa-home fa-2x"></span> Section - Home</a> </p>
     <br class="clearfloat" />
-    <!-- end .content --></div>
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+    
+
+   
+
+	</div>
+
+<script type="text/javascript" src="/js/tabbed-panel.min.js"></script>
+
+
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

@@ -6,7 +6,6 @@
 
 <!-- for Facebook -->     
 <meta property="og:title" content="What Parents Should Know About Bullying" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/resources/parents/images/kids-and-tech-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/resources/parents/" />
 <meta property="og:description" content="Bullying can be an isolating experience not just for the kids involved, but for their parents, too. Fortunately, there is help. This guide offers a comprehensive overview for parents to learn what they can do to address and prevent bullying." />

@@ -1,4 +1,4 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/bullying/templates/header.asp"-->
 <!--#include virtual="/Connections/PACER_WEB.asp" -->
 <%
 Dim rs, rsYears
@@ -31,7 +31,7 @@ Set rsYear = rs_cmd.Execute
 
 %>
 
-<!--#include virtual="/bullying/templates/header.asp"-->
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />

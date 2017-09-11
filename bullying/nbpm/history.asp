@@ -4,7 +4,6 @@
 <title>History - National Bullying Prevention Month</title>
 <!-- for Facebook -- images 600x315/1200x630 -->             
 <meta property="og:title" content="History of National Bullying Prevention Month" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/nbpm-fb-10yr.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/nbpm/history.asp" />
 <meta property="og:description" content="National Bullying Prevention Month is a campaign in the United States founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities nationwide to educate and raise awareness of bullying prevention. Traditionally held the first week in October, the event was expanded in 2010 to include activities, education, and awareness building for the entire month. National Bullying Prevention Month is recognized in communities across the United States, with hundreds of schools and organizations signing on as partners. Facebook, Disney, CNN and Yahoo! Kids have supported the month through media outreach and dissemination." />
