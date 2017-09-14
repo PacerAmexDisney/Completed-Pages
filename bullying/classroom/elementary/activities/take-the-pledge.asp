@@ -1,10 +1,7 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <title>Take the Pledge - National Bullying Prevention Center</title>
-<meta name="description" content="Elementary school students are invited to take the “Kids Against Bullying” pledge! Students promising to speak up, reach out, and be a friend when they see bullying can download the official certificate.
+<meta name="description" content="Elementary school students are invited to take the 'Kids Against Bullying' pledge! Students promising to speak up, reach out, and be a friend when they see bullying can download the official certificate.
 " />
 
 <link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
@@ -15,12 +12,12 @@
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
  
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"-->
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/activities">Activities</a></div>
 <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
-  <!--#include virtual="/bullying/classroom/nav.html"--> 
+  <!--#include virtual="/bullying/templates/nav.html"-->
     <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="ele-activities-takethepledge";
@@ -62,7 +59,5 @@
 <br class="clearfloat" />
     
     <!-- end .content --></div>
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+<!-- ########################## END MAIN CONTENT ########################################### -->
+<!--#include virtual="/bullying/templates/footer.asp"-->

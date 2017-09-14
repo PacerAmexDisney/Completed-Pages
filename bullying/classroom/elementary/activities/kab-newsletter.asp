@@ -1,6 +1,5 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Kids Against Bullying Newsletter - National Bullying Prevention Center</title>
 <meta name="description" content="The Kids Against Bullying newsletter is specially designed for elementary students. It includes lots of information and ideas about National Bullying Prevention Month in October, and how kids can become involved in their own school on Unity Day.
 " />
@@ -17,7 +16,7 @@
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/activities">Activities</a></div>
 <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
-  <!--#include virtual="/bullying/classroom/nav.html"--> 
+  <!--#include virtual="/bullying/templates/nav.html"-->
     <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="ele-activities-newsletter";

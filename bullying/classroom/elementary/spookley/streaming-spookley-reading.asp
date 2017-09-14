@@ -66,7 +66,7 @@ End If
   
   <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
- <!--#include virtual="/bullying/classroom/nav.html"--> 
+ <!--#include virtual="/bullying/templates/nav.html"-->
   <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="ele-spookley";	
