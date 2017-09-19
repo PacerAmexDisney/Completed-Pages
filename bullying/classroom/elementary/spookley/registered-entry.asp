@@ -66,7 +66,7 @@ End If
   
   <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
- <!--#include virtual="/bullying/classroom/nav.html"--> 
+ <!--#include virtual="/bullying/templates/nav.html"-->
   <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="ele-spookley";	
@@ -98,7 +98,7 @@ document.getElementById(currId).className = "active";
 <td><a href="/bullying/classroom/elementary/spookley/streaming-spookley-movie.asp?ts=<%=GenerateCode("current")%>">Free Video Streaming of the Spookley Movie</a> <a href="/bullying/classroom/elementary/spookley/streaming-spookley-reading.asp?ts=<%=GenerateCode("current")%>"></a></td>
 </tr><tr>
 <td><img src="/bullying/classroom/elementary/spookley/images/Spookley-Cover.jpg" alt="" width="150" /></td>
-<td><a href="/bullying/classroom/elementary/spookley/streaming-spookley-reading.asp?ts=<%=GenerateCode("current")%>">Free Video Streaming Reading of the Story </a>narrated by Bobby “Boris” Pickett, writer and performer of the hit song, “The Monster Mash.”</td>
+<td><a href="/bullying/classroom/elementary/spookley/streaming-spookley-reading.asp?ts=<%=GenerateCode("current")%>">Free Video Streaming Reading of the Story </a>narrated by Bobby ï¿½Borisï¿½ Pickett, writer and performer of the hit song, ï¿½The Monster Mash.ï¿½</td>
 </tr>
 </table>
 
@@ -111,7 +111,7 @@ document.getElementById(currId).className = "active";
  -->
     
     <h2>Additional Resources</h2>
-    <h3>NEW: Bring Spookley’s story to life with the Spookley Storybook Trail!</h3>
+    <h3>NEW: Bring Spookleyï¿½s story to life with the Spookley Storybook Trail!</h3>
       <p>The Spookley Storybook Trail is a walking path along which you and your students can read Spookley&rsquo;s story.  It presents a great way to get your students moving and engaged in the story, and it also presents opportunities to collaborate across classrooms to reinforce the learning opportunities presented in the &ldquo;The Legend of Spookley the Square Pumpkin.&rdquo;  (NOTE: This activity is inspired by attractions at Spookley-themed pumpkin patches and farms where farmers have created corn mazes in the shape of Spookley and placed Spookley&rsquo;s story on signs through the corn maze!)</p>
     <ul>
         <li class="pdficonlist"><a href="/bullying/classroom/elementary/spookley/pdf/Spookley-Storybook-Trail.pdf" target="_blank">Spookley Storybook Trail</a></li>

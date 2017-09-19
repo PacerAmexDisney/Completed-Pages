@@ -8,7 +8,6 @@
 <meta property="og:url" content="" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
-</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
@@ -18,7 +17,7 @@
   
   <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
-    <!--#include virtual="/bullying/classroom/nav.html"--> 
+    <!--#include virtual="/bullying/templates/nav.html"-->
     <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="ele";	

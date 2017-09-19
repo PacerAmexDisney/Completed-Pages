@@ -175,7 +175,7 @@ function ChangeSlideTo(slideNum){
  
  <!-- ######################### NAVIGATION ################################# -->
  <div class="sidebar1"> 
-  <!--#include virtual="/bullying/classroom/nav.html"--> 
+  <!--#include virtual="/bullying/templates/nav.html"-->
   <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="mid-student-jetsetgetset";
@@ -302,34 +302,34 @@ Copyright 2013. Lovey Music (BMI) All right reserved.</p>
 <div class="bio noShow" id="jasonBio">
 	<p><strong>Jason Owens (lead guitar)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_JasonOwens_250w.jpg" alt="" style="background:#F63;" />
-	Jason became seriously interested in music at the age of 10, when he heard country star Brad Paisley’s &ldquo;The World&rdquo; on the radio. Jason learns a lot about stage presence and different guitar techniques from watching other musicians, but he credits two guitar teachers, Aaron Mahoney and Rick Kinman, for teaching him the fundamentals. His musical influences include Brad Paisley, Keith Urban and John Mayer. Jason was invited to join Jetset Getset through a connection at a music store where he was taking lessons. &ldquo;I like playing on big stages and feeding off the excitement of the audience,&rdquo; he says. &ldquo;There are so many wonderful and talented people in the band.&rdquo; Jason resides in Union, Kentucky.
+	Jason became seriously interested in music at the age of 10, when he heard country star Brad Paisleyï¿½s &ldquo;The World&rdquo; on the radio. Jason learns a lot about stage presence and different guitar techniques from watching other musicians, but he credits two guitar teachers, Aaron Mahoney and Rick Kinman, for teaching him the fundamentals. His musical influences include Brad Paisley, Keith Urban and John Mayer. Jason was invited to join Jetset Getset through a connection at a music store where he was taking lessons. &ldquo;I like playing on big stages and feeding off the excitement of the audience,&rdquo; he says. &ldquo;There are so many wonderful and talented people in the band.&rdquo; Jason resides in Union, Kentucky.
 	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
 <div class="bio noShow" id="justenBio">
 	<p><strong>Justen Jette (rhythm guitar)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_JustenJette_250w.jpg" alt="" style="background:#F63;" />
-	With his mom being the founder and manager of Jetset Getset, you might think Justen was one of the first members of the group. But it was not until lead guitarist Jason Owens joined Jetset Getset that Justen decided to get involved. Impressed with Jason’s guitar playing, Justen decided that he, too, wanted to learn how to play the guitar, and he started taking lessons. Justen likes pop, hip-hop, rock and country music, and considers Toby Keith, Bob Seger and Wiz Khalifa among his biggest influences. He lives in Dearborn County, Indiana.
+	With his mom being the founder and manager of Jetset Getset, you might think Justen was one of the first members of the group. But it was not until lead guitarist Jason Owens joined Jetset Getset that Justen decided to get involved. Impressed with Jasonï¿½s guitar playing, Justen decided that he, too, wanted to learn how to play the guitar, and he started taking lessons. Justen likes pop, hip-hop, rock and country music, and considers Toby Keith, Bob Seger and Wiz Khalifa among his biggest influences. He lives in Dearborn County, Indiana.
 	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
 <div class="bio noShow" id="paulBio">
 	<p><strong>Paul Kelley (bass guitar)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_PaulKelley_250w.jpg" alt="" style="background:#F63;" />
-Paul comes from a heavy metal background, but became interested in country music after his friend, Jason Owens, introduced him to Jetset Getset. &ldquo;It&rsquo;s a lot of fun, being part of Jetset Getset,” he says. “I love the social aspect of the band, meeting so many great musicians and playing live gigs.&rdquo; Paul lives in Grant County, Kentucky.	</p>
+Paul comes from a heavy metal background, but became interested in country music after his friend, Jason Owens, introduced him to Jetset Getset. &ldquo;It&rsquo;s a lot of fun, being part of Jetset Getset,ï¿½ he says. ï¿½I love the social aspect of the band, meeting so many great musicians and playing live gigs.&rdquo; Paul lives in Grant County, Kentucky.	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
 <div class="bio noShow" id="gillianBio">
 	<p><strong>Gillian Bowman (drummer)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_GillianBowman_250w.jpg" alt="" style="background:#F63;" />
-	Gillian Bowman (her friends call her &ldquo;Gily&rdquo;) has been studying music since she was 3 years old, under the direction of her parents, both of whom are music teachers and owners of Bowman Music & Creative Outlet in Burlington, Kentucky. In addition to drumming, she is also a talented singer, piano player, guitar player, dancer (tap, ballet and jazz), and even studied acrobatics for five years. She also writes songs and enjoys singing at her church. Gily’s musical influences include The Beatles, TobyMac and even the classic rock group Rush. &ldquo;I love being a part of Jetset Getset because it has given me amazing opportunities that not many people get,&rdquo; she says. &ldquo;I am so blessed to be a part of this band with such great people.&rdquo;
+	Gillian Bowman (her friends call her &ldquo;Gily&rdquo;) has been studying music since she was 3 years old, under the direction of her parents, both of whom are music teachers and owners of Bowman Music & Creative Outlet in Burlington, Kentucky. In addition to drumming, she is also a talented singer, piano player, guitar player, dancer (tap, ballet and jazz), and even studied acrobatics for five years. She also writes songs and enjoys singing at her church. Gilyï¿½s musical influences include The Beatles, TobyMac and even the classic rock group Rush. &ldquo;I love being a part of Jetset Getset because it has given me amazing opportunities that not many people get,&rdquo; she says. &ldquo;I am so blessed to be a part of this band with such great people.&rdquo;
 	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
 <div class="bio noShow" id="terryBio">
 	<p><strong>Terry Ranck (keyboard, saxophone)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_TerryRanck_250w.jpg" alt="" style="background:#F63;" />
-	Terry Ranck is the only adult who performs with Jetset Getset on a regular basis. He is the father of the group’s manager and founder, Kelli Jette, and grandfather of rhythm guitar player Justen Jette. He majored in music performance and education at the University of Cincinnati College-Conservatory of Music. After playing with some local rock bands in the early 1970s, he was a music teacher for 35 years. His musical influences include a lot of 60s and 70s pop and rock artists, especially Roy Orbison and horn bands like Blood, Sweat & Tears. In addition to playing keyboard and saxophone, Terry is also the group’s equipment manager, head roadie, lunch-getter and advice-giver. &ldquo;Working with Jetset Getset makes me feel young,&rdquo; he laughs. Terry lives in Dearborn County, Indiana.
+	Terry Ranck is the only adult who performs with Jetset Getset on a regular basis. He is the father of the groupï¿½s manager and founder, Kelli Jette, and grandfather of rhythm guitar player Justen Jette. He majored in music performance and education at the University of Cincinnati College-Conservatory of Music. After playing with some local rock bands in the early 1970s, he was a music teacher for 35 years. His musical influences include a lot of 60s and 70s pop and rock artists, especially Roy Orbison and horn bands like Blood, Sweat & Tears. In addition to playing keyboard and saxophone, Terry is also the groupï¿½s equipment manager, head roadie, lunch-getter and advice-giver. &ldquo;Working with Jetset Getset makes me feel young,&rdquo; he laughs. Terry lives in Dearborn County, Indiana.
 	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>

@@ -1,7 +1,5 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 
 <title>Educational Activities - Spookley the Square Pumpkin Classroom Education Resources</title>
@@ -9,42 +7,17 @@
 <meta name="description" content="Spookley the Square Pumpkin is a square pumpkin who lives in a round pumpkin patch world. The Legend of Spookley the Square Pumpkin, available as both a book and movie, delivers a message of tolerance and kindness in a fun, accessible format that is easily grasped by young students. 
 " />
 
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
-
-<style type="text/css">
-.imgwrap{
-	text-align:center;
-	margin:10x 5px;
-	margin-bottom:15px;
-}
-.imgwrap img {
-	margin:0px 5px;
-}
-</style>
-
-
-</head>
-
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
  
- <!--#include virtual="/bullying/dynamic-header.html"--> 
- <!--#include virtual="/bullying/topnav.html"--> 
- 
- <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a></div>
  
  <!-- ######################### NAVIGATION ################################# -->
  <div class="sidebar1"> 
- <!--#include virtual="/bullying/classroom/nav.html"--> 
+ <!--#include virtual="/bullying/templates/nav.html"-->
   <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="ele-spookley";	
@@ -85,7 +58,7 @@ document.getElementById(currId).className = "active";
  <li>Discussion Guidelines and Learning Activities</li>
  <li>Multi-Subject Learning Examples</li>
  <li>Spookley Classroom Play</li>
- <li>Video Reading of the Story narrated by Bobby “Boris” Pickett, writer and performer of the hit song, “The Monster Mash.” </li>
+ <li>Video Reading of the Story narrated by Bobby ï¿½Borisï¿½ Pickett, writer and performer of the hit song, ï¿½The Monster Mash.ï¿½ </li>
  <%'<li>Streaming of the Spookley movie</li>%>
  <li>Video Reading of A Family to be Thankful For.</li>
   </ol>
@@ -94,7 +67,7 @@ document.getElementById(currId).className = "active";
   <a href="http://www.booster.com/daretobesquare"><img src="/bullying/resources/toolkits/spookley/images/Spookley-t-shirt.jpg" alt="spookley t-shirt" width="220" height="210" />
   </a>
   <h3><a href="http://www.booster.com/daretobesquare">Dare to Be Square T-shirt available featuring Spookley!</a></h3>
-		<p>Spookley invites you to “Dare to Be Square” and embrace your unique gifts! Check out the brand new bullying prevention T-shirt featuring Spookley! All proceeds benefit PACER Center.</p>
+		<p>Spookley invites you to ï¿½Dare to Be Squareï¿½ and embrace your unique gifts! Check out the brand new bullying prevention T-shirt featuring Spookley! All proceeds benefit PACER Center.</p>
  </div> -->
  <img style="margin-left:10px;" src="/bullying/images/partners/spookley-sml.jpg" width="119" height="71" alt="" />
   <p><strong>Spookley the Square Pumpkin </strong>is a square pumpkin who lives in a round pumpkin patch world. <em>The Legend of Spookley the Square Pumpkin</em>, available as both a book and movie, delivers a message of tolerance and kindness in a fun, accessible format that is easily grasped by young students. By making these advanced concepts easily understood by early learners, teachers can help stop bullying before it begins.</p>
@@ -110,16 +83,16 @@ document.getElementById(currId).className = "active";
    </li>
    <li>Going on a field trip to <a href="http://www.spookley.com/farm_affiliates.html" target="_blank">a nearby Spookley pumpkin patch <span class="fa fa-external-link"></span></a></li>
    <li>Expanding the curriculum with multi-subject lesson plans</li>
-   <li><span style="color: #F00">NEW!</span> <strong>Bring Spookley’s story to life with the Spookley Storybook Trail!</strong><br />
+   <li><span style="color: #F00">NEW!</span> <strong>Bring Spookleyï¿½s story to life with the Spookley Storybook Trail!</strong><br />
    The Spookley Storybook Trail is a walking path along which you and your students can read Spookley&rsquo;s story. It presents a great way to get your students moving and engaged in the story, and it also presents opportunities to collaborate across classrooms to reinforce the learning opportunities presented in the &ldquo;The Legend of Spookley the Square Pumpkin.&rdquo; (NOTE: This activity is inspired by attractions at Spookley-themed pumpkin patches and farms where farmers have created corn mazes in the shape of Spookley and placed Spookley&rsquo;s story on signs through the corn maze!)</li>
    <li><span style="color: #F00">NEW!</span> <strong>&ldquo;Spookley the Square Pumpkin A Family to be Thankful For.&rdquo;</strong><br />
-	 	Discussion questions and learning activities that correspond to the themes in “Spookley the Square Pumpkin A Family to be Thankful For" to build kinder, safer communities by embracing our families, friends and neighbors. The new book is currently available through Scholastic Book Clubs, through <a href="http://www.holidayhillfarm.com/farmstand" target="_blank">Holiday Hill Farm’s “Online Farmstand” <span class="fa fa-external-link"></span></a> and as an eBook on the Nook and Kindle platforms.
+	 	Discussion questions and learning activities that correspond to the themes in ï¿½Spookley the Square Pumpkin A Family to be Thankful For" to build kinder, safer communities by embracing our families, friends and neighbors. The new book is currently available through Scholastic Book Clubs, through <a href="http://www.holidayhillfarm.com/farmstand" target="_blank">Holiday Hill Farmï¿½s ï¿½Online Farmstandï¿½ <span class="fa fa-external-link"></span></a> and as an eBook on the Nook and Kindle platforms.
 	 
 	    </li>
    
    <!--<li>During October, in support of National Bullying Prevention Month, free Spookley prizes are available via a <a href="http://promoshq.wildfireapp.com/website/6/contests/294381" target="_blank">Spookley Photo Contest</a></li>-->
   </ol>   
-  <p><strong>Educators can <u><a href="http://www.surveymonkey.com/s/NDTHJMY">register here</a></u> for your free access to the Online Toolkit Materials. After registration, all materials can be accessed online by visiting this webpage and clicking on “Register Here/Reentry.”</strong></p>
+  <p><strong>Educators can <u><a href="http://www.surveymonkey.com/s/NDTHJMY">register here</a></u> for your free access to the Online Toolkit Materials. After registration, all materials can be accessed online by visiting this webpage and clicking on ï¿½Register Here/Reentry.ï¿½</strong></p>
   
 <div class="imgwrap" style="text-align:center; clear:right"><span class="imgwrap" style="text-align:center; clear:right"><img src="/bullying/classroom/elementary/spookley/images/joe-with-kids-in-springfiled-nj-129h-195w.jpg" width="195" height="129" alt="" /><span class="imgwrap" style="text-align:center; clear:right"><img src="/bullying/classroom/elementary/spookley/images/Spookley-And-Class.jpg" width="195" height="129" alt="" /></span></span><span class="imgwrap" style="text-align:center; clear:right"><img src="/bullying/classroom/elementary/spookley/images/spookley-mcbroom-2-129h-195w.jpg" alt="" width="195" height="129" /></span><img src="/bullying/classroom/elementary/spookley/images/Spookley-with-Girl.jpg" width="195" height="129" alt="" /></div> 
 
@@ -138,7 +111,4 @@ document.getElementById(currId).className = "active";
 <div class="imgwrap"><img src="/bullying/classroom/elementary/spookley/images/Spookley-Hay-Maze-farm-195w.jpg" width="195" height="129" alt="" /><img src="/bullying/classroom/elementary/spookley/images/Savannah-4H-Spookley-195w.jpg" width="195" height="129" alt="" /><img src="/bullying/classroom/elementary/spookley/images/Spookley-Inflatable-129h-195w.jpg" width="195" height="129" alt="" /><img src="/bullying/classroom/elementary/spookley/images/Spookley-Student-Assembly.jpg" width="195" height="129" alt="" /></div>
   <div id="pageextender" style="clear:both">&nbsp;</div>
  <!-- end .content --></div>
- <!--#include virtual="/bullying/footer.html"--> 
- <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

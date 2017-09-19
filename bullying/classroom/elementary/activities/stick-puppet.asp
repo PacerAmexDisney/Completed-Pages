@@ -1,25 +1,25 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <title>Stick Puppet Role Plays - National Bullying Prevention Center</title>
 <meta name="description" content="Role plays are an interactive method to creatively engage elementary school children to learn options for handling bullying situations. Stick puppet plays incorporate the Kids Against Bullying Club Crew members.
 " />
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
 
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"-->
-<div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/activities">Activities</a></div>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+<div class="breadcrumb">
+    <a href="/bullying/">Home</a> /
+    <a href="/bullying/classroom/">Classroom</a> /
+    <a href="/bullying/classroom/elementary/">Elementary School</a> /
+    <a href="/bullying/classroom/elementary/activities">Activities</a>
+</div>
+
 <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
-  <!--#include virtual="/bullying/classroom/nav.html"--> 
+  <!--#include virtual="/bullying/templates/nav.html"-->
     <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="ele-activities-puppet";
@@ -121,8 +121,5 @@ In discussing options, it is important to note that students often will decide o
 <br class="clearfloat" />
     
     <!-- end .content --></div>
-  </div>
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+<!-- ########################## END MAIN CONTENT ########################################### -->
+<!--#include virtual="/bullying/templates/footer.asp"-->

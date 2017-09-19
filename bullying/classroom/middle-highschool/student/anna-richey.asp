@@ -25,7 +25,7 @@
  
  <!-- ######################### NAVIGATION ################################# -->
  <div class="sidebar1"> 
-  <!--#include virtual="/bullying/classroom/nav.html"--> 
+  <!--#include virtual="/bullying/templates/nav.html"-->
   <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="mid-student-anna";
@@ -47,7 +47,7 @@ document.getElementById(currId).className = "active";
  <!-- ###################### END Navigation ############################## -->
  
  <div class="content"> 
-  <h1 id="maincontent">Anna Richey – Broken</h1>
+  <h1 id="maincontent">Anna Richey ï¿½ Broken</h1>
   <p>Anna Richey is a singer/songwriter from Salt Lake City with a dream to inspire people with her music. She hopes to influence the world for the better, starting with her single Broken. To accompany this powerful song, Anna has created a toolkit to help students think about how they can take action in bullying situations.</p>
   <p align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/I5t7kuX6P-4?rel=0" frameborder="0" allowfullscreen></iframe></p>
     <h3>Discussion Questions</h3>

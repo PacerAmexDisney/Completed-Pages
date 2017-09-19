@@ -1,32 +1,21 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Middle and High School Starting the Discussion Toolkit - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
+</head>
 
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
  
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"--> 
-  
-  <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
   <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/">Middle and High School</a> / </div>
 
   
   <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
-  <!--#include virtual="/bullying/classroom/nav.html"--> 
+  <!--#include virtual="/bullying/templates/nav.html"-->
     <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="mid-discuss";	
@@ -72,18 +61,15 @@ document.getElementById(currId).className = "active";
 
 <h2>Day By Day Detailed Look at the Activities</h2>
 <ul style="font-size:1.2em; font-weight:bold">
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-monday.asp" target="_blank">Monday — <em>Bullying 101</em></a></li>
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-tuesday.asp" target="_blank">Tuesday – <em>What Can You Do?</em></a></li>
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-wednesday.asp" target="_blank">Wednesday — <em>Students and Adults Working Together</em></a></li>
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-thursday.asp" target="_blank">Thursday — <em>Bullying Prevention: It's Not Just a Week</em></a></li>
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-friday.asp" target="_blank">Friday — <em>The End of Bullying Begins with You</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-monday.asp" target="_blank">Monday ï¿½ <em>Bullying 101</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-tuesday.asp" target="_blank">Tuesday ï¿½ <em>What Can You Do?</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-wednesday.asp" target="_blank">Wednesday ï¿½ <em>Students and Adults Working Together</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-thursday.asp" target="_blank">Thursday ï¿½ <em>Bullying Prevention: It's Not Just a Week</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-friday.asp" target="_blank">Friday ï¿½ <em>The End of Bullying Begins with You</em></a></li>
 <li><a href="/bullying/classroom/middle-highschool/mh-discussion-keep-going.asp" target="_blank">Keep Going</a></li>
 </ul>
 
     <br class="clearfloat" />
     
     <!-- end .content --></div>
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

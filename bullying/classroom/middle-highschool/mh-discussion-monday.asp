@@ -1,12 +1,10 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Monday - Starting the Discussion - National Bullying Prevention Center</title>
 <link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
 <link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--><style type="text/css">
+<style type="text/css">
 .navbox{
 	width:180px;
 	float:right;
@@ -50,20 +48,13 @@
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
  
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"--> 
-  
-  <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
   <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> /</div>
   
   <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
-  <!--#include virtual="/bullying/classroom/nav.html"--> 
+  <!--#include virtual="/bullying/templates/nav.html"-->
     <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="mid-discuss";	
@@ -105,7 +96,7 @@ document.getElementById(currId).className = "active";
   October is National Bullying Prevention Month. Schools, organizations, and communities are raising awareness of bullying prevention and teaching students how to respond effectively to bullying situations. 
 </p>
 <p>
-Today's topic is "Bullying 101." Bullying can take many forms. It can be physical, and it also can be emotional and social—using words to hurt someone, leaving someone out, or gossiping and spreading rumors. Bullying also happens over cell phones and the Internet. In your classroom today, you will learn what bullying is, how to identify it, and why it happens.
+Today's topic is "Bullying 101." Bullying can take many forms. It can be physical, and it also can be emotional and socialï¿½using words to hurt someone, leaving someone out, or gossiping and spreading rumors. Bullying also happens over cell phones and the Internet. In your classroom today, you will learn what bullying is, how to identify it, and why it happens.
 </p>
 <h3>
   <strong>Classroom Education and Activities</strong></h3>
@@ -149,7 +140,4 @@ Discussion Questions:</p>
     <br class="clearfloat" />
     
     <!-- end .content --></div>
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

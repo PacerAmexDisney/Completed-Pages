@@ -1,8 +1,5 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <title>National Bullying Prevention Center - Unity Dance Day October 26th</title>
 <meta name="title" content="National Bullying Prevention Center - Unity Dance Day - Wednesday, Oct. 26" /> 
 <meta name="description" content="Dance, unite - and make a statement against bullying - by joining PACER's Unity Dance Day. Join schools, students, and community organizations around the world to unite with PACER's National Bullying Prevention Center in music and dance to bring awareness to bullying prevention." /> 
@@ -12,14 +9,13 @@
 
 <link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
 <link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
 </head>
 
 <body class="twocol">
 <div class="container"> 
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- <!--#include virtual="/bullying/dynamic-header.html"--> 
- <!--#include virtual="/bullying/topnav.html"--> 
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
  
  <script type="text/javascript">
 	var navId="none";
@@ -154,7 +150,5 @@
   </ul>
 <br class="clearfloat" />
  <!-- end .content --></div>
- <!--#include virtual="/bullying/footer.html"--> 
- <!-- end .container --></div>
-</body>
-</html>
+<!-- ########################## END MAIN CONTENT ########################################### -->
+<!--#include virtual="/bullying/templates/footer.asp"-->
