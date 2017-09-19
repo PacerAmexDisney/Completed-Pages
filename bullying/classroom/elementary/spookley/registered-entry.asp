@@ -1,4 +1,5 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <%
 Function GenerateCode(fWhichCode)
 
@@ -36,42 +37,39 @@ If  Request.QueryString("ts") <> GenerateCode("current") And Request.QueryString
 End If
 
 %>
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="robots" content="noindex,nofollow" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="--- Registration Required to Access -----" />
+<title>Spookley the Square Pumpkin Classroom Education Resources - Registered Entry - National Bullying Prevention Center</title>
 
-<title>Spookley the Square Pumpkin Classroom Education Resources - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
+<meta property="og:title" content="Spookley the Square Pumpkin Classroom Education Resources" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/spookley/registered-entry.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="--- Registration Required to Access -----" />
 
-<body class="threecol">
+<link rel="stylesheet" type="text/css" href="/css/flexbox-responsive-min.css">
+
+</head>
+<body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"--> 
-  
-  <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/spookley">Spookley the Square Pumpkin</a> /</div>
-  
-  <!-- ######################### NAVIGATION ################################# -->
-  <div class="sidebar1"> 
- <!--#include virtual="/bullying/templates/nav.html"-->
-  <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="ele-spookley";	
+
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+ <!--#include virtual="/bullying/classroom/nav.html"--> 
+</div>
+<script type="text/javascript">
+	var currId="ele-spookley";
 	var showTree = "ele-sub";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
 document.getElementById(currId).className = "active";
 	}
@@ -84,10 +82,12 @@ document.getElementById(currId).className = "active";
 		}
 	}
 </script> 
-</div>
-  <!-- ###################### END Navigation ############################## -->
-  
-  <div class="content"> 
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
+
     <h1 id="maincontent" style="text-align:center"><img src="/bullying/images/partners/spookley-banner.jpg" width="549" height="141" alt="Spookley the square pumpkin" /><br />
       <strong>&ldquo;Stop Bullying Before it Starts&rdquo;</strong><br />
       <strong><span style="font-size:.7em">Complete Digital Teacher Toolkit (pre-school, K-3)</span></strong></h1>
@@ -98,7 +98,7 @@ document.getElementById(currId).className = "active";
 <td><a href="/bullying/classroom/elementary/spookley/streaming-spookley-movie.asp?ts=<%=GenerateCode("current")%>">Free Video Streaming of the Spookley Movie</a> <a href="/bullying/classroom/elementary/spookley/streaming-spookley-reading.asp?ts=<%=GenerateCode("current")%>"></a></td>
 </tr><tr>
 <td><img src="/bullying/classroom/elementary/spookley/images/Spookley-Cover.jpg" alt="" width="150" /></td>
-<td><a href="/bullying/classroom/elementary/spookley/streaming-spookley-reading.asp?ts=<%=GenerateCode("current")%>">Free Video Streaming Reading of the Story </a>narrated by Bobby �Boris� Pickett, writer and performer of the hit song, �The Monster Mash.�</td>
+<td><a href="/bullying/classroom/elementary/spookley/streaming-spookley-reading.asp?ts=<%=GenerateCode("current")%>">Free Video Streaming Reading of the Story </a>narrated by Bobby “Boris” Pickett, writer and performer of the hit song, “The Monster Mash.”</td>
 </tr>
 </table>
 
@@ -111,7 +111,7 @@ document.getElementById(currId).className = "active";
  -->
     
     <h2>Additional Resources</h2>
-    <h3>NEW: Bring Spookley�s story to life with the Spookley Storybook Trail!</h3>
+    <h3>NEW: Bring Spookley’s story to life with the Spookley Storybook Trail!</h3>
       <p>The Spookley Storybook Trail is a walking path along which you and your students can read Spookley&rsquo;s story.  It presents a great way to get your students moving and engaged in the story, and it also presents opportunities to collaborate across classrooms to reinforce the learning opportunities presented in the &ldquo;The Legend of Spookley the Square Pumpkin.&rdquo;  (NOTE: This activity is inspired by attractions at Spookley-themed pumpkin patches and farms where farmers have created corn mazes in the shape of Spookley and placed Spookley&rsquo;s story on signs through the corn maze!)</p>
     <ul>
         <li class="pdficonlist"><a href="/bullying/classroom/elementary/spookley/pdf/Spookley-Storybook-Trail.pdf" target="_blank">Spookley Storybook Trail</a></li>
@@ -140,35 +140,66 @@ document.getElementById(currId).className = "active";
 	<p>You can supplement the reading with these <a href="/bullying/classroom/elementary/spookley/pdf/SSP-Thanksgiving-Discussion Guidelines.pdf" target="_blank">discussions guidelines and learning activities<img src="/images/pdficon_small.gif" width="15" height="15" alt="" /></a></p>
 	
 	<hr />
-	<img class="fltrt" src="/bullying/classroom/elementary/spookley/images/Spookley-poster.jpg" width="150" height="177" alt="" />
-    <h2>Purchasing the Spookley Products</h2>
-    <ul>
-    <li>The <a href="http://www.holidayhillfarm.com/farmstand" target="_blank">Holiday  Hill Farm Online Farmstand</a></li>
-      <li><a href="http://www.barnesandnoble.com/s/joe-troiano" target="_blank">Barnes  &amp; Noble</a></li>
-      <li>Also  available as an <a href="http://www.oceanhousemedia.com/products/spookleybook/" target="_blank">interactive  storybook app</a> for the Nook, iOS, and Android platforms.</li>
-    </ul>
-    <div id="pageextender" style="clear:both">&nbsp;</div>
-  <!-- end .content --></div>
+	
+   <div class="flex">
+   	<div class="flexItemDescription">
+		<h2>Purchasing the Spookley Products</h2>
+		<ul>
+		<li>The <a href="http://www.holidayhillfarm.com/farmstand" target="_blank">Holiday  Hill Farm Online Farmstand</a></li>
+		  <li><a href="http://www.barnesandnoble.com/s/joe-troiano" target="_blank">Barnes  &amp; Noble</a></li>
+		  <li>Also  available as an <a href="http://www.oceanhousemedia.com/products/spookleybook/" target="_blank">interactive  storybook app</a> for the Nook, iOS, and Android platforms.</li>
+		</ul>
+	</div>
+		<aside class="flexItemThumb">
+	   		<img class="fltrt" src="/bullying/classroom/elementary/spookley/images/Spookley-poster.jpg" width="150" height="177" alt="" />
+	   </aside>
+
+  </div>
   
   
-  <div class="sidebar2">
-   <img src="/bullying/classroom/elementary/spookley/images/2013/spookley-giving-hug.jpg" width="195" height="157" alt="" />
+  <div class="flex" style="margin-top: 50px;">
+  	<div class="flexImage">
+   		<img src="/bullying/classroom/elementary/spookley/images/2013/spookley-giving-hug.jpg" width="195" height="157" alt="" />
+	</div>
+  	<div class="flexImage">
    <img src="/bullying/classroom/elementary/spookley/images/2013/spookley-and-class.jpg" width="195" height="139" alt="" />
+	</div>
+  	<div class="flexImage">
    <img src="/bullying/classroom/elementary/spookley/images/2013/pumpkin-patch-of-respect.jpg" width="195" height="109" alt="" />
+	</div>
+  	<div class="flexImage">
    <img src="/bullying/classroom/elementary/spookley/images/2013/spookley-and-girl.jpg" width="195" height="165" alt="" />
+	</div>
+  	<div class="flexImage">
    <img src="/bullying/classroom/elementary/spookley/images/2013/spookley-photo-pair.jpg" width="195" height="125" alt="" />
+	</div>
+ 	
+	</div>
+	<div class="flex">
+ 	
+  	<div class="flexImage">
    <img src="/bullying/classroom/elementary/spookley/images/2013/elgin-winner.jpg" width="195" height="144" alt="" />
+	</div>
+  	<div class="flexImage">
+
    <img src="/bullying/classroom/elementary/spookley/images/2013/Spookley-Play.jpg" width="195" height="91" alt="" />
+	</div>
+  	<div class="flexImage">
    <img src="/bullying/classroom/elementary/spookley/images/2013/students-with-coloring-pages.jpg" width="195" height="161" alt="" />
+	</div>
+  	<div class="flexImage">
    <img src="/bullying/classroom/elementary/spookley/images/2013/spookleyblowup-with-class.jpg" width="195" height="92" alt="" />
+	</div>
+  	<div class="flexImage">
+
    <img src="/bullying/classroom/elementary/spookley/images/2013/boys-with-coloring-pages.jpg" width="195" height="145" alt="" />
+	  </div>
+	</div>
 
 
 <!-- end .sidebar2 -->
   </div>
   
-  
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+  	
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

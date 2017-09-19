@@ -40,14 +40,10 @@ document.getElementById(currId).className = "active";
     <h1 id="maincontent">Presenting: Teen Talk on Cyberbullying</h1>
 
 <p><em>Teen Talk on Cyberbullying</em> is a five-minute video designed to provide authentic insight and perspective from peers on issues related to cyberbullying. After viewing the video, hold a classroom discussion using the <a href="http://www.pacer.org/bullying/getinvolved/pdf/teen-talk-on-cyberbullying-classroom-discussion-guide.pdf" target="_blank"> suggested questions</a>.</p>
-		<div style="width:700px; margin:20px auto">
-			<div style="box-shadow: 0 0 5px #000;">
-				<iframe width="700" height="394" src="https://www.youtube.com/embed/adV0rxAdJV8?rel=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<p class="centered" style="font-size: .9em; padding-top: 10px;">If the video won't play or if YouTube is blocked at your location, you can <a href="http://www.pacer.org/bullying/video/player.asp?video=89&amp;local=true">view it from our player here</a>.		</p>
-		</div>		
-<p>&nbsp;</p>
-
+		
+		<div class="videoContainer mobileCentered">
+                <iframe width="700" height="480" src="https://www.youtube.com/embed/adV0rxAdJV8?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
 
 
 <h2>Meet the Students</h2>

@@ -9,7 +9,7 @@ body {
 	padding-top:15px;
 }
 #mainLogo {
-	max-width: 50%;
+	max-width: 43%;
 	height: auto;
 }
 #header {
@@ -239,6 +239,66 @@ ul#nav {
 ul.treemenuhidden {
 	display:none;
 }
+#nav li.twoCol li a {
+  height: 2.5em;
+}
+#nav li li{
+  background:#1E5303;}
+#nav li.twoCol li:nth-child(even) a {
+  	width: 200px;
+	padding-left:25px;
+}
+#nav li.twoCol ul {
+  background:#fff;
+  width: 39em;
+}
+
+
+/* ---------------------------
+Adjust Nav for smallish screens but not mobile sizes
+-----------------------------------*/
+@media screen and (max-width: 850px) {
+	#nav li {
+		width: 112px;
+	}
+	#nav li a {
+		width: 100px;
+		font-size: 12px;
+	}	
+	#nav li.events li {
+		width: 173px;
+	}
+	#nav li.events li a, #nav li.twoCol li a {
+		width: 152px;
+		height: 3.5em;
+	}
+	#nav li.twoCol li:nth-child(2n) a {
+		width: 138px;
+	}
+	#nav li.events li.doubleWide {
+		width: 355px;
+	}
+	#nav li.events li.doubleWide a {
+		width: 343px;
+	}
+	#nav li.twoCol ul {
+		width: 349px;
+	}
+	body.twocol div.content {
+		width: calc(100% - 185px);
+	}
+}
+@media screen and (max-width: 815px) {
+	#nav li {
+		width: 103px;
+	}
+	#nav li a {
+		width: 91px;
+		font-size: 10px;
+	}	
+}
+
+
 
 /***********************************
 *****                          *****
@@ -736,19 +796,6 @@ h2.enhanced, h3.enhanced{
 	background-size:100% 100%;
 }
 
-#nav li.twoCol li a {
-  height: 2.5em;
-}
-#nav li li{
-  background:#1E5303;}
-#nav li.twoCol li:nth-child(even) a {
-  	width: 200px;
-	padding-left:25px;
-}
-#nav li.twoCol ul {
-  background:#fff;
-  width: 39em;
-}
 
 .videoContainer {
 	position: relative;
@@ -942,3 +989,5 @@ a .fa-file-pdf-o, a .fa-external-link {
   padding-bottom: 1px;
 }
 
+.mobileC {
+}

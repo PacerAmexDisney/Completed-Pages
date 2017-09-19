@@ -73,7 +73,7 @@ document.getElementById(currId).className = "active";
   
   <div class="content"> 
     <h1 id="maincontent">Keep Going - Starting the Discussion Toolkit</h1>
-<div class="navbox">
+<div class="navbox mobileCentered">
 	<h3>Activity Days</h3>
     <ul>
 	<li><a href="/bullying/classroom/middle-highschool/mh-starting-the-discussion.asp">Overview</a></li>    <li><a href="/bullying/classroom/middle-highschool/mh-discussion-monday.asp">Monday Activities</a></li>
@@ -84,7 +84,7 @@ document.getElementById(currId).className = "active";
     <li><strong>Keep Going</strong></li>
     </ul>
 </div>
-<p><strong>More Than A Week  �<em> Keep the momentum going</em></strong></p>
+<p><strong>More Than A Week  &mdash; <em> Keep the momentum going</em></strong></p>
 <p>Bullying prevention isn't just a week. It's an attitude and a cultural shift. Keep the momentum going all year with some the ideas listed here or on <a href="http://www.pacerteensagainstbullying.org/tab/take-action/"><strong>PACERTeensAgainstBullying&gt;TakeAction</strong></a></p>
   <p><a href="http://www.pacer.org/bullying/wewillgen/"><strong>Join the WE WILL Generation</strong></a></p>
 <p>The WE WILL Generation is a student-led movement uniting students to create positive inspired change.</p>

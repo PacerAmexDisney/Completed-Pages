@@ -1,4 +1,5 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <%
 Dim pageActive
 	pageActive = True
@@ -40,41 +41,55 @@ End If
 
 %>
 
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="robots" content="noindex,nofollow" />
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="--- Registration Required to Access -----" />
 <title>Streaming Movie - Spookley the Square Pumpkin Classroom Education Resources - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
 
+<meta property="og:title" content="Streaming Movie - Spookley the Square Pumpkin Classroom Education Resources" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/spookley/streaming-spookley-movie.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="--- Registration Required to Access -----" />
+<style type="text/css">
+   .videoWrapper {
+	   width:640px; 
+	   margin:20px auto;
+	}
+	@media all and (max-width: 900px) {
+		.videoWrapper {
+			width: 100%;
+			height: 480px;
+			max-height: 100%;
+		}
+		.videoWrapper > iframe {
+			padding: 0;
+			width: 100% !important;
+			height: 450px !important;
+			max-height: 100% !important;
+		}
+	}
+</style>
+
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"--> 
-  
-  <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
-<div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/spookley">Spookley the Square Pumpkin</a> /</div>
-  
-  <!-- ######################### NAVIGATION ################################# -->
-  <div class="sidebar1"> 
- <!--#include virtual="/bullying/templates/nav.html"-->
-  <script type="text/javascript">
-	// ID and SubId to be Orange
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+<div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+ <!--#include virtual="/bullying/classroom/nav.html"--> 
+</div>
+<script type="text/javascript">
 	var currId="ele-spookley";	
 	var showTree = "ele-sub";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
 document.getElementById(currId).className = "active";
 	}
@@ -87,19 +102,24 @@ document.getElementById(currId).className = "active";
 		}
 	}
 </script> 
-</div>
-  <!-- ###################### END Navigation ############################## -->
-  
-  <div class="content"> 
-      <script type="text/javascript">
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
+
+       <script type="text/javascript">
+//<![CDATA[
+
 		if (history.length > 1) {
 		document.write('<p><a href="javascript:history.back();">&lt;&lt;&lt; Return to Previous Page</a></p>');
 		}
+//]]>	
 	</script>
 <h1 id="maincontent" align="center">Spookley The Square Pumpkin Movie</h1>
 
 <%If pageActive Then%>
-<div style="width:640px; margin:20px auto;">
+<div class="videoWrapper">
      <iframe src="https://player.vimeo.com/video/48839253" width="640" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	<p class="centered">Password: SQUARE</p>
 </div>    
@@ -107,14 +127,6 @@ document.getElementById(currId).className = "active";
 <h2 class="centered">Streaming of this video is unavailible at this time</h2>
  <%End If%>   
 	
-	
-	<div id="pageextender" style="clear:both">&nbsp;
-     
-    </div>
-  <!-- end .content --></div>
-    
-  
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+		
+
+<!--#include virtual="/bullying/templates/footer.asp"-->

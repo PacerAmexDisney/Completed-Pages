@@ -40,7 +40,7 @@ document.getElementById(currId).className = "active";
     What Teens Say and What Experts Say</h1>
   <p>Two videos created by BeSmartBeWell  provide insight into how students can help students.</p>
   <h3>Bullies and Bystanders: What Teens Say </h3>
-  <div style="width:640px; margin:10px auto">
+  <div style="width:640px; max-width: 95%; margin:10px auto">
   	<iframe src="//player.vimeo.com/video/101640784" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
   <p>Show the 4 minute video, &ldquo;Bullies and Bystanders: What Teens Say&rdquo; created by BeSmartBeWell</p>
