@@ -1,12 +1,13 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+=<!--#include virtual="/bullying/templates/header.asp"-->
+
 <title>National Bullying Prevention Center - Become a National Partner</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
+<meta property="og:title" content="National Bullying Prevention Center - Become a National Partner" />
+
+<meta property="og:url" content="http://www.pacer.org/bullying/getinvolved/partners" />
+
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+
+<meta property="og:description" content="" />
 <style type="text/css">
 #unity-shirt-ad{display:none;}
 
@@ -31,39 +32,34 @@
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
-
-<script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
 
 
 <div class="breadcrumb"> <a href="/bullying/">Home</a> /<a href="/bullying/getinvolved/">Get Involved</a> /</div>
- <div class="sidebar1">
-<!--#include virtual="/bullying/getinvolved/partners/nav.html"-->
- <!-- end .sidebar1 --></div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"-->
+</div>
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="partners";
+	var currId="unityday";
 	var showTree = "none";
+	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "submenu") {
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "submenuhidden";
 			}
 		}
 	}
 </script>
 
+<!-- ########################## MAIN CONTENT ########################################### -->
  <div class="content"> 
  <h1 id="maincontent" style="margin-bottom:0px;">Partners</h1>
  <p>PACER&rsquo;s National Bullying Prevention Center thanks their community of incredible supporters whose valuable contributions help achieve the mission of leading social change to build safe and supportive communities, that are united against bullying and united for kindness, inclusion and acceptance. These organizations, businesses, and individuals make it possible to reach millions with the message, &ldquo;The End of Bullying Begins With You!&rdquo;</p>
@@ -89,14 +85,4 @@
  Throughout the community, there are nonprofits, schools, and community groups that directly collaborate with PACER&rsquo;s National Bullying Prevention Center sharing resources &mdash; such as classroom toolkits, free bookmarks, awareness raising ideas, petition signing &mdash; to directly engage, educate and empower students.</p>
  </td>
  </tr></table>
- <br class="clearfloat" />
- 
- <!-- end .content --></div>
- 
-
- 
- 
-<!--#include virtual="/bullying/footer.html"-->
- <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

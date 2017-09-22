@@ -62,10 +62,8 @@ Now you can show everyone where Pip has been! <a href="/bullying/pdf/Pip.pdf" ta
 
 
 
-    <br class="clearfloat" />
-    
-    <!-- end .content --></div>
-<div class="sidebar2">
+
+  <div id="rightcontent" style="float:right; margin-top:-117px; margin-left:15px; width:245px;">
 
 <img border="0" src="/bullying/classroom/elementary/activities/images/pip/PipAndTheWethFamily.jpg" width="200" height="186" alt="" /></a>
 <p>PIP and the Weth Family</p>

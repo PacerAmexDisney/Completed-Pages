@@ -1,36 +1,33 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Project Connect Toolkit - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
+<!--#include virtual="/bullying/templates/header.asp"-->
 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Project Connect Toolkit - National Bullying Prevention Center</title>
+
+<meta property="og:title" content="Project Connect Toolkit - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/schoolwide/project-connect.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"--> 
-  
-  <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
   <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/schoolwide/">School Wide</a> /</div>
-  
-  <!-- ######################### NAVIGATION ################################# -->
-  <div class="sidebar1"> 
-  <!--#include virtual="/bullying/classroom/nav.html"--> 
-  <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="sch-projectconnect";	
-	var showTree = "sch-sub";
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"-->
+</div>
+<script type="text/javascript">
+	var currId="unityday";
+	var showTree = "none";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
 document.getElementById(currId).className = "active";
 	}
@@ -42,9 +39,9 @@ document.getElementById(currId).className = "active";
 			}
 		}
 	}
-</script> 
-</div>
-  <!-- ###################### END Navigation ############################## -->
+</script>
+
+<!-- ########################## MAIN CONTENT ########################################### -->
   
   <div class="content" style="min-height:1000px"> 
   <h1 id="maincontent">Project Connect</h1>
