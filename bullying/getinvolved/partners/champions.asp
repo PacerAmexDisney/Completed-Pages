@@ -16,15 +16,30 @@ else
 	standardList = true
 end if
 %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>National Bullying Prevention Center - Become a Champion Against Bullying</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--><style type="text/css">
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta property="fb:app_id" content="271376943231875" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="National Bullying Prevention Center - Become a Champion Against Bullying" />
+<meta property="og:url" content="http://www.pacer.org/bullying/getinvolved/partners/champions.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
+<link rel="shortcut icon" href="http://www.pacer.org/bullying/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/bullying/css/bullying-style.css" />
+<link rel="stylesheet" type="text/css" href="/css/bullying-responsive.min.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript">
+if (typeof jQuery == 'undefined')
+{
+    document.write(unescape("%3Cscript src='/js/jquery-1.12.4.min.js' type='text/javascript'%3E%3C/script%3E"));
+}
+</script>
+
+
+<style>
 table.partnerTable {
 	font-size:.8em;
 	border:1px solid #000;
@@ -46,38 +61,30 @@ table.partnerTable td, #pagecontent table.partnerTable th{
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
-<script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
 
 
 <div class="breadcrumb"> <a href="/bullying/">Home</a> /<a href="/bullying/getinvolved/">Get Involved</a> / <a href="/bullying/getinvolved/partners/">Partners</a> /</div>
- <div class="sidebar1">
-<!--#include virtual="/bullying/getinvolved/partners/nav.html"-->
 
-  <!-- end .sidebar1 --></div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"-->
+</div>
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="champion";
-	var showTree = "partners-sub";
-	var currSubId="none";
+	var currId="unityday";
+	var showTree = "none";
+	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "active";
-	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "submenu") {
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "submenuhidden";
 			}
 		}
@@ -211,7 +218,68 @@ Loop
 
  
  
-<!--#include virtual="/bullying/footer.html"-->
+
+
+        <!-- Bullying Footer -->
+        <div class="footer bullying">
+            <div id="leftCol-branding" class="footer-col">
+                <img id="footer-logo" src="/bullying/images/nbpc-logo-whiteletters.png" alt="PACER's National Bullying Prevention Center" />
+
+                <div class="footer-section offices">
+                    <h4>Minneapolis Office:</h4>
+                    <p>8161 Normandale Blvd. | Bloomington, MN 55437</p>
+                </div>
+
+                <div class="footer-section offices">
+                    <h4>Los Angeles Office:</h4>
+                    <p>80 E. Hillcrest Drive, #203 | Thousand Oaks, CA 91360</p>
+                </div>
+
+                <p class="footer-message">Founded in 2006, PACER&rsquo;s National Bullying Prevention Center actively leads social change, so that bullying is no longer considered an accepted childhood rite of passage.</p>
+
+                <p class="footer e-mail"><a href="mailto:Bullying411@PACER.org">Bullying411@PACER.org</a></p>
+            </div>
+
+            <div id="centerCol-links" class="footer-col has-footer-social">
+                <ul>
+                    <li><a href="/bullying/about/">About Us</a></li>
+                    <li><a href="/bullying/about/news.asp">In The News</a></li>
+                    <li><a href="/bullying/about/history.asp">History</a></li>
+                    <li><a href="/bullying/about/pressroom.asp">Press Releases</a></li>
+                    <li><a href="/bullying/about/media-kit/impact.asp">Impact</a></li>
+                    <li><a href="/bullying/about/media-kit/stats.asp">Stats</a></li>
+                    <li><a href="/bullying/about/media-kit/bios.asp">Bios</a></li>
+                    <li><a href="/bullying/about/media-kit/psa-audio-scripts.asp">PSA Audio Scripts</a></li>
+                    <li><a href="http://www.pacer.org/privacy.asp" target="_blank">Privacy</a></li>
+                    <li><a href="http://www.pacer.org/accessibility.asp" target="_blank" class="leftborder">Accessibility</a></li>
+                </ul>
+            </div>
+            <div id="rightCol-Sites" class="footer-col">
+                <h3>Visit our other sites</h3>
+                <ul>
+                    <li><a class="btn" id="kidsBtn" href="http://www.pacerkidsagainstbullying.org/kab/" target="_blank">KidsAgainstBullying.org <span class="fa fa-external-link"></span></a></li>
+                    <li><a class="btn" id="teensBtn" href="http://www.pacerteensagainstbullying.org/tab/" target="_blank">TeensAgainstBullying.org <span class="fa fa-external-link"></span></a></li>
+                    <li><a class="btn" id="tagBtn" href="http://togetheragainst.org/" target="_blank">TogetherAgainstBullying.org <span class="fa fa-external-link"></span></a></li>
+                </ul>
+            </div>
+            <p id="copywrite" >&copy;2017 PACER Center, Inc.</p>
+        </div>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2136885-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
  <!-- end .container --></div>
+
+
+<script type="text/javascript" src="/js/navigation.js"></script>
+
+
 </body>
 </html>

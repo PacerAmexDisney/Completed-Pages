@@ -3,10 +3,14 @@
 <title>Take the Pledge - National Bullying Prevention Center</title>
 <meta name="description" content="Elementary school students are invited to take the 'Kids Against Bullying' pledge! Students promising to speak up, reach out, and be a friend when they see bullying can download the official certificate.
 " />
-
+<meta property="og:title" content="Take the Pledge - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/take-the-pledge.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="Elementary school students are invited to take the 'Kids Against Bullying' pledge! Students promising to speak up, reach out, and be a friend when they see bullying can download the official certificate.
+" />
 <link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
 <link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
+</head>
 
 <body class="twocol">
 <div class="container">
@@ -56,8 +60,5 @@
     </blockquote>
     <img style="float: left; margin: 20px; border: #999999 1px solid" src="../../images/kab-pledge.jpg" width="200" height="258" alt="Kids Against Bullying Pledge"/>
 <p class="hr">Kids taking the pledge can download the <a href="https://www.pacerkidsagainstbullying.org/wp-content/uploads/2014/07/KABPledge.pdf" target="_blank">official Kids Against Bullying certificate.</a> <img src="/images/pdficon_small.gif" alt="pdf icon" width="15" border="0" height="15" /></p>
-<br class="clearfloat" />
-    
-    <!-- end .content --></div>
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

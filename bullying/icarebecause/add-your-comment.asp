@@ -1,13 +1,26 @@
+<!--#include virtual="/bullying/templates/header.asp"-->
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="description" content="" />
+
 <title>National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--><script src="/SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
+
+
+
+<meta property="og:title" content="National Bullying Prevention Center" />
+
+<meta property="og:url" content="http://www.pacer.org/bullying/icarebecause/add-your-comment.asp" />
+
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+
+<meta property="og:description" content="" />
+
+
+
+<script src="/SpryAssets/SpryValidationTextarea.js" type="text/javascript"></script>
 <script src="/SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
 <link href="/SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css" />
 <link href="/SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
@@ -56,14 +69,12 @@ form.secured .offScreen {
 
 </head>
 
-<body onload="setForm()">
+<body onload="setForm()" class="onecol">
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
-
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
   <div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
 
   <div class="content">
@@ -112,14 +123,8 @@ form.secured .offScreen {
 </form>
    
 <p style="color:#666; font-size:.9em">* - All submissions are reviewed before they are posted to the site.</p>
-    
-
-  <!-- end .content --></div>
-<!--#include virtual="/bullying/footer.html"-->
-  <!-- end .container --></div>
 <script type="text/javascript">
 var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1", {maxChars:1300, validateOn:["blur", "change"], counterId:"countsprytextarea1", counterType:"chars_remaining"});
 var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "integer", {validateOn:["blur"], minValue:1, maxValue:99});
 </script>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

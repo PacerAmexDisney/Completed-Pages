@@ -63,7 +63,7 @@ document.getElementById(currId).className = "active";
 <div style="clear:right"></div>
 
 <h1>Kindness Catcher</h1>
-<p>Young learners will also enjoy sharing the �kindness catcher� with classmates.</p>
+<p>Young learners will also enjoy sharing the 'kindness catcher' with classmates.</p>
 
 <div style="width:600px; margin:0 auto">
 	<div style="width:265px; float:right"><a href="/bullying/classroom/elementary/activities/images/kindness-catcher-bw-thumb.jpg" target="_blank"><img style="display:block; margin:0 auto" src="/bullying/classroom/elementary/activities/images/kindness-catcher-bw-thumb.jpg" alt="" /></a>
@@ -75,9 +75,5 @@ document.getElementById(currId).className = "active";
 </div>
 <div style="clear:right"></div>
 
-</div>
-    <br class="clearfloat" />
-    
-    <!-- end .content --></div>
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

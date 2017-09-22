@@ -4,8 +4,8 @@
 <meta name="description" content="" />
 <title>Community Tool Kits - National Bullying Prevention Center</title>
 
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="Community Tool Kits - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/community" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
 </head>
@@ -60,8 +60,5 @@
 				<p>Unite to improve your community�s bullying prevention law or school policy.</p>
 			</li>
 		</ul>
-		<br class="clearfloat" />
-		
-		<!-- end .content --></div>
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

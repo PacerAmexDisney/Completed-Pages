@@ -1,36 +1,33 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Classroom Toolkits - Introduction to Bullying Prevention Classroom Toolkit - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
+<!--#include virtual="/bullying/templates/header.asp"-->
 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Classroom Toolkits - Introduction to Bullying Prevention Classroom Toolkit - National Bullying Prevention Center</title>
+
+<meta property="og:title" content="Classroom Toolkits - Introduction to Bullying Prevention Classroom Toolkit - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/schoolwide/intro-to-bullying-prevention.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
- <!--#include virtual="/bullying/dynamic-header.html"--> 
- <!--#include virtual="/bullying/topnav.html"--> 
- 
- <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
   <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/schoolwide/">School Wide</a> /</div>
- 
- <!-- ######################### NAVIGATION ################################# -->
- <div class="sidebar1"> 
-  <!--#include virtual="/bullying/classroom/nav.html"--> 
-  <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="sch-intro";	
-	var showTree = "sch-sub";
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"-->
+</div>
+<script type="text/javascript">
+	var currId="unityday";
+	var showTree = "none";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
 document.getElementById(currId).className = "active";
 	}
@@ -42,9 +39,9 @@ document.getElementById(currId).className = "active";
 			}
 		}
 	}
-</script> 
-</div>
- <!-- ###################### END Navigation ############################## -->
+</script>
+
+<!-- ########################## MAIN CONTENT ########################################### -->
  
  <div class="content"> 
   <h1 id="maincontent"><strong>Introduction to Bullying Prevention</strong> Classroom Toolkit</h1>
@@ -116,14 +113,9 @@ Read <em>The Legend of Spookley the Square Pumpkin</em> by Joe Troiano to studen
     <strong>All Ages</strong><br />
     Discuss what can be done in your school to prevent bullying.<br />
   <em>Activity</em>: Record the ideas. Have the students present them to your guidance counselor or principal.</p>
-	 <p><em>Activity</em>: Complete the <a href="https://www.pacerkidsagainstbullying.org/wp-content/uploads/2014/07/Above-the-Line.pdf" target="_blank">Above the Line/Below the Line</a> activity. Together, talk about what &ldquo;above the line&rdquo; behaviors and &ldquo;below the line&rdquo; behaviors are at school. Ask students to commit to promoting “above the line” behaviors within their classroom and school.</p>
+	 <p><em>Activity</em>: Complete the <a href="https://www.pacerkidsagainstbullying.org/wp-content/uploads/2014/07/Above-the-Line.pdf" target="_blank">Above the Line/Below the Line</a> activity. Together, talk about what &ldquo;above the line&rdquo; behaviors and &ldquo;below the line&rdquo; behaviors are at school. Ask students to commit to promoting ï¿½above the lineï¿½ behaviors within their classroom and school.</p>
   <p><em><strong>Elementary School </strong></em><br />
    Along with committing to these positive behaviors, take the <a href="https://pacerkidsagainstbullying.org/join-the-cause/take-the-pledge/" target="_blank">&ldquo;Kids Against Bullying&rdquo;</a> pledge.  Students can also set up a table at school where peers can sign paper copies of the pledge.</p>
   <p><em><strong>Middle and High School</strong></em><br />
     Sign the online <a href="/bullying/pledge/"> &ldquo;Together Against Bullying&rdquo;</a> pledge or set up a table at your school where students can sign paper copies of the pledge.</p>
-<br class="clearfloat" /><!-- end .content -->
- </div>
- <!--#include virtual="/bullying/footer.html"--> 
- <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

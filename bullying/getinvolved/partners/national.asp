@@ -1,12 +1,14 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>National Bullying Prevention Center - Become a National Partner</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--><style type="text/css">
+
+<meta property="og:title" content="National Bullying Prevention Center - Become a National Partner" />
+<meta property="og:url" content="http://www.pacer.org/bullying/getinvolved/partners/national.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
+<style type="text/css">
 table.partnerTable {
 	table-layout:fixed;
 	font-size:.8em;
@@ -48,18 +50,13 @@ table.partnerTable td {
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
-<script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
 
 
 <div class="breadcrumb"> <a href="/bullying/">Home</a> /<a href="/bullying/getinvolved/">Get Involved</a> / <a href="/bullying/getinvolved/partners/">Partners</a> /</div>
+
+
  <div class="sidebar1">
 <!--#include virtual="/bullying/getinvolved/partners/nav.html"-->
 
@@ -110,7 +107,11 @@ table.partnerTable td {
 %>
 </div>
 
- <!-- end .sidebar1 --></div>
+ <!-- end .sidebar1 -->
+ </div>
+
+
+
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
 	// ID and SubId to be Orange
@@ -225,11 +226,4 @@ For i = 0 to 1
  
 
 
-<br class="clearfloat" />
- <!-- end .content --></div>
- 
- 
-<!--#include virtual="/bullying/footer.html"-->
- <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

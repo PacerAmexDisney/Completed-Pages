@@ -5,12 +5,13 @@
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
 <title>Elementary Tool Kits - National Bullying Prevention Center</title>
 
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="Elementary Tool Kits - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/poster.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="Have you ever been bullied? Have you seen bullying? What happened? How did you feel? We want to hear about it! Send us your story, poem, artwork or video on the topic�expressing your ideas on bullying prevention.
+" />
 </head>
 <body class="twocol">
 <div class="container">
@@ -54,11 +55,7 @@
       <p>PACER's National Bullying Prevention Center<br />
         8161 Normandale Blvd.<br />
       Minneapolis, MN 55437 
-      
-      
-      
-      
 <br class="clearfloat" />
-<!-- end .content --></p>
+</p>
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

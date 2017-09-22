@@ -1,27 +1,34 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
-
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Toolkit for Elementary School, Starting the Discussion - National Bullying Prevention Center</title>
-
 <meta name="description" content="A complete classroom tool kit for discussing bullying prevention. Features free downloads of daily activities, games and contests. 
 " />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta property="og:title" content="Toolkit for Elementary School, Starting the Discussion - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/ele-starting-the-discussion.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="A complete classroom tool kit for discussing bullying prevention. Features free downloads of daily activities, games and contests.
+" />
 
+</head>
 <body class="twocol">
-<div class="container"> <a id="skiptocontent" href="#maincontent">Skip to main content</a> 
-  
+<div class="container">
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
-
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a></div>
 
   
-  <!-- ######################### NAVIGATION ################################# -->
-  <div class="sidebar1"> 
-  <!--#include virtual="/bullying/templates/nav.html"-->
-    <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="ele-discuss";	
-	var showTree = "ele-sub";
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"-->
+</div>
+<script type="text/javascript">
+	var currId="unityday";
+	var showTree = "none";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
 document.getElementById(currId).className = "active";
 	}
@@ -33,10 +40,10 @@ document.getElementById(currId).className = "active";
 			}
 		}
 	}
-</script> 
-</div>
+</script>
   <!-- ###################### END Navigation ############################## -->
-  
+
+<!-- ########################## MAIN CONTENT ########################################### -->
   <div class="content" id="top">
     <h1 id="maincontent">Elementary School, Starting the Discussion</h1>
     <div style="width:300px; float:right; margin-right:10px; border:2px solid #772828; padding:10px">
@@ -115,5 +122,4 @@ document.getElementById(currId).className = "active";
     <p><img border="0" src="/images/checkbox.gif" width="14" height="14" alt="checkbox" /> Answer the questions at <a href="http://www.pacerkidsagainstbullying.org/kab/what-is-bullying/did-you-know/" target="_blank">Did You Know?</a></p>
     <br class="clearfloat" />
     
-    <!-- end .content --></div>
 <!--#include virtual="/bullying/templates/footer.asp"-->

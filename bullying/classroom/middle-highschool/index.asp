@@ -3,14 +3,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Elementary Toolkits - National Bullying Prevention Center</title>
 
+<meta name="description" content="" />
+<meta property="og:title" content="Elementary Toolkits - National Bullying Prevention Center" />
+<meta property="og:url" content="Elementary Toolkits - National Bullying Prevention Center" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
+
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
  
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
-  <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Classroom</a> /</div>
-  
+
   <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
     <!--#include virtual="/bullying/templates/nav.html"-->
@@ -59,7 +64,4 @@ document.getElementById(currId).className = "active";
   </li>
   
   </ul>
-  <br class="clearfloat" />
-  
-  <!-- end .content --></div>
 <!--#include virtual="/bullying/templates/footer.asp"-->

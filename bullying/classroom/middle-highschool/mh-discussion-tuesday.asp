@@ -2,7 +2,10 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Starting the Discussion - Tuesday - National Bullying Prevention Center</title>
-
+<meta property="og:title" content="Starting the Discussion - Tuesday - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/mh-discussion-tuesday.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
 </head>
 
 <body class="twocol">
@@ -10,7 +13,7 @@
   
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
-  <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> /</div>
+  <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/">Middle and High School</a> / </div>
   
   <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
@@ -87,7 +90,4 @@ Discussion Questions: </p>
       <li>How could this situation have been resolved more positively?</li>
     </ul>
     <p><a href="/bullying/classroom/middle-highschool/mh-discussion-wednesday.asp">Go To Wednesdays Activities &gt;&gt;&gt;</a></p>
-    <br class="clearfloat" />
-    
-    <!-- end .content --></div>
 <!--#include virtual="/bullying/templates/footer.asp"-->

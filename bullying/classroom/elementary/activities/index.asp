@@ -4,8 +4,8 @@
 <meta name="description" content="" />
 <title>Activities - National Bullying Prevention Center</title>
 
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="Activities - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
  <style type="text/css">
@@ -112,14 +112,14 @@
 			
 						<p>Create a huge banner with the word UNITY  as the central theme. Ask everyone to make a voluntary contribution to sign  the banner, define what unity means to them, or make a suggestion about ways  to unite as a school or organization. This can be done on Unity Day or  anytime during the year.
 	</p>
-				</p></td>
+				</td>
 		</tr>
  
 		  <td><img src="/bullying/resources/toolkits/activities/images/wrinkled-heart-thumb.jpg" alt="" /></td>
 		<td><h2><a href="/bullying/resources/toolkits/activities/wrinkled-heart.asp">A Wrinkled Heart</a></h2>
 			
 						<p>Designed for younger students, &ldquo;A Wrinkled Heart&rdquo; activity provides students with a powerful visual that shows the effects hurtful words or behaviors have on someone. The activity is simple and a great reminder to be kind to others.</p>
-				</p></td>
+				</td>
 		</tr>
 </table>	
 	
@@ -133,10 +133,5 @@
 	
 	
 <p><strong>Want more?</strong> -- Check out over a dozen <a href="/bullying/resources/toolkits/">Educator Toolkits</a> with activities designed for the classroom, community, and toolkits designed by students for students.</p>
-
-<br class="clearfloat" />
-
-  
-  <!-- end .content --></div>
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

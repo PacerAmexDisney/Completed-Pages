@@ -1,38 +1,24 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/bullying/templates/header.asp"-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>National Bullying Prevention Center - Peer Ambassadors</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--><style type="text/css">
-#student-action {
-	margin:10px;
-}
-#student-action td {
-	border-top:2px solid #ccc;
-	margin:10px 0;
-	padding:10px 0;
-}
-</style>
-</head>
+  <meta property="og:title" content="National Bullying Prevention Center - Peer Ambassadors" />
+  <meta property="og:url" content="http://www.pacer.org/bullying/getinvolved/peer-ambassadors.asp" />
+  <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 
-<body>
+  <meta property="og:description" content="" />
 
-<div class="container">
-<a id="skiptocontent" href="#maincontent">Skip to main content</a>
+  </head>
 
+  <body class="onecol">
 
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
-  <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
+  <div class="container">
+
+  <a id="skiptocontent" href="#maincontent">Skip to main content</a>
+
+  <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
   <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/getinvolved/">Get Involved</a> /</div>
+  <!-- ########################## MAIN CONTENT ########################################### -->
 
   <div class="content">
     <a href="/bullying/getinvolved/index.asp"><img src="/bullying/images/arrow-left-orange.png" alt="back" width="75" height="50" style="float:left" /></a><h1 id="maincontent">Peer Ambassadors<em style="font-size:18px; color:#aaa; text-shadow:none;"> - &ldquo;The  End of Bullying Begins With Me&rdquo; </em></h1>
@@ -82,9 +68,4 @@
     </tr>   	 
 
     </table>
-
-  <!-- end .content --></div>
-<!--#include virtual="/bullying/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

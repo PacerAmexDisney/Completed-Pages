@@ -1,39 +1,36 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>Elementary Toolkits - National Bullying Prevention Center</title>
-<!--<meta name="description" content="Free, downloadable toolkits designed for students adn community members to hold events, raise awareness and share information about bullying prevention. 
-" />-->
 
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
+<meta name="description" content="Free, downloadable toolkits designed for students and community members to hold events, raise awareness and share information about bullying prevention.
+" />
+
+<meta property="og:title" content="Elementary Toolkits - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/schoolwide" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="Free, downloadable toolkits designed for students and community members to hold events, raise awareness and share information about bullying prevention.
+" />
 </head>
-
 <body class="twocol">
-<div class="container"> <a id="skiptocontent" href="#maincontent">Skip to main content</a> 
-	
-	<!--#include virtual="/bullying/dynamic-header.html"--> 
-	<!--#include virtual="/bullying/topnav.html"--> 
-	
-	<script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
-</script>
-	<div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Classroom</a> /</div>
-	
-	<!-- ######################### NAVIGATION ################################# -->
-	<div class="sidebar1"> 
-		<!--#include virtual="/bullying/classroom/nav.html"--> 
-		<script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="sch";	
-	var showTree = "sch-sub";
+<div class="container">
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+<div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Classroom</a> /</div>
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"-->
+</div>
+<script type="text/javascript">
+	var currId="unityday";
+	var showTree = "none";
 	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
 document.getElementById(currId).className = "active";
 	}
@@ -45,9 +42,9 @@ document.getElementById(currId).className = "active";
 			}
 		}
 	}
-</script> 
-	</div>
-	<!-- ###################### END Navigation ############################## -->
+</script>
+
+<!-- ########################## MAIN CONTENT ########################################### -->
 	
 	<div class="content">
 		<h1 id="maincontent">All Ages - Schoolwide Toolkits</h1>
@@ -77,10 +74,4 @@ document.getElementById(currId).className = "active";
 				<p>This five-step guide provides helpful information to create a meaningful event; including how to form your committee, setting the date and location, planning your activities, promoting your event, and holding the event.</p>
 			</li>
 		</ul>
-		<br class="clearfloat" />
-		
-		<!-- end .content --></div>
-	<!--#include virtual="/bullying/footer.html"--> 
-	<!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->
