@@ -4,13 +4,14 @@
 <meta name="description" content="A complete classroom tool kit for discussing bullying prevention. Features free downloads of daily activities, games and contests. 
 " />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="Toolkit for Elementary School, Starting the Discussion - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/ele-starting-the-discussion.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="A complete classroom tool kit for discussing bullying prevention. Features free downloads of daily activities, games and contests.
+" />
+
 </head>
-<body class="onecol">
+<body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->

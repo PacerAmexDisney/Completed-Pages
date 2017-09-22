@@ -2,13 +2,16 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Bullies and Bystanders - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-
+<meta property="og:title" content="Bullies and Bystanders - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/bullies-bystanders.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
   <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/">Middle and High School</a> / </div>
   
@@ -60,7 +63,4 @@ document.getElementById(currId).className = "active";
       <li> Learn how adults and students working together can prevent bullying. <a href="http://besmartbewell.com/spotlight-newsletter/bullying/bullies-and-bystanders.htm" target="_blank">Read the article&gt;&gt;&gt;</a></li>
       </ul>
   </div>
-<br class="clearfloat" />
-  
-  <!-- end .content --></div>
 <!--#include virtual="/bullying/templates/footer.asp"-->

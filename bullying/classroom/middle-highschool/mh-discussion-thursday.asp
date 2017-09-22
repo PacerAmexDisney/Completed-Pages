@@ -2,7 +2,10 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Starting The Discussion - Thursday - National Bullying Prevention Center</title>
-
+<meta property="og:title" content="Starting The Discussion - Thursday - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/mh-discussion-thursday.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
 </head>
 
 <body class="twocol">
@@ -85,7 +88,4 @@ document.getElementById(currId).className = "active";
     <li>What could you do as a bystander when you see cyberbullying?</li>
     </ul>
     <p><a href="/bullying/classroom/middle-highschool/mh-discussion-friday.asp">Go To Fridays Activities &gt;&gt;&gt;</a></p>
-    <br class="clearfloat" />
-    
-    <!-- end .content --></div>
 <!--#include virtual="/bullying/templates/footer.asp"-->

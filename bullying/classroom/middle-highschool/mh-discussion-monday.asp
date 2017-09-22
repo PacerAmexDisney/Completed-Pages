@@ -2,8 +2,10 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Monday - Starting the Discussion - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
+<meta property="og:title" content="Monday - Starting the Discussion - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/mh-discussion-monday.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
 <style type="text/css">
 .navbox{
 	width:180px;
@@ -137,7 +139,4 @@ Discussion Questions:</p>
         </ul>
 
 <p><a href="/bullying/classroom/middle-highschool/mh-discussion-tuesday.asp">Go To Tuesdays Activities &gt;&gt;&gt;</a></p>
-    <br class="clearfloat" />
-    
-    <!-- end .content --></div>
 <!--#include virtual="/bullying/templates/footer.asp"-->

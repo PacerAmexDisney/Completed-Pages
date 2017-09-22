@@ -1,36 +1,33 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Classroom Toolkits - Marina V - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
+<!--#include virtual="/bullying/templates/header.asp"-->
 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Classroom Toolkits - Marina V - National Bullying Prevention Center</title>
+
+<meta property="og:title" content="Classroom Toolkits - Marina V - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/student/marinav.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
- <!--#include virtual="/bullying/dynamic-header.html"--> 
- <!--#include virtual="/bullying/topnav.html"--> 
- 
- <script type="text/javascript">
-	var navId="none";
-	if (document.getElementById(navId)){
-		document.getElementById(navId).className = document.getElementById(navId).className+" active";
-	}
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+<div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"-->
+</div>
+<script type="text/javascript">
+	var currId="unityday";
+	var showTree = "none";
+	var showTree2 = "none";
 </script>
-  <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/middle-highschool/">Middle and High School</a> / <a href="/bullying/classroom/middle-highschool/student/">Student Created Toolkits</a></div>
- 
- <!-- ######################### NAVIGATION ################################# -->
- <div class="sidebar1"> 
-  <!--#include virtual="/bullying/templates/nav.html"-->
-  <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="mid-student-marina";
-	var showTree = "mid-sub";
-	var showTree2 = "mid-student-sub";
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
 document.getElementById(currId).className = "active";
 	}
@@ -42,9 +39,9 @@ document.getElementById(currId).className = "active";
 			}
 		}
 	}
-</script> 
- </div>
- <!-- ###################### END Navigation ############################## -->
+</script>
+
+<!-- ########################## MAIN CONTENT ########################################### -->
  
  <div class="content"> 
   <h1 id="maincontent">Marina V</h1>
@@ -64,9 +61,4 @@ document.getElementById(currId).className = "active";
       <p>Website: <a href="http://www.MarinaV.com">http://www.MarinaV.com <span class="fa fa-external-link"></span></a><br />
       Facebook: <a href="http://www.facebook.com/MarinaVmusic">http://www.facebook.com/MarinaVmusic <span class="fa fa-external-link"></span></a><br />
       Twitter: <a href="https://twitter.com/MarinaV">https://twitter.com/MarinaV <span class="fa fa-external-link"></span></a></p>
-<br class="clearfloat" /><!-- end .content -->
-</div>
- <!--#include virtual="/bullying/footer.html"--> 
- <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

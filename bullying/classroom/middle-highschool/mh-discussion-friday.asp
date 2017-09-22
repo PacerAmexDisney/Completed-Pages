@@ -2,10 +2,10 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Starting The Discussion - Friday - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-
-
+<meta property="og:title" content="Starting The Discussion - Friday - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/mh-discussion-friday.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
 </head>
 
 <body class="twocol">
@@ -54,11 +54,7 @@ document.getElementById(currId).className = "active";
     <li><a href="/bullying/classroom/middle-highschool/mh-discussion-keep-going.asp">Keep Going</a></li>
     </ul>
 </div>
-
-	
 	<p><em><strong>The End of Bullying Begins with You</strong></em></p>
-
-
   <h3>Morning Announcement</h3>
 <p>Today &rsquo;s theme is &ldquo;The End of Bullying Begins with You.&rdquo; Bullying prevention takes a united effort of students and adults. It also takes an individual effort. It is about each person taking responsibility. The end of bullying begins with the principal, the end of bullying begins with teachers, the end of bullying begins with all school personnel, and the end of bullying also begins with you--with each student being willing to say that bullying will not be accepted and that everyone has a right to be safe at school.</p>
 <h3><strong>Classroom Education and Activities</strong></h3>
@@ -74,8 +70,4 @@ document.getElementById(currId).className = "active";
 		
 <p><a href="/bullying/classroom/middle-highschool/mh-discussion-keep-going.asp">More Than A Week - Keep The Momentum Going  &gt;&gt;&gt;</a></p>
 
-
-
-    <br class="clearfloat" />
-    
 <!--#include virtual="/bullying/templates/footer.asp"-->

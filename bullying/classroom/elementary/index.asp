@@ -4,8 +4,8 @@
 <meta name="description" content="" />
 <title>Elementary Tool Kits - National Bullying Prevention Center</title>
 
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="Elementary Tool Kits - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
 <body class="twocol">
@@ -70,8 +70,5 @@ document.getElementById(currId).className = "active";
         <p>Use the KidsAgainstBullying.org website as a resource tool in your classroom. The site is appropriate for elementary school students with a suggested audience of 10-25 students.</p>
       </li>
     </ul>
-    <br class="clearfloat" />
-    
-    <!-- end .content --></div>
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

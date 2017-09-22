@@ -3,6 +3,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Elementary School Educational Lesson Plan - National Bullying Prevention Center</title>
 
+    <meta property="og:title" content="Elementary School Educational Lesson Plan - National Bullying Prevention Center"/>
+    <meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/ele-lesson-plan.asp"/>
+    <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg"/>
+    <meta property="og:description" content=""/>
+
 <body class="twocol">
 <div class="container"> <a id="skiptocontent" href="#maincontent">Skip to main content</a> 
   
@@ -102,7 +107,4 @@ document.getElementById(currId).className = "active";
       <strong>This lesson plan may be reproduced for internal use.<br />
       �2006 PACER Center.</strong> </p>
     <p class="footnote"> <em>PACER's National Bullying Prevention Center promotes bullying awareness, teaches effective ways to respond to bullying, and prevents bullying of all children, especially those with disabilities. </em></p>
-    <br class="clearfloat" />
-    
-    <!-- end .content --></div>
 <!--#include virtual="/bullying/templates/footer.asp"-->

@@ -2,6 +2,11 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Middle and High School Starting the Discussion Toolkit - National Bullying Prevention Center</title>
+<meta property="og:title" content="Middle and High School Starting the Discussion Toolkit - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/mh-video-discussion.asp
+" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
 </head>
 
 <body class="twocol">
@@ -56,9 +61,5 @@ document.getElementById(currId).className = "active";
 			<a href="http://www.pacer.org/bullying/resources/cyberbullying/teen-talk.asp#sulekha"><img style="border:1px solid #fff; margin-left:10px" src="../../getinvolved/images/sulekha-thumb.jpg" width="150" height="188" alt=""></a>			
 		</div>
  <h2>Video Production</h2>
-		<p>Special thanks to Chad Gerkin, a videographer from Minnesota who shared that he has loved movies and cameras since he was a little boy. As a result of his passion, growing up, he spent most of the money on equipment to make videos. In 2014, he attended Art Institute in Minneapolis and also started his own production company, Vinci Productions. His film making goal is to have an organic and real vision of the world. To date, he has done a wide variety of videos and is off to a great start with his career!</p>  
-  
-<br class="clearfloat" />
-    
-    <!-- end .content --></div>
+		<p>Special thanks to Chad Gerkin, a videographer from Minnesota who shared that he has loved movies and cameras since he was a little boy. As a result of his passion, growing up, he spent most of the money on equipment to make videos. In 2014, he attended Art Institute in Minneapolis and also started his own production company, Vinci Productions. His film making goal is to have an organic and real vision of the world. To date, he has done a wide variety of videos and is off to a great start with his career!</p>
 <!--#include virtual="/bullying/templates/footer.asp"-->
