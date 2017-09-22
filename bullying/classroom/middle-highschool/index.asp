@@ -15,8 +15,7 @@
  
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
-  <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/resources/">Classroom</a> /</div>
-  
+
   <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1"> 
     <!--#include virtual="/bullying/templates/nav.html"-->
