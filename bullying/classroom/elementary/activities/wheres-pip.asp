@@ -1,33 +1,38 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Where&rsquo;s Pip? - National Bullying Prevention Center</title>
 <meta name="description" content="Pip, the hamster mascot of the Club Crew, loves to go to new places and meet new kids, you never know where Pip might show up. Pip might be found on the playground, in the classroom, or playing baseball. Now you can show everyone where Pip has been!
 " />
 
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
-
-<body class="threecol">
+<meta property="og:title" content="Where&rsquo;s Pip? - National Bullying Prevention Center" />
+<meta property="og:url" content="Pip, the hamster mascot of the Club Crew, loves to go to new places and meet new kids, you never know where Pip might show up. Pip might be found on the playground, in the classroom, or playing baseball. Now you can show everyone where Pip has been!
+" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="Pip, the hamster mascot of the Club Crew, loves to go to new places and meet new kids, you never know where Pip might show up. Pip might be found on the playground, in the classroom, or playing baseball. Now you can show everyone where Pip has been!
+" />
+</head>
+<body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
- 
-  <!--#include virtual="/bullying/dynamic-header.html"--> 
-  <!--#include virtual="/bullying/topnav.html"-->
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/activities">Activities</a></div>
-<!-- ######################### NAVIGATION ################################# -->
-  <div class="sidebar1"> 
-  <!--#include virtual="/bullying/templates/nav.html"-->
-    <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="ele-activities-pip";
-	var showTree = "ele-sub";
-	var showTree2 = "ele-activities-sub";
+
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"-->
+</div>
+<script type="text/javascript">
+	var currId="unityday";
+	var showTree = "none";
+	var showTree2 = "none";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
@@ -37,9 +42,9 @@
 			}
 		}
 	}
-</script> 
-  </div>
-  <!-- ###################### END Navigation ############################## -->
+</script>
+
+<!-- ########################## MAIN CONTENT ########################################### -->
   
   <div class="content"> 
     <h1 id="maincontent">Where's Pip?</h1>

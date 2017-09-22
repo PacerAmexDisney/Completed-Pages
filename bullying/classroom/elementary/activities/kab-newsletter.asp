@@ -3,10 +3,11 @@
 <title>Kids Against Bullying Newsletter - National Bullying Prevention Center</title>
 <meta name="description" content="The Kids Against Bullying newsletter is specially designed for elementary students. It includes lots of information and ideas about National Bullying Prevention Month in October, and how kids can become involved in their own school on Unity Day.
 " />
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="Kids Against Bullying Newsletter - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/kab-newsletter.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="The Kids Against Bullying newsletter is specially designed for elementary students. It includes lots of information and ideas about National Bullying Prevention Month in October, and how kids can become involved in their own school on Unity Day.
+" />
 </head>
 <body class="twocol">
 <div class="container">
@@ -46,8 +47,6 @@
 	<ul>
     <li class="pdficonlist"><a href="/bullying/classroom/elementary/activities/pdf/kab-newsletter-Sept2016.pdf" target="_blank">September 2016</a></li>
     </ul>
-<br class="clearfloat" />
-    
-    <!-- end .content --></div>
+
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

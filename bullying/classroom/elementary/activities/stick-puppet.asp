@@ -3,6 +3,11 @@
 <title>Stick Puppet Role Plays - National Bullying Prevention Center</title>
 <meta name="description" content="Role plays are an interactive method to creatively engage elementary school children to learn options for handling bullying situations. Stick puppet plays incorporate the Kids Against Bullying Club Crew members.
 " />
+<meta property="og:title" content="Stick Puppet Role Plays - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/stick-puppet.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="Role plays are an interactive method to creatively engage elementary school children to learn options for handling bullying situations. Stick puppet plays incorporate the Kids Against Bullying Club Crew members.
+" />
 
 </head>
 <body class="twocol">
@@ -42,7 +47,7 @@
   
   <div class="content"> 
     <h1 id="maincontent">Stick Puppet Role Plays Featuring the Club Crew</h1>
-  <img src="/bullying/classroom/elementary/activities/scripts/clubcrewimg.jpg" width="225" height="314" alt="" class="fltrt" />
+  <img src="/bullying/classroom/elementary/activities/scripts/clubcrewimg.jpg" width="225" height="314" alt="" class="fltrt mobileCentered" />
 <p>
 Role plays are an interactive method to creatively engage elementary school children to learn options for handling bullying situations. The following stick puppet plays incorporate the Kids Against Bullying Club Crew members. 
 </p>
@@ -118,8 +123,5 @@ In discussing options, it is important to note that students often will decide o
 <p>Special thanks to Barb Roy, the playwright for the Club Crew puppet role plays and the middle- and high-school role plays.<br />
     <br />
     <em>&quot;I am the mother of an adult son with autism. Over the years, he has been the victim of teasing and bullying many times. Thanks to the efforts of his champions: his second grade teacher-who taught his classmates to be human, his older brother- who taught him how to be a &quot;guy&quot;, and his father-who is his biggest fan-he has been able to rise above those incidents. My many years of teaching have given me tremendous faith in kids-talk to them honestly, and they will listen. They are the ones who can stop bullying in its tracks. I  also believe in the power of theatre to change people. I hope that these scripts will give teachers a place to begin discussion and also a fun classroom activity.&quot; Barb</em></p>
-<br class="clearfloat" />
-    
-    <!-- end .content --></div>
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

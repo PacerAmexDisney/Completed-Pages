@@ -4,7 +4,12 @@
 <title>A Wrinkled Heart - National Bullying Prevention Center</title>
 <meta name="description" content="Bullying was once considered a harmless rite of childhood experienced by many, but research today shows the short- and long-term effects on a child�s education, health, and safety. Designed for younger students, �A Wrinkled Heart� activity provides students with a powerful visual that shows the effects hurtful words or behaviors have on someone. The activity is simple and a great reminder to be kind to others.
 " />
-
+<meta property="og:title" content="A Wrinkled Heart - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/wrinkled-heart.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="Bullying was once considered a harmless rite of childhood experienced by many, but research today shows the short- and long-term effects on a child�s education, health, and safety. Designed for younger students, �A Wrinkled Heart� activity provides students with a powerful visual that shows the effects hurtful words or behaviors have on someone. The activity is simple and a great reminder to be kind to others.
+" />
+</head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
@@ -55,8 +60,5 @@
       </tr></table>
     <p>Once you have finished sharing examples, ask the students how the heart looks. Discuss the effects that hurtful behaviors can have on someone&rsquo;s heart, as the wrinkles never come all the way out. Together, talk about ways students can demonstrate kind behaviors toward their peers and not cause wrinkles in other hearts!</p>
     <p><strong>Special thanks</strong> to Tracy Hoexter, author of &ldquo;A Wrinkled Heart.&rdquo; This activity can be used with Tracy&rsquo;s eBook, which can be purchased on <a href="http://itunes.apple.com/us/book/id1038309624" target="_blank">iTunes</a> or <a href="http://www.amazon.com/dp/B014X65DQM" target="_blank">Amazon</a>. As you read along, fold the heart each time Elliott&rsquo;s heart wrinkles. Then press it back out for each positive action.</p>
-<p><br class="clearfloat" />
-      
-      
-      <!-- end .content --></p>
+<p><br class="clearfloat" /></p>
 <!--#include virtual="/bullying/templates/footer.asp"-->
