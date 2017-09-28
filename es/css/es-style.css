@@ -1,0 +1,25 @@
+#header {
+	position:relative;
+}
+#returnTab {
+	width:15em;
+	font-size:.9em; 
+	text-align:center; 
+	background-color:#FFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top:1px solid #00769d; 
+	border-left:1px solid #00769d; 
+	border-right:1px solid #00769d; 
+	position:absolute; 
+	top:-21px; 
+	right:-1px; 
+	padding-bottom:3px;"
+}
+#header #returnTab a {
+	color:#666;
+	font-weight:normal;
+}
+body{
+	padding-top:15px;
+}
