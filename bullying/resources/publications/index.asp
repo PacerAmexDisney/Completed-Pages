@@ -1,7 +1,7 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 <!--#include virtual="/Connections/PACER_WEB.asp" -->
 <%
-'Get Bullying Publications recordset
+'Get Bullying Publications recordset'
 Dim rs, rs_cmd
 Set rs_cmd = Server.CreateObject ("ADODB.Command")
 rs_cmd.ActiveConnection = MM_PACER_WEB_STRING
@@ -45,6 +45,13 @@ End Sub
 <meta property="og:description" content="National Bullying Prevention Center - Publications" />
 
 <link href="/css/flexbox-responsive-min.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+	.content li {
+		list-style: none;
+	}
+</style>
+
+
 </head>
 <body class="twocol">
 <div class="container">
@@ -161,7 +168,7 @@ document.getElementById(currId).className = "active";
    <li id="notifytheschool">
 <h2>Downloadable Handouts and Information</h2>
 
-<div class="alertBox" style="float:left; width: 100%;">Check Out our <a href="/bullying/resources/publications/spanish-materials.asp">Spanish</a> and <a href="/bullying/resources/publications/somali-materials.asp">Somali</a> translated materials.</div>
+<div class="alertBox" style="max-width:80%;">Check Out our <a href="/bullying/resources/publications/spanish-materials.asp">Spanish</a> and <a href="/bullying/resources/publications/somali-materials.asp">Somali</a> translated materials.</div>
 
 <div class="pub-description" style="clear:right;">
      <p class="topline"><a href="http://www.pacer.org/publications/bullypdf/BP-18.pdf" target="_blank">Bullying and Harassment of Students with Disabilities - Top 10 Facts for Parents, Educators and Students</a></p>
@@ -230,7 +237,7 @@ document.getElementById(currId).className = "active";
 
 
 
-<%'################################### Disability Database ITEMS ###################################
+<%'################################### Disability Database ITEMS ###################################'
  rs.MoveFirst
  Do Until rs.EOF
 	If IsDisabilityPub(rs.Fields.Item("pub_code").Value) Then
@@ -238,7 +245,7 @@ document.getElementById(currId).className = "active";
 	End If
  	rs.MoveNext
  Loop
- '################################# END Disability Database ITEMS ################################# %>
+ '################################# END Disability Database ITEMS #################################' %>
    <li>
     <div class="pub-description"><strong class="topline"><a href="http://www.ncwd-youth.info/information-brief-29" target="_blank">Bullying and Disability Harassment in the Workplace: What Youth Should Know</a></strong>
      <p> This InfoBrief was developed by PACER Center in partnership with the <a href="http://www.ncwd-youth.info/" target="_blank">National Collaborative on Workforce and Disability for Youth</a>. The InfoBrief is designed to help youth, including youth with disabilities, recognize signs of bullying in the workplace. It offers examples of bullying situations at work and strategies to help address the issue. Much is understood about the negative consequences of bullying at school, but youth should also be made aware that bullying does not always end at school and is often encountered at work. </p>
@@ -246,9 +253,14 @@ document.getElementById(currId).className = "active";
    </li>
   </ul>
   <h2>Articles by PACER&rsquo;s NBPC Staff</h2>
+  
+  <ul>
+  <li>
+  
   <p><a href="https://www.stopbullying.gov/blog/2016/10/17/unity-day" target="_blank">Preventing bullying of students with disabilities: Four things parents and educators should know</a><br />
     Did you know that a student with a disability is two to three times <a href="http://www.pacer.org/bullying/resources/stats.asp" target="_blank">more likely to be bullied</a>? Bullying can affect a student’s physical and emotional health, and it can interfere with a student’s right to receive an education. Posted to StopBullying.gov blog on October 17, 2016.</p>
-
+	</li>
+   <li>
     <div class="flex" id="Row1">
        <article class="flexItemDescription">
          <a href="http://ptaourchildren.org/2017/04/14/understand-cyberbullying/" target="_blank">Helping Your Child Understand Cyberbullying</a><br>
@@ -258,17 +270,23 @@ document.getElementById(currId).className = "active";
           <img src="/bullying/resources/publications/images/pta-magazine-cover.jpg" width="250" height="325" class="fltrt" alt=""/>
         </aside>
      </div>
-
+	 </li>
+	 <li>
   <p><a href="https://www.babble.com/parenting/bullying-affects-all-of-our-kids-even-if-they-arent-the-target/" target="_blank">Bullying Affects All of Our Kids, Even If They Aren't the Target</a><br />
     Bullying affects everyone involved. Whether the child is the target, a witness, or the person who bullies, the end result is that everyone feels less safe. Children aren’t responsible for resolving a bullying situation, but their opinions about how to proceed should be encouraged and respected. Posted on Babble.com.</p>
-  <p><a href="https://www.babble.com/parenting/speaking-up-about-being-bullied-isnt-tattling-and-our-kids-need-to-know-the-difference/" target="_blank">Speaking Up About Being Bullied Isn't &quot;Tattling&quot;</a><br />
+	</li>
+  <li>
+   <p><a href="https://www.babble.com/parenting/speaking-up-about-being-bullied-isnt-tattling-and-our-kids-need-to-know-the-difference/" target="_blank">Speaking Up About Being Bullied Isn't &quot;Tattling&quot;</a><br />
     Many children who are bullied don’t report it. Younger children often don’t recognize bullying behaviors, and may be afraid they’ll be called a tattletale, or worse, if they tell an adult. It’s especially important to talk openly with your young child about bullying behavior, and to explain the difference between tattling and telling. Posted on Babble.com.</p>
+	</li>
+	<li>
   <p><a href="https://www.babble.com/parenting/tips-for-raising-an-empathetic-child-starting-in-preschool/" target="_blank">5 Tips for Raising an Empathetic Child - Starting in Preschool</a><br />
   Anyone who’s raised a child knows that babies and toddlers aren’t yet capable of understanding empathy, but children who are just a little bit older can surprise you with their capacity for learning caring behavior. This blog post shares simple ways to teach empathy to preschool-aged children. Posted on Babble.com.</p>
+  </li>
+  <li>
 	  <p><a href="https://www.babble.com/parenting/what-if-your-child-is-the-one-doing-the-bullying/" target="_blank">What If Your Child Is the One Doing the Bullying?</a><br />
     The news that your child is bullying can come as a surprise to parents and reactions vary greatly. Denial is a common initial response – “Not my kid!” – followed by confusion – “How could this happen?” But eventually, the reality sinks in, and that’s when the question becomes, “What should I do?”</p>
-<br class="clearfloat" />
-
-
+	</li>
+	</ul>
 
 <!--#include virtual="/bullying/templates/footer.asp"-->
