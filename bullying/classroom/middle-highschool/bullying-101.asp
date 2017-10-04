@@ -1,12 +1,24 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>National Bullying Prevention Center - Bullying 101</title>
 
 <meta property="og:title" content="National Bullying Prevention Center - Bullying 101" />
 <meta property="og:url" content="National Bullying Prevention Center - Bullying 101" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
+
+<style>
+.back-nav-link {
+  text-align:right;
+}
+@media (max-width: 750px) {
+  .back-nav-link {
+    text-align:left;
+  }
+}
+</style>
+
 </head>
 <body class="twocol">
 <div class="container">
@@ -45,7 +57,7 @@ document.getElementById(currId).className = "active";
 <script type="text/javascript">
 //<![CDATA[
 		if (history.length > 1) {
-		document.write('<p style="text-align:right"><a href="javascript:history.back();">&lt;&lt;&lt; Return to Previous Page<\/a><\/p>');
+		document.write('<p class="back-nav-link"><a href="javascript:history.back();">&lt;&lt;&lt; Return to Previous Page<\/a><\/p>');
 		}
 //]]></script>
 

@@ -8,6 +8,16 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/student/butterfly.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
+<style>
+.video-iframe {
+  max-width: 100%;
+}
+@media (max-width: 736px) {
+  .video-iframe {
+    height: 320px;
+  }
+}
+</style>
 </head>
 <body class="twocol">
 <div class="container">
@@ -53,8 +63,8 @@ document.getElementById(currId).className = "active";
   </div>
   <p><em>By Lizzie Sider, Jamie O'Neal, Lisa Drew, Jimmy Murphy</em></p>
   <p>Lizzie is a country music singer/songwriter, who experienced verbal teasing and ridiculing from other children in elementary school. Her song, &ldquo;Butterfly&rdquo; tells her story and how she overcame her situation. Lizzie is passionate about helping raise awareness about bullying, and trying to effect change.</p>
-	<div style="width:640px; margin:20px auto;">
-	  <iframe width="640" height="360" src="//www.youtube.com/embed/KJuu1hKo-u8?rel=0" frameborder="0" allowfullscreen></iframe>
+	<div style="margin:20px auto;">
+	  <iframe class="video-iframe" width="640" height="360" src="//www.youtube.com/embed/KJuu1hKo-u8?rel=0" frameborder="0" allowfullscreen></iframe>
 	</div>    
     <h3>Discussion Questions</h3>
     <p>After watching &ldquo;Butterfly,&rdquo; share the discussion questions with your student audience. <a href="/bullying/classroom/middle-highschool/student/pdf/Butterfly_Discussion_Questions.pdf" target="_blank">Download Butterfly Discussion Questions</a></p>

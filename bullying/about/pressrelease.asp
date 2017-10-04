@@ -4,8 +4,8 @@
 <meta name="description" content="" />
 <title>National Bullying Prevention Center - Pressroom</title>
 
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="National Bullying Prevention Center - Pressroom" />
+<meta property="og:url" content="http://www.pacer.org/bullying/about/pressrelease.asp?file=<%=Request.QueryString("file")%>" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
 </head>
@@ -117,7 +117,7 @@ Set FSO = nothing
  
 <br class="clearfloat" />
  
+<!--#include virtual="/bullying/templates/footer.asp"-->
  <!-- end .content --></div>
 <!-- ########################## END MAIN CONTENT ########################################### -->
-<!--#include virtual="/bullying/templates/footer.asp"-->
 

@@ -2,12 +2,28 @@
 
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
  <meta name="description" content="" />
-<title>Classroom Toolkits - Jetset Getset - Stronger (Than You Seem) - National Bullying Prevention Center</title>
+<title>Classroom Toolkits - Strain - Stronger (Than You Seem) - National Bullying Prevention Center</title>
 
- <meta property="og:title" content="Classroom Toolkits - Jetset Getset - Stronger (Than You Seem) - National Bullying Prevention Center" />
+ <meta property="og:title" content="Classroom Toolkits - Strain - National Bullying Prevention Center" />
  <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/student/strain.asp" />
  <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
  <meta property="og:description" content="" />
+<style>
+.video-iframe {
+  max-width: 100%;
+  margin-left: 15px;
+}
+@media (max-width: 750px) {
+  .video-iframe {
+    height: 320px;
+  }
+}
+@media (max-width: 640px) {
+  .video-iframe {
+    margin-left: 0px;
+  }
+}
+</style>
  </head>
  <body class="twocol">
  <div class="container">
@@ -44,7 +60,7 @@
  <!-- ########################## MAIN CONTENT ########################################### -->
  <div class="content"> 
   <h1 id="maincontent">Strain</h1>
-  <div class="alertBox">
+  <div class="alertBox mobileCentered">
   	<h2>Downloads</h2>
     <ul>
     	<li class="pdficonlist"><a href="/bullying/classroom/middle-highschool/student/pdf/STRAIN_WriteLetter.pdf" target="_blank">Letter Writing Exercise</a></li>
@@ -56,8 +72,8 @@
     <p>Note: This video does address the issue of suicide, before showing in a classroom, please take into consideration if the content is appropriate for your audience.</p>
     <p>Strain is directed by Yin Chang. Her 16- and 17-year-old sisters, Lelina Chang and Melora Chang, are associate producers. For a behind the scenes look, visit the <a href="http://strainfilm.com" target="_blank">STRAIN website</a>.</p>
 	
-	<div style="width:640px; margin:20px auto;">
-		<iframe width="640" height="360" src="//www.youtube.com/embed/9QbrRsOF0YA?rel=0" frameborder="0" allowfullscreen></iframe>
+	<div style="margin:20px auto;">
+		<iframe class="video-iframe" width="640" height="360" src="//www.youtube.com/embed/9QbrRsOF0YA?rel=0" frameborder="0" allowfullscreen></iframe>
 	</div>    
 	
 	<h3>Toolkit Activities</h3>

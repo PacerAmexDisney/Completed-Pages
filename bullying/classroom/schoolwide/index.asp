@@ -1,7 +1,6 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
 <title>Elementary Toolkits - National Bullying Prevention Center</title>
 
 <meta name="description" content="Free, downloadable toolkits designed for students and community members to hold events, raise awareness and share information about bullying prevention.
@@ -12,6 +11,16 @@
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="Free, downloadable toolkits designed for students and community members to hold events, raise awareness and share information about bullying prevention.
 " />
+<style>
+@media (max-width: 560px) {
+  .featured-img {
+    float:none;
+    margin-left:auto;
+    margin-right:auto;  
+    display: block;
+  }
+}
+</style>
 </head>
 <body class="twocol">
 <div class="container">
@@ -49,7 +58,7 @@ document.getElementById(currId).className = "active";
 	<div class="content">
 		<h1 id="maincontent">All Ages - Schoolwide Toolkits</h1>
 		<ul>
-			<img class="fltrt" src="/bullying/classroom/images/school-wide-circle.jpg" width="330" height="330" alt=""/>
+			<img class="fltrt featured-img" src="/bullying/classroom/images/school-wide-circle.jpg" width="330" height="330" alt=""/>
 			<li><a href="/bullying/classroom/schoolwide/intro-to-bullying-prevention.asp">Introduction to Bullying Prevention</a>
 				<p>Looking for a way to introduce bullying prevention and awareness into your classroom, school, or community organization? This five lesson toolkit contains daily learning opportunities and several options of engaging activities to get students talking about solutions to prevent bullying.</p>
 			</li>

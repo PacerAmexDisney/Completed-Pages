@@ -17,10 +17,6 @@
 
   <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/schoolwide/">School Wide</a> /</div>
 
-<!-- ########################## LEFT NAV ########################################### -->
-<div class="sidebar1">
-    <!--#include virtual="/bullying/templates/nav.html"-->
-</div>
 <script type="text/javascript">
 	var currId="unityday";
 	var showTree = "none";
@@ -68,10 +64,5 @@ document.getElementById(currId).className = "active";
 </p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<br class="clearfloat" />
-  
-  <!-- end .content --></div>
-  <!--#include virtual="/bullying/footer.html"--> 
-  <!-- end .container --></div>
-</body>
-</html>
+
+<!--#include virtual="/bullying/templates/footer.asp"-->  

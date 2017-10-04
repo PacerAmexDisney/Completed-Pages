@@ -65,7 +65,7 @@ Read <em>The Legend of Spookley the Square Pumpkin</em> by Joe Troiano to studen
     <em>Activity: </em>Use the <em><a href="http://www.pacer.org/bullying/classroom/elementary/spookley/" target="_blank">Stop Bullying Before it Starts</a></em> toolkit<strong>.</strong> Activities include discussions, art projects, and other creative options. </p>
   <p><em><strong>Middle and High School </strong></em><br />
     As a class, talk about what it means to have legal protections. Develop 3-4 things students think a law against bullying should have/do. <br />
-  <em>Activity: </em>Divide students into groups and instruct each group to use the information provided on these pages: <a href="http://www.pacerteensagainstbullying.org/tab/you-are-not-alone/know-your-rights/" target="_blank">Know Your Rights</a>&nbsp;and&nbsp;<a href="http://www.stopbullying.gov" target="_blank">StopBullying.gov</a> to develop a summary of their state&rsquo;s laws. Evaluate how well the state&rsquo;s law fits the criteria developed by the class. Ask each group to come up with 3-4 suggestions to improve the law.&nbsp; </p>
+  <em>Activity: </em>Divide students into groups and instruct each group to use the information provided on these pages: <a href="http://www.pacerteensagainstbullying.org/tab/you-are-not-alone/know-your-rights/" target="_blank">Know Your Rights</a> and <a href="http://www.stopbullying.gov" target="_blank">StopBullying.gov</a> to develop a summary of their state&rsquo;s laws. Evaluate how well the state&rsquo;s law fits the criteria developed by the class. Ask each group to come up with 3-4 suggestions to improve the law.</p>
   <p><strong>&nbsp;</strong></p>
   <p><strong><u>Wednesday</u></strong><strong><br />
     Elementary School: </strong><br />
@@ -113,7 +113,7 @@ Read <em>The Legend of Spookley the Square Pumpkin</em> by Joe Troiano to studen
     <strong>All Ages</strong><br />
     Discuss what can be done in your school to prevent bullying.<br />
   <em>Activity</em>: Record the ideas. Have the students present them to your guidance counselor or principal.</p>
-	 <p><em>Activity</em>: Complete the <a href="https://www.pacerkidsagainstbullying.org/wp-content/uploads/2014/07/Above-the-Line.pdf" target="_blank">Above the Line/Below the Line</a> activity. Together, talk about what &ldquo;above the line&rdquo; behaviors and &ldquo;below the line&rdquo; behaviors are at school. Ask students to commit to promoting �above the line� behaviors within their classroom and school.</p>
+	 <p><em>Activity</em>: Complete the <a href="https://www.pacerkidsagainstbullying.org/wp-content/uploads/2014/07/Above-the-Line.pdf" target="_blank">Above the Line/Below the Line</a> activity. Together, talk about what &ldquo;above the line&rdquo; behaviors and &ldquo;below the line&rdquo; behaviors are at school. Ask students to commit to promoting &ldquo;above the line&rdquo; behaviors within their classroom and school.</p>
   <p><em><strong>Elementary School </strong></em><br />
    Along with committing to these positive behaviors, take the <a href="https://pacerkidsagainstbullying.org/join-the-cause/take-the-pledge/" target="_blank">&ldquo;Kids Against Bullying&rdquo;</a> pledge.  Students can also set up a table at school where peers can sign paper copies of the pledge.</p>
   <p><em><strong>Middle and High School</strong></em><br />

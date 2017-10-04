@@ -8,7 +8,33 @@
  <meta property="og:url" content="http://www.pacer.org/bullying/classroom/schoolwide/school-event-guide.asp" />
  <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
  <meta property="og:description" content="" />
- </head>
+<style>
+.feature-div {
+  float:right; 
+  margin-top:-117px; 
+  margin-left:15px; 
+  margin-bottom:127px; 
+  margin-right:5px; 
+  width:245px;
+}
+@media (max-width: 750px) {
+  .resource-wrapper {
+    max-width: 60%;
+    margin-left: 15px;
+  }
+  .resources {
+    max-width: 100%;
+  }
+}
+@media (max-width: 560px) {
+  .feature-div {
+    margin-top:0px; 
+    width:160px;
+    margin-bottom:20px; 
+  }
+}
+</style>
+</head>
  <body class="twocol">
  <div class="container">
  <a id="skiptocontent" href="#maincontent">Skip to main content</a>
@@ -47,7 +73,7 @@
   <h1 id="maincontent">UNITE AGAINST BULLYING<br />
    A Guide to Plan a School Event</h1>
   
-  <div id="rightcontent" style="float:right; margin-top:-117px; margin-left:15px; margin-bottom:127px; margin-right:5px; width:245px;"> <img src="/bullying/classroom/schoolwide/images/school-event-guide-thumb.jpg" width="245" height="318" alt="" /><br />
+  <div id="rightcontent" class="feature-div"> <img src="/bullying/classroom/schoolwide/images/school-event-guide-thumb.jpg" width="245" height="318" alt="" /><br />
    <br />
    <div style="font-size:1.2em; font-weight:bold; text-align:center">Sponsored by<br />
     PACER&rsquo;s National Bullying Prevention Center and <br />

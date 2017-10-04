@@ -1,6 +1,6 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Middle and High School Starting the Discussion Toolkit - National Bullying Prevention Center</title>
 <meta property="og:title" content="Middle and High School Starting the Discussion Toolkit - National Bullying Prevention Center" />
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/mh-starting-the-discussion.asp
@@ -66,11 +66,11 @@ document.getElementById(currId).className = "active";
 
 <h2>Day By Day Detailed Look at the Activities</h2>
 <ul style="font-size:1.2em; font-weight:bold">
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-monday.asp" target="_blank">Monday � <em>Bullying 101</em></a></li>
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-tuesday.asp" target="_blank">Tuesday � <em>What Can You Do?</em></a></li>
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-wednesday.asp" target="_blank">Wednesday � <em>Students and Adults Working Together</em></a></li>
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-thursday.asp" target="_blank">Thursday � <em>Bullying Prevention: It's Not Just a Week</em></a></li>
-<li><a href="/bullying/classroom/middle-highschool/mh-discussion-friday.asp" target="_blank">Friday � <em>The End of Bullying Begins with You</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-monday.asp" target="_blank">Monday : <em>Bullying 101</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-tuesday.asp" target="_blank">Tuesday : <em>What Can You Do?</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-wednesday.asp" target="_blank">Wednesday : <em>Students and Adults Working Together</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-thursday.asp" target="_blank">Thursday : <em>Bullying Prevention: It's Not Just a Week</em></a></li>
+<li><a href="/bullying/classroom/middle-highschool/mh-discussion-friday.asp" target="_blank">Friday : <em>The End of Bullying Begins with You</em></a></li>
 <li><a href="/bullying/classroom/middle-highschool/mh-discussion-keep-going.asp" target="_blank">Keep Going</a></li>
 </ul>
 <!--#include virtual="/bullying/templates/footer.asp"-->

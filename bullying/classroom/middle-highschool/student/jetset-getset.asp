@@ -1,27 +1,21 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/bullying/templates/header.asp"-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>Classroom Toolkits - Jetset Getset - Stronger (Than You Seem) - National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
+<meta property="og:title" content="Classroom Toolkits - Jetset Getset - Stronger (Than You Seem) - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/student/jetset-getset.asp" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
+<meta property="og:description" content="" />
+
 <link rel="stylesheet" href="/js/LayerSlider/layerslider/css/layerslider.css" type="text/css" />
 <link href="/js/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.6.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script src="/js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
 <script src="/js/LayerSlider/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
 <script src="/js/LayerSlider/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-
 	$(document).ready(function(){
 		$('#layerslider').layerSlider({
 			skin : 'glass',
@@ -154,16 +148,59 @@ function ChangeSlideTo(slideNum){
 	margin: 0px 4px 4px;
 	box-shadow: 2px 2px 3px #333;
 }
+
+.video-iframe {
+  max-width: 100%;
+  margin-left: 15px;
+}
+.ls-container {
+  max-width: 80%;
+}
+.ls-container div, iframe {
+  max-width: 100%;
+}
+.ls-vpcontainer {
+  background: #000;
+}
+.ls-videopreview {
+  height: auto;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+@media (max-width: 750px) {
+  .video-iframe {
+    height: 320px;
+  }
+  .slideNav {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .bio {
+    max-width: 100%;
+  }
+}
+@media (max-width: 736px) {
+  #layerslider {
+    height: 230px;
+  }
+}
+@media (max-width: 640px) {
+  .video-iframe {
+    margin-left: 0px;
+  }
+  .bio img {
+    max-width:160px;
+  }
+}
 </style>
-
-<!--#include virtual="/bullying/dynamic-head-items.html"--></head>
-
-<body class="twocol">
+</head>
+<body>
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
+
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
  
- <!--#include virtual="/bullying/dynamic-header.html"--> 
- <!--#include virtual="/bullying/topnav.html"--> 
  
  <script type="text/javascript">
 	var navId="none";
@@ -173,39 +210,15 @@ function ChangeSlideTo(slideNum){
 </script>
   <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/middle-highschool/">Middle and High School</a> / <a href="/bullying/classroom/middle-highschool/student/">Student Created Toolkits</a></div>
  
- <!-- ######################### NAVIGATION ################################# -->
- <div class="sidebar1"> 
-  <!--#include virtual="/bullying/templates/nav.html"-->
-  <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="mid-student-jetsetgetset";
-	var showTree = "mid-sub";
-	var showTree2 = "mid-student-sub";
-	if (document.getElementById(currId)){
-document.getElementById(currId).className = "active";
-	}
-	var subTrees = document.getElementsByTagName("ul");
-	for (var i = 0; i < subTrees.length; i++) {
-		if (subTrees[i].className == "submenu") {
-			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
-				subTrees[i].className = "submenuhidden";
-			}
-		}
-	}
-</script> 
- </div>
- <!-- ###################### END Navigation ############################## -->
  
  <div class="content"> 
   <h1 id="maincontent">Jetset Getset - Stronger (Than You Seem)</h1>
   <p>&ldquo;Stronger&rdquo;  is a song written for the group Jetset Getset to help young people who are  feeling discouraged.&nbsp;The writer, Jennifer Eliason, shares, &quot;The  teenage years are&nbsp;a time when self-esteem can take a beating. We wanted to  write a song&nbsp;about how you can rise above the challenges and the  experience can make you stronger.&quot;</p>
 	
-<div style="width:640px; margin:20px auto;">
-
-
-	<iframe width="640" height="360" src="//www.youtube.com/embed/CDtfpIBbpZ4?rel=0" frameborder="0" allowfullscreen></iframe>
+<div style="margin:20px auto;">
+	<iframe class="video-iframe" width="640" height="360" src="//www.youtube.com/embed/CDtfpIBbpZ4?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
-<p style="font-size:.8em; font-style:italic; color:#666; display:block; width:640px; margin:5px auto;">From the album &quot;Saturday Night&quot; by Jetset Getset.  Courtesy of Playback Records<br />
+<p style="font-size:.8em; font-style:italic; color:#666; display:block; max-width:640px; margin:5px auto;">From the album &quot;Saturday Night&quot; by Jetset Getset.  Courtesy of Playback Records<br />
 Words and music by Jennifer Eliason &amp; Trent Eliason<br />
 Song produced by Jack Gale &amp; Jim Pierce. Video by Barking Fish  Entertainment<br />
 Copyright 2013. Lovey Music (BMI) All right reserved.</p>
@@ -219,7 +232,7 @@ Copyright 2013. Lovey Music (BMI) All right reserved.</p>
 	<hr />
 	<h2 id="bios"><strong>BIOS</strong></h2>
 
-<%'----------------------------------- START LAYER SLIDER -------------------------------------- %>  
+<!-- START LAYER SLIDER -->  
 
 
 <div id="layerslider" class="loading">
@@ -229,13 +242,6 @@ Copyright 2013. Lovey Music (BMI) All right reserved.</p>
 			<iframe width="637" height="375" src="http://www.youtube.com/embed/kCrmzm9cOuo?rel=0" frameborder="0" allowfullscreen></iframe>        
         </div>
     </div>
-<%
-'	<div id="sadieVid" class="ls-layer">
-'        <div class="ls-s1">
-'			<iframe width="637" height="375" src="http://www.youtube.com/embed/Et0bDCr4iXM?rel=0" frameborder="0" allowfullscreen></iframe>        
-'        </div>
-'    </div>
-%>
 	<div id="averyVid" class="ls-layer">
         <div class="ls-s1">
 			<iframe width="637" height="375" src="http://www.youtube.com/embed/wFJo-rW3Ivs?rel=0" frameborder="0" allowfullscreen></iframe>        
@@ -270,7 +276,7 @@ Copyright 2013. Lovey Music (BMI) All right reserved.</p>
 				
 </div>
 
-<%'---------------------------- END LAYER SLIDER ------------------------------------%>
+<!-- END LAYER SLIDER -->
 <div class="slideNav">
 <a href="#bios" onclick="ChangeSlideTo(1)">Tori</a> | <a href="#bios" onclick="ChangeSlideTo(2)">Avery</a> | <a href="#bios" onclick="ChangeSlideTo(3)">Jason</a> | 
 <a href="#bios" onclick="ChangeSlideTo(4)">Justen</a> | <a href="#bios" onclick="ChangeSlideTo(5)">Paul</a> | <a href="#bios" onclick="ChangeSlideTo(6)">Gillian</a> | <a href="#bios" onclick="ChangeSlideTo(7)">Terry</a></div>
@@ -283,15 +289,6 @@ Copyright 2013. Lovey Music (BMI) All right reserved.</p>
 	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
-<%
-'<div class="bio noShow" id="sadieBio">
-'	<p><strong>Sadie Loveland (singer)</strong></p>	
-'	<p><img src="/bullying/resources/toolkits/student/images/Jetset_SadieLoveland_250w.jpg" alt="" width="250" height="375" class="fltrt" style="background:#F63;" />
-'	Sadie Loveland might be one of the  few country music singers who counts Aretha Franklin among her most important  creative influences. Sadie grew up in Aurora, Indiana. She started singing in  elementary school and in church, but it was not until her sister left home for  college that the music bug really took hold. &ldquo;My sister left her karaoke  machine at home,&rdquo; Sadie says. &ldquo;I loved singing popular songs and doing all the  dance moves.&rdquo; In middle school, Sadie became involved in show choir, and later  was invited to audition for Jetset Getset. &ldquo;Being in Jetset Getset has given me  confidence, experience, and the best of friends,&rdquo; she says. &ldquo;I&nbsp;enjoy  recording music. But mostly, I love seeing people smile when we perform for  them.&rdquo;
-'	</p>
-'	<div class="clearfloat">&nbsp;</div>
-'</div>
-%>
 <div class="bio noShow" id="averyBio">
 	<p><strong>Avery Eliason (singer)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_AveryEliason_250w.jpg" alt="" style="background:#F63;" />
@@ -302,34 +299,34 @@ Copyright 2013. Lovey Music (BMI) All right reserved.</p>
 <div class="bio noShow" id="jasonBio">
 	<p><strong>Jason Owens (lead guitar)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_JasonOwens_250w.jpg" alt="" style="background:#F63;" />
-	Jason became seriously interested in music at the age of 10, when he heard country star Brad Paisley�s &ldquo;The World&rdquo; on the radio. Jason learns a lot about stage presence and different guitar techniques from watching other musicians, but he credits two guitar teachers, Aaron Mahoney and Rick Kinman, for teaching him the fundamentals. His musical influences include Brad Paisley, Keith Urban and John Mayer. Jason was invited to join Jetset Getset through a connection at a music store where he was taking lessons. &ldquo;I like playing on big stages and feeding off the excitement of the audience,&rdquo; he says. &ldquo;There are so many wonderful and talented people in the band.&rdquo; Jason resides in Union, Kentucky.
+	Jason became seriously interested in music at the age of 10, when he heard country star Brad Paisley's &ldquo;The World&rdquo; on the radio. Jason learns a lot about stage presence and different guitar techniques from watching other musicians, but he credits two guitar teachers, Aaron Mahoney and Rick Kinman, for teaching him the fundamentals. His musical influences include Brad Paisley, Keith Urban and John Mayer. Jason was invited to join Jetset Getset through a connection at a music store where he was taking lessons. &ldquo;I like playing on big stages and feeding off the excitement of the audience,&rdquo; he says. &ldquo;There are so many wonderful and talented people in the band.&rdquo; Jason resides in Union, Kentucky.
 	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
 <div class="bio noShow" id="justenBio">
 	<p><strong>Justen Jette (rhythm guitar)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_JustenJette_250w.jpg" alt="" style="background:#F63;" />
-	With his mom being the founder and manager of Jetset Getset, you might think Justen was one of the first members of the group. But it was not until lead guitarist Jason Owens joined Jetset Getset that Justen decided to get involved. Impressed with Jason�s guitar playing, Justen decided that he, too, wanted to learn how to play the guitar, and he started taking lessons. Justen likes pop, hip-hop, rock and country music, and considers Toby Keith, Bob Seger and Wiz Khalifa among his biggest influences. He lives in Dearborn County, Indiana.
+	With his mom being the founder and manager of Jetset Getset, you might think Justen was one of the first members of the group. But it was not until lead guitarist Jason Owens joined Jetset Getset that Justen decided to get involved. Impressed with Jason's guitar playing, Justen decided that he, too, wanted to learn how to play the guitar, and he started taking lessons. Justen likes pop, hip-hop, rock and country music, and considers Toby Keith, Bob Seger and Wiz Khalifa among his biggest influences. He lives in Dearborn County, Indiana.
 	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
 <div class="bio noShow" id="paulBio">
 	<p><strong>Paul Kelley (bass guitar)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_PaulKelley_250w.jpg" alt="" style="background:#F63;" />
-Paul comes from a heavy metal background, but became interested in country music after his friend, Jason Owens, introduced him to Jetset Getset. &ldquo;It&rsquo;s a lot of fun, being part of Jetset Getset,� he says. �I love the social aspect of the band, meeting so many great musicians and playing live gigs.&rdquo; Paul lives in Grant County, Kentucky.	</p>
+Paul comes from a heavy metal background, but became interested in country music after his friend, Jason Owens, introduced him to Jetset Getset. &ldquo;It&rsquo;s a lot of fun, being part of Jetset Getset, he says. I love the social aspect of the band, meeting so many great musicians and playing live gigs.&rdquo; Paul lives in Grant County, Kentucky.	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
 <div class="bio noShow" id="gillianBio">
 	<p><strong>Gillian Bowman (drummer)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_GillianBowman_250w.jpg" alt="" style="background:#F63;" />
-	Gillian Bowman (her friends call her &ldquo;Gily&rdquo;) has been studying music since she was 3 years old, under the direction of her parents, both of whom are music teachers and owners of Bowman Music & Creative Outlet in Burlington, Kentucky. In addition to drumming, she is also a talented singer, piano player, guitar player, dancer (tap, ballet and jazz), and even studied acrobatics for five years. She also writes songs and enjoys singing at her church. Gily�s musical influences include The Beatles, TobyMac and even the classic rock group Rush. &ldquo;I love being a part of Jetset Getset because it has given me amazing opportunities that not many people get,&rdquo; she says. &ldquo;I am so blessed to be a part of this band with such great people.&rdquo;
+	Gillian Bowman (her friends call her &ldquo;Gily&rdquo;) has been studying music since she was 3 years old, under the direction of her parents, both of whom are music teachers and owners of Bowman Music & Creative Outlet in Burlington, Kentucky. In addition to drumming, she is also a talented singer, piano player, guitar player, dancer (tap, ballet and jazz), and even studied acrobatics for five years. She also writes songs and enjoys singing at her church. Gily's musical influences include The Beatles, TobyMac and even the classic rock group Rush. &ldquo;I love being a part of Jetset Getset because it has given me amazing opportunities that not many people get,&rdquo; she says. &ldquo;I am so blessed to be a part of this band with such great people.&rdquo;
 	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
 <div class="bio noShow" id="terryBio">
 	<p><strong>Terry Ranck (keyboard, saxophone)</strong></p>	
 	<p><img width="250" height="375" class="fltrt" src="/bullying/classroom/middle-highschool/student/images/Jetset_TerryRanck_250w.jpg" alt="" style="background:#F63;" />
-	Terry Ranck is the only adult who performs with Jetset Getset on a regular basis. He is the father of the group�s manager and founder, Kelli Jette, and grandfather of rhythm guitar player Justen Jette. He majored in music performance and education at the University of Cincinnati College-Conservatory of Music. After playing with some local rock bands in the early 1970s, he was a music teacher for 35 years. His musical influences include a lot of 60s and 70s pop and rock artists, especially Roy Orbison and horn bands like Blood, Sweat & Tears. In addition to playing keyboard and saxophone, Terry is also the group�s equipment manager, head roadie, lunch-getter and advice-giver. &ldquo;Working with Jetset Getset makes me feel young,&rdquo; he laughs. Terry lives in Dearborn County, Indiana.
+	Terry Ranck is the only adult who performs with Jetset Getset on a regular basis. He is the father of the group's manager and founder, Kelli Jette, and grandfather of rhythm guitar player Justen Jette. He majored in music performance and education at the University of Cincinnati College-Conservatory of Music. After playing with some local rock bands in the early 1970s, he was a music teacher for 35 years. His musical influences include a lot of 60s and 70s pop and rock artists, especially Roy Orbison and horn bands like Blood, Sweat & Tears. In addition to playing keyboard and saxophone, Terry is also the group's equipment manager, head roadie, lunch-getter and advice-giver. &ldquo;Working with Jetset Getset makes me feel young,&rdquo; he laughs. Terry lives in Dearborn County, Indiana.
 	</p>
 	<div class="clearfloat">&nbsp;</div>
 </div>
@@ -358,12 +355,6 @@ Paul comes from a heavy metal background, but became interested in country music
 	</div>
 	</div>    
     <!-- END PHOTO GALLERY -->  
- </div> 
 
-<br class="clearfloat" />
-<!-- end .content -->
 
-<!--#include virtual="/bullying/footer.html"--> 
-<!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->

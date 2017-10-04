@@ -8,6 +8,17 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/student/anna-richey.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
+
+<style>
+.video-iframe {
+  max-width: 100%;
+}
+@media (max-width: 736px) {
+  .video-iframe {
+    height: 320px;
+  }
+}
+</style>
 </head>
 <body class="twocol">
 <div class="container">
@@ -44,9 +55,9 @@ document.getElementById(currId).className = "active";
 <!-- ########################## MAIN CONTENT ########################################### -->
  
  <div class="content"> 
-  <h1 id="maincontent">Anna Richey � Broken</h1>
+  <h1 id="maincontent">Anna Richey - Broken</h1>
   <p>Anna Richey is a singer/songwriter from Salt Lake City with a dream to inspire people with her music. She hopes to influence the world for the better, starting with her single Broken. To accompany this powerful song, Anna has created a toolkit to help students think about how they can take action in bullying situations.</p>
-  <p align="center"><iframe width="640" height="360" src="https://www.youtube.com/embed/I5t7kuX6P-4?rel=0" frameborder="0" allowfullscreen></iframe></p>
+  <p align="center"><iframe class="video-iframe" width="640" height="360" src="https://www.youtube.com/embed/I5t7kuX6P-4?rel=0" frameborder="0" allowfullscreen></iframe></p>
     <h3>Discussion Questions</h3>
       <p>After watching &ldquo;Broken,&rdquo; share the discussion questions with your student audience. </p>
       <ul>

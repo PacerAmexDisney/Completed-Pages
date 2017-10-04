@@ -8,6 +8,16 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/student/marinav.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
+<style>
+.video-iframe {
+  max-width: 100%;
+}
+@media (max-width: 736px) {
+  .video-iframe {
+    height: 320px;
+  }
+}
+</style>
 </head>
 <body class="twocol">
 <div class="container">
@@ -46,7 +56,7 @@ document.getElementById(currId).className = "active";
  <div class="content"> 
   <h1 id="maincontent">Marina V</h1>
   <p>Marina is a recording artist, singer and songwriter in Los Angeles. She is originally from Moscow, Russia and experienced bullying at school as a child. Her song &ldquo;Speak&rdquo; inspires listeners to believe in themselves and be proud of who they are. Marina is passionate about sharing this important message.</p>
-  <p align="center"><iframe width="640" height="360" src="//www.youtube.com/embed/Qlrqo033YZg?rel=0" frameborder="0" allowfullscreen></iframe></p>
+  <p align="center"><iframe class="video-iframe" width="640" height="360" src="//www.youtube.com/embed/Qlrqo033YZg?rel=0" frameborder="0" allowfullscreen></iframe></p>
     <h3>Discussion Questions</h3>
       <p>After watching &ldquo;Speak&rdquo;, share the discussion questions with your student audience. </p>
       <p><img src="/images/pdficon_small.gif" width="15" height="15" alt="icon" />&nbsp;<a href="/bullying/classroom/middle-highschool/student/pdf/speak-discussion-questions.pdf" target="_blank">Download the Speak Discussion Questions <span class="fa fa-external-link"></span></a></p>
