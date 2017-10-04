@@ -117,7 +117,7 @@ Set FSO = nothing
  
 <br class="clearfloat" />
  
+<!--#include virtual="/bullying/templates/footer.asp"-->
  <!-- end .content --></div>
 <!-- ########################## END MAIN CONTENT ########################################### -->
-<!--#include virtual="/bullying/templates/footer.asp"-->
 
