@@ -8,6 +8,22 @@
  <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/student/strain.asp" />
  <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
  <meta property="og:description" content="" />
+<style>
+.video-iframe {
+  max-width: 100%;
+  margin-left: 15px;
+}
+@media (max-width: 750px) {
+  .video-iframe {
+    height: 320px;
+  }
+}
+@media (max-width: 640px) {
+  .video-iframe {
+    margin-left: 0px;
+  }
+}
+</style>
  </head>
  <body class="twocol">
  <div class="container">
@@ -56,8 +72,8 @@
     <p>Note: This video does address the issue of suicide, before showing in a classroom, please take into consideration if the content is appropriate for your audience.</p>
     <p>Strain is directed by Yin Chang. Her 16- and 17-year-old sisters, Lelina Chang and Melora Chang, are associate producers. For a behind the scenes look, visit the <a href="http://strainfilm.com" target="_blank">STRAIN website</a>.</p>
 	
-	<div style="width:640px; margin:20px auto;">
-		<iframe width="640" height="360" src="//www.youtube.com/embed/9QbrRsOF0YA?rel=0" frameborder="0" allowfullscreen></iframe>
+	<div style="margin:20px auto;">
+		<iframe class="video-iframe" width="640" height="360" src="//www.youtube.com/embed/9QbrRsOF0YA?rel=0" frameborder="0" allowfullscreen></iframe>
 	</div>    
 	
 	<h3>Toolkit Activities</h3>
