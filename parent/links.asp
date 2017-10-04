@@ -1,4 +1,4 @@
-<%@LANGUAGE="VBSCRIPT"%>
+<!--#include virtual="/templates/header.asp"-->
 <!--#include virtual="/Connections/PACER_WEB.asp" -->
 <%
 Dim rs_links__MMColParam, cat_name
@@ -67,9 +67,10 @@ rs_links_cmd.CommandText = "SELECT *, Parent_Site_Type.ID AS Type_ID" & _
 rs_links_cmd.Prepared = true
 'Response.Write(rs_links_cmd.CommandText)
 Set rs_links = rs_links_cmd.Execute
+'
 %>
+<link rel="stylesheet" type="text/css" href="/parent/css/links.css" />
 
-<!--#include virtual="/templates/header.asp"-->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="Parents Helping Parents: Links" />
 <title>Parents Helping Parents: Links<</title>

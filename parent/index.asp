@@ -1,22 +1,22 @@
-<!--#include virtual="/templates/header.asp"--> 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-<meta name="description" content="Today PACER offers more than 30 programs for parents, students, professionals and other parent organizations. PACER is staffed primarily by parents of children with disabilities dedicated to educating other parents and improving the lives of children with disabilities throughout Minnesota." /> 
-<meta name="keywords" content="parent programs, parenting advice, parenting classes, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org" /> 
+<!--#include virtual="/templates/header.asp"-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Today PACER offers more than 30 programs for parents, students, professionals and other parent organizations. PACER is staffed primarily by parents of children with disabilities dedicated to educating other parents and improving the lives of children with disabilities throughout Minnesota." />
+<meta name="keywords" content="parent programs, parenting advice, parenting classes, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org" />
 <title>PACER Center - Parent to Parent Programs for Parent Advice or Classes</title>
- <meta property="og:title" content="PACER Center - Parent to Parent Programs for Parent Advice or Classes" /> 
+<meta property="og:title" content="PACER Center - Parent to Parent Programs for Parent Advice or Classes" />
 <meta property="og:url" content="http://www.pacer.org/parent"/>
- <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" /> 
-<meta property="og:description" content="Today PACER offers more than 30 programs for parents, students, professionals and other parent organizations. PACER is staffed primarily by parents of children with disabilities dedicated to educating other parents and improving the lives of children with disabilities throughout Minnesota." /> 
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="Today PACER offers more than 30 programs for parents, students, professionals and other parent organizations. PACER is staffed primarily by parents of children with disabilities dedicated to educating other parents and improving the lives of children with disabilities throughout Minnesota." />
 </head>
 
 <body>
     <!--#include virtual="/templates/page-header-nav.asp"-->
     <div id="topbar">
         <div id="breadcrumb">
-            <a href="/">Home</a> / <h1>Parent Special Education Information</h1>
-            <p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+            <a href="/">Home</a> / 
         </div>
-        <h1>Working with Culturally Diverse Families</h1>
+        <h1>Parent Special Education Information</h1>
+            <p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
     </div>
 
     <script type="text/javascript">
@@ -67,7 +67,7 @@
             services your child receives.</p>
             <p>
             This section will help you understand the Individualized Education Program (IEP) and the importance
-            of your participation in developing your child�s IEP Plan. You are a required member of your child�s IEP
+            of your participation in developing your child's IEP Plan. You are a required member of your child's IEP
             team, and your ideas must always be considered in any decisions the IEP team makes.
             The development of the IEP is required in the federal Individuals with Disabilities Education
             Improvement Act (IDEA 2004), its regulations (known as 34 Code of Federal Regulations [CFR] Parts
