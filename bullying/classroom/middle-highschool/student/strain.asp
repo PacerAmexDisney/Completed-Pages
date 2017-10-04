@@ -2,9 +2,9 @@
 
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
  <meta name="description" content="" />
-<title>Classroom Toolkits - Jetset Getset - Stronger (Than You Seem) - National Bullying Prevention Center</title>
+<title>Classroom Toolkits - Strain - Stronger (Than You Seem) - National Bullying Prevention Center</title>
 
- <meta property="og:title" content="Classroom Toolkits - Jetset Getset - Stronger (Than You Seem) - National Bullying Prevention Center" />
+ <meta property="og:title" content="Classroom Toolkits - Strain - National Bullying Prevention Center" />
  <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/student/strain.asp" />
  <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
  <meta property="og:description" content="" />
@@ -60,7 +60,7 @@
  <!-- ########################## MAIN CONTENT ########################################### -->
  <div class="content"> 
   <h1 id="maincontent">Strain</h1>
-  <div class="alertBox">
+  <div class="alertBox mobileCentered">
   	<h2>Downloads</h2>
     <ul>
     	<li class="pdficonlist"><a href="/bullying/classroom/middle-highschool/student/pdf/STRAIN_WriteLetter.pdf" target="_blank">Letter Writing Exercise</a></li>

@@ -1,6 +1,6 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>National Bullying Prevention Center - Bullying 101</title>
 
 <meta property="og:title" content="National Bullying Prevention Center - Bullying 101" />

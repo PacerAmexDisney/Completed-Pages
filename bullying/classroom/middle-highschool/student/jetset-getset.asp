@@ -195,7 +195,7 @@ function ChangeSlideTo(slideNum){
 }
 </style>
 </head>
-<body class="twocol">
+<body>
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
@@ -355,7 +355,6 @@ Paul comes from a heavy metal background, but became interested in country music
 	</div>
 	</div>    
     <!-- END PHOTO GALLERY -->  
- </div> 
 
 
 <!--#include virtual="/bullying/templates/footer.asp"-->

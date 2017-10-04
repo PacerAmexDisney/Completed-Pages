@@ -1,6 +1,6 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Middle and High School Starting the Discussion Toolkit - National Bullying Prevention Center</title>
 <meta property="og:title" content="Middle and High School Starting the Discussion Toolkit - National Bullying Prevention Center" />
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/mh-starting-the-discussion.asp

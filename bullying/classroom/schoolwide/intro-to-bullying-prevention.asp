@@ -65,7 +65,7 @@ Read <em>The Legend of Spookley the Square Pumpkin</em> by Joe Troiano to studen
     <em>Activity: </em>Use the <em><a href="http://www.pacer.org/bullying/classroom/elementary/spookley/" target="_blank">Stop Bullying Before it Starts</a></em> toolkit<strong>.</strong> Activities include discussions, art projects, and other creative options. </p>
   <p><em><strong>Middle and High School </strong></em><br />
     As a class, talk about what it means to have legal protections. Develop 3-4 things students think a law against bullying should have/do. <br />
-  <em>Activity: </em>Divide students into groups and instruct each group to use the information provided on these pages: <a href="http://www.pacerteensagainstbullying.org/tab/you-are-not-alone/know-your-rights/" target="_blank">Know Your Rights</a>&nbsp;and&nbsp;<a href="http://www.stopbullying.gov" target="_blank">StopBullying.gov</a> to develop a summary of their state&rsquo;s laws. Evaluate how well the state&rsquo;s law fits the criteria developed by the class. Ask each group to come up with 3-4 suggestions to improve the law.&nbsp; </p>
+  <em>Activity: </em>Divide students into groups and instruct each group to use the information provided on these pages: <a href="http://www.pacerteensagainstbullying.org/tab/you-are-not-alone/know-your-rights/" target="_blank">Know Your Rights</a> and <a href="http://www.stopbullying.gov" target="_blank">StopBullying.gov</a> to develop a summary of their state&rsquo;s laws. Evaluate how well the state&rsquo;s law fits the criteria developed by the class. Ask each group to come up with 3-4 suggestions to improve the law.</p>
   <p><strong>&nbsp;</strong></p>
   <p><strong><u>Wednesday</u></strong><strong><br />
     Elementary School: </strong><br />

@@ -1,7 +1,6 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
 <title>Elementary Toolkits - National Bullying Prevention Center</title>
 
 <meta name="description" content="Free, downloadable toolkits designed for students and community members to hold events, raise awareness and share information about bullying prevention.
