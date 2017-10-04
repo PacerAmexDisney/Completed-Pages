@@ -113,7 +113,7 @@ Read <em>The Legend of Spookley the Square Pumpkin</em> by Joe Troiano to studen
     <strong>All Ages</strong><br />
     Discuss what can be done in your school to prevent bullying.<br />
   <em>Activity</em>: Record the ideas. Have the students present them to your guidance counselor or principal.</p>
-	 <p><em>Activity</em>: Complete the <a href="https://www.pacerkidsagainstbullying.org/wp-content/uploads/2014/07/Above-the-Line.pdf" target="_blank">Above the Line/Below the Line</a> activity. Together, talk about what &ldquo;above the line&rdquo; behaviors and &ldquo;below the line&rdquo; behaviors are at school. Ask students to commit to promoting �above the line� behaviors within their classroom and school.</p>
+	 <p><em>Activity</em>: Complete the <a href="https://www.pacerkidsagainstbullying.org/wp-content/uploads/2014/07/Above-the-Line.pdf" target="_blank">Above the Line/Below the Line</a> activity. Together, talk about what &ldquo;above the line&rdquo; behaviors and &ldquo;below the line&rdquo; behaviors are at school. Ask students to commit to promoting &ldquo;above the line&rdquo; behaviors within their classroom and school.</p>
   <p><em><strong>Elementary School </strong></em><br />
    Along with committing to these positive behaviors, take the <a href="https://pacerkidsagainstbullying.org/join-the-cause/take-the-pledge/" target="_blank">&ldquo;Kids Against Bullying&rdquo;</a> pledge.  Students can also set up a table at school where peers can sign paper copies of the pledge.</p>
   <p><em><strong>Middle and High School</strong></em><br />

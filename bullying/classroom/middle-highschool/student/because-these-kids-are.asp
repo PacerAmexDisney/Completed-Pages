@@ -8,6 +8,16 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/student/because-these-kids-are.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
+<style>
+.video-iframe {
+  max-width: 100%;
+}
+@media (max-width: 736px) {
+  .video-iframe {
+    height: 320px;
+  }
+}
+</style>
 </head>
 <body class="twocol">
 <div class="container">
@@ -60,7 +70,7 @@ document.getElementById(currId).className = "active";
 
     <p><strong>What inspired your film?</strong> I was inspired to do Because These Kids because I wanted to make a difference! I wanted to show that we are all connected. Meaning that we all have the capability of being hurt and we all have a choice as to what to do with those feelings. Do we strike back or strike out... bully? Or do we stop and really look at ourselves and others, try and understand, try and create change in ourselves and hopefully others! I really want Because These Kids are to open people's minds.</p>
     
-    <p align="center"><iframe width="640" height="360" src="//www.youtube.com/embed/dRptfzGXu-8?rel=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></p>
+    <p align="center"><iframe class="video-iframe" width="640" height="360" src="//www.youtube.com/embed/dRptfzGXu-8?rel=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></p>
     
     <p><span class="fa fa-file-pdf-o"></span> <a href="/bullying/classroom/middle-highschool/student/pdf/Izabela-Vidovic-Interview.pdf" target="_blank">Read Izabela&rsquo;s entire interview <span class="fa fa-external-link"></span></a> in which she shares why she made the film, her views on bullying, why she partnered with PACER, and more.</p>
     <p><strong>Other Information</strong></p>

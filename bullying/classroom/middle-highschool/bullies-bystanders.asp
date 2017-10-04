@@ -6,6 +6,28 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/bullies-bystanders.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
+
+<style>
+.video-iframe {
+  max-width: 100%;
+}
+@media (max-width: 736px) {
+  .video-iframe {
+    height: 231px;
+  }
+}
+@media (max-width: 667px) {
+  .video-iframe {
+    height: 201px;
+  }
+}
+@media (max-width: 568px) {
+  .video-iframe {
+    height: 180px;
+  }
+}
+</style>
+
 </head>
 <body class="twocol">
 <div class="container">
@@ -44,13 +66,13 @@ document.getElementById(currId).className = "active";
   <p>Two videos created by BeSmartBeWell  provide insight into how students can help students.</p>
   <h3>Bullies and Bystanders: What Teens Say </h3>
   <div style="width:640px; max-width: 95%; margin:10px auto">
-  	<iframe src="//player.vimeo.com/video/101640784" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  	<iframe class="video-iframe" src="//player.vimeo.com/video/101640784" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
   <p>Show the 4 minute video, &ldquo;Bullies and Bystanders: What Teens Say&rdquo; created by BeSmartBeWell</p>
   <p>What is bullying? Bullying is all about power, and one person or group of people using their power&mdash;whether it&rsquo;s physical strength, popularity or sharing embarrassing photos or information&mdash;to control or harm someone else. It can take place in person or online. Unfortunately, bullying is a fact of life for many kids and teens; research suggests almost half of teens have experienced bullying while on-line or over their cell phone in the past year.</p>
   <h3>Bullies and Bystanders: What Experts Say</h3>
-  <div style="width:640px; margin:10px auto">
-  	<iframe src="//player.vimeo.com/video/101640783" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+  <div style="width:640px; max-width: 95%; margin:10px auto">
+  	<iframe class="video-iframe" src="//player.vimeo.com/video/101640783" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
   </div>
   <p>Show the 3 minute video, &ldquo;Bullies and Bystanders: What Experts Say&rdquo; created by BeSmartBeWell</p>
   <p>Many kids and teens believe bullying is hurtful and they should act to stop bullying; but when confronted with an actual bullying or cyberbullying situation, few intervene. Hear from experts how bystanders can stand up to bullying, and help prevent it in the future.</p>

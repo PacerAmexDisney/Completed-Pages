@@ -6,43 +6,6 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/middle-highschool/mh-discussion-monday.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
-<style type="text/css">
-.navbox{
-	width:180px;
-	float:right;
-	margin-right:5px;
-	padding:10px;
-	margin-left:10px;
-	border:1px solid #772828;
-	text-align:center;
-	background:#fff;
-}
-.navbox ul{
-	list-style:none;
-	margin:0px;
-	padding:0px;
-	}
-.navbox ul li {
-	margin:0px;
-	margin-bottom:.6em;
-	padding:0px;
-	padding-left:10px;
-	text-align:left;
-}
-.content .navbox h3 {
-	background:none;
-}
-.content .content .navbox h3 {
-	background:none;
-}
-.content h3{
-	padding:5px;
-	background:#eee;
-
-	margin-left:10px;
-	margin-right:10px;
-}
-</style>
 
 </head>
 
