@@ -11,7 +11,20 @@
 
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 
-
+<style> 
+table.by-the-numbers {
+  width:100%; 
+  margin-left: 15px; 
+  margin-top: 0px;
+}
+table.by-the-numbers tr td {
+  vertical-align: top;
+}
+table.by-the-numbers tr td:nth-child(2) {
+  vertical-align: top;
+  padding-top:10px;
+}
+</style>
 </head>
 
 <body class="onecol">
@@ -62,10 +75,10 @@
       <li>Nearly 500 students and school staff in Hilbert, Wis., showed their commitment by standing together in a gymnasium to spell a giant human U-N-I-T-Y, and doing a district-wide Unity Dance.</li>
     </ul>
 
-      <table cellspacing="10" style="width:100%">
+<br/>
+<h3>PACER’s National Bullying Prevention Month by the Numbers</h3>
+<table class="by-the-numbers" >
   <tbody>
-  <tr>
-  <td colspan="2" valign="bottom"><h3>PACER’s National Bullying Prevention Month by the Numbers</h3></td>
   <tr>
       <td align="right"><font size="5">226,000+</font></td>
       <td>views of PACER partner Nick Vujicic’s Unity Day Facebook Video</td>

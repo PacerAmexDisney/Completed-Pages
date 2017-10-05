@@ -1,4 +1,6 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>National Bullying Prevention Center - Become a National Partner</title>
 <meta property="og:title" content="National Bullying Prevention Center - Become a National Partner" />
 <meta property="og:url" content="http://www.pacer.org/bullying/getinvolved/partners/corporate-and-celebrity.asp" />
@@ -30,6 +32,9 @@
 }
 #additionalSponsors img {
 	margin: 5px;
+}
+#resourcetable img {
+  min-width: 50px;
 }
 </style>
 </head>

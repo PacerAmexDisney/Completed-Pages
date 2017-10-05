@@ -1,4 +1,5 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
 <title>National Bullying Prevention Center - Peer Ambassadors</title>
@@ -8,7 +9,18 @@
 
   <meta property="og:description" content="" />
 
-  </head>
+
+<style>
+#student-action tr td:first-child {
+  padding-left:15px;
+}
+#student-action img {
+  min-width: 79px;
+  display:block;
+}
+</style>
+
+</head>
 
   <body class="onecol">
 

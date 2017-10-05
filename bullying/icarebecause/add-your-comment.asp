@@ -81,7 +81,7 @@ form.secured .offScreen {
     <h1 id="maincontent">I Care Because ...</h1>
         <script type="text/javascript">
 		if (history.length > 1) {
-		document.write('<p style="text-align:right"><a href="javascript:history.back();">Return to the Previous Page</a></p>');
+		document.write('<p style="text-align:left"><a href="javascript:history.back();">Return to the Previous Page</a></p>');
 		}
 	</script>
 
