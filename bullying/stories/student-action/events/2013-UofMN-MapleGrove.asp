@@ -6,6 +6,16 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2013-UofMn-Maplegrove.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico" />
 <meta property="og:description" content="" />
+
+<style type="text/css">
+        @media only screen and (max-width: 415px) {
+            #sidebar {display: none !important;}
+            #botLink {font-size: 12px ;}
+        }
+        @media only screen and (min-width: 415px) {
+            #sidebar {display: block !important;}
+        }
+</style>
 </head>
 
 <body class="onecol">
@@ -28,7 +38,7 @@
                         <p>They started creating this chain with the MGJH WEB (Where Everyone Belongs) Leaders, a group of 9th grade students who act as leaders in the school. Soon, the entire Maple Grove Junior High student body will create their own portions of the chain at a school-wide assembly. </p>
                         <p>While students participate in The Chain Project, they will also hear from Kevin Curwick, a student who created the viral @OsseoNiceThings twitter page that focused attention on the acts of kindness that people were doing to promote positivity rather than focus on the negatives that bullying encompasses. </p>
                         <p>The Together, For Good team also held a panel discussion for parents with professionals from a range of professions who deal with bullying on a daily basis, including school counselors and physicians. The panel was designed to give parents the resources to address bullying in their own home, as well as update them on all that bullying consists of in the 21st century.</p>
-                        <p>To learn more about PRSSA and the Bateman Competition, you can visit <a href="http://www.prssa.org/scholarships_competitions/bateman/" target="_blank">http://www.prssa.org/scholarships_competitions/bateman/</a></p>
+                        <p>To learn more about PRSSA and the Bateman Competition, you can visit <a id="botLink" href="http://www.prssa.org/scholarships_competitions/bateman/" target="_blank">http://www.prssa.org/scholarships_competitions/bateman/</a></p>
                     </td>
                     <td id="sidebar" width="320" style="text-align:center; padding:0 20px 10px 20px;" valign="top">
                         <p><img style="margin-bottom:20px;" width="320" src="/bullying/stories/student-action/events/images/TFG-Slogan.jpg" alt="" /><img style="margin-bottom:20px;" width="320" src="/bullying/stories/student-action/events/images/MGJH-Nice-Slips1.jpg" alt="" /><img style="margin-bottom:20px;" width="320" src="/bullying/stories/student-action/events/images/MGJH-Nice-Slips2.jpg" alt="" /><img style="margin-bottom:20px;" width="320" src="/bullying/stories/student-action/events/images/MGJH-Students-With-Chain.jpg" alt="" /><img style="margin-bottom:20px;" width="320" src="/bullying/stories/student-action/events/images/TFG-Team.jpg" alt="" /><img style="margin-bottom:20px;" width="320" src="/bullying/stories/student-action/events/images/TFG-Logo.jpg" alt="" /><img style="margin-bottom:20px;" width="320" src="/bullying/stories/student-action/events/images/MGJH-Assembly.jpg" alt="" /></p>
