@@ -1,19 +1,13 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
 <meta name="description" content="Bullying can be an isolating experience not just for the kids involved, but for their parents, too. Fortunately, there is help. This guide offers a comprehensive overview for parents to learn what they can do to address and prevent bullying." />
 
 <title>What Parents Should Know About Bullying - PACER's National Bullying Prevention Center</title>
 
-
 <meta property="og:title" content="What Parents Should Know About Bullying" />
-
 <meta property="og:url" content="/bullying/resources/parents/" />
-
 <meta property="og:image" content="/bullying/resources/parents/images/kids-and-tech-fb.jpg" />
-
 <meta property="og:description" content="Bullying can be an isolating experience not just for the kids involved, but for their parents, too. Fortunately, there is help. This guide offers a comprehensive overview for parents to learn what they can do to address and prevent bullying." />
 
 </head>
@@ -25,11 +19,7 @@
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
 
-
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
-
-
-
 
 
 <div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
@@ -39,18 +29,11 @@
 <!-- ########################## MAIN CONTENT ########################################### -->
 
 
-
-
-
 <div class="content">
 
    	<div class="narrowContent">
 
     <h1 id="maincontent">What Parents Should Know About Bullying</h1>
-
-    
-
-    
 
        <div id="toolMainBanner">
           <div class="tagline"><a href="http://www.verizonwireless.com/hopeline" target="_blank"><img src="/bullying/resources/parents/images/HopeLine.jpg" width="146" height="44" alt="HOPELINE from Verizon"/></a><br />
@@ -86,14 +69,6 @@
       <h2 class="centered" style="margin-top:80px;">Special thank you to:</h2>    
       <div id="sponsors" style="text-align:center;"><a href="http://www.verizonwireless.com/hopeline" target="_blank"><img src="/bullying/resources/parents/images/HopeLine_75h.jpg" style="margin:0px 40px;" width="258" height="75" alt=""/></a><img src="/bullying/resources/parents/images/Viking-logo_75h.jpg" style="margin:0px 40px;" width="246" height="75" alt=""/></div>
 
-   
-
 	</div>
-
-
-
-
-
-
 
 <!--#include virtual="/bullying/templates/footer.asp"-->
