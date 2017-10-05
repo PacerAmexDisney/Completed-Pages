@@ -86,10 +86,6 @@
       <h2 class="centered" style="margin-top:80px;">Special thank you to:</h2>    
       <div id="sponsors" style="text-align:center;"><a href="http://www.verizonwireless.com/hopeline" target="_blank"><img src="/bullying/resources/parents/images/HopeLine_75h.jpg" style="margin:0px 40px;" width="258" height="75" alt=""/></a><img src="/bullying/resources/parents/images/Viking-logo_75h.jpg" style="margin:0px 40px;" width="246" height="75" alt=""/></div>
 
-
-
-
-      <br class="clearfloat" />
    
 
 	</div>
