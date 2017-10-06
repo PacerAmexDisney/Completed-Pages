@@ -13,12 +13,13 @@
 
 <style> 
 table.by-the-numbers {
-  width:100%; 
+  width:95%; 
   margin-left: 15px; 
   margin-top: 0px;
 }
 table.by-the-numbers tr td {
   vertical-align: top;
+  padding: 10px;
 }
 table.by-the-numbers tr td:nth-child(2) {
   vertical-align: top;
