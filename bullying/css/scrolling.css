@@ -111,7 +111,6 @@ ul.justifiedlist:after{
 }
 
 #secondarynav ul {
-	width:800px;
 	margin:10px auto 0px;
 }
 .is-sticky #secondarynav {
@@ -190,6 +189,11 @@ sticky-wrapper {
 }
 .contentrow .singlecolumn {
 	padding:10px 175px 5px; 
+}
+@media (max-width: 900px) {
+	.contentrow .singlecolumn {
+	padding:10px 10px 5px; 
+	}
 }
 .contentrow .infobox {
 	margin-left:auto; 

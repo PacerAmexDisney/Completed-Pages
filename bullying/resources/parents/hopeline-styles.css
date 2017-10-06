@@ -38,6 +38,7 @@
 }
 #toolDescription #descriptionWrap {
 	width:406px;
+	max-width: 90%;
 	padding:20px;
 	font-size:.9em;
 	background:#000;
@@ -72,7 +73,7 @@
 	padding-left:35px;
 }
 #secondarynav ul {
-  width: 960px;
+  width: auto;
 }
 #secondarynav li a {
   display: block;
