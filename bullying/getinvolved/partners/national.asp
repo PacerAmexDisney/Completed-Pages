@@ -10,11 +10,13 @@
 <meta property="og:description" content="" />
 <style type="text/css">
 table.partnerTable {
+	display:block;
 	table-layout:fixed;
 	font-size:.8em;
 	border:1px solid #000;
 	border-collapse:collapse;
 	margin:10px;
+	max-width: 100%;
 	}
 table.partnerTable td {
 	word-wrap:break-word;
@@ -23,6 +25,9 @@ table.partnerTable td {
 	border-collapse:collapse;
 	padding:20px;
 	}
+.partnerTable-partner {
+  width: 275px;
+}
 .sidebar1 {
 	position:relative;
 }
@@ -42,6 +47,23 @@ table.partnerTable td {
 	padding:30px 0px;
 	margin:0px auto;
 	float:left;
+}
+@media (max-width: 667px) {
+  .partnerTable-partner {
+    display:block;
+    border-bottom:none !important;
+  }
+  .partnerTable-cell {
+    display:block;
+    padding:0 0 0 0 !important;
+    width:100%;
+  }
+  .partnerTable-cell > p {
+    display:block;
+    padding:0px 20px 20px 20px !important;
+    margin:0 0 0 0 !important;
+    max-width:80%;
+  }
 }
 </style>
 </head>
@@ -170,14 +192,14 @@ For i = 0 to 1
 	%>
 		
 		<tr>
-  <td width="275">
+  <td class="partnerTable-partner">
 		<%If rs("national_url_approved") = "yes" Then %>
   	<a href="<%=rs("national_url")%>" target="_blank"><%=rs("national_organization_name")%> <span class="fa fa-external-link"></span></a>
   <%Else%>
   	<%=rs("national_organization_name")%>
   <%End If%>
   </td>
-  <td><%=rs("national_description")%></td></tr>
+  <td class="partnerTable-cell"><p><%=rs("national_description")%></p></td></tr>
    
 	<% 
 	rs.Movenext
@@ -200,14 +222,14 @@ For i = 0 to 1
  <%End If %>
  <%Do Until rs.eof %>
 		<tr>
-  <td width="275">
+  <td class="partnerTable-partner">
 		<%If rs("national_url_approved") = "yes" Then %>
   	<a href="<%=rs("national_url")%>" target="_blank"><%=rs("national_organization_name")%> <span class="fa fa-external-link"></span></a>
   <%Else%>
   	<%=rs("national_organization_name")%>
   <%End If%>
   </td>
-  <td><%=rs("national_description")%></td></tr>
+  <td class="partnerTable-cell"><p><%=rs("national_description")%></p></td></tr>
    
 <% 
 	rs.Movenext

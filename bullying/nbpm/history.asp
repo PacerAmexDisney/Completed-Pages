@@ -8,6 +8,15 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/nbpm/history.asp" />
 <meta property="og:description" content="National Bullying Prevention Month is a campaign in the United States founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities nationwide to educate and raise awareness of bullying prevention. Traditionally held the first week in October, the event was expanded in 2010 to include activities, education, and awareness building for the entire month. National Bullying Prevention Month is recognized in communities across the United States, with hundreds of schools and organizations signing on as partners. Facebook, Disney, CNN and Yahoo! Kids have supported the month through media outreach and dissemination." />
 <meta name="description" content="National Bullying Prevention Month is a campaign in the United States founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities nationwide to educate and raise awareness of bullying prevention. Traditionally held the first week in October, the event was expanded in 2010 to include activities, education, and awareness building for the entire month. National Bullying Prevention Month is recognized in communities across the United States, with hundreds of schools and organizations signing on as partners. Facebook, Disney, CNN and Yahoo! Kids have supported the month through media outreach and dissemination." />
+
+<style>
+@media (max-width: 736px) {
+  .content h3  {
+    text-align: left;
+  }
+}
+</style>
+
 </head>
 <body class="twocol">
 <div class="container">
@@ -48,7 +57,7 @@ document.getElementById(currId).className = "active";
 
     
     <h1 id="maincontent2">History - National Bullying Prevention Month</h1>
-	<h3 style="text-align:center">More than a decade together against bullying-and united for kindness, acceptance and inclusion.</h3>
+	<h3>More than a decade together against bullying-and united for kindness, acceptance and inclusion.</h3>
     <p>National Bullying Prevention Month is a campaign in the United States founded in 2006 by PACER's National Bullying Prevention Center. The campaign is held during the month of October and unites communities nationwide to educate and raise awareness of bullying prevention. Initially held the first week in October, the event was expanded in 2010 to the entire month.</p>
     
     <p>PACER developed the initial campaign, National Bullying Prevention and Awareness Week, to raise awareness about bullying.  Historically, bullying had been viewed as &ldquo;a childhood rite of passage&rdquo; that &ldquo;made kids tougher,&rdquo; but the reality has always been that bullying can leave devastating and often long-term effects such as a loss of self-esteem, increased anxiety, and depression for those involved.  PACER reached out to the community through partnerships with education-based organizations such as the National PTA, the American Federation of Teachers and the National Education Association to provide schools, parents and students with the educational resources and support to better respond to bullying behavior.  The National Bullying Prevention Center laid the groundwork so that National Bullying Prevention Month is now a nationwide call to action around educating communities as to their roles in bullying prevention.  This initiative has helped shift thinking away from bullying as &ldquo;rite of passage&rdquo; and toward the knowledge that bullying can be prevented and stopped through education and awareness.</p>
