@@ -6,6 +6,14 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2016-caleb-finds-hero.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico" />
 <meta property="og:description" content="" />
+<style type="text/css">
+        @media only screen and (max-width: 415px) {
+            #sidebar {display: none !important;}
+        }
+        @media only screen and (min-width: 415px) {
+            #sidebar {display: block !important;}
+        }
+        </style>
 </head>
 
 <body class="onecol">
@@ -24,7 +32,7 @@
                     <td valign="top">
                         <p>Caleb first experienced bullying in the 7th grade. The bullying continued into 8th grade and then into his freshman year. He was told by his peers that he would never amount to anything, but during his freshman year, Caleb’s life changed.</p>
                         <p>“One day during English class, we watched a student-led bullying prevention presentation by upper classmen,” Caleb said. “The presentation educated me about the different types of bullying, the effects of bullying, and how to stand up to bullying, and they showed videos of students sharing their experiences with bullying. Their motto was ‘Anyone Can Be a Hero’ and stand up for bullying. It was in that moment that I wondered if I could.”</p>
-                        <p><img src="/bullying/stories/student-action/events/images/caleb-back.jpg" width="250" height="305" class="fltrt" alt=""/>One year later, it was Caleb giving that same bullying prevention presentation to freshman. By the following year, he was in charge of the entire school program, including expanding the effort to the middle school where he was first bullied. </p>
+                        <p id="sidebar"><img src="/bullying/stories/student-action/events/images/caleb-back.jpg" width="250" height="305" class="fltrt" alt=""/>One year later, it was Caleb giving that same bullying prevention presentation to freshman. By the following year, he was in charge of the entire school program, including expanding the effort to the middle school where he was first bullied. </p>
                         <p>The program offers a survey about bullying at the beginning of the year to collect data. The presentation includes NCT (Name It. Claim It. Tame It) Scenarios, the students sign a Be a Hero pledge, and feedback is gathered from the freshman about what they learned, what was most effective, and what could be improved to make more of an impact.</p>
                         <p>Feedback from students has been positive, which includes: “It changed my life,” “I now feel I have the courage to stand up against bullying,” and “I now know that I don’t have to fight bullying alone.” </p>
                         <p>“Since the student-led bullying prevention presentation has been implemented, we have seen the rate of bullying dramatically go down and countless lives touched,” Caleb said. “I know that there are so many young adults struggling with mental health and that the rate of bullying is growing every day, and that there are many teens out there who feel completely and utterly alone, helpless, hopeless, and powerless. I want to empower others to do incredible things with their lives, and perhaps, even more importantly, truly impact the lives of others.” </p>
