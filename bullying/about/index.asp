@@ -8,6 +8,7 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/about/" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
+<link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css"/>
 <style type="text/css">
 	@media (max-width: 700px) {
 		.singlecolumn table img {
@@ -98,7 +99,7 @@
 		<div class="contentrow singlecolumn row-whitered" style="padding: 10px; color:#000;">
 			<div class="singlecolumn">
 				<h2>PACER Center&mdash;Champions for Children with Disabilities</h2>
-				<img src="/bullying/images/PACER-LogoOnly-Med.png" width="100" alt="" style="padding:10px; padding-top:0px" class="fltrt" />
+				<img src="/images/PACER-LogoOnly-Med.png" width="100" alt="" style="padding:10px; padding-top:0px" class="fltrt" />
 				<p>Founded in 1977, <a href="http://www.pacer.org" target="_blank">PACER Center</a> was created by parents of children and youth with disabilities to help other parents and families facing similar challenges. Today, PACER Center expands opportunities and enhances the quality of life of children and young adults with disabilities and their families. PACER is staffed primarily by parents of children with disabilities.</p>
 				<p>With assistance to individual families, workshops, materials for parents and professionals, and leadership in securing a free and appropriate public education for all children, PACER's work affects and encourages families in Minnesota and across the nation. </p>
 				<br class="clearfloat" />
