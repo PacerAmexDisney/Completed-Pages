@@ -2,10 +2,10 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
-<title>Template - National Bullying Prevention Center</title>
+<title>National Bullying Prevention Center - Contact Us</title>
 
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="National Bullying Prevention Center - Contact Us" />
+<meta property="og:url" content="http://www.pacer.org/bullying/about/contact.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
 </head>
