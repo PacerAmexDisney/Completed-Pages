@@ -24,13 +24,6 @@
 <script src="/SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
 <link href="/SpryAssets/SpryValidationTextarea.css" rel="stylesheet" type="text/css" />
 <link href="/SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 
 <% ' ----------------------------------------------- FORM SECURITY ITEMS -------------------------------------------- %>
 
@@ -61,8 +54,22 @@ form.secured .offScreen {
 	height:1px;
 	position:absolute;
 	left:-9999999px;
-} 
-
+}
+@media (max-width: 750px) {
+  #icarebecauseform table,
+  #icarebecauseform tr,
+  #icarebecauseform td,
+  #icarebecauseform tbody {
+    max-width:100%;
+    display:block;
+  }
+  #icarebecauseform tr {
+    padding-top: 10px;
+  }
+  #icarebecauseform textarea {
+    max-width:90%;
+  }
+}
 </style>
 
 

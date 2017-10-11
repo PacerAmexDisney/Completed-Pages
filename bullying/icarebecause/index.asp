@@ -343,32 +343,51 @@ end Function
 
 %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>National Bullying Prevention Center</title>
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
+<!--#include virtual="/bullying/templates/header.asp"-->
 
-<!-- for Facebook -->     
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Everyone has a reason to care about bullying prevention, whether it’s affecting you, your friends, your children, or your community. Tell us why YOU care about bullying prevention." />
+
 <meta property="og:title" content="National Bullying Prevention Center - I Care Because" />
 <meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/icarebecause/images/i-care-because-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/icarebecause/" />
 <meta property="og:description" content="Everyone has a reason to care about bullying prevention, whether it’s affecting you, your friends, your children, or your community. Tell us why YOU care about bullying prevention." />
 
+<style type="text/css">
+.comment-block {
+  clear:right; 
+  width:700px; 
+  max-width:100%;
+  margin:25px auto;
+}
+.comment-block pre {
+  width:700px; 
+  max-width:90%;
+  display:block; 
+  padding-left:15px; 
+  padding-right:15px; 
+}
+@media (max-width: 750px) {
+  .comment-block pre {
+    white-space: normal;
+    padding-right: 40px;
+  }
+  .fltrt {
+    float:none;
+    clear:both;
+    margin: 10px auto 0 auto;
+  }
+}
+</style>
 </head>
 
 <body>
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
-
-
-<!--#include virtual="/bullying/dynamic-header.html"-->
-<!--#include virtual="/bullying/topnav.html"-->
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
 	<div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
 			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
@@ -415,8 +434,8 @@ While ((Repeat1__numRows <> 0) AND (NOT rs.EOF))
 %>
      
      
-     <div style="clear:right; width:700px; margin:25px auto">
-     <pre style="width:700px; display:block; padding-left:15px; padding-right:15px;"><%=(rs.Fields.Item("bullysupport_comment").Value)%></pre>
+     <div class="comment-block">
+     <pre><%=(rs.Fields.Item("bullysupport_comment").Value)%></pre>
      <p style="font-weight:bold;"><%=(rs.Fields.Item("bullysupport_fname").Value)%> - <%=(rs.Fields.Item("bullysupport_age").Value)%> - <%=(rs.Fields.Item("bullysupport_state").Value)%></p>
      <hr />
      </div>    
@@ -457,12 +476,7 @@ Wend
 </table>
 
 
-
-  <!-- end .content --></div>
-<!--#include virtual="/bullying/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/bullying/templates/footer.asp"-->
 <%
 rs.Close()
 Set rs = Nothing
