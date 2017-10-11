@@ -1,4 +1,4 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/bullying/templates/header.asp"-->
 <!--#include virtual="/Connections/PACER_WEB.asp" -->
 <%
 Dim rs
@@ -343,17 +343,15 @@ end Function
 
 %>
 
-<!--#include virtual="/bullying/templates/header.asp"-->
-
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="Everyone has a reason to care about bullying prevention, whether it’s affecting you, your friends, your children, or your community. Tell us why YOU care about bullying prevention." />
+<meta name="description" content="Everyone has a reason to care about bullying prevention, whether itï¿½s affecting you, your friends, your children, or your community. Tell us why YOU care about bullying prevention." />
 
 <meta property="og:title" content="National Bullying Prevention Center - I Care Because" />
 <meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/bullying/icarebecause/images/i-care-because-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/bullying/icarebecause/" />
-<meta property="og:description" content="Everyone has a reason to care about bullying prevention, whether it’s affecting you, your friends, your children, or your community. Tell us why YOU care about bullying prevention." />
+<meta property="og:description" content="Everyone has a reason to care about bullying prevention, whether itï¿½s affecting you, your friends, your children, or your community. Tell us why YOU care about bullying prevention." />
 
 <style type="text/css">
 .comment-block {
@@ -371,6 +369,7 @@ end Function
 }
 @media (max-width: 750px) {
   .comment-block pre {
+    max-width: 80%;
     white-space: normal;
     padding-right: 40px;
   }
@@ -396,7 +395,7 @@ end Function
 
   <div class="content">
   
-  <div class="fltrt" style="width:375px; margin-bottom:20px;">
+  <div class="fltrt" style="margin-bottom:20px;">
   <table border="0" class="datasetnav fltrt">
   <tr>
   <td align="center" colspan="4">Page <%=cInt(rs_last / 30)%> of <%=RoundUp(rs_total / 30)%>

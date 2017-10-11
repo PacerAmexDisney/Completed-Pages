@@ -32,6 +32,9 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+iframe {
+	border: none;
+}
 ul, ol, dl {
 	padding: 0;
 	margin: 0;
@@ -750,6 +753,7 @@ ul.space  li {
 }
 .datasetnav{
 	width:300px;
+	max-width: 80%;
 	border: 1px solid #999;
 	padding: 5px;
 	margin:5px 46px 5px 5px;
@@ -952,3 +956,13 @@ a.btn:hover, a.btn:active {
 .prev-tab {
     float: left;
 }
+
+.thumbnailTable td:first-child img{
+		min-width: 150px;
+}
+@media all and (max-width: 560px) {
+	.thumbnailTable td:first-child img{
+		min-width: 75px;
+	}
+}
+
