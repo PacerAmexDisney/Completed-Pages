@@ -19,7 +19,7 @@
 
 <!-- ########################## LEFT NAV ########################################### -->
 <div class="sidebar1">
-    <!--#include virtual="/bullying/templates/nav.html"-->
+    <!--#include virtual="/bullying/about/nav.html"-->
 </div>
 <script type="text/javascript">
 	var currId="contact";
@@ -72,7 +72,7 @@
 
   <p><strong>Social Media</strong></p>
   <p>
-  <a href="https://www.facebook.com/PACERsNationalBullyingPreventionCenter" target="_blank"><img src="/images/facebookicon_medium.gif" width="35" height="35" alt=""/> PACERsNationalBullyingPreventionCenter</a>
+  <a href="https://www.facebook.com/PACERsNationalBullyingPreventionCenter" target="_blank"><img src="/images/facebookicon_medium.gif" width="35" height="35" alt=""/> National Bullying Prevention Center</a>
   <br />
   <a href="https://twitter.com/PACER_NBPC" target="_blank"><img src="/images/twittericon_medium.gif" width="35" height="35" alt=""/> @pacer_nbpc</a>
   <br />
