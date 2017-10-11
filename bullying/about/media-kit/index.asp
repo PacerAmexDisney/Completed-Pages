@@ -53,8 +53,7 @@
     <li><a href="/bullying/about/media-kit/psa-audio-scripts.asp">PSAS &ndash; Audio scripts</a></li>
     <!--<li><a href="/bullying/about/media-kit/psa-videos.asp">PSAs &ndash; Videos</a></li>-->
     </ul>
-</div>
 
-<!-- ########################## END MAIN CONTENT ########################################### -->
+
 <!--#include virtual="/bullying/templates/footer.asp"-->
 

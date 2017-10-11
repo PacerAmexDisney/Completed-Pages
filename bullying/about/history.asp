@@ -1,13 +1,19 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
+<meta name="description" content="
+The staff at PACER Center noted that parents of children with disabilities were calling more frequently about bullying situations, and the stories were heartbreaking. As parents continued to express their concerns that they did not know how to help their child and did not know what their rights were or what steps to take, PACER decided to take action.
+" />
 <title>History - National Bullying Prevention Center</title>
 
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="History - National Bullying Prevention Center" />
+<meta property="og:url" content="http://www.pacer.org/bullying/about/history.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="The staff at PACER Center noted that parents of children with disabilities were calling more frequently about bullying situations, and the stories were heartbreaking. As parents continued to express their concerns that they did not know how to help their child and did not know what their rights were or what steps to take, PACER decided to take action." />
+
+<link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css"/>
+
+
 </head>
 <body class="onecol">
 <div class="container">
@@ -49,7 +55,7 @@
 			<div class="singlecolumn">
 			<h2><strong>Timeline</strong></h2>
 			<h3>2016 &ndash;</h3>
-			<img style="float:right" src="/bullying/about/images/nbpc-10yr.jpg" width="150" height="150" alt=""/>
+			<img class="mobileCentered" style="float:right" src="/bullying/about/images/nbpc-10yr.jpg" width="150" height="150" alt=""/>
 <ul>
 	<li>Celebrates 10th anniversary of the National Bullying Prevention Center and National Bullying Prevention Month in October.</li>
 				<li>Shares in the journey of Tristan McIntosh, an American Idol finalist, who in 2011 collaborated with PACER's National Bullying Prevention on the "<a href="http://www.pacer.org/bullying/resources/toolkits/activities/unity-dance.asp">Unity Dance</a>"</li>
@@ -107,7 +113,7 @@
 				<li>Students around the country participate in the first <a href="http://www.pacer.org/bullying/nbpm/unity-dance-day.asp">UNITY DANCE DAY</a>,  using music and dance to show support of those who are bullied. </li>
 				<li><a href="http://www.pacer.org/bullying/about/pressrelease.asp?file=2011/nr20111117-1.asp">FBI  awards PACER's National Bullying Prevention Center</a> with &quot;Director's Community Leadership Award.&quot;</li>
 			</ul>
-			<h3>2010 &ndash; </strong>PACER&rsquo;s bullying prevention resources are featured on:</h3>
+			<h3>2010 &ndash; PACER&rsquo;s bullying prevention resources are featured on:</h3>
 			<ul>
 				<li>Ellen DeGeneres&rsquo; website</li>
 				<li>CBS Today Show</li>
@@ -121,7 +127,7 @@
 				<li>New York Times, in live event</li>
 			</ul>
 			<h3>2010 &ndash; </h3>
-			PACER sponsors the first Run, Walk, Roll Against Bullying with more than 200 participants.
+			<p>PACER sponsors the first Run, Walk, Roll Against Bullying with more than 200 participants.
 			</p>
 			<h3>2009 &ndash; </h3>
 			<ul>
@@ -130,7 +136,7 @@
 				<li>PACER pilots a KIDS AGAINST BULLYING puppet show.</li>
 			</ul>
 			<h3>2007 &ndash; </h3>
-			PACER partners with Yahoo! Kids during National Bullying Prevention Month.
+			<p>PACER partners with Yahoo! Kids during National Bullying Prevention Month.
 			</p>
 			<h3>2006 &ndash; </h3>
 			<ul>
@@ -142,13 +148,11 @@
 			<ul>
 				<li>PACER receives a $100,000 grant from Robins, Kaplan, Miller and Ciresi Foundation to create an online bullying prevention site for elementary school students.</li>
 			</ul>	
-			</p>
+			
 			<h3>1977 &ndash; </h3>
 			<ul>	
 				<li>PACER incorporates as a 501(c)3 nonprofit.</li>
 			</ul>	
-			</p>
-			</div>
-
-<!-- ########################## END MAIN CONTENT ########################################### -->
+			
+</div></div>
 <!--#include virtual="/bullying/templates/footer.asp"-->
