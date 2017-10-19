@@ -6,6 +6,15 @@
 <meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2013-DayOfSilence.asp"/>
 <meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico"/>
 <meta property="og:description" content=""/>
+
+<style type="text/css">
+        @media only screen and (max-width: 415px) {
+            #sidebar {display: none !important;}
+        }
+        @media only screen and (min-width: 415px) {
+            #sidebar {display: block !important;}
+        }
+  </style>
 </head>
 
 <body class="onecol">
@@ -36,7 +45,7 @@
                     </td>
                     <td id="sidebar" width="320" style="text-align:center; padding:0 20px 10px 20px;" valign="top">
                         <p>
-                            <img style="margin-bottom:20px;" width="320" src="/bullying/stories/student-action/events/images/Gerry-and-sign.jpg" alt="" />
+                            <img id="sidebar" style="margin-bottom:20px;" width="320" src="/bullying/stories/student-action/events/images/Gerry-and-sign.jpg" alt="" />
                         </p>
                     </td>
                 </tr>
