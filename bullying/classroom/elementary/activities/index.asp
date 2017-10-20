@@ -23,8 +23,11 @@
  		margin-top:-95px;
  	}
     @media (max-width: 1000px) {
-    #studentsteachingstudents{
-        margin-top: 0;
+        #studentsteachingstudents{
+            margin-top: 0;
+        }
+        #activitestable img {
+            display: none;
         }
     }
  </style>
