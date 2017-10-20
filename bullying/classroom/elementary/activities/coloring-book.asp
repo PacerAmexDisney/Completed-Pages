@@ -17,7 +17,7 @@
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/activities">Activities</a></div>
 <!-- ######################### NAVIGATION ################################# -->
-  <div class="sidebar1"> 
+  <div class="sidebar1">
   <!--#include virtual="/bullying/templates/nav.html"-->
     <script type="text/javascript">
 	// ID and SubId to be Orange
@@ -35,15 +35,15 @@ document.getElementById(currId).className = "active";
 			}
 		}
 	}
-</script> 
+</script>
   </div>
   <!-- ###################### END Navigation ############################## -->
-  
-  <div class="content"> 
+
+  <div class="content">
     <h1 id="maincontent">Kids Against Bullying Coloring Book</h1>
 	<p>Looking for a creative way to have a conversation about bullying with young learners?</p>
 	<p>PACER&rsquo;s <a href="/bullying/pdf/ColorTheCrew.pdf" target="_blank">coloring book</a> <img src="http://www.pacer.org/images/pdficon_small.gif" alt="pdf icon" width="15" border="0" height="15" /> gives teachers and students a great opportunity to talk about bullying while engaging in an activity. Each page includes an important message about respecting others, being kind, and including others. Download these pages and discover how kids, crayons and conversation can help prevent bullying.</p>
-	<div align="center"> <a href="/bullying/pdf/ColorTheCrew.pdf" title="Download the Color The Crew book" target="_blank"><img src="/bullying/classroom/images/coloring-book-cover.png" width="600" height="688" alt="" /></a>
+	<div align="center"> <a href="/bullying/pdf/ColorTheCrew.pdf" title="Download the Color The Crew book" target="_blank"><img src="/bullying/classroom/images/coloring-book-cover.png" width="600" height="688" alt="" style="padding:0 15px; box-sizing: border-box" /></a>
 </div>
 <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->
