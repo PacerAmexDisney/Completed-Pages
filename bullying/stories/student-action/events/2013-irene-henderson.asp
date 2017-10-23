@@ -5,6 +5,15 @@
 <meta property="og:title" content="National Bullying Prevention Center - Student Action - Bullying Prevention Through Song and Dance"/>
 <meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2013-Irene-Henderson.asp"/><meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico"/>
 <meta property="og:description" content=""/>
+
+ <style type="text/css">
+        @media only screen and (max-width: 415px) {
+            #sidebar {display: none !important;}
+        }
+        @media only screen and (min-width: 415px) {
+            #sidebar {display: block !important;}
+        }
+   </style>
 </head>
 
 <body class="onecol">
