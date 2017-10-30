@@ -1,11 +1,11 @@
-<!--#include virtual="http://www.pacer.org/templates/header.asp"-->
+<!--#include virtual="/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
 <title>Juvenile Justice - PACER Center</title>
 
-<meta property="og:title" content="" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="Juvenile Justice" />
+<meta property="og:url" content="http://www.pacer.org/jj/" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
@@ -25,12 +25,12 @@
 </head>
 <body>
 
-<!--#include virtual="http://www.pacer.org/templates/page-header-nav.asp"-->
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
 
-<a href="http://www.pacer.org/">Home</a> / <a href="http://www.pacer.org/pandr/">Programs &amp; Resources</a> /
+<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> /
 </div>
 	<h1>Juvenile Justice</h1>
 
@@ -45,7 +45,7 @@
 </script>
 
 <div id="leftbar">
-<!--#include virtual="http://www.pacer.org/templates/leftNav.html" -->
+<!--#include virtual="/templates/leftNav.html" -->
 
 </div>
 
@@ -109,7 +109,7 @@ PACER is committed to providing information about:
 
   <div class="">
 	<h3 class="headingblock"><!-- <img id="top-right-image" src="http://pacer.org/school-discipline-information/images/disability-guide.jpg" alt="" width="50%" /> -->Step by Step </h3> <br /> 
-		<h3 class="related"><a href="http://www.pacer.org/school-discipline-information/">School Discipline Guide</a></h3>
+		<h3 class="related"><a href="/school-discipline-information/">School Discipline Guide</a></h3>
 	<p>Parents of children with disabilities often ask:</p>
 	<ul type="disc">
 		<li>Can the school send my child home before the end of the school day?</li>
@@ -118,10 +118,10 @@ PACER is committed to providing information about:
 		<li>What happens to my child&rsquo;s educational services if he or she is sent home, suspended, or expelled?</li>
 	</ul>
 	<p>This interactive guide will answer these and  many other questions. Whether your child is on an <span id="iep">Individualized Education Plan  (IEP)</span> or a <span id="504">Section 504 Plan</span>,     or if you suspect that your child has a disability  that affects his   or   her behavior at school, this guide will help you understand  the     complex disciplinary process for Minnesota public school children with      disabilities.</p>
-	<h3><a href="http://www.pacer.org/school-discipline-information/">Begin &gt;&gt;&gt;</a></h3>
+	<h3><a href="/school-discipline-information/">Begin &gt;&gt;&gt;</a></h3>
 </div>
 
 
 
 <!--END CONTENT-->
-<!--#include virtual="http://www.pacer.org/templates/footer.asp" -->
+<!--#include virtual="/templates/footer.asp" -->
