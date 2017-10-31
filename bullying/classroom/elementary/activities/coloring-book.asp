@@ -5,7 +5,6 @@
 <meta name="description" content="Bullying is no fun, but learning about it can be. PACER's coloring book gives teachers and students a great opportunity to talk about bullying while they have fun. Each page includes an important message about respecting others, valuing differences, and being a friend. Download these pages and discover how kids and crayons can help prevent bullying.
 " />
 <meta property="og:title" content="Coloring Book - National Bullying Prevention Center" />
-<meta property="og:type" content="article" />
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/coloring-book.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="Bullying is no fun, but learning about it can be. PACER's coloring book gives teachers and students a great opportunity to talk about bullying while they have fun. Each page includes an important message about respecting others, valuing differences, and being a friend. Download these pages and discover how kids and crayons can help prevent bullying." />
@@ -18,7 +17,7 @@
 <div class="breadcrumb"> <a href="/bullying/">Home</a> / <a href="/bullying/classroom/">Classroom</a> / <a href="/bullying/classroom/elementary/">Elementary School</a> / <a href="/bullying/classroom/elementary/activities">Activities</a></div>
 <!-- ######################### NAVIGATION ################################# -->
   <div class="sidebar1">
-  <!--#include virtual="/bullying/templates/nav.html"-->
+  <!--#include virtual="/bullying/classroom/nav.html"-->
     <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="ele-activities-coloringbook";

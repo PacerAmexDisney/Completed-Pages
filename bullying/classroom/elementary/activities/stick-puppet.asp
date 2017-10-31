@@ -1,20 +1,20 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Role plays are an interactive method to creatively engage elementary school children to learn options for handling bullying situations. Stick puppet plays incorporate the Kids Against Bullying Club Crew members." />
 <title>Stick Puppet Role Plays - National Bullying Prevention Center</title>
-<meta name="description" content="Role plays are an interactive method to creatively engage elementary school children to learn options for handling bullying situations. Stick puppet plays incorporate the Kids Against Bullying Club Crew members.
-" />
+
 <meta property="og:title" content="Stick Puppet Role Plays - National Bullying Prevention Center" />
 <meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/activities/stick-puppet.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
-<meta property="og:description" content="Role plays are an interactive method to creatively engage elementary school children to learn options for handling bullying situations. Stick puppet plays incorporate the Kids Against Bullying Club Crew members.
-" />
-
+<meta property="og:description" content="Role plays are an interactive method to creatively engage elementary school children to learn options for handling bullying situations. Stick puppet plays incorporate the Kids Against Bullying Club Crew members." />
 </head>
 <body class="twocol">
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
 <div class="breadcrumb">
     <a href="/bullying/">Home</a> /
     <a href="/bullying/classroom/">Classroom</a> /
@@ -22,16 +22,19 @@
     <a href="/bullying/classroom/elementary/activities">Activities</a>
 </div>
 
-<!-- ######################### NAVIGATION ################################# -->
-  <div class="sidebar1">
-  <!--#include virtual="/bullying/templates/nav.html"-->
-    <script type="text/javascript">
-	// ID and SubId to be Orange
+<!-- ########################## LEFT NAV ########################################### -->
+<div class="sidebar1">
+    <!--#include virtual="/bullying/templates/nav.html"--> 
+</div>
+<script type="text/javascript">
 	var currId="ele-activities-puppet";
 	var showTree = "ele-sub";
 	var showTree2 = "ele-activities-sub";
+</script>
+
+<script type="text/javascript">
 	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "active";
+document.getElementById(currId).className = "active";
 	}
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
@@ -41,11 +44,12 @@
 			}
 		}
 	}
-</script>
-  </div>
-  <!-- ###################### END Navigation ############################## -->
+</script> 
 
-  <div class="content">
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+
+<div class="content">
     <h1 id="maincontent">Stick Puppet Role Plays Featuring the Club Crew</h1>
   <img src="/bullying/classroom/elementary/activities/scripts/clubcrewimg.jpg" width="225" height="314" alt="" class="fltrt mobileCentered" />
 <p>
@@ -123,5 +127,5 @@ In discussing options, it is important to note that students often will decide o
 <p>Special thanks to Barb Roy, the playwright for the Club Crew puppet role plays and the middle- and high-school role plays.<br />
     <br />
     <em>&quot;I am the mother of an adult son with autism. Over the years, he has been the victim of teasing and bullying many times. Thanks to the efforts of his champions: his second grade teacher-who taught his classmates to be human, his older brother- who taught him how to be a &quot;guy&quot;, and his father-who is his biggest fan-he has been able to rise above those incidents. My many years of teaching have given me tremendous faith in kids-talk to them honestly, and they will listen. They are the ones who can stop bullying in its tracks. I  also believe in the power of theatre to change people. I hope that these scripts will give teachers a place to begin discussion and also a fun classroom activity.&quot; Barb</em></p>
-<!-- ########################## END MAIN CONTENT ########################################### -->
+	</div>
 <!--#include virtual="/bullying/templates/footer.asp"-->
