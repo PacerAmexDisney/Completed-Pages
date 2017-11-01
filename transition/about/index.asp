@@ -8,7 +8,6 @@
 <meta name="description" content="The road to adulthood for youth with disabilities is filled with opportunity, and parents play a key role. PACER's National Parent Center on Transition and Employment is ready with the information families want, presented in a way families can use.">
 <!-- for Facebook -->          
 <meta property="og:title" content="About Us - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/about/index.asp" />
 <meta property="og:description" content="The road to adulthood for youth with disabilities is filled with opportunity, and parents play a key role. PACER's National Parent Center on Transition and Employment is ready with the information families want, presented in a way families can use." />
@@ -98,9 +97,10 @@ $( window ).resize(function() {
 
 
   <div class="content">
+  	<div class="narrowContent">
     <h1 id="maincontent">About Us</h1>
 
-        <div class="alertBox">
+        <div class="alertBox mobileCentered">
    	  <p><strong>Contact Us</strong><br />
         <a href="/transition/about/contact.asp">Connect with PACER&rsquo;s National Parent Center on Transition and Employment</a></p>
         <ul>
@@ -110,7 +110,7 @@ $( window ).resize(function() {
 
 
     <h3>PACER&rsquo;s National Parent Center on Transition and Employment</h3>
-	<img src="/transition/about/images/about-us.jpg" width="180" style="float:left; margin:0 1em" alt="" />
+	<img class="mobileCentered fltlft" src="/transition/about/images/about-us.jpg" width="180" alt="" />
     <p>The road to adulthood for youth with disabilities is filled with opportunity, and parents play a key role. PACER&rsquo;s National Parent Center on Transition and Employment is ready with the information families want, presented in a way families can use.</p>
     <p>Founded in 2014, PACER&rsquo;s National Parent Center on Transition and Employment builds on PACER&rsquo;s decades of experience providing high quality assistance and support to parents, youth, and professionals on transition topics. This innovative new project will keep the needs of families at the forefront and help youth with disabilities find success in postsecondary education, employment, and life in the community.</p>
     <p>PACER&rsquo;s National Parent Center on Transition and Employment provides relevant information and resources to parents, youth, and professionals through a variety of services:</p>
@@ -124,10 +124,10 @@ $( window ).resize(function() {
     <hr />
     
     <h3>PACER Center &mdash; Champions for Children with Disabilities</h3>
-	<img src="http://www.pacer.org/images/pacer-exteriorsign_medium.jpg" width="300" style="float:left; margin:0 1em" alt="" />
+	<img class="fltlft mobileCentered" src="http://www.pacer.org/images/pacer-exteriorsign_medium.jpg" width="300" alt="" />
 <p>Founded in 1977, PACER Center was created by parents of children and youth with disabilities to help other parents and families facing similar challenges. PACER Center enhances the quality of life and expands opportunities for children, youth, and young adults with all disabilities and their families so each person can reach his or her highest potential. PACER operates on the principles of parents helping parents, supporting families, promoting a safe environment for all children, and working in collaboration with others.</p>
       <p>With assistance to individual families, workshops, materials for parents and professionals, and leadership in securing a free and appropriate public education for all children, PACER&rsquo;s work affects and encourages families in Minnesota and across the nation.</p>
       
-     
+	  </div><!--close narrowcontent -->
       
 <!--#include virtual="/transition/templates/footer.asp"-->

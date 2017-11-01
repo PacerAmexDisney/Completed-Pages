@@ -1,4 +1,5 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/transition/templates/header.asp"-->
+
 <!--#include virtual="/Connections/PACER_WEB.asp" -->
 <%
 
@@ -356,7 +357,6 @@ End If
 
 
 
-<!--#include virtual="/transition/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Stories - National Parent Center on Transition and Employment</title>
@@ -448,7 +448,7 @@ ol, ul {
 
   <h1 id="maincontent">Stories</h1>
 
- <div id="navcontainer1" class="fltrt">
+ <div id="navcontainer1" class="fltrt mobileCentered">
  <table border="0" class="datasetnav fltrt">
  <tr>
  <td align="center" colspan="4">Page <%=RoundUp(cInt(rs_last / 10))%> of <%=RoundUp(rs_total / 10)%>
@@ -481,7 +481,7 @@ ol, ul {
 	<div style="position:absolute; width:100%; text-align:center; top:0px"><a href="/transition/stories/">View All Stories</a></div>
 <%End If%>
 <%If Request.QueryString("id") = "" Then%>
-	<div class="alertBox">
+	<div class="alertBox mobileCentered">
 	<h3>Send Us Your Story or Video</h3>
 	<p>Submit a video, story, poem, artwork, or audio clip telling us about your experience with transitioning to adulthood. We would love for you to share your success stories about preparing for or finding a job, navigating postsecondary education, or identifying a community resource or piece of assistive technology that really worked for you, or your son or daughter. </p>
 <p><a href="mailto:transition@PACER.org">transition@PACER.org</a></p>
@@ -513,7 +513,7 @@ End If
 
  If Len(rs.Fields.Item("image").Value) > 0 Then
 %>
-	<img src="<%=(rs.Fields.Item("image").Value)%>" width="150" class="fltlft" style="margin-left:15px;" />
+	<img src="<%=(rs.Fields.Item("image").Value)%>" width="150" class="fltlft mobileCentered" />
 <%
  End If
 %>
