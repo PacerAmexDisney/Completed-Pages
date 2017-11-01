@@ -24,6 +24,10 @@ $primary-border: 1px solid $transition-green;
     display: none;
 }
 
+#topnav ul {
+  background-color: $transition-purple;
+}
+
 @mixin transition-responsive-styles{
     .container{
         width: 100%;

@@ -2,6 +2,9 @@
 .menu-icon-logo-wrapper {
   display: none; }
 
+#topnav ul {
+  background-color: #262673; }
+
 @media screen and (max-width: 750px) {
   .container {
     width: 100%;
@@ -33,8 +36,6 @@
         max-width: 80%;
         background: #fff url(images/mobile/transition/transition-logo.png) no-repeat center;
         background-size: contain; }
-    .container #topnav a {
-      background-color: #fff; }
     .container #navWrap {
       display: none;
       height: auto;
