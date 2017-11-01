@@ -1,7 +1,7 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>About Us - National Parent Center on Transition and Employment</title>
 
@@ -14,7 +14,6 @@
 <meta property="og:description" content="The road to adulthood for youth with disabilities is filled with opportunity, and parents play a key role. PACER's National Parent Center on Transition and Employment is ready with the information families want, presented in a way families can use." />
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="/js/LayerSlider/layerslider/css/layerslider.css" type="text/css" />
 
 <!--#include virtual="/transition/dynamic-head-items.html"-->
@@ -31,22 +30,25 @@ if (typeof jQuery == 'undefined')
 <script src="/js/LayerSlider/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-		$('#layerslider').removeClass('loading');
-		$('#layerslider').layerSlider({
-			skin : 'noskin',
-			skinsPath : '/js/LayerSlider/layerslider/skins/',
-			//youtubePreview  : 'hqdefault.jpg',
-			animateFirstLayer : false,
-			navPrevNext : false,
-			navStartStop : false,
-			autoPlayVideos : false,
-			autoPauseSlideshow : true,
-			pauseOnHover : false,
-			slideDelay : 5000,
-			loops : 8
-		});
-	});
-
+  $('#layerslider').removeClass('loading');
+  $('#layerslider').layerSlider({
+    skin : 'noskin',
+    skinsPath : '/js/LayerSlider/layerslider/skins/',
+    //youtubePreview  : 'hqdefault.jpg',
+    animateFirstLayer : false,
+    navPrevNext : false,
+    navStartStop : false,
+    autoPlayVideos : false,
+    autoPauseSlideshow : true,
+    pauseOnHover : false,
+    slideDelay : 5000,
+    loops : 8
+  });
+  $('#layerslider').css('max-height', $('#layerslider').width() * 300/1002);
+});
+$( window ).resize(function() {
+  $('#layerslider').css('max-height', $('#layerslider').width() * 300/1002);
+});
 </script>
 
 <style>
@@ -64,6 +66,7 @@ $(document).ready(function(){
 	height: 300px;
 	border: 1px solid #ccc;
 	margin: 0 auto 35px;
+	max-width: 100%;
 }
 
 </style>
@@ -75,12 +78,11 @@ $(document).ready(function(){
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / </div>
 
-  <%'----------------------------------- START LAYER SLIDER -------------------------------------- %>
+  <!-- ----------------------------------- START LAYER SLIDER -------------------------------------- -->
   <div id="layerslider" class="loading">
     <div id="slide1" class="ls-layer" rel="slidedirection: left;">
      	<img src="/transition/about/images/aboutUs-slider/iStock_000007030153Medium.jpg" alt="" width="1002" height="300" class="ls-bg" rel="delayIn: 0;"/>
@@ -92,7 +94,7 @@ $(document).ready(function(){
      	<img src="/transition/about/images/aboutUs-slider/31009971_ml.jpg" alt="" width="1002" height="300" class="ls-bg" rel="delayIn: 800;"/>
     </div>
    </div>
-  <%'---------------------------- END LAYER SLIDER ------------------------------------%>
+  <!-- ---------------------------- END LAYER SLIDER ------------------------------------ -->
 
 
   <div class="content">
@@ -128,11 +130,4 @@ $(document).ready(function(){
       
      
       
-      
-  <!-- end .content -->
-  <br class="clearfloat" />
-</div>
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/transition/templates/footer.asp"-->
