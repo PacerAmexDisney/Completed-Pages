@@ -76,8 +76,8 @@
   The Annie E. Casey Foundation</li>
 <li class="pdficonlist"><a href="http://www.neglected-delinquent.org/nd/docs/factSheet_facilities.pdf" target="_blank">Juvenile Justice Facilities Fact Sheet <span class="fa fa-external-link"></span></a><br />
 The National Evaluation and Technical Assistance Center</li>
-<li><a href="http://www.reclaimingfutures.org/blog/minnesota-disproportionate-minority-contact" target="_blank">Disproportionate Minority Contact in Minnesota’s Juvenile Justice System <span class="fa fa-external-link"></span></a><br />
-A report from Minnesota’s Department of Public Safety Office of Justice Programs</li>
+<li><a href="http://www.reclaimingfutures.org/blog/minnesota-disproportionate-minority-contact" target="_blank">Disproportionate Minority Contact in Minnesota's Juvenile Justice System <span class="fa fa-external-link"></span></a><br />
+A report from Minnesota's Department of Public Safety Office of Justice Programs</li>
 </ul>
 
 <!--END CONTENT-->

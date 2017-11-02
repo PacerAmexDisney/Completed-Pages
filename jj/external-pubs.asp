@@ -58,7 +58,7 @@
 <!--BEGIN CONTENT-->
 <h2 class="nounderline">External Publications</h2>
 
-<h3><strong>FOR PARENTS</strong> </h3>
+<h3>FOR PARENTS </h3>
 <ul>
   <li class="pdficonlist"><a href="/jj/pdf/final-truancy-report-dec2006.pdf" target="_blank">A  Center for Children&rsquo;s Advocacy Report: Truancy: A Closer Look, the  link between unmet educational needs and truancy</a><br />
     Center for Children&rsquo;s Advocacy &bull; University of Connecticut School of Law
@@ -67,13 +67,13 @@
 NAMI, The National Alliance  on Mental Illness</li>
   <li >
     The <a href="http://www.clcmn.org/resources/youth/" target="_blank">Children&#039;s Law Center of Minnesota</a> has developed helpful information for people of all ages to    understand their rights and legal options in different situations including:
-<ul>
-      <li class="pdficonlist"><a href="http://www.clcmn.org/wp-content/uploads/2009/07/Expungment-Brochure2.7.11.pdf" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/download/http://www.clcmn.org/wp-content/uploads/2009/07/Expungment-Brochure2.7.11.pdf']);" target="_blank"><strong>youth guide to EXPUNGEMENT</strong></a> -&nbsp; how expungement of criminal records can help people overcome some of the obstacles that come from having a criminal record.<br />
+	</li>
+      <li class="pdficonlist"><a href="http://www.clcmn.org/wp-content/uploads/2009/07/Expungment-Brochure2.7.11.pdf" onclick="javascript:_gaq.push(['_trackPageview','/yoast-ga/download/http://www.clcmn.org/wp-content/uploads/2009/07/Expungment-Brochure2.7.11.pdf']);" target="_blank">youth guide to EXPUNGEMENT</a> -&nbsp; how expungement of criminal records can help people overcome some of the obstacles that come from having a criminal record.<br />
       </li>
-    </ul>
-  </li>
+
+
   </ul>
-<h3><strong>FOR PROFESSIONALS</strong></h3>
+<h3>FOR PROFESSIONALS</h3>
 <ul>
   <li><a href="http://lincs.ed.gov/reentryed/" target="_blank">Reentry Education Toolkit</a><br />
     The Reentry Education Tool Kit was created by RTI International with support from the U.S. Department of Education, Office of Career, Technical, and Adult Education (OCTAE), to help education providers and their partners create a reentry education continuum in their communities.</li>
