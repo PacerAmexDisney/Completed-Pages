@@ -2,10 +2,10 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
-<title>Juvenile Justice - PACER Center</title>
+<title>Juvenile Justice - External Publications - PACER Center</title>
 
-<meta property="og:title" content="Juvenile Justice" />
-<meta property="og:url" content="http://www.pacer.org/jj/" />
+<meta property="og:title" content="Juvenile Justice - External Publications" />
+<meta property="og:url" content="http://www.pacer.org/jj/external-pubs.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 

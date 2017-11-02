@@ -1,98 +1,50 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Juvenile Justice - Family Involvement - PACER Center</title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>PACER's Juvenile Justice - Family Involvement</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<meta property="og:title" content="Juvenile Justice - Family Involvement" />
+<meta property="og:url" content="http://www.pacer.org/jj/issues/family-involvement.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
-<script type="text/javascript" src="/css/menu.js"></script>
-<script type="text/javascript">
-<!--
-function wopen(url, name, w, h)
-{
-// Fudge factors for window decoration space.
- // In my tests these work well on all platforms & browsers.
-w += 32;
-h += 96;
- var win = window.open(url,
-  name, 
-  'width=' + w + ', height=' + h + ', ' +
-  'location=no, menubar=no, ' +
-  'status=no, toolbar=no, scrollbars=yes, resizable=yes');
- win.resizeTo(w, h);
- win.focus();
-}
-// -->
-</script> 
-<style type="text/css">
-#rightBar img {
-	margin-bottom:15px;
-}
-</style>
 </head>
-
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-<img src="/jj/images/sidebar/dad-son_1882275.jpg" width="250" height="167" alt="" />
-
-<img src="/images/sidebar/motherDaughter-2.jpg" width="250" height="187" alt="" />
-
-<img src="/jj/images/sidebar/boy-looking-off-into-distance00011901494Medium.jpg" width="250" height="167" alt="" />
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
 
-	<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> /
-	
-	<h1>Juvenile Justice - Issues </h1>
-	
+<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> /
 </div>
+	<h1>Juvenile Justice - Issues</h1>
+
 </div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="issues-familyinvolvement";
+	// current subtree that should be displayed
+	var showTree = "issues-sub";
+	var showTree2 = "none";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">Juvenile Justice - Navigation Menu</h2><!--#include virtual="/jj/nav.html"-->
+<!--#include virtual="/jj/nav.html" -->
 </div>
 
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="issues";
-	var currSubId="issues-familyinvolvement";
-	// any Subtree that I want to Display
-	var showTree = "issues-sub";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
@@ -104,8 +56,7 @@ h += 96;
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-
-<h2 class="nounderline">FaMILY iNVOLVEMENT</h2>
+<h2 class="nounderline">Family Involvement</h2>
 
 <p>Research often cites the need for  greater family involvement in the juvenile justice system. <br />
 Most parents care deeply about their  children and are at a loss about what to do. They may be frightened,  overwhelmed and confused by the court language and procedure. They may feel  blamed and shamed because their child is in trouble with the law. </p>
@@ -126,17 +77,6 @@ By Lili Garfinkel, PACER Center</li>
     <li class="pdficonlist"><a href="http://www.njjn.org/uploads/digital-library/NCTSN_family-engagement-trauma-informed-systems_Liane-Rozzell_September-2013.pdf" target="_blank">The Role of Family Engagement in Creating Trauma-Informed Juvenile Justice Systems</a>, by Liane Rozzell, Families and Allies of Virginia Youth, from the National Child Traumatic Stress Network</li>
 </ul>
 <p>&nbsp;</p>
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
