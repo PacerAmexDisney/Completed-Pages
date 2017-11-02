@@ -1,20 +1,18 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Resource Library - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="PACER’s transition publications provide useful and relevant information that helps youth with disabilities be successful in work, postsecondary education, and in the community.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Resource Library - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/resource-library/" />
 <meta property="og:description" content="PACER’s transition publications provide useful and relevant information that helps youth with disabilities be successful in work, postsecondary education, and in the community." />
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript">
@@ -56,8 +54,8 @@ table.handouts td{
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
+
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> /</div>
 
@@ -86,9 +84,4 @@ $.get('/publications/transition.asp', function (data) {
 
 
 
-
-  <!-- end .content --></div>
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/transition/templates/footer.asp"-->

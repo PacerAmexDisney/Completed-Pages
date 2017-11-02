@@ -1,4 +1,5 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
+<!--#include virtual="/transition/templates/header.asp"-->
+
 <!--#include virtual="/Connections/PACER_WEB.asp" -->
 <%
 
@@ -356,22 +357,18 @@ End If
 
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Stories - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="">
 <!-- for Facebook -->     
 <meta property="og:title" content="Success Stories from the National Parent Center in Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/stories/" />
 <meta property="og:description" content="Tell us about your experience with transitioning to adulthood. We would love for you to share your success stories about preparing for or finding a job, navigating postsecondary education, or identifying a community resource or piece of assistive technology that really worked for you, or your son or daughter. " />
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
 
 <style type="text/css">
@@ -395,6 +392,40 @@ End If
 ol, ul {
 	overflow:hidden;
 }
+#navcontainer1 {
+  width:375px;
+}
+.alertBox {
+  clear:right;
+  margin-top:15px; 
+  margin-right:52px; 
+  width:280px;
+}
+
+@media (max-width: 750px) {
+  .content {
+    margin-top:20px;
+  }
+  .addthis_sharing_toolbox {
+    max-width: 70%;
+  }
+  #navcontainer1.fltrt {
+    max-width: 90%;
+    float: none;
+    
+  }
+  .datasetnav {
+    max-width: 90%;
+    margin-right:5px;
+  }
+  .content .alertBox {
+    width: 90%;
+    margin-right:5px; 
+  }
+  #storyitems {
+    width: 90%;
+  }
+}
 </style>
 
 
@@ -406,8 +437,8 @@ ol, ul {
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
+
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/stories/">Stories</a> /</div>
 
@@ -417,7 +448,7 @@ ol, ul {
 
   <h1 id="maincontent">Stories</h1>
 
- <div id="navcontainer1" class="fltrt" style="width:375px;">
+ <div id="navcontainer1" class="fltrt mobileCentered">
  <table border="0" class="datasetnav fltrt">
  <tr>
  <td align="center" colspan="4">Page <%=RoundUp(cInt(rs_last / 10))%> of <%=RoundUp(rs_total / 10)%>
@@ -450,7 +481,7 @@ ol, ul {
 	<div style="position:absolute; width:100%; text-align:center; top:0px"><a href="/transition/stories/">View All Stories</a></div>
 <%End If%>
 <%If Request.QueryString("id") = "" Then%>
-	<div class="alertBox" style=" clear:right;margin-top:15px; margin-right:52px; width:280px">
+	<div class="alertBox mobileCentered">
 	<h3>Send Us Your Story or Video</h3>
 	<p>Submit a video, story, poem, artwork, or audio clip telling us about your experience with transitioning to adulthood. We would love for you to share your success stories about preparing for or finding a job, navigating postsecondary education, or identifying a community resource or piece of assistive technology that really worked for you, or your son or daughter. </p>
 <p><a href="mailto:transition@PACER.org">transition@PACER.org</a></p>
@@ -482,7 +513,7 @@ End If
 
  If Len(rs.Fields.Item("image").Value) > 0 Then
 %>
-	<img src="<%=(rs.Fields.Item("image").Value)%>" width="150" class="fltlft" style="margin-left:15px;" />
+	<img src="<%=(rs.Fields.Item("image").Value)%>" width="150" class="fltlft mobileCentered" />
 <%
  End If
 %>
@@ -559,13 +590,8 @@ Wend
 </table>
 
 
-<br class="clearfloat" />
+<!--#include virtual="/transition/templates/footer.asp"-->
 
- <!-- end .content --></div>
-<!--#include virtual="/transition/footer.html"-->
- <!-- end .container --></div>
-</body>
-</html>
 <%
 rs.Close()
 Set rs = Nothing

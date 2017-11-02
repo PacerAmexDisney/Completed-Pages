@@ -1,7 +1,7 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Contact Us - National Parent Center on Transition and Employment</title>
 
@@ -30,18 +30,36 @@
 	margin-right:450px;
 	background:#D8F6FF;
 }
+#rightside.fltrt {
+  width:430px; 
+  margin-left:15px; 
+  margin-bottom:15px;
+  max-width: 80%;
+}
+@media (max-width: 750px) {
+  #rightside.fltrt {
+    float:none;    
+  }
+  #rightside.fltrt img {
+    max-width: 100%;
+  }
+  #rightside.fltrt iframe {
+    max-width: 100%;
+  }
+  .highlightBox {
+  	margin-right:10px;
+  }
+}
 </style>
 
 <meta name="description" content="Are you the parent of a youth with a disability and not sure where to start your transition planning process? Contact us and we will direct you towards the most relevant resources. ">
 <!-- for Facebook -->          
 <meta property="og:title" content="Contact Us - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/about/contact.asp" />
 <meta property="og:description" content="Are you the parent of a youth with a disability and not sure where to start your transition planning process? Contact us and we will direct you towards the most relevant resources. " />
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
 </head>
 
@@ -51,8 +69,8 @@
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
+
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> /</div>
     
@@ -63,7 +81,7 @@
 
     <h1 id="maincontent">Contact Us</h1>
 
-<div id="rightside" class="fltrt" style="width:430px; margin-left:15px; margin-bottom:15px;">
+<div id="rightside" class="fltrt" >
 <img alt="" width="425" height="317" src="/transition/about/images/pacer-exteriorsign_medium.jpg" style="margin-bottom:5px;" /><br />
 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=200215112840656423095.00047a75fd0a6e2ded43d&amp;hl=en&amp;ie=UTF8&amp;ll=44.855192,-93.349687&amp;spn=0,0&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?msa=0&amp;msid=200215112840656423095.00047a75fd0a6e2ded43d&amp;hl=en&amp;ie=UTF8&amp;ll=44.855192,-93.349687&amp;spn=0,0&amp;source=embed" target="_blank" style="color:#0000FF;text-align:left">PACER Center</a> in a larger map</small>
 </div>
@@ -90,11 +108,7 @@
         <a href="https://www.facebook.com/npcte" target="_blank">https://www.facebook.com/npcte</a></p>
         <p><a href="http://www.pacer.org/directions.asp" target="_blank">Get Directions</a></p>
 
-    
-  <!-- end .content -->
-  <br class="clearfloat" />
-</div>
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+
+
+<!--#include virtual="/transition/templates/footer.asp"-->

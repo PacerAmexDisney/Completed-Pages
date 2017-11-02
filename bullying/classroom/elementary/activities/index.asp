@@ -66,14 +66,14 @@
  <div class="content">
   <h1 id="maincontent">Activities for Youth</h1>
 
-  <div class="alertBox" id="studentsteachingstudents">
+  <div class="alertBox mobileCentered" id="studentsteachingstudents">
 		<h3><strong><a href="/bullying/wewillgen/classroom-activities.asp">Students Teaching Students</a></strong></h3>
 		<p>Students &mdash; and educators &mdash; can use one or more of these activities from PACER&rsquo;s WE WILL Generation program for older students to educate younger students on topics such as defining bullying, individuality, and supporting each other. </p>
 	</div>
 
 	<p>These free activities and resources are designed for younger students. The goal is to start conversation and creatively engage students to build their understanding of how to prevent bullying. </p>
 
-<table id="activitestable" cellspacing="5">
+<table id="activitestable" class="thumbnailTable" cellspacing="5">
 	<tr>
 		<td><img src="/bullying/resources/toolkits/activities/images/KABPledge_thumb.jpg" alt="" width="200" height="155" /></td>
 		<td><h2><a href="/bullying/classroom/elementary/activities/take-the-pledge.asp">Take the Pledge</a></h2>

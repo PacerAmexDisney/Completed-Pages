@@ -15,7 +15,7 @@ $transition-primary-font: Helvetica;
 $transition-primary-font-size: 10px;
 
 //-- Elements
-$category-height: 50px;
+$category-height: 58px;
 $button-size: $category-height + 2px;
 $primary-border: 1px solid $transition-green;
 
@@ -25,11 +25,25 @@ $primary-border: 1px solid $transition-green;
 }
 
 @mixin transition-responsive-styles{
+	html {
+		-webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom in Safari*/
+	}
+	
+	.mobileHidden { display: none;}
+	
+	.content .mobileCentered {
+		float: none;
+		margin: 10px auto;
+		display: block;
+		max-width: 100%;
+	}
+
     .container{
         width: 100%;
         margin: 0;
         #pacerwrapper, .header { display: none }
-
+		.breadcrumb {display: none;}
+		.content {width: 100%;}
         //-- Menu icon and logo
         .menu-icon-logo-wrapper{
             display: block;
@@ -37,9 +51,9 @@ $primary-border: 1px solid $transition-green;
             .menu-button{
                 display: inline-block;
                 width: 30px;
-                height: 33px;
+                height: 40px;
                 padding: 0;
-                background: $transition-white url(../images/transition/menu-icon.png) no-repeat top;
+                background: $transition-white url(images/mobile/transition/menu-icon.png) no-repeat top;
                 border: none;
                 outline: none;
                 &:after{
@@ -53,10 +67,11 @@ $primary-border: 1px solid $transition-green;
             .pacer-logo{
                 display: inline-block;
                 float: right;
-                height: 38px;
-                width: 200px;
-                background: $transition-white url(../images/transition/transition-logo.png) no-repeat center;
-                background-size: 200px 38px;
+                height: 50px;
+                width: 458px;
+				max-width: calc(100% - 50px);
+                background: $transition-white url(images/mobile/transition/transition-logo.png) no-repeat center;
+                background-size: contain;
             }
         }
 
@@ -73,10 +88,13 @@ $primary-border: 1px solid $transition-green;
                     display: block;
                     float: none;
                     width: 100%;
-                    overflow: auto;
+                    overflow: hidden;
                     span.fa{
                         display: none;
                     }
+				li.emptyNav {
+					display: none;
+				}
                 }
 
                 //-- First Level Category
@@ -163,7 +181,7 @@ $primary-border: 1px solid $transition-green;
                                     border: 1px solid $transition-white;
                                 }
                                 .submenu{
-                                    display: block;
+                                    display: none;
                                     margin: 0;
                                     li{
                                         width: 100%;
@@ -218,19 +236,19 @@ $primary-border: 1px solid $transition-green;
                         background-repeat: no-repeat;
                         background-position: center;
                         &.facebook{
-                            background-image: url(../../assets/images/transition/facebook-icon.png);
+                            background-image: url(images/mobile/transition/facebook-icon.png);
                         }
                         &.youtube{
-                            background-image: url(../../assets/images/transition/youtube-icon.png);
+                            background-image: url(images/mobile/transition/youtube-icon.png);
                         }
                         &.pinterest{
-                            background-image: url(../../assets/images/transition/pinterest-icon.png);
+                            background-image: url(images/mobile/transition/pinterest-icon.png);
                         }
                         &.instagram{
-                            background-image: url(../../assets/images/transition/instagram-icon.png);
+                            background-image: url(images/mobile/transition/instagram-icon.png);
                         }
                         &.twitter{
-                            background-image: url(../../assets/images/transition/twitter-icon.png);
+                            background-image: url(images/mobile/transition/twitter-icon.png);
                         }
                     }
                 }
@@ -250,7 +268,7 @@ $primary-border: 1px solid $transition-green;
                 line-height: 0;
                 .searchBox{
                     height: 30px;
-                    width: calc(100% - 75px);
+                    width: calc(100% - 80px);
                     margin: 10px;
                     padding: 0;
                     vertical-align: top;
@@ -261,7 +279,7 @@ $primary-border: 1px solid $transition-green;
                     width: 48px;
                     margin-left: -2px;
                     padding: 0;
-                    background: $transition-green url(../../assets/images/transition/search-icon.png) no-repeat center;
+                    background: $transition-green url(images/mobile/transition/search-icon.png) no-repeat center;
                     background-size: 18px;
                     border: none;
                     border-left: 1px solid $transition-white;
@@ -414,19 +432,19 @@ $primary-border: 1px solid $transition-green;
                         background-repeat: no-repeat;
                         background-position: center;
                         &.facebook{
-                            background-image: url(../../assets/images/icons-general/facebook-icon-white.png);
+                            background-image: url(images/mobile/icons-general/facebook-icon-white.png);
                         }
                         &.youtube{
-                            background-image: url(../../assets/images/icons-general/youtube-icon-white.png);
+                            background-image: url(images/mobile/icons-general/youtube-icon-white.png);
                         }
                         &.twitter{
-                            background-image: url(../../assets/images/icons-general/twitter-icon-white.png);
+                            background-image: url(images/mobile/icons-general/twitter-icon-white.png);
                         }
                         &.pinterest{
-                            background-image: url(../../assets/images/icons-general/pinterest-icon-white.png);
+                            background-image: url(images/mobile/icons-general/pinterest-icon-white.png);
                         }
                         &.instagram{
-                            background-image: url(../../assets/images/icons-general/instagram-icon-white.png);
+                            background-image: url(images/mobile/icons-general/instagram-icon-white.png);
                         }
                     }
                 }
