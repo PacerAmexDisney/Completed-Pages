@@ -75,7 +75,7 @@
 	<li><a href="http://cecp.air.org/resources/statemh.asp" target="_blank"><strong>State  Children&rsquo;s Mental Health Contacts</strong></a></li>
 	<li><a href="http://cjjr.georgetown.edu//" target="_blank"><strong>Center for Juvenile Justice Reform  Georgetown University</strong></a></li>
 	<li><a href="http://www.pbis.org/" target="_blank">OSEP Technical Assistance Center on  Positive Behavioral Interventions and Supports</a></li>
-	<li><strong><a href="http://www.neglected-delinquent.org" target="_blank">NDTAC, The National Evaluation and  Technical Assistance Center for the Education of Children and Youth Who Are  Neglected, Delinquent or At-Risk</a></strong> works to improve education services. NDTAC offers articles on family  involvement </li>
+	<li><a href="http://www.neglected-delinquent.org" target="_blank">NDTAC, The National Evaluation and  Technical Assistance Center for the Education of Children and Youth Who Are  Neglected, Delinquent or At-Risk</a> works to improve education services. NDTAC offers articles on family  involvement</li>
 	<li><a href="http://www.abanet.org/legalservices/probono/directory/programlinks.html" target="_blank">Directory  of Local Pro Bono Programs</a></li>
 	<li><a href="http://www.abanet.org/disability/disabilitydirectory/home.shtml" target="_blank">Disability  Lawyers Directory - American Bar Association Commission on Mental and Physical  Disability Law</a></li>
 	<li><a href="http://www.abanet.org/disability/disabilitydirectory/home.shtml" target="_blank">State  Juvenile Justice Profile policies </a></li>
