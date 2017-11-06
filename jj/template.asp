@@ -32,7 +32,7 @@
 </script>
 
 <div id="leftbar">
-<!--#include virtual="/jj/leftNav.html" -->
+<!--#include virtual="/jj/nav.html" -->
 </div>
 
 <script type="text/javascript">

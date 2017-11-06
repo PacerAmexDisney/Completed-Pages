@@ -41,11 +41,11 @@
 	var currId="overview";
 	// current subtree that should be displayed
 	var showTree = "issues-sub";
-	var showTree2 = "";
+	var showTree2 = "none";
 </script>
 
 <div id="leftbar">
-<!--#include virtual="/jj/leftNav.html" -->
+<!--#include virtual="/jj/nav.html" -->
 
 </div>
 

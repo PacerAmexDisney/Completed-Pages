@@ -1,91 +1,56 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Juvenile Justice - Links - PACER Center</title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>PACER's Juvenile Justice - Links</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<meta property="og:title" content="Juvenile Justice - Links" />
+<meta property="og:url" content="http://www.pacer.org/jj/links.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
-<script type="text/javascript" src="/css/menu.js"></script>
-<script type="text/javascript">
-<!--
-function wopen(url, name, w, h)
-{
-// Fudge factors for window decoration space.
- // In my tests these work well on all platforms & browsers.
-w += 32;
-h += 96;
- var win = window.open(url,
-  name, 
-  'width=' + w + ', height=' + h + ', ' +
-  'location=no, menubar=no, ' +
-  'status=no, toolbar=no, scrollbars=yes, resizable=yes');
- win.resizeTo(w, h);
- win.focus();
+<style>
+.nobullet {
+	list-style-type: none;
 }
-// -->
-</script> 
+</style>
 
 </head>
-
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-<img style="margin-bottom:15px;" src="/jj/images/sidebar/blonde-looking-off-into-distance-j0285160.jpg" width="250" height="378" alt="" /><br />
-<img src="/jj/images/sidebar/4-teen-boys-iStock_000005998122Small.jpg" width="250" height="210" alt="" />
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
 
-	<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> /
-	
+<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> /
+</div>
 	<h1>Juvenile Justice</h1>
-	
+
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="links";
+	// current subtree that should be displayed
+	var showTree = "none";
+	var showTree2 = "none";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">Juvenile Justice - Navigation Menu</h2><!--#include virtual="/jj/nav.html"-->
+<!--#include virtual="/jj/nav.html" -->
 </div>
 
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="none";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
@@ -97,16 +62,15 @@ h += 96;
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-
 <h2 class="nounderline">JUVENILE JUSTICE LINKS</h2>
 
 <ul class="nobullet">
 <li><h3>For Parents</h3>
 <ul>
-	<li><a href="http://cecp.air.org/resources/statemh.asp" target="_blank"><strong>State  Children&rsquo;s Mental Health Contacts</strong></a></li>
-	<li><a href="http://cjjr.georgetown.edu//" target="_blank"><strong>Center for Juvenile Justice Reform  Georgetown University</strong></a></li>
+	<li><a href="http://cecp.air.org/resources/statemh.asp" target="_blank">State  Children&rsquo;s Mental Health Contacts</a></li>
+	<li><a href="http://cjjr.georgetown.edu//" target="_blank">Center for Juvenile Justice Reform  Georgetown University</a></li>
 	<li><a href="http://www.pbis.org/" target="_blank">OSEP Technical Assistance Center on  Positive Behavioral Interventions and Supports</a></li>
-	<li><strong><a href="http://www.neglected-delinquent.org" target="_blank">NDTAC, The National Evaluation and  Technical Assistance Center for the Education of Children and Youth Who Are  Neglected, Delinquent or At-Risk</a></strong> works to improve education services. NDTAC offers articles on family  involvement </li>
+	<li><a href="http://www.neglected-delinquent.org" target="_blank">NDTAC, The National Evaluation and  Technical Assistance Center for the Education of Children and Youth Who Are  Neglected, Delinquent or At-Risk</a> works to improve education services. NDTAC offers articles on family  involvement</li>
 	<li><a href="http://www.abanet.org/legalservices/probono/directory/programlinks.html" target="_blank">Directory  of Local Pro Bono Programs</a></li>
 	<li><a href="http://www.abanet.org/disability/disabilitydirectory/home.shtml" target="_blank">Disability  Lawyers Directory - American Bar Association Commission on Mental and Physical  Disability Law</a></li>
 	<li><a href="http://www.abanet.org/disability/disabilitydirectory/home.shtml" target="_blank">State  Juvenile Justice Profile policies </a></li>
@@ -135,17 +99,6 @@ h += 96;
 </ul>
 </li>
 </ul>
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
