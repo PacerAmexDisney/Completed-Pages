@@ -12,6 +12,11 @@
 <style>
 .nobullet {
 	list-style-type: none;
+	padding-left: 0;
+}
+.innernobullet {
+	list-style-type: none;
+	padding-left: 0.4em;
 }
 </style>
 
@@ -66,7 +71,7 @@
 
 <ul class="nobullet">
 <li><h3>For Parents</h3>
-<ul>
+<ul class="innernobullet">
 	<li><a href="http://cecp.air.org/resources/statemh.asp" target="_blank"><strong>State  Children&rsquo;s Mental Health Contacts</strong></a></li>
 	<li><a href="http://cjjr.georgetown.edu//" target="_blank"><strong>Center for Juvenile Justice Reform  Georgetown University</strong></a></li>
 	<li><a href="http://www.pbis.org/" target="_blank">OSEP Technical Assistance Center on  Positive Behavioral Interventions and Supports</a></li>
@@ -80,7 +85,7 @@
 </ul>
 </li>
 <li><h3>For Professionals</h3>
-<ul>
+<ul class="innernobullet">
 	<li><a href="http://cjjr.georgetown.edu/" target="_blank">Center for Juvenile Justice Reform  Georgetown University</a></li>
 	<li><a href="http://www.ojjdp.gov/" target="_blank">Office of Juvenile Justice and Delinquency Prevention</a></li>
 	<li><a href="http://www.pbis.org/" target="_blank">OSEP Technical Assistance Center on  Positive Behavioral Interventions and Supports</a></li>
