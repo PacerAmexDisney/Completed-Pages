@@ -110,11 +110,6 @@ PACER Center can be contacted at 952-838-9000. <br/> <a href="http://www.pacer.o
 		</p>
 	</li>
 	<li>
-		<p><strong>Increasing Parent Involvement -</strong><br />
-		<a href="../parent/php/PHP-c98.pdf">Increasing Parent Involvement Information Sheet</a><img src="../images/pdficon_small.gif" width="15" height="15" style="border: none; margin: 0; padding: 0;" alt="pdf icon" />
-		</p>
-	</li>
-	<li>
 		<p><strong>MNSEAC-</strong><br />
 		<a href="http://www.mnseacinfo.org">www.MNSEACInfo.org</a><br />
 		SEAC, Minnesota Special Education Advisory Councils A SEAC (pronounced &#8220;seek&#8221;) is an acronym for Special Education Advisory Council, which is a group that provides input on special education issues to its local school district.
