@@ -100,7 +100,7 @@ meaningful parent involvement, may contact PACER for assistance.
 
 <h3 style="margin-top:40px;">Additional Information:</h3>
 <p>
-PACER Center can be contacted at 952-838-9000. <a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
+PACER Center can be contacted at 952-838-9000. <br/> <a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
 </p>
 <ul>
 	<li>
