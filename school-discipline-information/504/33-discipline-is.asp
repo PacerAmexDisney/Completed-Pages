@@ -1,30 +1,35 @@
-
-<!--#include virtual="/school-discipline-information/templates/header.asp"-->
+<!--#include virtual="/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
 <title>PACER Center - School Discipline of Minnesota Students with Disabilities - Parent Information</title>
-<meta property="og:title" content="PACER Center - School Discipline of Minnesota Students with Disabilities - Parent Information" />
-<meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2013-UofMn-Maplegrove.asp" />
-<meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico" />
-<meta property="og:description" content="" />
-</head>
 
-<body class="onecol">
-<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>
-<div id="wrapper">
-  <div id="main">
-  <div id="header">
-  <div> <!--#include virtual="/googleSearchBox.htm"--> 
-  <!-- Contains Contact Pacer | Donate | Google search bar | Social media --> 
-  <a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a> </div>
-  <!--#include virtual="/dynamicheader.htm"--> 
-  </div>
-  <div id="topbar">
+<meta property="og:title" content="PACER Center - School Discipline of Minnesota Students with Disabilities - Parent Information" />
+<meta property="og:url" content="http://www.pacer.org/school-discipline-information/504/34-out-of-school.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
+<link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide.css"/>
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide-print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.simplemodal.1.4.2.min.js"></script>
+<script type="text/javascript" src="/school-discipline-information/school-discipline-guide.js"></script>
+
+</head>
+<body class="singleCol">
+
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+<div id="topbar">
   <h1>School Discipline of Minnesota Students with Disabilities - Parent Information</h1>
-  </div>
-  <div id="contentwrapper">  <div id="toc"> 
-  <!--#include virtual="/school-discipline-information/toc.html" --> 
+</div>
+
+<div id="maincontent">
+
+<div id="pagecontent" class="narrowContent">
+
+<div id="contentwrapper">  <div id="toc">
+  <!--#include virtual="/school-discipline-information/toc.html" -->
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>
@@ -44,21 +49,21 @@
   <li><a href="/school-discipline-information/504/44-45-sent-home.asp">being sent home before the end of the school day</a>. </li>
   </ul>
   <p class="tip">NOTE: Neither the Statute  nor the regulations in Section 504 provide explicit disciplinary provisions. As  a general rule, the Office for Civil Rights (&ldquo;OCR&rdquo;) has interpreted Section 504  to include similar disciplinary protections as those provided under the IDEA. However,  OCR decisions are not often consistent and sometimes in direct conflict. In  addition, the case law is not very well developed. As a result, the statements  regarding Section 504 should be viewed with caution as it is difficult to make  clear statements about students&rsquo; rights in the absence of a statute or rule  establishing those rights.</p>
-   	
+
 <div id="definitions">
 	  <p>Definitions:</p>
 	  <p><span class="def" id="out-of-school-suspension">out-of-school suspension*</span></p>
 	  <p><span class="def" id="expulsion">expulsion*</span></p>
 	  <p><span class="def" id="in-school-suspension">in-school suspension*</span></p>
-</div>  
-	
-	
-	
+</div>
+
+
+
 	<div class="def-list"><a href="/school-discipline-information/definitions-list.asp">* - definition</a></div>
   </div>
   <!-- ############################### END CONTENT #################################### -->
 
   <!--Close Content Wrapper--></div>
-  <!--Close Main--></div>  <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
+   <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
 
-<!--#include virtual="/school-discipline-information/templates/footer1.asp" -->
+<!--#include virtual="/templates/footer.asp"-->
