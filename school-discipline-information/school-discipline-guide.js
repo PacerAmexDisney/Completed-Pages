@@ -13,16 +13,22 @@
 	
 	
 	// ------------------------------ GET THIS WORKING ---------------------------------
+
 	$('.def').click(function() {
     	var thisId = $(this).attr("id");
-		$.modal('<p style="text-align:center">Loading Definition ... </p>', {overlayClose: true, escClose: true, focus: true});
-		$('#simplemodal-data').load('/school-discipline-information/definitions-list.asp #def-' + thisId, function(response, status, xhr) {
+		$('#subDiv').dialog({
+			closeText: "",
+			autoOpen: true
+		}).dialog("widget").find(".ui-dialog-title").hide();
+		
+
+		$('#subDiv').load('../../school-discipline-information/definitions-list.asp #def-' + thisId, function(response, status, xhr) {
 			//alert($("#simplemodal-data").html());
 			if (status == "error") {
     			var msg = "Sorry but there was an error: ";
-    			$("#simplemodal-data").html(msg + xhr.status + " " + xhr.statusText);
-  			} else if ($("#simplemodal-data").html() == "") {
-				$("#simplemodal-data").html("Error: Definition not found");
+    			$("#subDiv").html(msg + xhr.status + " " + xhr.statusText);
+  			} else if ($("#subDiv").html() == "") {
+				$("#subDiv").html("Error: Definition not found");
 			}
 		});
 		//$.get('/school-discipline-information/definitions-list.asp', function(data) {
@@ -42,9 +48,10 @@
 	  $('#contentheader').css('marginRight', 10);
 	  $('#toc').height('auto');
 	  $('#toc').height() > $('#discipline-content').height() ? largestH = $('#toc').height() : largestH = $('#discipline-content').height();
+
+		var dcwidth = $('#contentwrapper').width() / 3;
 	  
-	  
-  	  $('#discipline-content').animate({marginLeft:380, height:largestH}, 1000, function() {  
+  	  $('#discipline-content').animate({marginLeft:dcwidth, height:largestH}, 1000, function() {
 		$('#hideToc').show();
 	  });
 	  $('#showToc').hide();
