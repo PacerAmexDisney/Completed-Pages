@@ -8,6 +8,8 @@
 <meta property="og:url" content="http://www.pacer.org/cmh/" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. PACER’s Inspiring Opportunities Project will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children's mental health, emotional, and behavioral need in the broader community." />
+<link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
+<script type='text/javascript' src='/js/pacer-expanding-box.js?ver=4.2.2'></script>
 
 <style type="text/css">
 #layerslider {
@@ -35,9 +37,6 @@
 	font-size:1.3em;
 	line-height:1.8em;
 	padding:0 20px;
-}
-#pagecontent .row-orange a {
-	color:#FFF;
 }
 #pagecontent .row-orange .shorten a {
 	color: #EA8729;
@@ -160,11 +159,10 @@
 <!--- Intro -->
 <div class="contentrow row-orange">
 <div>
-	<img style="margin:0 150px 0 10px; padding:10px; float: right" src="http://www.pacer.org/cmh/images/circle_boy.jpg" alt="" width="240" height="236" />
+	<img class="fltrt mobileCentered" src="http://www.pacer.org/cmh/images/circle_boy.jpg" alt="" width="240" height="236" />
 </div>
-<div style="max-width: 650px; margin:0 20px 0 135px;">
-<p class="shorten">Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. <a style="text-decoration:underline;" title="Inspiring Opportunities Project" href="/cmh/about-us/">PACER’s <em>Inspiring Opportunities Project</em></a> will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children’s mental health, emotional, and behavioral need in the broader community. </p>
-</div>
+
+<p class="narrowContent">Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. <a style="text-decoration:underline;" title="Inspiring Opportunities Project" href="/cmh/about-us/">PACER’s <em>Inspiring Opportunities Project</em></a> will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children’s mental health, emotional, and behavioral need in the broader community. </p>
 </div>
 <!--- End Intro -->
 
