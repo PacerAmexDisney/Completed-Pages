@@ -1,53 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!--#include virtual="/cmh/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. PACER’s Inspiring Opportunities Project will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children's mental health, emotional, and behavioral need in the broader community." />
+<title>Children's Mental Health and Emotional or Behavioral Disorders Project – Inspiring Opportunities</title>
 
-
-<title>Children&#039;s Mental Health and Emotional or Behavioral Disorders Project &#8211; Inspiring Opportunities</title>
-
-<meta name="description" content="Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. PACER’s Inspiring Opportunities Project will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children's mental health, emotional, and behavioral need in the broader community.
-" />
-
-
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/stylenoleftright.css" />
-<link rel="stylesheet" href="/cmh/css/style.css" type="text/css" />
-<link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
-<link rel="stylesheet" type="text/css" href="/js/colorbox1.5.9/colorbox.css" />
-
-<script type="text/javascript" src="/cmh/js/imageswap.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
-<script type='text/javascript' src='/js/pacer-expanding-box.js?ver=4.2.2'></script>
-<script type='text/javascript' src='/js/colorbox1.5.9/jquery.colorbox-min.js?ver=4.2.2'></script>
-<!-- LayerSlider stylesheet -->
-<link rel="stylesheet" href="/js/LayerSlider-5.6.6/layerslider/css/layerslider.css" type="text/css" />
-<!-- External libraries: jQuery & GreenSock -->
-<script src="/js/LayerSlider-5.6.6/layerslider/js/greensock.js" type="text/javascript"></script>
-<!-- LayerSlider script files -->
-<script src="/js/LayerSlider-5.6.6/layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
-<script src="/js/LayerSlider-5.6.6/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
-<script type="text/javascript" src="/js/pacer-video-popup.js"></script>
-
-<script type="text/javascript">
-	$(document).ready(function(){
-		$("#layerslider").layerSlider({
-			/* responsiveUnder: 1000,*/
-			autoPlayVideos: false,
-			animateFirstSlide: true,
-			pauseOnHover: false,
-			loops: 3,
-			navStartStop: false,
-			skinsPath: '/js/LayerSlider-5.6.6/layerslider/skins/'
-		});
-	});
-</script>
+<meta property="og:title" content="Children's Mental Health and Emotional or Behavioral Disorders Project – Inspiring Opportunities" />
+<meta property="og:url" content="http://www.pacer.org/cmh/" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. PACER’s Inspiring Opportunities Project will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children's mental health, emotional, and behavioral need in the broader community." />
 
 <style type="text/css">
 #layerslider {
@@ -66,10 +26,10 @@ if (typeof jQuery == 'undefined')
 	color:#000;
 }
 #pagecontent .row-orange h1 {
-	text-align:center;	
-	font-size:30px; 
-	line-height:40px; 
-	text-shadow:0px 0px 5px #000;	
+	text-align:center;
+	font-size:30px;
+	line-height:40px;
+	text-shadow:0px 0px 5px #000;
 }
 #pagecontent .row-orange p {
 	font-size:1.3em;
@@ -86,8 +46,8 @@ if (typeof jQuery == 'undefined')
 #pagecontent .row-orange .shorten a:hover {
 	color:#C67221;
 	font-weight: bold;
-}		
-	
+}
+
 #pagecontent .row-orange a:hover {
 	color:rgba(255,255,255,0.5);
 }
@@ -115,12 +75,12 @@ if (typeof jQuery == 'undefined')
 	color:#fff;
 	text-align:center;
 	padding:15px 0px;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 .green_gradient{
 	margin-right:-.5em;
 	padding-right:1em;
-	background: #fff url(/cmh/images/green_gradient.jpg) no-repeat right bottom; 	
+	background: #fff url(/cmh/images/green_gradient.jpg) no-repeat right bottom;
 }
 .green_gradient h2 {
 	background-color:#339900;
@@ -129,7 +89,7 @@ if (typeof jQuery == 'undefined')
 .blue_gradient{
 	margin-right:-.5em;
 	padding-right:1em;
-	background: #fff url(/cmh/images/blue_gradient.jpg) no-repeat right bottom; 	
+	background: #fff url(/cmh/images/blue_gradient.jpg) no-repeat right bottom;
 }
 .blue_gradient h2{
 	background-color:#09c;
@@ -138,27 +98,27 @@ if (typeof jQuery == 'undefined')
 .orange_gradient{
 	margin-right:-.5em;
 	padding-right:1em;
-	background: #fff url(/cmh/images/orange_gradient.jpg) no-repeat right bottom; 	
+	background: #fff url(/cmh/images/orange_gradient.jpg) no-repeat right bottom;
 }
 .orange_gradient h2 {
 	background-color:#EA8729;
 	color:#fff;
 }
 #resources table{
-	margin:0 20px;	
+	margin:0 20px;
 }
 #resources a img:hover {
   box-shadow: 0 0px 19px 13px #bbdfff;
 }
 #stigma p {
-	padding-left:20px;	
+	padding-left:20px;
 }
 #social_footer {
 	text-align:center;
 	margin:10px -15px -23px -13px;
 	height:100px;
 	background-color:#09c;
-	padding-bottom:40px;	
+	padding-bottom:40px;
 }
 #social_footer p{
 	color:#fff;
@@ -168,7 +128,7 @@ if (typeof jQuery == 'undefined')
 }
 #social_footer img{
 	display:inline-block;
-	padding-top:5px;	
+	padding-top:5px;
 }
 /* SHOW Hidden Expand Items For Editing
 .ExpandItem {
@@ -179,146 +139,29 @@ if (typeof jQuery == 'undefined')
 	margin-top:50px;
 }
 */
-	
+
 </style>
-
 </head>
+<body class="singleCol">
 
-<body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
+<!--#include virtual="/cmh/templates/page-header-nav.asp"-->
+
+<div id="topbar">
+<div id="breadcrumb">
+
+<a href="/cmh/">Home</a> /
+</div>
+	<h1>Children's Mental Health and Emotional or Behavioral Disorders Project</h1>
 </div>
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<!--#include virtual="/cmh/topRightSection.html"-->
-	<!--#include virtual="/cmh/topNav.html"-->  
-</div>		
 <div id="maincontent">
-
-<!--<%'----------------------------------- START LAYER SLIDER -------------------------------------- %> --> 
-
-<div id="slider-wrapper">
-		<div id="layerslider" style="width:1200px;height:361px;max-width: 1200px; border-bottom: 1px solid #ccc;">
-
-
-<!--<% ' -----------------------------------------------------------FACTS SLIDE 1------------------------------------------------------------------------------------ %>  -->
-
-<!--	<div class="ls-slide" data-ls="slidedelay:10500;transition2d:11;">
-		<img src="/cmh/images/slider/factsSlide1/bg-facts-slide1.jpg" class="ls-bg" alt="Slide background" />
-		<img src="/cmh/images/slider/factsSlide1/L1-copy.png" data-ls="offsetxin:right;durationin:1000;offsetxout:0;" class="ls-l" alt="" />
-		<img src="/cmh/images/slider/factsSlide1/L2-copy.png" data-ls="offsetxin:bottom 0;durationin:1000;delayin:1000;offsetyout:0;" class="ls-l" alt="" />
-		<a href="http://www.pacer.org/cmh/does-my-child-have-an-emotional-or-behavioral-disorder/" class="ls-link"><span class="extralinktext">13% of students ages 8-15 have a diganosable mental disorder during their school years.</span></a>
-	</div> -->		
-	
-	<div class="ls-slide" data-ls="slidedelay:10500;transition2d:11;">
-		<img src="/cmh/images/slider/factsSlide1/bg-facts-slide1.jpg" class="ls-bg" alt="Slide background" />
-		<img src="/cmh/images/slider/factsSlide1/L1-copy.png" 
-			data-ls="offsetxin:right;offsetyin:0;offsetxout:right;offsetyout:0;durationin:1000;" class="ls-l" alt="" />
-			
-<!--	IMAGE BUTTON 	
-		<img src="/cmh/images/slider/factsSlide1/L2-copy.png" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;" class="ls-l" alt="" />-->
-			
-<!--	CSS BUTTON -->			
-		<p class="centered ls-l" style="left:590px; top:225px" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;"><a class="btn btn-cta btn-orange" href="http://www.pacer.org/cmh/does-my-child-have-an-emotional-or-behavioral-disorder/">Does your child have an emotional or behavioral disorder?</a></p>
-	</div> 	
-	
-<!--<% ' -----------------------------------------------------------FACTS SLIDE 2------------------------------------------------------------------------------------ %>  -->
-
-	<div class="ls-slide" data-ls="slidedelay:10500;transition2d:11;">
-		<img src="/cmh/images/slider/factsSlide2/bg-facts-slide2.jpg" class="ls-bg" alt="Slide background" />
-		<img src="/cmh/images/slider/factsSlide2/L1-copy.png" 
-			data-ls="offsetxin:left;offsetyin:0;offsetxout:left;offsetyout:0;durationin:1000;" class="ls-l" alt="" />
-
-<!--	IMAGE BUTTON 		
-		<img src="/cmh/images/slider/factsSlide2/L2-copy.png" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;" class="ls-l" alt="" />-->
-			
-<!--	CSS BUTTON -->			
-		<p class="centered ls-l" style="left:155px; top:275px" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;"><a class="btn btn-cta btn-orange" href="http://www.pacer.org/cmh/hot-topics/">Read the latest Babble post!</a></p>
-	</div>
-	
-<!--<% ' -----------------------------------------------------------FACTS SLIDE 3------------------------------------------------------------------------------------ %>  -->
-
-	<div class="ls-slide" data-ls="slidedelay:10500;transition2d:11;">
-		<img src="/cmh/images/slider/factsSlide3/bg-facts-slide3.jpg" class="ls-bg" alt="Slide background" />
-		<img src="/cmh/images/slider/factsSlide3/L1-copy.png" 
-			data-ls="offsetxin:left;offsetyin:0;offsetxout:left;offsetyout:0;durationin:1000;" class="ls-l" alt="" />
-
-<!--	IMAGE BUTTON 						
-		<img src="/cmh/images/slider/factsSlide3/L2-copy.png" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;" class="ls-l" alt="" />-->
-
-<!--	CSS BUTTON -->			
-		<p class="centered ls-l" style="left:250px; top:235px" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;"><a class="btn btn-cta btn-orange" href="http://www.pacer.org/cmh/getting-help/">When and where to get help</a></p>						
-	</div>			
-		
-<!--<% ' -----------------------------------------------------------3 STRATEGIES VIDEO SLIDE------------------------------------------------------------------------------------ %>  -->
-
-	<div class="ls-slide" data-ls="slidedelay:10500;transition2d:11;">
-		<img src="/cmh/images/slider/videoSlide1/bg-video-slide1.jpg" class="ls-bg" alt="Slide background" />
-		<img src="/cmh/images/slider/videoSlide1/L1-copy.png" 
-			data-ls="offsetxin:left;offsetyin:0;offsetxout:left;offsetyout:0;durationin:1000;" class="ls-l" alt="" />
-
-<!--	IMAGE BUTTON 		
- 		<img src="/cmh/images/slider/videoSlide1/L2-copy.png" 
-  			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;" class="ls-l" alt="" />-->
-  		
-<!--	CSS BUTTON -->	
-		<p class="centered ls-l" style="left:80px; top:215px" 
-		   data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;"><a class="btn btn-cta btn-yt btn-orange videoPopUp" href="https://www.youtube.com/watch?v=a0n9J8YTsH4?rel=0" target="_blank"><img class="youtube-icon" src="/cmh/images/yt-slider-button.png" alt="youtube video:" /> Tips on challenging behaviors from a parent with experience</a></p>	   						
-	</div>			
-
-<!--<% ' -----------------------------------------------------------SIBLING VIDEO SLIDE------------------------------------------------------------------------------------ %> -->  
-
-	<div class="ls-slide" data-ls="slidedelay:10500;transition2d:11;">
-		<img src="/cmh/images/slider/videoSlide2/bg-video-slide2.jpg" class="ls-bg" alt="Slide background" />
-		<img src="/cmh/images/slider/videoSlide2/L1-copy.png" 
-			data-ls="offsetxin:left;offsetyin:0;offsetxout:left;offsetyout:0;durationin:1000;" class="ls-l" alt="" />
-
-<!--	IMAGE BUTTON 						
-		<img src="/cmh/images/slider/videoSlide2/L2-copy.png" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;" class="ls-l" alt="" />-->
-			
-<!--	CSS BUTTON -->	
-		<p class="centered ls-l" style="left:90px; top:215px" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;"><a class="btn btn-cta btn-yt btn-orange videoPopUp" href="https://www.youtube.com/watch?v=RJ2GULujko?rel=0" target="_blank"><img class="youtube-icon" src="/cmh/images/yt-slider-button.png" alt="youtube video:" /> Tips on how to cope with a sibling's challenging behaivor</a></p>		
-	</div>	 		
-	
-<!--<% ' -----------------------------------------------------------STIGMA VIDEO SLIDE------------------------------------------------------------------------------------ %>-->   
-
-	<div class="ls-slide" data-ls="slidedelay:10500;transition2d:11;">
-		<img src="/cmh/images/slider/videoSlide3/bg-video-slide3.jpg" class="ls-bg" alt="Slide background" />
-		<img src="/cmh/images/slider/videoSlide3/L1-copy.png" 
-			data-ls="offsetxin:right;offsetyin:0;offsetxout:right;offsetyout:0;durationin:1000;" class="ls-l" alt="" />
-
-<!--	IMAGE BUTTON 						
-		<img src="/cmh/images/slider/videoSlide3/L2-copy.png" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;" class="ls-l" alt="" />-->
-			
-<!--	CSS BUTTON -->	
-		<p class="centered ls-l" style="left:625px; top:225px" 
-			data-ls="offsetxin:0;offsetyin:bottom;offsetxout:0;offsetyout:bottom;durationin:1000;delayin:1000;"><a class="btn btn-cta btn-yt btn-orange videoPopUp" href="http://45f9002f10750cd79955-a44d13df6c57c8ceeddd4ebf4c6c51c1.r49.cf2.rackcdn.com/YouthAdvisoryBoard-Stigma.mp4" target="_blank"><img class="youtube-icon" src="/cmh/images/yt-slider-button.png" alt="youtube video:" /> Teens offer suggestions on what can be done to help</a></p>
-	</div>	
-
-<!-- END Slider -->		</div>
-<!-- END Slider Wrapper -->	</div>
-<!--<%'---------------------------- END LAYER SLIDER ------------------------------------%>-->
-
 
 <div id="pagecontent">
 <!--- Intro -->
 <div class="contentrow row-orange">
 <div>
-	<img style="margin:0 150px 0 10px; padding:10px; float: right" src="http://www.pacer.org/childrensmentalhealth/images/circle_boy.jpg" alt="" width="240" height="236" />
-</div>	
+	<img style="margin:0 150px 0 10px; padding:10px; float: right" src="http://www.pacer.org/cmh/images/circle_boy.jpg" alt="" width="240" height="236" />
+</div>
 <div style="max-width: 650px; margin:0 20px 0 135px;">
 <p class="shorten">Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. <a style="text-decoration:underline;" title="Inspiring Opportunities Project" href="/cmh/about-us/">PACER’s <em>Inspiring Opportunities Project</em></a> will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children’s mental health, emotional, and behavioral need in the broader community. </p>
 </div>
@@ -346,7 +189,7 @@ if (typeof jQuery == 'undefined')
           <ol>
             <li>
               <p>True or False: Mental illnesses can be cured with willpower.</p>
-              
+
               <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
               <div class="ExpandItem" style="margin-top:-50px;">
                 <p><strong>False. </strong>A mental illness does not stem from character flaws, and willpower   doesn&rsquo;t cure a mental illness. Mental illness is a category of many   different mental disorders such as depression, anxiety, schizophrenia,   anorexia, or bipolar disorder. Current research provides a better   understanding of how the brain works and what happens when a child,   youth, or adult experience challenges with thought, mood, behavior, or   interactions with others. Just as cancer, heart disease, or diabetes are   medical conditions, so is mental illness. </p>
@@ -359,7 +202,7 @@ if (typeof jQuery == 'undefined')
                 </div>
               </div>
             </li>
-            
+
             <li>
               <p>True or False: A youth who has biological parents with a mental illness will also develop a mental illness.</p>
               <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
@@ -374,11 +217,11 @@ if (typeof jQuery == 'undefined')
                 </div>
               </div>
             </li>
-            
+
             <li>
             <p>True or False: Children and teens can have a mental illness.</p>
             <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
-              <div class="ExpandItem" style="margin-top:-50px;">	
+              <div class="ExpandItem" style="margin-top:-50px;">
               <p><strong>True.</strong><em> Childhood mental health disorder </em>is a term used to explain   all mental disorders that can be diagnosed and begin in childhood. Many   adults who have a diagnosed psychiatric disorder experienced the onset   of their symptoms in adolescence or childhood. Embarrassment, fear, peer   pressure, lack of community support, and stigma can prevent or delay a   person from getting help. Early intervention is important to managing   and recovering from mental health challenges. </p>
               <div class="resources">
   					<p>To learn more about children&rsquo;s mental health:</p>
@@ -390,11 +233,11 @@ if (typeof jQuery == 'undefined')
               </div>
               </div>
             </li>
-              
+
             <li>
             <p>True or False: Children or youth with mental health challenges never get better.</p>
             <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
-              <div class="ExpandItem" style="margin-top:-50px;">	
+              <div class="ExpandItem" style="margin-top:-50px;">
               <p><strong>False.</strong> With the right kind of medical care, many children and youth who   experience mental health challenges can and do lead healthy, productive,   and satisfying daily lives. While the illness may not go away, the   symptoms or challenges can be managed with appropriate treatment and   support. Many individuals benefit from supports and interventions that   are evidence-based and guided by principles of self-determination,   recovery, and cultural competency.</p>
               <div class="resources">
                 <p>To learn more about  leading healthy, productive,   and satisfying daily lives:</p>
@@ -405,11 +248,11 @@ if (typeof jQuery == 'undefined')
               <p>&nbsp;</p>
               </div>
             </li>
-              
+
             <li>
             <p>True or False: When children or youth receive a mental health diagnosis, they will have to take medications.</p>
             <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
-              <div class="ExpandItem" style="margin-top:-50px;">	
+              <div class="ExpandItem" style="margin-top:-50px;">
               <p><strong>False.</strong> A mental health diagnosis does not always mean the child or youth   will need to take medications.  Some children and youth benefit from   medications as part of their overall treatment plan, but there are other   interventions that can be considered.</p>
               <div class="resources">
   <p>To learn more about mental health diagnoses or medication management:</p>
@@ -420,11 +263,11 @@ if (typeof jQuery == 'undefined')
               </div>
               </div>
             </li>
-              
+
             <li>
             <p>True or False: People with mental illnesses are violent.</p>
             <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
-              <div class="ExpandItem" style="margin-top:-50px;">	
+              <div class="ExpandItem" style="margin-top:-50px;">
               <p><strong>False.</strong> The majority of people living with a mental illness are not violent   and are not at risk of becoming violent. One research study looked at   violence risk among people with serious mental illness and found a   mental health diagnosis is not a significant indicator of whether a   person will be violent. Factors that do tell us something about whether a   person might be at risk for violence include: (1) a history of violent   victimization early in life; (2) substance use; and (3) exposure to   violence in their environment. There are a small number of individuals   who experience mental health challenges that can include aggression. For   these individuals, access to treatment, supports, and timely   intervention are necessary components for recovery.</p>
               <div class="resources">
                 <p>To learn more about mental health and violence:</p>
@@ -437,11 +280,11 @@ if (typeof jQuery == 'undefined')
               <p>&nbsp;</p>
               </div>
             </li>
-              
+
             <li>
             <p>True or False: Having a mental illness is different than having an intellectual impairment.</p>
             <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
-              <div class="ExpandItem" style="margin-top:-50px;">	
+              <div class="ExpandItem" style="margin-top:-50px;">
               <p><strong>True.</strong> Many people confuse mental illnesses with intellectual disabilities,   but they are different from each other. Mental illnesses are medical   conditions that disrupt a person&rsquo;s thinking, mood, daily functioning, or   ability to relate to others. Intellectual disabilities are a type of   developmental disability characterized by significant limitations in   both intellectual functioning (e.g., a person&rsquo;s IQ or intellectual quotient)   and adaptive behavior (social and practical skills). Individuals who   have an intellectual disability are more susceptible to developing a   mental illness.</p>
               <div class="resources">
                 <p>To learn more about mental illness and intellectual impairment:</p>
@@ -453,11 +296,11 @@ if (typeof jQuery == 'undefined')
 
               </div>
             </li>
-              
+
             <li>
             <p>True or False: All youth who misuse drugs or alcohol are <em>choosing</em> not to get their act together.</p>
             <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
-              <div class="ExpandItem" style="margin-top:-50px;">	
+              <div class="ExpandItem" style="margin-top:-50px;">
               <p><strong>False.</strong> Youth who misuse drugs or alcohol may be doing so to self-medicate   because of an unidentified or untreated mental health condition. They   may also be struggling with an addiction that requires medical   intervention. Ongoing alcohol and drug use can play a role in the   development or worsening of some mental health symptoms and disorders. A   youth struggling with alcohol or chemical use could benefit from a   comprehensive professional evaluation to identify possible treatment or   supports.</p>
               <div class="resources">
   <p>To learn more about substance abuse and mental health challenges in youth:</p>
@@ -468,11 +311,11 @@ if (typeof jQuery == 'undefined')
               </div>
               </div>
             </li>
-              
+
               <li>
             <p>True or False: Parents who have a mental illness can be good parents.</p>
             <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
-              <div class="ExpandItem" style="margin-top:-50px;">	
+              <div class="ExpandItem" style="margin-top:-50px;">
               <p><strong>True.</strong> The qualities that make &ldquo;good parents&rdquo; apply to all parents,   including those who live with a mental illness. Some parents may require   extra assistance with parenting tasks when faced with any medical   condition or health challenge including a mental illness. Unfortunately,   parents face significant barriers to accessing treatments and parenting   supports because of the stigma associated with mental illness. Family   life can be healthy and meaningful when both parents and children   acknowledge and understand the illness, have support, and communicate   with each other about the issues.</p>
               <div class="resources">
   <p>To learn more about parenting with a mental illness:</p>
@@ -483,11 +326,11 @@ if (typeof jQuery == 'undefined')
               </div>
               </div>
               </li>
-              
+
               <li>
             <p>True or False: Schools have a responsibility to help children with mental health challenges.</p>
             <p><span class="ReadMore ReadMoreDarker">Check Answer <span class="fa fa-plus-circle"></span></span>&nbsp;</p>
-              <div class="ExpandItem" style="margin-top:-50px;">	
+              <div class="ExpandItem" style="margin-top:-50px;">
               <p><strong>True.</strong> Children are required to attend school. Public schools are required   to provide education for all students, including those with   disabilities. There are options for a child with mental health   challenges who is having difficulty with school, including both informal   and formal supports. An informal support could be attending a   &ldquo;friendship group&rdquo; or having a &ldquo;check-in&rdquo; person. A formal support might   include having a 504 Plan, or doing an evaluation for Special Education services. Some schools have school-wide initiatives to promote the mental health and wellness of all students. These might include positive behavior interventions and supports (PBIS), social-emotional learning (SEL) , school-linked mental health services, bullying prevention initiatives, trauma-informed care, and youth mental health crisis response services.</p>
               <div class="resources">
   <p>To learn more about supports in schools:</p>
@@ -503,7 +346,7 @@ if (typeof jQuery == 'undefined')
               </div>
               </div>
               </li>
-              
+
 
           </ol>
 
@@ -513,7 +356,7 @@ if (typeof jQuery == 'undefined')
 <!--- Hot Topics -->
 			<div class="green_gradient" id="hottopics">
 				<h2 class="header_bar">Hot Topics</h2>
-			  
+
               <div class="resources centered" style="padding:20px; width:80%; margin-bottom:50px;">
     <p><em><img src="/cmh/images/babble/babble-logo.png" width="199" height="64" alt=""/></em></p>
 	<p style="padding:0px 80px;"><em>Disney Babble has partnered with PACER Center to help parents better understand and navigate the needs of children with mental health and behavior issues. </em></p>
@@ -531,17 +374,17 @@ if (typeof jQuery == 'undefined')
 							<p>From tiny cubed toys to squishy, textured balls, there are lots of new tools out there to help kids concentrate — and they're actually fun.</p>
 							<p class="credit">Post by PACER Center on Disney Babble blog</p>
 							<p class="audience">Topic: Parenting</p>
-						</li>												
+						</li>
 						<li class="right_topic"><img src="images/babble/babble-fidget-toy.png" width="240" height="241" alt="" />
 							<h3><a href="https://www.babble.com/parenting/how-fidget-toys-are-helping-kids-with-adhd/" target="_blank">How &ldquo;Fidget Toys&rdquo; Are Helping Kids with ADHD <i class="fa fa-external-link"></i></a></h3>
 							<p>It's not always easy to know what to say — or what not to. Here are some ways to offer support and encouragement.</p>
 							<p class="credit">Post by PACER Center on Disney Babble blog</p>
 							<p class="audience">Topic: Parenting</p>
-						</li>	
-										
+						</li>
+
 			    </ul>
                       <p class="centered"><a class="btn btn-cta" href="/cmh/hot-topics/#more">More Blog Posts</a></p>
-                       
+
 			  </div>
 			</div>
 <!--- End Hot Topics -->
@@ -554,7 +397,7 @@ if (typeof jQuery == 'undefined')
 <td class="innerwhitebox" colspan="3" valign="top">
 <div id="featuredresources" class="topborder">
 
-<img class="fltrt" style="margin: 20px 10px" src="/childrensmentalhealth/images/publication1.png" alt="" />
+<img class="fltrt" style="margin: 20px 10px" src="/cmh/images/publication1.png" alt="" />
 <ul>
 	<li class="pdficonlist">
 <h4><a href="/parent/php/php-c144.pdf" target="_blank">Planning for a school meeting about your child’s behavior needs</a></h4>
@@ -598,15 +441,15 @@ if (typeof jQuery == 'undefined')
 <p>I have lots of hobbies including reading, listening to music, traveling, and watching sports. </p>
 <p>  Anxiety has been a major challenge for me, and I have discovered that reading is a good coping tool.  It kind of settles me down.</p>
 <div class="resources quote-box-short">
-    <p><font size="4">The best tip I could give you today 
-       would be to see each and every person through 
+    <p><font size="4">The best tip I could give you today
+       would be to see each and every person through
        their abilities and not their disabilities.</font></p>
     <p>~ Oliver </p>
   </div>
   <p class="centered" style="font-size:1.4em;">Read More <a href="/cmh/youth-advisory-board/student-success-stories.asp">Student Success Stories</a> and Learn About the <a href="/cmh/youth-advisory-board/about.asp">Youth Advisory Board</a></p>
 	<p class="centered"><a class="btn" href="mailto:rnelson%40PACER%2eorg?subject=My%20Story">Send Us Your Story <i class="fa fa-envelope-o"></i></a></p>
   </div>
-  
+
 
 </div>
 <div id="social_footer">
@@ -623,12 +466,5 @@ if (typeof jQuery == 'undefined')
 <a href="https://twitter.com/pacercenter" target="_blank" class="footerIcon"><img style="margin-right: 10px" src="http://www.pacer.org/images/twittericon_medium.gif" alt="Join us on Twitter" width="35" height="35" /></a>
 
 </div>
-</div>  
 </div>
-
-	<!--#include virtual="/footer.htm"-->
-</div>	
-</div>
-</div>
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
