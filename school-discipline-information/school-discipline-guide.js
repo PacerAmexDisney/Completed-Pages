@@ -20,7 +20,7 @@
 			closeText: "",
 			autoOpen: true
 		}).dialog("widget").find(".ui-dialog-title").hide();
-		
+
 
 		$('#subDiv').load('../../school-discipline-information/definitions-list.asp #def-' + thisId, function(response, status, xhr) {
 			//alert($("#simplemodal-data").html());
@@ -49,7 +49,7 @@
 	  $('#toc').height('auto');
 	  $('#toc').height() > $('#discipline-content').height() ? largestH = $('#toc').height() : largestH = $('#discipline-content').height();
 
-		var dcwidth = $('#contentwrapper').width() / 3;
+		var dcwidth = $('#contentwrapper').width()/3 < 400 ? 400 : $('#contentwrapper').width()/3;
 	  
   	  $('#discipline-content').animate({marginLeft:dcwidth, height:largestH}, 1000, function() {
 		$('#hideToc').show();
