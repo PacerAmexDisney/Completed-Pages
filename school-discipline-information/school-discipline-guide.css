@@ -14,14 +14,14 @@ Light Orange: #fcc084
 
 
 @media only screen and (max-width: 415px) {
-	#top-right-image {display: none}
+	#top-right-image {display: none !important;}
 	#contentheader {margin-right : 0px !important;}
-	#narrowContent {font-size : 100% !important;}
+	#pagecontent {font-size : 100% !important;}
 }
 @media only screen and (min-width: 415px) {
 	#top-right-image {display: block}
 	#contentheader {font-size : 100% !important;}
-	#narrowContent {font-size : 100% !important;}
+	#pagecontent {font-size : 100% !important;}
 
 }
 
@@ -69,6 +69,7 @@ h1, h2, h3, h4{
 #discipline-content{
 	font-family:'Calibri', Arial, san-serif;
 	min-height:400px;
+	min-width:400px;
 	margin-left:480px;
 	margin-left:0px;
 	background:#fff;
