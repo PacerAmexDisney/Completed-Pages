@@ -69,7 +69,7 @@ h1, h2, h3, h4{
 #discipline-content{
 	font-family:'Calibri', Arial, san-serif;
 	min-height:400px;
-	min-width:400px;
+
 	margin-left:480px;
 	margin-left:0px;
 	background:#fff;
@@ -221,7 +221,9 @@ ol.letters {
 	position:absolute; 
 	top:-6px; 
 	right:-6px;
-	border:1px solid #999;	
+	border:1px solid #999;
+	max-width: 50%;
+	height: auto;
 }
 
 #statutes{
