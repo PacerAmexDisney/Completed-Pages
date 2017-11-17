@@ -1,17 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Press Releases -</title>
-<meta property="og:title" content="Press Releases -" />
+<!--#include virtual="/templates/header.asp"-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Press Releases - 9/14/2016</title>
+<meta property="og:title" content="Press Releases - 9/14/2016" />
 <meta property="og:url" content="http://www.pacer.org/about/releases/2016/nr20160914-01.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
-<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 </head>
 
 <body class="singleCol">
@@ -28,7 +22,7 @@
 	</div>
 </div>
 
-<div id="pagecontent">
+<div id="pagecontent" class="narrowContent">
 <!--BEGIN CONTENT-->
 
 <p>September 14, 2016<br /><strong>FOR IMMEDIATE RELEASE</strong><br />
@@ -51,14 +45,4 @@
 <p align="center" style="padding:30px;">-30-
 </p>
 <p align="center">&nbsp;</p>
-</div>
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
 <!--#include virtual="/templates/footer.asp"-->
-</div>
-
-</body>
-</html>
