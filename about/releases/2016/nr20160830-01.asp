@@ -28,15 +28,16 @@
 
 <p>August 30, 2016<br /><strong>FOR IMMEDIATE RELEASE</strong></p>
 
-<table cellpadding="5" cellspacing="0" width="100%">
- <tr><td>
-  Contact: Lyn Famiglietti<br />
-  <a href="mailto:lfamiglietti@customink.com">lfamiglietti@customink.com</a><a href="mailto:julie.holmquist@PACER.org"></a><br />
-  703-991-8685</td><td>
-Contact:  Colton Moore<br />
-<a href="mailto:colton.moore@coburnww.com">colton.moore@coburnww.com</a><br />
-212-536-9838</td></tr></table>
-
+<div class="flex">
+	<div class="flexItem">
+  	Contact: Lyn Famiglietti <a href="mailto:lfamiglietti@customink.com">lfamiglietti@customink.com</a><a href="mailto:julie.holmquist@PACER.org"></a><br />
+    703-991-8685
+  </div>
+  <div class="flexItem">
+		Contact:  Colton Moore <a href="mailto:colton.moore@coburnww.com">colton.moore@coburnww.com</a><br />
+    212-536-9838
+  </div>
+</div>
 
 <h1 align="center">CUSTOMINK KICKS OFF ITS 6TH ANNUAL &ldquo;BE GOOD TO EACH OTHER&rdquo; BULLYING PREVENTION CAMPAIGN WITH CHARLIE PUTH</h1>
 <p align="center"><em>Notable Personalities Partner with CustomInk to Create Custom T-shirts in Support of PACER&rsquo;s National Bullying Prevention Center</em></p>
