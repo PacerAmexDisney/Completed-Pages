@@ -49,21 +49,34 @@
 	  $('#toc').height('auto');
 	  $('#toc').height() > $('#discipline-content').height() ? largestH = $('#toc').height() : largestH = $('#discipline-content').height();
 
-		var dcwidth = $('#contentwrapper').width()/3 < 400 ? 400 : $('#contentwrapper').width()/3;
-	  
-  	  $('#discipline-content').animate({marginLeft:dcwidth, height:largestH}, 1000, function() {
-		$('#hideToc').show();
-	  });
-	  $('#showToc').hide();
+		var contentWidth = $('#contentwrapper').width();
+		var dcwidth = contentWidth/3 < 416 ? 415 : contentWidth/3;
+	  if(contentWidth < 416){
+		  $('#discipline-content').css('marginLeft', dcwidth);
+		  $('#discipline-content').css('padding', 0);
+		  $('#discipline-content').removeClass('cat-504');
+		
+			  $('#rightContent').hide();
+			  $('#hideToc').css('z-index', 2);
+			  $('#hideToc').show();
+	  }else {
+		  $('#discipline-content').animate({marginLeft: dcwidth, height: largestH}, 1000, function () {
+			  $('#hideToc').show();
+		  });
+	  }
+		$('#showToc').hide();
 	});
+
 	
 	$('#hideToc').click(function () {
+		$('#discipline-content').css('padding', 40);
+		$('#discipline-content').addClass('cat-504');
   $('#discipline-content').animate({marginLeft:0, height:orgDisciplineH}, 1000, function() {  
 	  	$('#toc').height($('#discipline-content').height());
 		$('#showToc').fadeIn();
+	   $('#rightContent').show();
 		$('#top-right-image').fadeIn();
 	  $('#contentheader').css('marginRight', 520);
-
 	  });
 	  $("#hideToc").hide();
 	});
