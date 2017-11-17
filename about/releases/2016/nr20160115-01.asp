@@ -1,17 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Press Releases -</title>
-<meta property="og:title" content="Press Releases" />
+<title>Press Releases - 1/15/2016</title>
+<meta property="og:title" content="Press Release - 1/15/2016" />
 <meta property="og:url" content="http://www.pacer.org/about/releases/2016/nr20160115-01.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
-<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 </head>
 
 <body class="singleCol">
@@ -30,12 +26,12 @@
 	</div>
 </div>
 
-<div id="pagecontent">
+<div id="pagecontent" class="narrowContent">
 <!--BEGIN CONTENT-->
 
 <p>January 15, 2016<br /><strong>FOR IMMEDIATE RELEASE</strong><br />
   Contact: PACER Center 952-838-9000, 800-53-PACER</p>
-<h2><strong>SQUARE ENIX PARTNERS WITH</strong> <strong>PACER&rsquo;S NATIONAL BULLYING PREVENTION CENTER </strong></h2>
+<h2>SQUARE ENIX PARTNERS WITH <strong>PACER&rsquo;S NATIONAL BULLYING PREVENTION CENTER </strong></h2>
 
 
 <p><strong>LOS ANGELES </strong>(<strong>January 13, 2016) </strong>&nbsp;- To celebrate everyday heroes standing up against bullying, <em>LIFE IS STRANGE&trade;</em> publisher, Square Enix&reg;, has partnered with PACER&rsquo;s National Bullying Prevention Center (NBPC) for a special community donation challenge. </p>
@@ -52,14 +48,5 @@
 <p>LIFE IS STRANGE &copy; 2016 Square Enix Ltd. All Rights Reserved. DRAGON QUEST, EIDOS, , FINAL FANTASY, LIFE IS STRANGE, SQUARE ENIX, the SQUARE ENIX logo, SPACE INVADERS, TAITO and TOMB RAIDER are registered trademarks or trademarks of the Square Enix group of companies.&nbsp; &nbsp;All other trademarks are properties of their respective owners.</p>
 <p align="center" style="padding:30px;">-30-</p>
 
-</div>
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
 <!--#include virtual="/templates/footer.asp"-->
-</div>
 
-</body>
-</html>
