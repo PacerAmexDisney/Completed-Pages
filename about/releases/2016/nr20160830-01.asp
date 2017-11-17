@@ -1,20 +1,12 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Press Releases -</title>
-<meta property="og:title" content="Press Releases -" />
+<!--#include virtual="/templates/header.asp"-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Press Releases - 8/30/2016</title>
+<meta property="og:title" content="Press Releases - 8/30/2016" />
 <meta property="og:url" content="http://www.pacer.org/about/releases/2016/nr20160830-01.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
-<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
-<style type="text/css">
-h1{text-transform:none;}
-</style>
+
 </head>
 
 <body class="singleCol">
@@ -31,7 +23,7 @@ h1{text-transform:none;}
 	</div>
 </div>
 
-<div id="pagecontent">
+<div id="pagecontent" class="narrowContent">
 <!--BEGIN CONTENT-->
 
 <p>August 30, 2016<br /><strong>FOR IMMEDIATE RELEASE</strong></p>
@@ -64,14 +56,4 @@ Contact:  Colton Moore<br />
 </strong>Every day, 160,000 kids in America stay home from school to avoid being bullied. <a href="http://www.PACER.org/bullying">PACER&rsquo;s National Bullying Prevention Center</a> educates communities nationwide to prevent bullying through the use of creative, interactive resources including the websites <a href="http://www.pacerteensagainstbullying.org/">TeensAgainstBullying.org</a> and <a href="http://www.pacerkidsagainstbullying.org/">KidsAgainstBullying.org</a>. Based in Minneapolis, PACER offers educators, students, families, and individuals the tools they need to address bullying in schools, recreational programs, and community organizations. For more information, visit <a href="http://www.pacer.org/bullying">PACER.org/bullying</a>.</p>
 <p align="center" style="padding:30px;">-30-
 </p>
-</div>
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
 <!--#include virtual="/templates/footer.asp"-->
-</div>
-
-</body>
-</html>
