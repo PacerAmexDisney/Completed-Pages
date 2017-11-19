@@ -24,7 +24,7 @@
   <div id="header">
   <div> <!--#include virtual="/googleSearchBox.htm"--> 
   <!-- Contains Contact Pacer | Donate | Google search bar | Social media --> 
-  <a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a> </div>
+  <a href="/"><img src="http://www.pacer.org/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a> </div>
   <!--#include virtual="/dynamicheader.htm"--> 
   </div>
   <div id="topbar">
@@ -37,7 +37,7 @@
   <div id="hideToc"></div>
   <div id="showToc"></div>
   <div id="rightContent">
-  <img id="top-right-image" src="/school-discipline-information/images/disability-guide.jpg" width="500" height="75" alt="" />
+  <img id="top-right-image" src="http://www.pacer.org/school-discipline-information/images/disability-guide.jpg" width="500" height="75" alt="" />
   <div id="top-section">
   <h1 id="contentheader">My Child Is on a Section 504 Plan</h1>
   <div id="bcrumb"> : <a id="homelink" href="/school-discipline-information/">Intro</a> > <a href="/school-discipline-information/02-iep-504.asp">IEP/504/None</a> &gt; <a href="/school-discipline-information/504/33-discipline-is.asp">Discipline</a> &gt; <a href="/school-discipline-information/504/38-expulsion.asp">Expulsion</a> &gt; Manifestation Meeting</div>
@@ -56,7 +56,7 @@
   <li>your child&rsquo;s <span class="def" id="504">Section 504 Plan*</span> and  placement, including information on whether they were appropriate and implemented.  </li>
   </ul>
   <p class="tip">Tip: Section 504 requires  that a child be re-evaluated before any change in placement, including a  disciplinary change of placement.<sup class="statute">1</sup> You should request  such a re-evaluation in writing. Unless you agree otherwise or the behavior in  question involved the use of illegal drugs, or alcohol, your child should  remain in his or her current placement until the re-evaluation is completed. However,  unlike the IDEA, there is no explicit &ldquo;stay put&rdquo; entitlement under Section 504  that parents can assert to ensure their child remains in the current  educational placement.</p>
-  <p><a href="/school-discipline-information/504/46-manifestation-team.asp">Continue this guide &gt;&gt;&gt;</a></p>
+  <p><a href="http://www.pacer.org/school-discipline-information/504/46-manifestation-team.asp">Continue this guide &gt;&gt;&gt;</a></p>
   <div id="statutes">
   <h3>Statutes</h3>
   
@@ -66,7 +66,7 @@
  
   </div>
   
-	<div class="def-list"><a href="/school-discipline-information/definitions-list.asp">* - definition</a></div>
+	<div class="def-list"><a href="http://www.pacer.org/school-discipline-information/definitions-list.asp">* - definition</a></div>
   <!-- ############################### END CONTENT #################################### -->
   <!--Close Content--></div>
   <!--Close Content Wrapper--></div>
