@@ -38,9 +38,9 @@
 	});
 	
 	// -------------------------------- END NEW -------------------------------------------
-	
-	
-	
+
+
+	  var tocWidth = $('#toc').width();
 	$('#showToc').click(function () {
 	  var largestH;
 	  $('#toc').fadeIn();
@@ -50,12 +50,13 @@
 	  $('#toc').height() > $('#discipline-content').height() ? largestH = $('#toc').height() : largestH = $('#discipline-content').height();
 
 		var contentWidth = $('#contentwrapper').width();
+
 		var dcwidth = contentWidth/3 < 416 ? 415 : contentWidth/3;
 	  if(contentWidth < 416){
 		  $('#discipline-content').css('marginLeft', dcwidth);
 		  $('#discipline-content').css('padding', 0);
 		  $('#discipline-content').removeClass('cat-504');
-		
+		  $('#toc').css('max-width',tocWidth-20 );
 			  $('#rightContent').hide();
 			  $('#hideToc').css('z-index', 2);
 			  $('#hideToc').show();
@@ -70,9 +71,12 @@
 	
 	$('#hideToc').click(function () {
 		$('#discipline-content').css('padding', 40);
+		$('#discipline-content').css('min-height', 0);
 		$('#discipline-content').addClass('cat-504');
   $('#discipline-content').animate({marginLeft:0, height:orgDisciplineH}, 1000, function() {  
 	  	$('#toc').height($('#discipline-content').height());
+
+	  $('#toc').css('max-width',tocWidth + 20 );
 		$('#showToc').fadeIn();
 	   $('#rightContent').show();
 		$('#top-right-image').fadeIn();

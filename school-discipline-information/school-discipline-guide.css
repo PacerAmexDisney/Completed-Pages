@@ -17,11 +17,13 @@ Light Orange: #fcc084
 	#top-right-image {display: none !important;}
 	#contentheader {margin-right : 0px !important;}
 	#pagecontent {font-size : 100% !important;}
+
 }
 @media only screen and (min-width: 415px) {
 	#top-right-image {display: block}
 	#contentheader {font-size : 100% !important;}
 	#pagecontent {font-size : 100% !important;}
+	.narrowContent {margin-left : 0px !important;}
 
 }
 
@@ -52,6 +54,7 @@ Light Orange: #fcc084
 	overflow: auto;
 }
 
+
 #contentwrapper{
 	position:relative;
 	margin-top:.5em;
@@ -65,6 +68,9 @@ Light Orange: #fcc084
 h1, h2, h3, h4{
 	text-transform:none;
 	margin-left:0px;
+}
+#discipline-content ul{
+	padding-left : 40px;
 }
 #discipline-content{
 	font-family:'Calibri', Arial, san-serif;
@@ -82,7 +88,7 @@ h1, h2, h3, h4{
 }
 #discipline-content.cat-iep{
 	border-left:1px solid #1552cc;
-	background:#ffffff url(/school-discipline-information/images/blue-grad.png) repeat-y top left;
+	background:#ffffff url(http://www.pacer.org/school-discipline-information/images/blue-grad.png) repeat-y top left;
 }
 #discipline-content.cat-iep h1{
 	color:#1552cc;
@@ -93,7 +99,7 @@ h1, h2, h3, h4{
 }
 #discipline-content.cat-504{
 	border-left:1px solid #43912f;
-	background:#ffffff url(/school-discipline-information/images/green-grad.png) repeat-y top left;
+	background:#ffffff url(http://www.pacer.org/school-discipline-information/images/green-grad.png) repeat-y top left;
 }
 #discipline-content.cat-504 h1{
 	color:#43912f;
@@ -103,7 +109,7 @@ h1, h2, h3, h4{
 }
 #discipline-content.cat-none{
 	border-left:1px solid #e9831d;
-	background:#ffffff url(/school-discipline-information/images/orange-grad.png) repeat-y top left;
+	background:#ffffff url(http://www.pacer.org/school-discipline-information/images/orange-grad.png) repeat-y top left;
 }
 #discipline-content.cat-none h1{
 	color:#e9831d;
@@ -195,13 +201,13 @@ ol.letters {
 	display:none;
 	position:absolute;
 	left:-50px;
-	background:url('/school-discipline-information/images/left-arrow.png') top left no-repeat;
+	background:url('http://www.pacer.org/school-discipline-information/images/left-arrow.png') top left no-repeat;
 	width:30px;
 	height:26px;
 }
 #showToc{
 	position:absolute;
-	background:url('/school-discipline-information/images/show-toc.png') top left no-repeat;
+	background:url('http://www.pacer.org/school-discipline-information/images/show-toc.png') top left no-repeat;
 	width:189px;
 	height:26px;
 }
