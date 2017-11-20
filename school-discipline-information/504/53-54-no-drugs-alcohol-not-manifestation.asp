@@ -1,20 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!--#include virtual="/templates/header.asp"-->
 
-<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>PACER Center - School Discipline of Minnesota Students with Disabilities - Parent Information</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" media="screen, projection" />
+
+<meta property="og:title" content="PACER Center - School Discipline of Minnesota Students with Disabilities - Parent Information" />
+<meta property="og:url" content="http://www.pacer.org/school-discipline-information/504/53-54-no-drugs-alcohol-not-manifestation.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide.css"/>
 <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide-print.css" media="print" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="/js/jquery.simplemodal.1.4.2.min.js"></script>
 <script type="text/javascript" src="/school-discipline-information/school-discipline-guide.js"></script>
+
 </head>
 
-<body>
+<body class="singleCol">
 <div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>
 <div id="wrapper">
   <div id="main">
