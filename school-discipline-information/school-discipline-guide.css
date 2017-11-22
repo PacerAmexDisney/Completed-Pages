@@ -137,9 +137,7 @@ h1, h2, h3, h4{
 
 #toc {
 	display:none;
-	width:375px;
 	background:#fff;
-	padding:10px;
 	z-index:1;
 	position: absolute;
 	height: 800px;
@@ -200,7 +198,6 @@ ol.letters {
 #hideToc{
 	display:none;
 	position:absolute;
-	left:-50px;
 	background:url('/school-discipline-information/images/left-arrow.png') top left no-repeat;
 	width:30px;
 	height:26px;

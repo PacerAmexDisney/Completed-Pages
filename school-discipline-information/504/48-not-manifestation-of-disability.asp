@@ -75,7 +75,7 @@
   </div>
   <!--Close Content Wrapper--></div>
   <!--Close Main--></div>  <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
-  <!--#include virtual="/footer.htm"--> 
+
 <!--Close Wrapper--></div>
 <div id="subDiv"></div>
 <!--#include virtual="/templates/footer.asp"-->
