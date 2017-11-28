@@ -34,6 +34,8 @@
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>
   <div id="showToc"></div>
+  <div id="rightContent">
+
   <img id="top-right-image" src="/school-discipline-information/images/disability-guide.jpg" width="500" height="75" alt="" />
   <div id="top-section">
   <h1 id="contentheader">My Child Is on a Section 504 Plan</h1>
@@ -65,5 +67,6 @@
 
   <!--Close Content Wrapper--></div>
    <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
-
+</div>
+ <div id="subDiv"></div>
 <!--#include virtual="/templates/footer.asp"-->
