@@ -1,27 +1,29 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Postsecondary Workshops Produced by PACER - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="" />
 <!-- for Facebook -->     
 <meta property="og:title" content="Postsecondary Workshops Produced by PACER - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/postsecondary/workshops.asp" />
 <meta property="og:description" content="Many of today's emerging careers require skills that can only be obtained through postsecondary education. Families of youth with disabilities across the spectrum need to prepare their youth to be successful in postsecondary education as adult learners. As parents of a son or daughter with a disability, it's important to communicate the value of postsecondary education and encourage their son or daughter to consider a variety of available options. In order to communicate the importance of the high expectation that postsecondary education is an achievable goal, parents need to be informed about successful strategies, resources, and tips they can use to prepare their youth to attain their dreams of meaningful employment and a lifetime of learning." />
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
 <style type="text/css">
-	.container h3 {
-		margin:40px 10px 10px 10px;
-		padding-top:10px;
-		border-top:2px solid #373564;
-	}
+.container h3 {
+  margin:40px 10px 10px 10px;
+  padding-top:10px;
+  border-top:2px solid #373564;
+}
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
 </style>
 </head>
 
@@ -30,12 +32,13 @@
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
-<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a>  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
-    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div> 
+<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a>  
   / <a href="/transition/learning-center/postsecondary/">Postsecondary Education</a> / </div>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div> 
 
  <div class="sidebar1">
 <!--#include virtual="/transition/learning-center/nav.html"-->
@@ -88,11 +91,7 @@
 	  <p>These ADA materials were developed by PACER Center, a national Parent Center based in Minnesota.  For more information about these materials, contact Deborah Leuchovius at PACER Center (952- 838-9000).</p> 
 </div>
 
- <!-- end .content -->
- <br class="clearfloat" />
-</div>
- 
-<!--#include virtual="/transition/footer.html"-->
- <!-- end .container --></div>
-</body>
-</html>
+
+
+
+<!--#include virtual="/transition/templates/footer.asp"-->

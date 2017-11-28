@@ -1,45 +1,87 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>College Planning - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="Students with disabilities have many postsecondary options to explore, including certificate or trade programs, technical colleges, four-year universities, college experience programs for students with intellectual or developmental disabilities, and others. It is helpful for families to begin considering admissions requirements early to help ensure their youth is on track for their desired program.">
 <!-- for Facebook -->          
 <meta property="og:title" content="College Planning - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/planning/college-planning.asp" />
 <meta property="og:description" content="Students with disabilities have many postsecondary options to explore, including certificate or trade programs, technical colleges, four-year universities, college experience programs for students with intellectual or developmental disabilities, and others. It is helpful for families to begin considering admissions requirements early to help ensure their youth is on track for their desired program." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style type="text/css">
+.sidebar2 {
+  float:right;
+}
+.resources {
+  max-width: 600px;
+  float: left;
+  margin-left:10px;
+}
+@media (max-width: 1020px) {
+  .resources {
+    max-width: 500px;
+  }
+}
+@media (max-width: 920px) {
+  .resources {
+    max-width: 400px;
+  }
+}
+@media (max-width: 820px) {
+  .resources {
+    max-width: 300px;
+  }
+}
+@media (max-width: 750px) {
+  .resources {
+    max-width: 500px;
+  }
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+  .sidebar2 {
+    max-width: 150px;
+  }
+}
+@media (max-width: 680px) {
+  .resources {
+    max-width: 400px;
+  }
+}
+@media (max-width: 580px) {
+  .resources {
+    max-width: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .resources {
+    max-width: 96%;
+  }
+}
+</style>
 </head>
 
-<body class="threecol">
+<body class="twocol">
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 <!--#include virtual="/transition/topnav.html"-->
 
-<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/planning/">Middle &amp; High School Transition Planning</a>  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
-    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
+<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/planning/">Middle &amp; High School Transition Planning</a>
 </div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
 
   <div class="sidebar1">
 <!--#include virtual="/transition/learning-center/nav.html"-->
@@ -67,12 +109,37 @@ if (typeof jQuery == 'undefined')
 
   <div class="content">
     <h1 id="maincontent">College Planning</h1>
+
+
+
+  
+  <div class="sidebar2">
+    <a href="https://studentaid.ed.gov/prepare-for-college/checklists"><img class="TopItem250w" src="../postsecondary/images/collegePrepChecklist.jpg" width="190" height="116" alt="College Preperation Checklist" /></a>
+    <p><a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">This Checklist from the U.S. Department of Education</a> was developed to help students and parents get ready for college. It includes:</p>
+    <ul class="space">
+      <li>&quot;to do&quot; lists for all ages <em>(elementary school to adult students)</em></li>
+      <li>basic information about federal student aid and money for college </li>
+      <li>tips for filling out financial aid forms</li>
+      <li>and <a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">more... </a></li>
+    </ul>
+    <img border="0" src="/transition/learning-center/postsecondary/images/diploma.jpg" width="198" height="198" alt="Young woman in graduation cap and gown, holding up her college degree" />
+    <ul>
+      <li class="transitioniconlist"><a href="/publications/adaqa/504.asp" target="_blank">ADA, Section 504 &amp; Postsecondary 
+  Education &gt;&gt;&gt;</a></li>
+      <li class="transitioniconlist"><a href="/transition/learning-center/singles/gap-year.asp" target="_blank">The Gap Year: Taking a Year Off After Graduating From High School</a></li> 
+    </ul>    
+  </div><!-- end .sidebar2 --> 
+
+
+
     
 <p>Going to college today can mean attending a 4-year college or university, a 2-year community college, or a technical institute or trade school. It can mean working toward a bachelor&rsquo;s degree, an associate&rsquo;s degree (A.A.), or a certificate showing mastery of skills needed for a technical career. It can mean studying full-time or part-time, or living at school or commuting from home. </p>
 <p>Preparing for college includes taking any necessary assessments (e.g. SATs), ensuring current diagnostic test results are available to document the student's disability, developing self-advocacy skills, and other steps depending on the selected type of college program.</p>
 
 <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
-<br class="clearfloat" />
+
+
+
 
 <div class="resources">
 <h3>PACER Resources</h3>
@@ -132,42 +199,12 @@ if (typeof jQuery == 'undefined')
  			<li><a href="http://www.transitioncoalition.org/transition/" target="_blank">Transition Coalition</a> <i class="fa fa-external-link"></i><br />
  				The Transition Coalition provides online information on topics focusing on the transition from school to adult life including a database containing descriptions of over 100 community-based transition programs for students ages 18-21 from across the United States and down-loadable publications for families and professionals.</li>
 	  </ul>
-
-
-</div>
-
+  </div><!-- end .resources -->
 
 
 
 
 
-
-
-<br class="clearfloat" />
-  <!-- end .content --></div>
-  
-  
-<div class="sidebar2">
-	<a href="https://studentaid.ed.gov/prepare-for-college/checklists"><img class="TopItem250w" src="../postsecondary/images/collegePrepChecklist.jpg" width="190" height="116" alt="College Preperation Checklist" /></a>
-	<p><a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">This Checklist from the U.S. Department of Education</a> was developed to help students and parents get ready for college. It includes:</p>
-	<ul class="space">
-		<li>&quot;to do&quot; lists for all ages <em>(elementary school to adult students)</em></li>
-		<li>basic information about federal student aid and money for college </li>
-		<li>tips for filling out financial aid forms</li>
-		<li>and <a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">more... </a></li>
-	</ul>
-
-<img border="0" src="/transition/learning-center/postsecondary/images/diploma.jpg" width="198" height="198" alt="Young woman in graduation cap and gown, holding up her college degree" />
-<ul>
-<li class="transitioniconlist"><a href="/publications/adaqa/504.asp" target="_blank">ADA, Section 504 &amp; Postsecondary 
-Education &gt;&gt;&gt;</a></li>
-              <li class="transitioniconlist"><a href="/transition/learning-center/singles/gap-year.asp" target="_blank">The Gap Year: Taking a Year Off After Graduating From High School</a></li> 
-              </ul>    
 
    
-<!-- end .sidebar2 --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/transition/templates/footer.asp"-->

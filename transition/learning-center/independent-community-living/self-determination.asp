@@ -1,30 +1,31 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Self Determination - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="Self determination is believing you can control your own destiny. Self-determination is a combination of attitudes and abilities that lead people to set goals for themselves, and to take the initiative to reach these goals. It is about being in charge, but is not necessarily the same thing as self-sufficiency or independence. It means making your own choices, learning to effectively solve problems, and taking control and responsibility for one&rsquo;s life.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Self Determination - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/independent-community-living/self-determination.asp" />
 <meta property="og:description" content="Self determination is believing you can control your own destiny. Self-determination is a combination of attitudes and abilities that lead people to set goals for themselves, and to take the initiative to reach these goals. It is about being in charge, but is not necessarily the same thing as self-sufficiency or independence. It means making your own choices, learning to effectively solve problems, and taking control and responsibility for one&rsquo;s life." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style>
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+  .content .alertBox {
+    max-width: 150px;
+    margin-top: 80px;
+    padding:0px;
+  }
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -32,8 +33,7 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/independent-community-living/">Independent &amp; Community Living</a></div>
 
@@ -142,9 +142,6 @@ For permission to reprint, please fill out and submit PACER's
 <a href="../../../forms/request.asp" target="_blank">reprint request form</a>.
 </p>
 
-  <!-- end .content --></div>
   
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+<!--#include virtual="/transition/templates/footer.asp"-->

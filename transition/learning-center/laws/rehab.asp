@@ -1,32 +1,50 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Rehabilitation Act - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="The Rehabilitation Act of 1973 is the foundation of all the later disability-related legislation and was a milestone for individuals with disabilities across the nation. Sometimes it is called “The Rehab Act.” This federal law prohibits discrimination on the basis of disability in federally funded programs and authorizes state vocational rehabilitation (VR) programs, client assistance programs, and independent living centers. Sections of this law are often referred to by their Title or Section number, e.g., Section 504 or Title I.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Rehabilitation Act - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/laws/rehab.asp" />
 <meta property="og:description" content="The Rehabilitation Act of 1973 is the foundation of all the later disability-related legislation and was a milestone for individuals with disabilities across the nation. Sometimes it is called “The Rehab Act.” This federal law prohibits discrimination on the basis of disability in federally funded programs and authorizes state vocational rehabilitation (VR) programs, client assistance programs, and independent living centers. Sections of this law are often referred to by their Title or Section number, e.g., Section 504 or Title I." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style>
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .qatable {
+    padding: 0;
+  }
+  .qatable p {
+    padding-left:0px;
+  }
+  .qatable td:first-child {
+    width:90%;
+    border-bottom: 1px dotted #aaa;
+  }
+  .qatable td {
+    display:block;
+    width:90%;
+    padding: 10px 20px 0 20px;
+  }
+  .qatable tr {
+    display:block;
+  }
+  
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -34,12 +52,13 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 <!--#include virtual="/transition/topnav.html"-->
 
-<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/laws/">Laws and Rights</a>  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
-    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
+<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/laws/">Laws and Rights</a>
 </div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
 
   <div class="sidebar1">
 <!--#include virtual="/transition/learning-center/nav.html"-->
@@ -168,11 +187,4 @@ if (typeof jQuery == 'undefined')
 
 
 
-
-<br class="clearfloat" />
-  <!-- end .content --></div>
-
-  <!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/transition/templates/footer.asp"-->
