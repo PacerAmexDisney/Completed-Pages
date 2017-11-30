@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide.css"/>
 <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide-print.css" media="print" />
-<script type="text/javascript" src="/js/jquery.simplemodal.1.4.2.min.js"></script>
+
 <script type="text/javascript" src="/school-discipline-information/school-discipline-guide.js"></script>
 
 </head>
