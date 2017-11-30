@@ -1,39 +1,20 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!--#include virtual="/transition/templates/header.asp"-->
 
 
-<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Getting a Job - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="There’s nothing like the feeling of getting that first paid job. Some youth with disabilities may feel like paid employment is out of their reach, but it does not have to be. Families and youth can work towards that first job by focusing on building skills employers want, developing good work habits, discussing the impact of disability if necessary, and showcasing talents and a positive attitude during the interview process.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Getting a Job - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/employment/getting-a-job.asp" />
 <meta property="og:description" content="There’s nothing like the feeling of getting that first paid job. Some youth with disabilities may feel like paid employment is out of their reach, but it does not have to be. Families and youth can work towards that first job by focusing on building skills employers want, developing good work habits, discussing the impact of disability if necessary, and showcasing talents and a positive attitude during the interview process." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 <link rel="stylesheet" type="text/css" href="/js/colorbox1.5.9/colorbox.css">
@@ -59,21 +40,44 @@ if (typeof jQuery == 'undefined')
 			}
 		});
 		//Initialize Colorbox
-		$(".videoPopUp").colorbox({iframe:true, innerWidth:960, innerHeight:585});
+		var winWidth = $(window).width();
+		var cbOpt = {iframe:true, innerWidth:960, innerHeight:585};
+		if (winWidth < 1000) {
+		  cbOpt.innerWidth = winWidth - 50;
+		  cbOpt.innerHeight = cbOpt.innerWidth * 585 / 960.0;
+		}
+		$(".videoPopUp").colorbox(cbOpt);
 	});
 </script>
 
 
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style>
+.sidebar2 {
+  float:right;
+  max-width:20%;
+  padding-right:10px;
+  min-height: 600px;
+}
+.sidebar2 img {
+  max-width:100%;
+}
+.video-link {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.clear-left {
+  clear: left;
+}
+</style>
 </head>
 
-<body class="threecol">
+<body class="twocol">
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/employment/">Employment</a>  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
@@ -103,6 +107,16 @@ if (typeof jQuery == 'undefined')
 
   <div class="content">
     <h1 id="maincontent">Getting a Job</h1>
+
+
+<div class="sidebar2"> <img src="/transition/learning-center/employment/images/maninwheelchair.jpg" width="180" height="166" alt="Businessman in a wheelchair smiling, colleagues in background"/>
+<img src="/transition/learning-center/employment/images/businessmansmiling.jpg" width="180" height="116" alt="businessman smiling"/>
+ <img src="/transition/learning-center/employment/images/youngmanworkingatdesk.jpg" width="180" height="150" alt="young man with Down Syndrome, working at a desk with a cup of coffee next to his keyboard"/>
+<!-- end .sidebar2 --></div>
+  
+
+
+
         
 <p>There&rsquo;s nothing like the feeling of getting that first paid job. Some youth with disabilities may feel like paid employment is out of their reach, but it does not have to be. Families and youth can work towards that first job by focusing on building skills employers want, developing good work habits, discussing the impact of disability if necessary, and showcasing talents and a positive attitude during the interview process.</p>
 <!--<div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
@@ -130,23 +144,18 @@ if (typeof jQuery == 'undefined')
 </ul>
 
     <h2>Videos</h2>
-	<table width="572">
-    <tr><td width="302" valign="top"><p><a class='videoPopUp' href="http://www.youtube.com/watch?v=oQyK7RiNXE0"><img src="/transition/video/images/wewo-mother-and-son.jpg" width="200" height="200" alt=""/><br />
-<i class="fa fa-play"></i> Work Early, Work Often: Parents/Caregivers of Young Adults with Disabilities</a></p></td>
-    <td width="254" valign="top"><p><a class='videoPopUp' href="http://www.youtube.com/watch?v=J9aHT-syZxs"><img src="/transition/video/images/because-psa.jpg" width="200" height="200" alt=""/><br />
-<i class="fa fa-play"></i> Because — PSA</a></p></td>
-    </tr>
-    <tr>
-      <td valign="top"><p><a class='videoPopUp' href="http://www.youtube.com/watch?v=ZcOCJbvUY-w"><img src="/transition/video/images/soft-skills-networking.jpg" width="200" height="200" alt=""/><br />
-<i class="fa fa-play"></i> Skills to Pay the Bills: Networking</a></p></td>
-    <td valign="top"><p><a class='videoPopUp' href="http://www.youtube.com/watch?v=-vk-99seC_I"><img src="/transition/video/images/soft-skills-enthusiasm.jpg" width="200" height="200" alt=""/><br />
+    <p><a class='videoPopUp' href="http://www.youtube.com/watch?v=oQyK7RiNXE0"><img src="/transition/video/images/wewo-mother-and-son.jpg" width="200" height="200" alt=""/><br />
+<i class="fa fa-play"></i> Work Early, Work Often: Parents/Caregivers of Young Adults with Disabilities</a></p>
+    <p><a class='videoPopUp' href="http://www.youtube.com/watch?v=J9aHT-syZxs"><img src="/transition/video/images/because-psa.jpg" width="200" height="200" alt=""/><br />
+<i class="fa fa-play"></i> Because — PSA</a></p>
+    <p><a class='videoPopUp' href="http://www.youtube.com/watch?v=ZcOCJbvUY-w"><img src="/transition/video/images/soft-skills-networking.jpg" width="200" height="200" alt=""/><br />
+<i class="fa fa-play"></i> Skills to Pay the Bills: Networking</a></p>
+    <p><a class='videoPopUp' href="http://www.youtube.com/watch?v=-vk-99seC_I"><img src="/transition/video/images/soft-skills-enthusiasm.jpg" width="200" height="200" alt=""/><br />
 <i class="fa fa-play"></i> Skills to Pay the Bills: <br />
-Enthusiasm and Attitude</a></p></td>
-    </tr>
-    </table>
+Enthusiasm and Attitude</a></p>
     <p>For more videos on this topic,  visit our <a href="/transition/video/index.asp" target="_blank">Videos page</a>.</p>
 
-	  <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
+    <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
 <br class="clearfloat" />
 
 
@@ -164,16 +173,13 @@ Enthusiasm and Attitude</a></p></td>
 
 </ul>
 </div>
-<br class="clearfloat" />
-  <!-- end .content --></div>
   
   
-<div class="sidebar2"> <img src="/transition/learning-center/employment/images/maninwheelchair.jpg" width="180" height="166" alt="Businessman in a wheelchair smiling, colleagues in background"/>
+
+
+<!--#include virtual="/transition/templates/footer.asp"-->
 <img src="/transition/learning-center/employment/images/businessmansmiling.jpg" width="180" height="116" alt="businessman smiling"/>
  <img src="/transition/learning-center/employment/images/youngmanworkingatdesk.jpg" width="180" height="150" alt="young man with Down Syndrome, working at a desk with a cup of coffee next to his keyboard"/>
 <!-- end .sidebar2 --></div>
   
 <!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>

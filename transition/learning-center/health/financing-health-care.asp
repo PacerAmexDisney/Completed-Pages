@@ -1,37 +1,20 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Financing Your Youth's Adult Healthcare - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="Families of transition-age youth often have years of experience dealing with healthcare coverage issues and co-payments, specialized equipment, home adaptation, and other health-related expenses. However, when youth become adults, there are brand new issues to deal with. Planning ahead is critical." />
 <!-- for Facebook -->          
 <meta property="og:title" content="Financing Your Youth's Adult Healthcare - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/health/financing-health-care.asp" />
 <meta property="og:description" content="Families of transition-age youth often have years of experience dealing with healthcare coverage issues and co-payments, specialized equipment, home adaptation, and other health-related expenses. However, when youth become adults, there are brand new issues to deal with. Planning ahead is critical." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 <link rel="stylesheet" type="text/css" href="/js/colorbox1.5.9/colorbox.css" />
@@ -57,7 +40,13 @@ if (typeof jQuery == 'undefined')
 			}
 		});
 		//Initialize Colorbox
-		$(".videoPopUp").colorbox({iframe:true, innerWidth:960, innerHeight:585});
+		var winWidth = $(window).width();
+		var cbOpt = {iframe:true, innerWidth:960, innerHeight:585};
+		if (winWidth < 1000) {
+		  cbOpt.innerWidth = winWidth - 50;
+		  cbOpt.innerHeight = cbOpt.innerWidth * 585 / 960.0;
+		}
+		$(".videoPopUp").colorbox(cbOpt);
 	});
 </script>
 
@@ -87,7 +76,46 @@ if (typeof jQuery == 'undefined')
 	#healthoptions .col3 {
 		background-color: #EBC4BB;
 	}
-	</style>
+	.mobile-header {
+	  color: #000;
+	  display: none;
+	  text-align: center;
+	}
+	
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 600px) {
+	.mobile-header {
+	  display: block;
+	}
+	.desktop-header {
+	  display: none;
+	}
+  #healthoptions {
+    padding: 0;
+  }
+  #healthoptions p {
+    padding-left:0px;
+  }
+  #healthoptions td:first-child {
+    width:90%;
+    border-bottom: 1px dotted #aaa;
+  }
+  #healthoptions td {
+    display:block;
+    width:90%;
+    padding: 10px 20px 20px 20px;
+  }
+  #healthoptions tr {
+    display:block;
+  }
+  
+  
+}
+</style>
 <!--#include virtual="/transition/dynamic-head-items.html"-->
 </head>
 
@@ -96,8 +124,7 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/health/">Health</a></div>
 
@@ -181,12 +208,14 @@ if (typeof jQuery == 'undefined')
 		Health Insurance Options for Youth Adults Age 18-30
 		</caption>
     <tr>
-    <th class="col1">Private</th>
-    <th class="col2">Government Funded</th>
-    <th class="col3">No Insurance</th>
+    <th class="col1 desktop-header">Private</th>
+    <th class="col2 desktop-header">Government Funded</th>
+    <th class="col3 desktop-header">No Insurance</th>
     </tr>
     <tr>
-      <td valign="top" class="col1"><p><strong>Job-Based   Group Plans</strong><br />
+      <td valign="top" class="col1">
+        <h2 class="mobile-header">Private</h2>
+        <p><strong>Job-Based   Group Plans</strong><br />
             Health insurance offered to an employee (and often his or her family) by an employer. Employers with 50 or more full-time have to offer coverage to   full-time employees or get a fine. Generally, employers subsidize the cost of   the insurance and workers are responsible for paying part of the premium,   co-payments and deductibles.</p>
             <p>Young adults   who work 30 or more hours per week will qualify for a job-based group plan   themselves, if offered by their employer.</p>
             <p><strong>COBRA</strong><br />
@@ -199,7 +228,9 @@ if (typeof jQuery == 'undefined')
               <li>Family</li>
             </ul>
         <p>The Kaiser Family Foundation&rsquo;s   easy-to-understand <a href="http://kff.org/interative/subsidy-calculator" target="_blank"><strong>Health Insurance Marketplace   Calculator</strong></a> estimates eligibility for subsidies and cost   of health insurance based on income, age, and family size.</p></td>
-            <td valign="top" class="col2"><p><strong>State Public Insurance</strong><br />
+      <td valign="top" class="col2">
+        <h2 class="mobile-header">Government Funded</h2>
+              <p><strong>State Public Insurance</strong><br />
               <strong>Medicaid</strong> <em><br />
               </em>Medicaid is a federal-state partnership. States have different eligibility rules and offer different kinds of benefits. Some states use a different name for this program (e.g. Medical Assistance, MaineCare, MassHealth or MO HealthNet).</p>
               <ul>
@@ -216,7 +247,9 @@ if (typeof jQuery == 'undefined')
                   </strong>Provides coverage for members of federally recognized tribes.<strong></strong></p>
                   <p><strong>TRICARE <br />
                   </strong>Managed care program for active duty and retired military and their families.</p></td>
-                  <td valign="top" class="col3"><p><strong>You Pay All the Bills</strong></p>
+      <td valign="top" class="col3">
+        <h2 class="mobile-header">No Insurance</h2>
+        <p><strong>You Pay All the Bills</strong></p>
                     <ul>
                       <li>Every medical visit</li>
                       <li>All prescriptions</li>
@@ -248,19 +281,19 @@ if (typeof jQuery == 'undefined')
      <p>It is important for individuals to know the number of visits allowed under their insurance in order to plan for certain services, such as physical therapy or home health care. Youth will have to pay for visits above the allowed amount if they have not had the additional visits pre-approved beforehand. Families can help youth understand and follow their insurance plan&rsquo;s requirements.</p>
 
 <h2>Videos</h2>
-<table width="765">
-    <tr><td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=DBTmNm8D-84"><img src="/transition/video/images/understanding-health-insurance-costs.jpg" width="145" height="146" alt=""/><br />
-<i class="fa fa-play"></i> Understanding Your Health Insurance Costs</a></p></td>
-    <td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=-58VD3z7ZiQ"><img src="/transition/video/images/health-insurance-explained.jpg" width="145" height="146" alt=""/><br />
-<i class="fa fa-play"></i>Health Insurance Explained</a></p></td>
+<p><a class='videoPopUp' href="https://www.youtube.com/watch?v=DBTmNm8D-84"><img src="/transition/video/images/understanding-health-insurance-costs.jpg" width="145" height="146" alt=""/><br />
+<i class="fa fa-play"></i> Understanding Your Health Insurance Costs</a></p>
 
-<td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=OCiaJjGJkYI"><img src="/transition/video/images/how-does-student-health-insurance-work.jpg" width="145" height="146" alt=""/><br />
-<i class="fa fa-play"></i>How does student health insurance work?</a></p></td>
-<td width="192" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=ZkGdiWtpZbk"><img src="/transition/video/images/words-to-know.jpg" width="145" height="146" alt=""/><br />
-<i class="fa fa-play"></i>Words to Know &ndash; from Coverage to Care</a></p></td>
+<p><a class='videoPopUp' href="https://www.youtube.com/watch?v=-58VD3z7ZiQ"><img src="/transition/video/images/health-insurance-explained.jpg" width="145" height="146" alt=""/><br />
+<i class="fa fa-play"></i>Health Insurance Explained</a></p>
 
-    </tr></table>
-    <p>For more videos on this topic,  visit our <a href="/transition/video/index.asp" target="_blank">Videos page</a>.</p>
+<p><a class='videoPopUp' href="https://www.youtube.com/watch?v=OCiaJjGJkYI"><img src="/transition/video/images/how-does-student-health-insurance-work.jpg" width="145" height="146" alt=""/><br />
+<i class="fa fa-play"></i>How does student health insurance work?</a></p>
+
+<p><a class='videoPopUp' href="https://www.youtube.com/watch?v=ZkGdiWtpZbk"><img src="/transition/video/images/words-to-know.jpg" width="145" height="146" alt=""/><br />
+<i class="fa fa-play"></i>Words to Know &ndash; from Coverage to Care</a></p>
+
+<p><br/>For more videos on this topic,  visit our <a href="/transition/video/index.asp" target="_blank">Videos page</a>.</p>
 
 	  <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
 <br class="clearfloat" />
@@ -296,9 +329,4 @@ if (typeof jQuery == 'undefined')
 
 
 
-  <!-- end .content --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/transition/templates/footer.asp"-->

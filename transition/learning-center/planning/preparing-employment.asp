@@ -1,30 +1,27 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Preparing for Employment - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="To successfully transition to adulthood, all youth should be exposed to a range of work-based exploration experiences such as site visits, community service, job shadowing, and paid and unpaid internships. Unfortunately, it is estimated that only one-third of young people with disabilities who need job training receive it.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Preparing for Employment - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/planning/preparing-employment.asp" />
 <meta property="og:description" content="To successfully transition to adulthood, all youth should be exposed to a range of work-based exploration experiences such as site visits, community service, job shadowing, and paid and unpaid internships. Unfortunately, it is estimated that only one-third of young people with disabilities who need job training receive it." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style type="text/css">
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -32,8 +29,8 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
+
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/planning/">Middle &amp; High School Transition Planning</a> /</div>
 
@@ -155,9 +152,8 @@ Finding a job may seem like a daunting task for someone with a disability.  Peop
     From the Institute On Community Inclusion, Boston</li>
 </ul>
 </div>
-  <!-- end .content --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+
+
+
+<!--#include virtual="/transition/templates/footer.asp"-->

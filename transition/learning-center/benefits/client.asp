@@ -1,39 +1,39 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Client Assistance Programs - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="Client Assistance Programs (CAPs) were created in Section 112 of the Rehabilitation Act of 1973 to help persons with disabilities obtain rehabilitation services. CAP provides assistance to persons with disabilities who seek or receive services under the Rehabilitation Act.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Client Assistance Programs - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/benefits/client.asp" />
 <meta property="og:description" content="Client Assistance Programs (CAPs) were created in Section 112 of the Rehabilitation Act of 1973 to help persons with disabilities obtain rehabilitation services. CAP provides assistance to persons with disabilities who seek or receive services under the Rehabilitation Act." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+
+<style>
+.sidebar2 {
+  float:right;
+  max-width:40%;
+}
+.sidebar2 img {
+  max-width:100%;
+}
+</style>
 </head>
 
-<body class="threecol">
+<body class="twocol">
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
+
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> /
     	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
@@ -63,6 +63,21 @@ if (typeof jQuery == 'undefined')
 </script> 
 
   <div class="content">
+
+<div class="sidebar2">
+<p class="rightsidebarpic">
+<img border="0" src="images/worried-guy-on-phone.jpg" width="180" height="120" alt="African American man on the phone with a worried look on his face" />
+</p>
+<p class="rightsidebarpic">
+<img border="0" src="images/manwomanlooking.jpg" width="180" height="122" alt="man and woman both looking ahead at something outside the realm of the photo" />
+</p>
+<p class="rightsidebarpic">
+<img border="0" src="images/girlatcomputerwithat.jpg" width="180" height="135" alt="teen girl at a computer using assistive technology to access it" />
+</p>
+</div>
+<!-- end .sidebar2 -->
+
+
     <h1 id="maincontent">Client Assistance Programs</h1>
     <h3>A National Network of Advocacy in Rehabilitation</h3>
     
@@ -93,23 +108,8 @@ if (typeof jQuery == 'undefined')
   The above information was prepared by the Support and Training to Access Rights (STAR) Project. STAR was funded by the Rehabilitation Services Administration (RSA). Additional information gathered from the National Disability Rights Network web site. </p>
 
 <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
-<br class="clearfloat" />
-  <!-- end .content --></div>
-  
-  
-<div class="sidebar2">
-<p class="rightsidebarpic">
-<img border="0" src="images/worried-guy-on-phone.jpg" width="180" height="120" alt="African American man on the phone with a worried look on his face" />
-</p>
-<p class="rightsidebarpic">
-<img border="0" src="images/manwomanlooking.jpg" width="180" height="122" alt="man and woman both looking ahead at something outside the realm of the photo" />
-</p>
-<p class="rightsidebarpic">
-<img border="0" src="images/girlatcomputerwithat.jpg" width="180" height="135" alt="teen girl at a computer using assistive technology to access it" />
-</p>
-<!-- end .sidebar2 --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+
+
+	
+<!--#include virtual="/transition/templates/footer.asp"-->

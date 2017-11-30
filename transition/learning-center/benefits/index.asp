@@ -1,21 +1,27 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Benefit Programs &amp; Supports - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="A look at Benefit Programs &amp; Supports for transition-age youth, including Social Security/Ticket to Work and Vocational Rehabilitation.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Benefit Programs &amp; Supports - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/benefits/" />
 <meta property="og:description" content="A look at Benefit Programs &amp; Supports for transition-age youth, including Social Security/Ticket to Work and Vocational Rehabilitation." />
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style>
+@media (max-width: 750px) {
+
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -23,8 +29,7 @@
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a></div>
 
@@ -74,9 +79,5 @@
 			</td>
 		</tr>
 	</table>
-  <!-- end .content --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+	
+<!--#include virtual="/transition/templates/footer.asp"-->
