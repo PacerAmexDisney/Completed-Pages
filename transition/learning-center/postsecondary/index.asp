@@ -80,44 +80,17 @@
 
 
   
-<div class="sidebar2">
-	<div class="centered" style="margin-bottom:20px; margin-top:20px;">
-    <a href="https://studentaid.ed.gov/prepare-for-college/checklists"><img class="TopItem250w" src="images/collegePrepChecklist.jpg" width="190" height="116" alt="College Preperation Checklist" /></a>
-  </div>
-	<p><a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">This Checklist from the U.S. Department of Education</a> was developed to help students and parents get ready for college. It includes:</p>
-	<ul class="space">
-		<li>&quot;to do&quot; lists for all ages <em>(elementary school to adult students)</em></li>
-		<li>basic information about federal student aid and money for college </li>
-		<li>tips for filling out financial aid forms</li>
-		<li>and <a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">more... </a></li>
-	</ul>
-  <hr />
-  <div class="centered" style="margin-bottom:20px; margin-top:20px;">
-	  <img border="0" src="images/diploma.jpg" width="190" height="190" alt="Young woman in graduation cap and gown, holding up her college degree" />
-  </div>
-  <p><a href="/transition/resource-library/publications/NPC-42.pdf"><span class="fa fa-file-pdf-o" aria-hidden="true"></span> ADA, Section 504 &amp; Postsecondary 
-Education &gt;&gt;&gt;</a></p>
-  <hr />
-  <a href="https://studentaid.ed.gov/sa/sites/default/files/aid-glance-2017-18.pdf" target="blank"><img src="/transition/images/fafsa.jpg" width="190" height="99" alt=""/></a>
-  <p><strong>Fill out the FAFSA<br />
-		    (Free Application for Federal Student Aid)!</strong><br />
-    Most students don&rsquo;t understand federal financial aid or think they&rsquo;ll get any. The truth is that MOST students are eligible. </p>
-	<p><strong><a href="http://www.pacer.org/transition/video/player.asp?video=180" target="_blank">How to Fill Out the FAFSA <i class="fa fa-file-video-o" aria-hidden="true"></i></a></strong><br />
-		    Students planning to attend college in the 2017/2018 academic year can submit their Free Application for Federal Student Aid (FAFSA&reg;) early this year (October 1, 2016  instead of January 1, 2017). Schools and states often use FAFSA information to award nonfederal aid. Many of these awards are made on a first-come, first-served basis so don&rsquo;t delay. Find more information at <a href="https://fafsa.gov" target="_blank">fafsa.gov</a>.</p>
-</div><!-- end .sidebar2 -->
-
-
     
 <p>Postsecondary education is an exciting opportunity for all youth, including those with disabilities. Going to college today can mean attending a 4-year college or university, a 2-year community college, or a technical institute or trade school. It can mean studying full-time or part-time, or living at school or commuting from home. Learning and earning go hand-in-hand. The more years of schooling your youth completes, the higher his or her income is likely to be. The wide variety of postsecondary educational programs currently available for youth makes exploring options with your son or daughter an exciting process.</p>
 <p>Although postsecondary students with disabilities are entitled to certain protections, the process for accessing accommodations is much different than in high school. Youth must take a more active role in knowing their rights and advocating for needed supports. This means they must know about their disability and the accommodations they need to be successful. Families play an important role in helping their young adults learn self-advocacy skills, as well as their rights as a person with a disability.</p>
 
-<table style="margin-bottom:15px;">
+<table style="margin-bottom:15px;" class="thumbnailTable">
 		<tr>
 			<td align="center" valign="top">
 				<img src="/transition/learning-center/postsecondary/images/preparing-for-150px.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/postsecondary/preparing-for-postsecondary.asp">Preparing for Postsecondary Education &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/postsecondary/preparing-for-postsecondary.asp">Preparing for Postsecondary Education</a></h3>
 			
 		  </td>
 		</tr>
@@ -126,7 +99,7 @@ Education &gt;&gt;&gt;</a></p>
 				<img src="/transition/learning-center/postsecondary/images/selecting-right-program-150px.jpg" alt="" width="150" height="150" />
 		  </td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/postsecondary/selecting-right-program.asp">Selecting the Right Program &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/postsecondary/selecting-right-program.asp">Selecting the Right Program</a></h3>
 				
 		</td>
 		</tr>
@@ -135,7 +108,7 @@ Education &gt;&gt;&gt;</a></p>
 				<img src="/transition/learning-center/postsecondary/images/campus-life-150px.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/postsecondary/campus-life.asp">Campus Life &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/postsecondary/campus-life.asp">Campus Life</a></h3>
 				
 		  </td>
 		</tr>
@@ -144,7 +117,7 @@ Education &gt;&gt;&gt;</a></p>
 				<img src="/transition/learning-center/postsecondary/images/understanding-accommodations-150px.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/postsecondary/academic-accommodations.asp">Understanding Academic Accommodations &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/postsecondary/academic-accommodations.asp">Understanding Academic Accommodations</a></h3>
 				
 		  </td>
 		</tr>
@@ -153,7 +126,7 @@ Education &gt;&gt;&gt;</a></p>
 				<img src="/transition/learning-center/postsecondary/images/understand-financial-aid-150px.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/postsecondary/financial-aid.asp">Financial Aid &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/postsecondary/financial-aid.asp">Financial Aid</a></h3>
 				
 			</td>
 		</tr>
@@ -162,9 +135,7 @@ Education &gt;&gt;&gt;</a></p>
 				<img src="/transition/learning-center/postsecondary/images/knowing-rights-150px.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/postsecondary/rights-and-responsibilities.asp">Knowing Your Rights and Responsibilities &gt;&gt;&gt;</a></h3>
-				
-			</td>
+				<h3><a href="/transition/learning-center/postsecondary/rights-and-responsibilities.asp">Knowing Your Rights and Responsibilities</a></h3></td>
 		</tr>
 	</table>
  
@@ -180,7 +151,7 @@ Education &gt;&gt;&gt;</a></p>
 
 <h3 class="ExpandHeader">Opportunities for Students with Intellectual Disabilities</h3>
   <div class="ExpandItem OpenBorder">
-<p><img src="/transition/learning-center/postsecondary/images/think-college.jpg" width="250" height="137" class="fltrt" alt=""/>PACER is a proud partner in the Think College national coordinating center. Think College provides training and technical assistance to postsecondary education programs for students with intellectual disabilities, and widely promotes the expansion of such opportunities around the country. </p>
+<p><img src="/transition/learning-center/postsecondary/images/think-college.jpg" width="250" height="137" class="fltrt mobileCentered" alt=""/>PACER is a proud partner in the Think College national coordinating center. Think College provides training and technical assistance to postsecondary education programs for students with intellectual disabilities, and widely promotes the expansion of such opportunities around the country. </p>
 <ul>
 <li class="pdficonlist"><a href="http://www.thinkcollege.net/images/stories/Insight_30_F.pdf" target="_blank">How We Made It Happen: Interviews with Parent Leaders about their Kids Going to College</a> <i class="fa fa-external-link"></i></li>
 <li><a href="http://www.thinkcollege.net/april-2011/faqs-podcast" target="_blank">Think College podcast #1: Parents and families&rsquo; frequently asked questions</a> <i class="fa fa-external-link"></i></li>
@@ -232,7 +203,31 @@ Education &gt;&gt;&gt;</a></p>
   </div>
   </div>
  
-
+<div>
+	<div class="centered" style="margin-bottom:20px; margin-top:20px;">
+    <a href="https://studentaid.ed.gov/prepare-for-college/checklists"><img class="TopItem250w" src="images/collegePrepChecklist.jpg" width="190" height="116" alt="College Preperation Checklist" /></a>
+  </div>
+	<p><a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">This Checklist from the U.S. Department of Education</a> was developed to help students and parents get ready for college. It includes:</p>
+	<ul class="space">
+		<li>&quot;to do&quot; lists for all ages <em>(elementary school to adult students)</em></li>
+		<li>basic information about federal student aid and money for college </li>
+		<li>tips for filling out financial aid forms</li>
+		<li>and <a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">more... </a></li>
+	</ul>
+  <hr />
+  <div class="centered" style="margin-bottom:20px; margin-top:20px;">
+	  <img border="0" src="images/diploma.jpg" width="190" height="190" alt="Young woman in graduation cap and gown, holding up her college degree" />
+  </div>
+  <p><a href="/transition/resource-library/publications/NPC-42.pdf"><span class="fa fa-file-pdf-o" aria-hidden="true"></span> ADA, Section 504 &amp; Postsecondary 
+Education &gt;&gt;&gt;</a></p>
+  <hr />
+  <a href="https://studentaid.ed.gov/sa/sites/default/files/aid-glance-2017-18.pdf" target="blank"><img src="/transition/images/fafsa.jpg" width="190" height="99" alt=""/></a>
+  <p><strong>Fill out the FAFSA<br />
+		    (Free Application for Federal Student Aid)!</strong><br />
+    Most students don&rsquo;t understand federal financial aid or think they&rsquo;ll get any. The truth is that MOST students are eligible. </p>
+	<p><strong><a href="http://www.pacer.org/transition/video/player.asp?video=180" target="_blank">How to Fill Out the FAFSA <i class="fa fa-file-video-o" aria-hidden="true"></i></a></strong><br />
+		    Students planning to attend college in the 2017/2018 academic year can submit their Free Application for Federal Student Aid (FAFSA&reg;) early this year (October 1, 2016  instead of January 1, 2017). Schools and states often use FAFSA information to award nonfederal aid. Many of these awards are made on a first-come, first-served basis so don&rsquo;t delay. Find more information at <a href="https://fafsa.gov" target="_blank">fafsa.gov</a>.</p>
+</div>
 
 
 

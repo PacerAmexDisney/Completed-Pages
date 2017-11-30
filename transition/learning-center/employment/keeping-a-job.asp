@@ -110,7 +110,7 @@
     <h1 id="maincontent">Keeping a Job</h1>
 
 
-<div class="sidebar2">
+<div class="sidebar2 mobileHidden">
 <img src="/transition/learning-center/employment/images/fred-at-metro.jpg" width="180" height="318" alt="Businessman in a wheelchair smiling, colleagues in background" />
 <img src="/transition/learning-center/employment/images/brandon-at-work.jpg" width="180" height="144" alt="businessman smiling"/>
  <img src="/transition/learning-center/employment/images/youngmanworkingatdesk.jpg" width="180" height="150" alt="young man with Down Syndrome, working at a desk with a cup of coffee next to his keyboard"/>

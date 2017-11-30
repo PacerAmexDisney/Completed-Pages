@@ -16,7 +16,6 @@
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 
-<!--#include virtual="/transition/dynamic-head-items.html"-->
 <style>
 @media (max-width: 750px) {
   .addthis_sharing_toolbox, .sharethis {

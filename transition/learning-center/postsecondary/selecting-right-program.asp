@@ -51,7 +51,6 @@
 </script>
 
 
-<!--#include virtual="/transition/dynamic-head-items.html"-->
 <style>
 @media (max-width: 750px) {
   .addthis_sharing_toolbox, .sharethis {
@@ -67,7 +66,7 @@
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
 <!--#include virtual="/transition/templates/page-header-nav.asp"-->
-<!--#include virtual="/transition/topnav.html"-->
+
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/postsecondary/">Postsecondary Education</a></div>
 

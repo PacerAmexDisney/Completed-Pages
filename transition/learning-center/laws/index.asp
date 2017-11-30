@@ -15,9 +15,7 @@
 <!--#include virtual="/transition/dynamic-head-items.html"-->
 <style>
 @media (max-width: 750px) {
-  .addthis_sharing_toolbox, .sharethis {
-	  padding-top: 30px;
-  }
+
   .content .alertBox {
     max-width: 150px;
     margin-top: 80px;
@@ -66,13 +64,13 @@
     
     <p>As youth transition out of high school, it is important for families to know about the laws protecting individuals with disabilities from discrimination in postsecondary education, employment, and the community. Learn the basics of major federal disability laws and the rights and services they provide.</p>
 	
-    <table width="100%">
+    <table width="100%" class="thumbnailTable">
     <tr>
 			<td width="180" align="center" valign="top">
 				<img src="/transition/learning-center/laws/images/brandon-timeclock.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="top">
-				<h3><a href="/transition/learning-center/laws/ada.asp">Americans with Disabilities Act &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/laws/ada.asp">Americans with Disabilities Act</a></h3>
 </td>
 		</tr>
     <tr>
@@ -80,7 +78,7 @@
 				<img src="/transition/learning-center/planning/images/college-planning.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="top">
-				<h3><a href="/transition/learning-center/laws/idea.asp">Individuals with Disabilities Education Act &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/laws/idea.asp">Individuals with Disabilities Education Act</a></h3>
 </td>
 	  </tr>
     <tr>
@@ -88,7 +86,7 @@
 				<img src="/transition/learning-center/laws/images/diploma.jpg" alt="" width="150" height="150" />
 			</td>
 		<td valign="top">
-		  <h3><a href="/transition/learning-center/laws/rehab.asp">Rehabilitation Act of 1973 &gt;&gt;&gt;</a></h3>
+		  <h3><a href="/transition/learning-center/laws/rehab.asp">Rehabilitation Act of 1973</a></h3>
 </td>
 		</tr>
         <tr>
@@ -96,7 +94,7 @@
 				<img src="/transition/learning-center/planning/images/prepare-employment.jpg" alt="" width="150" height="150" />
 			</td>
 		<td valign="top">
-		  <h3><a href="/transition/learning-center/laws/workforce-innovation.asp">Workforce Innovation and Opportunity Act &gt;&gt;&gt;</a></h3>
+		  <h3><a href="/transition/learning-center/laws/workforce-innovation.asp">Workforce Innovation and Opportunity Act</a></h3>
 </td>
 		</tr>
 	</table>

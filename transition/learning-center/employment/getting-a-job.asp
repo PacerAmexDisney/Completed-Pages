@@ -109,7 +109,7 @@
     <h1 id="maincontent">Getting a Job</h1>
 
 
-<div class="sidebar2"> <img src="/transition/learning-center/employment/images/maninwheelchair.jpg" width="180" height="166" alt="Businessman in a wheelchair smiling, colleagues in background"/>
+<div class="sidebar2 mobileHidden"> <img src="/transition/learning-center/employment/images/maninwheelchair.jpg" width="180" height="166" alt="Businessman in a wheelchair smiling, colleagues in background"/>
 <img src="/transition/learning-center/employment/images/businessmansmiling.jpg" width="180" height="116" alt="businessman smiling"/>
  <img src="/transition/learning-center/employment/images/youngmanworkingatdesk.jpg" width="180" height="150" alt="young man with Down Syndrome, working at a desk with a cup of coffee next to his keyboard"/>
 <!-- end .sidebar2 --></div>
@@ -156,9 +156,7 @@ Enthusiasm and Attitude</a></p>
     <p>For more videos on this topic,  visit our <a href="/transition/video/index.asp" target="_blank">Videos page</a>.</p>
 
     <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
-<br class="clearfloat" />
-
-
+<br style="clear: both">
 <div class="resources">
 <h2>Resources</h2>
 <ul class="spacenobullet">
@@ -174,12 +172,4 @@ Enthusiasm and Attitude</a></p>
 </ul>
 </div>
   
-  
-
-
 <!--#include virtual="/transition/templates/footer.asp"-->
-<img src="/transition/learning-center/employment/images/businessmansmiling.jpg" width="180" height="116" alt="businessman smiling"/>
- <img src="/transition/learning-center/employment/images/youngmanworkingatdesk.jpg" width="180" height="150" alt="young man with Down Syndrome, working at a desk with a cup of coffee next to his keyboard"/>
-<!-- end .sidebar2 --></div>
-  
-<!--#include virtual="/transition/footer.html"-->

@@ -101,7 +101,7 @@ in a direct, respectful manner.</p>
 
 
 <h2>Related Videos</h2>
-<table cellspacing="10">
+<table cellspacing="10" class="thumbnailTable">
 <tr>
   <td valign="top" ><p><a href="/housing/videos-trainings.asp#journey" target="_blank"><img class="side-thumb-img" src="/housing/images/karen-and-daughters.jpg" width="200" height="161" alt="Amy &amp; Jennifer: A Journey to a Home of Their Own"/></a></p></td>
   <td valign="top"><p><a href="/housing/videos-trainings.asp#journey">Amy &amp; Jennifer: A Journey to a Home of Their Own</a><br />
@@ -141,7 +141,7 @@ Brad and Karen W. share their journey to create an Individualized Housing Option
 <p>For more information on workshops and resources related to housing please visit <a href="/housing/index.asp" target="_blank">PACER's Housing Projects</a> page.</p>
 <p>For permission to reprint, please fill out and submit PACER's <a href="../../../forms/request.asp" target="_blank">reprint request form</a>.
   <!-- end .content --></p>
-  </div>
+
   
 
 

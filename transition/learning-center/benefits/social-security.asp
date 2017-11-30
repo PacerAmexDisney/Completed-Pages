@@ -142,7 +142,7 @@ if (typeof jQuery == 'undefined')
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
     <h1 id="maincontent">Social Security/Ticket to Work</h1>
 
-    <div class="alertBox">
+    <div class="alertBox mobileCentered">
 <p style="text-align: center; padding: 0; margin: 0;">
 <a href="http://www.ncset.org/publications/viewdesc.asp?id=937">
 <img src="/transition/learning-center/benefits/images/manatdesk.jpg" width="200" height="223" alt=""/></a>

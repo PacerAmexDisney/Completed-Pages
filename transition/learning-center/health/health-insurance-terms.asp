@@ -96,7 +96,7 @@
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
     <h1>Health Insurance Terms</h1>
-        <img src="/transition/learning-center/health/images/sample-insurance-card.jpg" width="350" height="504" alt="" class="fltrt" />
+        <img style="max-width: 50%;" src="/transition/learning-center/health/images/sample-insurance-card.jpg" width="350" height="504" alt="" class="fltrt" />
 <p><strong>Health insurance</strong> is insurance that covers all or part of a covered individual&rsquo;s medical and surgical expenses. The insurer will pay for an agreed upon amount of provider services, medications, hospital care, and special equipment, depending on the health insurance plan selected. Individuals may still have to pay a co-pay or a percentage of the cost of care, called coinsurance (see below). Health insurance also covers common preventive health services such as immunizations that help people stay healthy. Becoming familiar with several key health insurance terms will help youth and their families make informed decisions when deciding what health care plan best meets their needs. </p>
     <p><strong>Co-insurance</strong> is the insured person&rsquo;s share of the costs of a covered health care service. It is often calculated as a percent (for example, 20%) of the allowed amount for the service. You pay co-insurance plus any deductibles you owe. </p>
     <p><strong>Co-payment or copay</strong> is the amount an individual is required to pay for a covered service (for example, $30). It is usually paid at the time you receive the service. </p>

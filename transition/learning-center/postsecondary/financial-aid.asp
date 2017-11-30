@@ -51,7 +51,6 @@
 </script>
 
 
-<!--#include virtual="/transition/dynamic-head-items.html"-->
 <style>
 @media (max-width: 750px) {
   .addthis_sharing_toolbox, .sharethis {

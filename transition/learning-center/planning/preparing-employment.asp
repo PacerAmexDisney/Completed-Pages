@@ -14,7 +14,7 @@
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<!--#include virtual="/transition/dynamic-head-items.html"-->
+
 <style type="text/css">
 @media (max-width: 750px) {
   .addthis_sharing_toolbox, .sharethis {
@@ -63,7 +63,7 @@
     
     
 <p>
-<img class="fltrt" src="/transition/learning-center/planning/images/kidsconstruction-circle.jpg" width="200" height="200" alt=""/>To successfully transition to adulthood, all youth should be exposed to a range of work-based exploration experiences such as site visits, community service, job shadowing, and paid and unpaid internships. Unfortunately, it is estimated that only one-third of young people with disabilities who need job training receive it. </p>
+<img class="fltrt mobileCentered" src="/transition/learning-center/planning/images/kidsconstruction-circle.jpg" width="200" height="200" alt=""/>To successfully transition to adulthood, all youth should be exposed to a range of work-based exploration experiences such as site visits, community service, job shadowing, and paid and unpaid internships. Unfortunately, it is estimated that only one-third of young people with disabilities who need job training receive it. </p>
 <p>
 To adequately prepare youth for real-world employment, career and technical education should be based on state or industry standards, and youth should be taught using varied learning strategies that are appropriate to each individual. 
 </p>

@@ -59,13 +59,13 @@
 
     <h1 id="maincontent">Independent &amp; Community Living</h1>
 	
-    <table width="100%">
+    <table width="100%" class="thumbnailTable">
 		<tr>
 			<td valign="top">
 				<img class="side-thumb-img" src="/transition/learning-center/planning/images/person-centered-planning-thumb.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="top">
-				<h3><a href="/transition/learning-center/independent-community-living/person-centered.asp">Person-Centered Planning &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/independent-community-living/person-centered.asp">Person-Centered Planning</a></h3>
 				<p>Person-Centered Planning is a team-based process used to help your youth plan for the future. Focused on your young adult’s personal vision, the team supports and identifies opportunities, relationships, skills and abilities that are required to progress toward achieving the vision.</p></td>
 		</tr>
 
@@ -74,7 +74,7 @@
 				<img class="side-thumb-img" src="/transition/learning-center/independent-community-living/images/self-determination.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="top">
-				<h3><a href="/transition/learning-center/independent-community-living/self-determination.asp">Self Determination &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/independent-community-living/self-determination.asp">Self Determination</a></h3>
 				<p>Self-determination means helping youth identify their own goals and dreams, and being able to take charge of making those dreams happen. Parents play an important role in building self-determination within their youth.</p>
 			</td>
 		</tr>
@@ -84,7 +84,7 @@
 				<img class="side-thumb-img" src="/transition/learning-center/independent-community-living/images/housing-icon.jpg" alt="" width="150" height="150" />
 			</td>
 		  <td valign="top">
-			<h3><a href="/transition/learning-center/independent-community-living/housing.asp">Housing &gt;&gt;&gt;</a></h3>
+			<h3><a href="/transition/learning-center/independent-community-living/housing.asp">Housing</a></h3>
 			  <p>It is common for youth to look forward to moving out of the family home and into places of their own. Understanding housing options, available supports, and eligibility criteria can help youth with disabilities and their families work toward a youth’s vision for where they want to live.</p>
 			</td>
 		</tr>

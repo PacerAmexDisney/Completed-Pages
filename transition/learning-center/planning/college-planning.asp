@@ -16,58 +16,7 @@
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 
-<!--#include virtual="/transition/dynamic-head-items.html"-->
-<style type="text/css">
-.sidebar2 {
-  float:right;
-}
-.resources {
-  max-width: 600px;
-  float: left;
-  margin-left:10px;
-}
-@media (max-width: 1020px) {
-  .resources {
-    max-width: 500px;
-  }
-}
-@media (max-width: 920px) {
-  .resources {
-    max-width: 400px;
-  }
-}
-@media (max-width: 820px) {
-  .resources {
-    max-width: 300px;
-  }
-}
-@media (max-width: 750px) {
-  .resources {
-    max-width: 500px;
-  }
-  .addthis_sharing_toolbox, .sharethis {
-	  padding-top: 30px;
-  }
-  .sidebar2 {
-    max-width: 150px;
-  }
-}
-@media (max-width: 680px) {
-  .resources {
-    max-width: 400px;
-  }
-}
-@media (max-width: 580px) {
-  .resources {
-    max-width: 300px;
-  }
-}
-@media (max-width: 480px) {
-  .resources {
-    max-width: 96%;
-  }
-}
-</style>
+
 </head>
 
 <body class="twocol">
@@ -76,7 +25,6 @@
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
 <!--#include virtual="/transition/templates/page-header-nav.asp"-->
-<!--#include virtual="/transition/topnav.html"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/planning/">Middle &amp; High School Transition Planning</a>
 </div>
@@ -110,35 +58,13 @@
   <div class="content">
     <h1 id="maincontent">College Planning</h1>
 
-
-
-  
-  <div class="sidebar2">
-    <a href="https://studentaid.ed.gov/prepare-for-college/checklists"><img class="TopItem250w" src="../postsecondary/images/collegePrepChecklist.jpg" width="190" height="116" alt="College Preperation Checklist" /></a>
-    <p><a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">This Checklist from the U.S. Department of Education</a> was developed to help students and parents get ready for college. It includes:</p>
-    <ul class="space">
-      <li>&quot;to do&quot; lists for all ages <em>(elementary school to adult students)</em></li>
-      <li>basic information about federal student aid and money for college </li>
-      <li>tips for filling out financial aid forms</li>
-      <li>and <a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">more... </a></li>
-    </ul>
-    <img border="0" src="/transition/learning-center/postsecondary/images/diploma.jpg" width="198" height="198" alt="Young woman in graduation cap and gown, holding up her college degree" />
-    <ul>
-      <li class="transitioniconlist"><a href="/publications/adaqa/504.asp" target="_blank">ADA, Section 504 &amp; Postsecondary 
-  Education &gt;&gt;&gt;</a></li>
-      <li class="transitioniconlist"><a href="/transition/learning-center/singles/gap-year.asp" target="_blank">The Gap Year: Taking a Year Off After Graduating From High School</a></li> 
-    </ul>    
-  </div><!-- end .sidebar2 --> 
-
-
-
     
 <p>Going to college today can mean attending a 4-year college or university, a 2-year community college, or a technical institute or trade school. It can mean working toward a bachelor&rsquo;s degree, an associate&rsquo;s degree (A.A.), or a certificate showing mastery of skills needed for a technical career. It can mean studying full-time or part-time, or living at school or commuting from home. </p>
 <p>Preparing for college includes taking any necessary assessments (e.g. SATs), ensuring current diagnostic test results are available to document the student's disability, developing self-advocacy skills, and other steps depending on the selected type of college program.</p>
 
 <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
 
-
+<br style="clear: both;">
 
 
 <div class="resources">
@@ -202,7 +128,22 @@
   </div><!-- end .resources -->
 
 
-
+<div class="additionalItems" style="clear: both;">
+    <a href="https://studentaid.ed.gov/prepare-for-college/checklists"><img class="TopItem250w" src="../postsecondary/images/collegePrepChecklist.jpg" width="190" height="116" alt="College Preperation Checklist" /></a>
+    <p><a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">This Checklist from the U.S. Department of Education</a> was developed to help students and parents get ready for college. It includes:</p>
+    <ul class="space">
+      <li>&quot;to do&quot; lists for all ages <em>(elementary school to adult students)</em></li>
+      <li>basic information about federal student aid and money for college </li>
+      <li>tips for filling out financial aid forms</li>
+      <li>and <a href="https://studentaid.ed.gov/prepare-for-college/checklists" target="_blank">more... </a></li>
+    </ul>
+    <img border="0" src="/transition/learning-center/postsecondary/images/diploma.jpg" width="198" height="198" alt="Young woman in graduation cap and gown, holding up her college degree" />
+    <ul>
+      <li class="transitioniconlist"><a href="/publications/adaqa/504.asp" target="_blank">ADA, Section 504 &amp; Postsecondary 
+  Education &gt;&gt;&gt;</a></li>
+      <li class="transitioniconlist"><a href="/transition/learning-center/singles/gap-year.asp" target="_blank">The Gap Year: Taking a Year Off After Graduating From High School</a></li> 
+    </ul>    
+  </div>
 
 
 

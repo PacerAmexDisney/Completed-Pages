@@ -101,7 +101,7 @@
     <h2><strong>Building Self-Advocacy Skills at Home</strong></h2>
     <p>Each clinic visit offers an opportunity for your youth to build self-advocacy skills and become more involved in managing his or her ongoing health and wellness. </p>
     
-    <div class="alertBox">
+    <div class="alertBox mobileCentered">
     <h3><a href="/transition/resource-library/publications/NPC-54.pdf" target="_blank">Transition Health Plan for Youth with Disabilities and Their Families</a> <i class="fa fa-file-pdf-o" aria-hidden="true"></i></h3>
     <p>This form is designed to help transition-age youth with disabilities and their families plan for youth to assume  greater  or  full  responsibility  for  their  adult  health  care.</p>
     </div>

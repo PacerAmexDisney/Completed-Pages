@@ -111,13 +111,13 @@ if (typeof jQuery == 'undefined')
  
  <hr />
     
-<table width="100%" style="margin-bottom:15px;">
+<table width="100%" style="margin-bottom:15px;" class="thumbnailTable">
 		<tr>
 			<td align="center" valign="top">
 				<img src="/transition/learning-center/benefits/images/ada-thumb.jpg" alt="" width="150" height="149" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/employment/finding-career-path.asp">Finding Your Career Path &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/employment/finding-career-path.asp">Finding Your Career Path</a></h3>
 			
 		  </td>
 		</tr>
@@ -126,7 +126,7 @@ if (typeof jQuery == 'undefined')
 				<img src="/transition/learning-center/employment/images/supported-employment-thumb.jpg" alt="" width="150" height="149" />
 		  </td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/employment/getting-a-job.asp">Getting a Job &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/employment/getting-a-job.asp">Getting a Job</a></h3>
 				
 		</td>
 		</tr>
@@ -135,7 +135,7 @@ if (typeof jQuery == 'undefined')
 				<img src="/transition/learning-center/employment/images/volunteer-thumb.jpg" alt="" width="150" height="149" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/employment/keeping-a-job.asp">Keeping a Job &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/employment/keeping-a-job.asp">Keeping a Job</a></h3>
 				
 		  </td>
 		</tr>
@@ -144,7 +144,7 @@ if (typeof jQuery == 'undefined')
 				<img src="/transition/learning-center/employment/images/fred-at-metro-thumb.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/employment/employment-supports.asp">Exploring Employment Supports &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/employment/employment-supports.asp">Exploring Employment Supports</a></h3>
 				
 		  </td>
 		</tr>
@@ -153,7 +153,7 @@ if (typeof jQuery == 'undefined')
 				<img src="/transition/learning-center/employment/images/brandon-thumb.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/employment/self-advocacy.asp">Self Advocacy and Disability Disclosure &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/employment/self-advocacy.asp">Self Advocacy and Disability Disclosure</a></h3>
 				
 			</td>
 		</tr>
@@ -162,7 +162,7 @@ if (typeof jQuery == 'undefined')
 				<img src="/transition/learning-center/employment/images/workforce-thumb.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="middle">
-				<h3><a href="/transition/learning-center/employment/employment-rights.asp">Employment Rights and Reasonable Accommodations &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/employment/employment-rights.asp">Employment Rights and Reasonable Accommodations</a></h3>
 				
 			</td>
 		</tr>
@@ -173,7 +173,7 @@ if (typeof jQuery == 'undefined')
     <h3>Additional Resources</h3>
     <table>
     <tr>
-			<td valign="top">
+			<td valign="top" class="mobileHidden">
 				<img src="/transition/learning-center/planning/images/prepare-employment.jpg" alt="" width="91" height="91" />
 			</td>
 		<td valign="top">

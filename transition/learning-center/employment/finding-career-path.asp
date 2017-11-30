@@ -110,7 +110,7 @@
     <h1 id="maincontent">Finding Your Career Path</h1>
 
 
-<div class="sidebar2"> <img src="/transition/learning-center/employment/images/SEphoto1.jpg" width="180" height="297" alt="Young man in a lab coat standing in a hospital hallway"/>
+<div class="sidebar2 mobileHidden"> <img src="/transition/learning-center/employment/images/SEphoto1.jpg" width="180" height="297" alt="Young man in a lab coat standing in a hospital hallway"/>
 <img src="/transition/learning-center/employment/images/SE2photo.jpg" width="180" height="285" alt="Young man with Down Syndrome learning how to lift a stack of boxes with a mechanical lift"/>
 <img src="/transition/learning-center/employment/images/SE3photo.jpg" width="180" height="256" alt="Young woman in a wheelchair laughing with a coworker in the office"/>
 <!-- end .sidebar2 --></div>

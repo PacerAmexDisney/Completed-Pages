@@ -16,9 +16,7 @@
 <!--#include virtual="/transition/dynamic-head-items.html"-->
 <style>
 @media (max-width: 750px) {
-  .addthis_sharing_toolbox, .sharethis {
-	  padding-top: 30px;
-  }
+
   .content .alertBox {
     max-width: 150px;
     margin-top: 80px;
@@ -64,7 +62,7 @@
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
     <h1 id="maincontent">Self Determination</h1>
 
-    <div class="alertBox">
+    <div class="alertBox mobileCentered">
 		<div class="centered"><img border="0" src="/transition/images/smilingteen.jpg" width="200" height="134" alt="teen boy smiling" /></a></div>
       <h3>Additional Reading</h3>
         <ul>
