@@ -30,7 +30,8 @@
 <div id="pagecontent" class="narrowContent">
 
 <div id="contentwrapper">  <div id="toc">
-  <!--#include virtual="/school-discipline-information/toc.html" --> 
+  <!--#include virtual="/school-discipline-information/toc.html" -->
+  </div>
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>

@@ -53,6 +53,6 @@
   <!--Close Content Wrapper--></div>
   <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
   </div>
-  <!--#include virtual="/footer.htm"--> 
+
 
 <!--#include virtual="/templates/footer.asp"-->

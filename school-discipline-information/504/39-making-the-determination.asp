@@ -18,20 +18,19 @@
 </head>
 
 <body class="singleCol">
-<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>
-<div id="wrapper">
-  <div id="main">
-  <div id="header">
-  <div> <!--#include virtual="/googleSearchBox.htm"--> 
-  <!-- Contains Contact Pacer | Donate | Google search bar | Social media --> 
-  <a href="/"><img src="http://www.pacer.org/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a> </div>
-  <!--#include virtual="/dynamicheader.htm"--> 
-  </div>
-  <div id="topbar">
+
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+<div id="topbar">
   <h1>School Discipline of Minnesota Students with Disabilities - Parent Information</h1>
+</div>
+
+<div id="maincontent">
+
+<div id="pagecontent" class="narrowContent">
+  <div id="contentwrapper">  <div id="toc">
+  <!--#include virtual="/school-discipline-information/toc.html" -->
   </div>
-  <div id="contentwrapper">  <div id="toc"> 
-  <!--#include virtual="/school-discipline-information/toc.html" --> 
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>

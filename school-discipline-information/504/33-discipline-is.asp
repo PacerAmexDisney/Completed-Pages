@@ -27,9 +27,9 @@
 <div id="maincontent">
 
 <div id="pagecontent" class="narrowContent">
-
-<div id="contentwrapper">  <div id="toc">
+  <div id="contentwrapper">  <div id="toc">
   <!--#include virtual="/school-discipline-information/toc.html" -->
+  </div>
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>
@@ -66,7 +66,7 @@
   <!-- ############################### END CONTENT #################################### -->
 
   <!--Close Content Wrapper--></div>
-   <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
+ </div>  <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
 </div>
  <div id="subDiv"></div>
 <!--#include virtual="/templates/footer.asp"-->
