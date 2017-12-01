@@ -1,14 +1,11 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Vocational Rehabilitation - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="State Vocational Rehabilitation programs provide services that enable individuals with disabilities to pursue meaningful employment that corresponds with their abilities and interests.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Vocational Rehabilitation - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/benefits/vocational-rehab.asp" />
 <meta property="og:description" content="State Vocational Rehabilitation programs provide services that enable individuals with disabilities to pursue meaningful employment that corresponds with their abilities and interests." />
@@ -23,17 +20,24 @@ if (typeof jQuery == 'undefined')
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style>
+.sidebar2 {
+  float:right;
+  max-width:40%;
+}
+.sidebar2 img {
+  max-width:100%;
+}
+</style>
 </head>
 
-<body class="threecol">
+<body class="twocol">
 
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/benefits/">Benefit Programs &amp; Supports</a>  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
@@ -64,7 +68,18 @@ if (typeof jQuery == 'undefined')
   <div class="content">
     <h1 id="maincontent">Vocational Rehabilitation</h1>
     
-
+    <div class="sidebar2">
+    <p class="rightsidebarpic">
+    <img border="0" src="images/maninwheelchair.jpg" width="180" height="166" alt="Businessman in a wheelchair smiling, colleagues in background." />
+    </p>
+    <p class="rightsidebarpic">
+    <img border="0" src="images/businessmansmiling.jpg" width="180" height="116" alt="African American businessman smiling, looking off to the side." />
+    </p>
+    <p class="rightsidebarpic">
+    <img border="0" src="images/youngmanworkingatdesk.jpg" width="180" height="150" alt="young man with Down Syndrome, working at a desk with a cup of coffee next to his keyboard." />
+    </p>   
+    </div>
+    <!-- end .sidebar2 -->
 <p>
 Every state has a federally funded agency that administers vocational rehabilitation (VR), supported employment, and independent living services. Some states have separate vocational rehabilitation programs for individuals who are blind or visually impaired, and a few states have separate programs for individuals who are deaf or hard of hearing. State VR programs provide services that enable individuals with disabilities to pursue meaningful employment that corresponds with their abilities and interests. 
 </p>
@@ -110,23 +125,4 @@ The services available through VR programs vary widely depending upon the state.
 </ul>
 </div>
 
-<br class="clearfloat" />
-  <!-- end .content --></div>
-  
-  
-<div class="sidebar2">
-<p class="rightsidebarpic">
-<img border="0" src="images/maninwheelchair.jpg" width="180" height="166" alt="Businessman in a wheelchair smiling, colleagues in background." />
-</p>
-<p class="rightsidebarpic">
-<img border="0" src="images/businessmansmiling.jpg" width="180" height="116" alt="African American businessman smiling, looking off to the side." />
-</p>
-<p class="rightsidebarpic">
-<img border="0" src="images/youngmanworkingatdesk.jpg" width="180" height="150" alt="young man with Down Syndrome, working at a desk with a cup of coffee next to his keyboard." />
-</p>   
-<!-- end .sidebar2 --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/transition/templates/footer.asp"-->

@@ -767,6 +767,17 @@ ul.space  li {
 .sharethis {
 	margin-top:-25px;
 }
+@media (max-width: 750px){
+	.addthis_sharing_toolbox {
+		margin-top:0px;
+	}
+	.sharethis {
+		margin-top:0px;
+	}	
+}
+
+
+
 .breadcrumb .addthis_sharing_toolbox, .breadcrumb .sharethis {
 	margin-top: 0px;
 }

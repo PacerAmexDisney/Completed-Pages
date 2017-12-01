@@ -1,30 +1,39 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Housing - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="It is common for youth to look forward to moving out of the family home and into places of their own. Understanding housing options, available supports, and eligibility criteria can help youth with disabilities and their families work toward a youth&rsquo;s vision for where they want to live.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Housing - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/independent-community-living/housing.asp" />
 <meta property="og:description" content="It is common for youth to look forward to moving out of the family home and into places of their own. Understanding housing options, available supports, and eligibility criteria can help youth with disabilities and their families work toward a youth&rsquo;s vision for where they want to live." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style>
+.side-thumb-img {
+  min-width: 75px;
+  margin-left:10px;
+}
+iframe {
+  max-width: 100%;
+}
+.videoContainer iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -32,8 +41,7 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/independent-community-living/">Independent &amp; Community Living</a></div>
 
@@ -81,23 +89,32 @@ in a direct, respectful manner.</p>
 
     <h2>Housing: Starting the Journey</h2>
 <p>Will you be ready when it&rsquo;s time for your son or daughter with a disability to move to a place of their own? The time to start planning is now! This Housing Project video gives you some groundwork from which to begin the journey.</p>
-<p align="center"><iframe width="560" height="315" src="//www.youtube.com/embed/oqq8CHESJ4o?wmode=opaque" frameborder="0" allowfullscreen></iframe></p>
+<p align="center">
+  <div class="videoContainer mobileCentered">
+  <iframe width="560" height="315" src="//www.youtube.com/embed/oqq8CHESJ4o?wmode=opaque" frameborder="0" allowfullscreen></iframe>
+  </div>
+</p>
+
+
+
+
+
 
 <h2>Related Videos</h2>
-<table cellspacing="10">
+<table cellspacing="10" class="thumbnailTable">
 <tr>
-  <td valign="top" ><p><a href="/housing/videos-trainings.asp#journey" target="_blank"><img src="/housing/images/karen-and-daughters.jpg" width="200" height="161" alt="Amy &amp; Jennifer: A Journey to a Home of Their Own"/></a></p></td>
+  <td valign="top" ><p><a href="/housing/videos-trainings.asp#journey" target="_blank"><img class="side-thumb-img" src="/housing/images/karen-and-daughters.jpg" width="200" height="161" alt="Amy &amp; Jennifer: A Journey to a Home of Their Own"/></a></p></td>
   <td valign="top"><p><a href="/housing/videos-trainings.asp#journey">Amy &amp; Jennifer: A Journey to a Home of Their Own</a><br />
 Brad and Karen W. share their journey to create an Individualized Housing Option for their 29-year-old twin daughters, Amy and Jennifer. Learn from Brad and Karen about the type of challenges parents and young adults face when choosing supports and finding the most appropriate housing and services based on their daughters&rsquo; person-centered needs.</p></td></tr>
 
 <tr>
-  <td valign="top" ><p><a href="http://www.pacer.org/transition/video/player.asp?video=98" target="_blank"><img src="/transition/video/images/deciding-where-to-live.jpg" width="200" height="200" alt="Amy &amp; Jennifer: A Journey to a Home of Their Own"/></a></p></td>
+  <td valign="top" ><p><a href="http://www.pacer.org/transition/video/player.asp?video=98" target="_blank"><img class="side-thumb-img" src="/transition/video/images/deciding-where-to-live.jpg" width="200" height="200" alt="Amy &amp; Jennifer: A Journey to a Home of Their Own"/></a></p></td>
   <td valign="top"><p><a href="http://www.pacer.org/transition/video/player.asp?video=98" target="_blank">Becoming an Adult: Deciding Where to Live</a><br />
     Planning for the future can be an exciting and nerve-wracking time for  young adults with special health care needs and their families. This  video shows and discusses the variety of residential programming  available to people with disabilities in the adult world and offers  information on how to make sure young adults are registered with the  right services in their state.</p></td></tr>
 
 
     <tr>
-  <td valign="top" ><p><a href="http://www.pacer.org/transition/video/player.asp?video=22" target="_blank"><img src="/transition/video/images/ind-living-juvenile-males.jpg" width="200" height="200" alt="Amy &amp; Jennifer: A Journey to a Home of Their Own"/></a></p></td>
+  <td valign="top" ><p><a href="http://www.pacer.org/transition/video/player.asp?video=22" target="_blank"><img class="side-thumb-img" src="/transition/video/images/ind-living-juvenile-males.jpg" width="200" height="200" alt="Amy &amp; Jennifer: A Journey to a Home of Their Own"/></a></p></td>
   <td valign="top"><p><a href="http://www.pacer.org/transition/video/player.asp?video=22" target="_blank">Independent Living: Jeeve Whirlwind’s Tips</a><br />
     High school student comedy on how to choose and live with roommates after graduating from high school.</p></td></tr>
 
@@ -124,9 +141,9 @@ Brad and Karen W. share their journey to create an Individualized Housing Option
 <p>For more information on workshops and resources related to housing please visit <a href="/housing/index.asp" target="_blank">PACER's Housing Projects</a> page.</p>
 <p>For permission to reprint, please fill out and submit PACER's <a href="../../../forms/request.asp" target="_blank">reprint request form</a>.
   <!-- end .content --></p>
-  </div>
+
   
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+
+
+<!--#include virtual="/transition/templates/footer.asp"-->

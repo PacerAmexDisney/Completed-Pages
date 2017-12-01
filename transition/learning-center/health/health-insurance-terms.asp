@@ -1,37 +1,20 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Health Insurance Terms - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="A look at important health insurance terms." />
 <!-- for Facebook -->          
 <meta property="og:title" content="Health Insurance Terms - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/health/health-insurance-terms.asp" />
 <meta property="og:description" content="A look at important health insurance terms." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 <link rel="stylesheet" type="text/css" href="/js/colorbox1.5.9/colorbox.css">
@@ -57,12 +40,25 @@ if (typeof jQuery == 'undefined')
 			}
 		});
 		//Initialize Colorbox
-		$(".videoPopUp").colorbox({iframe:true, innerWidth:960, innerHeight:585});
+		var winWidth = $(window).width();
+		var cbOpt = {iframe:true, innerWidth:960, innerHeight:585};
+		if (winWidth < 1000) {
+		  cbOpt.innerWidth = winWidth - 50;
+		  cbOpt.innerHeight = cbOpt.innerWidth * 585 / 960.0;
+		}
+		$(".videoPopUp").colorbox(cbOpt);
 	});
 </script>
 
 
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style type="text/css">
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -70,8 +66,7 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/health/">Health</a></div>
 
@@ -101,7 +96,7 @@ if (typeof jQuery == 'undefined')
 	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
     <h1>Health Insurance Terms</h1>
-        <img src="/transition/learning-center/health/images/sample-insurance-card.jpg" width="350" height="504" alt="" class="fltrt" />
+        <img style="max-width: 50%;" src="/transition/learning-center/health/images/sample-insurance-card.jpg" width="350" height="504" alt="" class="fltrt" />
 <p><strong>Health insurance</strong> is insurance that covers all or part of a covered individual&rsquo;s medical and surgical expenses. The insurer will pay for an agreed upon amount of provider services, medications, hospital care, and special equipment, depending on the health insurance plan selected. Individuals may still have to pay a co-pay or a percentage of the cost of care, called coinsurance (see below). Health insurance also covers common preventive health services such as immunizations that help people stay healthy. Becoming familiar with several key health insurance terms will help youth and their families make informed decisions when deciding what health care plan best meets their needs. </p>
     <p><strong>Co-insurance</strong> is the insured person&rsquo;s share of the costs of a covered health care service. It is often calculated as a percent (for example, 20%) of the allowed amount for the service. You pay co-insurance plus any deductibles you owe. </p>
     <p><strong>Co-payment or copay</strong> is the amount an individual is required to pay for a covered service (for example, $30). It is usually paid at the time you receive the service. </p>
@@ -113,9 +108,4 @@ if (typeof jQuery == 'undefined')
     
 
 
-  <!-- end .content --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/transition/templates/footer.asp"-->
