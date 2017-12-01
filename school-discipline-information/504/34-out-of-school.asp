@@ -12,6 +12,9 @@
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide.css"/>
 <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide-print.css" media="print" />
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+          rel = "stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
 <script type="text/javascript" src="/school-discipline-information/school-discipline-guide.js"></script>
 
@@ -53,6 +56,6 @@
   <!--Close Content Wrapper--></div>
   <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
   </div>
-  <!--#include virtual="/footer.htm"--> 
+
 
 <!--#include virtual="/templates/footer.asp"-->

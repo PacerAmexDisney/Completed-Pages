@@ -10,9 +10,7 @@
 <link rel="stylesheet" type="text/css" href="/css/pacer-style.css" />
 <link rel="stylesheet" type="text/css" href="/css/parent-responsive-v1.03.min.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
-          rel = "stylesheet">
-    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
 <script type="text/javascript">
 if (typeof jQuery == 'undefined')
 {

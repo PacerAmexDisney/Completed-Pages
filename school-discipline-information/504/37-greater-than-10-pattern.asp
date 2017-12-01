@@ -14,25 +14,28 @@
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide-print.css" media="print" />
 
 <script type="text/javascript" src="/school-discipline-information/school-discipline-guide.js"></script>
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+          rel = "stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
 </head>
 
 <body class="singleCol">
-<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>
-<div id="wrapper">
-  <div id="main">
-  <div id="header">
-  <div> <!--#include virtual="/googleSearchBox.htm"--> 
-  <!-- Contains Contact Pacer | Donate | Google search bar | Social media --> 
-  <a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a> </div>
-  <!--#include virtual="/dynamicheader.htm"--> 
-  </div>
-  <div id="topbar">
+
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+<div id="topbar">
   <h1>School Discipline of Minnesota Students with Disabilities - Parent Information</h1>
-  </div>
-  <div id="contentwrapper">  <div id="toc"> 
-  <!--#include virtual="/school-discipline-information/toc.html" --> 
 </div>
+
+<div id="maincontent">
+
+<div id="pagecontent" class="narrowContent">
+  <div id="contentwrapper">  <div id="toc">
+  <!--#include virtual="/school-discipline-information/toc.html" -->
+  </div>
+</div>
+
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>
   <div id="showToc"></div>
