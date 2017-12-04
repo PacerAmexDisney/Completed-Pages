@@ -13,7 +13,9 @@
 <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide-print.css" media="print" />
 <script type="text/javascript" src="/school-discipline-information/school-discipline-guide.js"></script>
-
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+          rel = "stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
 </head>
 
@@ -30,7 +32,8 @@
 <div id="pagecontent" class="narrowContent">
 
 <div id="contentwrapper">  <div id="toc">
-  <!--#include virtual="/school-discipline-information/toc.html" --> 
+  <!--#include virtual="/school-discipline-information/toc.html" -->
+  </div>
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>

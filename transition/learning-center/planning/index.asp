@@ -1,21 +1,27 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Middle &amp; High School Transition Planning - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="Parents of youth with disabilities should begin thinking about transition (planning for adulthood) as early as possible. Although the formal process of transition planning doesn’t begin until high school, it is helpful to begin thinking about it much sooner.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Middle &amp; High School Transition Planning - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/planning/" />
 <meta property="og:description" content="Parents of youth with disabilities should begin thinking about transition (planning for adulthood) as early as possible. Although the formal process of transition planning doesn’t begin until high school, it is helpful to begin thinking about it much sooner." />
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
-<!--#include virtual="/transition/dynamic-head-items.html"-->
+<style type="text/css">
+.planning-thumb {
+  min-width: 50px;
+}
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -23,8 +29,7 @@
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a>  
 </div>
@@ -90,7 +95,13 @@ if (typeof jQuery == 'undefined')
 			}
 		});
 		//Initialize Colorbox
-		$(".videoPopUp").colorbox({iframe:true, innerWidth:960, innerHeight:585});
+		var winWidth = $(window).width();
+		var cbOpt = {iframe:true, innerWidth:960, innerHeight:585};
+		if (winWidth < 1000) {
+		  cbOpt.innerWidth = winWidth - 50;
+		  cbOpt.innerHeight = cbOpt.innerWidth * 585 / 960.0;
+		}
+		$(".videoPopUp").colorbox(cbOpt);
 	});
 </script>
 
@@ -100,22 +111,22 @@ if (typeof jQuery == 'undefined')
     
     <p>Parents of youth with disabilities should begin thinking about transition (planning for adulthood) as early as possible. Although the formal process of transition planning doesn’t begin until high school, it is helpful to begin thinking about it much sooner.</p>
 	
-    <table width="100%">
+    <table width="100%" class="thumbnailTable">
     <tr>
 			<td valign="top">
-				<img src="/transition/learning-center/planning/images/idea.jpg" alt="" width="150" height="150" />
+				<img class="planning-thumb" src="/transition/learning-center/planning/images/idea.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="top">
-				<h3><a href="/transition/learning-center/planning/idea-ieps.asp">Individuals with Disabilities Education Act (IDEA) and Individualized Education Programs (IEPs) &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/planning/idea-ieps.asp">Individuals with Disabilities Education Act (IDEA) and Individualized Education Programs (IEPs)</a></h3>
 				<p>When a youth reaches the formal transition age (16 in most states), the IEP must contain specific transition goals, plans, and services related to his or her interests and needs. Families are a required partner on the IEP team and play a valuable role in helping support youth as they work to attain their dreams for adulthood.</p>
 </td>
 		</tr>
     <tr>
 			<td valign="top">
-				<img src="/transition/learning-center/planning/images/college-planning.jpg" alt="" width="150" height="150" />
+				<img class="planning-thumb"  src="/transition/learning-center/planning/images/college-planning.jpg" alt="" width="150" height="150" />
 			</td>
 			<td valign="top">
-				<h3><a href="/transition/learning-center/planning/college-planning.asp">College Planning &gt;&gt;&gt;</a></h3>
+				<h3><a href="/transition/learning-center/planning/college-planning.asp">College Planning</a></h3>
 				<p>Today, with many flexible postsecondary education options available, youth with disabilities will want to begin their search early to find the program that best fits their interests and needs. It is helpful for families to begin considering admissions requirements and skills required to help ensure their youth is on track for their desired program.</p>
 </td>
 	  </tr>
@@ -124,7 +135,7 @@ if (typeof jQuery == 'undefined')
 				<img src="/transition/learning-center/planning/images/prepare-employment.jpg" alt="" width="150" height="150" />
 			</td>
 		<td valign="top">
-		  <h3><a href="/transition/learning-center/planning/preparing-employment.asp">Preparing for Employment &gt;&gt;&gt;</a></h3>
+		  <h3><a href="/transition/learning-center/planning/preparing-employment.asp">Preparing for Employment</a></h3>
 			<p>To successfully transition to the world of work, youth should use the school years to explore careers and engage in meaningful work experiences. Parents can help by becoming aware of community resources that help support employment, and advocate for social skill and work skill development through targeted activities listed in the IEP.</p>
 </td>
 		</tr>
@@ -152,9 +163,6 @@ if (typeof jQuery == 'undefined')
     </div>
 
     
-  <!-- end .content --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+
+<!--#include virtual="/transition/templates/footer.asp"-->
