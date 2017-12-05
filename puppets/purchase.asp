@@ -39,7 +39,7 @@ ul ul {
 </script>
 
 <div id="leftbar">
-<!--#include virtual="/templates/leftNav.html" -->
+<!--#include virtual="/puppets/nav.html" -->
 </div>
 
 <script type="text/javascript">

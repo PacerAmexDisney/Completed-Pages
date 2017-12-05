@@ -70,7 +70,7 @@ p {
 
 <div id="leftbar">
 <h2 style="display: none;">PACER Puppets Navigation Menu</h2>
-<!--#include virtual="/puppets/leftNav.htm"-->
+<!--#include virtual="/puppets/nav.html" -->
 </div>
 
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
