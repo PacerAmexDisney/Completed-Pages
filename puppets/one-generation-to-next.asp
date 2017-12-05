@@ -56,14 +56,15 @@
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-<table width="700" cellpadding="0" align="center">
-<tr><td><img src="/puppets/images/puppets-generation.jpg" width="700" height="478" alt=""/></td></tr>
-<tr><td><em>The PACER puppets have been positively impacting children for more than 30 years. Charlotte Green (left) and Lynn Dennis (right) coordinate the program and provide training to volunteer puppeteers, including Natasha Babwah.    
-</em></td></tr></table>
+<div style="width: 700px; max-width: 100%; margin: 10px auto;">
+<img class="mobileCentered" style="height: auto;"src="/puppets/images/puppets-generation.jpg" width="700" height="478" alt=""/>
+<p><em>The PACER puppets have been positively impacting children for more than 30 years. Charlotte Green (left) and Lynn Dennis (right) coordinate the program and provide training to volunteer puppeteers, including Natasha Babwah.    
+</em></p>
+</div>
 
 
 <p align="center"></p>
-<h2>PACER puppets  from one generation to the next</h2>
+<h1>PACER puppets  from one generation to the next</h1>
 <p>It was 30 years ago and Vanessa Nordstrom was in the 1st grade when she saw PACER&rsquo;s COUNT ME IN® puppet show at her Minneapolis elementary school. Apparently it made a lasting impression. In 2013, with her daughter Taylor struggling for acceptance among her classmates, Vanessa remembered the puppets&rsquo; message of inclusiveness and called on PACER to help.</p>
 <p>Taylor has epilepsy. In many ways she is a typical 7-year-old – she loves to dance and sing and she performs well academically – but social interaction is challenging, especially when her energy level drops and her frustration rises. At times, Vanessa says, her daughter&rsquo;s actions can frighten other children.</p>
 <p>&ldquo;My husband and I were trying to figure out how we could let the other kids know that Taylor has epilepsy, and how that sometimes impacts her behavior,&rdquo; Vanessa said. &ldquo;I remembered the PACER puppets from when I was 6 years old, and a friend urged me to contact PACER about having a puppet show at Taylor&rsquo;s school.&rdquo;</p>

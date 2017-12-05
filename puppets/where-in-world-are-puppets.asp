@@ -56,9 +56,13 @@
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-<table width="700" cellpadding="0" align="center">
-<tr><td><img src="/puppets/images/puppets-in-trinidad.jpg" width="700" height="467" alt=""/></td></tr>
-<tr><td><em>Organizations across the United States and around the world purchase PACER puppets to use in their communities. Puppeteers Michelle Laveau (left) and Natasha Babwah of the Caribbean Kids &amp; Families Therapy Organization (CKFTO) do about 75 shows each year on the islands of Trinidad and Tobago.</em></td></tr></table>
+<div style="width: 700px; max-width: 100%; margin: 10px auto;">
+<img style="height: auto; max-width: 100%;" class="centered mobileCentered" src="/puppets/images/puppets-in-trinidad.jpg" width="700" height="467" alt=""/>
+
+<p><em>Organizations across the United States and around the world purchase PACER puppets to use in their communities. Puppeteers Michelle Laveau (left) and Natasha Babwah of the Caribbean Kids &amp; Families Therapy Organization (CKFTO) do about 75 shows each year on the islands of Trinidad and Tobago.</em></p>
+</div>
+
+
 <h1>Where in the world are the PACER puppets?</h1>
   <p>Since 1979, PACER&rsquo;s COUNT ME IN&reg; puppets have been making a positive impact across Minnesota, but their influence is now much broader. The endearing, life-size, multicultural puppets are teaching children across the United States and as far away as England about disabilities and bullying prevention.</p>
   

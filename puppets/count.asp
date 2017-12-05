@@ -56,7 +56,7 @@
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-<h2>COUNT ME IN®</h2>
+<h2>COUNT ME IN&reg;</h2>
 <em>&quot;The program has the right amount of sensitivity and humor. I really think this showed students that they have things in common with people with disabilities.&quot;</em><br />
 - A Minnesota teacher
 <br />
