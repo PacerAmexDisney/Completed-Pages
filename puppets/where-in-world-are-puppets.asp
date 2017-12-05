@@ -1,76 +1,50 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!--#include virtual="/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
+<title>Puppets - Where in the World are PACER Puppets - PACER Center</title>
 
-<title>PACER Puppets - Where in the World are PACER Puppets</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
+<meta property="og:title" content="Puppets - Where in the World are PACER Puppets" />
+<meta property="og:url" content="http://www.pacer.org/puppets/where-in-world-are-puppets.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
 </head>
-
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-
-</div>
-
-
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
 
-</p>
-</div>
 	<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / <a href="/puppets/">PACER Puppets</a> / Where in the World are PACER Puppets
-	
+</div>
 	<h1>PACER Puppets</h1>
-	
+
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="where-in-world";
+	// current subtree that should be displayed
+	var showTree = "none";
+	var showTree2 = "none";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">PACER Puppets Navigation Menu</h2>
-<!--#include virtual="/puppets/leftNav.htm"-->
+<!--#include virtual="/templates/leftNav.html" -->
 </div>
 
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="where-in-world";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
@@ -82,7 +56,6 @@
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-
 <table width="700" cellpadding="0" align="center">
 <tr><td><img src="/puppets/images/puppets-in-trinidad.jpg" width="700" height="467" alt=""/></td></tr>
 <tr><td><em>Organizations across the United States and around the world purchase PACER puppets to use in their communities. Puppeteers Michelle Laveau (left) and Natasha Babwah of the Caribbean Kids &amp; Families Therapy Organization (CKFTO) do about 75 shows each year on the islands of Trinidad and Tobago.</em></td></tr></table>
@@ -102,18 +75,6 @@
   <p>The puppets are hand-made in Minnesota, and their appearance can be changed to portray diverse communities. They can be shipped anywhere in the world. PACER also offers training to puppeteers.</p>
   
   <p>Natasha Babwah, puppet program coordinator with the Caribbean Kids &amp; Families Therapy Organization (CKFTO) in Trinidad and Tobago, recently visited Minneapolis for two days of training. CKFTO has been using the PACER puppets since 2013 and did 75 shows last year. &ldquo;It has been such a wonderful experience to come to Minnesota and meet the people at PACER Center,&rdquo; Babwah said. &ldquo;This is a great program and an excellent teaching tool for young children.&rdquo;</p>
-  
-
-
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

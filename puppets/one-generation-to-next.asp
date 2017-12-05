@@ -1,76 +1,50 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!--#include virtual="/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
+<title>Puppets - Fron One Generation to the Next - PACER Center</title>
 
-<title>PACER Puppets - From One Generation to the Next</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
+<meta property="og:title" content="Puppets - Fron One Generation to the Next" />
+<meta property="og:url" content="http://www.pacer.org/puppets/one-generation-to-next.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
 </head>
-
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-
-</div>
-
-
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
 
-</p>
+	<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / PACER Puppets
 </div>
-	<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / <a href="/puppets/">PACER Puppets</a> / One Generation to the Next
-	
 	<h1>PACER Puppets</h1>
-	
+
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="generation";
+	// current subtree that should be displayed
+	var showTree = "none";
+	var showTree2 = "none";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">PACER Puppets Navigation Menu</h2>
-<!--#include virtual="/puppets/leftNav.htm"-->
+<!--#include virtual="/templates/leftNav.html" -->
 </div>
 
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="generation";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
@@ -82,7 +56,6 @@
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-
 <table width="700" cellpadding="0" align="center">
 <tr><td><img src="/puppets/images/puppets-generation.jpg" width="700" height="478" alt=""/></td></tr>
 <tr><td><em>The PACER puppets have been positively impacting children for more than 30 years. Charlotte Green (left) and Lynn Dennis (right) coordinate the program and provide training to volunteer puppeteers, including Natasha Babwah.    
@@ -90,7 +63,7 @@
 
 
 <p align="center"></p>
-<h1>PACER puppets  from one generation to the next</h1>
+<h2>PACER puppets  from one generation to the next</h2>
 <p>It was 30 years ago and Vanessa Nordstrom was in the 1st grade when she saw PACER&rsquo;s COUNT ME IN® puppet show at her Minneapolis elementary school. Apparently it made a lasting impression. In 2013, with her daughter Taylor struggling for acceptance among her classmates, Vanessa remembered the puppets&rsquo; message of inclusiveness and called on PACER to help.</p>
 <p>Taylor has epilepsy. In many ways she is a typical 7-year-old – she loves to dance and sing and she performs well academically – but social interaction is challenging, especially when her energy level drops and her frustration rises. At times, Vanessa says, her daughter&rsquo;s actions can frighten other children.</p>
 <p>&ldquo;My husband and I were trying to figure out how we could let the other kids know that Taylor has epilepsy, and how that sometimes impacts her behavior,&rdquo; Vanessa said. &ldquo;I remembered the PACER puppets from when I was 6 years old, and a friend urged me to contact PACER about having a puppet show at Taylor&rsquo;s school.&rdquo;</p>
@@ -101,16 +74,5 @@
 <p>Before the show, Taylor was anxious and a little concerned to be the subject of discussion. She spent much of the presentation glancing around the room to assess her classmates&rsquo; reaction. It turned out to be positive. Now when Taylor has an issue, the other children are supportive and want to help. &ldquo;Taylor&rsquo;s classmates are now showing empathy, and they are accepting her for who she is,&rdquo; Green said. &ldquo;That&rsquo;s what it&rsquo;s all about.&rdquo;</p>
 <h1>&nbsp;</h1>
 
-
-
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
