@@ -61,7 +61,7 @@
 &quot;I learned that if I were abused, I should keep telling someone until they believe me."<br />
 - A Minnesota child after a LET'S PREVENT ABUSE show.
 </p>
-  <div class="alertBox">The Let's Prevent Abuse puppet show is no longer  available to be performed, but puppets and scripts can be purchased as a <a href="purchase.asp">PACER  Puppet Package</a> for your organization.</div>
+  <div class="alertBox mobileCentered">The Let's Prevent Abuse puppet show is no longer  available to be performed, but puppets and scripts can be purchased as a <a href="purchase.asp">PACER  Puppet Package</a> for your organization.</div>
   
   <p>The LET'S PREVENT ABUSE Program helps children and adults gain information about child physical and sexual abuse as well as helps children to develop personal safety skills. This puppet program originated in 1984, in response to a growing awareness of the greater vulnerability of children with disabilities to all types of abuse. More than 83,000 children and adults have viewed the program presentation. </p>
   <p> LET'S PREVENT ABUSE features four endearing multicultural, child-size puppets that portray children with and without disabilities. These puppets have proven to be a comfortable medium through which to teach children about abuse prevention. Opportunities exist throughout the program for the children to interact with the puppets through dialogue and role-play. </p>
