@@ -554,6 +554,9 @@ For IE7 you have to give the parent element a higher z-index than the absolutley
   right: 0;
   top: 0;
 }
+.sidebar1 ul li.currsub {
+	position: relative;
+}
 .sidebar1 ul li.currsub > a:before{
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
