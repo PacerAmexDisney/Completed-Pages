@@ -1,83 +1,50 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Puppets - Kids Against Bullying - PACER Center</title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>PACER Puppets: Kids Against Bullying</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<meta property="og:title" content="Puppets - Kids Against Bullying" />
+<meta property="og:url" content="http://www.pacer.org/puppets/kidsagainstbullying.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
-
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-   <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<div class="stayinformed" style="margin-top: 0;">
-<em>&quot;The puppets are wonderful and very effective in helping children feel 
-comfortable with a difficult subject.&quot;</em><br />
-- A Minnesota teacher
-</div>
-<p class="rightsidebarpic">
-<img border="0" src="/puppets/images/KAB-set-on-play-equip.jpg" width="250" height="334" alt="puppets on a playground slide" />
-</p>
-<div class="stayinformed">
-<p style="padding: .4em; margin: 0; text-align: center; font-size: 90%;">
-Want to learn more? Contact <a href="mailto:puppets@pacer.org">puppets@pacer.org</a>
-</p>
-</div>
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
 
-	<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> /
-	
+	<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / PACER Puppets
+</div>
 	<h1>PACER Puppets</h1>
-	
+
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="bully";
+	// current subtree that should be displayed
+	var showTree = "none";
+	var showTree2 = "none";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">PACER Puppets Navigation Menu</h2>
-<!--#include virtual="/puppets/leftNav.htm"-->
+<!--#include virtual="/puppets/nav.html" -->
 </div>
 
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="bully";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
@@ -88,10 +55,12 @@ Want to learn more? Contact <a href="mailto:puppets@pacer.org">puppets@pacer.org
 
 <div id="pagecontent">
 
-<h1 class="nounderline">Kids against Bullying</h1>
-
-
 <!--BEGIN CONTENT-->
+<h2>Kids against Bullying</h2>
+<em>&quot;The puppets are wonderful and very effective in helping children feel 
+comfortable with a difficult subject.&quot;</em><br />
+- A Minnesota teacher
+<br />
 <p>The KIDS AGAINST BULLYING Puppet Program helps children and adults learn about bullying prevention. This exciting new puppet program was developed in response to requests from parents and teachers to supplement <a href="http://www.pacerkidsagainstbullying.org/" target="_blank">PACER&rsquo;s Kids Against Bullying Web site</a> . </p>
 <p> KIDS AGAINST BULLYING features five endearing multicultural, child-size puppets that portray children with and without disabilities. These puppets have proven to be a comfortable medium through which to teach children about bullying prevention. Opportunities exist throughout the presentation for children to learn through dialogue and question/answer.<br />
  The program, designed for children in grades 1-3, addresses: </p>
@@ -112,17 +81,5 @@ Want to learn more? Contact <a href="mailto:puppets@pacer.org">puppets@pacer.org
 		</ul>
 <!--#include virtual="/puppets/trademark.htm"-->
 
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

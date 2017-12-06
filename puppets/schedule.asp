@@ -1,64 +1,60 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Puppets - Schedule a Show - PACER Center</title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Schedule a Show - PACER Center</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
+<meta property="og:title" content="Puppets - Schedule a Show" />
+<meta property="og:url" content="http://www.pacer.org/puppets/schedule.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
-
+<style>
+#pagecontent .greenBar {
+  background: #246c00 none repeat scroll 0 0;
+  color: #fff;
+  margin-left: -6px;
+  margin-right: -6px;
+  margin-top: 40px;
+  padding: 20px 5px;
+}
+</style>
 </head>
-
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
-<div id="breadcrumb"><a href="/">Home</a> / <a href="/pandr/">Programs </a> /
+<div id="breadcrumb">
+
+	<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / PACER Puppets
+</div>
 	<h1>PACER Puppets</h1>
-	
+
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="schedule";
+	// current subtree that should be displayed
+	var showTree = "none";
+	var showTree2 = "none";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">PACER Puppets Navigation Menu</h2>
-<!--#include virtual="/puppets/leftNav.htm"-->
+<!--#include virtual="/puppets/nav.html" -->
 </div>
 
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="schedule";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
@@ -68,12 +64,9 @@
 <div id="maincontent">
 
 <div id="pagecontent">
-<img class="fltrt" border="0" src="images/show-2014.jpg" width="250" height="140" alt="" />
-<h2 class="nounderline">Schedule a Show</h2>
-
 
 <!--BEGIN CONTENT-->
-
+<h2>Schedule a Show</h2>
 <p>COUNT ME IN&reg; and KIDS AGAINST BULLYING programs are<strong> performed in the metro areas of Minneapolis and St. Paul, Minnesota</strong> by PACER volunteers. If you are interested in scheduling a show at your school, please choose a program and complete a show request form. You may either complete the online request form or download the form to complete and return to PACER Center Puppet Program via mail or fax (952-838-0199).</p>
 <h4 class="greenBar">COUNT ME IN&reg; Disability Awareness Puppet Shows</h4>
 <p>Pre/K COUNT ME IN&reg;show for ages 4 and 5 (no students younger than 4, please)</p>
@@ -119,17 +112,6 @@
 
 <p><!--<a href="LPAForm.pdf">LET'S PREVENT ABUSE</a><img border="0" src="../images/pdficon_small.gif" width="15" height="15" alt="pdf icon" />
 --></p>
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
