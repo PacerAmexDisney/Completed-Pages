@@ -14,16 +14,7 @@
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
-<style>
-@media (max-width: 750px) {
 
-  .content .alertBox {
-    max-width: 150px;
-    margin-top: 80px;
-    padding:0px;
-  }
-}
-</style>
 </head>
 
 <body class="twocol">
@@ -62,7 +53,15 @@
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
     <h1 id="maincontent">Self Determination</h1>
 
-    <div class="alertBox mobileCentered">
+    
+
+
+<h3>What is Self-Determination?</h3>
+<p>
+Self determination is believing you can control your own destiny. Self-determination is a combination of attitudes and abilities that lead people to set goals for themselves, and to take the initiative to reach these goals. It is about being in charge, but is not necessarily the same thing as self-sufficiency or independence. It means making your own choices, learning to effectively solve problems, and taking control and responsibility for one's life. Practicing self-determination also means one experiences the consequences of making choices. 
+</p>
+
+<div class="alertBox mobileCentered">
 		<div class="centered"><img border="0" src="/transition/images/smilingteen.jpg" width="200" height="134" alt="teen boy smiling" /></a></div>
       <h3>Additional Reading</h3>
         <ul>
@@ -75,12 +74,8 @@ way to be served. Self-advocacy is asking for what you need
 in a direct, respectful manner.</p>
         </ul>
 	</div>
+	
 
-
-<h3>What is Self-Determination?</h3>
-<p>
-Self determination is believing you can control your own destiny. Self-determination is a combination of attitudes and abilities that lead people to set goals for themselves, and to take the initiative to reach these goals. It is about being in charge, but is not necessarily the same thing as self-sufficiency or independence. It means making your own choices, learning to effectively solve problems, and taking control and responsibility for one's life. Practicing self-determination also means one experiences the consequences of making choices. 
-</p>
 <h3>Developing Self-Determination Skills</h3>
 <p>
 The development of self-determination skills is a process that begins in childhood and continues throughout one's life. Self-determination is important for all people, but it is especially important, and often more difficult to learn, for young people with disabilities. Well-meaning individuals sometimes "protect" children with disabilities by making all their decisions for them. Also, sometimes people assume that people with disabilities can't think for themselves. 
@@ -91,6 +86,8 @@ Self-determination involves many attitudes and abilities including: self-awarene
 <p>
 Since self-determination skills are most effectively learned and developed by practicing them, students with disabilities should be given ample opportunity to use their self-advocacy, decision-making and socialization skills well before they leave high school to prepare themselves for working and living in their community. 
 </p>
+
+
 
 <h3>Mentoring</h3>
 <p>

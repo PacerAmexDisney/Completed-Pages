@@ -1,95 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Minnesota School-wide Positive Behavior Interventions and Supports (SW-PBIS): Training Modules - PACER Center</title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Minnesota School-wide Positive Behavior Interventions and Supports (SW-PBIS): Training Modules</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../../css/print.css" media="print" />
-
-<script type="text/javascript" src="../../css/menu.js"></script>
-<script type="text/javascript">
-function printWindow(){
-   bV = parseInt(navigator.appVersion)
-   if (bV >= 4) window.print()
-}
-function wopen(url, name, w, h)
-{
-// Fudge factors for window decoration space.
- // In my tests these work well on all platforms &amp; browsers.
-w += 32;
-h += 96;
- var win = window.open(url,
-  name, 
-  'width=' + w + ', height=' + h + ', ' +
-  'location=no, menubar=no, ' +
-  'status=no, toolbar=no, scrollbars=yes, resizable=yes');
- win.resizeTo(w, h);
- win.focus();
-}
-</script> 
+<meta property="og:title" content="Minnesota School-wide Positive Behavior Interventions and Supports (SW-PBIS): Training Modules" />
+<meta property="og:url" content="http://www.pacer.org/pbis/trainingmods" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
 </head>
-
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
+
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+<div id="topbar">
+<div id="breadcrumb">
+
+<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / <a href="../">Minnesota School-wide Positive Behavior Interventions and Supports</a> / Training Modules
+</div>
+	<h1>Minnesota School-wide Positive Behavior Interventions and Supports (SW-PBIS)</h1>
+
 </div>
 
-<div id="wrapper">
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="training";
+	// current subtree that should be displayed
+	var showTree = "none";
+	var showTree2 = "none";
+</script>
 
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-      <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities</p>
-<p class="pacerinfo3"><a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
+<div id="leftbar">
+<!--#include virtual="/pbis/nav.html" -->
 </div>
 
-	<div id="topbar">
-	<div id="breadcrumb"><a href="../../">Home</a> / <a href="../../pandr/">Programs &amp; Resources</a> 
-	/ <a href="../">Minnesota School-wide Positive Behavior Interventions and Supports</a> /
-	
-	<a href="/pbis/">(SW-PBIS)</a>
-<h1>Minnesota School-wide Positive Behavior Interventions and Supports (SW-PBIS)</h1>
-	
-</div>
-</div>
-
-	<div id="leftbar" style="width: 200px; height: 95px">
-	<h2 style="display: none;">MN SW-PBIS Menu</h2>
-		<ul>
-			<li><a href="../index.asp">MN SW-PBIS Overview</a></li>
-			<li><a href="../publications.asp">MN SW-PBIS Publications</a></li>
-			<li><a href="../resources.asp">MN SW-PBIS Resources</a></li>
-			<li><a href="../infoforparents.asp">MN SW-PBIS Info for Parents</a></li>
-			<li><a class="page" href="index.asp">MN SW-PBIS Training Modules</a></li>
-		</ul>
-	</div>
+<script type="text/javascript">
+	// set current page
+	if (document.getElementById(currId)){
+		document.getElementById(currId).className = "page";
+	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
+	var subTrees = document.getElementsByTagName("ul");
+	for (var i = 0; i < subTrees.length; i++) {
+		if (subTrees[i].className == "treemenu") {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
+				subTrees[i].className = "treemenuhidden";
+			}
+		}
+	}
+</script>
 
 <div id="maincontent">
 
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-
-<h2 class="nounderline"><a name="maincontent">Training Modules</a></h2>
-
+<h2>Training Modules</h2>
 <h3>Positive Behavior Interventions and Supports:</h3>
 <hr />
 <ul>
@@ -123,16 +90,6 @@ Champions for Children with Disabilities</p>
 <p style="border-top: solid 1px #ccc; padding-top: .5em; margin-top: 2em; font-style: italic;">
 The school-wide PBIS web site was developed from a grant from the Minnesota Department of Education.
 </p>
-</div>
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
