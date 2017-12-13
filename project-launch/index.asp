@@ -1,84 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Project Launch - PACER Center</title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Project Launch</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
+<meta property="og:title" content="Project Launch" />
+<meta property="og:url" content="http://www.pacer.org/projcet-launch/" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
-<script type="text/javascript" src="../css/menu.js"></script>
+
 </head>
+<body class="singleCol">
 
-<body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+<div id="topbar">
+<div id="breadcrumb">
+
+<a href="../index.asp">Home</a> / <a href="../pandr/proglist.asp">Programs &amp; Resources</a> / 
 </div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-
-<div class="stayinformed">
-  <h2>Parent Center Partners</h2>
-  <p>Project Launch works in partnership with parent centers in:</p>
-  <ul>
-    <li>Indiana: <a href="http://insource.org" target="_blank">IN*Source</a></li>
-    <li>Kentucky: <a href="http://www.kyspin.com" target="_blank">KY-SPIN</a></li>
-    <li>Ohio: <a href="http://www.ocecd.org" target="_blank">OCECD</a></li>
-  </ul>
-  <hr />
-  <h2><a href="/parent/php/PHP-c233.pdf" target="_blank">Visiting College and University Campuses</a> <span class="fa fa-file-pdf-o" aria-hidden="true"></span></h2>
-  <p>Preparing  for  postsecondary  education  takes  careful  planning  on  the  part  of  the  student,  his  or  her  family, 
-school personnel, and college and university staff. For students thinking about furthering their education, one 
-step in planning and preparing for postsecondary life is by visiting college campuses. This PACER publication highlights some helpful activities for the visit.</p>
-<hr />
-<h2><a href="/parent/php/PHP-c244.pdf" target="_blank">Frequently asked questions about career exploration for youth with disabilities</a> <span class="fa fa-file-pdf-o" aria-hidden="true"></span></h2>
-<p>Career exploration is an important step in helping a student fulfill long-term employment goals. This handout will help with decision-making and information gathering concerning academic and career choices.</p>
-<hr />
-<h2><a href="/parent/php/PHP-c250.pdf" target="_blank">Transition Planning Tips for Linguistically and Culturally Diverse Youth with Disabilities</a> <span class="fa fa-file-pdf-o" aria-hidden="true"></span></h2>
-<p>Transition planning can be a challenging and complex task. It is important that the steps taken during transition
-planning lead to positive and well-informed decisions in education, career exploration, and independent living. This handout will assist in the process.</p>
-  </div>
-
+  <h1>Project Launch</h1>
 </div>
 
 <div id="maincontent">
 
-	<div id="pagetoporange">
-	<div class="printemail">
-		<p>
-		<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
-		
-		</p>
-	</div>
-	<div id="breadcrumb">
-		<a href="../index.asp">Home</a> / <a href="../pandr/proglist.asp">Programs &amp; Resources</a> / 
-		
-		<h1>Project Launch</h1>
-		
-	</div>
-</div>
+<div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-
-<div id="pagecontent">
-
-    
-    
    <h3 style="font-size:larger"><em><img src="/transition/about/launch/images/woman-at-desk.jpg" width="400" height="290" alt="two young men" align="right" hspace="10" vspace="10"/>Your trusted source for information on career exploration, employment, and vocational rehabilitation for youth and young adults with disabilities</em></h3>
     <p>For transition-age youth and young adults with disabilities, success often depends on having the right services in place to support employment, education, and inclusion in the community. Fortunately, there are laws that help.</p>
     <p>The Individuals with Disabilities Education Act (IDEA), the Rehabilitation Act, the Workforce Investment Act, and the Americans with Disabilities Act (ADA) guarantee people with disabilities a free and appropriate education, ensure civil rights, and protect young adults from employment discrimination based on their disabilities.</p>
@@ -107,20 +56,32 @@ planning lead to positive and well-informed decisions in education, career explo
       <li>Advises employers and employees about accommodations and modifications on the job and at job training sites to help workers remain successfully employed</li>
       </ul>
       </td></tr></table>
+
+      <div>
+  <h2>Parent Center Partners</h2>
+  <p>Project Launch works in partnership with parent centers in:</p>
+  <ul>
+    <li>Indiana: <a href="http://insource.org" target="_blank">IN*Source</a></li>
+    <li>Kentucky: <a href="http://www.kyspin.com" target="_blank">KY-SPIN</a></li>
+    <li>Ohio: <a href="http://www.ocecd.org" target="_blank">OCECD</a></li>
+  </ul>
+  <hr />
+  <h2><a href="/parent/php/PHP-c233.pdf" target="_blank">Visiting College and University Campuses</a> <span class="fa fa-file-pdf-o" aria-hidden="true"></span></h2>
+  <p>Preparing  for  postsecondary  education  takes  careful  planning  on  the  part  of  the  student,  his  or  her  family, 
+school personnel, and college and university staff. For students thinking about furthering their education, one 
+step in planning and preparing for postsecondary life is by visiting college campuses. This PACER publication highlights some helpful activities for the visit.</p>
+<hr />
+<h2><a href="/parent/php/PHP-c244.pdf" target="_blank">Frequently asked questions about career exploration for youth with disabilities</a> <span class="fa fa-file-pdf-o" aria-hidden="true"></span></h2>
+<p>Career exploration is an important step in helping a student fulfill long-term employment goals. This handout will help with decision-making and information gathering concerning academic and career choices.</p>
+<hr />
+<h2><a href="/parent/php/PHP-c250.pdf" target="_blank">Transition Planning Tips for Linguistically and Culturally Diverse Youth with Disabilities</a> <span class="fa fa-file-pdf-o" aria-hidden="true"></span></h2>
+<p>Transition planning can be a challenging and complex task. It is important that the steps taken during transition
+planning lead to positive and well-informed decisions in education, career exploration, and independent living. This handout will assist in the process.</p>
+  </div>
           
      
         <p align="center"><em>Project Launch is funded by the U.S. Department of Education, Office of Special Education and Rehabilitation Services (OSERS) as per agreement, #H23F140021.</em></p>
 
-</div>
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
