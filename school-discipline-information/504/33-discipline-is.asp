@@ -5,7 +5,7 @@
 <title>PACER Center - School Discipline of Minnesota Students with Disabilities - Parent Information</title>
 
 <meta property="og:title" content="PACER Center - School Discipline of Minnesota Students with Disabilities - Parent Information" />
-<meta property="og:url" content="http://www.pacer.org/school-discipline-information/504/34-out-of-school.asp" />
+<meta property="og:url" content="http://www.pacer.org/school-discipline-information/504/33-discipline-is.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
