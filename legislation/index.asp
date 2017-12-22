@@ -1,12 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content=" Part of PACER Center’s commitment to children with disabilities includes ensuring that the state and federal laws protecting the rights of people with disabilities remain strong. PACER works in coalition with other disability organizations to support special education laws and other related legislation." />
+<meta name="description" content="Part of PACER Center’s commitment to children with disabilities includes ensuring that the state and federal laws protecting the rights of people with disabilities remain strong. PACER works in coalition with other disability organizations to support special education laws and other related legislation." />
+<title>Public Policy &amp; Legislation - PACER Center</title>
 
-<!-- for Facebook -->   
 <meta property="fb:app_id" content="271376943231875" />
 <meta property="og:title" content="Public Policy &amp; Legislation" />
 <meta property="og:type" content="article" />
@@ -14,19 +11,8 @@
 <meta property="og:url" content="http://www.pacer.org/legislation/" />
 <meta property="og:description" content=" Part of PACER Center’s commitment to children with disabilities includes ensuring that the state and federal laws protecting the rights of people with disabilities remain strong. PACER works in coalition with other disability organizations to support special education laws and other related legislation." />
 
-
-<title>Public Policy &amp; Legislation - PACER Center</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/stylenoleftright.css" />
 <link rel="stylesheet" href="/js/LayerSlider/layerslider/css/layerslider.css" type="text/css" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-  document.write(unescape("%3Cscript src='/js/jquery-1.7.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script src="/js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
 <script src="/js/LayerSlider/layerslider/jQuery/jquery-easing-1.3.js" type="text/javascript"></script>
 <script src="/js/LayerSlider/layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
@@ -56,34 +42,46 @@ $(document).ready(function(){
 		max-width: 100%;
 		background: white;
 	}
-	</style>
+
+#pagecontent .greenBar {
+	background:#246C00;
+	color:#fff;
+	padding:20px 10px;
+	margin-top:40px;
+	margin-left:-.8em;
+	margin-right:-.8em;
+}
+
+.resources {
+  background: none repeat scroll 0 0 #eee;
+  border: 1px solid #007299;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 5px;
+  width: 90%;
+}
+
+.fltrt{
+	float:right;
+	margin-right:5px;
+	margin-left:10px;	
+}
+
+.funded {
+	font-style: italic;
+}
+</style>
 </head>
+<body class="singleCol">
 
-<body>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
+<div id="topbar">
+<div id="breadcrumb">
 
-<div id="wrapper">
-
-<div id="main">
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-      <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-
-
-<div id="maincontent">
-<div id="pagetoporange">
 <div id="breadcrumb"><a href="/">Home</a> / <a href="/about/">About PACER</a> /
-	
-	<h1>PACER CENTER &mdash; Public Policy &amp; Legislation</h1>
 </div>
+	<h1>PACER CENTER &mdash; Public Policy &amp; Legislation</h1>
 </div>
 
  <%'----------------------------------- START LAYER SLIDER --------------------------------------' %>
@@ -113,11 +111,13 @@ $(document).ready(function(){
 
  </div>
  <%'---------------------------- END LAYER SLIDER ------------------------------------ '%>
-	
-<div id="pagecontent">
-<div class="singleColWrapper">
+
+<div id="maincontent">
+
+<div id="pagecontent" class="narrowContent">
+
 <!--BEGIN CONTENT-->
-	<h1>Our Commitment</h1>
+<h1>Our Commitment</h1>
 
 		<p>
 		Part of PACER Center&#8217;s commitment to children with disabilities includes ensuring that the state and federal laws protecting the rights of people with disabilities remain strong. PACER works in coalition with other disability organizations to support special education laws and other related legislation.
@@ -234,20 +234,5 @@ $(document).ready(function(){
   <p style="text-align: right;"><span class="funded" >This page paid for with private funds</span></p>
 
 
-
 <!--END CONTENT-->
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-	 </div>
-
-
-</div>
-</div>
-
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
