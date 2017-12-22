@@ -1,33 +1,63 @@
-<!--#include virtual="/templates/header.asp"-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
-<title> Peb pab tau li cas - PACER Center</title>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hmn" lang="hmn">
 
-<meta property="og:title" content="Peb pab tau li cas" />
-<meta property="og:url" content="http://www.pacer.org/translations/hmong.asp" />
-<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
-<meta property="og:description" content="" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Peb pab tau li cas</title>
+<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
 
-
+<script type="text/javascript" src="../css/menu.js"></script>
 </head>
-<body class="singleCol">
 
-<!--#include virtual="/templates/page-header-nav.asp"-->
-
-<div id="topbar">
-<div id="breadcrumb">
-
-<a href="/">Home</a> / <a href="index.asp">Translated Content</a> / Hmoob-Peb pab tau li cas
+<body>
+<div id="skiptocontent">
+<a href="#maincontent">Skip to main content</a>
 </div>
-	<h1>Peb pab tau li cas</h1>
+
+<div id="wrapper">
+
+<div id="main">
+
+<div id="header">
+	<div>			<!--#include virtual="/googleSearchBox.htm"-->
+            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
+<a href="../"><img src="../images/pacerLogoHmong.gif" alt="PACER Center: cov muaj yeej rau cov me nyuam muaj qhov tsis taus" class="logoImg" /></a>
+	</div>
+	<!--#include virtual="/dynamicheader.htm"-->
+</div>
+
+<div id="rightBar">
+
+
+<div class="rightsidebarpic">
+<img src="images/Hmong-Translation.jpg" width="250" height="368" alt="mother reading a book to her daughter" />
+</div>
 </div>
 
 <div id="maincontent">
 
-<div id="pagecontent" class="narrowContent">
+	<div id="pagetoporange">
+	<div class="printemail">
+		<p>
+		<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
+
+		</p>
+	</div>
+	<div id="breadcrumb">
+	<a href="../index.asp">Home</a> / <a href="index.asp">Translated Content</a> / Hmoob-Peb pab tau li cas
+
+	<h1>Peb pab tau li cas</h1>
+
+	</div>
 
 <!--BEGIN CONTENT-->
+
+</div>
+
+<div id="pagecontent">
 <div class="alertBox" style="text-align:center">
 <a href="hmongpubs.asp">See Hmong publications &gt;&gt;&gt;</a>
 </div>
@@ -64,6 +94,16 @@ Peb yuav nug koj yam puav thaum koj hu tuaj xwv peb thiaj li pom qab muab koj mu
 Txawm koj xav li ntawd los koj yeej hu tau rau peb! Koom haum PACER Center muaj cov kev pab tshaj 30 tawm qhov diam, ces kuj xam tau tias peb yuav muaj qhov kev pab raug raws li qhov koj xav. Koom haum PACER Center yeej muaj kev pab rau ntau hom tsev neeg thiab cov lis hauj lwm pib li cov ua nyob hauv zej zog, hauv xeev mus txog ntua rau cov ua nrog tseem fwv txhua txhua hnub.
 </p>
 
+</div>
 
 <!--END CONTENT-->
-<!--#include virtual="/templates/footer.asp"-->
+
+</div>
+</div>
+
+<!--#include virtual="/footer.htm"-->
+
+</div>
+
+</body>
+</html>

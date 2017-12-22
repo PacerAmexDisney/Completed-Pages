@@ -1,33 +1,76 @@
-<!--#include virtual="/templates/header.asp"-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="description" content="" />
-<title> espa�ol - PACER Center</title>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 
-<meta property="og:title" content="espa�ol" />
-<meta property="og:url" content="http://www.pacer.org/translations/spanish.asp" />
-<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
-<meta property="og:description" content="" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>espa�ol</title>
+<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen, projection" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 
-
+<script type="text/javascript" src="/css/menu.js"></script>
 </head>
-<body class="singleCol">
 
-<!--#include virtual="/templates/page-header-nav.asp"-->
-
-<div id="topbar">
-<div id="breadcrumb">
-
-<a href="/index.asp">Home</a> / <a href="index.asp">Translated Content</a> / Espa�ol
+<body>
+<div id="skiptocontent">
+<a href="#maincontent">Skip to main content</a>
 </div>
-	<h1>espa�ol</h1>
+
+<div id="wrapper">
+
+<div id="main">
+
+<div id="header">
+	<div>			<!--#include virtual="/googleSearchBox.htm"-->
+            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
+<a href="/"><img src="/images/pacerLogoSpanish.gif" alt="PACER Center: campeones de ni�os con discapacidades" class="logoImg" /></a>
+	</div>
+	<!--#include virtual="/dynamicheader.htm"-->
+</div>
+
+<div id="rightBar">
+
+<p class="pacerinfo">
+<strong>PACER Center<br />
+952-838-9000</strong>
+</p>
+<p class="pacerinfo2">
+Campeones de ni�os con discapacidades
+</p>
+<p class="pacerinfo3">
+<a href="spanish.asp">Learn more &gt;&gt;&gt;</a>
+</p>
+
+<div class="rightsidebarpic">
+<img src="images/spanishpage.jpg" width="250" height="166" alt="mother, father, and two children smiling" /><br />
+</div>
 </div>
 
 <div id="maincontent">
 
-<div id="pagecontent" class="narrowContent">
+	<div id="pagetoporange">
+
+	<div id="breadcrumb">
+	<a href="/index.asp">Home</a> / <a href="index.asp">Translated Content</a> / Espa�ol
+
+	<h1>espa�ol</h1>
+
+</div>
 
 <!--BEGIN CONTENT-->
+
+<%
+Dim ConStr, rs, conn, sql, i
+
+ConStr = "Provider=SQLOLEDB.1;Data Source=PACER2; Initial Catalog=PACER_WEB;Network=DBMSSOCN; User Id=test;Password=test"
+Set conn = Server.CreateObject("ADODB.Connection")
+conn.open ConStr
+%>
+
+</div>
+
+<div id="pagecontent">
 <div class="alertBox" style="width:30em; text-align:center; font-size:1.05em">
 <a href="/publications/spanish.asp">Click Here to view these publications with english titles</a>
 </div>
@@ -853,5 +896,16 @@ Written in the child's voice, engaging booklets with focus on development.
 
 
 <div id="pageextender" style="clear:both">&nbsp;</div>
+</div>
+
 <!--END CONTENT-->
-<!--#include virtual="/templates/footer.asp"-->
+
+</div>
+</div>
+
+<!--#include virtual="/footer.htm"-->
+
+</div>
+
+</body>
+</html>
