@@ -77,13 +77,11 @@ $(document).ready(function(){
 <!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
-<div id="breadcrumb">
 
 <div id="breadcrumb"><a href="/">Home</a> / <a href="/about/">About PACER</a> /
 </div>
 	<h1>PACER CENTER &mdash; Public Policy &amp; Legislation</h1>
 </div>
-
  <%'----------------------------------- START LAYER SLIDER --------------------------------------' %>
  <div id="layerslider" class="loading">
   <div class="ls-layer" rel="slidedirection: top;">
@@ -153,7 +151,7 @@ $(document).ready(function(){
 
 <%End If%>	
  
- <div class="resources fltrt" style="width: 20em; margin-right: -16px;">
+ <div class="resources fltrt mobileCentered" style="width: 20em;">
 			<h3 class="centered">Print Version</h3>
     <ul>
 			<li class="pdficonlist"><a href="/legislation/PACERLegislativePriorities.pdf" target="_blank">PACER State Legislative Priorities</a></li>
@@ -226,7 +224,7 @@ $(document).ready(function(){
 
 <h3>Video: Working for Change Using the Power of Personal Story</h3>
   <p>When parents try to improve services for all children with  disabilities, not just their own child,&mdash;this is called advocating for  systems change. This webinar will explain how parents of children with  disabilities can help change systems by telling their own personal  stories. By sharing a personal story with the right people, parents can  help improve services and supports for children with disabilities and  their families.</p>
-  <p class="centered"><a href="/webinars/?webinar_id=51"><img src="/legislation/images/working-for-chang-thumb.jpg" alt="Working for Change Using the Power of the Personal Story." width="455" height="263" border="0"/></a></p>
+  <p class="centered"><a href="/webinars/?webinar_id=51"><img style="max-width: 90%; height: auto; margin: 10px auto;" src="/legislation/images/working-for-chang-thumb.jpg" alt="Working for Change Using the Power of the Personal Story." width="455" height="263" border="0"/></a></p>
   
   
   
