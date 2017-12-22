@@ -1,10 +1,20 @@
 <!--#include virtual="/templates/header.asp"-->
 
+
+<%
+Dim ConStr, rs, conn, sql, i
+
+ConStr = "Provider=SQLOLEDB.1;Data Source=PACER2; Initial Catalog=PACER_WEB;Network=DBMSSOCN; User Id=test;Password=test"
+Set conn = Server.CreateObject("ADODB.Connection")
+conn.open ConStr
+%>
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
-<title> espa�ol - PACER Center</title>
+<title> espanol - PACER Center</title>
 
-<meta property="og:title" content="espa�ol" />
+<meta property="og:title" content="español" />
 <meta property="og:url" content="http://www.pacer.org/translations/spanish.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
@@ -18,9 +28,9 @@
 <div id="topbar">
 <div id="breadcrumb">
 
-<a href="/index.asp">Home</a> / <a href="index.asp">Translated Content</a> / Espa�ol
+<a href="/index.asp">Home</a> / <a href="index.asp">Translated Content</a> / Español
 </div>
-	<h1>espa�ol</h1>
+	<h1>Español</h1>
 </div>
 
 <div id="maincontent">
@@ -31,7 +41,6 @@
 <div class="alertBox" style="width:30em; text-align:center; font-size:1.05em">
 <a href="/publications/spanish.asp">Click Here to view these publications with english titles</a>
 </div>
-<h2 class="nounderline"><a name="maincontent">publicaciones en espa�ol</a></h2>
 
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'book' ORDER BY pub_name_translated"
@@ -357,7 +366,7 @@
 		else
 		%>
 
-		<table class="handouts">
+		<table class="handouts" cellpadding="10">
 
 		<%
 		rs.movefirst

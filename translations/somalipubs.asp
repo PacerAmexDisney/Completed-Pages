@@ -1,5 +1,15 @@
 <!--#include virtual="/templates/header.asp"-->
 
+
+<%
+Dim ConStr, rs, conn, sql, i
+
+ConStr = "Provider=SQLOLEDB.1;Data Source=PACER2; Initial Catalog=PACER_WEB;Network=DBMSSOCN; User Id=test;Password=test"
+Set conn = Server.CreateObject("ADODB.Connection")
+conn.open ConStr
+%>
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
 <title> Soomaliga - PACER Center</title>
@@ -28,11 +38,9 @@
 <div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-<div class="alertBox" style="width:30em; text-align:center; font-size:1.05em">
+<div class="alertBox" style="width:30em; max-width: 90%; text-align:center; font-size:1.05em">
 <a href="/publications/somali.asp">Click Here to view these publications with english titles</a>
 </div>
-
-<h2 class="nounderline"><a name="maincontent">Soomaliga</a></h2>
 
 <p>
 Ururka PACER waxa uu bixiya tababar (workshop), waxqabad ama taageero gaar ahaaneed iyo qoraalo la fasilay oo ku saabsan dhibaatooyinka ay la kulmaan qoysaska ka socda meelaha kala gadisan. qoraalada hoos ku qoran waa kuwo ka mid ah qoraalda lagu turjumay afka Soomaliga.
@@ -277,7 +285,7 @@ Ururka PACER waxa uu bixiya tababar (workshop), waxqabad ama taageero gaar ahaan
 		else
 		%>
 
-		<table class="handouts">
+		<table class="handouts" cellpadding="10">
 
 		<%
 		rs.movefirst

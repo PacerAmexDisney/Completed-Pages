@@ -1,5 +1,15 @@
 <!--#include virtual="/templates/header.asp"-->
 
+
+<%
+Dim ConStr, rs, conn, sql, i
+
+ConStr = "Provider=SQLOLEDB.1;Data Source=PACER2; Initial Catalog=PACER_WEB;Network=DBMSSOCN; User Id=test;Password=test"
+Set conn = Server.CreateObject("ADODB.Connection")
+conn.open ConStr
+%>
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
 <title> Translated Content: Hmoob - PACER Center</title>
@@ -28,7 +38,7 @@
 <div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-<div class="alertBox" style="width:30em; text-align:center; font-size:1.05em">
+<div class="alertBox" style="width:30em; max-width: 90%; text-align:center; font-size:1.05em">
 <a href="/publications/hmongseasian.asp">Click Here to view these publications with english titles</a>
 </div>
 
@@ -433,7 +443,7 @@ Koom haum PACER Center muaj kev tham qhia hais txog niam txiv txoj kev txhawb nq
 		else
 		%>
 
-		<table class="handouts">
+		<table class="handouts" cellpadding="10">
 
 		<%
 		rs.movefirst

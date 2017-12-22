@@ -28,7 +28,7 @@
 <div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-<div class=" alertBox" style="text-align:center;">
+<div class="alertBox mobileCentered" style="text-align:center;">
 <a href="somalipubs.asp">See Somali publications &gt;&gt;&gt;</a>
 </div>
 <h2 class="nounderline"><a name="maincontent">Habka Waalidka aan U caawino</a></h2>

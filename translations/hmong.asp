@@ -28,7 +28,7 @@
 <div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-<div class="alertBox" style="text-align:center">
+<div class="alertBox mobileCentered" style="text-align:center">
 <a href="hmongpubs.asp">See Hmong publications &gt;&gt;&gt;</a>
 </div>
 <h2 class="nounderline"><a name="maincontent">Peb pab tau li cas</a></h2>
