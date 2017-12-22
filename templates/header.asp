@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="/css/pacer-style.css" />
 <link rel="stylesheet" type="text/css" href="/css/parent-responsive-v1.03.min.css" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
 <script type="text/javascript">
 if (typeof jQuery == 'undefined')
 {

@@ -4,8 +4,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>PACER Center - School Discipline of Minnesota Students with Disabilities - Parent Information</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" media="screen, projection" />
+<meta property="og:title" content="PACER Center - School Discipline of Minnesota Students with Disabilities - Parent Information" />
+<meta property="og:url" content="http://www.pacer.org/school-discipline-information/None/62-refused-spec-ed.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide.css"/>
 <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide-print.css" media="print" />
@@ -14,22 +17,19 @@
 <script type="text/javascript" src="/school-discipline-information/school-discipline-guide.js"></script>
 </head>
 
-<body>
-<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>
-<div id="wrapper">
-  <div id="main">
-  <div id="header">
-  <div> <!--#include virtual="/googleSearchBox.htm"--> 
-  <!-- Contains Contact Pacer | Donate | Google search bar | Social media --> 
-  <a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a> </div>
-  <!--#include virtual="/dynamicheader.htm"--> 
-  </div>
+<body class="singleCol">
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
   <div id="topbar">
   <h1>School Discipline of Minnesota Students with Disabilities - Parent Information</h1>
   </div>
-  <div id="contentwrapper">  <div id="toc"> 
-  <!--#include virtual="/school-discipline-information/toc.html" --> 
-</div>
+
+  <div id="maincontent">
+
+  <div id="pagecontent" class="narrowContent">
+  <div id="contentwrapper">  <div id="toc">
+  <!--#include virtual="/school-discipline-information/toc.html" -->
+  </div>
   <div id="discipline-content" class="cat-none">
   <div id="hideToc"></div>
   <div id="showToc"></div>
@@ -43,7 +43,7 @@
 <div id="sectionCarryOver">
   <h3>Before this incident:</h3>
   <p>I refused special education services. </p>
-</div>  
+</div>
 <h2>Response:</h2>
 <p>Your  child may be treated like any child without a disability for disciplinary  purposes.<sup class="statute">1</sup></p>
 <p class="tip">Tip: You may wish to make  a written request for an evaluation for special education services. If you make  such a request, your child will remain in the disciplinary setting (suspension,  <span class="def" id="expulsion">expulsion*</span>, or alternative placement) pending the results of an expedited  evaluation,<sup class="statute">2</sup> which must be completed in fewer than 30 school days from receipt of your  written consent for the evaluation. If your child’s placement in the  disciplinary setting ends before the evaluation is completed, your child will  return to his or her prior placement while the evaluation is completed.</p>
@@ -55,12 +55,12 @@
 
 <div id="statutes">
   <h3>Statutes</h3>
-  
+
   <ol><li><a href="http://www.gpo.gov/fdsys/search/pagedetails.action?browsePath=Title+34%2FSubtitle+B%2FChapter+III%2FPart+300%2FSubpart+E%2FHeading+244%2FSection+300.534&granuleId=CFR-2010-title34-vol2-sec300-534&packageId=CFR-2010-title34-vol2&collapse=true&fromBrowse=true" target="_blank">34  C.F.R. 300.534</a>(c)  </li>
   <li><a href="http://www.gpo.gov/fdsys/search/pagedetails.action?browsePath=Title+34%2FSubtitle+B%2FChapter+III%2FPart+300%2FSubpart+E%2FHeading+244%2FSection+300.534&granuleId=CFR-2010-title34-vol2-sec300-534&packageId=CFR-2010-title34-vol2&collapse=true&fromBrowse=true" target="_blank">34  C.F.R. 300.534</a>(d)(2) </li>
   </ol>
-  
- 
+
+
   </div>
 
 <br clear="all" />
@@ -71,7 +71,8 @@
   </div>
   <!--Close Content Wrapper--></div>
   <!--Close Main--></div>  <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
-  <!--#include virtual="/footer.htm"--> 
+  <!--#include virtual="/footer.htm"-->
+  <!--#include virtual="/templates/footer.asp"-->
 <!--Close Wrapper--></div>
 </body>
 </html>

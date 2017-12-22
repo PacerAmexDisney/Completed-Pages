@@ -1,79 +1,46 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Press Releases - 8/30/2016</title>
+<meta property="og:title" content="Press Releases - 8/30/2016" />
+<meta property="og:url" content="http://www.pacer.org/about/releases/2016/nr20160830-01.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Press Releases -</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
-<style type="text/css">
-h1{text-transform:none;}
-</style>
+<link rel="stylesheet" type="text/css" href="/css/flexbox-responsive-min.css" />
+
+
 </head>
 
-<body>
-<div id="skiptocontent">
-<a href="#pagecontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-<div class="stayinformed">
-<h2>Stay Informed</h2>
-Receive the latest PACER Center information on issues important to you. 
-<a href="/forms/index.asp">Sign up now</a>.
-</div>
-</div>
+<body class="singleCol">
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="maincontent">
 
 	<div id="pagetoporange">
-	
+
 	<div id="breadcrumb">
 		<a href="/">Home</a> / <a href="/about/">About PACER</a> / <a href="/about/pressroom.asp">Pressroom</a> /
 <h1>Press Release</h1>
-		
+
 	</div>
 </div>
 
-<div id="pagecontent">
+<div id="pagecontent" class="narrowContent">
 <!--BEGIN CONTENT-->
 
 <p>August 30, 2016<br /><strong>FOR IMMEDIATE RELEASE</strong></p>
 
-<table cellpadding="5" cellspacing="0" width="100%">
- <tr><td>
-  Contact: Lyn Famiglietti<br />
-  <a href="mailto:lfamiglietti@customink.com">lfamiglietti@customink.com</a><a href="mailto:julie.holmquist@PACER.org"></a><br />
-  703-991-8685</td><td>
-Contact:  Colton Moore<br />
-<a href="mailto:colton.moore@coburnww.com">colton.moore@coburnww.com</a><br />
-212-536-9838</td></tr></table>
-
+<div class="flex">
+	<div class="flexItem">
+  	Contact: Lyn Famiglietti <a href="mailto:lfamiglietti@customink.com">lfamiglietti@customink.com</a><a href="mailto:julie.holmquist@PACER.org"></a><br />
+    703-991-8685
+  </div>
+  <div class="flexItem">
+		Contact:  Colton Moore <a href="mailto:colton.moore@coburnww.com">colton.moore@coburnww.com</a><br />
+    212-536-9838
+  </div>
+</div>
 
 <h1 align="center">CUSTOMINK KICKS OFF ITS 6TH ANNUAL &ldquo;BE GOOD TO EACH OTHER&rdquo; BULLYING PREVENTION CAMPAIGN WITH CHARLIE PUTH</h1>
 <p align="center"><em>Notable Personalities Partner with CustomInk to Create Custom T-shirts in Support of PACER&rsquo;s National Bullying Prevention Center</em></p>
@@ -93,14 +60,4 @@ Contact:  Colton Moore<br />
 </strong>Every day, 160,000 kids in America stay home from school to avoid being bullied. <a href="http://www.PACER.org/bullying">PACER&rsquo;s National Bullying Prevention Center</a> educates communities nationwide to prevent bullying through the use of creative, interactive resources including the websites <a href="http://www.pacerteensagainstbullying.org/">TeensAgainstBullying.org</a> and <a href="http://www.pacerkidsagainstbullying.org/">KidsAgainstBullying.org</a>. Based in Minneapolis, PACER offers educators, students, families, and individuals the tools they need to address bullying in schools, recreational programs, and community organizations. For more information, visit <a href="http://www.pacer.org/bullying">PACER.org/bullying</a>.</p>
 <p align="center" style="padding:30px;">-30-
 </p>
-</div>
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

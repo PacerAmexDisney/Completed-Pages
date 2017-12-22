@@ -1,30 +1,30 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Social Security/Ticket to Work - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="Supplemental Security Income (SSI) is a program of the Social Security Administration. It provides monthly benefits to individuals with disabilities who have limited income and resources. SSI provides eligible individuals with a monthly check, and access to services such as food stamps and Medicaid. SSI can be a valuable resource to transition-aged students.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Social Security/Ticket to Work - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/benefits/social-security.asp" />
 <meta property="og:description" content="Supplemental Security Income (SSI) is a program of the Social Security Administration. It provides monthly benefits to individuals with disabilities who have limited income and resources. SSI provides eligible individuals with a monthly check, and access to services such as food stamps and Medicaid. SSI can be a valuable resource to transition-aged students." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+
+<style>
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+
+
+</style>
 </head>
 
 <body class="twocol">
@@ -32,15 +32,19 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
-<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/benefits/">Benefit Programs & Supports</a></div>
+
+<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/benefits/">Benefit Programs & Supports</a>
+
+    	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
+
+</div>
 
   <div class="sidebar1">
 <!--#include virtual="/transition/learning-center/nav.html"-->
-    <!-- end .sidebar1 --></div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+    </div>
     <script type="text/javascript">
 	// ID and SubId to be Orange
 	var currId="benefits-socialsecurity";
@@ -60,11 +64,9 @@ if (typeof jQuery == 'undefined')
 </script> 
 
   <div class="content">
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
-    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
     <h1 id="maincontent">Social Security/Ticket to Work</h1>
 
-    <div class="alertBox">
+    <div class="alertBox mobileCentered">
 <p style="text-align: center; padding: 0; margin: 0;">
 <a href="http://www.ncset.org/publications/viewdesc.asp?id=937">
 <img src="/transition/learning-center/benefits/images/manatdesk.jpg" width="200" height="223" alt=""/></a>
@@ -164,9 +166,7 @@ Service providers, called Employment Networks, work with Social Security and SSI
     An excellent site created by the Social Security Administration. It contains a wealth of information on work and work incentives with specific sections for youth with disabilities, adults with disabilities, employers, service providers, and advocates. </li>
 </ul>
 </div>
-  <!-- end .content --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+
+
+<!--#include virtual="/transition/templates/footer.asp"-->

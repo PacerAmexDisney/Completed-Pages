@@ -1,32 +1,51 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Americans with Disabilities Act - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="The Americans with Disabilities Act (ADA) is the most comprehensive federal civil rights statute protecting the rights of people with disabilities. It affects access to employment; state and local government programs and services; access to places of public accommodation such as businesses, transportation, and nonprofit service providers; and telecommunications.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Americans with Disabilities Act - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/laws/ada.asp" />
 <meta property="og:description" content="The Americans with Disabilities Act (ADA) is the most comprehensive federal civil rights statute protecting the rights of people with disabilities. It affects access to employment; state and local government programs and services; access to places of public accommodation such as businesses, transportation, and nonprofit service providers; and telecommunications." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+<style>
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+@media (max-width: 600px) {
+  .qatable {
+    padding: 0;
+  }
+  .qatable p {
+    padding-left:0px;
+  }
+  .qatable td:first-child {
+    width:90%;
+    border-bottom: 1px dotted #aaa;
+  }
+  .qatable td {
+    display:block;
+    width:90%;
+    padding: 10px 20px 0 20px;
+  }
+  .qatable tr {
+    display:block;
+  }
+  
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -34,12 +53,13 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
-<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/laws/">Laws and Rights</a>  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
-    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
+<div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/laws/">Laws and Rights</a>
 </div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+    <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
+
 
   <div class="sidebar1">
 <!--#include virtual="/transition/learning-center/nav.html"-->
@@ -134,10 +154,8 @@ if (typeof jQuery == 'undefined')
   <li><a href="http://www.ada.gov/index.html">ADA.Gov - Information from the U.S. Department of Justice <i class="fa fa-external-link"></i></a></li>
   <li><a href="http://adata.org/">ADA National Network <i class="fa fa-external-link"></i></a> - Information, Guidance, and Technical Assistance on the Americans with Disabilities Act</li>
   </ul>
-<br class="clearfloat" />
-  <!-- end .content --></li></ul></div></div>
+</div>
 
-  <!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+
+<!--#include virtual="/transition/templates/footer.asp"-->

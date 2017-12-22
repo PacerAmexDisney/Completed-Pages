@@ -12,11 +12,13 @@
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide.css"/>
 <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide-print.css" media="print" />
-<script type="text/javascript" src="/js/jquery.simplemodal.1.4.2.min.js"></script>
+
 <script type="text/javascript" src="/school-discipline-information/school-discipline-guide.js"></script>
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+          rel = "stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 
 </head>
-
 <body class="singleCol">
 
 <!--#include virtual="/templates/page-header-nav.asp"-->
@@ -29,12 +31,14 @@
 
 <div id="pagecontent" class="narrowContent">
 
+
 <div id="contentwrapper">  <div id="toc">
   <!--#include virtual="/school-discipline-information/toc.html" -->
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>
   <div id="showToc"></div>
+  <div id="rightContent">
   <img id="top-right-image" src="/school-discipline-information/images/disability-guide.jpg" width="500" height="75" alt="" />
   <div id="top-section">
   <h1 id="contentheader">My Child Is on a Section 504 Plan</h1>
@@ -60,7 +64,9 @@
   <!-- ############################### END CONTENT #################################### -->
   <!--Close Content--></div>
   <!--Close Content Wrapper--></div>
-   <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
 
+  <!--Close Main--></div>  <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
 
+<!--Close Wrapper--></div>
+<div id="subDiv"></div>
 <!--#include virtual="/templates/footer.asp"-->

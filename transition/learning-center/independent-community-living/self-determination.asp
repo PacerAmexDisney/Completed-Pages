@@ -1,30 +1,20 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Self Determination - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="Self determination is believing you can control your own destiny. Self-determination is a combination of attitudes and abilities that lead people to set goals for themselves, and to take the initiative to reach these goals. It is about being in charge, but is not necessarily the same thing as self-sufficiency or independence. It means making your own choices, learning to effectively solve problems, and taking control and responsibility for one&rsquo;s life.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Self Determination - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/independent-community-living/self-determination.asp" />
 <meta property="og:description" content="Self determination is believing you can control your own destiny. Self-determination is a combination of attitudes and abilities that lead people to set goals for themselves, and to take the initiative to reach these goals. It is about being in charge, but is not necessarily the same thing as self-sufficiency or independence. It means making your own choices, learning to effectively solve problems, and taking control and responsibility for one&rsquo;s life." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 <!--#include virtual="/transition/dynamic-head-items.html"-->
+
 </head>
 
 <body class="twocol">
@@ -32,8 +22,7 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/independent-community-living/">Independent &amp; Community Living</a></div>
 
@@ -64,7 +53,15 @@ if (typeof jQuery == 'undefined')
     <div class="addthis_sharing_toolbox"></div><div class="sharethis" style="float:right; width:3em;">Share:</div>
     <h1 id="maincontent">Self Determination</h1>
 
-    <div class="alertBox">
+    
+
+
+<h3>What is Self-Determination?</h3>
+<p>
+Self determination is believing you can control your own destiny. Self-determination is a combination of attitudes and abilities that lead people to set goals for themselves, and to take the initiative to reach these goals. It is about being in charge, but is not necessarily the same thing as self-sufficiency or independence. It means making your own choices, learning to effectively solve problems, and taking control and responsibility for one's life. Practicing self-determination also means one experiences the consequences of making choices. 
+</p>
+
+<div class="alertBox mobileCentered">
 		<div class="centered"><img border="0" src="/transition/images/smilingteen.jpg" width="200" height="134" alt="teen boy smiling" /></a></div>
       <h3>Additional Reading</h3>
         <ul>
@@ -77,12 +74,8 @@ way to be served. Self-advocacy is asking for what you need
 in a direct, respectful manner.</p>
         </ul>
 	</div>
+	
 
-
-<h3>What is Self-Determination?</h3>
-<p>
-Self determination is believing you can control your own destiny. Self-determination is a combination of attitudes and abilities that lead people to set goals for themselves, and to take the initiative to reach these goals. It is about being in charge, but is not necessarily the same thing as self-sufficiency or independence. It means making your own choices, learning to effectively solve problems, and taking control and responsibility for one's life. Practicing self-determination also means one experiences the consequences of making choices. 
-</p>
 <h3>Developing Self-Determination Skills</h3>
 <p>
 The development of self-determination skills is a process that begins in childhood and continues throughout one's life. Self-determination is important for all people, but it is especially important, and often more difficult to learn, for young people with disabilities. Well-meaning individuals sometimes "protect" children with disabilities by making all their decisions for them. Also, sometimes people assume that people with disabilities can't think for themselves. 
@@ -93,6 +86,8 @@ Self-determination involves many attitudes and abilities including: self-awarene
 <p>
 Since self-determination skills are most effectively learned and developed by practicing them, students with disabilities should be given ample opportunity to use their self-advocacy, decision-making and socialization skills well before they leave high school to prepare themselves for working and living in their community. 
 </p>
+
+
 
 <h3>Mentoring</h3>
 <p>
@@ -142,9 +137,6 @@ For permission to reprint, please fill out and submit PACER's
 <a href="../../../forms/request.asp" target="_blank">reprint request form</a>.
 </p>
 
-  <!-- end .content --></div>
   
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+<!--#include virtual="/transition/templates/footer.asp"-->

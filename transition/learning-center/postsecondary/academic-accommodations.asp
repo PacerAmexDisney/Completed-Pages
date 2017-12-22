@@ -1,37 +1,21 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Understanding Academic Accommodations - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="Colleges are not responsible for making sure students with disabilities are successful academically, just that they have access to the same educational opportunities as every other student. College students with disabilities often use academic accommodations so they can do the same course work as their peers. Parents and youth should seek to understand the accommodations process and what accommodations work best for each individual student.">
 <!-- for Facebook -->          
 <meta property="og:title" content="Understanding Academic Accommodations - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/postsecondary/academic-accommodations.asp" />
 <meta property="og:description" content="Colleges are not responsible for making sure students with disabilities are successful academically, just that they have access to the same educational opportunities as every other student. College students with disabilities often use academic accommodations so they can do the same course work as their peers. Parents and youth should seek to understand the accommodations process and what accommodations work best for each individual student." />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 <link rel="stylesheet" type="text/css" href="/js/colorbox1.5.9/colorbox.css">
@@ -57,12 +41,24 @@ if (typeof jQuery == 'undefined')
 			}
 		});
 		//Initialize Colorbox
-		$(".videoPopUp").colorbox({iframe:true, innerWidth:960, innerHeight:585});
+		var winWidth = $(window).width();
+		var cbOpt = {iframe:true, innerWidth:960, innerHeight:585};
+		if (winWidth < 1000) {
+		  cbOpt.innerWidth = winWidth - 50;
+		  cbOpt.innerHeight = cbOpt.innerWidth * 585 / 960.0;
+		}
+		$(".videoPopUp").colorbox(cbOpt);
 	});
 </script>
 
 
-<!--#include virtual="/transition/dynamic-head-items.html"-->
+<style>
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -70,8 +66,7 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/postsecondary/">Postsecondary Education</a></div>
 
@@ -104,20 +99,21 @@ if (typeof jQuery == 'undefined')
     <p>Colleges are not responsible for making sure students with disabilities are successful academically, just that they have access to the same educational opportunities as every other student. College students with disabilities often use academic accommodations so they can do the same course work as their peers. Parents and youth should seek to understand the accommodations process and what accommodations work best for each individual student. </p>
 
   <h2>Videos</h2>
-<table width="765">
-    <tr><td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=jYmfrrY4Hfk"><img src="/transition/video/images/at-in-action-sam.jpg" width="145" height="146" alt=""/><br />
-<i class="fa fa-play"></i> Assistive Technology in Action: Meet Sam</a></p></td>
-    <td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=yIlkNuCGw1w"><img src="/transition/video/images/technology-for-college-level-reading.jpg" width="145" height="147" alt=""/><br />
-<i class="fa fa-play"></i> No Barriers - Technology for College-Level Reading</a></p></td>
-    <td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=qb7jBbp-EXE"><img src="/transition/video/images/transitioning-to-college.jpg" width="145" height="146" alt=""/><br />
-<i class="fa fa-play"></i> Transitioning to College with a Disability</a></p></td>
+  
+  <p><a class='videoPopUp' href="https://www.youtube.com/watch?v=jYmfrrY4Hfk"><img src="/transition/video/images/at-in-action-sam.jpg" width="145" height="146" alt=""/><br />
+<i class="fa fa-play"></i> Assistive Technology in Action: Meet Sam</a></p>
+  
+  <p><a class='videoPopUp' href="https://www.youtube.com/watch?v=yIlkNuCGw1w"><img src="/transition/video/images/technology-for-college-level-reading.jpg" width="145" height="147" alt=""/><br />
+<i class="fa fa-play"></i> No Barriers - Technology for College-Level Reading</a></p>
 
-<td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=DnJF_BrQzBg"><img src="/transition/video/images/disability-resources-student-perspective.jpg" width="145" height="146" alt=""/><br />
-<i class="fa fa-play"></i> Disability Resources: A Student Perspective</a></p></td>
+  <p><a class='videoPopUp' href="https://www.youtube.com/watch?v=qb7jBbp-EXE"><img src="/transition/video/images/transitioning-to-college.jpg" width="145" height="146" alt=""/><br />
+<i class="fa fa-play"></i> Transitioning to College with a Disability</a></p>
 
+  <p><a class='videoPopUp' href="https://www.youtube.com/watch?v=DnJF_BrQzBg"><img src="/transition/video/images/disability-resources-student-perspective.jpg" width="145" height="146" alt=""/><br />
+<i class="fa fa-play"></i> Disability Resources: A Student Perspective</a></p>
 
-    </tr></table>
-    <p>For more videos on this topic,  visit our <a href="/transition/video/index.asp" target="_blank">Videos page</a>.</p>
+  <p><br />For more videos on this topic,  visit our <a href="/transition/video/index.asp" target="_blank">Videos page</a>.</p>
+
 
 <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
 <br class="clearfloat" />
@@ -137,9 +133,6 @@ if (typeof jQuery == 'undefined')
 
 
 
-  <!-- end .content --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+
+
+<!--#include virtual="/transition/templates/footer.asp"-->

@@ -1,67 +1,61 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Parent Leadership in Special Education - Parent Keys to Success In the Parent-School Partnership - PACER Center</title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Parent Keys to Success In the Parent-School Partnership</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
+<meta property="og:title" content="Parent Leadership in Special Education - Parent Keys to Success In the Parent-School Partnership" />
+<meta property="og:url" content="http://www.pacer.org/leadership/handouts/keytosuccess.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
-
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
 
-<div id="wrapper">
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-      <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
 <div id="topbar">
-  <div id="breadcrumb">
+<div id="breadcrumb">
 
-	<a href="/">Home</a> / <a href="/pandr/">Programs</a> / <a href="../">Parent Leadership in Special Education</a> / <a href="../resources.asp">Resources</a> /
-
-<h1>Parent Leadership in Special Education</h1>
+<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / <a href="../">Parent Leadership in Special Education</a> / <a href="../resources.asp">Resources</a> /
+</div>
+	<h1>Parent Leadership in Special Education</h1>
 
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="resources-keystosuccess";
+	// current subtree that should be displayed
+	var showTree = "resources-sub";
+	var showTree2 = "none";
+</script>
 
 <div id="leftbar">
-<!--#include virtual="/leadership/nav.html"-->
+<!--#include virtual="/leadership/nav.html" -->
 </div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="resources-keystosuccess";
-	// any Subtree that I want to Display
-	var showTree = "resources-sub";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
 	}
 </script>
+
 <div id="maincontent">
 
 <div id="pagecontent">
 
+<!--BEGIN CONTENT-->
 <div class="alertBox">
 <h3>Print Version</h3>
 <ul>
@@ -169,17 +163,5 @@ In the parent-school partnership, there is little opportunity for choice in the 
 While working in partnership may be challenging, it can also be rewarding. Partners gain new perspectives and may learn new skills. Through mutual cooperation and the sharing of responsibilities, the parent-school partnership can accomplish its ultimate goal of enabling your child to succeed in learning and in life.
 </p>
 
-
-</div>
-
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

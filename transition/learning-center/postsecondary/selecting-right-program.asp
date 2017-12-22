@@ -1,37 +1,20 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/transition/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Selecting the Right Postsecondary Program - National Parent Center on Transition and Employment</title>
 
 <meta name="description" content="Education or training after high school is a great opportunity for youth to explore programs that meet their interests and that help them build skills for future employment. It is crucial that youth and families inform themselves about the many different types of programs and areas of study that are available, and which ones might be the best fit. ">
 <!-- for Facebook -->          
 <meta property="og:title" content="Preparing for Postsecondary Education - National Parent Center on Transition and Employment" />
-<meta property="og:type" content="article" />
 <meta property="og:image" content="http://www.pacer.org/transition/images/npcteLogo-fb.png" />
 <meta property="og:url" content="http://www.pacer.org/transition/learning-center/postsecondary/selecting-right-program.asp" />
 <meta property="og:description" content="Education or training after high school is a great opportunity for youth to explore programs that meet their interests and that help them build skills for future employment. It is crucial that youth and families inform themselves about the many different types of programs and areas of study that are available, and which ones might be the best fit. " />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/transition/learning-center/js/like.js"></script>
 
 <link rel="icon" href="http://www.pacer.org/transition/favicon.ico" />
-<link href="/transition/css/style.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 <link rel="stylesheet" type="text/css" href="/js/colorbox1.5.9/colorbox.css">
@@ -57,12 +40,24 @@ if (typeof jQuery == 'undefined')
 			}
 		});
 		//Initialize Colorbox
-		$(".videoPopUp").colorbox({iframe:true, innerWidth:960, innerHeight:585});
+		var winWidth = $(window).width();
+		var cbOpt = {iframe:true, innerWidth:960, innerHeight:585};
+		if (winWidth < 1000) {
+		  cbOpt.innerWidth = winWidth - 50;
+		  cbOpt.innerHeight = cbOpt.innerWidth * 585 / 960.0;
+		}
+		$(".videoPopUp").colorbox(cbOpt);
 	});
 </script>
 
 
-<!--#include virtual="/transition/dynamic-head-items.html"-->
+<style>
+@media (max-width: 750px) {
+  .addthis_sharing_toolbox, .sharethis {
+	  padding-top: 30px;
+  }
+}
+</style>
 </head>
 
 <body class="twocol">
@@ -70,8 +65,8 @@ if (typeof jQuery == 'undefined')
 <div class="container">
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<!--#include virtual="/transition/dynamic-header.html"-->
-<!--#include virtual="/transition/topnav.html"-->
+<!--#include virtual="/transition/templates/page-header-nav.asp"-->
+
 
 <div class="breadcrumb"> <a href="/transition/">Home</a> / <a href="/transition/learning-center/">Learning Center</a> / <a href="/transition/learning-center/postsecondary/">Postsecondary Education</a></div>
 
@@ -104,18 +99,16 @@ if (typeof jQuery == 'undefined')
     <p>Education or training after high school is a great opportunity for youth to explore programs that meet their interests and that help them build skills for future employment. It is crucial that youth and families inform themselves about the many different types of programs and areas of study that are available, and which ones might be the best fit. </p>
 
   <h2>Videos</h2>
-<table width="765">
-    <tr><td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=NEk36iYbDkM"><img src="/transition/video/images/passport-to-possibilities.jpg" width="200" height="200" alt=""/><br />
-<i class="fa fa-play"></i> Passport to Possibilities</a></p></td>
-    <td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=P6y1_2JVT3Y"><img src="/transition/video/images/virtual-college-tour.jpg" width="200" height="200" alt=""/><br />
-<i class="fa fa-play"></i> Teens Succeeding with Technology - Virtual College Tour</a></p></td>
+  <p><a class='videoPopUp' href="https://www.youtube.com/watch?v=NEk36iYbDkM"><img src="/transition/video/images/passport-to-possibilities.jpg" width="200" height="200" alt=""/><br />
+<i class="fa fa-play"></i> Passport to Possibilities</a></p>
 
-<td width="190" valign="top"><p><a class='videoPopUp' href="https://www.youtube.com/watch?v=ZRgvCPjCmW0"><img src="/transition/video/images/why-college-matters.jpg" width="200" height="200" alt=""/><br />
-<i class="fa fa-play"></i> Why College Matters for People with Disabilities</a></p></td>
+  <p><a class='videoPopUp' href="https://www.youtube.com/watch?v=P6y1_2JVT3Y"><img src="/transition/video/images/virtual-college-tour.jpg" width="200" height="200" alt=""/><br />
+<i class="fa fa-play"></i> Teens Succeeding with Technology - Virtual College Tour</a></p>
 
+  <p><a class='videoPopUp' href="https://www.youtube.com/watch?v=ZRgvCPjCmW0"><img src="/transition/video/images/why-college-matters.jpg" width="200" height="200" alt=""/><br />
+<i class="fa fa-play"></i> Why College Matters for People with Disabilities</a></p>
 
-    </tr></table>
-    <p>For more videos on this topic,  visit our <a href="/transition/video/index.asp" target="_blank">Videos page</a>.</p>
+  <p><br/>For more videos on this topic,  visit our <a href="/transition/video/index.asp" target="_blank">Videos page</a>.</p>
 
 
 <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
@@ -144,9 +137,4 @@ if (typeof jQuery == 'undefined')
 
 
 
-  <!-- end .content --></div>
-  
-<!--#include virtual="/transition/footer.html"-->
-  <!-- end .container --></div>
-</body>
-</html>
+<!--#include virtual="/transition/templates/footer.asp"-->
