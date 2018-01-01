@@ -1,76 +1,198 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!--#include virtual="/cmh/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-
-<title>Children&#039;s Mental Health and Emotional or Behavioral Disorders Project &#8211; Inspiring Opportunities</title>
+<title>Hot Topics - Recent Blog Posts &#8211; Children&#039;s Mental Health and Emotional or Behavioral Disorders Project</title>
 
 <meta name="description" content="Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. PACER’s Inspiring Opportunities Project will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children's mental health, emotional, and behavioral need in the broader community.
 " />
 
-
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/stylenoleftright.css" />
-<link rel="stylesheet" href="/cmh/css/style.css" type="text/css" />
+<!-- for Facebook -->
+<meta property="og:title" content="Children&#039;s Mental Health and Emotional or Behavioral Disorders Project &#8211; Inspiring Opportunities" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="http://www.pacer.org/cmh/images/ebd-fb.jpg" />
+<meta property="og:url" content="http://www.pacer.org/cmh/hot-topics/" />
+<meta property="og:description" content="Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. PACER’s Inspiring Opportunities Project will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children's mental health, emotional, and behavioral need in the broader community." />
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
-<link rel="stylesheet" type="text/css" href="/js/colorbox1.5.9/colorbox.css" />
-
-<script type="text/javascript" src="/cmh/js/imageswap.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type='text/javascript' src='/js/pacer-expanding-box.js?ver=4.2.2'></script>
-<script type='text/javascript' src='/js/colorbox1.5.9/jquery.colorbox-min.js?ver=4.2.2'></script>
 
-<script type="text/javascript">
-	jQuery(document).ready(function(){
-		//Change Any Links that contain the v= version into the embed version that colorbox expects
-		//Note: You lose all extra query string items in the current version of this function
-		jQuery(".videoPopUp").each(function(){
-			if (/\?v=/i.test(this.href)) {
-				var vars = [], hash;
-				var q = this.href.split('?')[1];
-				if(q != undefined){
-					q = q.split('&');
-					for(var i = 0; i < q.length; i++){
-						hash = q[i].split('=');
-						vars.push(hash[1]);
-						vars[hash[0]] = hash[1];
-					}
-				}
-				this.href = 'http://www.youtube.com/embed/' + vars['v'] + '?rel=0&amp;wmode=transparent';						
-			}
-		});
-		//Initialize Colorbox
-		jQuery(".videoPopUp").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-	});
-</script>
+<style type="text/css">
+#layerslider {
+	margin-top:3px;
+  	border:none;
+  	margin: 0px;
+  	visibility: visible;
+  	width: 100%;
+}
+.contentrow {
+	position:relative;
+	padding:10px 10px 30px;
+}
+#pagecontent .row-orange, .row-orange h1, .row-orange h2, .row-orange h3, .row-orange .morebutton {
+	/*background-color:#ea8729;*/
+	color:#000;
+}
+#pagecontent .row-orange h1 {
+	text-align:center;
+	font-size:30px;
+	line-height:40px;
+	text-shadow:0px 0px 5px #000;
+}
+#pagecontent .row-orange p {
+	font-size:1.3em;
+	line-height:1.8em;
+	padding:0 20px;
+}
+#pagecontent .row-orange .shorten a {
+	color: #EA8729;
+	font-weight: bold;
+}
+#pagecontent .row-orange .shorten a:hover {
+	color:#C67221;
+	font-weight: bold;
+}
 
+#pagecontent .row-orange a:hover {
+	color:rgba(255,255,255,0.5);
+}
+#pagecontent .row-orange .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+#pagecontent .row-orange .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+	color:rgba(255,255,255,0.5);
+}
+#introContent {
+	background:#EA8729;
+	border-radius:8px;
+}
+#quiz_wrapper {
+	width:80%;
+	margin:10px 200px;
+}
+#quiz_wrapper img{
+	padding-left:50px;
+}
+#pagecontent h2.header_bar{
+	margin-left:-.5em;
+	margin-right:-.5em;
+	color:#fff;
+	text-align:center;
+	padding:15px 0px;
+	margin-bottom:20px;
+}
+.green_gradient{
+	margin-right:-.5em;
+	padding-right:1em;
+	background: #fff url(/cmh/images/green_gradient.jpg) no-repeat right bottom;
+}
+.green_gradient h2 {
+	background-color:#339900;
+	color:#fff;
+}
+.blue_gradient{
+	margin-right:-.5em;
+	padding-right:1em;
+	background: #fff url(/cmh/images/blue_gradient.jpg) no-repeat right bottom;
+}
+.blue_gradient h2{
+	background-color:#09c;
+	color:#fff;
+}
+.orange_gradient{
+	margin-right:-.5em;
+	padding-right:1em;
+	background: #fff url(/cmh/images/orange_gradient.jpg) no-repeat right bottom;
+}
+.orange_gradient h2 {
+	background-color:#EA8729;
+	color:#fff;
+}
+#resources table{
+	margin:0 20px;
+}
+#resources a img:hover {
+  box-shadow: 0 0px 19px 13px #bbdfff;
+}
+#stigma p {
+	padding-left:20px;
+}
+#social_footer {
+	text-align:center;
+	margin:10px -15px -23px -13px;
+	height:100px;
+	background-color:#09c;
+	padding-bottom:40px;
+}
+#social_footer p{
+	color:#fff;
+	font-size:1.3em;
+	text-align:center;
+	padding-top:10px;
+}
+#social_footer img{
+	display:inline-block;
+	padding-top:5px;
+}
+#maincontent {
+  overflow: hidden;
+}
 
+@media (max-width: 900px) {
+  #hottopics .right_topic {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #hottopics .left_topic {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #hottopics .right_topic img {
+    max-width: 25%;
+    height: auto;
+  }
+  #hottopics .left_topic img {
+    max-width: 25%;
+    height: auto;
+  }
+  #hottopics ul li {
+    max-width: 100%;
+  }
+  #resources td {
+    display: block;
+    max-width: 100%;
+  }
+  #social_footer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .hot_topic_archive li {
+    margin-left: 0px;
+  }
+  .hot_topic_archive h2 {
+    margin-left: 0px;
+  }
+}
+
+</style>
 </head>
+<body class="singleCol">
 
-<body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
+<!--#include virtual="/cmh/templates/page-header-nav.asp"-->
+
+
+<div id="topbar">
+<div id="breadcrumb">
+<a href="/cmh/">Home</a> / <a href="/cmh/hot-topics/">Hot Topics - Recent Blog Posts</a>
+</div>
 </div>
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<!--#include virtual="/cmh/topRightSection.html"-->
-	<!--#include virtual="/cmh/topNav.html"-->  
-</div>		
 <div id="maincontent">
+<div id="pagecontent">
 
-      <div id="pagecontent"> 
-        <!--BEGIN CONTENT-->
+
+
+
+
         <h1>Hot Topics - Recent Blog Posts</h1>
         <div class="resources centered" style="padding:20px; width:80%; margin-bottom:50px;">
           <p><em><img src="/cmh/images/babble/babble-logo.png" width="199" height="64" alt=""/></em></p>
@@ -157,11 +279,8 @@ if (typeof jQuery == 'undefined')
                 <li><a href="http://www.babble.com/kid/understanding-challenging-behaviors/" target="_blank">Understanding Challenging Behaviors: What Your Child Is Really Trying to Tell You <i class="fa fa-external-link"></i></a></li>
               </ul>
             </div>
-      </div>
-</div>
-	<!--#include virtual="/footer.htm"-->
-</div>
-</div>	
+				
 
-</body>
-</html>
+
+
+<!--#include virtual="/templates/footer.asp"-->
