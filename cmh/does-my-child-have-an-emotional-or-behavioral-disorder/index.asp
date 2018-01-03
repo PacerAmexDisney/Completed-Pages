@@ -119,7 +119,7 @@
 	margin:10px -15px -23px -13px;
 	height:100px;
 	background-color:#09c;
-	padding-bottom:40px;
+	padding:10px 10px 40px 10px;
 }
 #social_footer p{
 	color:#fff;
@@ -155,7 +155,7 @@
 				<div class="addthis_sharing_toolbox"></div>
 				<div class="sharethis" style="float:right; width:3em;">Share:</div>
 				<h1 style="font-size:24px;">Does My Child Have a Mental Health, Emotional or Behavioral Disorder?</h1>
-				<div class="alertBox">
+				<div class="alertBox mobileCentered">
 					<h3 style="margin-top:10px;color:#000">Sections:</h3>
 					<ol>
 						<li><a href="#lookfor">What to Look for</a></li>

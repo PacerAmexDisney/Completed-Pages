@@ -1,3 +1,5 @@
+<!--#include virtual="/cmh/templates/header.asp"-->
+
 <%
 Dim ConStr, rs, conn, sql, i
 
@@ -5,7 +7,7 @@ ConStr = "Provider=SQLOLEDB.1;Data Source=PACER2; Initial Catalog=PACER_WEB;Netw
 Set conn = Server.CreateObject("ADODB.Connection")
 conn.open ConStr
 %>
-<!--#include virtual="/cmh/templates/header.asp"-->
+
 
 <meta charset="utf-8" />
 <title>Workshops / Trainings - Children&#039;s Mental Health and Emotional or Behavioral Disorders Project</title>
