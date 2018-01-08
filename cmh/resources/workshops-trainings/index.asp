@@ -8,8 +8,7 @@ Set conn = Server.CreateObject("ADODB.Connection")
 conn.open ConStr
 %>
 
-
-<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Workshops / Trainings - Children&#039;s Mental Health and Emotional or Behavioral Disorders Project</title>
 
 <meta name="description" content="Families of children with mental health, emotional and behavioral needs often navigate multiple systems to access necessary supports and services. Families may also face additional challenges due to stigma about mental health. PACERs Inspiring Opportunities Project will bring together parents, youth and professionals to help families receive the resources and support their children need. This project will also promote increased understanding of children's mental health, emotional, and behavioral need in the broader community.
@@ -208,12 +207,40 @@ conn.open ConStr
 </div>
 </div>
 
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="workshops";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
+
+<div id="leftbar">
+<!--#include virtual="/cmh/resources/leftNav.html" -->
+</div>
+
+<script type="text/javascript">
+	// set current page
+	if (document.getElementById(currId)){
+		document.getElementById(currId).className = "page";
+	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
+	var subTrees = document.getElementsByTagName("ul");
+	for (var i = 0; i < subTrees.length; i++) {
+		if (subTrees[i].className == "treemenu") {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
+				subTrees[i].className = "treemenuhidden";
+			}
+		}
+	}
+</script>
+
+
 <div id="maincontent">
+
 <div id="pagecontent">
 
-
-
-
+<!--BEGIN CONTENT-->
 <h1>Workshops / Trainings</h1>
 		
 <div id="pbis" class="topborder">
