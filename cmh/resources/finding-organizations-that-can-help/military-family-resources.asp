@@ -199,13 +199,41 @@
 </div>
 </div>
 
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="military";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
+
+<div id="leftbar">
+<!--#include virtual="/cmh/resources/leftNav.html" -->
+</div>
+
+<script type="text/javascript">
+	// set current page
+	if (document.getElementById(currId)){
+		document.getElementById(currId).className = "page";
+	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
+	var subTrees = document.getElementsByTagName("ul");
+	for (var i = 0; i < subTrees.length; i++) {
+		if (subTrees[i].className == "treemenu") {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
+				subTrees[i].className = "treemenuhidden";
+			}
+		}
+	}
+</script>
+
+
 <div id="maincontent">
+
 <div id="pagecontent">
 
-
-
-
-
+<!--BEGIN CONTENT-->
 	<h1>Resources for Military Families</h1>
     <p>Military families often find themselves facing special challenges in life and in education. Fortunately, there are many resources that specifically address the complicated task of managing the issues in special education when a family member is in the military. This list of resources for military families includes both military and nonmilitary resources and is not intended to be exhaustive, but to present a place to begin in your search for answers.  Military and Nonmilitary resources are listed separately.</p>
 <div class="contentwrapper">

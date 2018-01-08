@@ -199,13 +199,40 @@
 </div>
 </div>
 
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="pubs";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
+
+<div id="leftbar">
+<!--#include virtual="/cmh/resources/leftNav.html" -->
+</div>
+
+<script type="text/javascript">
+	// set current page
+	if (document.getElementById(currId)){
+		document.getElementById(currId).className = "page";
+	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
+	var subTrees = document.getElementsByTagName("ul");
+	for (var i = 0; i < subTrees.length; i++) {
+		if (subTrees[i].className == "treemenu") {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
+				subTrees[i].className = "treemenuhidden";
+			}
+		}
+	}
+</script>
+
+
 <div id="maincontent">
+
 <div id="pagecontent">
 
-
-
-
-
+<!--BEGIN CONTENT-->
 	<h1>PACER Publications</h1>
 		
     <p style="text-align:center; padding-bottom:30px;"><a href="/publications/">View Our Full  Catalog </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/forms/request.asp">Reprint Request Form</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<img src="/images/pdficon_small.gif" width="15" height="15" alt="" /><a href="/forms/request.asp">Publications Order Form</a></p>

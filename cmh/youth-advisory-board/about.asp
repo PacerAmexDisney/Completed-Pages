@@ -203,12 +203,40 @@
 </div>
 </div>
 
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="activities";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
+
+<div id="leftbar">
+<!--#include virtual="/cmh/youth-advisory-board/leftNav.html" -->
+</div>
+
+<script type="text/javascript">
+	// set current page
+	if (document.getElementById(currId)){
+		document.getElementById(currId).className = "page";
+	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
+	var subTrees = document.getElementsByTagName("ul");
+	for (var i = 0; i < subTrees.length; i++) {
+		if (subTrees[i].className == "treemenu") {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
+				subTrees[i].className = "treemenuhidden";
+			}
+		}
+	}
+</script>
+
+
 <div id="maincontent">
+
 <div id="pagecontent">
 
-
-
-
+<!--BEGIN CONTENT-->
         <h1>Youth Advisory Board </h1>
         <img src="/cmh/images/2011-duluth-01-th-400px-300x173.jpg" alt="youth board presentation" width="300" height="173" align="right" vspace="10" />
         

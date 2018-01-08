@@ -199,12 +199,40 @@
 </div>
 </div>
 
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="nonprofits";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
+
+<div id="leftbar">
+<!--#include virtual="/cmh/resources/leftNav.html" -->
+</div>
+
+<script type="text/javascript">
+	// set current page
+	if (document.getElementById(currId)){
+		document.getElementById(currId).className = "page";
+	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
+	var subTrees = document.getElementsByTagName("ul");
+	for (var i = 0; i < subTrees.length; i++) {
+		if (subTrees[i].className == "treemenu") {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
+				subTrees[i].className = "treemenuhidden";
+			}
+		}
+	}
+</script>
+
+
 <div id="maincontent">
+
 <div id="pagecontent">
 
-
-
-
+<!--BEGIN CONTENT-->
 	<h1>Family-Run and Nonprofit Organizations</h1>
     <p>Family-run organizations have been a strong voice during the development and implementation of equity in education for students with disabilities. Without the valuable contributions of families through family-run organizations and nonprofits, new and improving legislation, information and research would likely not have been as meaningful. The following resource list has been developed to help family-run organizations mobilize and maximize their passion and voice to influence systems of care that are responsive and increase successful outcomes.</p>
 <div class="contentwrapper">
