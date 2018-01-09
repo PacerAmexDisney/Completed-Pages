@@ -1,16 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>F2F HIC - Federal Health Changes</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
 
-<script type="text/javascript" src="../css/menu.js"></script>
+<meta property="og:title" content="F2F HIC - Federal Health Changes" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
+
+
 
 <body>
 <div id="skiptocontent">
@@ -29,63 +30,44 @@
 	<!--#include virtual="/dynamicheader.htm"-->
 </div>
 
-<div id="rightBar">
 
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-</div>
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
+	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> /
 
-</p>
 </div>
-	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> / 
-	
 	<h1> Health Information Center</h1>
-	
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="contact";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">Health Navigation Menu</h2>
-<!--#include virtual="/health/leftNav.htm" -->
+	<!--#include virtual="/health/leftNav.htm" -->
 </div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="contact";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
 	}
 </script>
+
 <div id="maincontent">
 
 <div id="pagecontent">
@@ -129,15 +111,19 @@ Champions for Children with Disabilities
     (952) 838-9000<br />
     (800) 53-PACER, toll free in MN<br />
   <a href="mailto:jvillasenor@PACER.org">jvillasenor@PACER.org</a></p>
-<!--END CONTENT-->
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-</div>
-</div>
 
-<!--#include virtual="/footer.htm"-->
+	<div id="rightBar">
 
-</div>
-
-</body>
-</html>
+	<p class="pacerinfo">
+	<strong>PACER Center<br />
+	952-838-9000</strong>
+	</p>
+	<p class="pacerinfo2">
+	Champions for Children with Disabilities
+	</p>
+	<p class="pacerinfo3">
+	<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
+	</p>
+	</div>
+	<!--END CONTENT-->
+  <!--#include virtual="/templates/footer.asp"-->

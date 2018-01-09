@@ -1,123 +1,55 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>F2F HIC - Federal Health Changes</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
 
-<script type="text/javascript" src="../css/menu.js"></script>
+<meta property="og:title" content="F2F HIC - Federal Health Changes" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-  <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-
-<div class="stayinformed">
- <p><strong>For more information, check out the following:</strong></p>
-<p><em>Minnesota Department of Human Services</em></p>
- <ul>
- <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-ENG" target="_blank">Individualized Education Program (IEP) Services:  Information for Families</a></li>
- </ul>
- <p><em>Also available in:</em></p>
- <ul>
- <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-SPA" target="_blank">Spanish</a></li>
- <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-SOM" target="_blank">Somali</a></li>
- <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-RUS" target="_blank">Russian</a></li>
- <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-HMN" target="_blank">Hmong</a></li>
- </ul>
-	<p>Consent forms for Third Party Billing Health-Related Services</p>
-	<ul>
-		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057556&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Vietnamese</a></li>
-		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057555&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Spanish</a></li>
-		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057553&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Russian</a></li>
-		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057552&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Hmong</a></li>
-		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057554&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Somali</a></li>
-	</ul>
-</div>
-
-<div id="podcasts" class="stayinformed">
-    <img class="fltrt" src="/health/images/audio_icon.png" width="46" height="46" alt="" />
-    <h3>Audio Podcasts</h3>
-    <ul style="clear:right">
-        <li><a href="/health/audio/Podcast-ThirdPartyBilling.mp3" target="_blank">Third Party Billing &ndash; Billing for Health Services Included in your Childs IEP or IFSP</a> <em>(10 min.)</em></li>
-    </ul>
-</div>
-
-</div>
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
+	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> /
+</div>
+   <h1> Health Information Center</h1>
+</div>
 
-</p>
-</div>
-	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> / 
-	
-	<h1> Health Information Center</h1>
-	
-</div>
-</div>
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="billing";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">Health Navigation Menu</h2>
-<!--#include virtual="/health/leftNav.htm" -->
+    <!--#include virtual="/health/leftNav.htm" -->
 </div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="billing";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
 	}
 </script>
+
 <div id="maincontent">
 
 <div id="pagecontent">
@@ -129,7 +61,7 @@ Champions for Children with Disabilities
  <p>   Whether you permit the school to bill your insurance or not, your child must still receive all of the services in the IEP at no cost to you. Under the Individuals with Disabilities Education Act (IDEA), your child is entitled to a free and appropriate public education. If your child needs health-related services at school to obtain a free and appropriate public education, you cannot be required to pay for it. The amount and type of IEP services your child receives cannot be tied to whether the school can bill your insurance. Your child&rsquo;s IEP team&mdash;which always includes you, the parent&mdash;should develop the IEP before billing is even considered.</p>
  <h2>What is the difference between private health insurance and public health insurance?</h2>
  <p>Private health insurance is coverage you have through your employer or that you purchase yourself. Public insurance is offered by the government through a tax-funded program. If your child is covered under Medical Assistance, TEFRA, or Minnesota Care, then your child has public insurance.</p>
- 
+
  <h2>IEP Health-Related Services</h2>
  <ul>
   <li>Are the developmental, corrective, and supportive services required to help a child with a disability benefit from special education</li>
@@ -192,19 +124,53 @@ Champions for Children with Disabilities
  <p>&nbsp;</p>
  <p style="margin-bottom:25px;"><strong>To learn more about Third Party Billing for IEP health-related services, contact PACER&rsquo;s  Health Information Center at (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
 
+ <div id="rightBar">
+
+ <p class="pacerinfo">
+ <strong>PACER Center<br />
+ 952-838-9000</strong>
+ </p>
+ <p class="pacerinfo2">
+ Champions for Children with Disabilities
+ </p>
+ <p class="pacerinfo3">
+ <a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
+ </p>
+
+ <div class="stayinformed">
+  <p><strong>For more information, check out the following:</strong></p>
+ <p><em>Minnesota Department of Human Services</em></p>
+  <ul>
+  <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-ENG" target="_blank">Individualized Education Program (IEP) Services:  Information for Families</a></li>
+  </ul>
+  <p><em>Also available in:</em></p>
+  <ul>
+  <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-SPA" target="_blank">Spanish</a></li>
+  <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-SOM" target="_blank">Somali</a></li>
+  <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-RUS" target="_blank">Russian</a></li>
+  <li class="pdficonlist"><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3456-HMN" target="_blank">Hmong</a></li>
+  </ul>
+ 	<p>Consent forms for Third Party Billing Health-Related Services</p>
+ 	<ul>
+ 		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057556&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Vietnamese</a></li>
+ 		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057555&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Spanish</a></li>
+ 		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057553&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Russian</a></li>
+ 		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057552&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Hmong</a></li>
+ 		<li class="pdficonlist"><a href="http://education.state.mn.us/mdeprod/idcplg?IdcService=GET_FILE&amp;dDocName=057554&amp;RevisionSelectionMethod=latestReleased&amp;Rendition=primary" target="_blank">Somali</a></li>
+ 	</ul>
+ </div>
+
+ <div id="podcasts" class="stayinformed">
+     <img class="fltrt" src="/health/images/audio_icon.png" width="46" height="46" alt="" />
+     <h3>Audio Podcasts</h3>
+     <ul style="clear:right">
+         <li><a href="/health/audio/Podcast-ThirdPartyBilling.mp3" target="_blank">Third Party Billing &ndash; Billing for Health Services Included in your Childs IEP or IFSP</a> <em>(10 min.)</em></li>
+     </ul>
+ </div>
+
+ </div>
 
 
 
-
-<!--END CONTENT-->
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+ <!--END CONTENT-->
+ <!--#include virtual="/templates/footer.asp"-->
