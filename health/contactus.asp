@@ -5,7 +5,7 @@
 <title>F2F HIC - Federal Health Changes</title>
 
 <meta property="og:title" content="F2F HIC - Federal Health Changes" />
-<meta property="og:url" content="" />
+<meta property="og:url" content="http://www.pacer.org/health/contactus.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
@@ -14,22 +14,8 @@
 
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-  <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
+    
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 
 <div id="topbar">
@@ -112,18 +98,6 @@
     (800) 53-PACER, toll free in MN<br />
   <a href="mailto:jvillasenor@PACER.org">jvillasenor@PACER.org</a></p>
 
-	<div id="rightBar">
-
-	<p class="pacerinfo">
-	<strong>PACER Center<br />
-	952-838-9000</strong>
-	</p>
-	<p class="pacerinfo2">
-	Champions for Children with Disabilities
-	</p>
-	<p class="pacerinfo3">
-	<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-	</p>
-	</div>
+	
 	<!--END CONTENT-->
   <!--#include virtual="/templates/footer.asp"-->

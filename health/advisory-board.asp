@@ -5,7 +5,7 @@
 <title>Parent-to-Parent Family-to-Family Health Information Center</title>
 
 <meta property="og:title" content="Parent-to-Parent Family-to-Family Health Information Center" />
-<meta property="og:url" content="" />
+<meta property="og:url" content="http://www.pacer.org/health/advisory-board.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
@@ -26,7 +26,7 @@
 
 <script type="text/javascript">
 	// ID of the current Left Nav item
-	var currId="overview";
+	var currId="none";
 	// current subtree that should be displayed
 	var showTree = "currentPageSubtree";
 	var showTree2 = "secondarySubtreeIfNeeded";
@@ -89,10 +89,6 @@
 <p>
 For more information about the  Health Information Center, please contact <a href="mailto:wendy.ringer@pacer.org">Wendy Ringer</a>: (952)838-9000 Voice; (952)838-0190 TTY.
 </p>
-<p>&nbsp;</p>
-
-</div>
-
 
 <!--END CONTENT-->
 <!--#include virtual="/templates/footer.asp"-->
