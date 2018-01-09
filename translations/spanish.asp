@@ -1,124 +1,74 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title> Cï¿½mo le ayuda - PACER Center</title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Cómo le ayuda PACER</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<meta property="og:title" content="Cï¿½mo le ayuda PACER" />
+<meta property="og:url" content="http://www.pacer.org/translations/spanish.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
-<script type="text/javascript" src="/css/menu.js"></script>
+
 </head>
+<body class="singleCol">
 
-<body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+<div id="topbar">
+<div id="breadcrumb">
+
+<a href="/index.asp">Home</a> / <a href="index.asp">Translated Content</a> / Cï¿½mo le ayuda PACER
 </div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogoSpanish.gif" alt="PACER Center: campeones de niños con discapacidades" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2" style="padding-bottom: .5em;">
-Campeones de niños con discapacidades
-</p>
-<div class="stayinformed">
-  PACER Center está ubicado en Minnesota.<br />
-Llame al 952-838-9000.<br />
-Ubique el centro para padres en su
-<a href="http://www.taalliance.org/centers/index.htm">Estado</a> 
-</div>
-<div class="rightsidebarpic">
-<img src="images/spanishpage2.jpg" width="250" height="166" alt="young girl smiling at the camera" /><br />
-<br />
-<img src="images/spanishpage3.jpg" width="250" height="166" alt="two young boys, arms linked, smiling and posing for the camera" />&nbsp;
-</div>
+	<h1>Cï¿½mo le ayuda PACER</h1>
 </div>
 
 <div id="maincontent">
 
-	<div id="pagetoporange">
-	
-	<div id="breadcrumb">
-	<a href="/index.asp">Home</a> / <a href="index.asp">Translated Content</a> / Cómo le ayuda PACER
-	
-	<h1>Cómo le ayuda PACER</h1>
-	
-</div>
+<div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-
-</div>
-
-<div id="pagecontent">
 <div class=" alertBox" style=" text-align:center;">
 <a href="spanishpubs.asp">See Spanish publications &gt;&gt;&gt;</a>
 </div>
-<h2 class="nounderline"><a name="maincontent">Cómo le ayuda PACER</a></h2>
+<h2 class="nounderline"><a name="maincontent">Cï¿½mo le ayuda PACER</a></h2>
 
 <p>
-PACER Center es una organización sin fines de lucro en Minnesota que proporciona información a familias de niños con cualquier tipo de discapacidades. 
+PACER Center es una organizaciï¿½n sin fines de lucro en Minnesota que proporciona informaciï¿½n a familias de niï¿½os con cualquier tipo de discapacidades.
 </p>
 
-<h3>Cómo le ayuda PACER:</h3>
+<h3>Cï¿½mo le ayuda PACER:</h3>
 <ul>
-	<li><strong>Asistencia individual</strong> es proveída por teléfono y en persona a familias que tienen preguntas acerca de las necesidades de sus hijos </li>
+	<li><strong>Asistencia individual</strong> es proveï¿½da por telï¿½fono y en persona a familias que tienen preguntas acerca de las necesidades de sus hijos </li>
 	<li><a href="/workshops/">Talleres</a> para padres y profesionales se llevan a cabo en forma continua por todo Minnesota</li>
-	<li><a href="/translations/spanishpubs.asp">Recursos</a> tales como publicaciones impresas y materiales están disponibles en el internet en temas relevantes </li>
+	<li><a href="/translations/spanishpubs.asp">Recursos</a> tales como publicaciones impresas y materiales estï¿½n disponibles en el internet en temas relevantes </li>
 </ul>
 
-<h3>¿Cómo empiezo?</h3>
+<h3>ï¿½Cï¿½mo empiezo?</h3>
 <p>
-Llame a PACER al 952-838-9000 o <a href="/forms/index.asp">email</a>. Las horas regulares de oficina son de 8:00 am &#8211; 5:00 pm Hora Central. 
+Llame a PACER al 952-838-9000 o <a href="/forms/index.asp">email</a>. Las horas regulares de oficina son de 8:00 am &#8211; 5:00 pm Hora Central.
 </p>
 
-<h3>¿Existe un costo?</h3>
+<h3>ï¿½Existe un costo?</h3>
 <p>
-La mayoría de los servicios de PACER se proveen en forma gratuita a las familias de Minnesota. PACER recibe 
+La mayorï¿½a de los servicios de PACER se proveen en forma gratuita a las familias de Minnesota. PACER recibe
 recursos de una variedad de fondos del gobierno, fundaciones, y recursos privados
 </p>
 
-<h3>¿Qué puedo esperar cuando llame?</h3>
+<h3>ï¿½Quï¿½ puedo esperar cuando llame?</h3>
 <p>
-Su llamada será atendida en español por Jesús Villaseñor quien tiene un hijo con discapacidades y el cual entiende por lo que usted está pasando y está listo para ayudarle a usted para que ayude a su hijo. 
+Su llamada serï¿½ atendida en espaï¿½ol por Jesï¿½s Villaseï¿½or quien tiene un hijo con discapacidades y el cual entiende por lo que usted estï¿½ pasando y estï¿½ listo para ayudarle a usted para que ayude a su hijo.
 </p>
 
-<h3>¿Qué pasa si no estoy seguro que PACER me puede ayudar?</h3>
+<h3>ï¿½Quï¿½ pasa si no estoy seguro que PACER me puede ayudar?</h3>
 <p>
-¡Llámenos de cualquier forma! PACER tiene más de 30 
-<a href="/pandr/proglist.asp">programas</a> así que es probable que exista uno que satisfaga las necesidades de su hijo. PACER ayuda a una variedad de familias y profesionales a nivel local, estatal y nacional todos los días. 
+ï¿½Llï¿½menos de cualquier forma! PACER tiene mï¿½s de 30
+<a href="/pandr/proglist.asp">programas</a> asï¿½ que es probable que exista uno que satisfaga las necesidades de su hijo. PACER ayuda a una variedad de familias y profesionales a nivel local, estatal y nacional todos los dï¿½as.
 </p>
 
 <p>
 <br /><br /><br /><br /><br /><br /><br />
 </p>
 
-</div>
-
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

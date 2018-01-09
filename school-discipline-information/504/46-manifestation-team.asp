@@ -29,9 +29,10 @@
 <div id="maincontent">
 
 <div id="pagecontent" class="narrowContent">
-  <div id="contentwrapper">  <div id="toc">
+
+<div id="contentwrapper">  <div id="toc">
   <!--#include virtual="/school-discipline-information/toc.html" -->
-  </div>
+
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>
@@ -41,8 +42,8 @@
   <div id="top-section">
   <h1 id="contentheader">My Child Is on a Section 504 Plan</h1>
   <div id="bcrumb"> : <a id="homelink" href="/school-discipline-information/">Intro</a> > <a href="/school-discipline-information/02-iep-504.asp">IEP/504/None</a>  &gt; <a href="/school-discipline-information/504/33-discipline-is.asp">Discipline</a> &gt; ... &gt; Manifestation Team</div>
-  </div>
   <!-- ############################### BEGIN CONTENT #################################### -->
+
   <h2>The manifestation team determined that my child’s behavior was:</h2>
   <ol>
   <li><a href="/school-discipline-information/504/47-manifestation-of-disability.asp">a manifestation of his or her disability</a>. </li>
@@ -53,6 +54,7 @@
   <!-- ############################### END CONTENT #################################### -->
   <!--Close Content--></div>
   <!--Close Content Wrapper--></div>
+
   <!--Close Main--></div>  <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
 
 <!--Close Wrapper--></div>

@@ -1,90 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Click to read more how the PACER.org web site is conditioned on understanding and accepting the following terms upon use. PACER Center assumes no liability for your use of information on the site." />
+<title>Privacy and Policies - PACER Center</title>
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<meta name="description" content="Click to read more how the PACER.org web site is conditioned on understanding and accepting the following terms upon use. PACER Center assumes no liability for your use of information on the site. " />
-<meta name="keywords" content="privacy policy, no liability policy, children with disabilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org
-" />
+<meta property="og:title" content="Privacy and Policies" />
+<meta property="og:url" content="http://www.pacer/org/privacy.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="Click to read more how the PACER.org web site is conditioned on understanding and accepting the following terms upon use. PACER Center assumes no liability for your use of information on the site." />
 
-<title>PACER Center - Privacy and Policies</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
 
-<script type="text/javascript" src="css/menu.js"></script>
 </head>
-<body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
+<body class="singleCol">
+
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+<div id="topbar">
+<div id="breadcrumb">
+
+<a href="/">Home</a> / Privacy
 </div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>
-		<!-- Google CSE Search Box Begins  -->
-				<form class="nav" action="http://www.pacer.org/searchresults.asp" id="cse-search-box"><a href="contactpacer.asp">Contact PACER</a> | <a href="help/donate.asp">Donate</a> | <label for="q">Search</label>
-			    	<input type="hidden" name="cx" value="008159103446416441332:ztnv2wmj0ug" />
-  					<input type="hidden" name="cof" value="FORID:11" />
- 					<input type="text" name="q" id="q" size="25" />
- 					<input type="submit" name="sa" value="Search" />
-				</form>
-				<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=en"></script>
-				<!-- Google CSE Search Box Ends -->
-		<a href="./">
-		<img src="images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-<p class="volunteer">
-<strong><a href="help/volunteer/index.asp">Become a Volunteer!</a></strong><br />PACER continues to offer exciting events and new opportunities for you and your families to become involved.
-</p>
-<div class="stayinformed">
-<h2>Stay Informed</h2>
-<a href="/forms/">Sign up</a> to receive the latest information from PACER.
-</div>
+	<h1>Privacy and Policies</h1>
 </div>
 
 <div id="maincontent">
 
-<div id="pagetoporange">
-	<div class="printemail">
-		<p>
-		<img src="css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
-		
-		</p>
-	</div>
-	
-	<div id="breadcrumb">
-	<a href="index.asp">Home</a> / Privacy
-	
-	<h1 class="nounderline"><a name="maincontent">Privacy and Policies</a></h1>
-	
-</div>
-</div>
-
+<div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-
-<div id="pagecontent">
-
 <h2>Terms of Use</h2>
 <p>
 Use of this Web site is conditioned on understanding and accepting the following terms.
@@ -117,16 +60,6 @@ Information on www.PACER.org, including www.PACERKidsAgainstBullying.org,  and w
 <p>If you have questions regarding these policies or wish to opt out of receiving information from PACER Center, please contact <a href="mailto:pacer@pacer.org">pacer@pacer.org</a> or 952.838.9000.</p>
   <p>The PACERKidsAgainstBullying.org site follows the Federal Trade Commission (FTC) guidelines for compliance with the Children's Online Privacy Protection Act and Rule. (<a href="http://www.business.ftc.gov/privacy-and-security/childrens-privacy" target="_blank">www.ftc.gov/privacy/privacyinitiatives/childrens.html</a>)</p>
 
-</div>
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

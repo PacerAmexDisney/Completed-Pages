@@ -1,7 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--#include virtual="/cmh/templates/header.asp"-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Does My Child Have an Emotional or Behavioral Disorder? - Children&#039;s Mental Health and Emotional or Behavioral Disorders Project</title>
 <meta name="description" content="What to Look for: Among all the dilemmas facing a parent of a child with emotional or behavioral problems, the first question-whether the child's behavior is sufficiently different to require a comprehensive evaluation by professionals-may be the most troublesome of all. Even when a child exhibits negative behaviors, members of a family may not all agree on whether the behaviors are serious. For instance, children who have frequent, severe temper outbursts or who destroy toys may appear to have a serious problem to some parents, while others see the same behavior as asserting independence or showing leadership skills.
 " />
@@ -11,114 +10,152 @@
 <meta property="og:image" content="http://www.pacer.org/cmh/images/ebd-fb.jpg" />
 <meta property="og:url" content="http://www.pacer.org/cmh/does-my-child-have-an-emotional-or-behavioral-disorder/" />
 <meta property="og:description" content="What to Look for: Among all the dilemmas facing a parent of a child with emotional or behavioral problems, the first question-whether the child's behavior is sufficiently different to require a comprehensive evaluation by professionals-may be the most troublesome of all. Even when a child exhibits negative behaviors, members of a family may not all agree on whether the behaviors are serious. For instance, children who have frequent, severe temper outbursts or who destroy toys may appear to have a serious problem to some parents, while others see the same behavior as asserting independence or showing leadership skills." />
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
-<link rel="stylesheet" href="/cmh/css/style.css" type="text/css" />
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
-<link rel="stylesheet" type="text/css" href="/js/colorbox1.5.9/colorbox.css" />
-<script type="text/javascript" src="/cmh/js/imageswap.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type='text/javascript' src='/js/pacer-expanding-box.js?ver=4.2.2'></script>
-<script type='text/javascript' src='/js/colorbox1.5.9/jquery.colorbox-min.js?ver=4.2.2'></script>
-<script type="text/javascript">
-	jQuery(document).ready(function(){
-		//Change Any Links that contain the v= version into the embed version that colorbox expects
-		//Note: You lose all extra query string items in the current version of this function
-		jQuery(".videoPopUp").each(function(){
-			if (/\?v=/i.test(this.href)) {
-				var vars = [], hash;
-				var q = this.href.split('?')[1];
-				if(q != undefined){
-					q = q.split('&');
-					for(var i = 0; i < q.length; i++){
-						hash = q[i].split('=');
-						vars.push(hash[1]);
-						vars[hash[0]] = hash[1];
-					}
-				}
-				this.href = 'http://www.youtube.com/embed/' + vars['v'] + '?rel=0&amp;wmode=transparent';						
-			}
-		});
-		//Initialize Colorbox
-		jQuery(".videoPopUp").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-	});
-</script>
-<style>
-#main #maincontent #pagecontent {
-	line-height: 1.4;
-	font-size: 1.1em;
+
+<style type="text/css">
+#layerslider {
+	margin-top:3px;
+  	border:none;
+  	margin: 0px;
+  	visibility: visible;
+  	width: 100%;
 }
-#pagecontent .alertBox, #pagecontentright .alertBox {
-	font-size: 0.8em;
+.contentrow {
+	position:relative;
+	padding:10px 10px 30px;
 }
-#pagecontent h3 {
-	color: #1F5F00;
-	text-shadow: 1px 1px 2px #d6d6d6;
-	font-size: 1.3em;
-	margin: 2.5em .5em 1em 5px
+#pagecontent .row-orange, .row-orange h1, .row-orange h2, .row-orange h3, .row-orange .morebutton {
+	/*background-color:#ea8729;*/
+	color:#000;
 }
-#pagecontent .resources h3 {
-		margin: 1em;
-	}
-#pagecontent p {
-	padding-left: 20px;
+#pagecontent .row-orange h1 {
+	text-align:center;
+	font-size:30px;
+	line-height:40px;
+	text-shadow:0px 0px 5px #000;
 }
-#pagecontent ul {
-	margin: 40px 20px 40px 60px;
+#pagecontent .row-orange p {
+	font-size:1.3em;
+	line-height:1.8em;
+	padding:0 20px;
 }
-#pagecontent .alertBox ol {
-	margin-left: 10px;
-	margin-bottom: 10px;
-	padding-left: 15px;
+#pagecontent .row-orange .shorten a {
+	color: #EA8729;
+	font-weight: bold;
 }
-	#pagecontent .alertBox li {
-		margin-right: 5px;
-	}
-.resources {
-	font-size: .9em;
+#pagecontent .row-orange .shorten a:hover {
+	color:#C67221;
+	font-weight: bold;
+}
+
+#pagecontent .row-orange a:hover {
+	color:rgba(255,255,255,0.5);
+}
+#pagecontent .row-orange .externallink {
+	background:url(/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+}
+#pagecontent .row-orange .externallink:hover {
+	background:url(/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+	color:rgba(255,255,255,0.5);
+}
+#introContent {
+	background:#EA8729;
+	border-radius:8px;
+}
+#quiz_wrapper {
+	width:80%;
+	margin:10px 200px;
+}
+#quiz_wrapper img{
+	padding-left:50px;
+}
+#pagecontent h2.header_bar{
+	margin-left:-.5em;
+	margin-right:-.5em;
+	color:#fff;
+	text-align:center;
+	padding:15px 0px;
+	margin-bottom:20px;
+}
+.green_gradient{
+	margin-right:-.5em;
+	padding-right:1em;
+	background: #fff url(/cmh/images/green_gradient.jpg) no-repeat right bottom;
+}
+.green_gradient h2 {
+	background-color:#339900;
+	color:#fff;
+}
+.blue_gradient{
+	margin-right:-.5em;
+	padding-right:1em;
+	background: #fff url(/cmh/images/blue_gradient.jpg) no-repeat right bottom;
+}
+.blue_gradient h2{
+	background-color:#09c;
+	color:#fff;
+}
+.orange_gradient{
+	margin-right:-.5em;
+	padding-right:1em;
+	background: #fff url(/cmh/images/orange_gradient.jpg) no-repeat right bottom;
+}
+.orange_gradient h2 {
+	background-color:#EA8729;
+	color:#fff;
+}
+#resources table{
+	margin:0 20px;
+}
+#resources a img:hover {
+  box-shadow: 0 0px 19px 13px #bbdfff;
+}
+#stigma p {
+	padding-left:20px;
+}
+#social_footer {
+	text-align:center;
+	margin:10px -15px -23px -13px;
+	height:100px;
+	background-color:#09c;
+	padding:10px 10px 40px 10px;
+}
+#social_footer p{
+	color:#fff;
+	font-size:1.3em;
+	text-align:center;
+	padding-top:10px;
+}
+#social_footer img{
+	display:inline-block;
+	padding-top:5px;
+}
+#maincontent {
+  overflow: hidden;
 }
 </style>
 </head>
+<body class="singleCol">
 
-<body>
-<div id="skiptocontent"> <a href="#maincontent">Skip to main content</a> </div>
-<div id="wrapper">
-	<div id="main">
-		<div id="header"> 
-			<!--#include virtual="/cmh/topRightSection.html"--> 
-			<!--#include virtual="/cmh/topNav.html"--> 
-		</div>
-		<!--#include virtual="/cmh/resources/leftNav.html"--> 
-		<script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="ebd";
-	var showTree = "none";
-	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "current_page_item";
-	}
-	var subTrees = document.getElementsByTagName("ul");
-	for (var i = 0; i < subTrees.length; i++) {
-		if (subTrees[i].className == "submenu") {
-			if (subTrees[i].id != showTree) {
-				subTrees[i].className = "submenuhidden";
-			}
-		}
-	}
-	</script>
-		<div id="maincontent">
-			<div id="pagecontent"> 
+<!--#include virtual="/cmh/templates/page-header-nav.asp"-->
+
+<div id="topbar">
+<div id="breadcrumb">
+<a href="/cmh/">Home</a> / <a href="/cmh/does-my-child-have-an-emotional-or-behavioral-disorder/">Does My Child Have an Emotional or Behavioral Disorder?</a>
+</div>
+</div>
+
+<div id="maincontent">
+<div id="pagecontent">
+
+
 				<!--BEGIN CONTENT--> 
 				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
 				<div class="addthis_sharing_toolbox"></div>
 				<div class="sharethis" style="float:right; width:3em;">Share:</div>
 				<h1 style="font-size:24px;">Does My Child Have a Mental Health, Emotional or Behavioral Disorder?</h1>
-				<div class="alertBox">
+				<div class="alertBox mobileCentered">
 					<h3 style="margin-top:10px;color:#000">Sections:</h3>
 					<ol>
 						<li><a href="#lookfor">What to Look for</a></li>
@@ -210,10 +247,25 @@ if (typeof jQuery == 'undefined')
 						<li class="pdficonlist"><a href="http://www.pacer.org/parent/php/PHP-c49b.pdf" target="_blank">Accommodations and Modifications Parent and Child Checklist <span class="fa fa-external-link"></span></a></li>
 					</ul>
 				</div>
-			</div>
-		</div>
-		<!--#include virtual="/footer.htm"--> 
-	</div>
+				
+				
+				
+
+
+
+<div id="social_footer">
+<div id="social_wrapper">
+
+<p>Show your commitment! Share your stories, thoughts, pictures, and videos!</p>
+
+<a href="/help/donate.asp"><img id="FooterDonate" style="margin-right: 10px" src="/images/donateicon_medium.gif" alt="Dontate" width="124" height="35" border="0" /></a>
+
+<a href="https://www.facebook.com/PACERCenter" target="_blank" class="footerIcon"><img style="margin-right: 10px" src="http://www.pacer.org/images/facebookicon_medium.gif" alt="Join us on Facebook" width="35" height="35" /></a>
+
+<a href="https://www.youtube.com/user/pacercenter" target="_blank" class="footerIcon"><img style="margin-right: 10px" src="http://www.pacer.org/images/youtubeicon_medium.gif" alt="Join us on YouTube" width="35" height="35" /></a>
+
+<a href="https://twitter.com/pacercenter" target="_blank" class="footerIcon"><img style="margin-right: 10px" src="http://www.pacer.org/images/twittericon_medium.gif" alt="Join us on Twitter" width="35" height="35" /></a>
+
 </div>
-</body>
-</html>
+</div>
+<!--#include virtual="/templates/footer.asp"-->

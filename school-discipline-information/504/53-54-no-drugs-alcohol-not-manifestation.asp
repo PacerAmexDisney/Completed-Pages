@@ -13,12 +13,15 @@
 <link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
 <link rel="stylesheet" type="text/css" href="/school-discipline-information/school-discipline-guide-print.css" media="print" />
 
+
 <script type="text/javascript" src="/school-discipline-information/school-discipline-guide.js"></script>
 <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
           rel = "stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
 </head>
 <body class="singleCol">
+
 
 <!--#include virtual="/templates/page-header-nav.asp"-->
 
@@ -29,9 +32,11 @@
 <div id="maincontent">
 
 <div id="pagecontent" class="narrowContent">
-  <div id="contentwrapper">  <div id="toc">
+
+
+<div id="contentwrapper">  <div id="toc">
   <!--#include virtual="/school-discipline-information/toc.html" -->
-  </div>
+
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>
@@ -41,9 +46,8 @@
   <div id="top-section">
   <h1 id="contentheader">My Child Is on a Section 504 Plan</h1>
   <div id="bcrumb"> : <a id="homelink" href="/school-discipline-information/">Intro</a> > <a href="/school-discipline-information/02-iep-504.asp">IEP/504/None</a> &gt; ... &gt; <a href="/school-discipline-information/504/46-manifestation-team.asp">Manifestation Team</a> &gt; <a href="/school-discipline-information/504/47-manifestation-of-disability.asp">Not a Manifestation of Disability</a></div>
-  </div>
   <!-- ############################### BEGIN CONTENT #################################### -->
-  
+
   <div id="sectionCarryOver">
   <h2>The manifestation team determined that my child's behavior was:</h2>
   <p>not a manifestation of his or her disability.</p>
@@ -60,12 +64,12 @@
 
 <div id="statutes">
   <h3>Statutes</h3>
-  
+
   <ol>
   	<li><a href="https://www.revisor.mn.gov/statutes/?id=121A.45" target="_blank">Minn. Stat. 121A.45</a> (Subdivision 1)</li>
   </ol>
-  
- 
+
+
   </div>
 
 
@@ -73,6 +77,7 @@
   <!-- ############################### END CONTENT #################################### -->
   <!--Close Content--></div>
   <!--Close Content Wrapper--></div>
+
   <!--Close Main--></div>  <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
  </div>
  <div id="subDiv"></div>
