@@ -1,69 +1,19 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>HIC - Federal Health Changes</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
 
-<script type="text/javascript" src="../css/menu.js"></script>
+<meta property="og:title" content="HIC - Federal Health Changes" />
+<meta property="og:url" content="http://www.pacer.org/health/federalreform.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-   <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-<div class="stayinformed">
-
-<p><strong>DHS Minnesota Health Care Program Application Forms:</strong></p>
-<ul>
-  <li><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-6696-ENG" target="_blank">Paper MNsure Application</a> DHS Form 6696</li>
-  <li>Online MNsure application at <a href="http://www.MNsure.org" target="_blank">www.MNsure.org</a></li>
-  <li><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-6696A-ENG" target="_blank">Supplement to MNsure Application</a> DHS Form 6696A</li>
-  <li>Minnesota health Care Programs <a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3418-ENG" target="_blank">Renewal Form</a> DHS Form 3418</li>
-  </ul>
-  <p><strong>State Medical Review Team Forms for Disability Determinations:</strong></p>
-  <p>The state medical Review team completes disability determinations using the criteria defined by the Social Security Administration (SSA). The Criteria can be found in the <a href="http://www.ssa.gov/disability/professionals/bluebook/" target="_blank">SSA blue book</a>.</p>
-  <ul>
-  <li>State Medical Review Team <a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-6126-ENG" target="_blank">Children&rsquo;s Disability Worksheet</a> DHS Form 6126</li>
-  <li>State medical Review Team <a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-6125-ENG-dform" target="_blank">Adult Disability Worksheet</a> DHS Form 6125</li>
-  </ul>
-  
-  <p><strong>Children Under 26 on Their Parents&rsquo; Plan</strong></p>
-<p>The  health care reform law states that insurance providers offering dependent  coverage must allow adult children to be covered on their parent&rsquo;s health plans  until they reach age 26, regardless of if they are married or if they are not  living at home. The only exception is for adult children who can receive  insurance from their own employer; this exception ends in 2014. This law took  effect on September 23, 2010. Your insurance provider must have an enrollment  period for your adult child under 26 to be placed on your family plan. Call  your insurance company and ask when the open enrollment times are and how to  enroll your child.</p>
-<p>For more  detailed information on coverage for adult children under 26, please see <a href="http://kff.org/healthreform/upload/8065.pdf">Explaining  Health Care Reform:&nbsp; Questions About the  Extension of Dependent Coverage to Age 26</a> from the Kaiser Family  Foundation or <a href="http://www.whitehouse.gov/sites/default/files/rss_viewer/fact_sheet_young_adults_may10.pdf">Young Adults and the Affordable Care Act</a> produced  by the U.S. Department of Health and Human Services. Contact your own insurance  provider about your individual policy.</p>
-</div>
-
-
-</div>
 
 <div id="topbar">
 <div id="breadcrumb">
@@ -73,36 +23,34 @@ Champions for Children with Disabilities
 
 </p>
 </div>
-	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> / 
-	
-	<h1> Health Information Center</h1>
-	
+	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> /
+
 </div>
+	<h1> Health Information Center</h1>
+
 </div>
 
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="fedreform";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
 <div id="leftbar">
-<h2 style="display: none;">Health Navigation Menu</h2>
+
 <!--#include virtual="/health/leftNav.htm" -->
 </div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="fedreform";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
@@ -112,7 +60,7 @@ Champions for Children with Disabilities
 
 <div id="pagecontent">
 
-<h2 class="nounderline">Minnesota Health Insurance Marketplace: </h2>  
+<h2 class="nounderline">Minnesota Health Insurance Marketplace: </h2>
 <p><strong>MNsure</strong> is Minnesota&rsquo;s Affordable Care Act health insurance marketplace where residents can shop for and buy insurance. In Minnesota, the marketplace is run by the state government and is also called an Exchange.</p>
     <p><strong>Open enrollment begins Nov. 1, 2016, and runs until Jan. 31, 2017.&nbsp; </strong></p>
     <p><strong>If you are already enrolled in MinnesotaCare (MNCare) or Medical Assistance (MA) you do not have to take any action to renew your coverage unless directed by the Department of Human Services (DHS).</strong> Do not sign in to MNsure to renew your MA or MNCare coverage. If you have any questions or concerns about renewing coverage for one of these programs, call the DHS Member Help Desk at 651-431-2670 or 800-657-3739, Monday through Friday, 8 a.m. to 5 p.m.</p>
@@ -138,7 +86,7 @@ Champions for Children with Disabilities
 <h2 class="nounderline">Health Reform for Americans with Disabilities: </h2>
 <div id="pacesettercontent" style="border:solid 1px #F93; margin:20px; padding:10px">
   <h3>HealthCare.gov</h3>
-  
+
   <p><a href="http://www.healthcare.gov/" target="_blank">HealthCare.gov</a> is a  website launched by the  federal government to help health care consumers. The website provides:</p>
   <ul type="disc" class="space">
     <li>One-stop access to all your insurance options. HealthCare.gov helps in your search for insurance by giving you all your insurance options based on information you provide, including your age, location, and other important life circumstances.</li>
@@ -183,7 +131,7 @@ Champions for Children with Disabilities
 <ul type="disc">
  <li>Provides access to health insurance through Exchanges to those without job-based coverage and provides premium tax credits to those who cannot afford coverage, significantly increasing access to a choice of health insurance plans for individuals with disabilities.&nbsp; This will enable individuals to keep their jobs rather than giving up employment in order to receive Medicaid benefits.&nbsp; </li>
 </ul>
-<h3><strong>Lowering Costs by Rewarding Quality and Cutting Waste</strong></h3> 
+<h3><strong>Lowering Costs by Rewarding Quality and Cutting Waste</strong></h3>
  <img src="images/federalreform_clip_image004.png" alt="" width="87" height="85" style="float:right"/>
  <strong>Insurance Industry Reforms that Save Money</strong>
 <ul type="disc">
@@ -222,19 +170,43 @@ Champions for Children with Disabilities
 <p><strong>To learn more  about the new federal health reforms, contact PACER&rsquo;s  Health  Information Center at (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
 <p>&nbsp;</p>
 
+<hr>
+<div id="rightBar">
+
+<p class="pacerinfo">
+<strong>PACER Center<br />
+952-838-9000</strong>
+</p>
+<p class="pacerinfo2">
+Champions for Children with Disabilities
+</p>
+<p class="pacerinfo3">
+<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
+</p>
+<div class="stayinformed">
+
+<p><strong>DHS Minnesota Health Care Program Application Forms:</strong></p>
+<ul>
+  <li><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-6696-ENG" target="_blank">Paper MNsure Application</a> DHS Form 6696</li>
+  <li>Online MNsure application at <a href="http://www.MNsure.org" target="_blank">www.MNsure.org</a></li>
+  <li><a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-6696A-ENG" target="_blank">Supplement to MNsure Application</a> DHS Form 6696A</li>
+  <li>Minnesota health Care Programs <a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-3418-ENG" target="_blank">Renewal Form</a> DHS Form 3418</li>
+  </ul>
+  <p><strong>State Medical Review Team Forms for Disability Determinations:</strong></p>
+  <p>The state medical Review team completes disability determinations using the criteria defined by the Social Security Administration (SSA). The Criteria can be found in the <a href="http://www.ssa.gov/disability/professionals/bluebook/" target="_blank">SSA blue book</a>.</p>
+  <ul>
+  <li>State Medical Review Team <a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-6126-ENG" target="_blank">Children&rsquo;s Disability Worksheet</a> DHS Form 6126</li>
+  <li>State medical Review Team <a href="https://edocs.dhs.state.mn.us/lfserver/Public/DHS-6125-ENG-dform" target="_blank">Adult Disability Worksheet</a> DHS Form 6125</li>
+  </ul>
+
+  <p><strong>Children Under 26 on Their Parents&rsquo; Plan</strong></p>
+<p>The  health care reform law states that insurance providers offering dependent  coverage must allow adult children to be covered on their parent&rsquo;s health plans  until they reach age 26, regardless of if they are married or if they are not  living at home. The only exception is for adult children who can receive  insurance from their own employer; this exception ends in 2014. This law took  effect on September 23, 2010. Your insurance provider must have an enrollment  period for your adult child under 26 to be placed on your family plan. Call  your insurance company and ask when the open enrollment times are and how to  enroll your child.</p>
+<p>For more  detailed information on coverage for adult children under 26, please see <a href="http://kff.org/healthreform/upload/8065.pdf">Explaining  Health Care Reform:&nbsp; Questions About the  Extension of Dependent Coverage to Age 26</a> from the Kaiser Family  Foundation or <a href="http://www.whitehouse.gov/sites/default/files/rss_viewer/fact_sheet_young_adults_may10.pdf">Young Adults and the Affordable Care Act</a> produced  by the U.S. Department of Health and Human Services. Contact your own insurance  provider about your individual policy.</p>
+</div>
 
 
-
+</div>
+</hr>
 
 <!--END CONTENT-->
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
