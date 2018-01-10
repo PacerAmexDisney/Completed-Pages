@@ -1,94 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--#include virtual="/templates/header.asp"-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>F2F HIC - Preventive Health</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
-<script type="text/javascript" src="../css/menu.js"></script>
+
+<meta property="og:title" content="F2F HIC - Preventive Health" />
+<meta property="og:url" content="http://www.pacer.org/health/preventive-health.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
+
 <body>
-<div id="skiptocontent"> <a href="#maincontent">Skip to main content</a> </div>
-<div id="wrapper">
- <div id="main">
-  <div id="header">
-   <div>
-    <!--#include virtual="/googleSearchBox.htm"-->
-    <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-    <a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a> </div>
-   <!--#include virtual="/dynamicheader.htm"-->
-  </div>
-  <div id="rightBar">
-  
-  <div class="stayinformed">
-<h2 class="centered"><img src="/health/images/healthy-snacks.jpg" width="180" height="105" style="padding: .5em;" alt="Working Effectively With Doctors" /></h2>
-<h2 align="center">Fun, kid-friendly, fruit and veggie snacks!</h2>
-<p align="left">Check out <a href="http://www.choosemyplate.gov/" target="_blank">Choose My Plate</a> for some great ideas!</p>
-  <ul>
-  <li>Kid-Friendly Veggies and Fruits &ndash; <a href="http://www.choosemyplate.gov/food-groups/downloads/TenTips/DGTipsheet11KidFriendlyVeggiesAndFruits.pdf" target="_blank">English</a></li>
-  <li>Kid-friendly Veggies and Fruits - <a href="http://www.choosemyplate.gov/downloads/DGTipsheet11KidFriendlyVeggiesAndFruits-sp.pdf" target="_blank">Spanish</a></li>
-  </ul>
-</div>
-  
-   <p class="pacerinfo"> <strong>PACER Center<br />
-    952-838-9000</strong> </p>
-   <p class="pacerinfo2"> Champions for Children with Disabilities </p>
-   <p class="pacerinfo3"> <a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a> </p>
-   <div id="healthfinder" style="padding:10px 0 10px 40px; background-color:#fff;">
-   <script type="text/javascript" src="http://healthfinder.gov/widgets/myhealthfinder/content.aspx"></script><noscript><iframe src="http://healthfinder.gov/widgets/myhealthfinder/iframecontent.html" name="myhealthfinderframe" frameborder="0" id="Iframe1" scrolling="no" height="250" width="170" marginheight="0" title="myhealthfinder widget" marginwidth="0"></iframe></noscript>
-   </div>
-   
-   <div class="stayinformed">
-   <h2 align="center"><a href="http://hungersolutions.org/minnesota-food-helpline/" target="_blank">Minnesota Food HELPLINE</a> <i class="fa fa-external-link"></i><br />
-   1-888-711-1151</h2>
-   </div>
-   
-   
-  </div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+
   <div id="topbar">
    <div id="breadcrumb">
-    <div class="printemail">
-     <p> <img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a> </p>
-    </div>
+
     <a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> /
-    <h1> Health Information Center</h1>
+
    </div>
+   <h1> Health Information Center</h1>
   </div>
+
+  <script type="text/javascript">
+  	// ID of the current Left Nav item
+  	var currId="preventive";
+  	// current subtree that should be displayed
+  	var showTree = "currentPageSubtree";
+  	var showTree2 = "secondarySubtreeIfNeeded";
+  </script>
+
   <div id="leftbar">
-   <h2 style="display: none;">Health Navigation Menu</h2>
+
    <!--#include virtual="/health/leftNav.htm" -->
   </div>
-  <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
   <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="preventive";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
-	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "page";
-	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
-	var subTrees = document.getElementsByTagName("ul");
-	for (var i = 0; i < subTrees.length; i++) {
-		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
-				subTrees[i].className = "treemenuhidden";
-			}
-		}
-	}
-</script>
+  	// set current page
+  	if (document.getElementById(currId)){
+  		document.getElementById(currId).className = "page";
+  	}
+  	// collapse all subtrees except the one targeted above that the current page exists in.
+  	var subTrees = document.getElementsByTagName("ul");
+  	for (var i = 0; i < subTrees.length; i++) {
+  		if (subTrees[i].className == "treemenu") {
+  			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
+  				subTrees[i].className = "treemenuhidden";
+  			}
+  		}
+  	}
+  </script>
+
   <div id="maincontent">
    <div id="pagecontent">
     <h2 class="nounderline">Preventive Health</h2>
-    
+
     <!-- ################################################## BEGIN CONTENT ############################################################## -->
-    
+
     <p>Children and youth with disabilities and special health care needs benefit from health care and health programs for the same reasons everyone does &ndash; to stay well, active, and a part of the community &ndash; and there is a lot that parents can do to help maintain and improve their child&rsquo;s health. This page offers information that parents of children with disabilities and special health care needs can use to help the whole family live a healthier lifestyle.</p>
     <h3>Prevention and Health Care</h3>
     <p>Children with disabilities and special health care needs can benefit from a holistic approach to health care, one that meets their needs as a whole person, not just as a person with a disability or special health care need. That means having the tools and information to make healthy choices and the knowledge to prevent illness.</p>
@@ -132,13 +102,33 @@
       <li><a href="http://www.familyvoices.org/work/oral" target="_blank">Family Voices - Oral Health for Children and Youth with       Special Health Care Needs</a></li>
     </ul>
 
-    <!-- ################################################## END CONTENT ################################################## -->
-    
-    <div id="pageextender" style="clear:both">&nbsp;</div>
-   </div>
+<hr/>
+    <div id="rightBar">
+
+    <div class="stayinformed">
+  <h2 class="centered"><img src="/health/images/healthy-snacks.jpg" width="180" height="105" style="padding: .5em;" alt="Working Effectively With Doctors" /></h2>
+  <h2 align="center">Fun, kid-friendly, fruit and veggie snacks!</h2>
+  <p align="left">Check out <a href="http://www.choosemyplate.gov/" target="_blank">Choose My Plate</a> for some great ideas!</p>
+    <ul>
+    <li>Kid-Friendly Veggies and Fruits &ndash; <a href="http://www.choosemyplate.gov/food-groups/downloads/TenTips/DGTipsheet11KidFriendlyVeggiesAndFruits.pdf" target="_blank">English</a></li>
+    <li>Kid-friendly Veggies and Fruits - <a href="http://www.choosemyplate.gov/downloads/DGTipsheet11KidFriendlyVeggiesAndFruits-sp.pdf" target="_blank">Spanish</a></li>
+    </ul>
   </div>
- </div>
- <!--#include virtual="/footer.htm"-->
-</div>
-</body>
-</html>
+
+     <p class="pacerinfo"> <strong>PACER Center<br />
+      952-838-9000</strong> </p>
+     <p class="pacerinfo2"> Champions for Children with Disabilities </p>
+     <p class="pacerinfo3"> <a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a> </p>
+     <div id="healthfinder" style="padding:10px 0 10px 40px; background-color:#fff;">
+     <script type="text/javascript" src="http://healthfinder.gov/widgets/myhealthfinder/content.aspx"></script><noscript><iframe src="http://healthfinder.gov/widgets/myhealthfinder/iframecontent.html" name="myhealthfinderframe" frameborder="0" id="Iframe1" scrolling="no" height="250" width="170" marginheight="0" title="myhealthfinder widget" marginwidth="0"></iframe></noscript>
+     </div>
+
+     <div class="stayinformed">
+     <h2 align="center"><a href="http://hungersolutions.org/minnesota-food-helpline/" target="_blank">Minnesota Food HELPLINE</a> <i class="fa fa-external-link"></i><br />
+     1-888-711-1151</h2>
+     </div>
+
+
+    </div>
+    <!--END CONTENT-->
+    <!--#include virtual="/templates/footer.asp"-->
