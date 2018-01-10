@@ -1,71 +1,60 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>F2F HIC - Transition Planning Information</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" media="screen, projection" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
-<script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
-<link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 
-
+<meta property="og:title" content="F2F HIC - Transition Planning Information" />
+<meta property="og:url" content="http://www.pacer.org/health/For-Medical-Professionals/trans-planning-info.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
 </head>
+
+
 <body>
-<div id="skiptocontent"> <a href="#maincontent">Skip to main content</a> </div>
-<div id="wrapper">
-  <div id="main">
-    <div id="header">
-      <div> <!--#include virtual="/googleSearchBox.htm"--> 
-        <!-- Contains Contact Pacer | Donate | Google search bar | Social media --> 
-        <a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a> </div>
-      <!--#include virtual="/dynamicheader.htm"--> 
-    </div>
-    <div id="pagetoporange">
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+    <div id="topbar">
       <div id="breadcrumb"><a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / <a href="/health/health-care-providers.asp">Health</a> / <a href="/health/For-Medical-Professionals/index.asp">For Medical Professionals</a> /
-        <h1> Health Information Center</h1>
+
       </div>
+      <h1> Health Information Center</h1>
     </div>
-    <div id="leftbar"> 
-      <!--#include virtual="/health/leftNav.htm" --> 
-      <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show --> 
-      <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="fmpsub-transplanninginfo";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "health-fmpsub";
-	
-	if (document.getElementById(currId)){
-		document.getElementById(currId).className = "page";
-	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
-	var subTrees = document.getElementsByTagName("ul");
-	for (var i = 0; i < subTrees.length; i++) {
-		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
-				subTrees[i].className = "treemenuhidden";
-			}
-		}
-	}
-</script> 
+
+    <script type="text/javascript">
+    	// ID of the current Left Nav item
+    	var currId="health-fmpsub";
+    	// current subtree that should be displayed
+    	var showTree = "currentPageSubtree";
+    	var showTree2 = "secondarySubtreeIfNeeded";
+    </script>
+
+    <div id="leftbar">
+      <!--#include virtual="/health/leftNav.htm" -->
     </div>
+
+    <script type="text/javascript">
+    	// set current page
+    	if (document.getElementById(currId)){
+    		document.getElementById(currId).className = "page";
+    	}
+    	// collapse all subtrees except the one targeted above that the current page exists in.
+    	var subTrees = document.getElementsByTagName("ul");
+    	for (var i = 0; i < subTrees.length; i++) {
+    		if (subTrees[i].className == "treemenu") {
+    			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
+    				subTrees[i].className = "treemenuhidden";
+    			}
+    		}
+    	}
+    </script>
+
     <div id="maincontent">
-      <div id="pagecontentright" style="min-height:500px;"> 
-        
+      <div id="pagecontentright" style="min-height:500px;">
+
         <!--BEGIN CONTENT-->
-        
+
         <h2>Transition Planning Information for Physicians to Share with Families</h2>
         <p>Transition planning is a process that occurs as teens develop and become young adults and learn to function more independently. It is a time of realizing potential, developing a sense of self, and functioning more autonomously. Transition can be difficult. Youth with special health care needs (YSHCN), including those with disabilities, can find this time challenging. Many transition areas will require the learning of new skills that take time, practice, and adaptations to be accomplished.</p>
         <p>Transition planning for these youth requires planning, and will evolve and may change over time. Some articles recommend that the process begin as early as age 12, but clearly by 14. Skills such as organization, self-advocacy, learning about one&rsquo;s disability, and addressing the many areas of life where assistance might be needed take time to develop. The following discussion points are provided as a framework to assist families, physicians, and young adults with special health care needs to begin the conversation, and help them transition to the most independent life possible.</p>
@@ -75,14 +64,14 @@ if (typeof jQuery == 'undefined')
           <li>High school to post-secondary education or employment</li>
           <li>Transition from home to more independence in the community</li>
         </ol>
-           <div role="button" tabindex="0" id="ExpandAll">Expand All</div> 
+           <div role="button" tabindex="0" id="ExpandAll">Expand All</div>
             <h3 class="ExpandHeader"> <em style="font-size:10px;">(click to expand)</em> Transfer from pediatric health care to adult providers</h3>
             <p>A young person&rsquo;s health is critical to his or her overall well-being. Good health is crucial for individuals to be successful at home, work, school, and in the community. For individuals with disabilities, transition planning may involve understanding how to manage their chronic health condition as well as having the ability to recognize and address issues related to an acute illness, and developing a healthy lifestyle. To ensure a successful transition, youth with special health care needs have to secure accommodations or needed supports that enable them to be successful:</p>
             <div class="ExpandItem">
                 <ol>
                   <li><strong>Transition planning goals: </strong>It is important to identify the short- and long-term goals that lead to healthy living, independence, and employment. These may change as the teen matures and learns more about the potential long-term impact of his or her disability. An individual&rsquo;s goals may shape care coordination when the health care transition process begins. When setting goals, it is also important to consider the cultural and racial values of individuals with diverse backgrounds.<br />
                     <br />
-                    
+
                     <div class="ExpandHeader">
                         <em>Areas of specific goals to discuss with parents and youth:</em>
                     </div>
@@ -133,7 +122,7 @@ if (typeof jQuery == 'undefined')
                      </div>
                   </li>
                   <li><strong>Addressing basic health care needs</strong>: All youth, including those with special health care needs, have basic health needs to consider, including nutrition, hygiene, exercise, substance abuse, safety, risk-taking behaviors, reproductive education, and sexuality. Some youth will need extra supports in place to make good decisions, and master these skills.</li>
-                  
+
                   <li><strong>Organizational skills needed for success</strong>: Identify skills that the parent and youth can include in the Individualized Education Program (IEP). Transition goals on the IEP can be connected to medical transition needs.<br />
                     <br />
                     <div class="ExpandHeader">
@@ -153,7 +142,7 @@ if (typeof jQuery == 'undefined')
                         </ul>
                     </div>
                   </li>
-                  
+
                   <li><strong>Ensuring compliance</strong>: Compliance with medication is often the cornerstone to successful transition for many youth with special health care needs or disabilities. It is important to answer these questions:<br />
                     <br />
                     <div class="ExpandHeader">
@@ -171,7 +160,7 @@ if (typeof jQuery == 'undefined')
                         </ul>
                     </div>
                   </li>
-                  
+
                   <li><strong>Health care financing: </strong>There are a number of resources available to youth with special health care needs to cover their health care-related expenses. Families or guardians need to contact their city, county, or state disability service office to apply.<br />
                     <br />
                     <div class="ExpandHeader">
@@ -192,7 +181,7 @@ if (typeof jQuery == 'undefined')
                         </ul>
                     </div>
                   </li>
-                  
+
                   <li><strong>Transferring care</strong>: The transfer should occur as an integrated plan and be as seamless as possible. There are some changes that occur during transfer from pediatric to adult health care systems:
                     <ol type="A">
                       <li>The process of transferring from pediatric to adult health care:<br />
@@ -233,12 +222,12 @@ if (typeof jQuery == 'undefined')
                   <li><strong>Additional resources</strong>: For additional resources, please visit PACER.org/health.</li>
                 </ol>
         	</div>
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
         <h3 class="ExpandHeader">Transition from high school to post-secondary, education or employment</h3>
         <p>After leaving high school, young adults, including those with special health care needs and disabilities, take a variety of paths toward further education or work experiences depending on their interests and abilities. Some may have the abilities needed to pursue higher education but will need physical accommodations.</p>
         <div class="ExpandItem">
@@ -354,7 +343,7 @@ if (typeof jQuery == 'undefined')
         </div>
         <h3 class="ExpandHeader">Transition plan from home to more independence within the community</h3>
         <p>The issue of adolescence for all teens and young adults is the transition to interdependence, learning to take care of themselves, and functioning as a contributing member of their community. At this age, some youth with special health care needs and disabilities may not have mastered all of the basic skills of daily hygiene, or may be physically unable to perform tasks without assistance. Additional supports in housing, transportation, decision making, and financial management may be needed in order for the individual to be successful.</p>
-        <div class="ExpandItem">    
+        <div class="ExpandItem">
             <ol>
               <li><strong>Accessing services</strong>: Until age 18, family members and others have located information and services for their young child with special needs. How will that change?<br />
                 <br />
@@ -458,19 +447,10 @@ if (typeof jQuery == 'undefined')
               </li>
             </ol>
         </div>
-        
-        
-        
+
+
+
         <p>Transition for youth with special health care needs can be a very positive experience as well as a challenging process that requires the collaboration of medical providers, schools, and families. It is important for families to start the process when the youth is 12 to 14 years old, and identify short- and long-term goals. Progress toward these goals can be broken down into small steps and included in both the IEP and physician visits. The goals will likely be modified over time as the individual matures and becomes a young adult. The discussion points and checklists provided here are intended as a helpful starting point for physicians and families to assist teens and young adults as they transition into independent living.</p>
-      
-      
-      
-      <!--close pagecontent--></div>
-    <!--close maincontent--></div>
-  <!--close main--></div>
-  
-  <!--#include virtual="/footer.htm"--> 
-  
-</div>
-</body>
-</html>
+
+        <!--END CONTENT-->
+        <!--#include virtual="/templates/footer.asp"-->
