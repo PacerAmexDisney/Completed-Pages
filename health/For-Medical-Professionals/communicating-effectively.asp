@@ -1,78 +1,57 @@
-<% Dim currentPage 
+<!--#include virtual="/templates/header.asp"-->
 
-currentPage = "health-enews-2012-05.html"
-
-%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>F2F HIC - Communicating effectively with Diverse families</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+
+<meta property="og:title" content="F2F HIC - Communicating effectively with Diverse families" />
+<meta property="og:url" content="http://www.pacer.org/health/For-Medical-Professionals/communicating-effectively.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
+
+
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-      <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-
-
-
-<div id="pagetoporange">
+<div id="topbar">
 <div id="breadcrumb">
-  <div class="printemail">
-   <p> <img src="/css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a> </p>
-  </div>
+
 <a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / <a href="/health/health-care-providers.asp">Health</a> / <a href="/health/For-Medical-Professionals/">For Medical Professionals</a> /
-<h1> Health Information Center</h1>
+
   </div>
+	<h1> Health Information Center</h1>
 </div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="fmpsub-communicating";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
 
 <div id="leftbar">
 <!--#include virtual="/health/leftNav.htm" -->
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
+</div>
+
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="fmpsub-communicating";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "health-fmpsub";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
 	}
 </script>
-
-
-</div>
 
 <div id="maincontent">
 
@@ -131,18 +110,5 @@ Information for medical providers who are interested in providing language servi
   </ul>
 
 
-
-<!--END CONTENT-->
-<div id="pageextender" style="clear:both">&nbsp;</div>
-
-
-</div>
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+	<!--END CONTENT-->
+	<!--#include virtual="/templates/footer.asp"-->
