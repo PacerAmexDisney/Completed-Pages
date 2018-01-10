@@ -54,12 +54,12 @@
 
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 
 <h2>Working together with families to improve the system of care for children and youth with special health care needs</h2>
-<h3><img class="fltrt" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />Pediatric Resident Training Program</h3>
+<h3><img class="fltrt mobileCentered" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />Pediatric Resident Training Program</h3>
 <p> The Pediatric Resident Training Program (PRTP) is a three-part teaching program on family-centered care for 1st and 2nd year pediatric residents at the University of Minnesota Medical School. The purpose is to teach principles of family centered care and to provide a family&rsquo;s perspective on health care for children and youth with special health care needs.</p>
 <ol>
  <li>Pediatric residents meet with a PRTP facilitator for a session on working with families and youth in a medical home and a general overview of family-centered care.</li>
@@ -81,7 +81,7 @@
 </ul>
 <hr />
 <h2>Minnesota Specific Information for Health Care Professionals about Working with Families with special health care needs</h2>
-<p><img class="fltrt" style="padding-bottom:60px; margin-top:0px" src="/health/images/siblings-around-brother.jpg" width="350" height="233" alt="" />As health care providers know, children and youth with disabilities and special health care needs require more intensive and specialized day-to-day care than is typical for other children. Much of this care is accomplished by families, while they deal with a fragmented and complex system of services and supports. Health care providers can assist families by:</p>
+<p><img class="fltrt mobileCentered" style="padding-bottom:60px; margin-top:0px" src="/health/images/siblings-around-brother.jpg" width="350" height="233" alt="" />As health care providers know, children and youth with disabilities and special health care needs require more intensive and specialized day-to-day care than is typical for other children. Much of this care is accomplished by families, while they deal with a fragmented and complex system of services and supports. Health care providers can assist families by:</p>
 <h4>Understanding the basics of health care financing<br />and financial resources</h4>
 <ul>
  <li>There are public health insurance and other financial supports for families of children with disabilities.

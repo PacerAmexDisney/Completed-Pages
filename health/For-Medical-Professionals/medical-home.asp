@@ -9,6 +9,66 @@
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
+<script type="text/javascript">
+var mainDescriptionHeight;
+$(document).ready(function() {
+	$('#mainReadMore').click(function() {
+		$('#mainDescription').animate({
+			height: mainDescriptionHeight
+			}, 2000, function() {
+				$('#mainReadMore').hide();
+			});
+	});
+	//Shrink Window on Load
+	mainDescriptionHeight = $('#mainDescription').height();
+	$('#mainDescription').animate({
+		height: '200px'}, 1000, function() {
+			$('#mainReadMore').css('display', 'block');
+	});
+});
+ 
+
+</script>
+
+<style type="text/css">
+#mainDescriptionWrapper{
+	position:relative;
+	border-bottom:1px solid #ccc;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+#mainDescription{
+	height:auto;
+	padding:5px;
+	border:5px solid #99A776;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+
+
+
+#mainReadMore{
+	display:none;
+	position:absolute;
+	bottom:30px;
+	left:15px;
+	width:8em;
+	text-align:center;
+	background:#eee;
+	border:1px solid #ccc;
+	padding:3px;
+	cursor:pointer;
+	user-select:none;
+}
+#mainReadMore:active{
+	background:#999;
+}
+
+
+
+</style>
+
 </head>
 
 
@@ -26,7 +86,7 @@
 	// ID of the current Left Nav item
 	var currId="fmpsub-medicalhome";
 	// current subtree that should be displayed
-	var showTree = "currentPageSubtree";
+	var showTree = "health-fmpsub";
 	var showTree2 = "secondarySubtreeIfNeeded";
 </script>
 
@@ -53,7 +113,7 @@
 
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 
@@ -117,8 +177,8 @@
 <div id="mainReadMore"><u>Show More</u> &darr;</div>
 </div>
 
-<%'----------------------------------------------- LINK RESOURCES ---------------------------- %>
-<h3>Creating a Medical Home</h3>
+<%'----------------------------------------------- LINK RESOURCES ----------------------------' %>
+<h3 class="greenBar">Creating a Medical Home</h3>
 <p><a href="http://www.medicalhomeinfo.org/" target="_blank">National Center for Medical Home Implementation | American Academy of Pediatrics</a><br />
 Resource for health professionals, families, and anyone interested in creating a medical home for all children and youth. </p>
 <ul>
@@ -135,7 +195,7 @@ Resource for health professionals, families, and anyone interested in creating a
  <li><a href="http://www.medicalhomeinfo.org/downloads/pdfs/Positioning_FINAL_May24.pdf" target="_blank">&ldquo;Positioning the Family and Patient at the Center: A Guide to Family and Patient Partnership in the Medical Home&rdquo;</a></li>
 
 </ul>
-<h3>Guidance for and current performance of established Medical Homes</h3>
+<h3 class="greenBar">Guidance for and current performance of established Medical Homes</h3>
 <p><a href="http://www.medicalhomeimprovement.org/projects/national.html" target="_blank">Center for Medical Home Improvement: National Medical Home Projects</a><br />
 National organizations providing guidance and information to medical providers and parents.</p>
  <p><a href="http://www.childhealthdata.org/browse/medicalhome" target="_blank">Medical Home State Data Pages</a><br />

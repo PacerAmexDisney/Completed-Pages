@@ -29,7 +29,7 @@
 	// ID of the current Left Nav item
 	var currId="fmpsub-technology";
 	// current subtree that should be displayed
-	var showTree = "currentPageSubtree";
+	var showTree = "health-fmpsub";
 	var showTree2 = "secondarySubtreeIfNeeded";
 </script>
 
@@ -56,16 +56,15 @@
 
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 
 <h2>Technology options for Patients</h2>
-<img class="fltrt" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />
+<img class="fltrt mobileCentered" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />
 <p>Assistive technology can be a device or service that helps children with disabilities participate more independently within their environment at home or school.</p>
 
-<h3>Assistive Technology for home and community</h3>
-  <p><strong>Tablet Apps:</strong></p>
+<h3 class="greenBar" style="margin-right: 5px;">Tablet Apps</h3>
 <ul>
   <li><strong>Cancer.net</strong><br />
   Q&amp;A Section suggestions of questions to ask oncologist and other physicians along with an area to compose individual questions</li>
@@ -74,7 +73,9 @@
   <li><strong>Medfile</strong><br />
   Create, manage and access medical records</li>
 </ul>
-<p><strong>Resources:</strong></p>
+
+    
+<h3 class="greenBar">Resources</h3>
  <p> <a href="http://www.aacinstitute.org" target="_blank">Augmentative and Alternative Communication Institute</a> (AAC)<br />
  	Information and resources for children and adults with communication disorders or who cannot speak </p>
   <p><a href="http://aac.unl.edu/yaack/index.html" target="_blank">Augmentative and Alternative Communication Connecting Young Kids</a> (YAACK) <br />
@@ -92,7 +93,8 @@
 Augmentative and Alternative Communication</p>
 <!--<p><a href="http://www.startribune.com/lifestyle/health/224876322.html" target="_blank">FDA lays out regulations for mobile device apps that work like medical devices</a><br />
 Article by: Associated Press; September 23, 2013</p> -->
-<p><strong>Resources for Parents:</strong></p>
+
+<h3 class="greenBar">Resources for Parents</h3>
   <p><a href="http://www.asha.org/NJC/bill_of_rights.htm" target="_blank">Augmentative and alternative Communication Users Bill of Rights</a><br />
   National Joint Committee for the Communication Needs of Persons with Severe Disabilities summary of AAC user rights.</p>
   <p><a href="http://www.pacer.org/parent/php/PHP-c75.pdf" target="_blank">Augmentative Communication Device Helps Max Speak</a><br />
@@ -113,9 +115,17 @@ Article by: Associated Press; September 23, 2013</p> -->
   <li>Low-Tech/No Tech &ndash; High-Tech Options</li>
   <li>Minnesota AAC Lending Library Resources</li>
 </ul>
-<p><strong>In Minnesota:</strong></p>
-  <p><a href="http://www.pacer.org/stc/" target="_blank">Simon Technology Center</a> (PACER Center)<br />
-  Opportunities for children and adults with disabilities, and their families, to find technology to meet their needs. Includes <a href="http://www.pacer.org/stc/consultations/" target="_blank">technology consultations</a>, <a href="http://www.pacer.org/stc/library/" target="_blank">lending library</a>, <a href="http://www.pacer.org/stc/individualtrainings.asp" target="_blank">individual training session</a>, <a href="http://www.pacer.org/stc/videos/" target="_blank">videos of assistive technology options</a> and <a href="http://www.pacer.org/stc/super/" target="_blank">options to purchase used equipment</a>.</p>
+
+    <h3 class="greenBar">In Minnesota</h3>
+  <p><a href="http://www.pacer.org/stc/" target="_blank">Simon Technology Center <em>(PACER Center)</em></a><br />
+  Opportunities for children and adults with disabilities, and their families, to find technology to meet their needs. Includes:</p>
+    <ul>
+        <li><a href="http://www.pacer.org/stc/consultations/" target="_blank">technology consultations</a></li>
+        <li><a href="http://www.pacer.org/stc/library/" target="_blank">lending library</a></li>
+        <li><a href="http://www.pacer.org/stc/individualtrainings.asp" target="_blank">individual training session</a></li>
+        <li><a href="http://www.pacer.org/stc/videos/" target="_blank">videos of assistive technology options</a></li>
+        <li><a href="http://www.pacer.org/stc/super/" target="_blank">options to purchase used equipment</a></li>
+    </ul>
 <p><a href="http://www.starprogram.state.mn.us/" target="_blank">STAR program</a><br />
     Minnesota&rsquo;s Assistive Technology Act Program: </p>
 <ul>

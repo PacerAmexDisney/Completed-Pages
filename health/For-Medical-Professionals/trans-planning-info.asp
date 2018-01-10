@@ -9,6 +9,9 @@
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
+<script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
+
 </head>
 
 
@@ -24,9 +27,9 @@
 
     <script type="text/javascript">
     	// ID of the current Left Nav item
-    	var currId="health-fmpsub";
+    	var currId="fmpsub-transplanninginfo";
     	// current subtree that should be displayed
-    	var showTree = "currentPageSubtree";
+    	var showTree = "health-fmpsub";
     	var showTree2 = "secondarySubtreeIfNeeded";
     </script>
 
@@ -51,7 +54,7 @@
     </script>
 
     <div id="maincontent">
-      <div id="pagecontentright" style="min-height:500px;">
+      <div id="pagecontent">
 
         <!--BEGIN CONTENT-->
 
@@ -59,14 +62,15 @@
         <p>Transition planning is a process that occurs as teens develop and become young adults and learn to function more independently. It is a time of realizing potential, developing a sense of self, and functioning more autonomously. Transition can be difficult. Youth with special health care needs (YSHCN), including those with disabilities, can find this time challenging. Many transition areas will require the learning of new skills that take time, practice, and adaptations to be accomplished.</p>
         <p>Transition planning for these youth requires planning, and will evolve and may change over time. Some articles recommend that the process begin as early as age 12, but clearly by 14. Skills such as organization, self-advocacy, learning about one&rsquo;s disability, and addressing the many areas of life where assistance might be needed take time to develop. The following discussion points are provided as a framework to assist families, physicians, and young adults with special health care needs to begin the conversation, and help them transition to the most independent life possible.</p>
         <p>Transition can be divided into three major areas:</p>
-        <ol>
+        <ol style="margin-bottom: 50px;">
           <li>Transition from pediatric health care to adult providers</li>
           <li>High school to post-secondary education or employment</li>
           <li>Transition from home to more independence in the community</li>
         </ol>
+          
            <div role="button" tabindex="0" id="ExpandAll">Expand All</div>
-            <h3 class="ExpandHeader"> <em style="font-size:10px;">(click to expand)</em> Transfer from pediatric health care to adult providers</h3>
-            <p>A young person&rsquo;s health is critical to his or her overall well-being. Good health is crucial for individuals to be successful at home, work, school, and in the community. For individuals with disabilities, transition planning may involve understanding how to manage their chronic health condition as well as having the ability to recognize and address issues related to an acute illness, and developing a healthy lifestyle. To ensure a successful transition, youth with special health care needs have to secure accommodations or needed supports that enable them to be successful:</p>
+            <h3 class="ExpandHeader greenBar"> <em style="font-size:10px;">(click to expand)</em> Transfer from pediatric health care to adult providers</h3>
+            <p>A young person&rsquo;s health is critical to his or her overall well-being. Good health is crucial for individuals to be successful at home, work, school, and in the community. For individuals with disabilities, transition planning may involve understanding how to manage their chronic health condition as well as having the ability to recognize and address issues related to an acute illness, and developing a healthy lifestyle. To ensure a successful transition, youth with special health care needs have to secure accommodations or needed supports that enable them to be successful.</p>
             <div class="ExpandItem">
                 <ol>
                   <li><strong>Transition planning goals: </strong>It is important to identify the short- and long-term goals that lead to healthy living, independence, and employment. These may change as the teen matures and learns more about the potential long-term impact of his or her disability. An individual&rsquo;s goals may shape care coordination when the health care transition process begins. When setting goals, it is also important to consider the cultural and racial values of individuals with diverse backgrounds.<br />
@@ -228,7 +232,7 @@
 
 
 
-        <h3 class="ExpandHeader">Transition from high school to post-secondary, education or employment</h3>
+        <h3 class="ExpandHeader greenBar">Transition from high school to post-secondary, education or employment</h3>
         <p>After leaving high school, young adults, including those with special health care needs and disabilities, take a variety of paths toward further education or work experiences depending on their interests and abilities. Some may have the abilities needed to pursue higher education but will need physical accommodations.</p>
         <div class="ExpandItem">
             <ol>
@@ -341,7 +345,7 @@
               </li>
             </ol>
         </div>
-        <h3 class="ExpandHeader">Transition plan from home to more independence within the community</h3>
+        <h3 class="ExpandHeader greenBar">Transition plan from home to more independence within the community</h3>
         <p>The issue of adolescence for all teens and young adults is the transition to interdependence, learning to take care of themselves, and functioning as a contributing member of their community. At this age, some youth with special health care needs and disabilities may not have mastered all of the basic skills of daily hygiene, or may be physically unable to perform tasks without assistance. Additional supports in housing, transportation, decision making, and financial management may be needed in order for the individual to be successful.</p>
         <div class="ExpandItem">
             <ol>

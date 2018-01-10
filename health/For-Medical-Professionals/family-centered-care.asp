@@ -29,7 +29,7 @@
 	// ID of the current Left Nav item
 	var currId="fmpsub-familycentered";
 	// current subtree that should be displayed
-	var showTree = "currentPageSubtree";
+	var showTree = "health-fmpsub";
 	var showTree2 = "secondarySubtreeIfNeeded";
 </script>
 
@@ -55,7 +55,7 @@
 
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 
@@ -88,17 +88,20 @@
   Helping families of children and youth with special health care needs/disabilities and professional partner to improve care.</p>
   <p><a href="http://www.ipfcc.org/index.html" target="_blank">Institute for Patient- and Family-Centered Care</a><br />
   Information to advance the understanding and practice of patient- and family-centered care in hospitals and other health care settings. </p>
-<ul>
-  <li><a href="http://www.ipfcc.org/advance/topics/Ambulatory-Care-Key-Concepts.pdf" target="_blank">Patient- And Family-Centered Ambulatory Care: A Checklist for Providers</a><br />
-  Checklist for medical professions to determine if the programs their organization is Patient- and Family-centered</li>
-</ul>
+    <div class="resources">
+        <h3>Additional ipfcc.org resources</h3>
+    <ul>
+      <li><a href="http://www.ipfcc.org/advance/topics/Ambulatory-Care-Key-Concepts.pdf" target="_blank">Patient- And Family-Centered Ambulatory Care: A Checklist for Providers</a><br />
+      Checklist for medical professions to determine if the programs their organization is Patient- and Family-centered</li>
+    </ul>
+    </div>
 <p><a href="http://mchb.hrsa.gov/cshcn05/mco/intro.htm" target="_blank">Health Resources and Services Administration, Maternal and Child Health Bureau Core Outcomes: Key Measures of Performance</a><br />
 Six Core Outcomes to promote community-based system of services mandated for Children with Special Health Care Needs</p>
   <p><a href="/health/pdfs/Family-Centered-Care.pdf" target="_blank">Positioning the Family and Patient at the Center</a><br />
   A Guide to Family and Patient Partnership in the Medical Home </p>
   <p><a href="/health/For-Medical-Professionals/pdfs/How-To-Help-Children.pdf" target="_blank">How to Help Children with Disabilities and Special Health Care Needs Receive Support at School</a><br />
     Information on Section 504 and how children with special health care needs may be eligible for services and accommodations in public school settings.  </p>
-	<p><a href="/health/For-Medical-Professionals/pdfs/Six-Tips-For-Parents.pdf" target="_blank">Six Tips for Helping Parents Advocate for Their Child�s Care</a><br />
+	<p><a href="/health/For-Medical-Professionals/pdfs/Six-Tips-For-Parents.pdf" target="_blank">Six Tips for Helping Parents Advocate for Their Child&rsquo;s Care</a><br />
 	Ideas for medical professionals on supporting parents of children with special health care needs in advocating for the services and supports their child needs in public school settings.</p>
 	<p><a href="http://www.pacer.org/parent/php/PHP-c31.pdf">It&rsquo;s the &lsquo;Person First&rsquo; Then the Disability</a><br />
     Examples of appropriate ways addressing a person with a disability</p>

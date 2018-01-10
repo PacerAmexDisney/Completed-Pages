@@ -29,7 +29,7 @@
 	// ID of the current Left Nav item
 	var currId="fmpsub-community";
 	// current subtree that should be displayed
-	var showTree = "currentPageSubtree";
+	var showTree = "health-fmpsub";
 	var showTree2 = "secondarySubtreeIfNeeded";
 </script>
 
@@ -56,7 +56,7 @@
 
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 
@@ -64,7 +64,7 @@
 <p>Options for families and youth with special health care needs to connect to supports needed in the home and community.</p>
 
 
-<h3>National Resources</h3>
+<h3 class="greenBar">National Resources</h3>
 <ul>
 	<li><a href="http://mchb.hrsa.gov/programs/familytofamily/index.html">Family to Family Health Information Center</a></li>
 	<li><a href="http://www.parentcenternetwork.org/parentcenterlisting.html">Parent Training and Information Center</a> <br />
@@ -78,7 +78,7 @@
     A network of interdisciplinary centers advancing policy and practice for and with individuals with developmental and other disabilities, their families, and communities
 	</li>
 </ul>
-<h3>Resources In Minnesota</h3>
+<h3 class="greenBar">Resources In Minnesota</h3>
   <ul>
     <li><a href="http://www.pacer.org/">PACER Center</a><br />
     Parent Training and Information Center for Minnesota.&nbsp; Includes the <a href="http://www.pacer.org/health/">Health Information Center</a> and <a href="http://www.pacer.org/parent/">Educational resources</a> for families of children with disabilities and special health care needs </li>
@@ -92,7 +92,7 @@
   <li><a href="http://mn.gov/mnddc/" target="_blank">Minnesota Governor&rsquo;s Council on Developmental Disabilities</a><br />
   Education and funding for initiatives promoting independence and inclusion for people with developmental disabilities. </li>
 </ul>
-  <h3>Parent Resources</h3>
+  <h3 class="greenBar">Parent Resources</h3>
   <ul>
   <li><a href="http://www.ncset.org/publications/viewdesc.asp?id=1431" target="_blank">Person Centered Planning <span class="fa fa-external-link"></span></a><br />
   A Tool for Transition: Using Person Centered Planning to assist teenagers and young adults plan and prepare for transitions.</li>

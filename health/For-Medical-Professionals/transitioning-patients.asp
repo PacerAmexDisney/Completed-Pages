@@ -24,9 +24,9 @@
 
 <script type="text/javascript">
 	// ID of the current Left Nav item
-	var currId="health-fmpsub";
+	var currId="fmpsub-transition";
 	// current subtree that should be displayed
-	var showTree = "currentPageSubtree";
+	var showTree = "health-fmpsub";
 	var showTree2 = "secondarySubtreeIfNeeded";
 </script>
 
@@ -52,12 +52,12 @@
 
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 
 <h2>Transitioning Patients from Pediatric to Adult Care</h2>
-<img class="fltrt" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />
+<img class="fltrt mobileCentered" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />
 
 <p>One way to improve health outcomes for youth with special health care needs is ensuring that they successfully transition from pediatric to adult health care. Health care providers help with this transition by ensuring youth:</p>
 <ul>
@@ -65,7 +65,7 @@
   <li>Take more responsibility for managing their own care</li>
   <li>Identify appropriate adult health care providers</li>
   <li>Maintain insurance coverage</li></ul>
-<h3>National resources</h3>
+<h3 class="greenBar" style="margin-right: 5px;">National resources</h3>
 <p><a href="http://gottransition.org/" target="_blank">Got Transition</a><br />
 National Health Care Transition Center for families supporting youth and young adults to access health systems as new health care consumers.</p>
 <ul>
@@ -82,7 +82,7 @@ Information on Healthcare Transitions for young adults</p>
 National initiatives in education, research, policy analysis and technical assistance in support of health outcomes for adolescents and the infrastructure changes needed to achieve them.</p>
   <p><a href="http://sfari.org/news-and-opinion/news/2013/study-aims-to-capture-autisms-transition-into-adulthood?utm_source=Autism+research+news+from+SFARI.org&amp;utm_campaign=704aeddece-SFARI_Newsletter_130827&amp;utm_medium=email&amp;utm_term=0_0a60ccb345-704aeddece-388518465" target="_blank">Simons Foundation Autism Research Initiative: Study aims to capture autism's transition into adulthood</a><br />
   A new study in the UK looks at young adults who are diagnosed with Autism Spectrum Disorders and the transition from pediatric to adult health care.</p>
-<h3>In Minnesota</h3>
+<h3 class="greenBar">In Minnesota</h3>
   <p><a href="http://www.health.state.mn.us/divs/cfh/program/cyshn/" target="_blank">Youth and Young Adults Planning for the Future</a><br />
   Minnesota Department of Health Transition Resources</p>
 <ul>
@@ -99,7 +99,7 @@ National initiatives in education, research, policy analysis and technical assis
 Employment options for youth and adults with disabilities</p>
   <p><a href="http://www.mndisability.gov/public/" target="_blank">Disability Minnesota</a><br />
   Programs, products and services devoted to disability issues in Minnesota</p>
-  <h3>Resources for families and young adult consumers</h3>
+  <h3 class="greenBar">Resources for families and young adult consumers</h3>
   <ul>
     <li><a href="https://www.healthcare.gov/young-adults">HealthCare.gov</a><br />
     Health Care coverage information for Young Adults</li>

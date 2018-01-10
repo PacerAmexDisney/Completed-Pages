@@ -8,7 +8,9 @@
 <meta property="og:url" content="http://www.pacer.org/health/links.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
-
+<style type="text/css">
+    #pagecontent p {line-height: 2;}
+</style>
 </head>
 
 <body>
@@ -56,20 +58,21 @@
 
 <div id="pagecontent">
 
-<h2 class="nounderline">Links</h2>
+<h2>Links</h2>
 
 
 <!--BEGIN CONTENT-->
 
+    <div class="alertBox mobileCentered">
 <h3>
-Sections:
+Sections:</h3>
 <ul class="space">
 <li><a href="#MN">Minnesota Resources</a></li>
 <li><a href="#national">National Resources</a></li>
-</ul></h3>
+</ul>
+    </div>
 
-
-<h3 class="nounderline"><a target="_blank" name="MN">Minnesota Resources</a></h3>
+<h3 id="MN" class="greenBar">Minnesota Resources</h3>
 <h4>Assistive Technology</h4>
 <p>
 <a target="_blank" href="../stc/index.asp">Simon Technology Center</a><br />
@@ -136,7 +139,7 @@ Sections:
 <a target="_blank" href="http://www.state.mn.us/portal/mn/jsp/home.do?agency=NorthStar">North Star - Minnesota State Government Online</a>
 </p>
 
-<h3 class="nounderline"><a target="_blank" name="national">National Resources</a></h3>
+<h3 id="national" class="greenBar">National Resources</h3>
 <h4>Disability/Health Information Resources</h4>
 <p>
 <a target="_blank" href="http://www.cerebralpalsyguide.com">
@@ -190,7 +193,7 @@ Disability.gov</a><br />
 <p>
 <a target="_blank" href="http://www.gottransition.org/">National Health Care Transition Center - Got Transition</a>
 <br />
-<a target="_blank" href="http://www.pacer.org/transition/">PACER�s National Parent Center on Transition and Employment</a> </p>
+<a target="_blank" href="http://www.pacer.org/transition/">PACER&rsquo;s National Parent Center on Transition and Employment</a> </p>
 <h4>Other Links</h4>
 <p>
 <a target="_blank" href="http://ncemch.org/families/insurance.php">Children and Youth with Special Health Care Needs Knowledge Path</a> <br />
@@ -198,24 +201,5 @@ Disability.gov</a><br />
 <a target="_blank" href="http://www2.aap.org/advocacy/emergprep.htm">Emergency Preparedness for Children with Special Health Care Needs</a> <br />
 <a target="_blank" href="http://nccc.georgetown.edu/">National Center for Cultural Competence (NCCC)</a></p>
 
-<hr>
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-<p class="stayinformed">
-<em>As a parent of a child with a chronic illness, information is essential because it provides me with education I need to make decisions for my child's care. Access to this information is vital because it helps me navigate the health care system and achieve the best care possible for my child.</em><br /><br />
-- Carolyn G.
-</p>
-</div>
-</hr>
 <!--END CONTENT-->
 <!--#include virtual="/templates/footer.asp"-->

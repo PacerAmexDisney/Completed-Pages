@@ -5,7 +5,7 @@
 <title>F2F HIC - Health Care Professionals</title>
 
 <meta property="og:title" content="F2F HIC - Health Care Professionals" />
-<meta property="og:url" content="http://www.pacer.org/health/For-Medical-Professionals/index.asp" />
+<meta property="og:url" content="http://www.pacer.org/health/For-Medical-Professionals/" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 
@@ -27,7 +27,7 @@
 	// ID of the current Left Nav item
 	var currId="fmp";
 	// current subtree that should be displayed
-	var showTree = "currentPageSubtree";
+	var showTree = "health-fmpsub";
 	var showTree2 = "secondarySubtreeIfNeeded";
 </script>
 
@@ -54,7 +54,7 @@
 
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 

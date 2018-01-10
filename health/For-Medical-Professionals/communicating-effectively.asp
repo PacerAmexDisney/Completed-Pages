@@ -28,7 +28,7 @@
 	// ID of the current Left Nav item
 	var currId="fmpsub-communicating";
 	// current subtree that should be displayed
-	var showTree = "currentPageSubtree";
+	var showTree = "health-fmpsub";
 	var showTree2 = "secondarySubtreeIfNeeded";
 </script>
 
@@ -55,7 +55,7 @@
 
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 
@@ -80,7 +80,7 @@ A practical, hands-on resource to help practicing pediatricians and their office
 Federal resources and publication to support health care professionals serving diverse populations. </p>
 <p><a href="http://www.commonwealthfund.org/usr_doc/LEP_actionkit_0204.pdf" target="_blank"><strong>Language Services Action Kit</strong>: Interpreter Services in Health Care Settings for People with Limited English Proficiency</a><br />
 Information for medical providers who are interested in providing language services access to their patients.</p>
-<h3>Parent Resources </h3>
+<h3 class="greenBar">Parent Resources </h3>
   <ul>
   <li><a href="http://gucchd.georgetown.edu/products/LGBT_Brief.pdf" target="_blank">&ldquo;Helping Families Support Their Lesbian, Gay, Bisexual, and Transgender (LGBT) Children&rdquo;</a> </li>
   <li>
@@ -93,7 +93,7 @@ Information for medical providers who are interested in providing language servi
   <li><a href="http://www.deafmd.org/">DeafMD.org: Health Education in American Sign Language&nbsp;</a>
   </li>
   </ul>
-  <h3>Minnesota Parent Resources</h3>
+  <h3 class="greenBar">Minnesota Parent Resources</h3>
   <ul>
     <li><a href="http://www.pacer.org/translations/hmong.asp" target="_blank">Hmong</a> translated resources for families of children with Special Health Care needs. </li>
   <li><a href="http://www.pacer.org/translations/spanish.asp" target="_blank">Spanish</a> translated resources for families of children with Special Health Care needs.</li>

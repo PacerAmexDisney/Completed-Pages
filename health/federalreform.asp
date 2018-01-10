@@ -17,12 +17,7 @@
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
 
-</p>
-</div>
 	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> /
 
 </div>
@@ -173,16 +168,7 @@
 <hr>
 <div id="rightBar">
 
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
+    <h2 class="greenBar">Additional Resources</h2>
 <div class="stayinformed">
 
 <p><strong>DHS Minnesota Health Care Program Application Forms:</strong></p>

@@ -29,7 +29,7 @@
 	// ID of the current Left Nav item
 	var currId="fmpsub-financing";
 	// current subtree that should be displayed
-	var showTree = "currentPageSubtree";
+	var showTree = "health-fmpsub";
 	var showTree2 = "secondarySubtreeIfNeeded";
 </script>
 
@@ -56,12 +56,13 @@
 
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 
 <h2>Directing Patients to Health Care financing options</h2>
-<h3><img class="fltrt" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />National Health Care options and funding</h3>
+<img class="fltrt mobileCentered" style="margin: 0px; padding 0px 10px; background: #fff;" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />
+<h3 class="greenBar" style="margin-right: 10px;">National Health Care options and funding</h3>
 <p><a href="https://www.healthcare.gov/" target="_blank">HealthCare.gov</a><br />
 Up to date information for Individuals and businesses on finding Health Care coverage under the Affordable Care Act including: </p>
 <ul>
@@ -86,7 +87,7 @@ Up to date information for Individuals and businesses on finding Health Care cov
      Program assists Social Security Beneficiaries go to work, save money, become financially independent and keep their health coverage </li>
      <li> <a href="http://www.socialsecurity.gov/pgm/disability.htm" target="_blank">Disability benefits</a><br />
      For people who have previously worked and cannot continue because of a medical condition</li></ul>
-      <h3>Minnesota Health care funding and options</h3>
+      <h3  class="greenBar">Minnesota Health care funding and options</h3>
       <p> <a href="http://www.mn.gov/hix/" target="_blank">MNSURE</a><br />
       Minnesota information on choosing and enrolling in health care coverage under the Affordable Care Act</p>
         <p><strong>Medical Assistance</strong>:</p>
@@ -124,7 +125,7 @@ Up to date information for Individuals and businesses on finding Health Care cov
         <p><strong>Third Party Billing</strong></p>
         <p><a href="http://education.state.mn.us/MDE/SchSup/SpecEdComp/ThirdPartyBill/index.html">Third Party Billing, Minnesota Department of Education</a><br />
         General explanation of Information regarding the billing procedures for school districts seeking reimbursement for Special Education health-related services.</p>
-        <h3>Parent Resources:</h3>
+        <h3  class="greenBar">Parent Resources:</h3>
          <p> <a href="http://www.pacer.org/health/insurance/index.asp" target="_blank">Public and Private Health Insurance Information</a><br />
          For parents of children with Special Health Care needs on topics of private and public insurance, Home and Community Based Wavier Programs, Supplemental Security Income, and other health care financing options: &nbsp;</p>
         <p><a href="http://www.pacer.org/health/prescriptionAssistance.asp" target="_blank">Prescription Assistance information for families</a> (PACER Health Information Center)</p>
