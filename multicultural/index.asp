@@ -65,27 +65,17 @@ conn.open ConStr
 set rs = conn.execute(sql)
 %>
 
+<!--#include virtual="/templates/header.asp"-->
 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Multicultural Services - PACER Center</title>
 
+<meta property="og:title" content="Multicultural Services" />
+<meta property="og:url" content="http://www.pacer.org/multicultural" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
 
-
-
-
-
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Multicultural Services</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/stylenoleftright.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
-
-<script type="text/javascript" src="/css/menu.js"></script>
 <style type="text/css">
 #topSectionWrap{
 	max-width:60em;
@@ -119,41 +109,26 @@ set rs = conn.execute(sql)
 	margin-top:-15px;
 }
 </style>
+
+
 </head>
+<body class="singleCol">
 
-<body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+<div id="topbar">
+<div id="breadcrumb">
+
+<a href="/">Home</a> / <a href="/pandr/">Programs</a> /
+</div>
+	<h1>Multicultural Services Overview</h1>
 </div>
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
 <div id="maincontent">
-	
-	<div id="pagetoporange">
-	
-	<div id="breadcrumb">
-	<a href="/">Home</a> / <a href="/pandr/">Programs</a>
-<h1>Multicultural Services</h1>
-</div>
-</div>
 
+<div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-
-<div id="pagecontent">
-
-<h2 class="noborder">Multicultural Services Overview</h2>
-
 <div id="topSectionWrap">
 
 <p>
@@ -334,20 +309,6 @@ Additional  Multi-Cultural Services
 %>
 
 </div>
-<div id="pageextender" style="clear:both">&nbsp;</div>
-
-
-
-</div>
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer2.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
