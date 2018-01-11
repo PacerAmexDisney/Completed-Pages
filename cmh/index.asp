@@ -138,7 +138,38 @@
 	margin-top:50px;
 }
 */
-
+#maincontent {
+  overflow: hidden;
+}
+@media (max-width: 900px) {
+  #hottopics .right_topic {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #hottopics .left_topic {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #hottopics .right_topic img {
+    max-width: 25%;
+    height: auto;
+  }
+  #hottopics .left_topic img {
+    max-width: 25%;
+    height: auto;
+  }
+  #hottopics ul li {
+    max-width: 100%;
+  }
+  #resources td {
+    display: block;
+    max-width: 100%;
+  }
+  #social_footer {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
 </style>
 </head>
 <body class="singleCol">
@@ -147,11 +178,10 @@
 
 <div id="topbar">
 <div id="breadcrumb">
+<a href="/cmh/">Home</a> / Children's Mental Health and Emotional or Behavioral Disorders Project
+</div>
+</div>
 
-<a href="/cmh/">Home</a> /
-</div>
-	<h1>Children's Mental Health and Emotional or Behavioral Disorders Project</h1>
-</div>
 
 <div id="maincontent">
 

@@ -25,6 +25,20 @@ td {
 	padding: .5em;
 	vertical-align: top;
 }
+.mobile-cell {
+  display: none;
+}
+.desktop-cell {
+  display: table-cell;
+}
+@media (max-width: 600px) {
+	.mobile-cell {
+    display: table-cell;
+	}
+	.desktop-cell {
+	  display: none;
+	}
+}
 </style>
 
 </head>
@@ -131,13 +145,13 @@ A teaching matrix would include details on what respect &#8220;looks like&#8221;
 		<th>
 			Gym
 		</th>
-		<th>
+		<th class="desktop-cell">
 			Lunch
 		</th>
-		<th>
+		<th class="desktop-cell">
 			Outdoors
 		</th>
-		<th>
+		<th class="desktop-cell">
 			Media/Lab
 		</th>
 	</tr>
@@ -154,14 +168,38 @@ A teaching matrix would include details on what respect &#8220;looks like&#8221;
 		</td><td>
 			Be a good listener<br /><br />
 			Take turns
-		</td><td>
+		</td><td class="desktop-cell">
 			Say Please and Thank You<br /><br />
 			Listen to adult direction<br /><br />
 			Use inside voices
-		</td><td>
+		</td><td class="desktop-cell">
 			Treat the equipment properly<br /><br />
 			Treat others the way you want to be treated
-		</td><td>
+		</td><td class="desktop-cell">
+			Use the computers, books, magazines, and furniture correctly
+		</td>
+	</tr>
+
+	<tr>
+		<th class="mobile-cell">
+			Lunch
+		</th>
+		<th class="mobile-cell">
+			Outdoors
+		</th>
+		<th class="mobile-cell">
+			Media/Lab
+		</th>
+	</tr>
+	<tr>
+    <td class="mobile-cell">
+			Say Please and Thank You<br /><br />
+			Listen to adult direction<br /><br />
+			Use inside voices
+		</td><td class="mobile-cell">
+			Treat the equipment properly<br /><br />
+			Treat others the way you want to be treated
+		</td><td class="mobile-cell">
 			Use the computers, books, magazines, and furniture correctly
 		</td>
 	</tr>

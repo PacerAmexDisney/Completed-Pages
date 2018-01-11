@@ -28,7 +28,7 @@
 <div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-   <h3 style="font-size:larger"><em><img src="/transition/about/launch/images/woman-at-desk.jpg" width="400" height="290" alt="two young men" align="right" hspace="10" vspace="10"/>Your trusted source for information on career exploration, employment, and vocational rehabilitation for youth and young adults with disabilities</em></h3>
+   <h3 style="font-size:larger"><em><img class="fltrt mobileCentered" src="/transition/about/launch/images/woman-at-desk.jpg" width="400" height="290" alt="two young men" />Your trusted source for information on career exploration, employment, and vocational rehabilitation for youth and young adults with disabilities</em></h3>
     <p>For transition-age youth and young adults with disabilities, success often depends on having the right services in place to support employment, education, and inclusion in the community. Fortunately, there are laws that help.</p>
     <p>The Individuals with Disabilities Education Act (IDEA), the Rehabilitation Act, the Workforce Investment Act, and the Americans with Disabilities Act (ADA) guarantee people with disabilities a free and appropriate education, ensure civil rights, and protect young adults from employment discrimination based on their disabilities.</p>
     <p>Funded by the Rehabilitation Act, Project Launch works in partnership with parent centers in Indiana, Kentucky, and Ohio to help youth, adults, families, professionals, and employers understand how these laws can help individuals with disabilities create a positive future.</p>

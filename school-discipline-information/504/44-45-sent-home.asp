@@ -17,6 +17,7 @@
 <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
           rel = "stylesheet">
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
 </head>
 
 <body class="singleCol">
@@ -30,9 +31,10 @@
 <div id="maincontent">
 
 <div id="pagecontent" class="narrowContent">
-  <div id="contentwrapper">  <div id="toc">
+
+<div id="contentwrapper">  <div id="toc">
   <!--#include virtual="/school-discipline-information/toc.html" -->
-  </div>
+
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>
@@ -42,9 +44,8 @@
   <div id="top-section">
   <h1 id="contentheader">My Child Is on a Section 504 Plan</h1>
   <div id="bcrumb"> : <a id="homelink" href="/school-discipline-information/">Intro</a> > <a href="/school-discipline-information/02-iep-504.asp">IEP/504/None</a> &gt; <a href="/school-discipline-information/504/33-discipline-is.asp">Discipline</a> &gt; Sent Home</div>
-  </div>
   <!-- ############################### BEGIN CONTENT #################################### -->
-  
+
   <div id="sectionCarryOver">
   <h2>The Discipline is:</h2>
   <p>being sent home before the end of the school day.</p>
@@ -55,21 +56,22 @@
 <p><a href="/school-discipline-information/504/34-out-of-school.asp">Continue this guide  &gt;&gt;&gt;</a></p>
 
 <p><a href="/school-discipline-information/504/46-manifestation-team.asp"></a></p>
- 
+
 <div id="statutes">
   	<h3>Statutes</h3>
-  
+
   <ol>
   	<li><a href="https://www.revisor.mn.gov/statutes/?id=121A.43" target="_blank">Minn. Stat. 121A.43</a>(b).</li>
   </ol>
-  
- 
-  </div> 
+
+
+  </div>
 
 	<div class="def-list"><a href="/school-discipline-information/definitions-list.asp">* - definition</a></div>
   <!-- ############################### END CONTENT #################################### -->
   <!--Close Content--></div>
   <!--Close Content Wrapper--></div>
+
   <!--Close Main--></div>  <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
 
 <!--Close Wrapper--></div>

@@ -1,64 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>español</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/style.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
-
-<script type="text/javascript" src="/css/menu.js"></script>
-</head>
-
-<body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogoSpanish.gif" alt="PACER Center: campeones de niños con discapacidades" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Campeones de niños con discapacidades
-</p>
-<p class="pacerinfo3">
-<a href="spanish.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-
-<div class="rightsidebarpic">
-<img src="images/spanishpage.jpg" width="250" height="166" alt="mother, father, and two children smiling" /><br />
-</div>
-</div>
-
-<div id="maincontent">
-
-	<div id="pagetoporange">
-	
-	<div id="breadcrumb">
-	<a href="/index.asp">Home</a> / <a href="index.asp">Translated Content</a> / Español
-	
-	<h1>español</h1>
-	
-</div>
-
-<!--BEGIN CONTENT-->
 
 <%
 Dim ConStr, rs, conn, sql, i
@@ -68,25 +9,50 @@ Set conn = Server.CreateObject("ADODB.Connection")
 conn.open ConStr
 %>
 
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title> espanol - PACER Center</title>
+
+<meta property="og:title" content="espaÃ±ol" />
+<meta property="og:url" content="http://www.pacer.org/translations/spanish.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
+
+</head>
+<body class="singleCol">
+
+<!--#include virtual="/templates/page-header-nav.asp"-->
+
+<div id="topbar">
+<div id="breadcrumb">
+
+<a href="/index.asp">Home</a> / <a href="index.asp">Translated Content</a> / EspaÃ±ol
+</div>
+	<h1>EspaÃ±ol</h1>
 </div>
 
-<div id="pagecontent">
+<div id="maincontent">
+
+<div id="pagecontent" class="narrowContent">
+
+<!--BEGIN CONTENT-->
 <div class="alertBox" style="width:30em; text-align:center; font-size:1.05em">
 <a href="/publications/spanish.asp">Click Here to view these publications with english titles</a>
 </div>
-<h2 class="nounderline"><a name="maincontent">publicaciones en español</a></h2>
 
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'book' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if Not rs.eof then
 %>
 <h3 class="pubcat" style="margin-bottom: .5em;">Books</h3>
 <%
 		do until rs.eof
 		%>
-		
+
 
 	<%
 		Dim checkforlink1
@@ -94,61 +60,61 @@ conn.open ConStr
 		if Trim(rs("pub_image")) <> "" then
 			if checkforlink1 <> "nolink" then
 		%>
-			
+
 			<p class="pubstext textimage" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><a href="<%=rs("pub_link")%>"><%=rs("pub_name_translated")%></a>&nbsp;<img src="/images/pdficon_small.gif"> (download for free)</em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-				
+
 			<%else%>
-			
+
 			<p class="pubstext textimage" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-				
+
 			<%end if%>
-			
+
 	  <%
 		else if checkforlink1 <> "nolink" then
-		%>			<p id="<%=rs("pub_code")%>">		
+		%>			<p id="<%=rs("pub_code")%>">
 			<a href="<%=rs("pub_link")%>"><%=rs("pub_name_translated")%></a>&nbsp;<img src="/images/pdficon_small.gif" alt="pdf icon" /> (download for free)<br />
 			<%=rs("pub_description_translated")%><br />
 <%
 			else
 			%>
-	
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 			<%
 			end if
 			end if
 			%>
-		
+
 
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
-			
+
+			<%=rs("pub_price")%> |
+
 			<%
 			if rs("pub_pricenotes") <> "" then
 			Response.write rs("pub_pricenotes")
 			%>
 			&nbsp;| <%=rs("pub_code")%>
-			
+
 			<%else%>
 			<%=rs("pub_code")%>
 			<%end if%>
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -162,63 +128,63 @@ conn.open ConStr
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'booklet' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else
-		
+
 		rs.movefirst
 		do until rs.eof
 		%>
-		
+
 		<%
 		Dim checkforlink2
 		checkforlink2 = Trim(rs("pub_link"))
 		if Trim(rs("pub_image")) <> "" then
 			if checkforlink2 <> "nolink" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="" />
 				<strong><em><a href="<%=rs("pub_link")%>" target="_blank"><%=rs("pub_name_translated")%></a></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-				
+
 			<%else%>
-			
+
 		<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-				
+
 			<%end if%>
-			
+
 		<%
 		else if checkforlink2 <> "nolink" then
-		%>			<p class="pubstext" id="<%=rs("pub_code")%>">		
+		%>			<p class="pubstext" id="<%=rs("pub_code")%>">
 			<a href="<%=rs("pub_link")%>" target="_blank"><%=rs("pub_name_translated")%></a><br />
 			<%=rs("pub_description_translated")%><br />
 <%
 			else
 			%>
-	
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 			<%
 			end if
 			end if
 			%>
-		
+
 
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
+
+			<%=rs("pub_price")%> |
 			<%If Left(rs("pub_pricenotes"), 5) =  "<form" Then%>
             	&nbsp;<%=rs("pub_code")%> <br /> <%=rs("pub_pricenotes")%>
 			<%
@@ -231,7 +197,7 @@ conn.open ConStr
 			<%=rs("pub_code")%>
 			<%End If%>
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -239,13 +205,13 @@ conn.open ConStr
 		set rs = nothing
 		end if
 		%>
-		
-		
-		
+
+
+
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'infocard' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else%>
 		<h3 class="pubcat" style="margin-bottom: .5em;">Information Cards</h3>
@@ -257,64 +223,64 @@ conn.open ConStr
 		if Trim(rs("pub_image")) <> "" then
 			if checkforlink1 <> "nolink" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><a href="<%=rs("pub_link")%>"><%=rs("pub_name_translated")%></a></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-				
+
 			<%else%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-				
+
 			<%end if%>
-			
+
 		<%
 		else if checkforlink1 <> "nolink" then
-		%>	
-			<p>		
+		%>
+			<p>
 			<a href="<%=rs("pub_link")%>"><%=rs("pub_name_translated")%></a><img src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /><br />
 			<%=rs("pub_description_translated")%><br />
-			
-			
+
+
 			<%
 			else
 			%>
-	
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 			<%
 			end if
 		end if
 			%>
-		
+
 
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
-			
+
+			<%=rs("pub_price")%> |
+
 			<%
 			if rs("pub_pricenotes") <> "" then
 			Response.write rs("pub_pricenotes")
 			%>
 			&nbsp;| <%=rs("pub_code")%>
-			
+
 			<%else%>
 			<%=rs("pub_code")%>
 			<%end if%>
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -327,23 +293,23 @@ conn.open ConStr
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'ltac' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else%>
 		<a name="ltac"></a><h3 class="pubcat" style="margin-bottom: .5em;">Let's Talk Activity Cards</h3>
 		<%rs.movefirst
 		do until rs.eof
 		%>
-		
+
 		<%
 		if Trim(rs("pub_image")) <> "" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-			
+
 		<%
 		else
 		%>
@@ -351,32 +317,32 @@ conn.open ConStr
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 		<%
 		end if
 		%>
-		
+
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
-			
+
+			<%=rs("pub_price")%> |
+
 			<%
 			if rs("pub_pricenotes") <> "" then
 			Response.write rs("pub_pricenotes")
 			%>
 			&nbsp;| <%=rs("pub_code")%>
-			
+
 			<%else%>
 			<%=rs("pub_code")%>
 			<%end if%>
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -395,33 +361,33 @@ conn.open ConStr
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'handout' AND pub_MPC = '' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else
 		%>
-		
-		<table class="handouts">
-		
+
+		<table class="handouts" cellpadding="10">
+
 		<%
 		rs.movefirst
 		do until rs.eof
 		%>			<tr id="<%=rs("pub_code")%>">
 				<td>
-				
+
 				<%
 				Dim checkforlink
 				checkforlink = Trim(rs("pub_link"))
 				if checkforlink <> "nolink" then
 %>
-				
+
 					<a href="<%=rs("pub_link")%>" target="_blank"><%=rs("pub_name_translated")%></a>
-					
+
 				<%
 				else
 				%>
-				
+
 					<%=rs("pub_name_translated")%>
-				
+
 				<%
 				end if
 				%>
@@ -430,14 +396,14 @@ conn.open ConStr
 					<%=rs("pub_code")%>
 				</td>
 			</tr>
-				
+
 		<%
 		rs.movenext
 		loop
 		%>
-		
+
 		</table>
-		
+
 		<%
 		rs.close
 		set rs = nothing
@@ -450,24 +416,24 @@ conn.open ConStr
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'brochure' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else
-		
+
 		rs.movefirst
 		do until rs.eof
 		%>
-		
+
 
 		<%
 		if Trim(rs("pub_image")) <> "" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-			
+
 		<%
 		else
 		%>
@@ -475,33 +441,33 @@ conn.open ConStr
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 		<%
 		end if
 		%>
-		
+
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
-			
+
+			<%=rs("pub_price")%> |
+
 			<%
 			if rs("pub_pricenotes") <> "" then
 			Response.write rs("pub_pricenotes")
 			%>
 			&nbsp;| <%=rs("pub_code")%>
-			
+
 			<%else%>
 			<%=rs("pub_code")%>
 			<%end if%>
-			
+
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -509,32 +475,32 @@ conn.open ConStr
 		set rs = nothing
 		end if
 		%>
-	
-    
+
+
 <h3 class="pubcat" style="margin-bottom: .5em;">Video</h3>
 
 
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'video' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else
-		
+
 		rs.movefirst
 		do until rs.eof
 		%>
-		
+
 
 		<%
 		if Trim(rs("pub_image")) <> "" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-			
+
 		<%
 		else
 		%>
@@ -542,33 +508,33 @@ conn.open ConStr
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 		<%
 		end if
 		%>
-		
+
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
-			
+
+			<%=rs("pub_price")%> |
+
 			<%
 			if rs("pub_pricenotes") <> "" then
 			Response.write rs("pub_pricenotes")
 			%>
 			&nbsp;| <%=rs("pub_code")%>
-			
+
 			<%else%>
 			<%=rs("pub_code")%>
 			<%end if%>
-			
+
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -583,24 +549,24 @@ conn.open ConStr
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'bookmark' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else
-		
+
 		rs.movefirst
 		do until rs.eof
 		%>
-		
+
 
 		<%
 		if Trim(rs("pub_image")) <> "" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-			
+
 		<%
 		else
 		%>
@@ -608,33 +574,33 @@ conn.open ConStr
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 		<%
 		end if
 		%>
-		
+
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
-			
+
+			<%=rs("pub_price")%> |
+
 			<%
 			if rs("pub_pricenotes") <> "" then
 			Response.write rs("pub_pricenotes")
 			%>
 			&nbsp;| <%=rs("pub_code")%>
-			
+
 			<%else%>
 			<%=rs("pub_code")%>
 			<%end if%>
-			
+
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -655,24 +621,24 @@ Written in the child's voice, engaging booklets with focus on development.
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'bookandaudio' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else
-		
+
 		rs.movefirst
 		do until rs.eof
 		%>
-		
+
 
 <%
 		if Trim(rs("pub_image")) <> "" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-			
+
 <%
 		else
 		%>			<p id="<%=rs("pub_code")%>">
@@ -682,8 +648,8 @@ Written in the child's voice, engaging booklets with focus on development.
 <%
 		end if
 		%>
-		
-		
+
+
 		<%
 		rs.movenext
 		loop
@@ -698,24 +664,24 @@ Written in the child's voice, engaging booklets with focus on development.
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'audio' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else
-		
+
 		rs.movefirst
 		do until rs.eof
 		%>
-		
+
 
 		<%
 		if Trim(rs("pub_image")) <> "" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-			
+
 		<%
 		else
 		%>
@@ -723,33 +689,33 @@ Written in the child's voice, engaging booklets with focus on development.
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 		<%
 		end if
 		%>
-		
+
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
-			
+
+			<%=rs("pub_price")%> |
+
 			<%
 			if rs("pub_pricenotes") <> "" then
 			Response.write rs("pub_pricenotes")
 			%>
 			&nbsp;| <%=rs("pub_code")%>
-			
+
 			<%else%>
 			<%=rs("pub_code")%>
 			<%end if%>
-			
+
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -758,33 +724,33 @@ Written in the child's voice, engaging booklets with focus on development.
 		end if
 		%>
 
-    
-    
-    	
+
+
+
 <h3 class="pubcat" style="margin-bottom: .5em;">Record Keeping Folders</h3>
 
 
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'rkf' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else
-		
+
 		rs.movefirst
 		do until rs.eof
 		%>
-		
+
 
 		<%
 		if Trim(rs("pub_image")) <> "" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-			
+
 		<%
 		else
 		%>
@@ -792,33 +758,33 @@ Written in the child's voice, engaging booklets with focus on development.
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 		<%
 		end if
 		%>
-		
+
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
-			
+
+			<%=rs("pub_price")%> |
+
 			<%
 			if rs("pub_pricenotes") <> "" then
 			Response.write rs("pub_pricenotes")
 			%>
 			&nbsp;| <%=rs("pub_code")%>
-			
+
 			<%else%>
 			<%=rs("pub_code")%>
 			<%end if%>
-			
+
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -826,31 +792,31 @@ Written in the child's voice, engaging booklets with focus on development.
 		set rs = nothing
 		end if
 		%>
-        
+
 <h3 class="pubcat" style="margin-bottom: .5em;">Workshop/Training Curricula</h3>
 
 
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'curriculum' ORDER BY pub_name_translated"
 		set rs = conn.execute(sql)
-		
+
 		if rs.eof then
 		else
-		
+
 		rs.movefirst
 		do until rs.eof
 		%>
-		
+
 
 		<%
 		if Trim(rs("pub_image")) <> "" then
 		%>
-			
+
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-			
+
 		<%
 		else
 		%>
@@ -858,33 +824,33 @@ Written in the child's voice, engaging booklets with focus on development.
 			<p class="pubstext" id="<%=rs("pub_code")%>">
 				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
 				<%=rs("pub_description_translated")%><br />
-		
+
 		<%
 		end if
 		%>
-		
+
 			<% if rs("pub_freetoparents")="yes" then %>
 			<img src="/publications/images/square.png" alt="square" />
 			<% end if %>
-			
+
 			<% if rs("pub_freetokids")="yes" then %>
 			<img src="/publications/images/star.png" alt="star" />
 			<% end if %>
-			
-			<%=rs("pub_price")%> | 
-			
+
+			<%=rs("pub_price")%> |
+
 			<%
 			if rs("pub_pricenotes") <> "" then
 			Response.write rs("pub_pricenotes")
 			%>
 			&nbsp;| <%=rs("pub_code")%>
-			
+
 			<%else%>
 			<%=rs("pub_code")%>
 			<%end if%>
-			
+
 			</p>
-		
+
 		<%
 		rs.movenext
 		loop
@@ -893,19 +859,8 @@ Written in the child's voice, engaging booklets with focus on development.
 		end if
 		%>
 
-        
-        
+
+
 <div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

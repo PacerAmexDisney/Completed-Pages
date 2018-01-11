@@ -30,9 +30,11 @@
 <div id="maincontent">
 
 <div id="pagecontent" class="narrowContent">
-  <div id="contentwrapper">  <div id="toc">
+
+
+<div id="contentwrapper">  <div id="toc">
   <!--#include virtual="/school-discipline-information/toc.html" -->
-  </div>
+
 </div>
   <div id="discipline-content" class="cat-504">
   <div id="hideToc"></div>
@@ -42,9 +44,7 @@
   <div id="top-section">
   <h1 id="contentheader">My Child Is on a Section 504 Plan</h1>
   <div id="bcrumb"> : <a id="homelink" href="/school-discipline-information/">Intro</a> > <a href="/school-discipline-information/02-iep-504.asp">IEP/504/None</a> &gt; <a href="/school-discipline-information/504/33-discipline-is.asp">Discipline</a> &gt; In-School Suspension</div>
-  </div>
   <!-- ############################### BEGIN CONTENT #################################### -->
-  
   <div id="sectionCarryOver">
   <h2>The Discipline is:</h2>
   <p>an <span class="def" id="in-school-suspension">in-school suspension*</span>.</p>
@@ -59,11 +59,12 @@
   <a href="/school-discipline-information/73-conclusion.asp">Finish this Guide &gt;&gt;&gt;</a>
   <p><br />
   </p>
-  
+
 	<div class="def-list"><a href="/school-discipline-information/definitions-list.asp">* - definition</a></div>
   <!-- ############################### END CONTENT #################################### -->
   <!--Close Content--></div>
   <!--Close Content Wrapper--></div>
+
   <!--Close Main--></div>  <p id="url"><a href="http://www.pacer.org/school-discipline-information/">http://www.pacer.org/school-discipline-information/</a></p>
 
 <!--Close Wrapper--></div>

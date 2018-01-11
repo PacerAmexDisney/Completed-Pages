@@ -1,87 +1,63 @@
-<% Dim currentPage 
+<!--#include virtual="/templates/header.asp"-->
 
-currentPage = "health-enews-2012-05.html"
-
-%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>F2F HIC - Transitioning Patients from Pediatric to Adult Care</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+
+<meta property="og:title" content="F2F HIC - Transitioning Patients from Pediatric to Adult Care" />
+<meta property="og:url" content="http://www.pacer.org/health/For-Medical-Professionals/transitioning-patients.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
+
+
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-      <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-
-
-
-<div id="pagetoporange">
-<div id="breadcrumb">
-  <div class="printemail">
-   <p> <img src="/css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a> </p>
+<div id="topbar">
+	<div id="breadcrumb">
+		<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / <a href="/health/health-care-providers.asp">Health</a> / <a href="/health/For-Medical-Professionals/index.asp">For Medical Professionals</a> /
   </div>
-<a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / <a href="/health/health-care-providers.asp">Health</a> / <a href="/health/For-Medical-Professionals/index.asp">For Medical Professionals</a> /
-<h1> Health Information Center</h1>
-  </div>
+	<h1> Health Information Center</h1>
 </div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="fmpsub-transition";
+	// current subtree that should be displayed
+	var showTree = "health-fmpsub";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
 
 <div id="leftbar">
-<!--#include virtual="/health/leftNav.htm" -->
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+	<!--#include virtual="/health/leftNav.htm" -->
+</div>
+
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="fmpsub-transition";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "health-fmpsub";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
 	}
 </script>
 
-
-</div>
-
 <div id="maincontent">
 
-<div id="pagecontentright" style="min-height:500px;">
+<div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 
 <h2>Transitioning Patients from Pediatric to Adult Care</h2>
-<img class="fltrt" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />
+<img class="fltrt mobileCentered" src="/health/images/doctor-dad-baby.jpg" width="250" height="302" alt="" />
 
 <p>One way to improve health outcomes for youth with special health care needs is ensuring that they successfully transition from pediatric to adult health care. Health care providers help with this transition by ensuring youth:</p>
 <ul>
@@ -89,7 +65,7 @@ currentPage = "health-enews-2012-05.html"
   <li>Take more responsibility for managing their own care</li>
   <li>Identify appropriate adult health care providers</li>
   <li>Maintain insurance coverage</li></ul>
-<h3>National resources</h3>
+<h3 class="greenBar" style="margin-right: 5px;">National resources</h3>
 <p><a href="http://gottransition.org/" target="_blank">Got Transition</a><br />
 National Health Care Transition Center for families supporting youth and young adults to access health systems as new health care consumers.</p>
 <ul>
@@ -106,7 +82,7 @@ Information on Healthcare Transitions for young adults</p>
 National initiatives in education, research, policy analysis and technical assistance in support of health outcomes for adolescents and the infrastructure changes needed to achieve them.</p>
   <p><a href="http://sfari.org/news-and-opinion/news/2013/study-aims-to-capture-autisms-transition-into-adulthood?utm_source=Autism+research+news+from+SFARI.org&amp;utm_campaign=704aeddece-SFARI_Newsletter_130827&amp;utm_medium=email&amp;utm_term=0_0a60ccb345-704aeddece-388518465" target="_blank">Simons Foundation Autism Research Initiative: Study aims to capture autism's transition into adulthood</a><br />
   A new study in the UK looks at young adults who are diagnosed with Autism Spectrum Disorders and the transition from pediatric to adult health care.</p>
-<h3>In Minnesota</h3>
+<h3 class="greenBar">In Minnesota</h3>
   <p><a href="http://www.health.state.mn.us/divs/cfh/program/cyshn/" target="_blank">Youth and Young Adults Planning for the Future</a><br />
   Minnesota Department of Health Transition Resources</p>
 <ul>
@@ -123,7 +99,7 @@ National initiatives in education, research, policy analysis and technical assis
 Employment options for youth and adults with disabilities</p>
   <p><a href="http://www.mndisability.gov/public/" target="_blank">Disability Minnesota</a><br />
   Programs, products and services devoted to disability issues in Minnesota</p>
-  <h3>Resources for families and young adult consumers</h3>
+  <h3 class="greenBar">Resources for families and young adult consumers</h3>
   <ul>
     <li><a href="https://www.healthcare.gov/young-adults">HealthCare.gov</a><br />
     Health Care coverage information for Young Adults</li>
@@ -149,19 +125,5 @@ Employment options for youth and adults with disabilities</p>
   </li>
   </ul>
 
-
-
-<!--END CONTENT-->
-<div id="pageextender" style="clear:both"></div>
-
-
-</div>
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+	<!--END CONTENT-->
+	<!--#include virtual="/templates/footer.asp"-->

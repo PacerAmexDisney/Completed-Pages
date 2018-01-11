@@ -1,91 +1,56 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>Dental Resources - F2F HIC</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
 
-<script type="text/javascript" src="../css/menu.js"></script>
+<meta property="og:title" content="Dental Resources - F2F HIC" />
+<meta property="og:url" content="http://www.pacer.org/health/dentalResources.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-  <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
 
-</p>
+	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> /
+
 </div>
-	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> / 
-	
 	<h1> Health Information Center</h1>
-	
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="dental";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">Health Navigation Menu</h2>
 <!--#include virtual="/health/leftNav.htm" -->
 </div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="dental";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
 	}
 </script>
+
 <div id="maincontent">
 
 <div id="pagecontent">
@@ -93,16 +58,16 @@ Champions for Children with Disabilities
   <p><img src="images/teeth.png" alt="" width="129" height="112" hspace="12" align="right" />Below is a list of dental clinics in Minnesota that provide  services to patients who are on Minnesota Health Care programs, <strong><u>or</u></strong> that offer services at a  reduced cost. Services, hours, and costs vary among those listed, and this is  not a complete list of dental clinics that offer reduced fees. Dental clinics  not listed here may also serve patients enrolled in Medical Assistance, TEFRA,  or Minnesota Care. If the dental clinic you wish to go to is not listed below,  you can call and ask the clinic if they provide reduced or sliding fee scales  for their services.</p>
   <p>Please be sure to call any clinic in advance to verify costs  and insurance &ndash; if you are insured, set up appointments, and check if the  dental clinic is able to handle the specific needs of your child if he or she  has a disability or special health care need.</p>
   <p>In addition to the list of dental clinics below, dental  schools offer services at a reduced cost. The <a href="http://www.dentistry.umn.edu/patients/index.htm" target="_blank">University of Minnesota  School of Dentistry</a>, as well as those listed in this <a href="http://www.startribune.com/lifestyle/yourmoney/89462347.html?elr=KArks7PYDiaK7DUdcOy_nc:DKUiacyKUUr" target="_blank">link</a>,  are dental schools within Minnesota that offer low-cost services.</p>
-  
-  
+
+
   <ul class="nobullet">
   <li><a href="#minneapolis">Minneapolis  Area Clinics</a></li>
     <li><a href="#stpaul">St.  Paul Area Clinics</a></li>
     <li><a href="#mnclinic">Greater  Minnesota Area Clinics</a></li>
     <li><a href="#add">Additional  Dental Services</a></li>
     </ul>
-    
-    
+
+
   <h2 align="center" id="minneapolis">Minneapolis Area Clinics</h2>
 
 <ul class="nobullet">
@@ -216,7 +181,7 @@ Champions for Children with Disabilities
     651-779-5787</li>
 </ul>
   <h2 align="center" id="mnclinic">Greater Minnesota Area Clinics</h2>
-	<ul class="nobullet">  
+	<ul class="nobullet">
   <li><em><strong>Alexandria</strong></em><br />
     <a href="http://www.caringhandsdentalclinic.com/index.html" target="_blank">Caring Hands Dental  Clinic</a><br />
     700 Cedar St, Ste  44<br />
@@ -378,7 +343,7 @@ Duluth, MN 55811<br />
         Willmar, MN 56201<br />
         320-214-2620</li>
     </ul>
-    
+
   <h2 align="center" id="add">Additional Dental Resources</h2>
   <p><a target="_blank" href="http://dentallifeline.org/minnesota/">Donated  Dental Services (DDS)</a><br />
     Serves only disabled, elderly or medically compromised  people who have no other way of paying for dental care.&nbsp; Free comprehensive dental services for those  who qualify.&nbsp; Qualified applicants will  be provided services by a private practicing dentist in their office.&nbsp; For an application in Minnesota, call  651-454-6290 or 866-242-6290.</p>
@@ -394,15 +359,6 @@ Duluth, MN 55811<br />
   <p><a target="_blank" href="http://www.givekidsasmile.org/PatientInfoBiannualClinicEvent.aspx">Give  Kids a Smile</a><br />
     An annual event  held every February that provides free dental care across the state of  Minnesota to children from low-income families.</p>
   <p><strong>For more information about dental resources  and clinics, contact PACER&rsquo;s  Health Information Center at  (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
-</div>
-<!--END CONTENT-->
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-
-</body>
-</html>
+	
+	<!--END CONTENT-->
+  <!--#include virtual="/templates/footer.asp"-->

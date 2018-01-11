@@ -49,6 +49,29 @@
 #pagecontent .btn {
 	margin-bottom:30px;	
 }
+#slider-wrapper {
+  min-height: 0px;
+}
+@media (max-width: 600px) {
+  #puppet-table {
+    padding: 0;
+  }
+  #puppet-table p {
+    padding-left:0px;
+  }
+  #puppet-table td:first-child {
+    width:90%;
+    border-bottom: 1px dotted #aaa;
+  }
+  #puppet-table td {
+    display:block;
+    width:90%;
+    padding: 10px 20px 20px 20px;
+  }
+  #puppet-table tr {
+    display:block;
+  }  
+}
 </style>
 
 </head>
@@ -98,20 +121,17 @@
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-<%'-----------------------------------  LAYER SLIDER -------------------------------------- %>  
 
 <div id="slider-wrapper">
 		<div id="layerslider" style="width:969px; height:545px;">
         
               
-<% ' ----------------------------------------------------------------------------------------------------------------------------------------------- %>   
          
 	<div class="ls-slide" data-ls="slidedelay:3000;transition2d:5;">
 		<img src="/puppets/images/bg31.jpg" class="ls-bg" alt="Slide background" />
 		<h1 class="ls-l" style="top:50%; left:50%; font-size:3em; color:#fff;" data-ls="offsetxin:right;durationin:2000;offsetxout:0;" src="/puppets/images/whatKidsSay.jpg" class="ls-l" alt="Image layer">Learn about the PACER puppets</h1>		
 	</div>          
               
-<% ' ----------------------------------------------------------------------------------------------------------------------------------------------- %>   
          
 	<div class="ls-slide" data-ls="slidedelay:10500;transition2d:11;">
 		<img src="/puppets/images/bg31.jpg" class="ls-bg" alt="Slide background" />
@@ -120,7 +140,6 @@
 		</div>
 	</div>          
               
-<% ' ----------------------------------------------------------------------------------------------------------------------------------------------- %> 
 
     <div class="ls-slide" data-ls="slidedelay: 8000; transition2d:5; ">
         <img src="/puppets/images/whatKidsSay.jpg" class="ls-bg" alt="Slide background"/>
@@ -129,7 +148,6 @@
 		<a href="/puppets/cast.asp" class="ls-link"></a>
     </div>
 
-<% ' ----------------------------------------------------------------------------------------------------------------------------------------------- %> 
   
     <div class="ls-slide" data-ls="slidedelay: 8000; transition2d:5; ">
         <img src="/puppets/images/worldPuppets.jpg" class="ls-bg" alt="Slide background"/>
@@ -138,7 +156,6 @@
 		<a href="/puppets/where-in-world-are-puppets.asp" class="ls-link"></a>
     </div>
 	
-<% ' ----------------------------------------------------------------------------------------------------------------------------------------------- %>   
             
     <div class="ls-slide" data-ls="slidedelay: 8000; transition2d:5; ">
         <img src="/puppets/images/generationToNext.jpg" class="ls-bg" alt="Slide background"/>
@@ -151,12 +168,12 @@
 
 </div>
 
-<%'----------------------------------- END LAYER SLIDER -------------------------------------- %>  
+<!-- ----------------------------------- END LAYER SLIDER ------------------------------------ -->  
 
 <h1>PACER puppets make a lasting impression on young children</h1>
 <p>Capturing the attention of young children isn&rsquo;t easy, but PACER&rsquo;s endearing, life-size puppets have a special way with kids that leaves a lasting impression. Since 1979, nearly half a million children have experienced the way PACER&rsquo;s multicultural puppets deliver important messages of tolerance and inclusion &ndash; and bullying prevention &ndash; to schools and organizations across the country. Using an engaging, child-friendly approach, trained volunteers present a message-filled show that is creative and fun yet deals with sensitive subjects in a realistic way. Through the puppet show and discussion, the puppets educate, entertain, and inspire.  </p>
 
-<table cellpadding="0" cellspacing="10">
+<table id="puppet-table" cellpadding="0" cellspacing="10">
 <tr>
 <td valign="top" align="center"><img style="width:100%; max-width:350px" src="/puppets/images/bonding-on-the-bench.jpg" alt="" /></td>
 <td valign="top" align="center"><img style="width:100%; max-width:350px" src="/puppets/images/Gina-and-Corey.jpg" alt="" /></td></tr>
