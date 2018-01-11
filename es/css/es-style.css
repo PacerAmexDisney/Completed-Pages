@@ -3,23 +3,79 @@
 }
 #returnTab {
 	width:15em;
-	font-size:.9em; 
-	text-align:center; 
+	font-size:.9em;
+	text-align:center;
 	background-color:#FFF;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	border-top:1px solid #00769d; 
-	border-left:1px solid #00769d; 
-	border-right:1px solid #00769d; 
-	position:absolute; 
-	top:-21px; 
-	right:-1px; 
+	border-top:1px solid #00769d;
+	border-left:1px solid #00769d;
+	border-right:1px solid #00769d;
+	position:absolute;
+	top:-21px;
+	right:-1px;
 	padding-bottom:3px;"
 }
 #header #returnTab a {
 	color:#666;
 	font-weight:normal;
 }
-body{
+html, body{
 	padding-top:15px;
+	background-color: #eee;
+}
+
+.col-9 {
+	width: 73%;
+}
+.col-3 {
+	width: 25%;
+}
+
+.left-content, #parent-footer {
+	float:left;
+}
+.right-content {
+	float:right;
+}
+
+.rightBar-wrapper {
+	margin-left: .5em;
+}
+
+.pacerinfo, .pacerinfo2, .pacerinfo3 {
+	background-color: #390;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	font-size: 110%;
+	padding: .5em 0 0 0;
+	margin: 0;
+}
+
+.pacerinfo3 a {
+	color: #fff !important;
+}
+
+#maincontent {
+	margin-top: .5em;
+}
+
+#wrapper {
+	border: none;
+}
+
+@media only screen and (max-width: 1023px) {
+	/* For mobile phones: */
+	[class*="col-"] {
+		width: 100%;
+	}
+	.right-content {
+		width: 100%;
+	}
+	.rightBar-wrapper {
+		margin-right: .5em;
+		margin-top: .5em;
+		margin-bottom: .5em;
+	}
 }
