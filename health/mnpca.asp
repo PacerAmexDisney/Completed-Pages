@@ -111,10 +111,9 @@
 <p><strong>To learn more  about PCA changes and services, contact PACER&rsquo;s  Health  Information Center at (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
 
 <hr/>
-
+          <h2 class="greenBar">Additional Information</h2>
 <div id="rightBar">
-  <p class="pacerinfo"> <strong>Family-to-Family Health Information Center</strong></p>
-  <p class="pacerinfo2"> To learn more about PCA changes and services, contact PACER's Family-to-Family Health Information Center at <strong>(952) 838-9000</strong> or  (800) 53-PACER, toll free in Minnesota.</p>
+  <p class="pacerinfo">&nbsp;</p>
   <p class="pacerinfo3">&nbsp;</p>
   <div class="stayinformed">
     <p align="center"><img src="images/exclamation_clip.png" alt="" width="64" height="64" /><br />

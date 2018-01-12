@@ -80,6 +80,7 @@
         <p><strong>To learn more about insurance and health services, </strong><strong>contact PACER&rsquo;s  Health Information Center at (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
     <hr/>
 
+          <h2 class="greenBar">Additional Information</h2>
         <div id="rightBar">
           <p class="rightsidebarpic" style="margin-top: 0;"> <img src="../images/fatherbaby.jpg" width="250" height="151" alt="father holding baby" /></p>
           <div class="stayinformed">

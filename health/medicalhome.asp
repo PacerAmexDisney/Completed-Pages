@@ -120,13 +120,10 @@
 <strong><br clear="all" />
         </strong>
         <hr/>
+          <h2 class="greenBar">Additional Information</h2>
           <div id="rightBar">
-            <p class="pacerinfo"> <strong>PACER Center<br />
-              952-838-9000</strong> </p>
-            <p class="pacerinfo2"> Champions for Children with Disabilities </p>
-            <p class="pacerinfo3"> <a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a> </p>
-            <div class="stayinformed">
-              <p><strong>Who are children with special  health needs?</strong></p>
+              <div class="stayinformed">
+                  <p><strong>Who are children with special  health needs?</strong></p>
               <p>Minnesota children with special  health needs (MCSHN), as defined by the Department of Health and Human  Services, Health Resources and Services Administration, Maternal and Child  Health Bureau, </p>
               <p align="justify"><em>&ldquo;are those who have or are at  increased risk for a chronic physical, development, behavioral, or emotional  condition and who also require health and related services of a type or amount  beyond that required by children generally.&rdquo;</em></p>
               <p>This includes children:</p>
@@ -140,7 +137,7 @@
               <p><strong>What is family-centered  care?</strong></p>
       <p><a href="http://www.familycenteredcare.org/faq.html" target="_blank">Family-centered  care</a> is an approach to the planning and delivery of health care services that  is centered on partnerships among health care providers, patients, and  families.</p>
               <p>See the <a href="http://www.familycenteredcare.org/" target="_blank">Institute for Family-Centered Care</a> for more information.</p>
-            </div>
+    </div>
           </div>
 
         <!--END CONTENT-->

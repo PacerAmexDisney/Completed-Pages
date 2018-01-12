@@ -5,7 +5,7 @@
 <title>F2F HIC - Health Care Professionals</title>
 
 <meta property="og:title" content="F2F HIC - Health Care Professionals" />
-<meta property="og:url" content="http://www.pacer.org/health/insurance/index.asp" />
+<meta property="og:url" content="http://www.pacer.org/health/insurance/" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="" />
 

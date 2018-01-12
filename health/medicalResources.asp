@@ -1187,21 +1187,12 @@ Vadnais Heights, MN 55110<br />
 <p><strong>For more information contact PACER&rsquo;s  Health Information Center at (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
 
 <hr/>
-
+    <h2 class="greenBar">Additional Information</h2>
 <div id="rightBar">
 
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
+<p class="pacerinfo">&nbsp;</p>
 <div class="stayinformed">
-<div class="centered"><img src="images/exclamation_clip.png" width="64" height="64" alt="" /></div>
+    <div class="centered"><img src="images/exclamation_clip.png" width="64" height="64" alt="" /></div>
 <h2>Tips for Lowering the Cost of Doctor Visits</h2>
 <ul>
  <li>When you schedule the appointment, ask the receptionist or the billing department if you might be eligible for a reduced cost or sliding fee scale program. Some clinics also have discounts if you pay the day of your appointment.</li>

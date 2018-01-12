@@ -236,11 +236,11 @@ The Health Information Center is funded in part through a grant from the Health 
 '<p style="text-align: left; font-style:italic">Funding for PACER's Health Information Center comes in part from the Medica Foundation with its generous support of the Medical Prevention and Health Care Literacy Project for Children with Disabilities and Special Health Care Needs.</p>
 %>
 
+                    
+                    <h2 class="greenBar">Additional Information</h2>
 <div id="rightBar">
 
-<p class="volunteer"><em>&ldquo;Strengthening  collaboration between families and physicians greatly enhances the care of all  patients, especially children with special health care needs. This center is a  catalyst for this collaboration and hence improved care of children.&rdquo;</em><br /><br />
-- Jeff  Schiff, M.D. MBA, Medical Director, Minnesota Health Care Programs.&nbsp;&nbsp; Emergency Physician, Children&rsquo;s Hospitals  and Clinics</p>
-<div class="stayinformed">
+<div class="stayinformed" style="width: 250px; max-width: 100%; margin: 20px auto">
   <p align="center"><a href="https://www.region4genetics.org/education/families/" target="_blank"><img src="/health/images/journey-through-diagnosis.jpg" width="240" height="136" alt=""/></a></p>
 <h2>Guide for families that have <br />
   child with a genetic condition</h2>
@@ -275,9 +275,8 @@ Koj muaj cuab kav nyem ntawm no thiab mloog cov lus.</a></p></div>
 	>Fadlan halkan  riix si aad fahfaahin siyaado ah u dhageysato</a></p></div>
 
    <div lang="es"> <h3>Spanish</h3>
-    <p>El Centro de Informaci�n de Salud de Familia a Familia (Family-to-Family Health Information Center) es un Programa dentro de PACER Center que ayuda a las familias a navegar a trav�s de sistemas de salud, seguros y trabajando con los doctores. Es un servicio gratuito para todas las familias.
-    <a href="audio/F2FHIC-overview-spanish.mp3" target="_blank" onclick="return popUpMedia('audio/F2FHIC-overview-spanish.mp3')">
-Por favor haga un click para obtener informaci�n en audio.</a></p></div>
+    <p>El Centro de Información de Salud de Familia a Familia (Family-to-Family   Health Information Center) es un Programa dentro de PACER Center que   ayuda a las familias a navegar a través de sistemas de salud, seguros y   trabajando con los doctores. Es un servicio gratuito para todas las   familias. <a href="http://www.pacer.org/health/audio/F2FHIC-overview-spanish.mp3" target="_blank" onclick="return popUpMedia('audio/F2FHIC-overview-spanish.mp3')"> Por favor haga un click para obtener información en audio.</a></p>
+   </div>
 
 
 </div>

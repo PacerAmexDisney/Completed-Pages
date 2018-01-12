@@ -101,21 +101,10 @@
   <p><strong>To learn more about prescription assistance, contact PACER&rsquo;s  Health  Information Center at (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
 
 	<hr/>
+    <h2 class="greenBar">Additional Information</h2>
 	<div id="rightBar">
-
-	<p class="pacerinfo">
-	<strong>PACER Center<br />
-	952-838-9000</strong>
-	</p>
-	<p class="pacerinfo2">
-	Champions for Children with Disabilities
-	</p>
-	<p class="pacerinfo3">
-	<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-	</p>
-
-	<div class="stayinformed">
-	  <h3 align="center"><strong>For Healthcare Providers!</strong><br />
+	    <div class="stayinformed">
+	        <h3 align="center"><strong>For Healthcare Providers!</strong><br />
 	    <strong><img src="images/2nurseclipart.png" alt="" width="95" height="138" /></strong>
 	    </h3><p align="center">The links below provide  information, resources, and assistance to you, as a healthcare professional, in  helping your patients afford their medications.</p>
 	  <ul type="disc">

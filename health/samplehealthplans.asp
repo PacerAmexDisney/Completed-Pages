@@ -106,12 +106,10 @@
 <li class="pdficonlist">  <a href="pdfs/ECP Seizures.pdf" target="_blank">Seizure Disorder Emergency Care Plan</a></li>
 </ul>
 <p><strong>To learn more about health or emergency care plans, contact PACER&rsquo;s  Health Information Center at (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
-<div id="pageextender" style="clear:both">&nbsp;</div>
 
-</div>
 
 <hr/>
-
+    <h2 class="greenBar">Additional Information</h2>
 <div id="rightBar">
 
 <p class="rightsidebarpic" style="margin-top: 0;">

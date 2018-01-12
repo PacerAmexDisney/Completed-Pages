@@ -103,6 +103,7 @@
     </ul>
 
 <hr/>
+       <h2 class="greenBar">Additional Information</h2>
     <div id="rightBar">
 
     <div class="stayinformed">

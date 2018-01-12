@@ -78,25 +78,6 @@
 '</div>
 %>
 
-<hr/>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-<p class="stayinformed">
-<em>As a parent of a child with a chronic illness, information is essential because it provides me with education I need to make decisions for my child's care. Access to this information is vital because it helps me navigate the health care system and achieve the best care possible for my child.</em><br /><br />
-- Carolyn G.
-</p>
-</div>
 
 <!--END CONTENT-->
 <!--#include virtual="/templates/footer.asp"-->
