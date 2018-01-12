@@ -1,104 +1,58 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>F2F HIC - Federal Health Changes</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
 
-<script type="text/javascript" src="../css/menu.js"></script>
+<meta property="og:title" content="F2F HIC - Federal Health Changes" />
+<meta property="og:url" content="http://www.pacer.org/health/prescriptionAssistance.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-  <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-
-<div class="stayinformed">
-  <h3 align="center"><strong>For Healthcare Providers!</strong><br />
-    <strong><img src="images/2nurseclipart.png" alt="" width="95" height="138" /></strong>
-    </h3><p align="center">The links below provide  information, resources, and assistance to you, as a healthcare professional, in  helping your patients afford their medications.</p>
-  <ul type="disc">
-    <li><a href="http://www.rxassist.org/providers" target="_blank">Rx Assist:&nbsp; Provider Center</a></li>
-    <li><a href="https://www.rxhope.com/Prescriber/MainHome.aspx" target="_blank">Rx Help:&nbsp; Healthcare Providers</a></li>
-    <li><a href="http://learning.rxassist.org/" target="_blank">Rx Assist:&nbsp; The Learning Center</a></li>
-  </ul>
-</div>
-
-
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
 
-</p>
+	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> /
+
+
 </div>
-	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp"> Health Information Center</a> / 
-	
 	<h1> Health Information Center</h1>
-	
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="prescription";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">Health Navigation Menu</h2>
+
 <!--#include virtual="/health/leftNav.htm" -->
 </div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="prescription";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
 	}
 </script>
+
 <div id="maincontent">
 
 <div id="pagecontent">
@@ -145,18 +99,34 @@ Champions for Children with Disabilities
     <li><a href="http://www.togetherrxaccess.com/" target="_blank">Together Rx Access</a> is a prescription drug discount card. The website gives you information       about the card and an online application.</li>
     </ul>
   <p><strong>To learn more about prescription assistance, contact PACER&rsquo;s  Health  Information Center at (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
-<div>
-  <div> </div>
-</div>
-<!--END CONTENT-->
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-</div>
-</div>
 
-<!--#include virtual="/footer.htm"-->
+	<hr/>
+	<div id="rightBar">
 
-</div>
+	<p class="pacerinfo">
+	<strong>PACER Center<br />
+	952-838-9000</strong>
+	</p>
+	<p class="pacerinfo2">
+	Champions for Children with Disabilities
+	</p>
+	<p class="pacerinfo3">
+	<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
+	</p>
 
-</body>
-</html>
+	<div class="stayinformed">
+	  <h3 align="center"><strong>For Healthcare Providers!</strong><br />
+	    <strong><img src="images/2nurseclipart.png" alt="" width="95" height="138" /></strong>
+	    </h3><p align="center">The links below provide  information, resources, and assistance to you, as a healthcare professional, in  helping your patients afford their medications.</p>
+	  <ul type="disc">
+	    <li><a href="http://www.rxassist.org/providers" target="_blank">Rx Assist:&nbsp; Provider Center</a></li>
+	    <li><a href="https://www.rxhope.com/Prescriber/MainHome.aspx" target="_blank">Rx Help:&nbsp; Healthcare Providers</a></li>
+	    <li><a href="http://learning.rxassist.org/" target="_blank">Rx Assist:&nbsp; The Learning Center</a></li>
+	  </ul>
+	</div>
+
+
+	</div>
+
+	<!--END CONTENT-->
+	<!--#include virtual="/templates/footer.asp"-->

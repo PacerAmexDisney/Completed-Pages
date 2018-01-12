@@ -1,63 +1,30 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>Parent-to-Parent Family-to-Family Health Information Center: News</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
 
-<script type="text/javascript" src="../css/menu.js"></script>
+<meta property="og:title" content="Parent-to-Parent Family-to-Family Health Information Center: News" />
+<meta property="og:url" content="http://www.pacer.org/health/news.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-</div>
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
 
-</p>
-</div>
-	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / 
+	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> /
 <a href="index.asp"> Health Information Center </a> / News
-	
+
+</div>
 	<h1> Health Information Center</h1>
-	
 </div>
-</div>
+
 
 <div id="leftbar">
 <h2 style="display: none;">Health Navigation Menu</h2>
@@ -89,7 +56,7 @@ TACA provides "Responsible HOPE" to parents and families affected by autism.
 For more information please visit <a href="http://www.tacanow.org">www.tacanow.org</a>
 </p>
 <p>
-TACA meetings will be held at the 
+TACA meetings will be held at the
 <a href="http://www.hclib.org/AgenciesAction.cfm?agency=Rd">Ridgedale Public Library in Minnetonka</a>
  from 7-9pm.
 
@@ -107,13 +74,4 @@ The meeting schedule is as follows:
 </div>
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

@@ -1,103 +1,57 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>Health Information Center -Reduced Cost &amp;amp; Sliding Fee Medical Providers</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
 
-<script type="text/javascript" src="../css/menu.js"></script>
+<meta property="og:title" content="Health Information Center -Reduced Cost &amp;amp; Sliding Fee Medical Providers" />
+<meta property="og:url" content="http://www.pacer.org/health/medicalResources.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
- <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities
-</p>
-<p class="pacerinfo3">
-<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-<div class="stayinformed">
-<div class="centered"><img src="images/exclamation_clip.png" width="64" height="64" alt="" /></div>
-<h2>Tips for Lowering the Cost of Doctor Visits</h2>
-<ul>
- <li>When you schedule the appointment, ask the receptionist or the billing department if you might be eligible for a reduced cost or sliding fee scale program. Some clinics also have discounts if you pay the day of your appointment.</li>
- <li>If you suddenly lose your insurance or your benefits significantly change, ask the receptionist or billing department at your current doctor&rsquo;s office if they have policies or programs that may help reduce your health care costs.</li>
- <li>Prices for physicals and other basic doctor appointments vary between clinics even if you qualify for reduced prices or a sliding fee scale. Call the billing department or speak to the receptionist to compare prices at a few clinics before going to an appointment.</li>
-</ul>
-</div>
-
-
-<!-- Close Right Bar -->
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
 
-</p>
+	<a href="/">Home</a> / <a href="/pandr/proglist.asp">Programs</a> / <a href="/health/"> Health Information Center</a> /
+
 </div>
-	<a href="/">Home</a> / <a href="/pandr/proglist.asp">Programs</a> / <a href="/health/"> Health Information Center</a> / 
-	
 	<h1> Health Information Center</h1>
-	
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="lowmedical";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">Health Navigation Menu</h2>
+
 <!--#include virtual="/health/leftNav.htm" -->
 </div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="lowmedical";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
 	}
 </script>
+
 <div id="maincontent">
 
 <div id="pagecontent">
@@ -110,13 +64,13 @@ Champions for Children with Disabilities
 <p id="top"><strong>List of Medical Providers and Clinics (Alphabetical by City Name)</strong></p>
 
 <p style="letter-spacing:5px; line-height:30px"><a href="#goto-a">A</a> | <a href="#goto-b">B</a> | <a href="#goto-c">C</a> | <a href="#goto-d">D</a> | <a href="#goto-e">E</a> |  <a href="#goto-f">F</a> | <a href="#goto-g">G</a> | <a href="#goto-h">H</a> | <a href="#goto-i">I</a> | <a href="#goto-j">J</a> |  <a href="#goto-l">L</a> |  <a href="#goto-m">M</a> | <a href="#goto-n">N</a> | <a href="#goto-o">O</a> | <a href="#goto-p">P</a> |  <a href="#goto-r">R</a> | <a href="#goto-s">S</a> |  <a href="#goto-t">T</a> |  <a href="#goto-v">V</a> | <a href="#goto-w">W</a></p>
- 
- 
+
+
  <h2 id="goto-a">
   A
  </h2>
- 
- 
+
+
 <p><strong>Annandale</strong></p>
 <p><a href="http://www.allinahealth.org/Clinics/Allina-Health-Annandale-Clinic/" target="_blank">Allina Health Annandale  Clinic</a><br />
  440 Elm St. E<br />
@@ -607,7 +561,7 @@ St. Mary&rsquo;s Clinics<br />
  Minneapolis, MN 55406<br />
  612-775-4900<br />
  <a href="http://www.allinahealth.org/Customer-Service/Financial-assistance/" target="_blank">Allina&rsquo;s Partner Care program</a>, income eligibility &amp; MA denial needed to qualify</p>
- 
+
 <p><a target="_blank" href="http://www.hcmc.org/EastLake/">Hennepin County Medical Center &ndash; East Lake Clinic</a><br />
  2700 E Lake St<br />
  Minneapolis, MN 55406<br />
@@ -1232,17 +1186,32 @@ Vadnais Heights, MN 55110<br />
 
 <p><strong>For more information contact PACER&rsquo;s  Health Information Center at (952) 838-9000 or (800) 53-PACER, toll free in Minnesota.</strong></p>
 
+<hr/>
+
+<div id="rightBar">
+
+<p class="pacerinfo">
+<strong>PACER Center<br />
+952-838-9000</strong>
+</p>
+<p class="pacerinfo2">
+Champions for Children with Disabilities
+</p>
+<p class="pacerinfo3">
+<a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
+</p>
+<div class="stayinformed">
+<div class="centered"><img src="images/exclamation_clip.png" width="64" height="64" alt="" /></div>
+<h2>Tips for Lowering the Cost of Doctor Visits</h2>
+<ul>
+ <li>When you schedule the appointment, ask the receptionist or the billing department if you might be eligible for a reduced cost or sliding fee scale program. Some clinics also have discounts if you pay the day of your appointment.</li>
+ <li>If you suddenly lose your insurance or your benefits significantly change, ask the receptionist or billing department at your current doctor&rsquo;s office if they have policies or programs that may help reduce your health care costs.</li>
+ <li>Prices for physicals and other basic doctor appointments vary between clinics even if you qualify for reduced prices or a sliding fee scale. Call the billing department or speak to the receptionist to compare prices at a few clinics before going to an appointment.</li>
+</ul>
+</div>
 
 
+<!-- Close Right Bar -->
+</div>
 <!--END CONTENT-->
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
