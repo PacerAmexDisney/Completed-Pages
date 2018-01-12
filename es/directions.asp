@@ -1,8 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/es/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
-
-<head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="description" content="The PACER Center is Located at 8161 Normandale Blvd, Bloomington, MN 55437. PACER Center is open Monday through Friday, 8:00 a.m. to 5:00 p.m. CST.
 " />
@@ -10,36 +7,33 @@
 " />
 
 <title>PACER Espa&ntilde;iol -  Direcciones para llegar a PACER  Center</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/stylenoleftright.css" />
-<link rel="stylesheet" type="text/css" href="/es/es-style.css" />
+
+<meta property="og:title" content="PACER Espa&ntilde;iol -  Direcciones para llegar a PACER  Center" />
+<meta property="og:url" content="http://www.pacer.org/es/directions.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="The PACER Center is Located at 8161 Normandale Blvd, Bloomington, MN 55437. PACER Center is open Monday through Friday, 8:00 a.m. to 5:00 p.m. CST." />
+<meta property="og:keywords" content="contact pacer, 888,248,0822, bloomington mn, , children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children
+education programs, pacer center, pacer org" />
+
+
+
 </head>
+<body class="singleCol">
 
-<body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
+<!--#include virtual="/es/templates/page-header-nav.asp"-->
+
+<div id="topbar">
+<div id="breadcrumb">
+
+<a href="/es/"><span class="fa fa-home"></span> Principal</a> / <a href="/cultural-diversity/">Working with Culturally Diverse Families</a> /
 </div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header"><!--#include virtual="/es/returnlinks.htm"-->
-
-	<div>			
-<a href="/es/"><img src="/es/images/PACERLogo-es.gif" alt="PACER Center Logo: Campeones para Niños con Discapacidades" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/es/dynamicheader.htm"-->
+	<h1>Direcciones a PACER Center</h1>
 </div>
 
 <div id="maincontent">
 
-<div id="pagetoporange">
-  <div id="breadcrumb">
-    <h1 class="nounderline"><strong>Direcciones a PACER Center</strong></h1>
-	
-</div>
-</div>
+<div id="pagecontent" class="narrowContent">
+
 
 
 <!--BEGIN CONTENT-->
@@ -71,19 +65,7 @@
 </td></tr></table>
 <!--END CONTENT-->
 
-<div id="pageextender" style="clear:both">&nbsp;</div>
-
-
-</div>
-
-<!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/es/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+            <div id="pageextender" style="clear:both">&nbsp;</div>
+        </div><!-- Close #pagecontent -->
+    </div><!-- Close #maincontent -->
+<!--#include virtual="/es/templates/footer.asp"-->
