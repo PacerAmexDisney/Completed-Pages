@@ -1,13 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
 <title>Family-to-Family Health Information Center</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection" />
-<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
+
+<meta property="og:title" content="Family-to-Family Health Information Center" />
+<meta property="og:url" content="http://www.pacer.org/health/index.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 <script language="javascript" type="text/javascript">
 <!--
 function popUpMedia(url) {
@@ -22,114 +23,44 @@ function popUpMedia(url) {
 // -->
 </script>
 
-<script type="text/javascript" src="../css/menu.js"></script>
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-      <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="../"><img src="../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="volunteer"><em>&ldquo;Strengthening  collaboration between families and physicians greatly enhances the care of all  patients, especially children with special health care needs. This center is a  catalyst for this collaboration and hence improved care of children.&rdquo;</em><br /><br />
-- Jeff  Schiff, M.D. MBA, Medical Director, Minnesota Health Care Programs.&nbsp;&nbsp; Emergency Physician, Children&rsquo;s Hospitals  and Clinics</p>
-<div class="stayinformed">
-  <p align="center"><a href="https://www.region4genetics.org/education/families/" target="_blank"><img src="/health/images/journey-through-diagnosis.jpg" width="240" height="136" alt=""/></a></p>
-<h2>Guide for families that have <br />
-  child with a genetic condition</h2>
-  <p>A brand new guide, The Journey Through Diagnosis, is written BY parents FOR parents from the Region 4 Genetics Collaborative. This user-friendly guide provides information and support to families who have a child with a genetic condition.  Many of the topics  are very pertinent for all families navigating the healthcare journey. </p>
-  </div>
-<div class="stayinformed" style="text-align:center"><img src="/health/images/iphone-chat-bubbles-240w.png" width="240" height="64" alt=""/>
-<h3>Text Message Updates</h3>
-                          <p>Get Health updates and reminders for important dates via Text Message!                          </p>
-                          <p><a href="http://www.pacer.org/health/updates-via-text-message.asp">More Information &gt;&gt;&gt;</a></p>
-
-</div>
-
-
-<div class="stayinformed">
-	<h2 class="enhanced">PACER Center&rsquo;s Dental &amp; Medical Advisory Board Members</h2>
-<p class="centered"><a href="advisory-board.asp">View the Board Members</a></p>
-
-</div><div class="stayinformed">
-	<p><strong><a href="http://www.ahrq.gov/preguntas/" target="_blank">Conozca las preguntas (Know the questions)</a></strong>, a  new Spanish-language website of the  Agency for Healthcare Research and Quality (AHRQ), offers Spanish-speaking  patients tips to improve their communication with their medical providers. </p>
-	<p>You can text: Preguntas to 80676 for their mobile information.</p>
-</div>
-<div class="stayinformed">
-	<h2>Translated Overview Information with Audio files</h2>
-    
-    <div lang="hmn"><h3>Hmong</h3>
-    <p>Nov yog qhov piav ua lus Hmoob me ntsis hais txog qhov chaw qhia cov xov hais txog kev noj qab haus huv rau tsev neeg. 
-    <a href="audio/F2FHIC-overview-hmong.mp3" target="_blank" onclick="return popUpMedia('audio/F2FHIC-overview-hmong.mp3')">    
-Koj muaj cuab kav nyem ntawm no thiab mloog cov lus.</a></p></div>
-    
-    <div lang="so"><h3>Somali</h3>
-    <p>Xaruntan Akhbaarada iyo amuuraha la xiriira Caafimaadka  oo ay Qoysku wadaagaan, ee gobolka Minnesota, (Familily-to-Family Health  Information Center). Waa barnaamij ka mid ah barnaamijyada Hey&rsquo;adda PACER, oo  ka caawinaya qoyska habka loola shaqeeya amuuraha la xiriira caafimaadka,  ceymiska iyo dhaqaatiirta. Waana waxqabad lacag la&rsquo;aan ah.<a href="audio/F2FHIC-overview-somali.mp3" target="_blank" onclick="return popUpMedia('audio/F2FHIC-overview-somali.mp3')"
-	>Fadlan halkan  riix si aad fahfaahin siyaado ah u dhageysato</a></p></div>
-    
-   <div lang="es"> <h3>Spanish</h3>
-    <p>El Centro de Información de Salud de Familia a Familia (Family-to-Family Health Information Center) es un Programa dentro de PACER Center que ayuda a las familias a navegar a través de sistemas de salud, seguros y trabajando con los doctores. Es un servicio gratuito para todas las familias. 
-    <a href="audio/F2FHIC-overview-spanish.mp3" target="_blank" onclick="return popUpMedia('audio/F2FHIC-overview-spanish.mp3')">    
-Por favor haga un click para obtener información en audio.</a></p></div>
-
-    
-</div>
-
-
-
-</div>
 
 <div id="topbar">
 <div id="breadcrumb">
-<div class="printemail">
-<p>
-<img src="../css/printicon.gif" width="15" height="14" alt="" /><a href="javascript:window.print()">Print page</a>
 
-</p>
+	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> /
+
 </div>
-	<a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / 
-	
 	<h1>Health Information Center</h1>
-	
 </div>
-</div>
+
+<script type="text/javascript">
+	// ID of the current Left Nav item
+	var currId="overview";
+	// current subtree that should be displayed
+	var showTree = "currentPageSubtree";
+	var showTree2 = "secondarySubtreeIfNeeded";
+</script>
 
 <div id="leftbar">
-<h2 style="display: none;">Health Navigation Menu</h2>
+
 <!--#include virtual="/health/leftNav.htm" -->
 </div>
-<!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
+
 <script type="text/javascript">
-	// ID and SubId to be Orange
-	var currId="overview";
-	var currSubId="none";
-	// any Subtree that I want to Display
-	var showTree = "none";
-	
+	// set current page
 	if (document.getElementById(currId)){
 		document.getElementById(currId).className = "page";
 	}
-	if (document.getElementById(currSubId)){
-		document.getElementById(currSubId).className = "page";
-	}
+	// collapse all subtrees except the one targeted above that the current page exists in.
 	var subTrees = document.getElementsByTagName("ul");
 	for (var i = 0; i < subTrees.length; i++) {
 		if (subTrees[i].className == "treemenu") {
-			//Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
-			if (subTrees[i].id != showTree) {
+			if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
 				subTrees[i].className = "treemenuhidden";
 			}
 		}
@@ -144,7 +75,7 @@ Por favor haga un click para obtener información en audio.</a></p></div>
 <%
 '<div class="alertBox"><img src="images/mn-capital.jpg" width="200" height="154" alt="" class="centered"/>
 '<h3 align="center">Minnesota State Agency Shutdown Planning Information</h3>
-'<p>As many of you know the 2011 legislative session ended without a budget agreement. 
+'<p>As many of you know the 2011 legislative session ended without a budget agreement.
 'We are receiving a number of calls regarding the possibility of a July 1 shutdown of the MN Department of Human Services (DHS) and other state agencies. Many families are wondering how this might affect their benefits. We wanted to share a couple of resources to help address your concerns and to keep you up to date on the latest information.
 '</p>
 '<ol style="margin:0px; padding:0px 15px" class="space">
@@ -191,7 +122,7 @@ Por favor haga un click para obtener información en audio.</a></p></div>
 
 			sql = "SELECT * FROM Workshops WHERE workshop_grant LIKE '%HIAC%' AND workshop_date >= DATEADD(day, -1, getdate()) AND workshop_workshop = 'yes' ORDER BY workshop_date"
 			set rs = conn.execute(sql)
-			
+
 			if Not rs.eof then
 			%>
 			<div id="workshops" style="padding:10px; border:1px solid #f93; margin:5px;">
@@ -201,11 +132,11 @@ Por favor haga un click para obtener información en audio.</a></p></div>
 			do until rs.eof
 			%>
 			<li>
-				
+
 				<%
 				if rs("workshop_flyer") <> "" then
 				%>
-					<span style="font-size: 110%;"><strong><%=rs("workshop_name")%></strong></span> - <a href="/workshops/flyer/<%=rs("workshop_flyer")%>" target="_blank">see flyer</a> <img src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /><br />			
+					<span style="font-size: 110%;"><strong><%=rs("workshop_name")%></strong></span> - <a href="/workshops/flyer/<%=rs("workshop_flyer")%>" target="_blank">see flyer</a> <img src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /><br />
 				<%
 				else
 				%>
@@ -222,7 +153,7 @@ Por favor haga un click para obtener información en audio.</a></p></div>
 				<%
 				if rs("workshop_directions") <> "" then
 				%>
-					<%=rs("workshop_time")%> (<em><a href="<%=rs("workshop_directions")%>"><%=rs("workshop_location")%></a></em>)<br />			
+					<%=rs("workshop_time")%> (<em><a href="<%=rs("workshop_directions")%>"><%=rs("workshop_location")%></a></em>)<br />
 				<%
 				else
 				%>
@@ -230,8 +161,8 @@ Por favor haga un click para obtener información en audio.</a></p></div>
 		    <%
 				end if
 				%>
-				
-				
+
+
 				<%
 				if rs("workshop_closed") = "yes" then
 				%>
@@ -239,20 +170,20 @@ Por favor haga un click para obtener información en audio.</a></p></div>
 				<%
 				elseif rs("workshop_closed") = "wait" then
 				%>
-					<strong>This workshop is full. To be added to the Wait List please call 952.838.9000</strong>			
+					<strong>This workshop is full. To be added to the Wait List please call 952.838.9000</strong>
 				<%
 				elseif rs("workshop_link") <> "" then
 				%>
-					<strong><a href="/forms/workshops.asp?wksp=<%=rs("workshop_id")%>">Register for this workshop</a></strong>			
+					<strong><a href="/forms/workshops.asp?wksp=<%=rs("workshop_id")%>">Register for this workshop</a></strong>
 				<%
 				else
 				%>
-					<strong><a href="/forms/workshops.asp?wksp=<%=rs("workshop_id")%>">Register for this workshop</a></strong>			
+					<strong><a href="/forms/workshops.asp?wksp=<%=rs("workshop_id")%>">Register for this workshop</a></strong>
 		    <%
 				end if
 				%>
 				<br /><br />
-			</li>				
+			</li>
 			<%
 			rs.movenext
 			loop
@@ -261,7 +192,7 @@ Por favor haga un click para obtener información en audio.</a></p></div>
 			set rs = nothing
 			end if
 			%>
-		
+
 
 
 
@@ -298,12 +229,6 @@ For more information about the  Health Information Center, please contact <a hre
 </div>
 
 
-
-
-
-
-
-
 <p style="border-top: solid 1px black; text-align: left; font-style:italic">
 The Health Information Center is funded in part through a grant from the Health Resources and Services Administration (HRSA), U.S. Dept. of Health and Human Services (HHS) grant #84MC00005. The contents should not be construed as the official position or policy of, nor should any endorsements be inferred by, HRSA, HHS, or the Federal Government.</p>
 
@@ -311,19 +236,52 @@ The Health Information Center is funded in part through a grant from the Health 
 '<p style="text-align: left; font-style:italic">Funding for PACER's Health Information Center comes in part from the Medica Foundation with its generous support of the Medical Prevention and Health Care Literacy Project for Children with Disabilities and Special Health Care Needs.</p>
 %>
 
+                    
+                    <h2 class="greenBar">Additional Information</h2>
+<div id="rightBar">
+
+<div class="stayinformed" style="width: 250px; max-width: 100%; margin: 20px auto">
+  <p align="center"><a href="https://www.region4genetics.org/education/families/" target="_blank"><img src="/health/images/journey-through-diagnosis.jpg" width="240" height="136" alt=""/></a></p>
+<h2>Guide for families that have <br />
+  child with a genetic condition</h2>
+  <p>A brand new guide, The Journey Through Diagnosis, is written BY parents FOR parents from the Region 4 Genetics Collaborative. This user-friendly guide provides information and support to families who have a child with a genetic condition.  Many of the topics  are very pertinent for all families navigating the healthcare journey. </p>
+  </div>
+<div class="stayinformed" style="text-align:center"><img src="/health/images/iphone-chat-bubbles-240w.png" width="240" height="64" alt=""/>
+<h3>Text Message Updates</h3>
+                          <p>Get Health updates and reminders for important dates via Text Message!                          </p>
+                          <p><a href="http://www.pacer.org/health/updates-via-text-message.asp">More Information &gt;&gt;&gt;</a></p>
+
+</div>
 
 
-<div id="pageextender" style="clear:both">&nbsp;</div>
+<div class="stayinformed">
+	<h2 class="enhanced">PACER Center&rsquo;s Dental &amp; Medical Advisory Board Members</h2>
+<p class="centered"><a href="advisory-board.asp">View the Board Members</a></p>
+
+</div><div class="stayinformed">
+	<p><strong><a href="http://www.ahrq.gov/preguntas/" target="_blank">Conozca las preguntas (Know the questions)</a></strong>, a  new Spanish-language website of the  Agency for Healthcare Research and Quality (AHRQ), offers Spanish-speaking  patients tips to improve their communication with their medical providers. </p>
+	<p>You can text: Preguntas to 80676 for their mobile information.</p>
+</div>
+<div class="stayinformed">
+	<h2>Translated Overview Information with Audio files</h2>
+
+    <div lang="hmn"><h3>Hmong</h3>
+    <p>Nov yog qhov piav ua lus Hmoob me ntsis hais txog qhov chaw qhia cov xov hais txog kev noj qab haus huv rau tsev neeg.
+    <a href="audio/F2FHIC-overview-hmong.mp3" target="_blank" onclick="return popUpMedia('audio/F2FHIC-overview-hmong.mp3')">
+Koj muaj cuab kav nyem ntawm no thiab mloog cov lus.</a></p></div>
+
+    <div lang="so"><h3>Somali</h3>
+    <p>Xaruntan Akhbaarada iyo amuuraha la xiriira Caafimaadka  oo ay Qoysku wadaagaan, ee gobolka Minnesota, (Familily-to-Family Health  Information Center). Waa barnaamij ka mid ah barnaamijyada Hey&rsquo;adda PACER, oo  ka caawinaya qoyska habka loola shaqeeya amuuraha la xiriira caafimaadka,  ceymiska iyo dhaqaatiirta. Waana waxqabad lacag la&rsquo;aan ah.<a href="audio/F2FHIC-overview-somali.mp3" target="_blank" onclick="return popUpMedia('audio/F2FHIC-overview-somali.mp3')"
+	>Fadlan halkan  riix si aad fahfaahin siyaado ah u dhageysato</a></p></div>
+
+   <div lang="es"> <h3>Spanish</h3>
+    <p>El Centro de InformaciÃ³n de Salud de Familia a Familia (Family-to-Family   Health Information Center) es un Programa dentro de PACER Center que   ayuda a las familias a navegar a travÃ©s de sistemas de salud, seguros y   trabajando con los doctores. Es un servicio gratuito para todas las   familias. <a href="http://www.pacer.org/health/audio/F2FHIC-overview-spanish.mp3" target="_blank" onclick="return popUpMedia('audio/F2FHIC-overview-spanish.mp3')"> Por favor haga un click para obtener informaciÃ³n en audio.</a></p>
+   </div>
+
+
+</div>
+
 </div>
 
 <!--END CONTENT-->
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
