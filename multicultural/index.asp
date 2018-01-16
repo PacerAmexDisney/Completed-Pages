@@ -1,3 +1,4 @@
+<!--#include virtual="/templates/header.asp"-->
 <%
 Function Encode(sVal)
 	Dim sReturn
@@ -54,7 +55,8 @@ Sub WriteItem()%>
 				<p><%=Encode(rs("description"))%></p>
             <%End If%>
 	  		</li>
-<%End Sub
+<%
+End Sub
 
 Dim ConStr, rs, conn, sql
 
@@ -65,7 +67,7 @@ conn.open ConStr
 set rs = conn.execute(sql)
 %>
 
-<!--#include virtual="/templates/header.asp"-->
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
@@ -138,18 +140,17 @@ PACER currently employs several members of diverse cultural groups to work with 
 <ul>
 	<li><a href="/translations/hmongpubs.asp">Hmoob</a> - Koom haum PACER Center muaj kev tham qhia hais txog niam txiv txoj kev   txhawb nqa kev kawm ntawv tshwj xeeb ua ob hom lus, muaj kev pab tsev   neeg mus muab cov kev pab li lawv xav tau thiab muaj cov ntaub ntawv   txhais ua ntau hom lus hais txog tej xwm txheej uas cov tsev neeg ntau   caj ces sam sim ntsib. Cov ntaub ntawv hais mus no yog cov uas tau muab   txhais ua lus Hmoob lawm.  </li>
 	<li><a href="/translations/somalipubs.asp">Soomaaliga</a> - Ururka PACER waxa uu bixiya tababar (workshop), waxqabad ama taageero   gaar ahaaneed iyo qoraalo la fasilay oo ku saabsan dhibaatooyinka ay la   kulmaan qoysaska ka socda meelaha kala gadisan. qoraalada hoos ku qoran   waa kuwo ka mid ah qoraalda lagu turjumay afka Soomaliga.  </li>
-	<li> <a href="/publications/spanish.asp">Español</a> - <span id="result_box" lang="es" xml:lang="es">PACER ofrece talleres biling&uuml;es, ayuda individual y publicaciones traducidas se centran en los problemas que enfrentan las familias de diversos or&iacute;genes. Las siguientes publicaciones han sido traducidas al espa&ntilde;ol.</span></li>
+	<li> <a href="/publications/spanish.asp">EspaÃ±ol</a> - <span id="result_box" lang="es" xml:lang="es">PACER ofrece talleres biling&uuml;es, ayuda individual y publicaciones traducidas se centran en los problemas que enfrentan las familias de diversos or&iacute;genes. Las siguientes publicaciones han sido traducidas al espa&ntilde;ol.</span></li>
 </ul>
 </div>
-Additional  Multi-Cultural Services
 
 <%
   Dim currCat  
   If rs.EOF Then %>
 	<p>Error - Database not found.</p>
 <%Else%>
-<%'-----------------------------------ALERT BOX CATEGORY LISTING -----------------------%>
-	<div id="alertwrapper" style="background:#fff; width:245px; float:right"><div class="alertBox" style="float:none">
+<%'-----------------------------------ALERT BOX CATEGORY LISTING -----------------------' %>
+	<div class="alertBox mobileCentered" style="width: 245px; max-width: 100%;">
     <h3 style="border:none; text-align:center; background:#F93; padding:5px;">Categories</h3>
     	<p style="line-height:2.0">
 		<strong>Multi-Cultural Services</strong><br />
@@ -196,7 +197,7 @@ Additional  Multi-Cultural Services
 '----------------------------------------END ALERT BOX CATEGORY LISTING ---------------		
 		%>
         </p>
-    </div></div>
+    </div>
 <div class="resourcelist">
 
 <h2>Additional Multi-Cultural Services</h2>
