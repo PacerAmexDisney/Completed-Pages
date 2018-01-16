@@ -587,7 +587,6 @@ conn.open ConStr
 		end if
 		%>
 
-<!--END CONTENT-->
             <!--END CONTENT-->
 
             <div id="pageextender" style="clear:both">&nbsp;</div>
