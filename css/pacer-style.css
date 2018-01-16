@@ -484,18 +484,18 @@ td.footerlinks {
 	background-color: #fff;
 	color: black;
 	margin: .5em 0 0 208px;
-	padding: .5em;
+	/* padding: .5em; */
 	font-size: 80%;
 	position:relative;
 	z-index:0;
 }
 
 body.singleCol #pagecontent {
-	margin-left: 0px;
+	/* margin-left: 0px; */
 }
 
 #maincontent #pagecontent.narrowContent {
-	max-width: 850px;;
+	/* max-width: 850px; */
 	margin: 0px auto;
 }
 
