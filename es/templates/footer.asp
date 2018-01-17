@@ -1,13 +1,8 @@
- <div id="pageextender" style="clear:both">&nbsp;</div>
-</div><!-- Close #pagecontent -->
-</div><!-- Close #maincontent -->
-
-    
          <footer id="parent-footer">
             <div class="footer-section primary has-footer-social">
                 <div class="footer-info-wrapper">
-		<p><strong>¿Necesita ayuda? Llame a 952-838-9000 </strong>(de las 8:00 AM a las 5:00PM, hora del centro, de lunes a viernes).</p>
-		<p>PACER es un Centro de Entrenamiento e Información para Padres de Minnesota, patrocinado por la Oficina Programas de Educación Especial del Departamento de Educación de los Estados Unidos.</p>
+      <p><strong>¿Necesita ayuda? Llame a 952-838-9000 </strong>(de las 8:00 AM a las 5:00PM, hora del centro, de lunes a viernes).</p>
+      <p>PACER es un Centro de Entrenamiento e Información para Padres de Minnesota, patrocinado por la Oficina Programas de Educación Especial del Departamento de Educación de los Estados Unidos.</p>
 
 </div>
 
