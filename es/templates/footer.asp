@@ -1,4 +1,9 @@
-         <footer id="parent-footer">
+ <div id="pageextender" style="clear:both">&nbsp;</div>
+</div><!-- Close #pagecontent -->
+</div><!-- Close #maincontent -->
+ 
+
+<footer id="parent-footer">
             <div class="footer-section primary has-footer-social">
                 <div class="footer-info-wrapper">
       <p><strong>¿Necesita ayuda? Llame a 952-838-9000 </strong>(de las 8:00 AM a las 5:00PM, hora del centro, de lunes a viernes).</p>
@@ -6,7 +11,7 @@
 
 </div>
 
-                <p class="footer-message legal">©2017 PACER Center, Inc.</p>
+                <p class="footer-message legal">©2018 PACER Center, Inc.</p>
             </div>
         </footer>
 </div> <!-- Close #wrapper -->

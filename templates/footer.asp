@@ -36,7 +36,7 @@
                     <a lang="es" href="/es/">Español</a>
                     <a href="http://www.pacer.org/translations/somali.asp">Soomaaliga/Somali</a>
                 </div>
-                <p class="footer-message legal">©2017 PACER Center, Inc.</p>
+                <p class="footer-message legal">©2018 PACER Center, Inc.</p>
             </div>
         </footer>
 </div> <!-- Close #wrapper -->

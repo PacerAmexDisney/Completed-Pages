@@ -1,17 +1,11 @@
 <!--#include virtual="/es/templates/header.asp"-->
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<meta name="description" content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families." />
-<meta name="keywords" content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org" />
-
+<meta name="description" content="" />
 <title>PACER Español -  Liderazgo</title>
-
 <meta property="og:title" content="PACER Español -  Liderazgo"/>
 <meta property="og:url" content="http://www.pacer.org/es/leadership.asp"/>
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg"/>
-<meta property="og:description"
-      content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families."/>
-<meta property="og:keywords"
-      content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org"/>
+<meta property="og:description" content=""/>
 
 </head>
 
@@ -21,23 +15,21 @@
 
     <div id="topbar">
         <div id="breadcrumb">
-            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / <a href="/cultural-diversity/">Working
-            with
-            Culturally Diverse Families</a> /
+            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / 
         </div>
         <h1>Liderazgo</h1>
     </div>
 
-    <div id="maincontent" class="">
+    <div id="maincontent" >
 
-        <div id="pagecontent" class="narrowContent col-9 left-content">
+        <div id="pagecontent" class="narrowContent">
 
             <!--BEGIN CONTENT-->
 
 <p>PACER es una organización sin fines de lucro, exenta de impuestos de Minnesota, que proporciona información, entrenamiento y asistencia a padres de niños y jóvenes con todas las discapacidades: físicas, de aprendizaje, cognitivas, emocionales y de salud. Su misión es de mejorar y ampliar las oportunidades que enriquecen la calidad de vida para niños y jóvenes con discapacidades y sus familias. Dieciocho organizaciones para discapacidades en Minnesota forman para de la coalición de PACER.</p>
-<table id="lead" cellpadding="0" cellspacing="0">
+<table id="lead" cellpadding="20" cellspacing="0">
 	<tr>
-		<td colspan="2"><h3><strong>La Directora Ejecutiva de PACER</strong></h3></td>
+		<td colspan="2"><h3>La Directora Ejecutiva de PACER</h3></td>
 	</tr>
 	<tr>
 		<td>
@@ -77,14 +69,5 @@ Paula co-fundó PACER en 1976. Ella es además la co-directora del Centro Nacion
    <li>John Valente</li>
  </ul>
             <!--END CONTENT-->
-
-            <div id="pageextender" style="clear:both">&nbsp;</div>
-        </div><!-- Close #pagecontent -->
-        <div id="rightBar" class="col-3 right-content">
-            <div class="rightBar-wrapper">
-                <!--#include virtual="/es/infobox1.htm"-->
-            </div>
-        </div>
-    </div><!-- Close #maincontent -->
 
     <!--#include virtual="/es/templates/footer.asp"-->

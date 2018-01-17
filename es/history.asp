@@ -1,15 +1,19 @@
 <!--#include virtual="/es/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<meta name="description" content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families." />
-<meta name="keywords" content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org" />
+<meta name="description" content="" />
 
 <title>PACER Español - Historia de PACER Center</title>
 <meta property="og:title" content="PACER Español - Historia de PACER Center" />
 <meta property="og:url" content="http://www.pacer.org/es/history.asp" />
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
-<meta property="og:description" content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families."" />
-<meta property="og:keywords" content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org" />
+<meta property="og:description" content="" />
+
+<style type="text/css">
+    #timeline td{
+        padding: 15px;
+    }
+</style>
 
 </head>
 
@@ -19,16 +23,14 @@
 
     <div id="topbar">
         <div id="breadcrumb">
-            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / <a href="/cultural-diversity/">Working
-            with
-            Culturally Diverse Families</a> /
+            <a href="/es/"><span class="fa fa-home"></span> Principal</a> /
         </div>
         <h1>Historia de PACER Center</h1>
     </div>
 
-    <div id="maincontent" class="">
+    <div id="maincontent">
 
-        <div id="pagecontent" class="narrowContent col-9 left-content">
+        <div id="pagecontent" class="narrowContent">
 
             <!--BEGIN CONTENT-->
 
@@ -160,19 +162,6 @@ La Directora Ejecutiva de PACER es invitada a dar su testimonio en la Oficina pa
 	  </tr>
       
 </table>
-<p>
-<br /><br /><br /><br />
-</p>
 
-            <!--END CONTENT-->
-
-            <div id="pageextender" style="clear:both">&nbsp;</div>
-        </div><!-- Close #pagecontent -->
-        <div id="rightBar" class="col-3 right-content">
-            <div class="rightBar-wrapper">
-                <!--#include virtual="/es/infobox1.htm"-->
-            </div>
-        </div>
-    </div><!-- Close #maincontent -->
 
     <!--#include virtual="/es/templates/footer.asp"-->

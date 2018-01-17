@@ -1,3 +1,4 @@
+<!--#include virtual="/es/templates/header.asp"-->
 <%
 '+--------------------------------------------------------------------------------------------------
 ' ENCODE UTF8
@@ -41,9 +42,10 @@ Public Function TrimLink(fItem)
 		Trimlink = fItem
 	End If 
 End Function 
-   
+
+' "
 %>
-<!--#include virtual="/es/templates/header.asp"-->
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="Translated Publications produced by PACER Center" />
@@ -52,13 +54,9 @@ End Function
     <meta property="og:title" content="PACER Español - Publicaciones Español"/>
     <meta property="og:url" content="http://www.pacer.org/es/publications.asp"/>
     <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg"/>
-    <meta property="og:description"
-          content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families."/>
-    <meta property="og:keywords"
-          content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org"/>
+    <meta property="og:description" content=""/>
 
 <link rel="stylesheet" type="text/css" href="/js/colorbox1.5.9/colorbox.css">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="/js/colorbox1.5.9/jquery.colorbox-min.js"></script>
 <script type="text/javascript" src="/js/pacer-video-popup.js"></script>
 
@@ -80,16 +78,14 @@ End Function
 
     <div id="topbar">
         <div id="breadcrumb">
-            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / <a href="/cultural-diversity/">Working
-            with
-            Culturally Diverse Families</a> /
+            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / 
         </div>
         <h1>Publicaciones Español</h1>
     </div>
 
-    <div id="maincontent" class="">
+    <div id="maincontent">
 
-        <div id="pagecontent" class="narrowContent col-9 left-content">
+        <div id="pagecontent" class="narrowContent">
 
 
 <div class="alertBox" style="font-weight:bold; font-size:1.2em">
@@ -305,7 +301,7 @@ conn.open ConStr
 		%>
 
 		
-		<table class="handouts" cellpadding="5">
+		<table class="handouts" cellpadding="10">
 		<tr style="font-weight: bold; background-color: #eee;">
 			<td>Nombre de la publicación</td>
 			<td>Clave de la publicación</td>
@@ -587,19 +583,9 @@ conn.open ConStr
 		end if
 		%>
 
-            <!--END CONTENT-->
+<hr>
+    
+            <p><a href="/publications/spanish.asp">View these publication listings with English titles here.</a></p>
 
-            <div id="pageextender" style="clear:both">&nbsp;</div>
-        </div><!-- Close #pagecontent -->
-        <div id="rightBar">
-            <div class="rightBar-wrapper">
-                <!--#include virtual="/es/infobox1.htm"-->
-                <div class="stayinformed" style="font-size:1.05em; text-align:center">
-        	        <a href="/publications/spanish.asp">View these publication listings with English titles here.</a>
-        	    </div>
-                <img src="/es/images/sidebar/African-American-father-and-toddler.jpg" alt="" />
-            </div>
-        </div><!-- Close #rightBar -->
-    </div><!-- Close #maincontent -->
 
     <!--#include virtual="/es/templates/footer.asp"-->

@@ -14,8 +14,6 @@
 <title>PACER Español - Contacte a PACER - (888) 248-0822 - Bloomington, MN</title>
 
 <link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/stylenoleftright.css" />
-<link rel="stylesheet" type="text/css" href="/es/es-style.css" />
 </head>
 
 <body class="singleCol">
@@ -24,8 +22,7 @@
 
     <div id="topbar">
         <div id="breadcrumb">
-            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / <a href="/cultural-diversity/">
-            Working with Culturally Diverse Families</a> /
+            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / 
         </div>
         <h1>CONTACTE A PACER</h1>
     </div>
@@ -38,7 +35,7 @@
 
            <div>
                <p>
-                   <img style="float: left; padding: 0 1em 1em 1em;" src="/images/pacer-exteriorsign_medium.jpg" width="563" height="422" alt="PACER Center Building and sign" />
+                   <img class="fltrt mobileCentered" style="max-width: 50%; height: auto;" src="/images/pacer-exteriorsign_medium.jpg" width="563" height="422" alt="PACER Center Building and sign" />
                    Usted puede  contactar a PACER por tel&eacute;fono, a trav&eacute;s de correo electr&oacute;nico, en persona o  por correo. PACER Center est&aacute; abierto de Lunes a Viernes, de 8:00 a.m. a 5:00.  p.m. hora del centro.
                </p>
                 <p>
@@ -69,12 +66,5 @@
                     8:00 a.m. &ndash; 5:00 p.m. Lunes - Viernes
                  </p>
            </div>
-            <p><br /><br /><br /></p>
-
-             <!--END CONTENT-->
-
-            <div id="pageextender" style="clear:both">&nbsp;</div>
-        </div><!-- Close #pagecontent -->
-    </div><!-- Close #maincontent -->
 
     <!--#include virtual="/es/templates/footer.asp"-->

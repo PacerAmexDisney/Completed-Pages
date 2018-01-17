@@ -1,3 +1,4 @@
+<!--#include virtual="/es/templates/header.asp"-->
 <%
 '+--------------------------------------------------------------------------------------------------
 ' ENCODE UTF8
@@ -103,22 +104,15 @@ conn.open ConStr
 set rs = conn.execute(sql)
 %>
 
-<!--#include virtual="/es/templates/header.asp"-->
 
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-<meta name="description" content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families." />
-<meta name="keywords" content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org" />
+<meta name="description" content="" />
 
 <title>PACER Español -  Servicious Multiculturales</title>
     <meta property="og:title" content="PACER Español -  Servicious Multiculturales"/>
     <meta property="og:url" content="http://www.pacer.org/es/resources.asp"/>
     <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg"/>
-    <meta property="og:description"
-          content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families."/>
-    <meta property="og:keywords"
-          content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org"/>
-
-
+    <meta property="og:description" content=""/>
 
 <style type="text/css">
 #topSectionWrap{
@@ -165,16 +159,14 @@ set rs = conn.execute(sql)
 
     <div id="topbar">
         <div id="breadcrumb">
-            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / <a href="/cultural-diversity/">Working
-            with
-            Culturally Diverse Families</a> /
+            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / 
         </div>
         <h1>Servicios Multiculturales</h1>
     </div>
 
-    <div id="maincontent" class="">
+    <div id="maincontent">
 
-        <div id="pagecontent" class="narrowContent col-9 left-content">
+        <div id="pagecontent" class="narrowContent">
 
 
 <h2 class="noborder">Resumen de Servicios Multiculturales</h2>
@@ -189,7 +181,7 @@ set rs = conn.execute(sql)
 	<p>Error - Database not found.</p>
 <%Else%>
 <%'-----------------------------------ALERT BOX CATEGORY LISTING -----------------------%>
-	<div id="alertwrapper" style="background:#fff; width:245px; float:right"><div class="alertBox" style="float:none">
+<div class="alertBox mobileCentered" style="width:245px; max-width:100%;">
     <h3 style="border:none; text-align:center; background:#F93; padding:5px;">Categorías</h3>
     	<p style="line-height:2.0">
 		<strong>Servicios para Latinos</strong><br />
@@ -216,7 +208,10 @@ set rs = conn.execute(sql)
 		%>
         </p>
 
-    </div></div>
+    </div>
+ 
+ 
+ 
 <div class="resourcelist">
 
 <h2>Servicios para Latinos</h2>
@@ -298,19 +293,4 @@ set rs = conn.execute(sql)
 %>
 
 </div>
-            <!--END CONTENT-->
-
-            <div id="pageextender" style="clear:both">&nbsp;</div>
-        </div><!-- Close #pagecontent -->
-        <div id="rightBar">
-            <div class="rightBar-wrapper">
-                <!--#include virtual="/es/infobox1.htm"-->
-                <div class="stayinformed" style="font-size:1.05em; text-align:center">
-        	        <a href="/publications/spanish.asp">View these publication listings with English titles here.</a>
-        	    </div>
-                <img src="/es/images/sidebar/African-American-father-and-toddler.jpg" alt="" />
-            </div>
-        </div><!-- Close #rightBar -->
-    </div><!-- Close #maincontent -->
-
     <!--#include virtual="/es/templates/footer.asp"-->

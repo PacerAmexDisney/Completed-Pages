@@ -18,7 +18,7 @@
 <div id="topbar">
 <div id="breadcrumb">
 
-<a href="/es/"><span class="fa fa-home"></span> Principal</a> / <a href="/cultural-diversity/">Working with Culturaly Diverse Families</a> /
+<a href="/es/"><span class="fa fa-home"></span> Principal</a> /
 </div>
 	<h1>One Column Page Heading</h1>
 </div>

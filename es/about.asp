@@ -1,17 +1,13 @@
 <!--#include virtual="/es/templates/header.asp"-->
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="description"
-          content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families."/>
-    <meta name="keywords"
-          content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org"/>
+          content=""/>
 
     <meta property="og:title" content="PACER Español - Acerca de PACER Center"/>
     <meta property="og:url" content="http://www.pacer.org/es/about.asp"/>
     <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg"/>
     <meta property="og:description"
-          content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families."/>
-    <meta property="og:keywords"
-          content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org"/>
+          content=""/>
 
     <title>PACER Español - Acerca de PACER Center</title>
 
@@ -28,20 +24,17 @@
 
     <div id="topbar">
         <div id="breadcrumb">
-            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / <a href="/cultural-diversity/">Working
-            with
-            Culturally Diverse Families</a> /
+            <a href="/es/"><span class="fa fa-home"></span> Principal</a> /
         </div>
         <h1>Acerca de PACER Center</h1>
     </div>
 
-    <div id="maincontent" class="">
+    <div id="maincontent">
 
         <div id="pagecontent" class="narrowContent col-9 left-content">
 
             <!--BEGIN CONTENT-->
-            <img src="/images/pacer-exteriorsign_medium.jpg" alt="" width="300"
-                 style="float:left; margin-right:1em;"/>
+            <img class="fltrt mobileCentered" src="/images/pacer-exteriorsign_medium.jpg" alt="" width="300" />
 
             <div id="aboutPACER">
                 <p>La misión de PACER Center (Parent Advocacy Coalition for Educational Rights―PACER) es la expandir
@@ -77,14 +70,5 @@
                     participate on PACER boards and committees.</p>
             </div>
             <!--END CONTENT-->
-
-            <div id="pageextender" style="clear:both">&nbsp;</div>
-        </div><!-- Close #pagecontent -->
-        <div id="rightBar" class="col-3 right-content">
-            <div class="rightBar-wrapper">
-                <!--#include virtual="/es/infobox1.htm"-->
-            </div>
-        </div>
-    </div><!-- Close #maincontent -->
 
     <!--#include virtual="/es/templates/footer.asp"-->

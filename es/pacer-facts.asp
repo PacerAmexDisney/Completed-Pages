@@ -1,19 +1,13 @@
 <!--#include virtual="/es/templates/header.asp"-->
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="description" content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families."/>
-    <meta name="keywords"
-          content="donate pacer, give to pacer, corporate contributions, children with disabilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org"/>
-
+    <meta name="description" content=""/>
     <title>PACER Español - Hechos de PACER</title>
 
     <meta property="og:title" content="PACER Español -  Hechos de PACER"/>
     <meta property="og:url" content="http://www.pacer.org/es/pacer-facts.asp"/>
     <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg"/>
-    <meta property="og:description"
-          content="By making a donation, you are helping PACER provide opportunities for disabled children and youth with disabilities. Your contribution will help keep services free of charge to families."/>
-    <meta property="og:keywords"
-          content="donate pacer, give to pacer, corporate contributions, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org"/>
+    <meta property="og:description" content=""/>
 
 </head>
 
@@ -23,34 +17,32 @@
 
     <div id="topbar">
         <div id="breadcrumb">
-            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / <a href="/cultural-diversity/">Working
-            with
-            Culturally Diverse Families</a> /
+            <a href="/es/"><span class="fa fa-home"></span> Principal</a> / 
         </div>
         <h1>Hechos de PACER</h1>
     </div>
 
-    <div id="maincontent" class="">
+    <div id="maincontent">
 
-        <div id="pagecontent" class="narrowContent col-9 left-content">
+        <div id="pagecontent" class="narrowContent">
 
             <!--BEGIN CONTENT-->
 
-
-            <ul class="nobullet">
-                <li><a href="#1">¿Qué es PACER Center?</a></li>
-                <li><a href="#2">¿Cuál es la misión de PACER?</a></li>
-                <li><a href="#3">¿Es PACER una organización sin fines de lucro?</a></li>
-                <li><a href="#4">¿Cómo está PACER conminado a la comunidad?</a></li>
-                <li><a href="#5">¿Cuáles son algunos logros recientes de PACER?</a></li>
-                <li><a href="#6">¿Cómo va a ayudar a PACER mi contribución?</a></li>
-            </ul>
-
-            <h3 class="nounderline"><a name="1">¿Qué es PACER Center?</a></h3>
+            <div class="alertBox mobileCentered">
+                <ul class="nobullet">
+                    <li><a href="#q1">¿Qué es PACER Center?</a></li>
+                    <li><a href="#q2">¿Cuál es la misión de PACER?</a></li>
+                    <li><a href="#q3">¿Es PACER una organización sin fines de lucro?</a></li>
+                    <li><a href="#q4">¿Cómo está PACER conminado a la comunidad?</a></li>
+                    <li><a href="#q5">¿Cuáles son algunos logros recientes de PACER?</a></li>
+                    <li><a href="#q6">¿Cómo va a ayudar a PACER mi contribución?</a></li>
+                </ul>
+            </div>
+            <h3 id="q1">¿Qué es PACER Center?</h3>
             <p>PACER Center es un centro de instrucción e información para padres de niños y jóvenes con discapacidades desde el nacimiento hasta los 21 años de edad. Ubicado en Minneapolis, sirve a familias a través de toda la nación así como
                 aquellas personas en Minnesota. Los padres pueden encontrar publicaciones, talleres y otros recursos para ayudarles a tomar decisiones acerca de educación, entrenamiento vocacional, empleo y otros servicios para sus niños con
                 discapacidades.</p>
-            <h3>Aspectos destacados de los programas de PACER:</h3>
+            <h3 id="q2">Aspectos destacados de los programas de PACER:</h3>
             <ul>
                 <li>
                     <p>PACER provee información, apoyo, talleres y referencias para familias y para profesionales.</p>
@@ -76,17 +68,20 @@
                     <p>Otros programas se enfocan en empleo, abuelos, vivienda y prevención de bulling*</p>
                 </li>
             </ul>
-            <h3 class="nounderline"><a name="2">¿Cuál es la misión de PACER?</a></h3>
+            <h3 id="q3">¿Cuál es la misión de PACER?</h3>
             <p>La misión de PACER Center es expandir oportunidades y mejorar la calidad de vida de los niños y jóvenes adultos con discapacidades y sus familias, basados en el concepto de padres ayudando a padres.</p>
-            <h3 class="nounderline"><a name="3">¿Es PACER una organización 501 (c)(3)?</a></h3>
+            
+            <h3 id="q4">¿Es PACER una organización 501 (c)(3)?</h3>
             <p>Sí, PACER Center es una organización sin fines de lucro sirviendo a niños y a jóvenes con discapacidades a través de todo el estado de Minnesota y del país. Usted puede encontrar un reporte de la organización en el <a
                     href="http://www.smartgivers.org/" target="_blank">Minnesota Charities Review Council</a>. Las donaciones para PACER Center son deducibles de impuestos y permitidas por la ley.</p>
-            <h3 class="nounderline"><a name="4">¿Cómo está PACER conectado a la comunidad?</a></h3>
+            
+            <h3 id="q5">¿Cómo está PACER conectado a la comunidad?</h3>
             <p>PACER Center es único ya que sirve a niños con todo tipo de discapacidades; aprendizaje, físicas, emocionales, mentales y de salud. Ninguna otra organización en Minnesota ofrece este amplio rango de servicio a  las familias. PACER
                 también trabaja en coalición con otras 18 organizaciones en discapacidades.</p>
             <p>Muchos de los miembros del consejo de PACER son padres, representantes de organizaciones de la coalición.</p>
             <p>La visión de PACER es construir una comunidad saludable e integrada, en la cual las personas aprendan a respetarse mutuamente por lo que tienen en común y a celebrar sus diferencias.</p>
-            <h3 class="nounderline"><a name="5">¿Cuáles son algunos logros recientes de PACER Center?</a></h3>
+            
+            <h3 id="q6">¿Cuáles son algunos logros recientes de PACER Center?</h3>
             <p>Durante el año fiscal pasado, Oct. 1, 2008 – Sept. 30, 2009, PACER respondió a:</p>
             <ul>
                 <li>
@@ -110,21 +105,10 @@
             </ul>
             <p>La lista de personas que reciben nuestra correspondencia continúa creciendo, más de
                 115, 000 personas reciben ahora  correo de PACER varias veces al año.</p>
-            <h3 class="nounderline"><a name="6">¿Cómo ayudará mi contribución a PACER Center?</a></h3>
+            <h3>¿Cómo ayudará mi contribución a PACER Center?</h3>
             <p>Actualmente hay más de 180, 000 niños con necesidades especiales en Minnesota y 7 millones a través de todo el país. Cada año, mientras más gente escucha hablar de PACER, más solicitudes se reciben para ayudar a niños con todo tipo de
                 discapacidades. Aún así PACER no es una agencia del United Way y no cobra honorarios por los talleres a los padres de niños con discapacidades porque PACER sabe que esos padres ya están enfrentando altos costos al esforzarse por
                 satisfacer las necesidades de su hijo o hija con discapacidades. Por lo tanto su apoyo para ayudar a que el personal de PACER responda al siempre creciente número de familias y profesionales que contactan a PACER buscando ayuda.</p>
 
-
-            <!--END CONTENT-->
-
-            <div id="pageextender" style="clear:both">&nbsp;</div>
-        </div><!-- Close #pagecontent -->
-        <div id="rightBar" class="col-3 right-content">
-            <div class="rightBar-wrapper">
-                <!--#include virtual="/es/infobox1.htm"-->
-            </div>
-        </div>
-    </div><!-- Close #maincontent -->
 
     <!--#include virtual="/es/templates/footer.asp"-->

@@ -17,5 +17,5 @@ $(document).ready(function(){
 		}
 	});
 	//Initialize Colorbox
-	$(".videoPopUp").colorbox({iframe:true, innerWidth:960, innerHeight:585});
+	$(".videoPopUp").colorbox({iframe:true, innerWidth:960, innerHeight:585, maxWidth:'95%', maxHeight:'95%'});
 });
