@@ -223,9 +223,9 @@ function popUpMedia(url) {
 For more information about the  Health Information Center, please contact <a href="mailto:linda.cherwitz@pacer.org">Linda Goldman Cherwitz</a> or <a href="mailto:wendy.ringer@pacer.org">Wendy Ringer</a>: (952)838-9000 Voice; (952)838-0190 TTY.
 </p>
 <hr />
-<div id="IframeWrapper" style="width:530px; margin:10px auto">
+<div id="IframeWrapper" style="width:530px; max-width: 90%; margin:10px auto">
 <h3>MyCare <span style="font-size:.8em;">- an initiative to educate Americans about programs, benefits, and rights under the new Federal health care law.</span></h3>
-<iframe width="530" height="315" src="http://www.youtube.com/embed/xElgO3ck1io?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe style="max-width: 100%;" width="530" height="315" src="http://www.youtube.com/embed/xElgO3ck1io?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
