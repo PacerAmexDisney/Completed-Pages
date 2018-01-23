@@ -17,76 +17,99 @@
     </script>
     <!-- END virtual="/bullying/templates/header.asp-->
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Team Rudolph</title>
-    <meta name="title" content="Team Rudolph - PACER's National Bullying Prevention Center"/>
-    <meta name="description" content="Celebrating Acceptance and Inclusion Through Teamwork"/>
 
-    <!-- for Facebook ## images 600x315/1200x630 -->
-    <meta property="fb:app_id" content="271376943231875"/>
-    <meta property="og:title" content="T.E.A.M Rudolph: Digital Teacher Toolkit"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:image" content="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/team-rudolph-fb.jpg"/>
-    <meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/"/>
-    <meta property="og:description"
-          content="You are invited to register for the resources of the free “T.E.A.M. Rudolph and the Reindeer Games” Digital Teacher Toolkit so that you and all of your students can join T.E.A.M. Rudolph and celebrate the differences in us all!"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Students with Solutions - National Bullying Prevention Center</title>
+    <meta name="title" content="Students with Solutions - National Bullying Prevention Center" />
+    <meta name="description" content="PACER created an animated video series exclusively to give students of all ages an opportunity to think about bullying in a new way. The images and words in the videos were submitted by young students from around the country in response to questions about how bullying made them feel and how they think bullying can be prevented. After viewing the videos, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that will be eligible to be shared on PACER’s website and to receive awards. " />
 
-    <link rel="image_src" href="http://www.pacer.org/bullying/shinebright/images/Rudolph_ShineBright_FBLogo.png"/>
-    <link rel="icon" href="http://www.pacer.org/bullying/favicon.ico"/>
-    <link href="http://www.pacer.org/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css"/>
+    <!-- for Facebook -->
+    <meta property="fb:app_id" content="271376943231875"  />
+    <meta property="og:title" content="Students with Solutions - National Bullying Prevention Center" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="http://www.pacer.org/bullying/getinvolved/images/students-with-solutions-fb.jpg" />
+    <meta property="og:url" content="http://www.pacer.org/bullying/getinvolved/students-with-solutions.asp" />
+    <meta property="og:description" content="PACER created an animated video series exclusively to give students of all ages an opportunity to think about bullying in a new way. The images and words in the videos were submitted by young students from around the country in response to questions about how bullying made them feel and how they think bullying can be prevented. After viewing the videos, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that will be eligible to be shared on PACER’s website and to receive awards. " />
+
+    <link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
+    <link href="http://www.pacer.org/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="http://www.pacer.org/bullying/css/scrolling.css"/>
-    <link href="http://www.pacer.org/js/colorbox1.5.9/colorbox.css" rel="stylesheet" type="text/css"/>
-
+    <link rel="stylesheet" type="text/css" href="http://www.pacer.org/php-sdk/fbwallfeed.css"/>
+    <link rel="stylesheet" type="text/css" href="http://www.pacer.org/php-sdk/hashtagAggregator.css"/>
+    <link href="http://www.pacer.org/js/colorbox1.5.9/colorbox.css" rel="stylesheet" type="text/css" />
 
     <!--#include virtual="/bullying/dynamic-head-items.html"-->
 
-    <!--[if lte IE 7]>
-    <script type="text/javascript" src="/bullying/js/nav_ie_fix.js"></script>
-    <![endif]-->
-
-    <!-- END virtual="/bullying/dynamic-head-items.html"-->
-
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript">
-        if (typeof jQuery == 'undefined') {
+        if (typeof jQuery == 'undefined')
+        {
             document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
         }
     </script>
     <script src="http://www.pacer.org/js/colorbox1.5.9/jquery.colorbox-min.js" type="text/javascript"></script>
 
-    <!-- add this script Go to www.addthis.com/dashboard to customize your tools -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
 
-
-    <script src="http://www.pacer.org/js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
-
     <script type="text/javascript">
-        //<![CDATA[
-        $().ready(function () {
-            var actionPage = "htxtxps://www.surxveymonxkey.cxom/r/TFxPWZSx7";
-            $('#toolkitRegisterButton').attr('href', actionPage.replace(/x/gi, ""));
-        });
-
-        //Make Color Box Descriptions Expand Below the Image.
-        $(document).bind('cbox_complete', function () {
-            if ($('#cboxTitle').height() > 20) {
-                $("#cboxTitle").hide();
-                $("<div>" + $("#cboxTitle").html() + "</div>").css({color: $("#cboxTitle").css('color')}).insertAfter(".cboxPhoto");
-                $.fn.colorbox.resize();
-            }
-        });
-
-        //]]>
+        $(document).ready(function() {
+            //----------more buttons----------
+            $('.morebutton').click(function() {
+                $(this).parent().parent().addClass('expanded');
+            });
+        });//----------close ready function----------
     </script>
 
     <style type="text/css">
+
+
         #bottomContentWrapper {
             margin: 0 auto;
             width: 930px;
         }
 
-        .bottomContent {
-            padding: 10px 45px;
+        .bottomContent { padding: 10px 45px; }
+
+        #fbfeedheader {
+            min-height: 40px;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            border-bottom: 1px soild #ccc;
+        }
+
+        #wwghashtagheader {
+            position: relative;
+            margin-bottom: 5px;
+            min-height: 40px;
+            padding-bottom: 5px;
+        }
+
+        #wwghashtagheader h2 {
+            text-align: center;
+            font-weight: bold;
+            color: #772828;
+            font-size: 1.2em;
+            text-shadow: none;
+        }
+
+        #wwghashtagdata { margin-top: 5px; }
+
+        #extraSliderNav {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #wwgtwitterhandle {
+            position: absolute;
+            right: 0px;
+            bottom: -15px;
+        }
+
+        #wwginstagramhandle {
+            position: absolute;
+            left: 0px;
+            bottom: -15px;
         }
 
         #topheroimage h1 {
@@ -101,12 +124,10 @@
             width: 303px;
         }
 
-        #topheroimage .widebutton {
-            position: absolute;
-        }
+        #topheroimage .widebutton { position: absolute; }
 
         .row-shadow #intromessage {
-            background-image: url('/bullying/wewillgen/images/shadow-bottom.png'), url('/bullying/wewillgen/images/shadow-top.png');
+            background-image: url('http://www.pacer.org/bullying/wewillgen/images/shadow-bottom.png'), url('http://www.pacer.org/bullying/wewillgen/images/shadow-top.png');
             background-repeat: repeat-x, repeat-x;
             background-position: 0px 50px, left top;
         }
@@ -124,74 +145,115 @@
             background-color: #eee;
         }
 
-        #pledgemessage {
-            display: none;
+        #pledgemessage { display: none; }
+
+        #hashtagitems{
+            width:900px;
+            margin:0 auto;
         }
 
         .bottombox {
-            width: 450px;
-            float: left;
+            width:450px;
+            float:left;
         }
-
         .logo {
-            padding-right: 10px;
+            padding-right:10px;
+        }
+        .logo-thumb {
+            width:140px;
+            height:140px;
+            background-color:#fff;
+            margin:10px;
+            float:left;
         }
 
-        #survey-monkey {
-            width: 550px;
-            min-height: 50px;
-            padding-top: 15px;
-            margin: 30px auto;
-            font-size: 1.2em;
-            background-color: #fff;
-            border-radius: 10px;
+        .row-purple, .row-purple h1, .row-purple h2, .row-purple h3, .row-purple .morebutton {
+            background-color:#653d68;
+            color:#fff;
+        }
+        .row-purple h1 {
+            text-align:center;
+            font-size:30px;
+            line-height:40px;
+            text-shadow:0px 0px 5px #000;
+        }
+        .row-purple h3 {
+            font-size:1.3em;
+            margin-bottom:5px;
+        }
+        .row-purple a {
+            color:#FFF;
+        }
+        .row-purple a:hover {
+            color:rgba(255,255,255,0.5);
+        }
+        .row-purple .externallink {
+            background:url(http://www.pacer.org/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+        }
+        .row-purple .externallink:hover {
+            background:url(http://www.pacer.org/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+            color:rgba(255,255,255,0.5);
+        }
+
+        .row-purplewhite, .row-purplewhite h1, .row-purplewhite h2, .row-purplewhite h3, .row-purplewhite .morebutton {
+            background-color:#fff;
+            color:#653d68;
+        }
+        .row-purplewhite h1 {
+            text-align:center;
+            font-size:30px;
+            line-height:40px;
+            text-shadow:0px 0px 5px #000;
+        }
+        .row-purplewhite a {
+            color:#653d68;
+        }
+        .row-purplewhite a:hover {
+            color:rgba(101,61,94,0.5);
+        }
+        .row-purplewhite .externallink {
+            background:url(http://www.pacer.org/bullying/images/styles/externalLinkWhite.png) no-repeat right;
+        }
+        .row-purplewhite .externallink:hover {
+            background:url(http://www.pacer.org/bullying/images/styles/externalLinkWhiteHover.png) no-repeat right;
+            color:rgba(255,255,255,0.5);
+        }
+
+        .judge-bio {
+            line-height: normal;
+        }
+
+        .judge-bio-left {
+            margin:0 20px 20px 0;
+            float: left;
+            border:1px solid white;
+        }
+
+        .judge-bio-right {
+            margin:0 0 20px 20px;
+            float: right;
+            border:1px solid white;
+        }
+
+        #download-button{
+            width:170px;
+            padding:5px;
             text-align: center;
+            margin: 30px auto;
+            background-color: #fff;
+            border-radius: 7px;
         }
 
-        #survey-monkey a {
+        #download-button a{
             color: #000;
         }
 
-        @font-face {
-            font-family: edbrush;
-            src: url(/bullying/classroom/elementary/team-rudolph/fonts/Ed-Brush.otf);
+        #download-button a:hover{
+            color: rgba(0, 0, 0, 0.5);
         }
 
-        @font-face {
-            font-family: tanglewoodtales;
-            src: url(//bullying/classroom/elementary/team-rudolph/fonts/TanglewoodTalesNF.otf);
-        }
 
-        .headline {
-            font-family: edbrush, Calibri, Arial, sans-serif;
-        }
-
-        .subhead {
-            font-family: tanglewoodtales, Calibri, Arial, sans-serif;
-        }
-
-        #paypal-button {
-            width: auto;
-            margin: 0 auto;
-        }
-
-        #paypal-button form {
-            width: 50%;
-            margin: 0 auto;
-        }
-
-        #paypal-button #paypal-button-image {
-            width: 100%;
-        }
-
-        @media screen and (max-width: 750px) {
-            #survey-monkey {
-                width: auto;
-                padding-bottom: 15px;
-            }
-        }
     </style>
-
 </head>
 
 <body class="onecol">
@@ -346,94 +408,80 @@
 
     <div class="breadcrumb"><a href="/bullying/">Home</a> /</div>
 
-    <!-- ########################## START MAIN CONTENT ########################################### -->
 
     <div class="content">
-
         <div class="narrowContent">
-
-            <h1 id="maincontent" style="display:none">National Bullying Prevention Main Content</h1>
-
-            <!-- Go to www.addthis.com/dashboard to customize your tools -->
-            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
-            <div class="addthis_sharing_toolbox"></div>
-            <div class="sharethis" style="float:right; width:3em;">Share:</div>
-            <div id="topheroimage">
-                <img src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/logo.jpg" width="1024" height="467" alt=""/>
-            </div>
-            <div class="centered">
-                <p class="headline" style="font-size:2em; text-align:center; line-height:normal; letter-spacing:normal; color:#000">Celebrating Acceptance and Inclusion Through Teamwork</p>
+            <a href="#" class="contentrow-anchor" aria-hidden="true"></a>
+            <div id="topheroimage" style="position: relative; left: 0; top: 0;">
+                <div class="addthis_sharing_toolbox" style="position:absolute; left:730px; top:15px; z-index:10;"></div>
+                <img style="position: relative; left: 0; top: 0;" src="http://www.pacer.org/bullying/classroom/images/students-with-solutions-kids.jpg" width="1024" height="490" alt=""/>
+                <p style="position: absolute; left: 0; top: 460px; width:97%; font-size:.9em;" align="right"><strong>&copy;2016, PACER Center | The National Bullying Prevention Center is a program of PACER Center</strong></p>
             </div>
 
-            <div class="contentrow row-brightred row-shadow">
-                <div class="singlecolumn">
-                    <h2 class="subhead" style="font-size:30px; line-height: 40px">Digital Teacher Toolkit</h2>
-                    <p>You are invited to register for the resources of the free “T.E.A.M. Rudolph and the Reindeer Games” Digital Teacher Toolkit so that you and all of your students can join T.E.A.M. Rudolph and celebrate the differences in us
-                        all!</p>
-                    <div id="survey-monkey" class="centered">
-                        <noscript><h3 style="background: #fff; color: red; padding: 10px;">This form requires Javascript to access. Please turn on Javascript and reload this page.</h3></noscript>
-                        <a id="toolkitRegisterButton" href="#" target="_blank">Register to Acess the Free Online T.E.A.M. Rudolph Toolkit</a>
+            <div class="contentrow row-purple row-shadow">
 
+                <div class="singlecolumn" style="clear:right">
+
+                    <h2 style="font-size:30px; line-height: 40px">Animated Video Series for <br />Elementary School Students</h2>
+                    <p>This simple, authentic animated video series was created from student drawings and writing, which poignantly provides insight into how painful bullying can feel, but also touchingly shows that kids want it to stop and want to be part of the solution. </p>
+                    <p>The series of videos creatively illustrates what it feels like to be bullied, what students can do if they see bullying, and how to be an advocate against bullying. Watch each video, then hold a classroom discussion using the suggested questions.</p>
+
+                </div>
+            </div>
+
+            <div class="contentrow row-purplewhite">
+
+                <!--<%'------------------------------------------------------ WEEK 4 ------------------------------------------------------ %>-->
+                <h2 style="font-size:30px; line-height: 40px">United For Inclusion</h2>
+                <div style="width:auto; margin:50px auto">
+                    <p>Most kids want bullying to stop. They don’t like what is happening to their classmates, but aren’t sure what they can do. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-inclusion.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
+                    <div style="padding:20px 0">
+                        <iframe width="100%" height="394" src="https://www.youtube.com/embed/18fs56WHlPQ?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
+                <hr />
 
-            <div class="contentrow row-brightwhitered">
-                <div class="singlecolumn">
-                    <h2>Resources Included in Toolkit</h2>
-                    <table width="auto" align="center">
-                        <tr align="center">
-                            <td style="width: 200px; line-height: 1.2em">Streaming Video<br/> Picture Book</td>
-                            <td style="width: 200px; line-height: 1.2em">Classroom Activities<br/> and Discussion Guide</td>
-                            <td style="width: 200px; line-height: 1.2em">Streaming <br/>Rudolph Music</td>
-                        </tr>
-                        <tr align="center">
-                            <td><img src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/book-cover.png" width="235" height="247" alt=""/></td>
-                            <td><img src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/toolkit-cover.jpg" width="179" height="234" alt=""/></td>
-                            <td><img style="border:.5px solid #ccc" src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/music-note.jpg" width="220" height="221" alt=""/></td>
-                        </tr>
-                    </table>
-                    <div style="margin-bottom: 30px;"></div>
-                </div>
-            </div>
-
-
-            <div class="contentrow row-brightred row-shadow">
-                <div class="singlecolumn">
-                    <p>Many know the classic, timeless story of how Rudolph the Red-Nosed Reindeer was laughed at by his peers and excluded from the Reindeer Games for being different. But do you know what became of the Reindeer Games?</p>
-                    <p>&ldquo;T.E.A.M. Rudolph and the Reindeer Games&rdquo; reveals the untold story of how the Reindeer Games became a celebration of acceptance and inclusion.</p>
-                    <p style="text-align: center">
-                        <em>&ldquo;We&rsquo;ll all join T.E.A.M. Rudolph!&rdquo;<br/>
-                            Santa said, filled with pride.<br/>
-                            &ldquo;We&rsquo;ll all work together.<br/>
-                            We’ll all play on one side. <br/>
-                            We’ll Treat Everyone As Members. <br/>
-                            Treat everyone as friends. <br/>
-                            Treat everyone with kindness that just never ends.&ldquo;</em></p>
-
-                    <p>The toolkit provides access to online streaming of a video picture book and Rudolph music, and downloadable classroom learning activities with discussion questions and guidelines based on the new book.</p>
-                    <div style="margin-bottom: 20px"></div>
-                </div>
-            </div>
-
-            <div class="contentrow row-brightwhitered">
-                <div class="singlecolumn">
-                    <img style="margin-top: 30px" src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/line-break.jpg" width="700" height="46" alt=""/>
-                    <p class="subhead" style="text-align: center; margin-top: 30px">Purchase a print copy of T.E.A.M. RUDOPLH and a portion of the proceeds will be donated to PACER’s National Bullying Prevention Center.
-                    <div id="paypal-button">
-                        <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx" target="_blank">
-                            <input type="hidden" name="LinkId" value="18443cec-41a1-48ba-af50-3f2c27eded2d"/>
-                            <input type="image" id="paypal-button-image" src="//content.authorize.net/images/buy-now-gray.gif"/>
-                        </form>
+                <!--<%'------------------------------------------------------ WEEK 3 ------------------------------------------------------ %> -->
+                <h2 style="font-size:30px; line-height: 40px">United For Acceptance</h2>
+                <div style="width:auto; margin:50px auto">
+                    <p>Bullying often makes kids feel left out, isolated and alone. Help change that by letting them know you care. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-acceptance.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
+                    <div style="padding:20px 0">
+                        <iframe width="100%" height="394" src="https://www.youtube.com/embed/rnJdd3eVzBA?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
-                    </p>
+                </div>
+                <hr />
 
-                    <p class="subhead" style="text-align: center">Classroom activities created by Julia Magnasco, Education Director, First Stage In cooperation with PACER’s National Bullying Prevention Center</p>
-                    <p style="font-size: .9em; text-align: center"><em>Rudolph the Red-Nosed Reindeer and all related elements &copy; &amp; &trade;/&reg; under license to Character Arts, LLC.<br/>All rights reserved.</em></p>
+                <!--<%'------------------------------------------------------ WEEK 2 ------------------------------------------------------ %>  -->
+                <h2 style="font-size:30px; line-height: 40px">United For Kindness</h2>
+                <div style="width:auto; margin:50px auto">
+                    <p>Friends and classmates can provide support and hope for those who are being bullied. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-kindness.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
+                    <div style="padding:20px 0">
+                        <iframe width="100%" height="394" src="https://www.youtube.com/embed/TUXZ0KjstVo?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <hr />
+
+                <!--<%'------------------------------------------------------ WEEK 1 ------------------------------------------------------ %>  -->
+                <h2 style="font-size:30px; line-height: 40px">Together Against Bullying</h2>
+                <div style="width:auto; margin:50px auto">
+                    <p>Bullying has hurt too many people in this world. Your voice is important in preventing the hurt and harm that has happened to so many for too long. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-together-against-bullying.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
+                    <div style="padding:20px 0">
+                        <iframe width="100%" height="394" src="https://www.youtube.com/embed/Ykkz-MQFvIM?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contentrow row-purple row-shadow">
+                <div class="singlecolumn" style="clear:right">
+                    <h2 style="font-size:30px; line-height: 40px">Animation Production Team</h2>
+                    <img style="float:left; margin-right:10px; border: 1px solid white" src="http://www.pacer.org/bullying/getinvolved/images/lewie-noah.jpg" width="150" height="180" alt=""/>
+                    <p>Special thanks to college students Lewie and Noah Kloster, of Tall Glass With Ice Productions, the creative team behind the animation vision, execution and development for the four videos. This animation duo respects how animation felt before the digital age claimed king over the medium. Cardboard, construction paper, cotton balls, and magic markers fill their Minneapolis and NYC studios to their brims. <a href="http://tallglasswithiceproductions.com" target="_blank">Learn more at Tall Glass With Ice Productions</a></p>
                 </div>
             </div>
 
-        </div><!-- end .narrowContent -->
+
+        </div> <!-- end .narrowContent -->
 
         <!-- ########################## END MAIN CONTENT ########################################### -->
 
