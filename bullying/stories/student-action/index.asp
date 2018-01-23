@@ -10,6 +10,9 @@
 
 <style type="text/css">
 @media screen and (max-width: 600px) {
+    table {
+        margin: 0 auto;
+    }
     table tr {
         border-bottom: 2px solid #ccc;
         display: block;
