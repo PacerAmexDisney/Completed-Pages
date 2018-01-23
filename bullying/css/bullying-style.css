@@ -389,7 +389,7 @@ Adjust Nav for smallish screens but not mobile sizes
 		font-size: 12px;
 	}	
 	body.twocol div.content {
-		width: calc(100% - 185px);
+		/* width: calc(100% - 185px); */
 	}
 }
 @media screen and (max-width: 880px) {
@@ -430,7 +430,7 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	min-height:670px;
 }
 .narrowContent {
-	max-width: 850px;;
+	max-width: 850px;
 	margin: 0px auto;
 }
 .sidebar1 {
