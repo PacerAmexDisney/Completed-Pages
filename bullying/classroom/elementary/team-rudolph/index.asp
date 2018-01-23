@@ -192,7 +192,7 @@ if (typeof jQuery == 'undefined')
             <div class="addthis_sharing_toolbox"></div>
             <div class="sharethis" style="float:right; width:3em;">Share:</div>
             <div id="topheroimage">
-                <img src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/logo.jpg" width="1024" height="467" alt=""/>
+                <img src="/bullying/classroom/elementary/team-rudolph/images/logo.jpg" width="1024" height="467" alt=""/>
             </div>
             <div class="centered">
                 <p class="headline" style="font-size:2em; text-align:center; line-height:normal; letter-spacing:normal; color:#000">Celebrating Acceptance and Inclusion Through Teamwork</p>
@@ -221,9 +221,9 @@ if (typeof jQuery == 'undefined')
                             <td style="width: 200px; line-height: 1.2em">Streaming <br/>Rudolph Music</td>
                         </tr>
                         <tr align="center">
-                            <td><img src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/book-cover.png" width="235" height="247" alt=""/></td>
-                            <td><img src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/toolkit-cover.jpg" width="179" height="234" alt=""/></td>
-                            <td><img style="border:.5px solid #ccc" src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/music-note.jpg" width="220" height="221" alt=""/></td>
+                            <td><img src="/bullying/classroom/elementary/team-rudolph/images/book-cover.png" width="235" height="247" alt=""/></td>
+                            <td><img src="/bullying/classroom/elementary/team-rudolph/images/toolkit-cover.jpg" width="179" height="234" alt=""/></td>
+                            <td><img style="border:.5px solid #ccc" src="/bullying/classroom/elementary/team-rudolph/images/music-note.jpg" width="220" height="221" alt=""/></td>
                         </tr>
                     </table>
                     <div style="margin-bottom: 30px;"></div>
@@ -251,7 +251,7 @@ if (typeof jQuery == 'undefined')
 
             <div class="contentrow row-brightwhitered">
                 <div class="singlecolumn">
-                    <img style="margin-top: 30px" src="http://www.pacer.org/bullying/classroom/elementary/team-rudolph/images/line-break.jpg" width="700" height="46" alt=""/>
+                    <img style="margin-top: 30px" src="/bullying/classroom/elementary/team-rudolph/images/line-break.jpg" width="700" height="46" alt=""/>
                     <p class="subhead" style="text-align: center; margin-top: 30px">Purchase a print copy of T.E.A.M. RUDOPLH and a portion of the proceeds will be donated to PACER’s National Bullying Prevention Center.
                     <div id="paypal-button">
                         <form name="PrePage" method="post" action="https://Simplecheckout.authorize.net/payment/CatalogPayment.aspx" target="_blank">
