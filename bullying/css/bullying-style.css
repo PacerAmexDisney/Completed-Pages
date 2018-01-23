@@ -430,8 +430,8 @@ FIX Nav where the navigation doesn't have room to open to the right on the last 
 	min-height:670px;
 }
 .narrowContent {
-	max-width: 850px;
-	margin: 0px auto;
+	/* max-width: 850px; */
+	/* margin: 0px auto; */
 }
 .sidebar1 {
 	float: left;
