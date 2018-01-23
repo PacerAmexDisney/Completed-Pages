@@ -434,7 +434,7 @@ position:relative;
 	width:100%;
 }
 .twocol .content {
-	width: 844px;
+	width: auto;
 }
 .twocolright .content {
 	width:765px;
