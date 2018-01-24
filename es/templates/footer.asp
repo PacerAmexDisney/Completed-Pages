@@ -1,6 +1,6 @@
  <div id="pageextender" style="clear:both">&nbsp;</div>
 </div><!-- Close #pagecontent -->
-</div><!-- Close #maincontent -->
+</div><!-- Close #maincontent&.narrowContent -->
  
 
 <footer id="parent-footer">

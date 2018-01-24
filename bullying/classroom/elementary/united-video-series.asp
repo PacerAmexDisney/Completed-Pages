@@ -1,7 +1,5 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="65001"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<!--#include virtual="/bullying/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Students with Solutions - National Bullying Prevention Center</title>
 <meta name="title" content="Students with Solutions - National Bullying Prevention Center" />
@@ -16,7 +14,6 @@
 <meta property="og:description" content="PACER created an animated video series exclusively to give students of all ages an opportunity to think about bullying in a new way. The images and words in the videos were submitted by young students from around the country in response to questions about how bullying made them feel and how they think bullying can be prevented. After viewing the videos, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that will be eligible to be shared on PACER’s website and to receive awards. " />
 
 <link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
-<link href="/bullying/css/bullying.css" rel="stylesheet" type="text/css" />
 <link href="/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css"/>
 <link rel="stylesheet" type="text/css" href="/php-sdk/fbwallfeed.css"/>
@@ -243,14 +240,19 @@ if (typeof jQuery == 'undefined')
 
 <body class="onecol">
 
-<a id="skiptocontent" href="#maincontent">Skip to main content</a>
-
 <div class="container">
 
-<!--#include virtual="/bullying/dynamic-header.html"--> 
-<!--#include virtual="/bullying/topnav.html"-->
+<a id="skiptocontent" href="#maincontent">Skip to main content</a>
 
-<div class="content"> <a href="#" class="contentrow-anchor" aria-hidden="true"></a>
+<!--#include virtual="/bullying/templates/page-header-nav.asp"-->
+
+<div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
+
+<!-- ########################## MAIN CONTENT ########################################### -->
+
+<div class="content">
+<div class="narrowContent">
+<a href="#" class="contentrow-anchor" aria-hidden="true"></a>
 	<div id="topheroimage" style="position: relative; left: 0; top: 0;"> 
 <div class="addthis_sharing_toolbox" style="position:absolute; left:730px; top:15px; z-index:10;"></div>	
 	<img style="position: relative; left: 0; top: 0;" src="../images/students-with-solutions-kids.jpg" width="1024" height="490" alt=""/>
@@ -275,37 +277,37 @@ if (typeof jQuery == 'undefined')
 		<div style="width:700px; margin:50px auto">
 			<p>Most kids want bullying to stop. They don’t like what is happening to their classmates, but aren’t sure what they can do. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-inclusion.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
 			<div style="padding:20px 0">
-				<iframe width="700" height="394" src="https://www.youtube.com/embed/18fs56WHlPQ?rel=0" frameborder="0" allowfullscreen></iframe>
+				<iframe width="100%" height="394" src="https://www.youtube.com/embed/18fs56WHlPQ?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>	
 <hr />
 
 <!--<%'------------------------------------------------------ WEEK 3 ------------------------------------------------------ %> -->
 	<h2 style="font-size:30px; line-height: 40px">United For Acceptance</h2>
-		<div style="width:700px; margin:50px auto">
+		<div style="width:auto;; margin:50px auto">
 			<p>Bullying often makes kids feel left out, isolated and alone. Help change that by letting them know you care. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-acceptance.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
 			<div style="padding:20px 0">
-				<iframe width="700" height="394" src="https://www.youtube.com/embed/rnJdd3eVzBA?rel=0" frameborder="0" allowfullscreen></iframe>
+				<iframe width="100%" height="394" src="https://www.youtube.com/embed/rnJdd3eVzBA?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>		
 <hr />
 		
 <!--<%'------------------------------------------------------ WEEK 2 ------------------------------------------------------ %>  -->
 	<h2 style="font-size:30px; line-height: 40px">United For Kindness</h2>
-		<div style="width:700px; margin:50px auto">
+		<div style="width:auto;; margin:50px auto">
 			<p>Friends and classmates can provide support and hope for those who are being bullied. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-kindness.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
 			<div style="padding:20px 0">
-				<iframe width="700" height="394" src="https://www.youtube.com/embed/TUXZ0KjstVo?rel=0" frameborder="0" allowfullscreen></iframe>
+				<iframe width="100%" height="394" src="https://www.youtube.com/embed/TUXZ0KjstVo?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>	
 <hr />		
 		
 <!--<%'------------------------------------------------------ WEEK 1 ------------------------------------------------------ %>  -->
 	<h2 style="font-size:30px; line-height: 40px">Together Against Bullying</h2>
-		<div style="width:700px; margin:50px auto">
+		<div style="width:auto;; margin:50px auto">
 			<p>Bullying has hurt too many people in this world. Your voice is important in preventing the hurt and harm that has happened to so many for too long. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-together-against-bullying.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
 			<div style="padding:20px 0">
-				<iframe width="700" height="394" src="https://www.youtube.com/embed/Ykkz-MQFvIM?rel=0" frameborder="0" allowfullscreen></iframe>
+				<iframe width="100%" height="394" src="https://www.youtube.com/embed/Ykkz-MQFvIM?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>	
 		
@@ -319,11 +321,7 @@ if (typeof jQuery == 'undefined')
 	</div>
 </div>
 	
-	
-	<!-- end .content --> 
-</div>
-<!--#include virtual="/bullying/footer.html"--> 
-<!-- end .container -->
-</div>
-</body>
-</html>
+
+</div> <!-- end .narrowContent -->
+<!-- ########################## END MAIN CONTENT ########################################### -->
+<!--#include virtual="/bullying/templates/footer.asp"-->

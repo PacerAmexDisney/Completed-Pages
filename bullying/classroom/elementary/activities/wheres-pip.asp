@@ -11,6 +11,31 @@
 <meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="Pip, the hamster mascot of the Club Crew, loves to go to new places and meet new kids, you never know where Pip might show up. Pip might be found on the playground, in the classroom, or playing baseball. Now you can show everyone where Pip has been!
 " />
+<style>
+        #rightcontent {
+            float: right;
+            margin-top: 75px;
+            margin-left: 15px;
+            width: 245px;
+        }
+
+        @media screen and (max-width: 1023px) {
+            #rightcontent {
+                text-align: center;
+                float: none;
+                margin: 0 auto;
+            }
+        }
+
+        .twocol .content {
+            width: auto;
+        }
+
+        .leftcontent {
+            float: left;
+            max-width: 540px;
+        }
+</style>
 </head>
 <body class="twocol">
 <div class="container">
@@ -46,8 +71,10 @@ document.getElementById(currId).className = "active";
 
 <!-- ########################## MAIN CONTENT ########################################### -->
   
-  <div class="content"> 
-    <h1 id="maincontent">Where's Pip?</h1>
+    <div class="content">
+        <div class="narrowContent">
+
+        <h1 id="maincontent">Where's Pip?</h1>
 <p>
 Pip, the hamster mascot of the Club Crew, loves to go to new places and meet new kids, you never know where Pip might show up. Pip might be found on the playground, in the classroom, or playing baseball.<br /><br />
 Now you can show everyone where Pip has been! <a href="/bullying/pdf/Pip.pdf" target="_blank">Print the image of Pip</a>
@@ -86,6 +113,7 @@ Now you can show everyone where Pip has been! <a href="/bullying/pdf/Pip.pdf" ta
 </p>    
 
 
+</div>
 </div>
     
 
