@@ -225,19 +225,20 @@
     </script>
 
     <div id="rightBar">
+
         <p class="pacerinfo">
-            <strong>PACER Center<br/>
+            <strong>PACER Center<br />
                 952-838-9000</strong>
         </p>
         <p class="pacerinfo2">
             Champions for Children with Disabilities</p>
-        <p class="pacerinfo3"><a href="../about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
+        <p class="pacerinfo3"><a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
         </p>
-        <p align="center"><img src="https://www.pacer.org/stc/images/STC_Staff_2014.jpg" width="250" height="167" alt="stc staff"/></p>
+        <p align="center"><img src="/stc/images/individualizedtrainings.jpg" width="220" height="527" alt="individual trainings" /></p>
         <div class="stayinformed">
             <h2>Stay Informed</h2>
             Receive the latest PACER Center information on issues important to you.
-            <a href="/forms/">Sign up now</a>.
+            <a href="../forms/index.asp">Sign up now</a>.
         </div>
     </div>
 
@@ -251,7 +252,7 @@
 
                 </p>
             </div>
-            <a href="/">Home</a> / <a href="/pandr/">Programs &amp; Resources</a> / <a href="../stc/">Simon Technology Center</a> /
+            <a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp">Simon Technology Center</a> / Individualized Training Sessions
 
             <h1>Simon Technology Center</h1>
 
@@ -289,16 +290,25 @@
     </div>
 
 
+    <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
     <script type="text/javascript">
-        // set current page
-        if (document.getElementById(currId)) {
+        // ID and SubId to be Orange
+        var currId="services";
+        var currSubId="subservice-its";
+        // any Subtree that I want to Display
+        var showTree = "stc-subservice";
+
+        if (document.getElementById(currId)){
             document.getElementById(currId).className = "page";
         }
-        // collapse all subtrees except the one targeted above that the current page exists in.
+        if (document.getElementById(currSubId)){
+            document.getElementById(currSubId).className = "page";
+        }
         var subTrees = document.getElementsByTagName("ul");
         for (var i = 0; i < subTrees.length; i++) {
             if (subTrees[i].className == "treemenu") {
-                if (subTrees[i].id != showTree && subTrees[i].id != showTree2) {
+                //Any additional subTrees that you want to skip should be added here. like this (subTrees[i] != subTree1 || subTrees[i] != subTree2)
+                if (subTrees[i].id != showTree) {
                     subTrees[i].className = "treemenuhidden";
                 }
             }
@@ -309,83 +319,22 @@
 
         <div id="pagecontent">
 
-            <h2 class="nounderline">Contact the Simon Technology Center</h2>
+            <h2 class="nounderline"><a name="maincontent">Individualized Training Sessions</a></h2>
 
             <!--BEGIN CONTENT-->
+            <p>Do you have a software program, app, tablet, augmentative and alternative communication device, or piece of computer hardware and need help exploring how to use it? PACER&rsquo;s Simon Technology Center can help! From taking the technology out of the box to learning how to customize sophisticated software, PACER&rsquo;s specialists can provide the one-on-one support you need to learn how to maximize your potential with assistive technology. Individualized trainings are intended for people who currently own a piece of technology and need support in learning how to use it. These trainings are customized to meet individual needs whether the user is a beginner or an advanced user of technology.</p>
 
-            <p style="text-align: center; padding-bottom: .5em; border-bottom: solid 1px #eee;">
-                <strong>Simon Technology Center<br/>PACER Center</strong><br/>
-                8161 Normandale Blvd.<br/>
-                Minneapolis, MN 55437-1044<br/>
-                <a href="../stc/">../stc/</a><br/>
-                952-838-9000, Voice<br/>
-                952-838-0199, FAX
-            </p>
+            <h4>Comments from others on Individualized Training Sessions:</h4>
+            <blockquote>
+                <p><em>&ldquo;You have no idea how much you helped me. Now that I have the basics, I am off and running. You showed me that the program is not complicated, and it definitely is easy. I wish I had come to you sooner instead of worrying about my lack of understanding of this program for so long. Thank you so much for all your help and patience.&rdquo;</em><br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ndash; Mother of an adult who uses an augmentative and alternative communication app for speech</p>
+                <p><em>&ldquo;Thank you! The specialist who worked with us was well-prepared and talked in an organized and understandable way. The software program we came in for training on had been sitting for a year unused, but since our session with you our daughter and I have both been customizing the software and  have much more confidence about how to use the program.  Now we have a powerful tool to help my daughter access information and to be able to express herself. Thumbs up the whole way around!&rdquo;</em><br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ndash; Mother of a daughter with a learning disability</p>
+            </blockquote>
 
-            <h3 class="STCcontact">Bridget Gilormini</h3>
-            <h4 class="STCtitle">Director, Simon Technology Center</h4>
-            <p>
-                Bridget, Director of the Simon Technology Center, is a speech language pathologist by training and practiced for 9 years in the public schools providing speech and language therapy for students at all grade levels with a wide range of
-                disabilities. Before coming to PACER she helped coordinate assistive technology services and trainings in the public schools. She has a master&rsquo;s degree in communication disorders and extensive experience as an assistive
-                technology specialist. She has been a member of the Minnesota State Assistive Technology Leadership Team since 2005. She presents on a wide range of topics at a state and national level. She provides leadership for all of the projects
-                in the Simon Technology Center and directs the Technology Improves Kids&rsquo; Educational Success (TIKES) early childhood and assistive technology project. Bridget&rsquo;s specialty areas include: early childhood, literacy,
-                communication, universal design, mobile technology, mac technology and visual strategies.<br/>
-                <a href="mailto:bridget.gilormini@pacer.org ">bridget.gilormini@pacer.org </a></p>
-
-
-            <h3 class="STCcontact">Elizabeth Barry</h3>
-            <h4 class="STCtitle">Assistive Technology Specialist</h4>
-            <p>Elizabeth is an Early Childhood Assistive Technology Specialist in the Simon Technology Center. She holds a teaching license and master&rsquo;s degree in Early Childhood Special Education. Elizabeth contributes to the Technology to
-                Improve Kids&rsquo; Educational Success (TIKES) project which works to use assistive technology to help improve outcomes for children from birth to five years of age. She provides assistive technology consultations, coaching, and
-                workshops on a variety of early childhood topics for families and professionals. Previously, she worked with the Minnesota Reading Corps providing individualized early literacy instruction in an inclusive pre-kindergarten classroom.
-                Elizabeth&rsquo;s specialty areas include: technology, tools, and strategies related to early childhood and early literacy skills.<br/>
-                <a href="mailto:elizabeth.barry@pacer.org">elizabeth.barry@pacer.org</a></p>
-
-            <h3 class="STCcontact">Kate Bartlein</h3>
-            <h4 class="STCtitle">Assistive Technology Specialist</h4>
-            <p>Kate Bartlein is an Early Childhood Assistive Technology Specialist in the Simon Technology Center. Her background includes seven years as a play and behavioral therapist for young children on the Autism spectrum and experience as a
-                Deafblind Intervener. She provides assistive technology consultations, coaching for families and professionals, and workshops on subjects related to early childhood development. Kate contributes to the Technology to Improve Kids&rsquo;
-                Educational Success (TIKES) project, which works to increase understanding and use of assistive technology to improve outcomes for children from birth to five years of age. Her specialty areas include technology and tools supporting
-                early childhood development and children with complex sensory needs. <br/>
-                <a href="mailto:kate.bartlein@pacer.org">kate.bartlein@pacer.org</a></p>
-
-
-            <h3 class="STCcontact">Tara Bruss</h3>
-            <h4 class="STCtitle">Assistive Technology Specialist</h4>
-            <p>Tara is an Assistive Technology Specialist in the Simon Technology Center and contributes to the Technology to Improve Kids&rsquo; Educational Success (TIKES) project. She has a degree in psychology and a background working with
-                individuals with disabilities in their daily life settings. Tara provides a variety of services and assistance to individuals, parents, and professionals to increase awareness and capacity for assistive technology including
-                consultations, trainings, in-services, workshops, and webinars. Tara&rsquo;s specialty areas include: technology for reading, writing, math, organization tools and strategies, Accessible Instructional Materials (AIM), and topics
-                related to assistive technology and post-secondary transition.<br/>
-                <a href="mailto:tara.bruss@pacer.org">tara.bruss@pacer.org</a></p>
-
-            <h3 class="STCcontact">Tina Hanson</h3>
-            <h4 class="STCtitle">Assistive Technology Specialist</h4>
-            <p>Tina is an Assistive Technology Specialist in the Simon Technology Center. She coordinates the center&rsquo;s lending library program. She also conducts AT consultations, in-services and workshops on a variety of topics. She also
-                manages the Still Useful Products and Equipment Referral (SUPER) program. Before coming to PACER, Tina worked for the University of Minnesota where she created a community-based computer training program to help people build their
-                computer skills. Tina&rsquo;s specialty areas include: technology and resources for reading, writing, math and computer access.<br/>
-                <a href="mailto:tina.hanson@pacer.org">tina.hanson@pacer.org</a></p>
-
-
-            <h3 class="STCcontact">Terri Rosen</h3>
-            <h4 class="STCtitle">Assistive Technology Specialist</h4>
-            <p>Terri is an Assistive Technology Specialist in the Simon Technology Center specializing in elementary education. Prior to coming to PACER, Terri gained a decade of experience working in public schools. Using skills from her bachelor&rsquo;s
-                and master&rsquo;s degrees from St. Olaf College and the University of St. Thomas, she taught at both secondary and elementary levels and provided direct support to students with learning disabilities. Technology was an integral part
-                of her instruction, both in delivery of lessons and in engaging students of all abilities through the use of iPads. Terri is passionate about literacy and helping students and families to work together with their educational
-                professionals to ensure a student&rsquo;s right to learn. In addition to providing assistive technology consultations, she currently leads Project KITE (Kids Included Through Technology are Enriched) to provide early childhood
-                assistive technology training to teams in their own communities. Terri&rsquo;s specialty areas include: technology to support literacy skills development and access, elementary math concepts, and high and low tech supports for
-                students with attention and reading difficulties. <br/><a href="mailto:Terri.Rosen@pacer.org">Terri.Rosen@pacer.org</a></p>
-
-            <h3 class="STCcontact">Erika Thurston</h3>
-            <h4 class="STCtitle">Assistive Technology Specialist</h4>
-            <p>Erika is an Assistive Technology Specialist in the Simon Technology Center. She graduated from the College of Saint Benedict and Saint John&rsquo;s University with a Bachelors of Arts in Sociology. Her background includes teaching
-                English to native Spanish speakers. She also spent many years as a PCA for children and adults with disabilities. At PACER, she works as the Lending Library Coordinator. She also conducts Assistive Technology consultations,
-                in-services and workshops on a variety of topics. <br/><a href="mailto:Erika.Thurston@pacer.org">Erika.Thurston@pacer.org</a></p>
-
-            <h3 class="STCcontact">JULIE HERBERS</h3>
-            <h4 class="STCtitle">Technology Lending Library Assistant</h4>
-            <p>Julie has been an integral part of the STC technology lending library. Julie dedicates her time to numerous tasks to ensure a quality library experience for visitors. Growing up with a disability has given Julie a lifelong interest in
-                assistive technology, which naturally lends itself to the care Julie gives to the library and its visitors.</p>
-
+            <p>To learn more about how the Simon Technology Center can help you develop your technology skills through an Individualized Training, call 952-838-9000 or complete the Individualized Training Application. Individualized Trainings are $50 per hour, and the number of attendees is limited to three per session.</p>
+            <p><a href="pdf/Individualized_Trainings_Form.pdf">Individualized Training form</a>
+                <img src="../images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
             <div id="pageextender" style="clear:both">&nbsp;</div>
         </div>
 
