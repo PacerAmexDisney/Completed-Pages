@@ -1,46 +1,18 @@
 <!--#include virtual="/bullying/templates/header.asp"-->
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="PACER created an animated video series exclusively to give students of all ages an opportunity to think about bullying in a new way. The images and words in the videos were submitted by young students from around the country in response to questions about how bullying made them feel and how they think bullying can be prevented. After viewing the videos, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that will be eligible to be shared on PACER’s website and to receive awards." />
 <title>Students with Solutions - National Bullying Prevention Center</title>
-<meta name="title" content="Students with Solutions - National Bullying Prevention Center" />
-<meta name="description" content="PACER created an animated video series exclusively to give students of all ages an opportunity to think about bullying in a new way. The images and words in the videos were submitted by young students from around the country in response to questions about how bullying made them feel and how they think bullying can be prevented. After viewing the videos, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that will be eligible to be shared on PACER’s website and to receive awards. " />
 
-<!-- for Facebook -->     
-<meta property="fb:app_id" content="271376943231875"  />         
 <meta property="og:title" content="Students with Solutions - National Bullying Prevention Center" />
-<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.pacer.org/bullying/classroom/elementary/united-video-series.asp" />
 <meta property="og:image" content="http://www.pacer.org/bullying/getinvolved/images/students-with-solutions-fb.jpg" />
-<meta property="og:url" content="http://www.pacer.org/bullying/getinvolved/students-with-solutions.asp" />
-<meta property="og:description" content="PACER created an animated video series exclusively to give students of all ages an opportunity to think about bullying in a new way. The images and words in the videos were submitted by young students from around the country in response to questions about how bullying made them feel and how they think bullying can be prevented. After viewing the videos, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that will be eligible to be shared on PACER’s website and to receive awards. " />
+<meta property="og:description" content="PACER created an animated video series exclusively to give students of all ages an opportunity to think about bullying in a new way. The images and words in the videos were submitted by young students from around the country in response to questions about how bullying made them feel and how they think bullying can be prevented. After viewing the videos, students can share their poetry or stories, create a drawing, film a short video, or design a graphic that will be eligible to be shared on PACER’s website and to receive awards." />
 
-<link rel="icon" href="http://www.pacer.org/bullying/favicon.ico" />
 <link href="/bullying/wewillgen/css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="/bullying/css/scrolling.css"/>
-<link rel="stylesheet" type="text/css" href="/php-sdk/fbwallfeed.css"/>
-<link rel="stylesheet" type="text/css" href="/php-sdk/hashtagAggregator.css"/>
-<link href="/js/colorbox1.5.9/colorbox.css" rel="stylesheet" type="text/css" />
-
-<!--#include virtual="/bullying/dynamic-head-items.html"-->
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
-<script src="/js/colorbox1.5.9/jquery.colorbox-min.js" type="text/javascript"></script>
-
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
-
-<script type="text/javascript">
-	$(document).ready(function() {
-		//----------more buttons----------
-		$('.morebutton').click(function() {
-			$(this).parent().parent().addClass('expanded');
-		});	
-	 });//----------close ready function----------
-</script>
 
 <style type="text/css">
 
@@ -239,24 +211,25 @@ if (typeof jQuery == 'undefined')
 </head>
 
 <body class="onecol">
-
 <div class="container">
-
 <a id="skiptocontent" href="#maincontent">Skip to main content</a>
-
 <!--#include virtual="/bullying/templates/page-header-nav.asp"-->
 
-<div class="breadcrumb"> <a href="/bullying/">Home</a> /</div>
+<div class="breadcrumb"> <a href="/bullying/">Home</a> /
+    
+    <div class="addthis_sharing_toolbox"></div>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53729684589714e1" async="async"></script>
+
+    </div>
 
 <!-- ########################## MAIN CONTENT ########################################### -->
 
 <div class="content">
-<div class="narrowContent">
-<a href="#" class="contentrow-anchor" aria-hidden="true"></a>
-	<div id="topheroimage" style="position: relative; left: 0; top: 0;"> 
-<div class="addthis_sharing_toolbox" style="position:absolute; left:730px; top:15px; z-index:10;"></div>	
+
+    <div id="topheroimage" style="position: relative; left: 0; top: 0;"> 
+
 	<img style="position: relative; left: 0; top: 0;" src="../images/students-with-solutions-kids.jpg" width="1024" height="490" alt=""/>
-	<p style="position: absolute; left: 0; top: 460px; width:97%; font-size:.9em;" align="right"><strong>&copy;2016, PACER Center | The National Bullying Prevention Center is a program of PACER Center</strong></p>
+	<p style="position: relative; bottom: 5px; text-align: right; color: #535353; font-size: .8em;">&copy;2016, PACER Center | The National Bullying Prevention Center is a program of PACER Center</p>
 </div>
 
 <div class="contentrow row-purple row-shadow">
@@ -274,40 +247,40 @@ if (typeof jQuery == 'undefined')
 
 <!--<%'------------------------------------------------------ WEEK 4 ------------------------------------------------------ %>--> 
 	<h2 style="font-size:30px; line-height: 40px">United For Inclusion</h2>
-		<div style="width:700px; margin:50px auto">
+		<div style="width:700px; max-width:100%; margin:50px auto">
 			<p>Most kids want bullying to stop. They don’t like what is happening to their classmates, but aren’t sure what they can do. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-inclusion.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
 			<div style="padding:20px 0">
-				<iframe width="100%" height="394" src="https://www.youtube.com/embed/18fs56WHlPQ?rel=0" frameborder="0" allowfullscreen></iframe>
+				<iframe style="max-width: 100%;" width="700" height="394" src="https://www.youtube.com/embed/18fs56WHlPQ?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>	
 <hr />
 
 <!--<%'------------------------------------------------------ WEEK 3 ------------------------------------------------------ %> -->
 	<h2 style="font-size:30px; line-height: 40px">United For Acceptance</h2>
-		<div style="width:auto;; margin:50px auto">
+		<div style="width:700px; max-width:100%; margin:50px auto">
 			<p>Bullying often makes kids feel left out, isolated and alone. Help change that by letting them know you care. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-acceptance.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
 			<div style="padding:20px 0">
-				<iframe width="100%" height="394" src="https://www.youtube.com/embed/rnJdd3eVzBA?rel=0" frameborder="0" allowfullscreen></iframe>
+				<iframe style="max-width: 100%;" width="700" height="394" src="https://www.youtube.com/embed/rnJdd3eVzBA?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>		
 <hr />
 		
 <!--<%'------------------------------------------------------ WEEK 2 ------------------------------------------------------ %>  -->
 	<h2 style="font-size:30px; line-height: 40px">United For Kindness</h2>
-		<div style="width:auto;; margin:50px auto">
+		<div style="width:700px; max-width:100%; margin:50px auto">
 			<p>Friends and classmates can provide support and hope for those who are being bullied. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-united-for-kindness.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
 			<div style="padding:20px 0">
-				<iframe width="100%" height="394" src="https://www.youtube.com/embed/TUXZ0KjstVo?rel=0" frameborder="0" allowfullscreen></iframe>
+				<iframe style="max-width: 100%;" width="700" height="394" src="https://www.youtube.com/embed/TUXZ0KjstVo?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>	
 <hr />		
 		
 <!--<%'------------------------------------------------------ WEEK 1 ------------------------------------------------------ %>  -->
 	<h2 style="font-size:30px; line-height: 40px">Together Against Bullying</h2>
-		<div style="width:auto;; margin:50px auto">
+		<div style="width:700px; max-width:100%; margin:50px auto">
 			<p>Bullying has hurt too many people in this world. Your voice is important in preventing the hurt and harm that has happened to so many for too long. Watch the video and hold a classroom discussion using the suggested <a href="/bullying/getinvolved/pdf/students-with-solutions-together-against-bullying.pdf" target="_blank"> questions</a>. <img border="0" src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></p>
 			<div style="padding:20px 0">
-				<iframe width="100%" height="394" src="https://www.youtube.com/embed/Ykkz-MQFvIM?rel=0" frameborder="0" allowfullscreen></iframe>
+				<iframe style="max-width: 100%;" width="700" height="394" src="https://www.youtube.com/embed/Ykkz-MQFvIM?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>	
 		
@@ -316,12 +289,10 @@ if (typeof jQuery == 'undefined')
 <div class="contentrow row-purple row-shadow">	
 	<div class="singlecolumn" style="clear:right">
 		<h2 style="font-size:30px; line-height: 40px">Animation Production Team</h2>
-		<img style="float:left; margin-right:10px; border: 1px solid white" src="/bullying/getinvolved/images/lewie-noah.jpg" width="150" height="180" alt=""/>
+		<img class="fltlft mobileCentered" style="border: 1px solid white" src="/bullying/getinvolved/images/lewie-noah.jpg" width="150" height="180" alt=""/>
 		<p>Special thanks to college students Lewie and Noah Kloster, of Tall Glass With Ice Productions, the creative team behind the animation vision, execution and development for the four videos. This animation duo respects how animation felt before the digital age claimed king over the medium. Cardboard, construction paper, cotton balls, and magic markers fill their Minneapolis and NYC studios to their brims. <a href="http://tallglasswithiceproductions.com" target="_blank">Learn more at Tall Glass With Ice Productions</a></p> 
 	</div>
 </div>
 	
 
-</div> <!-- end .narrowContent -->
-<!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

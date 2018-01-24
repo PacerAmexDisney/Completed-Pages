@@ -21,12 +21,12 @@
 
     <!-- ########################## LEFT NAV ########################################### -->
     <div class="sidebar1">
-        <!--#include virtual="/bullying/templates/nav.html"-->
+        <!--#include virtual="/bullying/classroom/nav.html"-->
     </div>
     <script type="text/javascript">
-        var currId = "unityday";
-        var showTree = "none";
-        var showTree2 = "none";
+       var currId="ele-activities-takethepledge";
+	   var showTree = "ele-sub";
+	   var showTree2 = "ele-activities-sub";
     </script>
 
     <script type="text/javascript">
@@ -44,26 +44,27 @@
     </script>
 
     <!-- ########################## MAIN CONTENT ########################################### -->
-    <div class="content" style="width:100%; max-width:844px;">
-        <div class="narrowContent">
-            <h1 id="maincontent">Take the Kids Against Bullying Pledge </h1>
-            <p>Elementary school students are invited to take the &ldquo;Kids Against Bullying&rdquo; pledge! Students promising to speak up, reach out, and be a friend when they see bullying can download the official certificate.</p>
-            <p>Options to take the pledge include:</p>
+    <div class="content">
+<h1 id="maincontent">Take the Kids Against Bullying Pledge </h1>
+        <p>Elementary school students are invited to take the &ldquo;Kids Against Bullying&rdquo; pledge! Students promising to speak up, reach out, and be a friend when they see bullying can download the official certificate.</p>
+        <p>Options to take the pledge include:</p>
+        <ul type="disc">
+            <li>Schools: Order the <a href="/bullying/resources/bookmarks.asp" target="_blank">free bookmarks</a>, which has the pledge on it and invite each student to sign their name</li>
+            <li>Individuals: Read the pledge (below), download the certificate, and sign your name</li>
+        </ul>
+        <blockquote class="hr">
+            <p><strong>As a Kid Against Bullying, I&nbsp;pledge to: </strong></p>
             <ul type="disc">
-                <li>Schools: Order the <a href="/bullying/resources/bookmarks.asp" target="_blank">free bookmarks</a>, which has the pledge on it and invite each student to sign their name</li>
-                <li>Individuals: Read the pledge (below), download the certificate, and sign your name</li>
+                <li>Speak up when I see bullying.</li>
+                <li>Reach out to others who are bullied.</li>
+                <li>And be a friend whenever I see bullying.</li>
             </ul>
-            <blockquote class="hr">
-                <p><strong>As a Kid Against Bullying, I&nbsp;pledge to: </strong></p>
-                <ul type="disc">
-                    <li>Speak up when I see bullying.</li>
-                    <li>Reach out to others who are bullied.</li>
-                    <li>And be a friend whenever I see bullying.</li>
-                </ul>
-            </blockquote>
-            <img style="float: left; margin: 20px; border: #999999 1px solid" src="../../images/kab-pledge.jpg" width="200" height="258" alt="Kids Against Bullying Pledge"/>
-            <p class="hr">Kids taking the pledge can download the <a href="https://www.pacerkidsagainstbullying.org/wp-content/uploads/2014/07/KABPledge.pdf" target="_blank">official Kids Against Bullying certificate.</a> <img
+        </blockquote>
+
+        <p class="hr">Kids taking the pledge can download the <a href="https://www.pacerkidsagainstbullying.org/wp-content/uploads/2014/07/KABPledge.pdf" target="_blank">official Kids Against Bullying certificate.</a> <img
                     src="/images/pdficon_small.gif" alt="pdf icon" width="15" border="0" height="15"/></p>
-        </div>
-<!-- ########################## END MAIN CONTENT ########################################### -->
+        <p class="centered"><img src="/bullying/classroom/images/kab-pledge.jpg" width="200" height="258" alt="Kids Against Bullying Pledge"/></p>
+                    
+                    
+                    <!-- ########################## END MAIN CONTENT ########################################### -->
 <!--#include virtual="/bullying/templates/footer.asp"-->

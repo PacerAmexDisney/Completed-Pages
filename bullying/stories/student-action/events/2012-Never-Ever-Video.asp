@@ -4,7 +4,7 @@
 <title>National Bullying Prevention Center - Student Action - Students at Sycamore Junior High in Ohio Stand Against Bullying</title>
 <meta property="og:title" content="National Bullying Prevention Center - Student Action - Students at Sycamore Junior High in Ohio Stand Against Bullying" />
 <meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2012-Never-Ever-Video.asp" />
-<meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
     <style>
         .narrowContent #leftcontent {

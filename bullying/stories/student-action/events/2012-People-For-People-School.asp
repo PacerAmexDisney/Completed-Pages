@@ -4,8 +4,9 @@
 <title>National Bullying Prevention Center - Student Action - Third Grade Students Create an Original Music Video with a Positive Message</title>
 <meta property="og:title" content="National Bullying Prevention Center - Student Action - Third Grade Students Create an Original Music Video with a Positive Message"/>
 <meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2012-People-For-People-School.asp"/>
-<meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico"/>
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content=""/>
+
 <style>
         .narrowContent #leftcontent {
             width: 75%;
@@ -58,7 +59,7 @@
                     to film scenes at the school and nearby at a local playground. </p>
                 <p> We are confident that our project will serve as a mirror to anyone who is bullying and will hopefully encourage him/her to make positive changes.&nbsp; We also hope that it provides comfort and understanding for a student
                     currently being tormented by a bully. The third grade students and teachers at the People for People Charter School know how it feels to be bullied, and WE CARE!!</p>
-                <div class="hr" id="PFP-Stop-Bullying">
+                <div class="hr" id="PFP-Stop-Bullying" style="padding: 20px;">
                     <iframe width="auto" height="400" src="http://www.youtube.com/embed/asl2aRatvNk?rel=0" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>

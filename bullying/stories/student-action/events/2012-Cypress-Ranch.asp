@@ -5,7 +5,7 @@
 <title>National Bullying Prevention Center - Student Action - Students Create An Original LipDub Video “Who Do U Think U R?”</title>
 <meta property="og:title" content="National Bullying Prevention Center - Student Action - Students Create An Original LipDub Video “Who Do U Think U R?”" />
 <meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2012-cypress-ranch.asp" />
-<meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content=" " />
     <style>
         .narrowContent #leftcontent {

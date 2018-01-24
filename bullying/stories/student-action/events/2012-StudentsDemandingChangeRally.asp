@@ -4,7 +4,7 @@
 <title>National Bullying Prevention Center - Student Action - Voice of Students Was Heard at the Minnesota State Capitol Feb. 11</title>
 <meta property="og:title" content="National Bullying Prevention Center - Student Action - Voice of Students Was Heard at the Minnesota State Capitol Feb. 11" />
 <meta property="og:url" content="http://www.pacer.org/bullying/stories/student-action/events/2012-StudentsDemandingChangeRally.asp" />
-<meta property="og:image" content="http://www.pacer.org/bullying/favicon.ico" />
+<meta property="og:image" content="http://www.pacer.org/bullying/nbpm/images/unityDay-fb.jpg" />
 <meta property="og:description" content="" />
     <style>
         .narrowContent #leftcontent {
