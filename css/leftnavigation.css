@@ -13,17 +13,17 @@ body {
 }
 #returnTab {
 	width:9em;
-	font-size:.9em; 
-	text-align:center; 
+	font-size:.9em;
+	text-align:center;
 	background-color:#F9F9F9;
-    border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	border-top:1px solid #00769d; 
-	border-left:1px solid #00769d; 
-	border-right:1px solid #00769d; 
-	position:absolute; 
-	top:-21px; 
-	right:-1px; 
+	border-top:1px solid #00769d;
+	border-left:1px solid #00769d;
+	border-right:1px solid #00769d;
+	position:absolute;
+	top:-21px;
+	right:-1px;
 	padding-bottom:3px;
 }
 #header #returnTab a {
@@ -69,12 +69,12 @@ help {
 .fltrt{
 	float:right;
 	margin-right:5px;
-	margin-left:10px;	
+	margin-left:10px;
 }
 .fltlt{
 	float:left;
 	margin-right:10px;
-	margin-left:5px;	
+	margin-left:5px;
 }
 
 #wrapper #main #pagecontent .backtoTop a {
@@ -240,12 +240,12 @@ div.grantad {
 	text-decoration: underline;
 }
 #pagecontent .greenBar {
-  background: #246c00 none repeat scroll 0 0;
-  color: #fff;
-  margin-left: -6px;
-  margin-right: -6px;
-  margin-top: 40px;
-  padding: 20px 5px;
+	background: #246c00 none repeat scroll 0 0;
+	color: #fff;
+	margin-left: -6px;
+	margin-right: -6px;
+	margin-top: 40px;
+	padding: 20px 5px;
 }
 /***********************************
 *****                          *****
@@ -371,7 +371,7 @@ ul#nav {
 	width: 8em;
 	color:#FFF;
 	text-decoration: none;
-	margin: 0;		
+	margin: 0;
 	padding:.5em .5em 0 .5em;
 	height: 3em;
 }
@@ -460,7 +460,7 @@ h4 {
 	background-color: #eee;
 	color: black;
 	padding: .5em .5em .5em 0;
-	margin: 0 0px 0 0;
+	margin: 0 250px 0 0;
 }
 #pagecontent {
 	background-color: #fff;
@@ -746,7 +746,7 @@ h3.pubcat {
 	font-size: 85%;
 }
 .piccaption img {
-padding: .5em 0 0 0;
+	padding: .5em 0 0 0;
 }
 #aboutPACER {
 	font-size: 85%;
@@ -925,7 +925,7 @@ td.footerlinks {
 	margin: 5px;
 }
 
-#footer1 a, #footer1 a:visited { 
+#footer1 a, #footer1 a:visited {
 	color: #fff;
 	text-decoration: none;
 }
@@ -997,7 +997,7 @@ img {
 ***********************************/
 
 #maincontent {
-	 margin: 0 250px 0 200px;
+	margin: 0 250px 0 200px;
 	padding: 0 .5em .5em .5em;
 	font-size: 80%;
 	background-color: #eee;
@@ -1040,7 +1040,7 @@ img {
 #pagecontent h2 {
 	font-size: 135%;
 	padding: .5em 0 .2em 0;
-	margin: 10px 0;
+	margin: 0;
 	color: #000;
 }
 #pagecontent h2 a, #pagecontent h2 a:visited {
@@ -1121,7 +1121,7 @@ img {
 	font-size: 75%;
 }
 #leftbar ul ul li a {
-	background-color: #006A8C;	
+	background-color: #006A8C;
 }
 #leftbar ul li a:hover {
 	background-color: #ccc;
@@ -1135,7 +1135,7 @@ img {
 /*
 ###################################################################################################
 --Floating SubNav Code --
-For IE7 you have to give the parent element a higher z-index than the pagecontent box you must give 
+For IE7 you have to give the parent element a higher z-index than the pagecontent box you must give
 the relative positioned parent the z-index value and not the absolute positioned object.
 ###################################################################################################
 */
@@ -1155,7 +1155,7 @@ the relative positioned parent the z-index value and not the absolute positioned
 #leftbar ul li.hasSubNav a{
 	background-image:url(/images/greaterthan-white.gif);
 	background-position:right center;
-	background-repeat:no-repeat;	
+	background-repeat:no-repeat;
 }
 #leftbar ul li.hasSubNav a.page{
 	background-image:url(/images/greaterthan-white-down.gif);
@@ -1164,10 +1164,10 @@ the relative positioned parent the z-index value and not the absolute positioned
 	background-image:none;
 }
 #leftbar ul li.hasSubNav li a{
-	background-image:none;	
+	background-image:none;
 }
 
-/* ####################################################### 
+/* #######################################################
 END Floating SubNav Code
 ##########################################################*/
 
@@ -1195,8 +1195,8 @@ END Floating SubNav Code
 ***********************************/
 
 .bullycontact {
-	margin: 0; 
-	font-size: 70%; 
+	margin: 0;
+	font-size: 70%;
 	background-color: #fff;
 	padding: .5em;
 	color: #000;
@@ -1531,13 +1531,13 @@ ul.nested {
 }
 
 #maincontent #pagecontent img {
-	/* padding: 0.5em; */
+	padding: 0.5em;
 }
 #pagecontent #pageextender, #pagecontent .pageextender {
 	height:1px;
-  overflow:hidden;
-  margin-top:-1px;  
-  clear:both;
+	overflow:hidden;
+	margin-top:-1px;
+	clear:both;
 }
 #pagecontent .screenReaderText {
 	position: absolute;
@@ -1545,9 +1545,9 @@ ul.nested {
 }
 #rightBar div.sidebarwithimage {
 	margin: 5px 0px;
-	padding:5px 0px; 
-	background:#FFF; 
-	font-size: 0.8em; 
+	padding:5px 0px;
+	background:#FFF;
+	font-size: 0.8em;
 	text-align: center;
 }
 #pagecontent .alertBox {
@@ -1585,17 +1585,17 @@ h2.enhanced, h3.enhanced{
 	left:-9999px;
 }
 #nav li.twoCol li a {
-  height: 2.5em;
+	height: 2.5em;
 }
 #nav li li{
-  background:#1E5303;}
+	background:#1E5303;}
 #nav li.twoCol li:nth-child(even) a {
-  	width: 200px;
+	width: 200px;
 	padding-left:25px;
 }
 #nav li.twoCol ul {
-  background:#fff;
-  width: 39em;
+	background:#fff;
+	width: 39em;
 }
 /***********************************
 *****                          *****
@@ -1607,9 +1607,9 @@ h2.enhanced, h3.enhanced{
 	font-family: 'Pacer-Icons';
 	src:url('/fonts/Pacer-Icons/Pacer-Icons.eot?-vnl49p');
 	src:url('/fonts/Pacer-Icons/Pacer-Icons.eot?#iefix-vnl49p') format('embedded-opentype'),
-		url('/fonts/Pacer-Icons/Pacer-Icons.woff?-vnl49p') format('woff'),
-		url('/fonts/Pacer-Icons/Pacer-Icons.ttf?-vnl49p') format('truetype'),
-		url('/fonts/Pacer-Icons/Pacer-Icons.svg?-vnl49p#Pacer-Icons') format('svg');
+	url('/fonts/Pacer-Icons/Pacer-Icons.woff?-vnl49p') format('woff'),
+	url('/fonts/Pacer-Icons/Pacer-Icons.ttf?-vnl49p') format('truetype'),
+	url('/fonts/Pacer-Icons/Pacer-Icons.svg?-vnl49p#Pacer-Icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1632,7 +1632,7 @@ h2.enhanced, h3.enhanced{
 	font-family: 'Pacer-Icons';
 }
 .external-link {
-	
+
 }
 a.external-link:after {
 	content: " \65 ";
@@ -1680,99 +1680,99 @@ a.external-link {
 	font-weight:normal;
 }
 #helpfulQuestion {
-    float: right;
-    font-weight: bold;
-    margin: 10px 0px 10px 10px;
-    padding: 2px 8px;
+	float: right;
+	font-weight: bold;
+	margin: 10px 0px 10px 10px;
+	padding: 2px 8px;
 	border:1px solid #FF9933;
 	border-radius:8px;
 }
 #helpfulQuestion p {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 #helpfulQuestion .fa {
-    cursor: pointer;
-    font-size: 18px;
-    margin: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 10px;
 }
 #helpfulQuestion .fa:hover {
-    color: #de8025;
+	color: #de8025;
 }
 #helpfulQuestion.extraSpace {
-    padding-bottom: 20px;
-    padding-top: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 #helpfulQuestion #likeButton {
 }
 #helpfulQuestion #dislikeButton {
 }
 #pagecontent .btn-cta:before {
-  background-color: #921C17;
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-  box-sizing: border-box;
-  content: ">";
-  display: inline-block;
-  font-size: 0.75em;
-  height: 45px;
-  line-height: 45px;
-  margin-left: 8px;
-  padding: 0 8px 0 10px;
-  position: absolute;
-  right: 0;
-  top: 0;
+	background-color: #921C17;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	box-sizing: border-box;
+	content: ">";
+	display: inline-block;
+	font-size: 0.75em;
+	height: 45px;
+	line-height: 45px;
+	margin-left: 8px;
+	padding: 0 8px 0 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 #pagecontent .btn:hover{
-  background:#FF5A2C;
-  /*background: linear-gradient(to bottom, #FF6E46 0%, #CB251F 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
-  background: linear-gradient(to bottom, #ff8766 0%, #e63831 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background:#FF5A2C;
+	/*background: linear-gradient(to bottom, #FF6E46 0%, #CB251F 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);*/
+	background: linear-gradient(to bottom, #ff8766 0%, #e63831 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 #pagecontent .btn-cta, #pagecontent .btn, #pagecontent a.btn:link, #pagecontent a.btn:visited {
-  color: #fff;
+	color: #fff;
 }
 #pagecontent a.btn:hover, #pagecontent a.btn:active {
-  color: #fff;
+	color: #fff;
 }
 #pagecontent .btn {
 
-  background:#FF5A2C;
-  background: linear-gradient(to bottom, #FF5A2C 0%, #B2211C 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background:#FF5A2C;
+	background: linear-gradient(to bottom, #FF5A2C 0%, #B2211C 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
 
-  border-radius: 3px;
-  box-shadow: 2px 2px 4px #666;  
-  border-width: 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-size: 0.85em;
-  font-weight: bold;
-  height: 45px;
-  letter-spacing: 0.05em;
-  line-height: 45px;
-  padding: 0 15px 0px 15px;
-  position: relative;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  white-space: nowrap;
-  margin:5px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 4px #666;
+	border-width: 0;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.85em;
+	font-weight: bold;
+	height: 45px;
+	letter-spacing: 0.05em;
+	line-height: 45px;
+	padding: 0 15px 0px 15px;
+	position: relative;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	white-space: nowrap;
+	margin:5px;
 
 }
 #pagecontent .btn.btn-cta {
-	  padding: 0 35px 0px 15px;
+	padding: 0 35px 0px 15px;
 }
 
 #pagecontent .btn-blue {
-	background:#0099cc; 
+	background:#0099cc;
 	background: linear-gradient(to bottom, #0099cc 0%, #004E68 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
 	color: #fff;
 }
 #pagecontent .btn-blue:hover{
-  background:#0099cc; 
-  background: linear-gradient(to bottom, #4EADCC 0%, #0099cc 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background:#0099cc;
+	background: linear-gradient(to bottom, #4EADCC 0%, #0099cc 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 #pagecontent .btn-cta.btn-blue:before {
-  background-color: #004E68;
+	background-color: #004E68;
 }
 
 #project-social img {
