@@ -1531,7 +1531,7 @@ ul.nested {
 }
 
 #maincontent #pagecontent img {
-	padding: 0.5em;
+	/* padding: 0.5em; */
 }
 #pagecontent #pageextender, #pagecontent .pageextender {
 	height:1px;
