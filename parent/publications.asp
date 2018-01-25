@@ -1,19 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!--#include virtual="/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
 
-<title> - Special Education - PACER Center</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
+<title>Special Education - PACER Center</title>
 <style type="text/css">
 #pagecontent .textimage {
 	min-height:110px;
@@ -27,26 +18,18 @@ table.handouts td{
 #pagecontent img {
 	clear:right;
 }
+@media (max-width: 600px) {
+  #pagecontent img {
+    max-width: 40%;
+    height: auto;
+  }
+}
 </style>
 
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
@@ -61,7 +44,8 @@ table.handouts td{
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/parent/leftNav.html" -->
+<!--#include virtual="/templates/leftNav.html" -->
+
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
@@ -85,16 +69,11 @@ table.handouts td{
 </script>
 
 <div id="maincontent">
-
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
 <p style="text-align:center; padding-bottom:30px;"><a href="/publications/">View Our Full  Catalog </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/forms/request.asp">Reprint Request Form</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<img src="/images/pdficon_small.gif" width="15" height="15" alt="" /><a href="/forms/request.asp">Publications Order Form</a></p>
-<div style="float:right">
-<img src="/childrensmentalhealth/images/circle_boy2.jpg" width="300" height="295" alt=""/>
-</div>
-
-
+<img class="fltrt" src="/cmh/images/circle_boy2.jpg" width="300" height="295" alt="">
 
 <div id="importContent" class="newsblock"><p style="text-align:center; margin:25px;">Loading Content ...</p></div>
 
@@ -109,7 +88,6 @@ $.get('/publications/specedrights.asp', function (data) {
 </script>
 <noscript><p style="text-align:center; color:red; font-size:1.1em;">This content requires javascript active to view.</h2></noscript>
 
-
 <!--END CONTENT-->
 <div id="pageextender" style="clear:both">&nbsp;</div>
 
@@ -117,12 +95,6 @@ $.get('/publications/specedrights.asp', function (data) {
 
 <!--END CONTENT-->
 
-</div>
-</div>
 
-<!--#include virtual="/footer.htm"-->
 
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

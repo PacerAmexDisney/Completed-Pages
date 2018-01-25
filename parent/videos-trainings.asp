@@ -1,3 +1,5 @@
+<!--#include virtual="/templates/header.asp"-->
+
 <%
 'Update form videopoll-id# to match the id in the Parent_VideoPoll table in the database.
 'Update the 4 id's and 4 matching <label for="v1group1yes"> attributes changeing the v# to match the id of the videopoll.
@@ -28,22 +30,9 @@ End Function
 
 %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Parent Information Videos/Trainings</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.7.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
+
 <!--Vote Count Script-->
 <script type="text/javascript">
 	function VideoVoteClick(fId, fVote) {
@@ -139,25 +128,15 @@ if (typeof jQuery == 'undefined')
 	border-right:1px solid #ccc;
 	color:#666;
 }
+iframe {
+  max-width: 100%;
+}
 </style>
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
+    
 <div id="topbar">
 	<div id="breadcrumb">
 
@@ -171,7 +150,8 @@ if (typeof jQuery == 'undefined')
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/parent/leftNav.html" -->
+<!--#include virtual="/templates/leftNav.html" -->
+
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
@@ -280,13 +260,7 @@ if (typeof jQuery == 'undefined')
 <!--END CONTENT-->
 
 <div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-</div>
-</div>
 
-<!--#include virtual="/footer.htm"-->
 
-</div>
 
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

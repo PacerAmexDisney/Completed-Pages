@@ -1,31 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!--#include virtual="/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="All students in Minnesota, including students with disabilities, must take statewide assessments in certain academic areas. If your child has an Individualized Education Program (IEP), it&rsquo;s important for you to understand the required assessments as well as testing options that may be appropriate for your child. These decisions are made by the IEP team which always includes the parents." />
-
 <title>Minnesota Statewide Assessment Testing - PACER Center</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
-
+<meta property="og:title" content="Minnesota Statewide Assessment Testing - PACER Center" />
+<meta property="og:url" content="http://www.pacer.org/parent/mn-statewide-assessment/" />
+<meta property="og:image" content="http://www.pacer.org/favicon.ico" />
+<meta property="og:description" content="All students in Minnesota, including students with disabilities, must take statewide assessments in certain academic areas. If your child has an Individualized Education Program (IEP), it&rsquo;s important for you to understand the required assessments as well as testing options that may be appropriate for your child. These decisions are made by the IEP team which always includes the parents." />
+<style>
+.feature-img {
+  float: right;
+  margin: 6px 8px 16px 8px;
+}
+@media (max-width: 600px) {
+  .feature-img {
+    float: none;
+  margin: 6px 8px 0px 8px;
+  }
+}
+</style>
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
- <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
@@ -40,7 +37,7 @@
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/parent/leftNav.html" -->
+<!--#include virtual="/templates/leftNav.html" -->
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
@@ -68,7 +65,7 @@
 <div id="pagecontent">
 
 <!--BEGIN CONTENT-->
-<img src="/parent/images/motherwithdaughterbehind.jpg" alt="" width="250" height="333" class="fltrt" />
+<img src="/parent/images/motherwithdaughterbehind.jpg" alt="" width="250" height="333" class="feature-img" />
 <h2>Minnesota Statewide Assessment Testing</h2>
 
 <p>All students in Minnesota, including students with disabilities, must take statewide assessments in certain academic areas. If your child has an Individualized Education Program (IEP), it&rsquo;s important for you to understand the required assessments as well as testing options that may be appropriate for your child. These decisions are made by the IEP team which always includes the parents.</p>
@@ -103,12 +100,5 @@
 
 <!--END CONTENT-->
 
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
+  

@@ -1,21 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!--#include virtual="/templates/header.asp"-->
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
 
 <title>Understanding the Special Education Process - PACER Center</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
 <link href="/js/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.7.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script src="/js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -78,26 +68,20 @@ if (typeof jQuery == 'undefined')
 	#iepChart a.info:hover {
 		color:#006A8C;
 	}
+@media (max-width: 960px) {
+	#iepChart {
+		max-width:100%;
+	}
+  .chartBox {
+		max-width:26%;
+  }
+}
 </style>
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
+<!--#include virtual="/templates/page-header-nav.asp"-->
+    
 <div id="topbar">
 <div id="breadcrumb">
 
@@ -111,7 +95,8 @@ if (typeof jQuery == 'undefined')
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/parent/leftNav.html" -->
+<!--#include virtual="/templates/leftNav.html" -->
+
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
@@ -579,12 +564,7 @@ This book helps parents effectively communicate with special education professio
 
 <div id="pageextender" style="clear:both">&nbsp;</div>
 </div>
-</div>
-</div>
 
-<!--#include virtual="/footer.htm"-->
 
-</div>
 
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->

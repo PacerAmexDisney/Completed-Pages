@@ -7,6 +7,35 @@
 <meta property="og:url" content="http://www.pacer.org/parent"/>
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="Today PACER offers more than 30 programs for parents, students, professionals and other parent organizations. PACER is staffed primarily by parents of children with disabilities dedicated to educating other parents and improving the lives of children with disabilities throughout Minnesota." />
+
+<style>
+#pagecontent td {
+  vertical-align: top;
+}
+@media (max-width: 600px) {
+  #pagecontent tr {
+    border-bottom: 1px dotted #aaa;
+    padding-bottom:20px;
+  }
+  #pagecontent td:first-child {
+    width:90%;
+    padding: 10px 20px 0 20px;
+  }
+  #pagecontent td {
+    display:block;
+    width:90%;
+    padding: 10px 20px 0 20px;
+  }
+  #pagecontent td img {
+    display:block;
+    clear: both;
+    margin-left:6px;
+  }
+  #pagecontent tr {
+    display:block;
+  }  
+}
+</style>
 </head>
 
 <body>
@@ -85,14 +114,24 @@
             </p>
 
             <h2>Featured:</h2>
-            <a href="/parent/videos-trainings.asp#PHS1"><img class="fltlt" style="margin-top:0px;" src="/parent/images/PHS-Part1.jpg" width="190" height="142" alt="parent-homework-sheet part 1" /></a>
+
+            <table>
+              <tr>
+                <td><a href="/parent/videos-trainings.asp#PHS1"><img style="margin-top:0px;" src="/parent/images/PHS-Part1.jpg" width="190" height="142" alt="parent-homework-sheet part 1" /></a></td>
+                <td>
             <h3><a href="/parent/videos-trainings.asp#PHS1">Video Series:  Parent Homework Sheet</a></h3>
             <p>PACER parent advocates have developed a tool called the Parent Homework Sheet. We developed it to help parents of children with disabilities understand how the needs of the student as stated in the special education evaluation report connect with the goals and support in the student&rsquo;s IEP (Individualized Education Program). Watching this series of short videos will help parents prepare to discuss their child&rsquo;s special education services with the IEP team.</p>
-            <div style="clear:left">
-                <img class="fltlt" style="margin-top:0px;" src="/parent/images/asl-spec-ed.jpg" width="190" height="143" alt=""/>
+                </td>
+              </tr>
+              <tr>
+                <td><img style="margin-top:0px;" src="/parent/images/asl-spec-ed.jpg" width="190" height="143" alt=""/></td>
+                <td>
                 <h3><a href="/parent/videos-trainings.asp#spec-ed-asl">Video: Special Education overview in ASL</a></h3>
                 <p>This video overview of special education In American Sign Language was created to help parents who use sign language and are parents of children with disabilities understand what special education is, how a child might get into special education, how to resolve disagreements, and what role parents play.</p>
-            </div>
+                </td>
+              </tr>
+            </table>
+
 
             <h2 style="clear:left">Resources</h2>
             <table>

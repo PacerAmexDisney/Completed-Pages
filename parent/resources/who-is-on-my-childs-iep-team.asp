@@ -1,25 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<!--#include virtual="/templates/header.asp"-->
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-<head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Who Is On My Child's IEP Team - PACER Center</title>
 <meta name="description" content="The Individuals with Disabilities Education Act (IDEA) calls for a team of individuals, including parents and school personnel, to work together to develop an Individual Educational Program (IEP) for a child who qualifies for special education services. Because IEP decisions are made by a team rather than by any one individual, it’s important and helpful to understand the role of each member. While each person brings a different set of experiences, concerns, and skills to the table, you can expect that they all share a common goal: enabling the child to succeed in school and in life." />
 
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavigation.css" media="screen, projection" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/parent/js/like.js"></script>
-
-
-
 <style>
 	#pagecontent h2.sectionHead {
 		padding:10px 10px;
@@ -35,56 +21,68 @@ if (typeof jQuery == 'undefined')
 	.resource {
 		background:#F9DDBA;
 	}
+	#rightBar {
+	  float:right;
+    width: 200px;
+    margin: 0;
+    padding: .5em 10px 10px 10px;
+    background-color: #eee;
+    background-color: #390;
+    margin-left:10px;
+	}
+	#rightBar a {
+	  color: inherit;
+	}
+	.pacerinfo {
+    color: #fff;
+    text-align: center;
+    font-size: 110%;
+    padding: .5em 0 0 0;
+    margin: 0;
+  }
+  .pacerinfo2 {
+    font-size: 90%;
+    background-color: #390;
+    color: white;
+    text-align: center;
+    padding: 1em .5em 0 .5em;
+    margin: 0;
+  }
+  .pacerinfo3 {
+    font-size: 90%;
+    background-color: #390;
+    color: white;
+    text-align: right;
+    padding: 0 .5em .5em 0;
+    margin: 0;
+  }
+  .stayinformed {
+    padding: .5em;
+    margin-bottom: 1em;
+    background-color: #fff;
+    font-size: 80%;
+    padding: 10px;
+    color: #000;
+    margin: .5em 0 0 0;
+  }
+  #pagecontent img {
+    max-width:50%;
+    height:auto;  
+  }
+@media (max-width: 500px) {
+  #pagecontent img {
+    max-width:40%;
+  }
+	#rightBar {
+    max-width:160px;
+	}
+}
 </style>
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="../../"><img src="../../images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
-<div id="rightBar">
-
-<p class="pacerinfo">
-<strong>PACER Center<br />
-952-838-9000</strong>
-</p>
-<p class="pacerinfo2">
-Champions for Children with Disabilities</p>
-<p class="pacerinfo3"><a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
-</p>
-
-<div class="stayinformed">
-<h3>Books that can be ordered from PACER</h3>
-<p>Materials are free to Minnesota parents</p>
-<ul>
-	<li><strong>&ldquo;Working Together&rdquo; </strong><br />
-	  <span class="date">pub-code: PHP-a19</span></li>
-	<li><strong>&ldquo;A Guide for Minnesota Parents to the IEP &ldquo;</strong><br />
-	  <span class="date">pub-code: PHP-a12</span></li>
-	<li><strong>&ldquo;Parents Can Be the Key&rdquo;</strong><br />
-	  <span class="date">pub-code: PHP-a1</span>	</li>
-</ul>
-<p>Call 952-838-9000 to order</p>
-<p> or </p>
-<p>Send us this<a href="../../publications/OrderForm.pdf" target="_blank"> Order Form</a></p>
-<p>You can find <a href="../../publications/specedrights.asp">more publications here.</a></p>
-</div>
-
-<!-- close right bar -->
-</div>
+<!--#include virtual="/templates/page-header-nav.asp"-->
+    
 
 <div id="topbar">
 <div id="breadcrumb">
@@ -99,7 +97,8 @@ Champions for Children with Disabilities</p>
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/parent/leftNav.html" -->
+<!--#include virtual="/templates/leftNav.html" -->
+
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
@@ -130,6 +129,39 @@ Champions for Children with Disabilities</p>
 
 <div id="pagecontent">
 <!--BEGIN CONTENT-->
+
+
+
+<div id="rightBar">
+  <p class="pacerinfo">
+  <strong>PACER Center<br />
+  952-838-9000</strong>
+  </p>
+  <p class="pacerinfo2">
+  Champions for Children with Disabilities</p>
+  <p class="pacerinfo3"><a href="http://www.pacer.org/about/howPACERhelps.asp">Learn more &gt;&gt;&gt;</a>
+  </p>
+
+  <div class="stayinformed">
+  <h3>Books that can be ordered from PACER</h3>
+  <p>Materials are free to Minnesota parents</p>
+  <ul>
+    <li><strong>&ldquo;Working Together&rdquo; </strong><br />
+      <span class="date">pub-code: PHP-a19</span></li>
+    <li><strong>&ldquo;A Guide for Minnesota Parents to the IEP &ldquo;</strong><br />
+      <span class="date">pub-code: PHP-a12</span></li>
+    <li><strong>&ldquo;Parents Can Be the Key&rdquo;</strong><br />
+      <span class="date">pub-code: PHP-a1</span>	</li>
+  </ul>
+  <p>Call 952-838-9000 to order</p>
+  <p> or </p>
+  <p>Send us this<a href="../../publications/OrderForm.pdf" target="_blank"> Order Form</a></p>
+  <p>You can find <a href="../../publications/specedrights.asp">more publications here.</a></p>
+  </div>
+<!-- close right bar -->
+</div>
+
+
 
 <h1 class="nounderline" align="center"><img src="../images/ParentsNeedToKnow.jpg" width="500" height="300" alt="Parents Need To Know: Who Is On My Child&rsquo;s IEP Team?" title="Parents Need To Know: Who Is On My Child&rsquo;s IEP Team" /></h1>
 
@@ -276,13 +308,4 @@ Champions for Children with Disabilities</p>
 </div>
 
 
-
-</div>
-</div>
-
-<!--#include virtual="/footer.htm"-->
-
-</div>
-
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
