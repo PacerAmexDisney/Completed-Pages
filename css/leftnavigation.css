@@ -460,7 +460,7 @@ h4 {
 	background-color: #eee;
 	color: black;
 	padding: .5em .5em .5em 0;
-	margin: 0 250px 0 0;
+	margin: 0 0px 0 0;
 }
 #pagecontent {
 	background-color: #fff;
@@ -997,7 +997,7 @@ img {
 ***********************************/
 
 #maincontent {
-	margin: 0 250px 0 200px;
+	 margin: 0 250px 0 200px;
 	padding: 0 .5em .5em .5em;
 	font-size: 80%;
 	background-color: #eee;
