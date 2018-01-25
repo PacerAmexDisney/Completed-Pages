@@ -71,9 +71,9 @@
 
                 </p>
             </div>
-            <a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp">Simon Technology Center</a> / Links
+            <a href="../index.asp">Home</a> / <a href="../pandr/index.asp">Programs &amp; Resources</a> / <a href="index.asp">Simon Technology Center</a> / Projects
 
-            <h1>Simon Technology Center</h1>
+            <h1>Simon Projects</h1>
 
         </div>
     </div>
