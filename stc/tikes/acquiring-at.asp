@@ -13,6 +13,7 @@
 <link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="../css/leftnavigation.css" media="screen, projection"/>
 <link rel="stylesheet" type="text/css" href="./css/stc.css" media="print"/>
+<script type="text/javascript" src="../css/menu.js"></script>
     <style type="text/css">
         #pagecontent .textimage {
             min-height: 110px;
@@ -22,27 +23,12 @@
             padding: 5px;
         }
 
-        #intro {
-            display: none;
-        }
-
-        .headerRow {
-            background: #246c00;
-            color: #fff;
-            padding: 12px 0px;
-        }
-
         #pagetoporange, #topbar, #pagecontent, #maincontent {
             font-size: inherit;
         }
 
         #projects div {
             min-height: 250px;
-        }
-
-        .leftcontent, .rightcontent {
-            width: 49%;
-            float: left;
         }
 
         @media screen and (max-width: 750px) {
@@ -58,32 +44,6 @@
 
             #maincontent {
                 width: auto;
-            }
-
-            #pagecontent .nounderline {
-                text-align: center;
-            }
-
-            .leftcontent, .rightcontent {
-                width: 100%;
-                margin: 10px;
-            }
-
-            #projects {
-                min-height: 1500px;
-            }
-
-            #tikes-blocks {
-                width: 100%;
-                height: auto;
-                padding: 0;
-                margin: 0 auto;
-            }
-
-            #pagecontent .alertBox {
-                width: 80%;
-                margin: 10px auto;
-                float: none;
             }
 
         }
