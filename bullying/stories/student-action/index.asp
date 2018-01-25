@@ -10,13 +10,16 @@
 
 <style type="text/css">
 @media screen and (max-width: 600px) {
+    table {
+        margin: 0 auto;
+    }
     table tr {
         border-bottom: 2px solid #ccc;
         display: block;
     }
     table td {
         display: block;
-        width: 320px;
+        width: 300px;
     }
     table td:last-child {
         border-bottom: 0;
@@ -36,7 +39,7 @@
         <div class="narrowContent">
             <h1 id="maincontent">Students Taking Action<em style="font-size:18px; color:#aaa; text-shadow:none;"> - &ldquo;The  End of Bullying Begins With Me&rdquo; </em></h1>
 
-            <table id="student-action" cellspacing="0" cellpadding="0">
+            <table id="student-action" class="thumbnailTable" cellspacing="0" cellpadding="0">
                 <tr>
                     <td>
                         <a href="/bullying/stories/student-action/events/2017-grace-rembinski.asp"><img src="/bullying/stories/student-action/events/images/2017-grace-rembinski.jpg" width="320" height="435" alt=""/></a>
@@ -243,7 +246,7 @@
                 <tr>
                     <td valign="top"><img src="/bullying/stories/student-action/events/images/Sarah.jpg" width="320" height="278" alt="sarah" /></td>
                     <td>
-                        <p align="center"><iframe width="560" height="315" src="//www.youtube.com/embed/Tl1McVRYCYU?rel=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></p>
+                        <p align="center"><iframe style="max-width: 90%;" width="560" height="315" src="//www.youtube.com/embed/Tl1McVRYCYU?rel=0&wmode=opaque" frameborder="0" allowfullscreen></iframe></p>
                         <h3>Friendship is a Treat</h3>
                         <p>When Sarah was born with multiple health issues, doctors weren’t optimistic. Through two foster homes, Sarah struggled with physical and emotional health issues. But when she was two years old, she found her forever family and her health began to improve. Now a teenager, Sarah has made amazing progress but still struggles to make friends. So along with her sisters, she came up with the idea to make 1000 new friends by sharing gumballs with strangers. Sarah and her family attend concerts, parades, and other events where she approaches individuals, shares her story, and asks if they want to become her &ldquo;gumball friend.&rdquo; In January 2014, she reached her goal of 1000 friends – and her uncle donated $1 for each friend to charity. Sarah is now on another mission, to make another 1000 friends and continue fundraising for causes she cares about. Sometimes friendship is as simple as sharing a treat, and Sarah has now touched over 1000 people with her story. Learn more about her story on <a href="https://www.facebook.com/ImDifferentYoureDifferentLetsBeFriends" target="_blank">her Facebook page</a>.</p></td>
                 </tr>
