@@ -1,39 +1,16 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!--#include virtual="/templates/header.asp"-->
+
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="Here are a few simple guidelines to secure needed information to plan effectively for the child. If you are a foster parent appointed to serve as surrogate parent for a child in your care, you are in a unique position to be aware of the child's likes and dislikes, abilities and needs, and learning style. However, if you do not know the child you have been appointed to represent, you may need to take some time learning about the child and his or her educational history." />
 
 <title>Learn the Surrogate Parent Role - Special Education - PACER Center</title>
-<link rel="shortcut icon" href="http://www.pacer.org/favicon.ico" type="image/x-icon" />
-<link rel="stylesheet" type="text/css" href="/css/leftnavnoright.css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript">
-if (typeof jQuery == 'undefined')
-{
-    document.write(unescape("%3Cscript src='/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
-}
-</script>
 <script type="text/javascript" src="/parent/js/like.js"></script>
 </head>
 
 <body>
-<div id="skiptocontent">
-<a href="#maincontent">Skip to main content</a>
-</div>
-
-<div id="wrapper">
-
-<div id="main">
-
-<div id="header">
-	<div>			<!--#include virtual="/googleSearchBox.htm"-->
-            <!-- Contains Contact Pacer | Donate | Google search bar | Social media -->
-<a href="/"><img src="/images/pacerLogo.gif" alt="PACER Center Logo: Champions for Children with Disabilities" class="logoImg" /></a>
-	</div>
-	<!--#include virtual="/dynamicheader.htm"-->
-</div>
-
+<!--#include virtual="/templates/page-header-nav.asp"-->
+    
 <div id="topbar">
 <div id="breadcrumb">
 
@@ -47,7 +24,8 @@ if (typeof jQuery == 'undefined')
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/parent/leftNav.html" -->
+<!--#include virtual="/templates/leftNav.html" -->
+
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
@@ -165,13 +143,8 @@ if (typeof jQuery == 'undefined')
 
 
 <div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-</div>
-</div>
 
-<!--#include virtual="/footer.htm"-->
 
-</div>
 
-</body>
-</html>
+<!--#include virtual="/templates/footer.asp"-->
+

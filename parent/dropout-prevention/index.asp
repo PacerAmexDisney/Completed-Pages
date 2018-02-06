@@ -6,6 +6,18 @@
 <meta property="og:url" content="http://www.pacer.org/parent/dropout-prevention" />
 <meta property="og:image" content="http://www.pacer.org/favicon.ico" />
 <meta property="og:description" content="Students who drop out of school often face a difficult future. For students with disabilities, the risks are intensified. Their dropout rate is about 40 percent--more than twice that of their peers without disabilities. However, families can play an important role in making sure their student with or without disabilities graduates. It is critical for parents to stay involved in their teen's life during middle school and high school." />
+<style>
+.feature-img {
+  float: right;
+  margin: 6px 8px 16px 8px;
+}
+@media (max-width: 600px) {
+  .feature-img {
+    float: none;
+  margin: 6px 8px 0px 8px;
+  }
+}
+</style>
 </head>
 
 <body>
@@ -48,7 +60,7 @@
         <div id="pagecontent">
 
         <!--BEGIN CONTENT-->
-        <img src="/parent/images/grad.jpg" alt="" width="129" height="193" class="fltrt" />
+        <img src="/parent/images/grad.jpg" alt="" width="129" height="193" class="feature-img" />
         <h2>Dropout Prevention</h2>
 
         <p>Students who drop out of school often face a difficult future. For students with disabilities, the risks are intensified. Their dropout rate is about 40 percent--more than twice that of their peers without disabilities. However, families can play an important role in making sure their student with or without disabilities graduates. It is critical for parents to stay involved in their teen's life during middle school and high school. </p>
