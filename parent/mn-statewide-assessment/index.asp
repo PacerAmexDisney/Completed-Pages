@@ -28,16 +28,16 @@
 <div id="breadcrumb">
 
 	<a href="/">Home</a> / Special Education / 
-	
-	<h1>Parent Special Education Information</h1>
-<p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
-	
+		
 </div>
+    	<h1>Parent Special Education Information</h1>
+<p class="mobileHidden" style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+
 </div>
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/templates/leftNav.html" -->
+<!--#include virtual="/parent/leftNav.html" -->
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
@@ -94,11 +94,6 @@
 
 </div>
 
-
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-
-<!--END CONTENT-->
 
 <!--#include virtual="/templates/footer.asp"-->
   

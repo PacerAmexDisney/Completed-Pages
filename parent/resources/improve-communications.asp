@@ -7,8 +7,18 @@ meetings that they find uncomfortable or uncertain. These
 tips are suggestions and techniques from PACER advocates 
 to help parents address some of those concerns, as well as 
 improve communication with school staff." />
-
 <title>Improve Communication - Special Education - PACER Center</title>
+
+<meta property="og:title" content="" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="PACER&rsquo;s parent advocates often hear from parents when 
+they encounter certain statements or situations at school 
+meetings that they find uncomfortable or uncertain. These 
+tips are suggestions and techniques from PACER advocates 
+to help parents address some of those concerns, as well as 
+improve communication with school staff." />
+
 <script type="text/javascript" src="/parent/js/like.js"></script>
 <style type="text/css">
 #statements tr:nth-child(odd) {
@@ -31,16 +41,15 @@ improve communication with school staff." />
 <div id="breadcrumb">
 
 	<a href="/">Home</a> / Special Education / 
-	
-	<h1>Parent Special Education Information</h1>
-<p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
-	
+		
 </div>
+    	<h1>Parent Special Education Information</h1>
+<p class="mobileHidden" style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+
 </div>
 
 <div id="leftbar">
-<h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/templates/leftNav.html" -->
+<!--#include virtual="/parent/leftNav.html" -->
 
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
@@ -140,10 +149,5 @@ improve communication with school staff. </p>
   </ul>
 
 <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
-
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-
-<!--END CONTENT-->
 
 <!--#include virtual="/templates/footer.asp"-->

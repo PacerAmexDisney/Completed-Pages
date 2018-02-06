@@ -1,10 +1,20 @@
 <!--#include virtual="/templates/header.asp"-->
 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="" />
+<title>Parent Information Videos/Trainings - PACER Center</title>
+
+<meta property="og:title" content="Parent Information Videos/Trainings" />
+<meta property="og:url" content="http://www.pacer.org/parent/videos-trainings.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
+
 <%
 'Update form videopoll-id# to match the id in the Parent_VideoPoll table in the database.
 'Update the 4 id's and 4 matching <label for="v1group1yes"> attributes changeing the v# to match the id of the videopoll.
 'Update all the Tabindex's to be ascending for all sections on the page (currently 7 spots).
-
+'
 Dim tabIndexCount
 tabIndexCount = 10
 Function AddTabIndex()
@@ -29,9 +39,6 @@ Response.Write("</form>")
 End Function
 
 %>
-
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>Parent Information Videos/Trainings</title>
 
 <!--Vote Count Script-->
 <script type="text/javascript">
@@ -93,6 +100,7 @@ End Function
 }
 .widequestion {
 	width: 50em;
+    max-width: 90%;
 }
 	
 .questioncount {

@@ -1,10 +1,14 @@
 <!--#include virtual="/templates/header.asp"-->
 
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="Congress recognized the importance of active parents' involvement in planning their children's educational programs, monitoring progress, and challenging inappropriate decisions. This child advocate role is usually filled by parents. However, the laws give an alternative if the parents of a child with a disability are unknown or completely unavailable or if the child is a ward of the state. Surrogate parents fill the parental role in these situations. Most often a surrogate is either a foster parent or a volunteer from the local community." />
-
 <title>Surrogate Parents - Special Education - PACER Center</title>
+
+<meta property="og:title" content="Surrogate Parents - Special Education" />
+<meta property="og:url" content="http://www.pacer.org/parent/surrogate/" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="Congress recognized the importance of active parents' involvement in planning their children's educational programs, monitoring progress, and challenging inappropriate decisions. This child advocate role is usually filled by parents. However, the laws give an alternative if the parents of a child with a disability are unknown or completely unavailable or if the child is a ward of the state. Surrogate parents fill the parental role in these situations. Most often a surrogate is either a foster parent or a volunteer from the local community." />
+
 
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
@@ -68,15 +72,16 @@
 
 	<a href="/">Home</a> / Special Education / 
 	
-	<h1>Parent Special Education Information</h1>
-<p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
-	
 </div>
+    	<h1>Parent Special Education Information</h1>
+<p class="mobileHidden" style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+	
+
 </div>
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/templates/leftNav.html" -->
+<!--#include virtual="/parent/leftNav.html" -->
 
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
@@ -183,11 +188,7 @@ Below you will find all of the &quot;Online Training&quot; information that is r
 
 </div><div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
 <div id="continueTo" style="text-align:right; padding:20px; font-size:1.2em; clear:right">
-	Continue to &mdash; <a href="/parent/surrogate/learn-the-surrogate-role.asp">Learn the Surrogate Parent Role</a> </div>
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-
-<!--END CONTENT-->
-
+	Continue to &mdash; <a href="/parent/surrogate/learn-the-surrogate-role.asp">Learn the Surrogate Parent Role</a> 
+    </div>
 
 <!--#include virtual="/templates/footer.asp"-->

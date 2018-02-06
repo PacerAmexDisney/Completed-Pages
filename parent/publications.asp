@@ -1,10 +1,14 @@
 <!--#include virtual="/templates/header.asp"-->
 
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
+<title>Special Education Rights Publications - PACER Center</title>
 
-<title>Special Education - PACER Center</title>
+<meta property="og:title" content="Special Education Rights Publications" />
+<meta property="og:url" content="www.pacer.org/parent/publications.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 <style type="text/css">
 #pagecontent .textimage {
 	min-height:110px;
@@ -25,26 +29,22 @@ table.handouts td{
   }
 }
 </style>
-
 </head>
-
 <body>
 <!--#include virtual="/templates/page-header-nav.asp"-->
 
 <div id="topbar">
 <div id="breadcrumb">
-
-	<a href="/">Home</a> / Special Education / 
-	
-	<h1>Parent Special Education Information</h1>
-<p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
-	
+	<a href="/">Home</a> / Special Education / 	
 </div>
+    	<h1>Parent Special Education Information</h1>
+<p class="mobileHidden" style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+
 </div>
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/templates/leftNav.html" -->
+<!--#include virtual="/parent/leftNav.html" -->
 
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
@@ -87,14 +87,6 @@ $.get('/publications/specedrights.asp', function (data) {
 //$('#importContent').load('/publications/ebd.asp #pagecontent');
 </script>
 <noscript><p style="text-align:center; color:red; font-size:1.1em;">This content requires javascript active to view.</h2></noscript>
-
-<!--END CONTENT-->
-<div id="pageextender" style="clear:both">&nbsp;</div>
-
-</div>
-
-<!--END CONTENT-->
-
 
 
 <!--#include virtual="/templates/footer.asp"-->

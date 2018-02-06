@@ -1,10 +1,14 @@
 <!--#include virtual="/templates/header.asp"-->
 
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
-
 <title>Surrogate Parent FAQ - PACER Center</title>
+
+<meta property="og:title" content="Surrogate Parent FAQ" />
+<meta property="og:url" content="http://www.pacer.org/parent/surrogate/faq.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 <script type="text/javascript" src="/js/pacer-expanding-box.js"></script>
 <link rel="stylesheet" type="text/css" href="/js/pacer-expanding-box.css"/>
 <script type="text/javascript" src="/parent/js/like.js"></script>
@@ -46,17 +50,16 @@
 <div id="topbar">
 <div id="breadcrumb">
 
-	<a href="/">Home</a> / Special Education / 
-	
-	<h1>Parent Special Education Information</h1>
-<p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
-	
+	<a href="/">Home</a> / Special Education / 	
 </div>
+    	<h1>Parent Special Education Information</h1>
+<p class="mobileHidden" style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+
 </div>
 
 <div id="leftbar">
 <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/templates/leftNav.html" -->
+<!--#include virtual="/parent/leftNav.html" -->
 
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
@@ -83,15 +86,7 @@
 <div id="maincontent">
 
 <div id="pagecontent">
-<div class="alertBox">
-<h4>Questions?</h4>
-<p>If you have questions in regards to surrogate parents you can always contact us directly at</p>
-<p><a href="mailto:surrogate@pacer.org">surrogate@pacer.org</a></p>
-<h4>Additional Resources</h4>
-<ul>
-<li class="pdficonlist"><a href="/parent/php/PHP-c222.pdf" target="_blank"><a href="/parent/php/PHP-c222.pdf" target="_blank">Abbreviated Print Version:  Frequently Asked Questions</a></li>
-</ul>
-</div>
+
 <div id="ExpandAll" style="padding:20px; margin:5px;" tabindex="0" role="button">Expand All Questions</div>
 
 <h2>Frequently Asked Questions</h2>
@@ -241,9 +236,13 @@
 
 <div id="helpfulQuestion" class="extraSpace"><span id="likeButton"class="fa fa-thumbs-o-up"></span> <span id="dislikeButton" class="fa fa-thumbs-o-down"></span> Did you find this helpful?</div>
 
-<div id="pageextender" style="clear:both">&nbsp;</div>
-
-
-
-
+<div class="resources" style="clear: right;">
+<h4>Questions?</h4>
+<p>If you have questions in regards to surrogate parents you can always contact us directly at</p>
+<p><a href="mailto:surrogate@pacer.org">surrogate@pacer.org</a></p>
+<h4>Additional Resources</h4>
+<ul>
+<li class="pdficonlist"><a href="/parent/php/PHP-c222.pdf" target="_blank"><a href="/parent/php/PHP-c222.pdf" target="_blank">Abbreviated Print Version:  Frequently Asked Questions</a></li>
+</ul>
+</div>
 <!--#include virtual="/templates/footer.asp"-->

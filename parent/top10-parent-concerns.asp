@@ -1,9 +1,13 @@
 <!--#include virtual="/templates/header.asp"-->
 
-
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="The statement that &ldquo;knowledge is power&rdquo; is especially true for parents who want to be effective advocates for their children with disabilities. To make sure parents have the information they need most, PACER conducted a survey, and nearly a thousand people responded. Given a list of choices, parents of children from each age group indicated their top three concerns. This PACER Action Sheet provides a selection of helpful information to address each topic from a variety of national and statewide organizations. As Albert Einstein said, &ldquo;Know where to find the information and how to use it — that's the secret of success.&rdquo;" />
 <title>Top 10 Topics: Parents Concerns and Matching Resources - PACER Center</title>
-<meta name="description" content="The statement that &ldquo;knowledge is power&rdquo; is especially true for parents who want to be effective advocates for their children with disabilities. To make sure parents have the information they need most, PACER conducted a survey, and nearly a thousand people responded. Given a list of choices, parents of children from each age group indicated their top three concerns. This PACER Action Sheet provides a selection of helpful information to address each topic from a variety of national and statewide organizations. As Albert Einstein said, &ldquo;Know where to find the information and how to use it � that's the secret of success.&rdquo; " />
+
+<meta property="og:title" content="Top 10 Topics: Parents Concerns and Matching Resources" />
+<meta property="og:url" content="http://www.pacer.org/parent/top10-parent-concerns.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="The statement that &ldquo;knowledge is power&rdquo; is especially true for parents who want to be effective advocates for their children with disabilities. To make sure parents have the information they need most, PACER conducted a survey, and nearly a thousand people responded. Given a list of choices, parents of children from each age group indicated their top three concerns. This PACER Action Sheet provides a selection of helpful information to address each topic from a variety of national and statewide organizations. As Albert Einstein said, &ldquo;Know where to find the information and how to use it — that's the secret of success.&rdquo;" />
 
 <script type="text/javascript" src="/css/menu.js"></script>
 <style type="text/css">
@@ -24,6 +28,28 @@
 	color:#666;
 }
 </style>
+<style>
+@media (max-width: 900px) {
+  #parent-resources td {
+    border-right:none !important;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    padding: 5px 0 0 0;
+  }
+  #parent-resources td p {
+    margin: 0;
+    padding: 0;
+  }
+  #parent-resources td:first-child {
+    border-right:none;
+    color: #666;
+    padding: 20px 0 0 0;
+  }
+
+}
+</style>
+
 </head>
 
 <body>
@@ -32,18 +58,15 @@
 <div id="topbar">
 	<div id="breadcrumb">
 
-	<a href="/">Home</a> / <a href="/parent/">Parent Special Education Information</a> / <a href="resources.asp"> Resources</a> /
-	
-	<h1>Parent Special Education Information</h1>
-<p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
-	
+	<a href="/">Home</a> / <a href="/parent/">Parent Special Education Information</a> /
 </div>
+    	<h1>Parent Special Education Information</h1>
+<p class="mobileHidden" style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+
 </div>
 
 <div id="leftbar">
-<h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/templates/leftNav.html" -->
-
+<!--#include virtual="/parent/leftNav.html" -->
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
 <script type="text/javascript">
@@ -74,31 +97,7 @@
 
 <div id="pagecontent">
 <!--BEGIN CONTENT-->
-<h1 class="nounderline">Top 10 Topics: Parents Concerns and Matching Resources</h1>
-
-
-
-<style>
-@media (max-width: 900px) {
-  #parent-resources td {
-    border-right:none !important;
-    display: block;
-    max-width: 100%;
-    width: 100%;
-    padding: 5px 0 0 0;
-  }
-  #parent-resources td p {
-    margin: 0;
-    padding: 0;
-  }
-  #parent-resources td:first-child {
-    border-right:none;
-    color: #666;
-    padding: 20px 0 0 0;
-  }
-
-}
-</style>
+<h1>Top 10 Topics: Parents Concerns and Matching Resources</h1>
 
 <p style="margin:30px 10px;">The statement that &ldquo;knowledge is power&rdquo; is especially true for parents who want to be effective advocates for their children with disabilities. To make sure parents have the information they need most, PACER conducted a survey, and nearly a thousand people responded. Given a list of choices, parents of children from each age group indicated their top three concerns. This PACER Action Sheet provides a selection of helpful information to address each topic from a variety of national and statewide organizations. As Albert Einstein said, &ldquo;Know where to find the information and how to use it &mdash; that's the secret of success.&rdquo; </p>
 <h2>Parents of children from birth to 5</h2>

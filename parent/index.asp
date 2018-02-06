@@ -4,7 +4,7 @@
 <meta name="keywords" content="parent programs, parenting advice, parenting classes, children with disabibilities, special needs children, teen bullying, parent programs, parents of disabled child, child development, blind deaf autistic children education programs, pacer center, pacer org" />
 <title>PACER Center - Parent to Parent Programs for Parent Advice or Classes</title>
 <meta property="og:title" content="PACER Center - Parent to Parent Programs for Parent Advice or Classes" />
-<meta property="og:url" content="http://www.pacer.org/parent"/>
+<meta property="og:url" content="http://www.pacer.org/parent/"/>
 <meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
 <meta property="og:description" content="Today PACER offers more than 30 programs for parents, students, professionals and other parent organizations. PACER is staffed primarily by parents of children with disabilities dedicated to educating other parents and improving the lives of children with disabilities throughout Minnesota." />
 
@@ -45,7 +45,7 @@
             <a href="/">Home</a> / 
         </div>
         <h1>Parent Special Education Information</h1>
-            <p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+            <p class="mobileHidden" style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
     </div>
 
     <script type="text/javascript">
@@ -69,7 +69,7 @@
     </script>
 
     <div id="leftbar">
-        <!--#include virtual="/templates/leftNav.html" -->
+        <!--#include virtual="/parent/leftNav.html" -->
     </div>
 
     <script type="text/javascript">
@@ -115,7 +115,7 @@
 
             <h2>Featured:</h2>
 
-            <table>
+            <table class="thumbnailTable">
               <tr>
                 <td><a href="/parent/videos-trainings.asp#PHS1"><img style="margin-top:0px;" src="/parent/images/PHS-Part1.jpg" width="190" height="142" alt="parent-homework-sheet part 1" /></a></td>
                 <td>
@@ -134,7 +134,7 @@
 
 
             <h2 style="clear:left">Resources</h2>
-            <table>
+            <table class="thumbnailTable">
                 <tr>
                     <td><img src="/parent/images/special-ed-thumb.jpg" alt="" height="150" width="150" /></td>
                     <td><h3><a href="/parent/resources/improve-communications.asp">Understanding the Special Education Process </a></h3>

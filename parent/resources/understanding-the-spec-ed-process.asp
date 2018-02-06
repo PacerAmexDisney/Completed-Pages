@@ -2,8 +2,13 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="" />
-
 <title>Understanding the Special Education Process - PACER Center</title>
+
+<meta property="og:title" content="Understanding the Special Education Process" />
+<meta property="og:url" content="http://www.pacer.org/parent/resources/understanding-the-spec-ed-process.asp" />
+<meta property="og:image" content="http://www.pacer.org/images/PACER_fb.jpg" />
+<meta property="og:description" content="" />
+
 <link href="/js/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
 
 <script src="/js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
@@ -84,18 +89,16 @@
     
 <div id="topbar">
 <div id="breadcrumb">
-
-	<a href="/">Home</a> / Special Education / 
-	
-	<h1>Parent Special Education Information</h1>
-<p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
-	
+	<a href="/">Home</a> / Special Education / 	
 </div>
+    	<h1>Parent Special Education Information</h1>
+<p class="mobileHidden" style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+
 </div>
 
 <div id="leftbar">
-<h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-<!--#include virtual="/templates/leftNav.html" -->
+
+<!--#include virtual="/parent/leftNav.html" -->
 
 </div>
 <!-- Set the nav links that you want to show orange and hide any sub trees that you do not want to show -->
@@ -561,10 +564,5 @@ This book helps parents effectively communicate with special education professio
         <li>Define possible solutions </li>
     </ul>
 </div>
-
-<div id="pageextender" style="clear:both">&nbsp;</div>
-</div>
-
-
 
 <!--#include virtual="/templates/footer.asp"-->

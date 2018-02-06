@@ -3,7 +3,7 @@
 <meta name="description" content="Students who drop out of school often face a difficult future. For students with disabilities, the risks are intensified. Their dropout rate is about 40 percent--more than twice that of their peers without disabilities. However, families can play an important role in making sure their student with or without disabilities graduates. It is critical for parents to stay involved in their teen's life during middle school and high school." />
 <title>Dropout Prevention - PACER Center</title>
 <meta property="og:title" content="Dropout Prevention - PACER Center" />
-<meta property="og:url" content="http://www.pacer.org/parent/dropout-prevention" />
+<meta property="og:url" content="http://www.pacer.org/parent/dropout-prevention/" />
 <meta property="og:image" content="http://www.pacer.org/favicon.ico" />
 <meta property="og:description" content="Students who drop out of school often face a difficult future. For students with disabilities, the risks are intensified. Their dropout rate is about 40 percent--more than twice that of their peers without disabilities. However, families can play an important role in making sure their student with or without disabilities graduates. It is critical for parents to stay involved in their teen's life during middle school and high school." />
 <style>
@@ -22,12 +22,16 @@
 
 <body>
     <!--#include virtual="/templates/page-header-nav.asp"-->
-    <div id="topbar">
-    	<a href="/">Home</a> / Special Education /
-	    <h1>Parent Special Education Information</h1>
-        <p style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
-    </div>
+<div id="topbar">
+<div id="breadcrumb">
 
+        
+    	<a href="/">Home</a> / Special Education /
+    </div>
+	    <h1>Parent Special Education Information</h1>
+        <p class="mobileHidden" style="font-size:90%;padding:0;margin:0;">PACER is the Minnesota Parent Training and Information Center, funded by the U.S. Department of Education's Office of Special Education Programs.</p>
+
+    </div>
     <script type="text/javascript">
        // ID of the current Left Nav item
     	var currId="dropout";
@@ -37,7 +41,7 @@
 
     <div id="leftbar">
         <h2 style="display: none;">Parents Helping Parents Navigation Menu</h2>
-        <!--#include virtual="/templates/leftNav.html" -->
+        <!--#include virtual="/parent/leftNav.html" -->
     </div>
 
     <script type="text/javascript">
