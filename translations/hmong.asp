@@ -31,9 +31,10 @@
 <div class="alertBox mobileCentered" style="text-align:center">
 <a href="hmongpubs.asp">See Hmong publications &gt;&gt;&gt;</a>
 </div>
-<h2 class="nounderline"><a name="maincontent">Peb pab tau li cas</a></h2>
 
 <p>
+	<img class="fltrt mobileHidden" style="clear: right;" src="images/Hmong-Translation.jpg" width="250" height="368" alt="" />
+
 Koom haum PACER Center yog ib lub koom haum thoob tswv yim rau cov tsev neeg uas muaj cov me nyuam muaj qhov tsis taus txawm yog hom tsis taus twg los xij.
 </p>
 

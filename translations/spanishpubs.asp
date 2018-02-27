@@ -48,7 +48,7 @@ conn.open ConStr
 
 		if Not rs.eof then
 %>
-<h3 class="pubcat" style="margin-bottom: .5em;">Books</h3>
+<h3 class="greenBar">Books</h3>
 <%
 		do until rs.eof
 		%>
@@ -123,7 +123,7 @@ conn.open ConStr
 		end if
 		%>
 
-<h3 class="pubcat" style="margin-bottom: .5em;">Booklets <span style="font-size: 75%;">Free to Download</span> <img src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></h3>
+<h3 class="greenBar">Booklets <span style="font-size: 75%;">Free to Download</span> <img src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /></h3>
 
 		<%
 		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'booklet' ORDER BY pub_name_translated"
@@ -214,7 +214,7 @@ conn.open ConStr
 
 		if rs.eof then
 		else%>
-		<h3 class="pubcat" style="margin-bottom: .5em;">Information Cards</h3>
+		<h3 class="greenBar">Information Cards</h3>
 
 		<%rs.movefirst
 		do until rs.eof
@@ -296,7 +296,7 @@ conn.open ConStr
 
 		if rs.eof then
 		else%>
-		<a name="ltac"></a><h3 class="pubcat" style="margin-bottom: .5em;">Let's Talk Activity Cards</h3>
+		<a name="ltac"></a><h3 class="greenBar">Let's Talk Activity Cards</h3>
 		<%rs.movefirst
 		do until rs.eof
 		%>
@@ -355,7 +355,7 @@ conn.open ConStr
 
 
 
-<h3 class="pubcat" style="margin-bottom: .5em;">Handouts <img src="/publications/images/square.png" width="16" height="12" alt="square" /><span style="font-size: 75%;">Free to Download
+<h3 class="greenBar">Handouts <img src="/publications/images/square.png" width="16" height="12" alt="square" /><span style="font-size: 75%;">Free to Download
 <img src="/images/pdficon_small.gif" width="15" height="15" alt="pdf icon" /> | $1.50 per request | 10+ copies, $.50 each</span></h3>
 
 		<%
@@ -410,7 +410,7 @@ conn.open ConStr
 		end if
 		%>
 
-<h3 class="pubcat" style="margin-bottom: .5em;">Brochures</h3>
+<h3 class="greenBar">Brochures</h3>
 
 
 		<%
@@ -477,7 +477,7 @@ conn.open ConStr
 		%>
 
 
-<h3 class="pubcat" style="margin-bottom: .5em;">Video</h3>
+<h3 class="greenBar">Video</h3>
 
 
 		<%
@@ -543,73 +543,8 @@ conn.open ConStr
 		end if
 		%>
 
-<h3 class="pubcat" style="margin-bottom: .5em;">Bookmarks</h3>
 
-
-		<%
-		sql = "SELECT * FROM Publications WHERE pub_spanish = 'yes' AND pub_type = 'bookmark' ORDER BY pub_name_translated"
-		set rs = conn.execute(sql)
-
-		if rs.eof then
-		else
-
-		rs.movefirst
-		do until rs.eof
-		%>
-
-
-		<%
-		if Trim(rs("pub_image")) <> "" then
-		%>
-
-			<p class="pubstext" id="<%=rs("pub_code")%>">
-				<img src="<%=rs("pub_image")%>" style="float: right; padding: .5em 0 .5em .5em;" alt="image of <%=rs("pub_name_translated")%> publication" />
-				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
-				<%=rs("pub_description_translated")%><br />
-
-		<%
-		else
-		%>
-
-			<p class="pubstext" id="<%=rs("pub_code")%>">
-				<strong><em><%=rs("pub_name_translated")%></em></strong><br />
-				<%=rs("pub_description_translated")%><br />
-
-		<%
-		end if
-		%>
-
-			<% if rs("pub_freetoparents")="yes" then %>
-			<img src="/publications/images/square.png" alt="square" />
-			<% end if %>
-
-			<% if rs("pub_freetokids")="yes" then %>
-			<img src="/publications/images/star.png" alt="star" />
-			<% end if %>
-
-			<%=rs("pub_price")%> |
-
-			<%
-			if rs("pub_pricenotes") <> "" then
-			Response.write rs("pub_pricenotes")
-			%>
-			&nbsp;| <%=rs("pub_code")%>
-
-			<%else%>
-			<%=rs("pub_code")%>
-			<%end if%>
-
-			</p>
-
-		<%
-		rs.movenext
-		loop
-		rs.close
-		set rs = nothing
-		end if
-		%>
-
-<h3 class="pubcat" style="margin-bottom: .5em;">Book and Audio</h3>
+<h3 class="greenBar">Book and Audio</h3>
 <p>
 This series of five booklets teach and encourage parents of young children (birth to age 5.) All are simply worded and beautifully illustrated with photos of children and families of various ethnic/cultural groups. 2000. (See Translations for Hmong and Spanish.)<br />
 $5 | 10+, $4.50 each | 100+, $4 each</p>
@@ -658,7 +593,7 @@ Written in the child's voice, engaging booklets with focus on development.
 		end if
 		%>
 
-<h3 class="pubcat" style="margin-bottom: .5em;">Audio</h3>
+<h3 class="greenBar">Audio</h3>
 
 
 		<%
@@ -727,7 +662,7 @@ Written in the child's voice, engaging booklets with focus on development.
 
 
 
-<h3 class="pubcat" style="margin-bottom: .5em;">Record Keeping Folders</h3>
+<h3 class="greenBar">Record Keeping Folders</h3>
 
 
 		<%
@@ -793,7 +728,7 @@ Written in the child's voice, engaging booklets with focus on development.
 		end if
 		%>
 
-<h3 class="pubcat" style="margin-bottom: .5em;">Workshop/Training Curricula</h3>
+<h3 class="greenBar">Workshop/Training Curricula</h3>
 
 
 		<%

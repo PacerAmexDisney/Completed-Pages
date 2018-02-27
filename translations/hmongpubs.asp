@@ -38,14 +38,10 @@ conn.open ConStr
 <div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-<div class="alertBox" style="width:30em; max-width: 90%; text-align:center; font-size:1.05em">
-<a href="/publications/hmongseasian.asp">Click Here to view these publications with english titles</a>
-</div>
-
-<h2 class="nounderline"><a name="maincontent">HMOOB</a></h2>
-
+<div class="alertBox mobileCentered" style="width:30em; max-width: 90%; text-align:center; font-size:1.05em">
+<a href="/publications/hmongseasian.asp">Click Here to view these publications with english titles</a></div>
 <p>
-Koom haum PACER Center muaj kev tham qhia hais txog niam txiv txoj kev txhawb nqa kev kawm ntawv tshwj xeeb ua ob hom lus, muaj kev pab tsev neeg mus muab cov kev pab li lawv xav tau thiab muaj cov ntaub ntawv txhais ua ntau hom lus hais txog tej xwm txheej uas cov tsev neeg ntau caj ces sam sim ntsib. Cov ntaub ntawv hais mus no yog cov uas tau muab txhais ua lus Hmoob lawm.
+	Koom haum PACER Center muaj kev tham qhia hais txog niam txiv txoj kev txhawb nqa kev kawm ntawv tshwj xeeb ua ob hom lus, muaj kev pab tsev neeg mus muab cov kev pab li lawv xav tau thiab muaj cov ntaub ntawv txhais ua ntau hom lus hais txog tej xwm txheej uas cov tsev neeg ntau caj ces sam sim ntsib. Cov ntaub ntawv hais mus no yog cov uas tau muab txhais ua lus Hmoob lawm.
 </p>
 
 <!--<div id="translatedlist">-->

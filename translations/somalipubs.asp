@@ -38,7 +38,7 @@ conn.open ConStr
 <div id="pagecontent" class="narrowContent">
 
 <!--BEGIN CONTENT-->
-<div class="alertBox" style="width:30em; max-width: 90%; text-align:center; font-size:1.05em">
+<div class="alertBox mobileCentered" style="width:30em; max-width: 90%; text-align:center; font-size:1.05em">
 <a href="/publications/somali.asp">Click Here to view these publications with english titles</a>
 </div>
 

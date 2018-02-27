@@ -29,12 +29,9 @@
 
 <!--BEGIN CONTENT-->
 <div class="alertBox mobileCentered" style="text-align:center;">
-<a href="somalipubs.asp">See Somali publications &gt;&gt;&gt;</a>
-</div>
-<h2 class="nounderline"><a name="maincontent">Habka Waalidka aan U caawino</a></h2>
-
+<a href="somalipubs.asp">See Somali publications &gt;&gt;&gt;</a></div>
 <p>
-PACER Center waa urur warbixinno iyo caawimaad u fidiya waalidka leh caruurta laxaadka la&#8217;a.
+	PACER Center waa urur warbixinno iyo caawimaad u fidiya waalidka leh caruurta laxaadka la&#8217;a.
 </p>
 
 <h3>Habka PACER u caawisa qooyska:</h3>
